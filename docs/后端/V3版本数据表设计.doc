@@ -1,0 +1,1860 @@
+Date: Wed, 25 Feb 2026 08:30:52 +0000 (UTC)
+Message-ID: <593970352.175.1772008252334@98df27f8e5b5>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_174_2136080738.1772008252333"
+
+------=_Part_174_2136080738.1772008252333
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=
+=A1</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1</=
+h1>
+    <div class=3D"Section1">
+        <h2 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=
+=E8=AE=A1-=E2=9A=A0=EF=B8=8F=E9=87=8D=E8=A6=81=E8=AF=B4=E6=98=8E">=E2=9A=A0=
+=EF=B8=8F =E9=87=8D=E8=A6=81=E8=AF=B4=E6=98=8E</h2>
+<p>=E6=9C=AC=E6=96=87=E6=A1=A3=E5=9F=BA=E4=BA=8E=E5=AE=9E=E9=99=85 Sui Chai=
+n =E8=A1=A8=E7=BB=93=E6=9E=84=E8=AE=BE=E8=AE=A1 BNB Chain =E5=AF=B9=E5=BA=
+=94=E8=A1=A8=E3=80=82=E4=BB=A5=E4=B8=8B=E6=98=AF=E5=85=B3=E9=94=AE=E6=B3=A8=
+=E6=84=8F=E4=BA=8B=E9=A1=B9=EF=BC=9A</p>
+<ol start=3D"1">
+<li>
+<p><strong>=E8=A1=A8=E5=90=8D=E6=A0=BC=E5=BC=8F</strong>:</p>
+<ul>
+<li>
+<p>=E7=94=A8=E6=88=B7=E8=A1=A8=E4=BD=BF=E7=94=A8=E4=B8=8B=E5=88=92=E7=BA=BF=
+=EF=BC=9A<code>bnb_user_trades_{shard}</code></p></li>
+<li>
+<p>=E8=AE=A2=E5=8D=95=E5=92=8C=E4=BA=8B=E4=BB=B6=E8=A1=A8=E4=BD=BF=E7=94=A8=
+=E8=BF=9E=E5=AD=97=E7=AC=A6=EF=BC=9A<code>bnb_perp_order-{shard}</code>=E3=
+=80=81<code>bnb_transaction_event-{YYYY-MM}</code></p></li>
+</ul></li>
+<li>
+<p><strong>=E9=9C=80=E8=A6=81=E8=B7=A8=E9=93=BE=E5=85=BC=E5=AE=B9=E7=9A=84=
+=E8=A1=A8</strong>=EF=BC=88=E5=85=B114=E4=B8=AA=EF=BC=89:</p>
+<ul>
+<li>
+<p>=E7=94=A8=E6=88=B7=E7=9B=B8=E5=85=B3: <code>user_trades</code>, <code>us=
+er_positions</code>, <code>user_trades_timezone</code></p></li>
+<li>
+<p>=E8=AE=A2=E5=8D=95=E7=9B=B8=E5=85=B3: <code>perp_order</code>, <code>per=
+p_position</code>, <code>swap_order</code>, <code>position_event</code></p>=
+</li>
+<li>
+<p>=E5=85=A8=E5=B1=80=E4=BA=8B=E4=BB=B6: <code>transaction_event</code>, <c=
+ode>contract_stats_event</code></p></li>
+<li>
+<p>Custody: <code>custodies</code>, <code>custodies_hourly</code>=EF=BC=88B=
+NB =E7=94=A8 custodies =E6=9B=BF=E4=BB=A3 vault_stats=EF=BC=89</p></li>
+<li>
+<p>=E9=85=8D=E7=BD=AE: <code>oracle_token_configs</code>, <code>protocol_st=
+ore_whitelist</code>, <code>hzlp_coin_info</code></p></li>
+</ul></li>
+<li>
+<p><strong>=E5=85=A8=E5=B1=80=E5=85=B1=E7=94=A8=E8=A1=A8=EF=BC=88=E4=B8=8D=
+=E9=9C=80=E8=A6=81 BNB =E7=89=88=E6=9C=AC=EF=BC=89</strong>:</p>
+<ul>
+<li>
+<p><code>vault_stats</code> - Vault=E7=BB=9F=E8=AE=A1=EF=BC=88Sui =E4=B8=93=
+=E7=94=A8=EF=BC=8CBNB =E4=BD=BF=E7=94=A8 <code>bnb_custodies</code> =E4=BB=
+=A3=E6=9B=BF=EF=BC=89</p></li>
+<li>
+<p><code>history_metric</code> - =E5=8E=86=E5=8F=B2=E6=8C=87=E6=A0=87=EF=BC=
+=88=E9=80=9A=E8=BF=87 <code>metric_type</code> key =E5=8C=BA=E5=88=86=E4=B8=
+=8D=E5=90=8C=E9=93=BE=EF=BC=89</p></li>
+<li>
+<p><code>config_setting</code> - =E9=80=9A=E7=94=A8=E9=85=8D=E7=BD=AE</p></=
+li>
+<li>
+<p><code>news_feeds</code> - =E6=96=B0=E9=97=BB=E8=AE=A2=E9=98=85</p></li>
+<li>
+<p><code>dashboard_stats</code> - =E5=B7=B2=E5=BA=9F=E5=BC=83</p></li>
+</ul></li>
+<li>
+<p><strong>=E8=A1=A8=E7=BB=93=E6=9E=84=E8=AF=A6=E6=83=85</strong>: =E4=B8=
+=8B=E6=96=87=E4=B8=AD=E8=A1=A84-14=E7=9A=84=E8=AF=A6=E7=BB=86=E5=AD=97=E6=
+=AE=B5=E5=AE=9A=E4=B9=89=E9=9C=80=E8=A6=81=E6=A0=B9=E6=8D=AE=E5=AE=9E=E9=99=
+=85 Sui =E8=A1=A8=E7=BB=93=E6=9E=84=E8=BF=9B=E4=B8=80=E6=AD=A5=E5=AE=8C=E5=
+=96=84</p></li>
+<li>
+<p><strong>=E9=87=8D=E8=A6=81=E8=AF=B4=E6=98=8E</strong>:</p>
+<ul>
+<li>
+<p>BNB =E4=B8=8D=E5=88=9B=E5=BB=BA <code>bnb_vault_stats</code> =E8=A1=A8=
+=EF=BC=8C=E4=BD=BF=E7=94=A8 <code>bnb_custodies</code> =E5=AD=98=E5=82=A8=
+=E6=B1=A0=E5=AD=90=E7=BB=9F=E8=AE=A1=E6=95=B0=E6=8D=AE</p></li>
+<li>
+<p><code>history_metric</code> =E4=B8=BA=E5=85=A8=E5=B1=80=E8=A1=A8=EF=BC=
+=8C=E9=80=9A=E8=BF=87 <code>metric_type</code> =E5=AD=97=E6=AE=B5=E5=8C=BA=
+=E5=88=86=E9=93=BE=EF=BC=88=E5=A6=82 <code>bnb_vault_stats</code>=EF=BC=89<=
+/p></li>
+<li>
+<p><strong>=E6=97=B6=E9=97=B4=E5=AD=97=E6=AE=B5=E7=BB=9F=E4=B8=80=E4=BD=BF=
+=E7=94=A8</strong>: <code>create_at BIGINT</code>=EF=BC=88autoCreateTime:mi=
+lli=EF=BC=89=E5=92=8C <code>update_at BIGINT</code>=EF=BC=88autoUpdateTime:=
+milli=EF=BC=89</p></li>
+<li>
+<p><strong>=E5=B8=81=E7=A7=8D=E5=AD=97=E6=AE=B5=E8=AE=BE=E8=AE=A1</strong>:=
+ =E4=B8=8E Sui =E4=BF=9D=E6=8C=81=E7=9B=B8=E5=90=8C=E5=AD=97=E6=AE=B5=E5=90=
+=8D=EF=BC=88=E5=A6=82 <code>index_coin</code>=EF=BC=89=EF=BC=8C=E4=BD=86=E5=
+=AD=98=E5=82=A8 token =E5=90=88=E7=BA=A6=E5=9C=B0=E5=9D=80=E8=80=8C=E9=9D=
+=9E=E7=AC=A6=E5=8F=B7</p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E6=A6=82=E8=BF=B0">=E6=A6=82=E8=BF=B0</h2>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-BNBChainvsSuiChain=E4=B8=BB=E8=A6=81=E5=8C=BA=E5=88=AB">BNB Chain vs Sui C=
+hain =E4=B8=BB=E8=A6=81=E5=8C=BA=E5=88=AB</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"e0=
+525ccb-eea0-414a-83d5-ee075efcb39e" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E7=89=B9=E6=80=A7</p></th>
+<th class=3D"confluenceTh">
+<p>Sui Chain</p></th>
+<th class=3D"confluenceTh">
+<p>BNB Chain (BSC)</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=9C=B0=E5=9D=80=E6=A0=BC=E5=BC=8F</p></td>
+<td class=3D"confluenceTd">
+<p>66=E5=AD=97=E7=AC=A6 (0x + 64 hex)</p></td>
+<td class=3D"confluenceTd">
+<p>42=E5=AD=97=E7=AC=A6 (0x + 40 hex)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E4=BA=A4=E6=98=93=E5=93=88=E5=B8=8C</p></td>
+<td class=3D"confluenceTd">
+<p>44=E5=AD=97=E7=AC=A6 (Base58)</p></td>
+<td class=3D"confluenceTd">
+<p>66=E5=AD=97=E7=AC=A6 (0x + 64 hex)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=8C=BA=E5=9D=97=E6=A0=87=E8=AF=86</p></td>
+<td class=3D"confluenceTd">
+<p>Checkpoint</p></td>
+<td class=3D"confluenceTd">
+<p>Block Number</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E4=BA=8B=E4=BB=B6=E7=B4=A2=E5=BC=95</p></td>
+<td class=3D"confluenceTd">
+<p>Event Index</p></td>
+<td class=3D"confluenceTd">
+<p>Log Index</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=90=88=E7=BA=A6=E6=A0=87=E8=AF=86</p></td>
+<td class=3D"confluenceTd">
+<p>Package ID</p></td>
+<td class=3D"confluenceTd">
+<p>Contract Address</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Gas Token</p></td>
+<td class=3D"confluenceTd">
+<p>SUI</p></td>
+<td class=3D"confluenceTd">
+<p>BNB</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E6=97=B6=E9=97=B4=E5=AD=97=E6=AE=B5</p></td>
+<td class=3D"confluenceTd">
+<p><code>created_at/updated_at TIMESTAMP</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>create_at/update_at BIGINT</code>=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=
+=89</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E6=97=B6=E9=97=B4=E7=AE=A1=E7=90=86</p></td>
+<td class=3D"confluenceTd">
+<p>PostgreSQL =E9=BB=98=E8=AE=A4=E5=80=BC</p></td>
+<td class=3D"confluenceTd">
+<p>GORM autoCreateTime/autoUpdateTime</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=B8=81=E7=A7=8D=E5=AD=97=E6=AE=B5</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=AD=98=E5=82=A8=E7=AC=A6=E5=8F=B7=EF=BC=88=E5=A6=82 "BTC", "ETH"=EF=
+=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=AD=98=E5=82=A8 token =E5=9C=B0=E5=9D=80=EF=BC=88=E5=A6=82 "0x..."=EF=
+=BC=89</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=AD=97=E6=AE=B5=E5=91=BD=E5=90=8D</p></td>
+<td class=3D"confluenceTd">
+<p><code>index_coin</code>, <code>collateral_coin</code> =E7=AD=89</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=9B=B8=E5=90=8C=EF=BC=88=E5=AD=97=E6=AE=B5=E5=90=8D=E4=B8=80=E8=87=B4=
+=EF=BC=8C=E5=86=85=E5=AE=B9=E4=B8=8D=E5=90=8C=EF=BC=89</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E5=88=86=E5=8C=BA=E7=AD=96=E7=95=A5">=E5=88=86=E5=8C=BA=E7=AD=96=E7=95=A5=
+</h3>
+<ul>
+<li>
+<p><strong>=E7=94=A8=E6=88=B7=E7=9B=B8=E5=85=B3=E8=A1=A8</strong>: =E6=8C=
+=89=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80 hash =E5=88=86128=E4=B8=AA=E5=88=86=
+=E5=8C=BA=EF=BC=88=E4=B8=8ESui=E9=93=BE=E4=BF=9D=E6=8C=81=E4=B8=80=E8=87=B4=
+=EF=BC=89</p></li>
+<li>
+<p><strong>=E5=85=A8=E5=B1=80=E4=BA=8B=E4=BB=B6=E8=A1=A8</strong>: =E6=8C=
+=89=E5=8C=BA=E5=9D=97=E5=8F=B7=E8=8C=83=E5=9B=B4=E6=88=96=E6=97=B6=E9=97=B4=
+=E6=9C=88=E4=BB=BD=E5=88=86=E5=8C=BA</p></li>
+<li>
+<p><strong>=E5=88=86=E5=8C=BA=E5=91=BD=E5=90=8D</strong>: <code>bnb_table_n=
+ame_{shard}</code> =E6=88=96 <code>bnb_table_name_{YYYY-MM}</code></p></li>
+</ul>
+<hr>
+<h2 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E6=95=B0=E6=8D=AE=E8=A1=A8=E5=88=97=E8=A1=A8">=E6=95=B0=E6=8D=AE=E8=A1=A8=
+=E5=88=97=E8=A1=A8</h2>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E7=9B=B8=E5=85=B3=E8=A1=A8">=E7=94=A8=
+=E6=88=B7=E4=BA=A4=E6=98=93=E7=9B=B8=E5=85=B3=E8=A1=A8</h3>
+<ol start=3D"1">
+<li>
+<p><code>bnb_user_trades_{0-127}</code> - =E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=
+=93=E8=A1=8C=E4=B8=BA=E8=AE=B0=E5=BD=95</p></li>
+<li>
+<p><code>bnb_user_positions_{0-127}</code> - =E7=94=A8=E6=88=B7=E6=8C=81=E4=
+=BB=93=E8=AE=B0=E5=BD=95</p></li>
+<li>
+<p><code>bnb_user_trades_timezone</code> - =E7=94=A8=E6=88=B7=E4=BA=A4=E6=
+=98=93=E6=97=B6=E9=97=B4=E7=B4=A2=E5=BC=95</p></li>
+</ol>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E8=AE=A2=E5=8D=95=E7=9B=B8=E5=85=B3=E8=A1=A8=EF=BC=88=E4=BD=BF=E7=94=A8=
+=E8=BF=9E=E5=AD=97=E7=AC=A6=E5=88=86=E9=9A=94=EF=BC=89">=E8=AE=A2=E5=8D=95=
+=E7=9B=B8=E5=85=B3=E8=A1=A8=EF=BC=88=E4=BD=BF=E7=94=A8=E8=BF=9E=E5=AD=97=E7=
+=AC=A6=E5=88=86=E9=9A=94=EF=BC=89</h3>
+<ol start=3D"4">
+<li>
+<p><code>bnb_perp_order-{0-127}</code> - =E6=B0=B8=E7=BB=AD=E5=90=88=E7=BA=
+=A6=E8=AE=A2=E5=8D=95</p></li>
+<li>
+<p><code>bnb_perp_position-{0-127}</code> - =E6=B0=B8=E7=BB=AD=E5=90=88=E7=
+=BA=A6=E4=BB=93=E4=BD=8D</p></li>
+<li>
+<p><code>bnb_swap_order-{0-127}</code> - Swap=E8=AE=A2=E5=8D=95</p></li>
+<li>
+<p><code>bnb_position_event-{0-127}</code> - =E4=BB=93=E4=BD=8D=E4=BA=8B=E4=
+=BB=B6=E8=AE=B0=E5=BD=95</p></li>
+</ol>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E5=85=A8=E5=B1=80=E4=BA=8B=E4=BB=B6=E8=A1=A8=EF=BC=88=E4=BD=BF=E7=94=A8=
+=E8=BF=9E=E5=AD=97=E7=AC=A6=E5=88=86=E9=9A=94=EF=BC=89">=E5=85=A8=E5=B1=80=
+=E4=BA=8B=E4=BB=B6=E8=A1=A8=EF=BC=88=E4=BD=BF=E7=94=A8=E8=BF=9E=E5=AD=97=E7=
+=AC=A6=E5=88=86=E9=9A=94=EF=BC=89</h3>
+<ol start=3D"8">
+<li>
+<p><code>bnb_transaction_event-{YYYY-MM}</code> - =E5=85=A8=E5=B1=80=E4=BA=
+=A4=E6=98=93=E4=BA=8B=E4=BB=B6</p></li>
+<li>
+<p><code>bnb_contract_stats_event-{YYYY-MM}</code> - =E5=90=88=E7=BA=A6=E7=
+=BB=9F=E8=AE=A1=E4=BA=8B=E4=BB=B6</p></li>
+</ol>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-Custody=E8=A1=A8=EF=BC=88BNB=E7=94=A8=E6=AD=A4=E6=9B=BF=E4=BB=A3vault_stat=
+s=EF=BC=89">Custody=E8=A1=A8=EF=BC=88BNB =E7=94=A8=E6=AD=A4=E6=9B=BF=E4=BB=
+=A3 vault_stats=EF=BC=89</h3>
+<ol start=3D"10">
+<li>
+<p><code>bnb_custodies</code> - =E6=89=98=E7=AE=A1=E9=85=8D=E7=BD=AE=EF=BC=
+=88=E5=8C=85=E5=90=AB=E6=B1=A0=E5=AD=90=E7=BB=9F=E8=AE=A1=E6=95=B0=E6=8D=AE=
+=EF=BC=89</p></li>
+<li>
+<p><code>bnb_custodies_hourly</code> - =E6=89=98=E7=AE=A1=E5=B0=8F=E6=97=B6=
+=E6=95=B0=E6=8D=AE</p></li>
+</ol>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E9=85=8D=E7=BD=AE=E5=92=8C=E4=BB=A3=E5=B8=81=E8=A1=A8">=E9=85=8D=E7=BD=AE=
+=E5=92=8C=E4=BB=A3=E5=B8=81=E8=A1=A8</h3>
+<ol start=3D"12">
+<li>
+<p><code>bnb_oracle_token_configs</code> - Oracle=E4=BB=A3=E5=B8=81=E9=85=
+=8D=E7=BD=AE</p></li>
+<li>
+<p><code>bnb_protocol_store_whitelist</code> - =E5=8D=8F=E8=AE=AE=E7=99=BD=
+=E5=90=8D=E5=8D=95</p></li>
+<li>
+<p><code>bnb_hzlp_coin_info</code> - HZLP=E4=BB=A3=E5=B8=81=E4=BF=A1=E6=81=
+=AF</p></li>
+</ol>
+<hr>
+<h2 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E5=85=A8=E5=B1=80=E5=85=B1=E7=94=A8=E8=A1=A8=E8=AF=B4=E6=98=8E">=E5=85=A8=
+=E5=B1=80=E5=85=B1=E7=94=A8=E8=A1=A8=E8=AF=B4=E6=98=8E</h2>
+<p>=E4=BB=A5=E4=B8=8B=E8=A1=A8=E4=B8=8D=E9=9C=80=E8=A6=81=E5=88=9B=E5=BB=BA=
+ BNB =E7=89=88=E6=9C=AC=EF=BC=8C=E5=85=A8=E5=B1=80=E5=85=B1=E7=94=A8=EF=BC=
+=9A</p>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E7=BB=9F=E8=AE=A1=E8=A1=A8">=E7=BB=9F=E8=AE=A1=E8=A1=A8</h3>
+<ul>
+<li>
+<p><code>vault_stats</code> - Vault=E7=BB=9F=E8=AE=A1=EF=BC=88Sui =E4=B8=93=
+=E7=94=A8=EF=BC=8CBNB =E4=BD=BF=E7=94=A8 <code>bnb_custodies</code> =E4=BB=
+=A3=E6=9B=BF=EF=BC=89</p></li>
+<li>
+<p><code>history_metric</code> - =E5=8E=86=E5=8F=B2=E6=8C=87=E6=A0=87=EF=BC=
+=88=E9=80=9A=E8=BF=87 <code>metric_type</code> =E5=AD=97=E6=AE=B5=E7=9A=84 =
+key =E5=8C=BA=E5=88=86=E4=B8=8D=E5=90=8C=E9=93=BE=E6=95=B0=E6=8D=AE=EF=BC=
+=89</p>
+<ul>
+<li>
+<p>Sui =E7=A4=BA=E4=BE=8B key: <code>sui_contract_activity</code>, <code>su=
+i_vault_stats</code></p></li>
+<li>
+<p>BNB =E7=A4=BA=E4=BE=8B key: <code>bnb_contract_activity</code>, <code>bn=
+b_vault_stats</code></p></li>
+</ul></li>
+</ul>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E5=85=B6=E4=BB=96=E5=85=A8=E5=B1=80=E8=A1=A8">=E5=85=B6=E4=BB=96=E5=85=A8=
+=E5=B1=80=E8=A1=A8</h3>
+<ul>
+<li>
+<p><code>config_setting</code> - =E9=80=9A=E7=94=A8=E9=85=8D=E7=BD=AE=E8=AE=
+=BE=E7=BD=AE=EF=BC=88=E5=8D=95=E9=93=BE=E4=BD=BF=E7=94=A8=EF=BC=89</p></li>
+<li>
+<p><code>news_feeds</code> - =E6=96=B0=E9=97=BB=E8=AE=A2=E9=98=85=EF=BC=88=
+=E5=85=A8=E5=B1=80=E5=85=B1=E7=94=A8=EF=BC=8C=E4=B8=8D=E5=8C=BA=E5=88=86=E9=
+=93=BE=EF=BC=89</p></li>
+<li>
+<p><code>dashboard_stats</code> - =E4=BB=AA=E8=A1=A8=E6=9D=BF=E7=BB=9F=E8=
+=AE=A1=EF=BC=88=E5=B7=B2=E5=BA=9F=E5=BC=83=EF=BC=8C=E4=B8=8D=E4=BD=BF=E7=94=
+=A8=EF=BC=89</p></li>
+</ul>
+<hr>
+<h2 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E8=AF=A6=E7=BB=86=E8=A1=A8=E7=BB=93=E6=9E=84">=E8=AF=A6=E7=BB=86=E8=A1=A8=
+=E7=BB=93=E6=9E=84</h2>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-1.bnb_user_trades_{0-127}">1. bnb_user_trades_{0-127}</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E8=AE=B0=E5=BD=95=E7=94=A8=E6=88=
+=B7=E6=89=80=E6=9C=89=E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA=EF=BC=88=E5=BC=80=
+=E4=BB=93=E3=80=81=E5=B9=B3=E4=BB=93=E3=80=81=E5=A2=9E=E4=BB=93=E3=80=81=E5=
+=87=8F=E4=BB=93=E3=80=81=E6=B8=85=E7=AE=97=EF=BC=89</p>
+<p><strong>=E5=88=86=E5=8C=BA=E7=AD=96=E7=95=A5</strong>: =E6=8C=89=E7=94=
+=A8=E6=88=B7=E5=9C=B0=E5=9D=80 hash =E5=88=86128=E4=B8=AA=E5=88=86=E5=8C=BA=
+</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_user_trades_{shard} (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+    update_at BIGINT NOT NULL,               -- =E6=9B=B4=E6=96=B0=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoUpdateTime:milli=EF=BC=89
+
+    -- =E6=A0=B8=E5=BF=83=E6=A0=87=E8=AF=86=E5=AD=97=E6=AE=B5
+    action_id VARCHAR(100) NOT NULL UNIQUE,  -- tx_hash + log_index
+    tx_hash VARCHAR(66) NOT NULL,            -- =E4=BA=A4=E6=98=93=E5=93=88=
+=E5=B8=8C (0x + 64 hex)
+    log_index INTEGER NOT NULL,              -- =E6=97=A5=E5=BF=97=E7=B4=A2=
+=E5=BC=95
+    block_number BIGINT NOT NULL,            -- =E5=8C=BA=E5=9D=97=E5=8F=B7
+
+    -- =E7=94=A8=E6=88=B7=E5=92=8C=E5=90=88=E7=BA=A6=E4=BF=A1=E6=81=AF
+    user_address VARCHAR(42) NOT NULL,       -- =E7=94=A8=E6=88=B7=E5=9C=B0=
+=E5=9D=80 (0x + 40 hex)
+    contract_address VARCHAR(42) NOT NULL,   -- =E5=90=88=E7=BA=A6=E5=9C=B0=
+=E5=9D=80
+    position_id VARCHAR(66),                 -- =E4=BB=93=E4=BD=8DID=EF=BC=
+=88=E5=A6=82=E6=9E=9C=E6=9C=89=EF=BC=89
+
+    -- =E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA
+    action_type VARCHAR(20) NOT NULL,        -- increase/decrease/close/liq=
+uidate/swap
+
+    -- =E4=BA=A4=E6=98=93=E6=A0=87=E7=9A=84=EF=BC=88=E4=B8=8E Sui =E5=AD=97=
+=E6=AE=B5=E5=90=8D=E7=9B=B8=E5=90=8C=EF=BC=8C=E4=BD=86=E5=AD=98=E5=82=A8 to=
+ken =E5=9C=B0=E5=9D=80=EF=BC=89
+    index_coin VARCHAR(42) NOT NULL,         -- =E6=A0=87=E7=9A=84=E5=B8=81=
+=E7=A7=8D token =E5=9C=B0=E5=9D=80
+    collateral_coin VARCHAR(42) NOT NULL,    -- =E4=BF=9D=E8=AF=81=E9=87=91=
+=E5=B8=81=E7=A7=8D token =E5=9C=B0=E5=9D=80
+    is_long BOOLEAN NOT NULL,                -- =E5=A4=9A=E7=A9=BA=E6=96=B9=
+=E5=90=91
+
+    -- =E4=BA=A4=E6=98=93=E6=95=B0=E9=87=8F=E5=92=8C=E4=BB=B7=E6=A0=BC
+    size_delta VARCHAR(78) NOT NULL,         -- =E4=BB=93=E4=BD=8D=E5=8F=98=
+=E5=8C=96=E9=87=8F=EF=BC=88=E5=B8=A6=E7=AC=A6=E5=8F=B7=EF=BC=89
+    collateral_delta VARCHAR(78) NOT NULL,   -- =E4=BF=9D=E8=AF=81=E9=87=91=
+=E5=8F=98=E5=8C=96=E9=87=8F=EF=BC=88=E5=B8=A6=E7=AC=A6=E5=8F=B7=EF=BC=89
+    price VARCHAR(78) NOT NULL,              -- =E6=89=A7=E8=A1=8C=E4=BB=B7=
+=E6=A0=BC
+    realized_pnl VARCHAR(78),                -- =E5=B7=B2=E5=AE=9E=E7=8E=B0=
+=E7=9B=88=E4=BA=8F=EF=BC=88USD=EF=BC=89
+    has_profit BOOLEAN,                      -- =E6=98=AF=E5=90=A6=E7=9B=88=
+=E5=88=A9=EF=BC=88=E4=BB=85=E5=87=8F=E4=BB=93/=E5=B9=B3=E4=BB=93=E6=9C=89=
+=E5=80=BC=EF=BC=89
+    fee_usd VARCHAR(78) NOT NULL,            -- =E6=89=8B=E7=BB=AD=E8=B4=B9=
+=EF=BC=88USD=EF=BC=89
+
+    -- =E6=97=B6=E9=97=B4=E6=88=B3
+    action_time_ms BIGINT NOT NULL,          -- =E6=93=8D=E4=BD=9C=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+    block_timestamp BIGINT NOT NULL,         -- =E5=8C=BA=E5=9D=97=E6=97=B6=
+=E9=97=B4=E6=88=B3=EF=BC=88=E7=A7=92=EF=BC=89
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_user_trades_user_time (user_address, action_time_ms DESC,=
+ action_id DESC),
+    INDEX idx_bnb_user_trades_user_action (user_address, action_type),
+    INDEX idx_bnb_user_trades_position (position_id),
+    INDEX idx_bnb_user_trades_block (block_number),
+    INDEX idx_bnb_user_trades_tx (tx_hash)
+);</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-2.bnb_user_positions_{0-127}">2. bnb_user_positions_{0-127}</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E8=AE=B0=E5=BD=95=E7=94=A8=E6=88=
+=B7=E6=8C=81=E4=BB=93=E7=8A=B6=E6=80=81=EF=BC=88=E5=BD=93=E5=89=8D=E6=8C=81=
+=E4=BB=93=E5=92=8C=E5=8E=86=E5=8F=B2=E6=8C=81=E4=BB=93=EF=BC=89</p>
+<p><strong>=E5=88=86=E5=8C=BA=E7=AD=96=E7=95=A5</strong>: =E6=8C=89=E7=94=
+=A8=E6=88=B7=E5=9C=B0=E5=9D=80 hash =E5=88=86128=E4=B8=AA=E5=88=86=E5=8C=BA=
+</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_user_positions_{shard} (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+    update_at BIGINT NOT NULL,               -- =E6=9B=B4=E6=96=B0=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoUpdateTime:milli=EF=BC=89
+
+    -- =E6=A0=B8=E5=BF=83=E6=A0=87=E8=AF=86=E5=AD=97=E6=AE=B5
+    position_id VARCHAR(66) NOT NULL UNIQUE, -- =E4=BB=93=E4=BD=8D=E5=94=AF=
+=E4=B8=80=E6=A0=87=E8=AF=86
+    user_address VARCHAR(42) NOT NULL,       -- =E7=94=A8=E6=88=B7=E5=9C=B0=
+=E5=9D=80
+    contract_address VARCHAR(42) NOT NULL,   -- =E5=90=88=E7=BA=A6=E5=9C=B0=
+=E5=9D=80
+
+    -- =E4=BB=93=E4=BD=8D=E6=A0=87=E7=9A=84=EF=BC=88=E4=B8=8E Sui =E5=AD=97=
+=E6=AE=B5=E5=90=8D=E7=9B=B8=E5=90=8C=EF=BC=8C=E4=BD=86=E5=AD=98=E5=82=A8 to=
+ken =E5=9C=B0=E5=9D=80=EF=BC=89
+    index_coin VARCHAR(42) NOT NULL,         -- =E6=A0=87=E7=9A=84=E5=B8=81=
+=E7=A7=8D token =E5=9C=B0=E5=9D=80
+    collateral_coin VARCHAR(42) NOT NULL,    -- =E4=BF=9D=E8=AF=81=E9=87=91=
+=E5=B8=81=E7=A7=8D token =E5=9C=B0=E5=9D=80
+    is_long BOOLEAN NOT NULL,                -- =E5=A4=9A=E7=A9=BA=E6=96=B9=
+=E5=90=91
+
+    -- =E4=BB=93=E4=BD=8D=E6=95=B0=E9=87=8F=E5=92=8C=E4=BB=B7=E6=A0=BC
+    position_size VARCHAR(78) NOT NULL,      -- =E5=BD=93=E5=89=8D=E4=BB=93=
+=E4=BD=8D=E5=A4=A7=E5=B0=8F=EF=BC=88=E4=BB=A3=E5=B8=81=E6=95=B0=E9=87=8F=EF=
+=BC=89
+    collateral_amount VARCHAR(78) NOT NULL,  -- =E5=BD=93=E5=89=8D=E4=BF=9D=
+=E8=AF=81=E9=87=91=E6=95=B0=E9=87=8F=EF=BC=88=E4=BB=A3=E5=B8=81=E6=95=B0=E9=
+=87=8F=EF=BC=89
+    open_price VARCHAR(78) NOT NULL,         -- =E5=88=9D=E5=A7=8B=E5=BC=80=
+=E4=BB=93=E4=BB=B7=E6=A0=BC
+    avg_entry_price VARCHAR(78) NOT NULL,    -- =E5=8A=A0=E6=9D=83=E5=B9=B3=
+=E5=9D=87=E5=85=A5=E5=9C=BA=E4=BB=B7=E6=A0=BC
+    realized_pnl VARCHAR(78) NOT NULL,       -- =E7=B4=AF=E8=AE=A1=E5=B7=B2=
+=E5=AE=9E=E7=8E=B0=E7=9B=88=E4=BA=8F=EF=BC=88USD=EF=BC=89
+    last_pnl_update_time_ms BIGINT,          -- =E4=B8=8A=E6=AC=A1=E7=9B=88=
+=E4=BA=8F=E6=9B=B4=E6=96=B0=E6=97=B6=E9=97=B4
+
+    -- =E7=8A=B6=E6=80=81=E5=92=8C=E6=97=B6=E9=97=B4
+    status VARCHAR(20) NOT NULL,             -- active/closed/liquidated
+    open_time_ms BIGINT NOT NULL,            -- =E5=BC=80=E4=BB=93=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+    close_time_ms BIGINT,                    -- =E5=B9=B3=E4=BB=93=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+    last_update_time_ms BIGINT NOT NULL,     -- =E6=9C=80=E5=90=8E=E6=9B=B4=
+=E6=96=B0=E6=97=B6=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+    last_update_tx_hash VARCHAR(66),         -- =E6=9C=80=E5=90=8E=E6=9B=B4=
+=E6=96=B0=E4=BA=A4=E6=98=93=E5=93=88=E5=B8=8C
+    last_update_block_number BIGINT,         -- =E6=9C=80=E5=90=8E=E6=9B=B4=
+=E6=96=B0=E5=8C=BA=E5=9D=97=E5=8F=B7
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_user_positions_user (user_address, status),
+    INDEX idx_bnb_user_positions_cursor (user_address, open_time_ms DESC, p=
+osition_id DESC),
+    INDEX idx_bnb_user_positions_status (status)
+);</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-3.bnb_perp_order-{0-127}">3. bnb_perp_order-{0-127}</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E8=AE=B0=E5=BD=95=E6=B0=B8=E7=BB=
+=AD=E5=90=88=E7=BA=A6=E8=AE=A2=E5=8D=95=EF=BC=88=E9=99=90=E4=BB=B7=E5=8D=95=
+=E5=92=8C=E5=B8=82=E4=BB=B7=E5=8D=95=EF=BC=89</p>
+<p><strong>=E5=88=86=E5=8C=BA=E7=AD=96=E7=95=A5</strong>: =E6=8C=89=E7=94=
+=A8=E6=88=B7=E5=9C=B0=E5=9D=80 hash =E5=88=86128=E4=B8=AA=E5=88=86=E5=8C=BA=
+</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_perp_order-{shard} (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+    update_at BIGINT NOT NULL,               -- =E6=9B=B4=E6=96=B0=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoUpdateTime:milli=EF=BC=89
+
+    -- =E6=A0=B8=E5=BF=83=E6=A0=87=E8=AF=86=E5=AD=97=E6=AE=B5
+    order_id VARCHAR(66),                    -- =E9=99=90=E4=BB=B7=E5=8D=95=
+ID=EF=BC=88=E4=B8=8Erequest_id=E4=BA=8C=E9=80=89=E4=B8=80=EF=BC=89
+    request_id VARCHAR(66),                  -- =E5=B8=82=E4=BB=B7=E5=8D=95=
+ID=EF=BC=88=E4=B8=8Eorder_id=E4=BA=8C=E9=80=89=E4=B8=80=EF=BC=89
+    user_address VARCHAR(42) NOT NULL,       -- =E7=94=A8=E6=88=B7=E5=9C=B0=
+=E5=9D=80
+    contract_address VARCHAR(42) NOT NULL,   -- =E5=90=88=E7=BA=A6=E5=9C=B0=
+=E5=9D=80
+
+    -- =E8=AE=A2=E5=8D=95=E7=B1=BB=E5=9E=8B=E5=92=8C=E7=8A=B6=E6=80=81
+    order_type VARCHAR(20) NOT NULL,         -- limit/market
+    order_status VARCHAR(20) NOT NULL,       -- pending/executed/cancelled/=
+expired
+
+    -- =E4=BA=A4=E6=98=93=E6=A0=87=E7=9A=84=EF=BC=88=E4=B8=8E Sui =E5=AD=97=
+=E6=AE=B5=E5=90=8D=E7=9B=B8=E5=90=8C=EF=BC=8C=E4=BD=86=E5=AD=98=E5=82=A8 to=
+ken =E5=9C=B0=E5=9D=80=EF=BC=89
+    index_coin VARCHAR(42) NOT NULL,         -- =E6=A0=87=E7=9A=84=E5=B8=81=
+=E7=A7=8D token =E5=9C=B0=E5=9D=80
+    collateral_coin VARCHAR(42) NOT NULL,    -- =E4=BF=9D=E8=AF=81=E9=87=91=
+=E5=B8=81=E7=A7=8D token =E5=9C=B0=E5=9D=80
+    pay_coin VARCHAR(42),                    -- =E6=94=AF=E4=BB=98=E5=B8=81=
+=E7=A7=8D token =E5=9C=B0=E5=9D=80
+    is_long BOOLEAN NOT NULL,                -- =E5=A4=9A=E7=A9=BA=E6=96=B9=
+=E5=90=91
+
+    -- =E8=AE=A2=E5=8D=95=E6=95=B0=E9=87=8F=E5=92=8C=E4=BB=B7=E6=A0=BC
+    size VARCHAR(78),                        -- =E4=BB=93=E4=BD=8D=E5=A4=A7=
+=E5=B0=8F=EF=BC=88=E4=BB=85Execute=E6=97=B6=E5=A1=AB=E5=85=85=EF=BC=89
+    collateral_amount VARCHAR(78),           -- =E4=BF=9D=E8=AF=81=E9=87=91=
+=E6=95=B0=E9=87=8F=EF=BC=88=E4=BB=85Execute=E6=97=B6=E5=A1=AB=E5=85=85=EF=
+=BC=89
+    trigger_price VARCHAR(78),               -- =E8=A7=A6=E5=8F=91=E4=BB=B7=
+=E6=A0=BC=EF=BC=88=E9=99=90=E4=BB=B7=E5=8D=95=EF=BC=89
+    trigger_above BOOLEAN,                   -- =E6=98=AF=E5=90=A6=E5=90=91=
+=E4=B8=8A=E8=A7=A6=E5=8F=91=EF=BC=88=E9=99=90=E4=BB=B7=E5=8D=95=EF=BC=89
+    acceptable_price VARCHAR(78) NOT NULL,   -- =E5=8F=AF=E6=8E=A5=E5=8F=97=
+=E4=BB=B7=E6=A0=BC
+    execution_fee VARCHAR(78) NOT NULL,      -- =E6=89=A7=E8=A1=8C=E8=B4=B9=
+=E7=94=A8
+
+    -- Position=E7=9B=B8=E5=85=B3
+    position_id VARCHAR(66),                 -- Position ID=EF=BC=88Execute=
+=E6=97=B6=E5=A1=AB=E5=85=85=EF=BC=89
+
+    -- =E5=8C=BA=E5=9D=97=E4=BF=A1=E6=81=AF
+    block_number BIGINT,                     -- =E5=8C=BA=E5=9D=97=E5=8F=B7
+    tx_hash VARCHAR(66),                     -- =E4=BA=A4=E6=98=93=E5=93=88=
+=E5=B8=8C
+
+    -- =E6=97=B6=E9=97=B4=E6=88=B3
+    create_timestamp_ms BIGINT NOT NULL,     -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E5=BF=85=E5=A1=AB=EF=BC=89
+    update_timestamp_ms BIGINT,              -- =E6=9B=B4=E6=96=B0=E6=97=B6=
+=E9=97=B4=EF=BC=88=E5=8F=AF=E7=A9=BA=EF=BC=89
+    cancel_timestamp_ms BIGINT,              -- =E5=8F=96=E6=B6=88=E6=97=B6=
+=E9=97=B4=EF=BC=88=E5=8F=AF=E7=A9=BA=EF=BC=89
+    execute_timestamp_ms BIGINT,             -- =E6=89=A7=E8=A1=8C=E6=97=B6=
+=E9=97=B4=EF=BC=88=E5=8F=AF=E7=A9=BA=EF=BC=89
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_perp_order_user (user_address, order_status, create_times=
+tamp_ms DESC),
+    INDEX idx_bnb_perp_order_cursor (user_address, create_timestamp_ms DESC=
+, COALESCE(order_id, request_id) DESC),
+    INDEX idx_bnb_perp_order_position (position_id),
+    INDEX idx_bnb_perp_order_tx (tx_hash),
+    UNIQUE INDEX udx_bnb_perp_order_id (COALESCE(order_id, request_id))
+);</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-4.bnb_swap_order_{0-127}">4. bnb_swap_order_{0-127}</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E8=AE=B0=E5=BD=95Swap=E8=AE=A2=E5=
+=8D=95=EF=BC=88HZLP=E4=B9=B0=E5=8D=96=EF=BC=89</p>
+<p><strong>=E5=88=86=E5=8C=BA=E7=AD=96=E7=95=A5</strong>: =E6=8C=89=E7=94=
+=A8=E6=88=B7=E5=9C=B0=E5=9D=80 hash =E5=88=86128=E4=B8=AA=E5=88=86=E5=8C=BA=
+</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_swap_order_{shard} (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+    update_at BIGINT NOT NULL,               -- =E6=9B=B4=E6=96=B0=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoUpdateTime:milli=EF=BC=89
+
+    -- =E6=A0=B8=E5=BF=83=E6=A0=87=E8=AF=86=E5=AD=97=E6=AE=B5
+    order_creator VARCHAR(42) NOT NULL,      -- =E8=AE=A2=E5=8D=95=E5=88=9B=
+=E5=BB=BA=E8=80=85
+    sender VARCHAR(42) NOT NULL,             -- =E4=BA=A4=E6=98=93=E5=8F=91=
+=E9=80=81=E8=80=85
+    tx_hash VARCHAR(66) NOT NULL,            -- =E4=BA=A4=E6=98=93=E5=93=88=
+=E5=B8=8C
+    log_index INTEGER NOT NULL,              -- =E6=97=A5=E5=BF=97=E7=B4=A2=
+=E5=BC=95
+    contract_address VARCHAR(42) NOT NULL,   -- =E5=90=88=E7=BA=A6=E5=9C=B0=
+=E5=9D=80
+
+    -- =E8=AE=A2=E5=8D=95=E8=AF=A6=E6=83=85
+    execution_fee VARCHAR(78),               -- =E6=89=A7=E8=A1=8C=E8=B4=B9=
+=E7=94=A8
+
+    -- =E5=B8=81=E7=A7=8D=E5=AD=97=E6=AE=B5=EF=BC=88=E4=B8=8E Sui =E5=AD=97=
+=E6=AE=B5=E5=90=8D=E7=9B=B8=E5=90=8C=EF=BC=8C=E4=BD=86=E5=AD=98=E5=82=A8 to=
+ken =E5=9C=B0=E5=9D=80=EF=BC=89
+    input_coin VARCHAR(42) NOT NULL,         -- =E8=BE=93=E5=85=A5=E5=B8=81=
+=E7=A7=8D token =E5=9C=B0=E5=9D=80
+    input_amount VARCHAR(78) NOT NULL,       -- =E8=BE=93=E5=85=A5=E6=95=B0=
+=E9=87=8F
+
+    output_coin VARCHAR(42) NOT NULL,        -- =E8=BE=93=E5=87=BA=E5=B8=81=
+=E7=A7=8D token =E5=9C=B0=E5=9D=80
+    output_amount VARCHAR(78) NOT NULL,      -- =E8=BE=93=E5=87=BA=E6=95=B0=
+=E9=87=8F
+
+    price VARCHAR(78),                       -- =E4=BA=A4=E6=98=93=E4=BB=B7=
+=E6=A0=BC
+    is_buy_hzlp BOOLEAN NOT NULL,            -- =E6=98=AF=E5=90=A6=E4=B9=B0=
+=E5=85=A5HZLP
+    volume_usd_value VARCHAR(78),            -- =E6=88=90=E4=BA=A4=E9=A2=9D=
+=EF=BC=88USD=EF=BC=89
+
+    -- =E6=97=B6=E9=97=B4=E6=88=B3
+    execute_timestamp_ms BIGINT NOT NULL,    -- =E6=89=A7=E8=A1=8C=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_swap_order_creator (order_creator, execute_timestamp_ms D=
+ESC),
+    INDEX idx_bnb_swap_order_cursor (order_creator, execute_timestamp_ms DE=
+SC, tx_hash DESC),
+    INDEX idx_bnb_swap_order_tx (tx_hash),
+    UNIQUE INDEX udx_bnb_swap_order (tx_hash, log_index)
+);</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-5.bnb_position_event_{0-127}">5. bnb_position_event_{0-127}</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E8=AE=B0=E5=BD=95=E4=BB=93=E4=BD=
+=8D=E4=BA=8B=E4=BB=B6=EF=BC=88=E7=94=A8=E4=BA=8E=E5=8E=86=E5=8F=B2=E6=9F=A5=
+=E8=AF=A2=E5=92=8C=E5=AE=A1=E8=AE=A1=EF=BC=89</p>
+<p><strong>=E5=88=86=E5=8C=BA=E7=AD=96=E7=95=A5</strong>: =E6=8C=89=E7=94=
+=A8=E6=88=B7=E5=9C=B0=E5=9D=80 hash =E5=88=86128=E4=B8=AA=E5=88=86=E5=8C=BA=
+</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_position_event_{shard} (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+
+    -- =E6=A0=B8=E5=BF=83=E6=A0=87=E8=AF=86=E5=AD=97=E6=AE=B5
+    tx_hash VARCHAR(66) NOT NULL,            -- =E4=BA=A4=E6=98=93=E5=93=88=
+=E5=B8=8C
+    log_index INTEGER NOT NULL,              -- =E6=97=A5=E5=BF=97=E7=B4=A2=
+=E5=BC=95
+
+    position_key VARCHAR(66) NOT NULL,       -- =E4=BB=93=E4=BD=8DKey
+    position_owner VARCHAR(42) NOT NULL,     -- =E4=BB=93=E4=BD=8D=E6=89=80=
+=E6=9C=89=E8=80=85
+    contract_address VARCHAR(42) NOT NULL,   -- =E5=90=88=E7=BA=A6=E5=9C=B0=
+=E5=9D=80
+
+    -- =E4=BA=8B=E4=BB=B6=E7=B1=BB=E5=9E=8B
+    event_type VARCHAR(20) NOT NULL,         -- IncreasePosition/DecreasePo=
+sition/Liquidate
+
+    -- =E4=BB=93=E4=BD=8D=E4=BF=A1=E6=81=AF=EF=BC=88=E4=B8=8E Sui =E5=AD=97=
+=E6=AE=B5=E5=90=8D=E7=9B=B8=E5=90=8C=EF=BC=8C=E4=BD=86=E5=AD=98=E5=82=A8 to=
+ken =E5=9C=B0=E5=9D=80=EF=BC=89
+    direction VARCHAR(10) NOT NULL,          -- long/short
+    position_type VARCHAR(20) NOT NULL,      -- limit/market
+    index_coin VARCHAR(42) NOT NULL,         -- =E6=A0=87=E7=9A=84=E5=B8=81=
+=E7=A7=8D token =E5=9C=B0=E5=9D=80
+    collateral_coin VARCHAR(42) NOT NULL,    -- =E4=BF=9D=E8=AF=81=E9=87=91=
+=E5=B8=81=E7=A7=8D token =E5=9C=B0=E5=9D=80
+
+    -- =E5=8F=98=E5=8C=96=E9=87=8F
+    size_delta VARCHAR(78) NOT NULL,         -- =E4=BB=93=E4=BD=8D=E5=8F=98=
+=E5=8C=96
+    collateral_delta VARCHAR(78) NOT NULL,   -- =E4=BF=9D=E8=AF=81=E9=87=91=
+=E5=8F=98=E5=8C=96
+    fee VARCHAR(78) NOT NULL,                -- =E6=89=8B=E7=BB=AD=E8=B4=B9
+    price VARCHAR(78) NOT NULL,              -- =E4=BB=B7=E6=A0=BC
+    pnl VARCHAR(78),                         -- =E7=9B=88=E4=BA=8F=EF=BC=88=
+=E4=BB=85=E5=87=8F=E4=BB=93=E6=9C=89=E5=80=BC=EF=BC=89
+
+    -- =E6=97=B6=E9=97=B4=E6=88=B3
+    timestamp BIGINT NOT NULL,               -- =E4=BA=8B=E4=BB=B6=E6=97=B6=
+=E9=97=B4=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_position_event_owner (position_owner, timestamp DESC),
+    INDEX idx_bnb_position_event_key (position_key, timestamp DESC),
+    INDEX idx_bnb_position_event_tx (tx_hash),
+    UNIQUE INDEX udx_bnb_position_event (tx_hash, log_index)
+);</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-6.bnb_transaction_event_{YYYY-MM}">6. bnb_transaction_event_{YYYY-MM}</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E8=AE=B0=E5=BD=95=E5=85=A8=E5=B1=
+=80=E4=BA=A4=E6=98=93=E4=BA=8B=E4=BB=B6=EF=BC=88=E6=8C=89=E6=9C=88=E5=88=86=
+=E5=8C=BA=EF=BC=89</p>
+<p><strong>=E5=88=86=E5=8C=BA=E7=AD=96=E7=95=A5</strong>: =E6=8C=89=E5=8C=
+=BA=E5=9D=97=E6=97=B6=E9=97=B4=E6=9C=88=E4=BB=BD=E5=88=86=E5=8C=BA</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_transaction_event_{YYYY-MM} (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+
+    -- =E6=A0=B8=E5=BF=83=E6=A0=87=E8=AF=86=E5=AD=97=E6=AE=B5
+    tx_hash VARCHAR(66) NOT NULL,            -- =E4=BA=A4=E6=98=93=E5=93=88=
+=E5=B8=8C
+    log_index INTEGER NOT NULL,              -- =E6=97=A5=E5=BF=97=E7=B4=A2=
+=E5=BC=95
+    contract_address VARCHAR(42) NOT NULL,   -- =E5=90=88=E7=BA=A6=E5=9C=B0=
+=E5=9D=80
+
+    -- =E4=BA=8B=E4=BB=B6=E8=AF=A6=E6=83=85
+    event_type VARCHAR(50) NOT NULL,         -- =E4=BA=8B=E4=BB=B6=E7=B1=BB=
+=E5=9E=8B
+    event_signature VARCHAR(66),             -- =E4=BA=8B=E4=BB=B6=E7=AD=BE=
+=E5=90=8D=EF=BC=88topic[0]=EF=BC=89
+    timestamp BIGINT NOT NULL,               -- =E4=BA=8B=E4=BB=B6=E6=97=B6=
+=E9=97=B4=E6=88=B3=EF=BC=88=E7=A7=92=EF=BC=89
+    block_number BIGINT NOT NULL,            -- =E5=8C=BA=E5=9D=97=E5=8F=B7
+    transaction_module VARCHAR(100),         -- =E4=BA=A4=E6=98=93=E6=A8=A1=
+=E5=9D=97/=E6=96=B9=E6=B3=95
+    sender VARCHAR(42),                      -- =E4=BA=A4=E6=98=93=E5=8F=91=
+=E9=80=81=E8=80=85
+
+    -- =E4=BA=8B=E4=BB=B6=E6=95=B0=E6=8D=AE=EF=BC=88JSON=E6=A0=BC=E5=BC=8F=
+=EF=BC=89
+    payload TEXT NOT NULL,                   -- =E4=BA=8B=E4=BB=B6=E6=95=B0=
+=E6=8D=AE
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_tx_event_contract (contract_address, event_type),
+    INDEX idx_bnb_tx_event_block (block_number),
+    INDEX idx_bnb_tx_event_timestamp (timestamp),
+    INDEX idx_bnb_tx_event_sender (sender),
+    UNIQUE INDEX udx_bnb_tx_event (tx_hash, log_index)
+);</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-7.bnb_vault_stats">7. bnb_vault_stats</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E8=AE=B0=E5=BD=95Vault=E7=9A=84=E7=
+=BB=9F=E8=AE=A1=E6=95=B0=E6=8D=AE</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_vault_stats (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+    update_at BIGINT NOT NULL,               -- =E6=9B=B4=E6=96=B0=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoUpdateTime:milli=EF=BC=89
+
+    -- Vault=E6=A0=87=E8=AF=86
+    vault_address VARCHAR(42) NOT NULL UNIQUE, -- Vault=E5=90=88=E7=BA=A6=
+=E5=9C=B0=E5=9D=80
+    vault_name VARCHAR(50),                    -- Vault=E5=90=8D=E7=A7=B0
+
+    -- =E7=BB=9F=E8=AE=A1=E6=95=B0=E6=8D=AE
+    aum_usd VARCHAR(78) NOT NULL,              -- =E8=B5=84=E4=BA=A7=E7=AE=
+=A1=E7=90=86=E8=A7=84=E6=A8=A1=EF=BC=88USD=EF=BC=89
+    max_aum_usd VARCHAR(78) NOT NULL,          -- =E6=9C=80=E5=A4=A7=E8=B5=
+=84=E4=BA=A7=E7=AE=A1=E7=90=86=E8=A7=84=E6=A8=A1=EF=BC=88USD=EF=BC=89
+    pool_amount_usd VARCHAR(78),               -- =E6=B1=A0=E5=AD=90=E6=80=
+=BB=E9=87=91=E9=A2=9D=EF=BC=88USD=EF=BC=89
+    reserved_amount_usd VARCHAR(78),           -- =E9=A2=84=E7=95=99=E9=87=
+=91=E9=A2=9D=EF=BC=88USD=EF=BC=89
+    available_amount_usd VARCHAR(78),          -- =E5=8F=AF=E7=94=A8=E9=87=
+=91=E9=A2=9D=EF=BC=88USD=EF=BC=89
+    guaranteed_usd VARCHAR(78),                -- =E6=8B=85=E4=BF=9D=E9=87=
+=91=E9=A2=9D=EF=BC=88USD=EF=BC=89
+
+    -- HZLP=E7=9B=B8=E5=85=B3
+    hzlp_supply VARCHAR(78),                   -- HZLP=E6=80=BB=E4=BE=9B=E5=
+=BA=94=E9=87=8F
+    hzlp_price VARCHAR(78),                    -- HZLP=E4=BB=B7=E6=A0=BC
+
+    -- =E6=9B=B4=E6=96=B0=E4=BF=A1=E6=81=AF
+    last_update_block_number BIGINT,           -- =E6=9C=80=E5=90=8E=E6=9B=
+=B4=E6=96=B0=E5=8C=BA=E5=9D=97=E5=8F=B7
+    last_update_tx_hash VARCHAR(66),           -- =E6=9C=80=E5=90=8E=E6=9B=
+=B4=E6=96=B0=E4=BA=A4=E6=98=93=E5=93=88=E5=B8=8C
+    last_update_time_ms BIGINT NOT NULL,       -- =E6=9C=80=E5=90=8E=E6=9B=
+=B4=E6=96=B0=E6=97=B6=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_vault_stats_address (vault_address),
+    INDEX idx_bnb_vault_stats_time (last_update_time_ms DESC)
+);</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-8.bnb_vault_balances">8. bnb_vault_balances</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E8=AE=B0=E5=BD=95Vault=E4=B8=AD=E5=
+=90=84=E4=BB=A3=E5=B8=81=E7=9A=84=E4=BD=99=E9=A2=9D</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_vault_balances (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+    update_at BIGINT NOT NULL,               -- =E6=9B=B4=E6=96=B0=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoUpdateTime:milli=EF=BC=89
+
+    -- Vault=E5=92=8C=E4=BB=A3=E5=B8=81=E6=A0=87=E8=AF=86
+    vault_address VARCHAR(42) NOT NULL,        -- Vault=E5=90=88=E7=BA=A6=
+=E5=9C=B0=E5=9D=80
+    coin_symbol VARCHAR(20) NOT NULL,          -- =E5=B8=81=E7=A7=8D=E7=AC=
+=A6=E5=8F=B7
+    token_address VARCHAR(42) NOT NULL,        -- =E4=BB=A3=E5=B8=81=E5=90=
+=88=E7=BA=A6=E5=9C=B0=E5=9D=80
+
+    -- =E4=BD=99=E9=A2=9D=E6=95=B0=E6=8D=AE
+    pool_amount VARCHAR(78) NOT NULL,          -- =E6=B1=A0=E5=AD=90=E6=95=
+=B0=E9=87=8F
+    reserved_amount VARCHAR(78) NOT NULL,      -- =E9=A2=84=E7=95=99=E6=95=
+=B0=E9=87=8F
+    available_amount VARCHAR(78) NOT NULL,     -- =E5=8F=AF=E7=94=A8=E6=95=
+=B0=E9=87=8F
+    pool_amount_usd VARCHAR(78),               -- =E6=B1=A0=E5=AD=90=E9=87=
+=91=E9=A2=9D=EF=BC=88USD=EF=BC=89
+    reserved_amount_usd VARCHAR(78),           -- =E9=A2=84=E7=95=99=E9=87=
+=91=E9=A2=9D=EF=BC=88USD=EF=BC=89
+
+    -- =E6=9D=83=E9=87=8D=E9=85=8D=E7=BD=AE
+    target_weight INTEGER,                     -- =E7=9B=AE=E6=A0=87=E6=9D=
+=83=E9=87=8D=EF=BC=88=E5=9F=BA=E7=82=B9=EF=BC=8C10000=3D100%=EF=BC=89
+    actual_weight INTEGER,                     -- =E5=AE=9E=E9=99=85=E6=9D=
+=83=E9=87=8D=EF=BC=88=E5=9F=BA=E7=82=B9=EF=BC=89
+
+    -- =E6=9B=B4=E6=96=B0=E4=BF=A1=E6=81=AF
+    last_update_block_number BIGINT,           -- =E6=9C=80=E5=90=8E=E6=9B=
+=B4=E6=96=B0=E5=8C=BA=E5=9D=97=E5=8F=B7
+    last_update_time_ms BIGINT NOT NULL,       -- =E6=9C=80=E5=90=8E=E6=9B=
+=B4=E6=96=B0=E6=97=B6=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_vault_balances_vault (vault_address, coin_symbol),
+    UNIQUE INDEX udx_bnb_vault_balances (vault_address, token_address)
+);</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-9.bnb_vault_custodies">9. bnb_vault_custodies</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E8=AE=B0=E5=BD=95Vault=E6=89=98=E7=
+=AE=A1=E9=85=8D=E7=BD=AE</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_vault_custodies (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+    update_at BIGINT NOT NULL,               -- =E6=9B=B4=E6=96=B0=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoUpdateTime:milli=EF=BC=89
+
+    -- Vault=E5=92=8C=E4=BB=A3=E5=B8=81=E6=A0=87=E8=AF=86
+    vault_address VARCHAR(42) NOT NULL,        -- Vault=E5=90=88=E7=BA=A6=
+=E5=9C=B0=E5=9D=80
+    coin_symbol VARCHAR(20) NOT NULL,          -- =E5=B8=81=E7=A7=8D=E7=AC=
+=A6=E5=8F=B7
+    token_address VARCHAR(42) NOT NULL,        -- =E4=BB=A3=E5=B8=81=E5=90=
+=88=E7=BA=A6=E5=9C=B0=E5=9D=80
+
+    -- =E6=89=98=E7=AE=A1=E9=85=8D=E7=BD=AE
+    is_stable BOOLEAN NOT NULL,                -- =E6=98=AF=E5=90=A6=E7=A8=
+=B3=E5=AE=9A=E5=B8=81
+    is_shortable BOOLEAN NOT NULL,             -- =E6=98=AF=E5=90=A6=E5=8F=
+=AF=E5=81=9A=E7=A9=BA
+    decimals INTEGER NOT NULL,                 -- =E7=B2=BE=E5=BA=A6
+
+    -- =E8=B4=B9=E7=8E=87=E9=85=8D=E7=BD=AE
+    mint_fee_bps INTEGER,                      -- Mint=E8=B4=B9=E7=8E=87=EF=
+=BC=88=E5=9F=BA=E7=82=B9=EF=BC=89
+    burn_fee_bps INTEGER,                      -- Burn=E8=B4=B9=E7=8E=87=EF=
+=BC=88=E5=9F=BA=E7=82=B9=EF=BC=89
+    swap_fee_bps INTEGER,                      -- Swap=E8=B4=B9=E7=8E=87=EF=
+=BC=88=E5=9F=BA=E7=82=B9=EF=BC=89
+    position_fee_bps INTEGER,                  -- =E6=8C=81=E4=BB=93=E8=B4=
+=B9=E7=8E=87=EF=BC=88=E5=9F=BA=E7=82=B9=EF=BC=89
+    borrow_fee_per_hour_bps INTEGER,           -- =E5=80=9F=E6=AC=BE=E8=B4=
+=B9=E7=8E=87/=E5=B0=8F=E6=97=B6=EF=BC=88=E5=9F=BA=E7=82=B9=EF=BC=89
+
+    -- =E9=99=90=E9=A2=9D=E9=85=8D=E7=BD=AE
+    max_global_long_size VARCHAR(78),          -- =E6=9C=80=E5=A4=A7=E5=85=
+=A8=E5=B1=80=E5=A4=9A=E5=A4=B4
+    max_global_short_size VARCHAR(78),         -- =E6=9C=80=E5=A4=A7=E5=85=
+=A8=E5=B1=80=E7=A9=BA=E5=A4=B4
+    max_leverage INTEGER,                      -- =E6=9C=80=E5=A4=A7=E6=9D=
+=A0=E6=9D=86=EF=BC=88=E5=80=8D=E6=95=B0=EF=BC=89
+
+    -- =E6=9B=B4=E6=96=B0=E4=BF=A1=E6=81=AF
+    last_update_block_number BIGINT,           -- =E6=9C=80=E5=90=8E=E6=9B=
+=B4=E6=96=B0=E5=8C=BA=E5=9D=97=E5=8F=B7
+    last_update_time_ms BIGINT NOT NULL,       -- =E6=9C=80=E5=90=8E=E6=9B=
+=B4=E6=96=B0=E6=97=B6=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_vault_custodies_vault (vault_address, coin_symbol),
+    UNIQUE INDEX udx_bnb_vault_custodies (vault_address, token_address)
+);</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-10.bnb_oracle_token_config">10. bnb_oracle_token_config</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E8=AE=B0=E5=BD=95Oracle=E4=BB=A3=
+=E5=B8=81=E9=85=8D=E7=BD=AE</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_oracle_token_config (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+    update_at BIGINT NOT NULL,               -- =E6=9B=B4=E6=96=B0=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoUpdateTime:milli=EF=BC=89
+
+    -- =E4=BB=A3=E5=B8=81=E6=A0=87=E8=AF=86
+    coin_symbol VARCHAR(20) NOT NULL UNIQUE,   -- =E5=B8=81=E7=A7=8D=E7=AC=
+=A6=E5=8F=B7
+    token_address VARCHAR(42),                 -- =E4=BB=A3=E5=B8=81=E5=90=
+=88=E7=BA=A6=E5=9C=B0=E5=9D=80=EF=BC=88=E5=8F=AF=E7=A9=BA=EF=BC=8C=E5=8E=9F=
+=E7=94=9F=E5=B8=81=EF=BC=89
+
+    -- Oracle=E9=85=8D=E7=BD=AE
+    oracle_type VARCHAR(20) NOT NULL,          -- chainlink/pyth/custom
+    oracle_address VARCHAR(42),                -- Oracle=E5=90=88=E7=BA=A6=
+=E5=9C=B0=E5=9D=80
+    price_feed_id VARCHAR(66),                 -- =E4=BB=B7=E6=A0=BCFeed ID
+
+    -- =E4=BB=A3=E5=B8=81=E4=BF=A1=E6=81=AF
+    decimals INTEGER NOT NULL,                 -- =E4=BB=A3=E5=B8=81=E7=B2=
+=BE=E5=BA=A6
+    max_price_age_seconds INTEGER,             -- =E6=9C=80=E5=A4=A7=E4=BB=
+=B7=E6=A0=BC=E5=B9=B4=E9=BE=84=EF=BC=88=E7=A7=92=EF=BC=89
+
+    -- =E4=BB=B7=E6=A0=BC=E6=A0=A1=E9=AA=8C
+    max_deviation_bps INTEGER,                 -- =E6=9C=80=E5=A4=A7=E5=81=
+=8F=E5=B7=AE=EF=BC=88=E5=9F=BA=E7=82=B9=EF=BC=89
+    min_price VARCHAR(78),                     -- =E6=9C=80=E5=B0=8F=E4=BB=
+=B7=E6=A0=BC
+    max_price VARCHAR(78),                     -- =E6=9C=80=E5=A4=A7=E4=BB=
+=B7=E6=A0=BC
+
+    -- =E6=9B=B4=E6=96=B0=E4=BF=A1=E6=81=AF
+    last_update_block_number BIGINT,           -- =E6=9C=80=E5=90=8E=E6=9B=
+=B4=E6=96=B0=E5=8C=BA=E5=9D=97=E5=8F=B7
+    last_update_time_ms BIGINT NOT NULL,       -- =E6=9C=80=E5=90=8E=E6=9B=
+=B4=E6=96=B0=E6=97=B6=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_oracle_config_symbol (coin_symbol),
+    INDEX idx_bnb_oracle_config_token (token_address)
+);</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-11.bnb_trade_coin_configs">11. bnb_trade_coin_configs</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E4=BA=A4=E6=98=93=E5=B8=81=E7=A7=
+=8D=E7=99=BD=E5=90=8D=E5=8D=95=E9=85=8D=E7=BD=AE</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_trade_coin_configs (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+    update_at BIGINT NOT NULL,               -- =E6=9B=B4=E6=96=B0=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoUpdateTime:milli=EF=BC=89
+
+    -- =E4=BB=A3=E5=B8=81=E6=A0=87=E8=AF=86
+    coin_symbol VARCHAR(20) NOT NULL UNIQUE,   -- =E5=B8=81=E7=A7=8D=E7=AC=
+=A6=E5=8F=B7
+    token_address VARCHAR(42),                 -- =E4=BB=A3=E5=B8=81=E5=90=
+=88=E7=BA=A6=E5=9C=B0=E5=9D=80
+
+    -- =E4=BA=A4=E6=98=93=E9=85=8D=E7=BD=AE
+    is_enabled BOOLEAN NOT NULL DEFAULT true,  -- =E6=98=AF=E5=90=A6=E5=90=
+=AF=E7=94=A8
+    is_stable BOOLEAN NOT NULL,                -- =E6=98=AF=E5=90=A6=E7=A8=
+=B3=E5=AE=9A=E5=B8=81
+    is_shortable BOOLEAN NOT NULL,             -- =E6=98=AF=E5=90=A6=E5=8F=
+=AF=E5=81=9A=E7=A9=BA
+
+    -- =E6=98=BE=E7=A4=BA=E4=BF=A1=E6=81=AF
+    coin_name VARCHAR(50),                     -- =E5=B8=81=E7=A7=8D=E5=85=
+=A8=E7=A7=B0
+    coin_icon_url VARCHAR(200),                -- =E5=9B=BE=E6=A0=87URL
+    display_order INTEGER,                     -- =E6=98=BE=E7=A4=BA=E9=A1=
+=BA=E5=BA=8F
+
+    -- =E6=9B=B4=E6=96=B0=E4=BF=A1=E6=81=AF
+    last_update_block_number BIGINT,           -- =E6=9C=80=E5=90=8E=E6=9B=
+=B4=E6=96=B0=E5=8C=BA=E5=9D=97=E5=8F=B7
+    last_update_time_ms BIGINT NOT NULL,       -- =E6=9C=80=E5=90=8E=E6=9B=
+=B4=E6=96=B0=E6=97=B6=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_trade_coins_symbol (coin_symbol),
+    INDEX idx_bnb_trade_coins_enabled (is_enabled, display_order)
+);</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-12.bnb_protocol_settings">12. bnb_protocol_settings</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E5=8D=8F=E8=AE=AE=E5=85=A8=E5=B1=
+=80=E8=AE=BE=E7=BD=AE</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_protocol_settings (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+    update_at BIGINT NOT NULL,               -- =E6=9B=B4=E6=96=B0=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoUpdateTime:milli=EF=BC=89
+
+    -- =E8=AE=BE=E7=BD=AE=E9=94=AE=E5=80=BC
+    setting_key VARCHAR(50) NOT NULL UNIQUE,   -- =E8=AE=BE=E7=BD=AE=E9=94=
+=AE
+    setting_value TEXT NOT NULL,               -- =E8=AE=BE=E7=BD=AE=E5=80=
+=BC=EF=BC=88JSON=E6=A0=BC=E5=BC=8F=EF=BC=89
+    setting_type VARCHAR(20) NOT NULL,         -- =E5=80=BC=E7=B1=BB=E5=9E=
+=8B=EF=BC=9Astring/number/boolean/json
+
+    -- =E6=8F=8F=E8=BF=B0=E4=BF=A1=E6=81=AF
+    description TEXT,                          -- =E8=AE=BE=E7=BD=AE=E8=AF=
+=B4=E6=98=8E
+    category VARCHAR(50),                      -- =E8=AE=BE=E7=BD=AE=E5=88=
+=86=E7=B1=BB
+
+    -- =E6=9B=B4=E6=96=B0=E4=BF=A1=E6=81=AF
+    last_update_block_number BIGINT,           -- =E6=9C=80=E5=90=8E=E6=9B=
+=B4=E6=96=B0=E5=8C=BA=E5=9D=97=E5=8F=B7
+    last_update_tx_hash VARCHAR(66),           -- =E6=9C=80=E5=90=8E=E6=9B=
+=B4=E6=96=B0=E4=BA=A4=E6=98=93=E5=93=88=E5=B8=8C
+    last_update_time_ms BIGINT NOT NULL,       -- =E6=9C=80=E5=90=8E=E6=9B=
+=B4=E6=96=B0=E6=97=B6=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_protocol_settings_key (setting_key),
+    INDEX idx_bnb_protocol_settings_category (category)
+);</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-13.bnb_whale_trades_cache">13. bnb_whale_trades_cache</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E5=B7=A8=E9=B2=B8=E4=BA=A4=E6=98=
+=93=E7=BC=93=E5=AD=98=EF=BC=88=E7=94=A8=E4=BA=8EV3=E6=8E=A5=E5=8F=A3=EF=BC=
+=89</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_whale_trades_cache (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+
+    -- =E4=BA=A4=E6=98=93=E4=BF=A1=E6=81=AF=EF=BC=88=E4=BB=8Euser_trades=E5=
+=A4=8D=E5=88=B6=EF=BC=89
+    action_id VARCHAR(100) NOT NULL UNIQUE,
+    user_address VARCHAR(42) NOT NULL,
+    action_type VARCHAR(20) NOT NULL,
+    index_coin VARCHAR(42) NOT NULL,         -- =E6=A0=87=E7=9A=84=E5=B8=81=
+=E7=A7=8D token =E5=9C=B0=E5=9D=80
+    is_long BOOLEAN NOT NULL,
+    size_delta VARCHAR(78) NOT NULL,
+    price VARCHAR(78) NOT NULL,
+    volume_usd VARCHAR(78) NOT NULL,
+    fee_usd VARCHAR(78) NOT NULL,
+    action_time_ms BIGINT NOT NULL,
+
+    -- =E8=81=9A=E5=90=88=E7=BB=9F=E8=AE=A1
+    user_total_volume_24h VARCHAR(78),         -- =E7=94=A8=E6=88=B724=E5=
+=B0=8F=E6=97=B6=E6=80=BB=E4=BA=A4=E6=98=93=E9=87=8F
+    user_rank VARCHAR(20),                     -- =E7=94=A8=E6=88=B7=E6=8E=
+=92=E5=90=8D=EF=BC=9Atop_10/top_50/top_100
+
+    -- =E7=BC=93=E5=AD=98=E4=BF=A1=E6=81=AF
+    cache_time_ms BIGINT NOT NULL,             -- =E7=BC=93=E5=AD=98=E6=97=
+=B6=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_whale_trades_time (action_time_ms DESC, action_id DESC),
+    INDEX idx_bnb_whale_trades_volume (volume_usd DESC),
+    INDEX idx_bnb_whale_trades_user (user_address)
+);</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-14.bnb_smart_money_scores">14. bnb_smart_money_scores</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E8=81=AA=E6=98=8E=E9=92=B1=E8=AF=
+=84=E5=88=86=E8=A1=A8=EF=BC=88=E7=94=A8=E4=BA=8EV3=E6=8E=A5=E5=8F=A3=EF=BC=
+=89</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_smart_money_scores (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+    update_at BIGINT NOT NULL,               -- =E6=9B=B4=E6=96=B0=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoUpdateTime:milli=EF=BC=89
+
+    -- =E7=94=A8=E6=88=B7=E6=A0=87=E8=AF=86
+    user_address VARCHAR(42) NOT NULL UNIQUE,  -- =E7=94=A8=E6=88=B7=E5=9C=
+=B0=E5=9D=80
+
+    -- =E4=BA=A4=E6=98=93=E7=BB=9F=E8=AE=A1
+    total_trades INTEGER NOT NULL,             -- =E6=80=BB=E4=BA=A4=E6=98=
+=93=E6=AC=A1=E6=95=B0
+    win_trades INTEGER NOT NULL,               -- =E7=9B=88=E5=88=A9=E4=BA=
+=A4=E6=98=93=E6=AC=A1=E6=95=B0
+    win_rate DECIMAL(5, 4) NOT NULL,           -- =E8=83=9C=E7=8E=87=EF=BC=
+=880-1=EF=BC=89
+
+    -- =E7=9B=88=E4=BA=8F=E7=BB=9F=E8=AE=A1
+    total_pnl VARCHAR(78) NOT NULL,            -- =E6=80=BB=E7=9B=88=E4=BA=
+=8F=EF=BC=88USD=EF=BC=89
+    max_drawdown VARCHAR(78),                  -- =E6=9C=80=E5=A4=A7=E5=9B=
+=9E=E6=92=A4=EF=BC=88USD=EF=BC=89
+
+    -- =E9=A3=8E=E9=99=A9=E6=8C=87=E6=A0=87
+    sharpe_ratio DECIMAL(10, 4),               -- =E5=A4=8F=E6=99=AE=E6=AF=
+=94=E7=8E=87
+    avg_hold_time_hours INTEGER,               -- =E5=B9=B3=E5=9D=87=E6=8C=
+=81=E4=BB=93=E6=97=B6=E9=97=B4=EF=BC=88=E5=B0=8F=E6=97=B6=EF=BC=89
+    avg_trade_size_usd VARCHAR(78),            -- =E5=B9=B3=E5=9D=87=E4=BA=
+=A4=E6=98=93=E9=A2=9D=EF=BC=88USD=EF=BC=89
+
+    -- =E5=81=8F=E5=A5=BD=E7=BB=9F=E8=AE=A1
+    favorite_symbols TEXT,                     -- =E6=9C=80=E5=B8=B8=E4=BA=
+=A4=E6=98=93=E7=9A=84=E5=B8=81=E7=A7=8D=EF=BC=88JSON=E6=95=B0=E7=BB=84=EF=
+=BC=89
+    long_short_ratio DECIMAL(5, 2),            -- =E5=A4=9A=E7=A9=BA=E6=AF=
+=94=E7=8E=87
+
+    -- =E6=9B=B4=E6=96=B0=E4=BF=A1=E6=81=AF
+    last_trade_time_ms BIGINT,                 -- =E6=9C=80=E5=90=8E=E4=BA=
+=A4=E6=98=93=E6=97=B6=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+    last_update_time_ms BIGINT NOT NULL,       -- =E6=9C=80=E5=90=8E=E6=9B=
+=B4=E6=96=B0=E6=97=B6=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_smart_money_win_rate (win_rate DESC),
+    INDEX idx_bnb_smart_money_pnl (total_pnl DESC),
+    INDEX idx_bnb_smart_money_sharpe (sharpe_ratio DESC)
+);</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-15.bnb_market_ticker_snapshot">15. bnb_market_ticker_snapshot</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E8=A1=8C=E6=83=85=E5=BF=AB=E7=85=
+=A7=E8=A1=A8=EF=BC=88=E7=94=A8=E4=BA=8EV3=E6=8E=A5=E5=8F=A3=EF=BC=89</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_market_ticker_snapshot (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+    update_at BIGINT NOT NULL,               -- =E6=9B=B4=E6=96=B0=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoUpdateTime:milli=EF=BC=89
+
+    -- =E5=B8=81=E7=A7=8D=E6=A0=87=E8=AF=86
+    symbol VARCHAR(20) NOT NULL UNIQUE,        -- =E4=BA=A4=E6=98=93=E5=AF=
+=B9=E7=AC=A6=E5=8F=B7=EF=BC=88BTC/USD=EF=BC=89
+    index_coin VARCHAR(42) NOT NULL,           -- =E6=A0=87=E7=9A=84=E5=B8=
+=81=E7=A7=8D token =E5=9C=B0=E5=9D=80
+
+    -- =E4=BB=B7=E6=A0=BC=E6=95=B0=E6=8D=AE
+    last_price VARCHAR(78) NOT NULL,           -- =E6=9C=80=E6=96=B0=E4=BB=
+=B7=E6=A0=BC
+    mark_price VARCHAR(78),                    -- =E6=A0=87=E8=AE=B0=E4=BB=
+=B7=E6=A0=BC
+    index_price VARCHAR(78),                   -- =E6=8C=87=E6=95=B0=E4=BB=
+=B7=E6=A0=BC
+
+    -- 24=E5=B0=8F=E6=97=B6=E7=BB=9F=E8=AE=A1
+    high_24h VARCHAR(78),                      -- 24=E5=B0=8F=E6=97=B6=E6=
+=9C=80=E9=AB=98=E4=BB=B7
+    low_24h VARCHAR(78),                       -- 24=E5=B0=8F=E6=97=B6=E6=
+=9C=80=E4=BD=8E=E4=BB=B7
+    volume_24h_usd VARCHAR(78),                -- 24=E5=B0=8F=E6=97=B6=E6=
+=88=90=E4=BA=A4=E9=87=8F=EF=BC=88USD=EF=BC=89
+    trade_count_24h BIGINT,                    -- 24=E5=B0=8F=E6=97=B6=E6=
+=88=90=E4=BA=A4=E7=AC=94=E6=95=B0
+
+    -- =E6=8C=81=E4=BB=93=E6=95=B0=E6=8D=AE
+    total_long_usd VARCHAR(78),                -- =E6=80=BB=E5=A4=9A=E5=A4=
+=B4=E6=8C=81=E4=BB=93=EF=BC=88USD=EF=BC=89
+    total_short_usd VARCHAR(78),               -- =E6=80=BB=E7=A9=BA=E5=A4=
+=B4=E6=8C=81=E4=BB=93=EF=BC=88USD=EF=BC=89
+    total_oi_usd VARCHAR(78),                  -- =E6=80=BB=E6=8C=81=E4=BB=
+=93=E9=87=8F=EF=BC=88USD=EF=BC=89
+    long_short_ratio DECIMAL(10, 4),           -- =E5=A4=9A=E7=A9=BA=E6=AF=
+=94=E7=8E=87
+
+    -- =E8=B4=B9=E7=8E=87=E6=95=B0=E6=8D=AE
+    funding_rate VARCHAR(78),                  -- Funding Rate=EF=BC=88=E5=
+=BD=93=E5=89=8D=EF=BC=89
+    funding_rate_1h VARCHAR(78),               -- Funding Rate=EF=BC=881=E5=
+=B0=8F=E6=97=B6=E5=B9=B3=E5=9D=87=EF=BC=89
+    borrow_fee_long_1h VARCHAR(78),            -- =E5=A4=9A=E5=A4=B4=E5=80=
+=9F=E6=AC=BE=E8=B4=B9=E7=8E=87=EF=BC=881=E5=B0=8F=E6=97=B6=EF=BC=89
+    borrow_fee_short_1h VARCHAR(78),           -- =E7=A9=BA=E5=A4=B4=E5=80=
+=9F=E6=AC=BE=E8=B4=B9=E7=8E=87=EF=BC=881=E5=B0=8F=E6=97=B6=EF=BC=89
+
+    -- =E5=BF=AB=E7=85=A7=E6=97=B6=E9=97=B4
+    snapshot_time_ms BIGINT NOT NULL,          -- =E5=BF=AB=E7=85=A7=E6=97=
+=B6=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_market_ticker_symbol (symbol),
+    INDEX idx_bnb_market_ticker_time (snapshot_time_ms DESC)
+);</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-16.bnb_user_trades_timezone">16. bnb_user_trades_timezone</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>: =E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=
+=93=E6=97=B6=E9=97=B4=E7=B4=A2=E5=BC=95=E8=A1=A8=EF=BC=88=E4=BC=98=E5=8C=96=
+=E6=97=B6=E9=97=B4=E8=8C=83=E5=9B=B4=E6=9F=A5=E8=AF=A2=EF=BC=89</p>
+<p><strong>=E5=AD=97=E6=AE=B5=E5=AE=9A=E4=B9=89</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE bnb_user_trades_timezone (
+    -- =E4=B8=BB=E9=94=AE=E5=92=8C=E6=97=B6=E9=97=B4=E6=88=B3
+    id BIGSERIAL PRIMARY KEY,
+    create_at BIGINT NOT NULL,               -- =E5=88=9B=E5=BB=BA=E6=97=B6=
+=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=8CGOR=
+M autoCreateTime:milli=EF=BC=89
+
+    -- =E6=97=B6=E9=97=B4=E7=BB=B4=E5=BA=A6
+    date_key VARCHAR(8) NOT NULL,              -- YYYYMMDD
+    date_start_ms BIGINT NOT NULL,             -- =E5=BD=93=E5=A4=A9=E5=BC=
+=80=E5=A7=8B=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+    date_end_ms BIGINT NOT NULL,               -- =E5=BD=93=E5=A4=A9=E7=BB=
+=93=E6=9D=9F=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89
+
+    -- =E5=88=86=E5=8C=BA=E4=BF=A1=E6=81=AF
+    shard_id INTEGER NOT NULL,                 -- =E5=88=86=E5=8C=BAID=EF=
+=BC=880-127=EF=BC=89
+    shard_table_name VARCHAR(50) NOT NULL,     -- =E5=88=86=E5=8C=BA=E8=A1=
+=A8=E5=90=8D
+
+    -- =E7=B4=A2=E5=BC=95
+    INDEX idx_bnb_user_trades_tz_date_range (date_start_ms, date_end_ms),
+    INDEX idx_bnb_user_trades_tz_shard (shard_id),
+    UNIQUE INDEX udx_bnb_user_trades_tz (date_key, shard_id)
+);</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E6=A8=A1=E6=9D=BF=E8=A1=A8=EF=BC=88TemplateTables=EF=BC=89">=E6=A8=A1=E6=
+=9D=BF=E8=A1=A8=EF=BC=88Template Tables=EF=BC=89</h2>
+<p>=E7=94=A8=E4=BA=8E=E5=88=9B=E5=BB=BA=E5=88=86=E5=8C=BA=E8=A1=A8=E7=9A=84=
+=E6=A8=A1=E6=9D=BF=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- =E7=
+=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E6=A8=A1=E6=9D=BF=E8=A1=A8
+CREATE TABLE bnb_user_trades_tmpl AS SELECT * FROM bnb_user_trades_0 WHERE =
+1=3D0;
+
+-- =E7=94=A8=E6=88=B7=E6=8C=81=E4=BB=93=E6=A8=A1=E6=9D=BF=E8=A1=A8
+CREATE TABLE bnb_user_positions_tmpl AS SELECT * FROM bnb_user_positions_0 =
+WHERE 1=3D0;
+
+-- =E6=B0=B8=E7=BB=AD=E8=AE=A2=E5=8D=95=E6=A8=A1=E6=9D=BF=E8=A1=A8
+CREATE TABLE bnb_perp_order_tmpl AS SELECT * FROM bnb_perp_order_0 WHERE 1=
+=3D0;
+
+-- Swap=E8=AE=A2=E5=8D=95=E6=A8=A1=E6=9D=BF=E8=A1=A8
+CREATE TABLE bnb_swap_order_tmpl AS SELECT * FROM bnb_swap_order_0 WHERE 1=
+=3D0;
+
+-- =E4=BB=93=E4=BD=8D=E4=BA=8B=E4=BB=B6=E6=A8=A1=E6=9D=BF=E8=A1=A8
+CREATE TABLE bnb_position_event_tmpl AS SELECT * FROM bnb_position_event_0 =
+WHERE 1=3D0;</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E5=88=86=E5=8C=BA=E5=88=9B=E5=BB=BA=E8=84=9A=E6=9C=AC">=E5=88=86=E5=8C=BA=
+=E5=88=9B=E5=BB=BA=E8=84=9A=E6=9C=AC</h2>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E5=88=9B=E5=BB=BA=E7=94=A8=E6=88=B7=E7=9B=B8=E5=85=B3=E5=88=86=E5=8C=BA=
+=E8=A1=A8=EF=BC=880-127=EF=BC=89">=E5=88=9B=E5=BB=BA=E7=94=A8=E6=88=B7=E7=
+=9B=B8=E5=85=B3=E5=88=86=E5=8C=BA=E8=A1=A8=EF=BC=880-127=EF=BC=89</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- =E5=
+=88=9B=E5=BB=BA=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=88=86=E5=8C=BA
+DO $$
+BEGIN
+    FOR i IN 0..127 LOOP
+        EXECUTE format('CREATE TABLE IF NOT EXISTS bnb_user_trades_%s (LIKE=
+ bnb_user_trades_tmpl INCLUDING ALL)', i);
+    END LOOP;
+END $$;
+
+-- =E5=88=9B=E5=BB=BA=E7=94=A8=E6=88=B7=E6=8C=81=E4=BB=93=E5=88=86=E5=8C=BA
+DO $$
+BEGIN
+    FOR i IN 0..127 LOOP
+        EXECUTE format('CREATE TABLE IF NOT EXISTS bnb_user_positions_%s (L=
+IKE bnb_user_positions_tmpl INCLUDING ALL)', i);
+    END LOOP;
+END $$;
+
+-- =E5=88=9B=E5=BB=BA=E6=B0=B8=E7=BB=AD=E8=AE=A2=E5=8D=95=E5=88=86=E5=8C=BA
+DO $$
+BEGIN
+    FOR i IN 0..127 LOOP
+        EXECUTE format('CREATE TABLE IF NOT EXISTS bnb_perp_order_%s (LIKE =
+bnb_perp_order_tmpl INCLUDING ALL)', i);
+    END LOOP;
+END $$;
+
+-- =E5=88=9B=E5=BB=BASwap=E8=AE=A2=E5=8D=95=E5=88=86=E5=8C=BA
+DO $$
+BEGIN
+    FOR i IN 0..127 LOOP
+        EXECUTE format('CREATE TABLE IF NOT EXISTS bnb_swap_order_%s (LIKE =
+bnb_swap_order_tmpl INCLUDING ALL)', i);
+    END LOOP;
+END $$;
+
+-- =E5=88=9B=E5=BB=BA=E4=BB=93=E4=BD=8D=E4=BA=8B=E4=BB=B6=E5=88=86=E5=8C=BA
+DO $$
+BEGIN
+    FOR i IN 0..127 LOOP
+        EXECUTE format('CREATE TABLE IF NOT EXISTS bnb_position_event_%s (L=
+IKE bnb_position_event_tmpl INCLUDING ALL)', i);
+    END LOOP;
+END $$;</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E4=B8=8ESui=E9=93=BE=E8=A1=A8=E7=9A=84=E4=B8=BB=E8=A6=81=E5=B7=AE=E5=BC=
+=82">=E4=B8=8ESui=E9=93=BE=E8=A1=A8=E7=9A=84=E4=B8=BB=E8=A6=81=E5=B7=AE=E5=
+=BC=82</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"90=
+7cf4e0-7702-43f5-85d1-a59dcfd8065f" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E9=A1=B9=E7=9B=AE</p></th>
+<th class=3D"confluenceTh">
+<p>Sui Chain</p></th>
+<th class=3D"confluenceTh">
+<p>BNB Chain</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=9C=B0=E5=9D=80=E9=95=BF=E5=BA=A6</p></td>
+<td class=3D"confluenceTd">
+<p>66=E5=AD=97=E7=AC=A6</p></td>
+<td class=3D"confluenceTd">
+<p>42=E5=AD=97=E7=AC=A6</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=9C=B0=E5=9D=80=E5=AD=97=E6=AE=B5</p></td>
+<td class=3D"confluenceTd">
+<p><code>VARCHAR(255)</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>VARCHAR(42)</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E4=BA=A4=E6=98=93=E5=93=88=E5=B8=8C</p></td>
+<td class=3D"confluenceTd">
+<p>Base58, 44=E5=AD=97=E7=AC=A6</p></td>
+<td class=3D"confluenceTd">
+<p>Hex, 66=E5=AD=97=E7=AC=A6</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E4=BA=A4=E6=98=93=E5=93=88=E5=B8=8C=E5=AD=97=E6=AE=B5</p></td>
+<td class=3D"confluenceTd">
+<p><code>tx_digest VARCHAR(255)</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>tx_hash VARCHAR(66)</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=8C=BA=E5=9D=97=E6=A0=87=E8=AF=86</p></td>
+<td class=3D"confluenceTd">
+<p><code>checkpoint BIGINT</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>block_number BIGINT</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E4=BA=8B=E4=BB=B6=E7=B4=A2=E5=BC=95</p></td>
+<td class=3D"confluenceTd">
+<p><code>event_index INT</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>log_index INT</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=90=88=E7=BA=A6=E6=A0=87=E8=AF=86</p></td>
+<td class=3D"confluenceTd">
+<p><code>package_id VARCHAR(255)</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>contract_address VARCHAR(42)</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E6=97=B6=E9=97=B4=E6=88=B3</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=AF=AB=E7=A7=92</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=A7=92=EF=BC=88=E9=93=BE=E4=B8=8A=EF=BC=89+ =E6=AF=AB=E7=A7=92=EF=BC=
+=88=E5=BA=94=E7=94=A8=EF=BC=89</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E4=BB=A3=E5=B8=81=E6=A0=87=E8=AF=86</p></td>
+<td class=3D"confluenceTd">
+<p>CoinType=E5=AD=97=E7=AC=A6=E4=B8=B2</p></td>
+<td class=3D"confluenceTd">
+<p>Token Address (ERC20)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E7=B4=A2=E5=BC=95=E7=AD=96=E7=95=A5">=E7=B4=A2=E5=BC=95=E7=AD=96=E7=95=A5=
+</h2>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E6=B8=B8=E6=A0=87=E5=88=86=E9=A1=B5=E7=B4=A2=E5=BC=95">=E6=B8=B8=E6=A0=87=
+=E5=88=86=E9=A1=B5=E7=B4=A2=E5=BC=95</h3>
+<p>=E6=89=80=E6=9C=89=E7=94=A8=E6=88=B7=E7=9B=B8=E5=85=B3=E8=A1=A8=E9=9C=80=
+=E8=A6=81=E5=A4=8D=E5=90=88=E7=B4=A2=E5=BC=95=E6=94=AF=E6=8C=81=E6=B8=B8=E6=
+=A0=87=E5=88=86=E9=A1=B5=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- =E7=
+=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E8=A1=A8
+CREATE INDEX idx_bnb_user_trades_cursor
+ON bnb_user_trades_{shard} (user_address, action_time_ms DESC, action_id DE=
+SC);
+
+-- =E7=94=A8=E6=88=B7=E6=8C=81=E4=BB=93=E8=A1=A8
+CREATE INDEX idx_bnb_user_positions_cursor
+ON bnb_user_positions_{shard} (user_address, open_time_ms DESC, position_id=
+ DESC);
+
+-- =E6=B0=B8=E7=BB=AD=E8=AE=A2=E5=8D=95=E8=A1=A8
+CREATE INDEX idx_bnb_perp_order_cursor
+ON bnb_perp_order_{shard} (user_address, create_timestamp_ms DESC, COALESCE=
+(order_id, request_id) DESC);</pre>
+</div>
+</div>
+<h3 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E6=9F=A5=E8=AF=A2=E4=BC=98=E5=8C=96=E7=B4=A2=E5=BC=95">=E6=9F=A5=E8=AF=A2=
+=E4=BC=98=E5=8C=96=E7=B4=A2=E5=BC=95</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- =E5=
+=8C=BA=E5=9D=97=E5=8F=B7=E8=8C=83=E5=9B=B4=E6=9F=A5=E8=AF=A2
+CREATE INDEX idx_bnb_tx_event_block_range
+ON bnb_transaction_event_{YYYY-MM} (block_number, log_index);
+
+-- =E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=E5=BF=AB=E9=80=9F=E6=9F=A5=E6=89=BE
+CREATE INDEX idx_bnb_user_trades_user
+ON bnb_user_trades_{shard} (user_address);
+
+-- =E4=BB=93=E4=BD=8DID=E6=9F=A5=E8=AF=A2
+CREATE INDEX idx_bnb_user_positions_id
+ON bnb_user_positions_{shard} (position_id);</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"V3=E7=89=88=E6=9C=AC=E6=95=B0=E6=8D=AE=E8=A1=A8=E8=AE=BE=E8=AE=A1=
+-=E6=95=B0=E6=8D=AE=E8=BF=81=E7=A7=BB=E6=B3=A8=E6=84=8F=E4=BA=8B=E9=A1=B9">=
+=E6=95=B0=E6=8D=AE=E8=BF=81=E7=A7=BB=E6=B3=A8=E6=84=8F=E4=BA=8B=E9=A1=B9</h=
+2>
+<ol start=3D"1">
+<li>
+<p><strong>=E5=9C=B0=E5=9D=80=E6=A0=BC=E5=BC=8F=E8=BD=AC=E6=8D=A2</strong>:=
+ Sui=E5=9C=B0=E5=9D=80=EF=BC=8866=E5=AD=97=E7=AC=A6=EF=BC=89=E2=86=92 BNB=
+=E5=9C=B0=E5=9D=80=EF=BC=8842=E5=AD=97=E7=AC=A6=EF=BC=89</p></li>
+<li>
+<p><strong>=E4=BA=A4=E6=98=93=E5=93=88=E5=B8=8C=E6=A0=BC=E5=BC=8F</strong>:=
+ Base58 =E2=86=92 Hex</p></li>
+<li>
+<p><strong>=E5=8C=BA=E5=9D=97=E6=A0=87=E8=AF=86</strong>: checkpoint =E2=86=
+=92 block_number</p></li>
+<li>
+<p><strong>=E4=BA=8B=E4=BB=B6=E7=B4=A2=E5=BC=95</strong>: event_index =E2=
+=86=92 log_index</p></li>
+<li>
+<p><strong>=E4=BB=A3=E5=B8=81=E6=A0=87=E8=AF=86</strong>: =E9=9C=80=E8=A6=
+=81=E7=BB=B4=E6=8A=A4 symbol =E2=86=94 token_address =E6=98=A0=E5=B0=84=E5=
+=85=B3=E7=B3=BB</p></li>
+</ol>
+<hr>
+    </div>
+</body>
+</html>
+------=_Part_174_2136080738.1772008252333--

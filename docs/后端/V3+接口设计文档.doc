@@ -1,0 +1,2023 @@
+Date: Wed, 25 Feb 2026 08:30:55 +0000 (UTC)
+Message-ID: <604536739.23.1772008255825@1b35b1827865>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_22_1570213070.1772008255825"
+
+------=_Part_22_1570213070.1772008255825
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>V3 =E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3</title=
+>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>V3 =E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3</h1>
+    <div class=3D"Section1">
+        <p></p>
+<h2 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-=E6=A6=
+=82=E8=BF=B0">=E6=A6=82=E8=BF=B0</h2>
+<p><strong>=E7=89=88=E6=9C=AC</strong>: v3<br><strong>=E5=9F=BA=E7=A1=80=E8=
+=B7=AF=E5=BE=84</strong>: <code>/api/v3/bnb</code><br><strong>=E7=BB=9F=E4=
+=B8=80=E7=BD=91=E5=85=B3</strong>: <code>&lt;http://localhost:8080/data-sta=
+tistics-query/api/v3/bnb</code>&gt;</p>
+<hr>
+<h2 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-BNBChain=
+=E4=B8=8ESuiChain=E5=8C=BA=E5=88=AB">BNB Chain =E4=B8=8E Sui Chain =E5=8C=
+=BA=E5=88=AB</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"96=
+abd41f-5580-49fc-891e-be6d57bfd955" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E7=89=B9=E6=80=A7</p></th>
+<th class=3D"confluenceTh">
+<p>Sui Chain</p></th>
+<th class=3D"confluenceTh">
+<p>BNB Chain (BSC)</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=9C=B0=E5=9D=80=E6=A0=BC=E5=BC=8F</p></td>
+<td class=3D"confluenceTd">
+<p>66=E5=AD=97=E7=AC=A6 (0x + 64 hex)</p></td>
+<td class=3D"confluenceTd">
+<p>42=E5=AD=97=E7=AC=A6 (0x + 40 hex)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E4=BA=A4=E6=98=93=E5=93=88=E5=B8=8C</p></td>
+<td class=3D"confluenceTd">
+<p>44=E5=AD=97=E7=AC=A6 (Base58)</p></td>
+<td class=3D"confluenceTd">
+<p>66=E5=AD=97=E7=AC=A6 (0x + 64 hex)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=8C=BA=E5=9D=97=E6=A0=87=E8=AF=86</p></td>
+<td class=3D"confluenceTd">
+<p>Checkpoint</p></td>
+<td class=3D"confluenceTd">
+<p>Block Number</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E4=BA=8B=E4=BB=B6=E7=B4=A2=E5=BC=95</p></td>
+<td class=3D"confluenceTd">
+<p>Event Index</p></td>
+<td class=3D"confluenceTd">
+<p>Log Index</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=90=88=E7=BA=A6=E6=A0=87=E8=AF=86</p></td>
+<td class=3D"confluenceTd">
+<p>Package ID</p></td>
+<td class=3D"confluenceTd">
+<p>Contract Address</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=B8=81=E7=A7=8D=E6=A0=87=E8=AF=86</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=B8=81=E7=A7=8D=E7=AC=A6=E5=8F=B7 (=E5=A6=82 "BTC")</p></td>
+<td class=3D"confluenceTd">
+<p>Token =E5=9C=B0=E5=9D=80 (=E5=A6=82 "0x...")</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-=E9=80=
+=9A=E7=94=A8=E8=A7=84=E8=8C=83">=E9=80=9A=E7=94=A8=E8=A7=84=E8=8C=83</h2>
+<h3 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-=E5=88=
+=86=E9=A1=B5=E5=8F=82=E6=95=B0">=E5=88=86=E9=A1=B5=E5=8F=82=E6=95=B0</h3>
+<p><strong>=E6=B8=B8=E6=A0=87=E5=88=86=E9=A1=B5</strong> (=E6=89=80=E6=9C=
+=89=E5=88=97=E8=A1=A8=E6=8E=A5=E5=8F=A3=E9=80=9A=E7=94=A8):</p>
+<ul>
+<li>
+<p><code>cursor</code>: =E6=B8=B8=E6=A0=87=EF=BC=88=E4=B8=8A=E4=B8=80=E9=A1=
+=B5=E8=BF=94=E5=9B=9E=E7=9A=84 next_cursor=EF=BC=89=EF=BC=8C=E9=A6=96=E6=AC=
+=A1=E8=AF=B7=E6=B1=82=E4=B8=8D=E4=BC=A0</p></li>
+<li>
+<p><code>limit</code>: =E6=AF=8F=E6=AC=A1=E8=8E=B7=E5=8F=96=E6=95=B0=E9=87=
+=8F=EF=BC=8C=E9=BB=98=E8=AE=A4 20=EF=BC=8C=E6=9C=80=E5=A4=A7 100</p></li>
+</ul>
+<h3 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-=E6=97=
+=B6=E9=97=B4=E5=8F=82=E6=95=B0">=E6=97=B6=E9=97=B4=E5=8F=82=E6=95=B0</h3>
+<ul>
+<li>
+<p><code>from</code>: =E8=B5=B7=E5=A7=8B=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=
+=88=E6=AF=AB=E7=A7=92=EF=BC=89</p></li>
+<li>
+<p><code>to</code>: =E7=BB=93=E6=9D=9F=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=
+=E6=AF=AB=E7=A7=92=EF=BC=89</p></li>
+</ul>
+<h3 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-=E5=93=
+=8D=E5=BA=94=E6=A0=BC=E5=BC=8F">=E5=93=8D=E5=BA=94=E6=A0=BC=E5=BC=8F</h3>
+<p><strong>=E6=88=90=E5=8A=9F=E5=93=8D=E5=BA=94</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "items": [...],
+  "next_cursor": "eyJpZCI6MTIzNDU2fQ=3D=3D",
+  "has_more": true
+}</pre>
+</div>
+</div>
+<p><strong>=E9=94=99=E8=AF=AF=E5=93=8D=E5=BA=94</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "error": "error message",
+  "code": "ERROR_CODE"
+}</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-=E6=8E=
+=A5=E5=8F=A3=E5=88=97=E8=A1=A8">=E6=8E=A5=E5=8F=A3=E5=88=97=E8=A1=A8</h2>
+<h3 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-1.=E6=9F=
+=A5=E8=AF=A2=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E8=AE=B0=E5=BD=95">1. =E6=
+=9F=A5=E8=AF=A2=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E8=AE=B0=E5=BD=95</h3>
+<p><strong>=E8=B7=AF=E5=BE=84</strong>: <code>GET /api/v3/bnb/user/trades</=
+code></p>
+<p><strong>=E6=8F=8F=E8=BF=B0</strong>: =E8=8E=B7=E5=8F=96=E6=8C=87=E5=AE=
+=9A=E7=94=A8=E6=88=B7=E5=9C=A8 BNB Chain =E4=B8=8A=E7=9A=84=E6=89=80=E6=9C=
+=89=E4=BA=A4=E6=98=93=E8=AE=B0=E5=BD=95</p>
+<p><strong>=E8=AF=B7=E6=B1=82=E5=8F=82=E6=95=B0</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"1c=
+cf53cc-a263-4a56-821c-8aead29809c1" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=8F=82=E6=95=B0</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=BF=85=E5=A1=AB</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=A4=BA=E4=BE=8B</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>user_address</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=98=AF</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=EF=BC=8842=E4=BD=8D=EF=BC=8C0x=E5=
+=BC=80=E5=A4=B4=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>symbol</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BA=A4=E6=98=93=E5=AF=B9=E7=AC=A6=E5=8F=B7</p></td>
+<td class=3D"confluenceTd">
+<p>BTC/USD</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>action_type</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=93=8D=E4=BD=9C=E7=B1=BB=E5=9E=8B: <code>increase</code>, <code>decre=
+ase</code>, <code>close</code>, <code>liquidate</code></p></td>
+<td class=3D"confluenceTd">
+<p>increase</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>is_long</p></td>
+<td class=3D"confluenceTd">
+<p>bool</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=98=AF=E5=90=A6=E5=81=9A=E5=A4=9A</p></td>
+<td class=3D"confluenceTd">
+<p>true</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>from</p></td>
+<td class=3D"confluenceTd">
+<p>int64</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=B5=B7=E5=A7=8B=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=
+=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>1704067200000</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>to</p></td>
+<td class=3D"confluenceTd">
+<p>int64</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=BB=93=E6=9D=9F=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=
+=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>1704153600000</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>cursor</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=B8=B8=E6=A0=87</p></td>
+<td class=3D"confluenceTd">
+<p>eyJpZCI6MTIzfQ=3D=3D</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>limit</p></td>
+<td class=3D"confluenceTd">
+<p>int</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=AF=8F=E6=AC=A1=E8=8E=B7=E5=8F=96=E6=95=B0=E9=87=8F=EF=BC=8C=E9=BB=98=
+=E8=AE=A420=EF=BC=8C=E6=9C=80=E5=A4=A7100</p></td>
+<td class=3D"confluenceTd">
+<p>20</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E5=93=8D=E5=BA=94=E7=A4=BA=E4=BE=8B</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "items": [
+    {
+      "action_id": "0x123abc...def_1",
+      "tx_hash": "0x123abc...def",
+      "log_index": 1,
+      "block_number": 12345678,
+      "user_address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+      "contract_address": "0xContract123...",
+      "position_id": "0xPos456...",
+      "action_type": "increase",
+      "index_coin": "0xBTC_Token_Address",
+      "collateral_coin": "0xUSDC_Token_Address",
+      "is_long": true,
+      "size_delta": "0.5",
+      "collateral_delta": "25000",
+      "price": "50000.00",
+      "realized_pnl": "0",
+      "has_profit": null,
+      "fee_usd": "25.00",
+      "action_time_ms": 1704067200000,
+      "block_timestamp": 1704067200
+    }
+  ],
+  "next_cursor": "eyJhY3Rpb25faWQiOiIweDEyM2FiYy4uLmRlZl8xIiwidGltZXN0YW1wI=
+joxNzA0MDY3MjAwMDAwfQ=3D=3D",
+  "has_more": true
+}</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-2.=E6=9F=
+=A5=E8=AF=A2=E7=94=A8=E6=88=B7=E6=8C=81=E4=BB=93">2. =E6=9F=A5=E8=AF=A2=E7=
+=94=A8=E6=88=B7=E6=8C=81=E4=BB=93</h3>
+<p><strong>=E8=B7=AF=E5=BE=84</strong>: <code>GET /api/v3/bnb/user/position=
+s</code></p>
+<p><strong>=E6=8F=8F=E8=BF=B0</strong>: =E8=8E=B7=E5=8F=96=E7=94=A8=E6=88=
+=B7=E5=9C=A8 BNB Chain =E4=B8=8A=E7=9A=84=E6=8C=81=E4=BB=93=EF=BC=88=E6=B4=
+=BB=E8=B7=83=E6=88=96=E5=8E=86=E5=8F=B2=EF=BC=89</p>
+<p><strong>=E8=AF=B7=E6=B1=82=E5=8F=82=E6=95=B0</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a1=
+18e31e-25d4-4143-8ddc-291840a32343" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=8F=82=E6=95=B0</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=BF=85=E5=A1=AB</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=A4=BA=E4=BE=8B</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>user_address</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=98=AF</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=EF=BC=8842=E4=BD=8D=EF=BC=89</p></t=
+d>
+<td class=3D"confluenceTd">
+<p>0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>status</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BB=93=E4=BD=8D=E7=8A=B6=E6=80=81: <code>active</code>, <code>closed<=
+/code>, <code>liquidated</code></p></td>
+<td class=3D"confluenceTd">
+<p>active</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>symbol</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BA=A4=E6=98=93=E5=AF=B9=E7=AC=A6=E5=8F=B7</p></td>
+<td class=3D"confluenceTd">
+<p>BTC/USD</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>is_long</p></td>
+<td class=3D"confluenceTd">
+<p>bool</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=98=AF=E5=90=A6=E5=81=9A=E5=A4=9A</p></td>
+<td class=3D"confluenceTd">
+<p>true</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>from</p></td>
+<td class=3D"confluenceTd">
+<p>int64</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=B5=B7=E5=A7=8B=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=
+=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>1704067200000</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>to</p></td>
+<td class=3D"confluenceTd">
+<p>int64</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=BB=93=E6=9D=9F=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=
+=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>1704153600000</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>cursor</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=B8=B8=E6=A0=87</p></td>
+<td class=3D"confluenceTd">
+<p>eyJpZCI6MTIzfQ=3D=3D</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>limit</p></td>
+<td class=3D"confluenceTd">
+<p>int</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=AF=8F=E6=AC=A1=E8=8E=B7=E5=8F=96=E6=95=B0=E9=87=8F=EF=BC=8C=E9=BB=98=
+=E8=AE=A420=EF=BC=8C=E6=9C=80=E5=A4=A7100</p></td>
+<td class=3D"confluenceTd">
+<p>20</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E5=93=8D=E5=BA=94=E7=A4=BA=E4=BE=8B</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "items": [
+    {
+      "position_id": "0xPos123...",
+      "user_address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+      "contract_address": "0xContract123...",
+      "index_coin": "0xBTC_Token_Address",
+      "collateral_coin": "0xUSDC_Token_Address",
+      "is_long": true,
+      "position_size": "1.5",
+      "collateral_amount": "75000",
+      "open_price": "48000.00",
+      "avg_entry_price": "49500.00",
+      "realized_pnl": "150.00",
+      "last_pnl_update_time_ms": 1704067200000,
+      "status": "active",
+      "open_time_ms": 1704067200000,
+      "close_time_ms": null,
+      "last_update_time_ms": 1704153600000,
+      "last_update_tx_hash": "0xUpdate123...",
+      "last_update_block_number": 12345700
+    }
+  ],
+  "next_cursor": "eyJwb3NpdGlvbl9pZCI6IjB4UG9zMTIzLi4uIiwib3Blbl90aW1lIjoxN=
+zA0MDY3MjAwMDAwfQ=3D=3D",
+  "has_more": false
+}</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-3.=E6=9F=
+=A5=E8=AF=A2=E7=94=A8=E6=88=B7=E6=8C=82=E5=8D=95">3. =E6=9F=A5=E8=AF=A2=E7=
+=94=A8=E6=88=B7=E6=8C=82=E5=8D=95</h3>
+<p><strong>=E8=B7=AF=E5=BE=84</strong>: <code>GET /api/v3/bnb/user/orders</=
+code></p>
+<p><strong>=E6=8F=8F=E8=BF=B0</strong>: =E8=8E=B7=E5=8F=96=E7=94=A8=E6=88=
+=B7=E5=9C=A8 BNB Chain =E4=B8=8A=E6=89=80=E6=9C=89=E6=9C=AA=E6=88=90=E4=BA=
+=A4=E7=9A=84=E6=8C=82=E5=8D=95</p>
+<p><strong>=E8=AF=B7=E6=B1=82=E5=8F=82=E6=95=B0</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"6b=
+a0db46-242f-4b75-b492-2d587c35dd71" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=8F=82=E6=95=B0</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=BF=85=E5=A1=AB</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=A4=BA=E4=BE=8B</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>user_address</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=98=AF</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=EF=BC=8842=E4=BD=8D=EF=BC=89</p></t=
+d>
+<td class=3D"confluenceTd">
+<p>0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>symbol</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BA=A4=E6=98=93=E5=AF=B9=E7=AC=A6=E5=8F=B7</p></td>
+<td class=3D"confluenceTd">
+<p>BTC/USD</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>order_type</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=AE=A2=E5=8D=95=E7=B1=BB=E5=9E=8B: <code>limit</code>, <code>market</=
+code></p></td>
+<td class=3D"confluenceTd">
+<p>limit</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>is_long</p></td>
+<td class=3D"confluenceTd">
+<p>bool</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=98=AF=E5=90=A6=E5=81=9A=E5=A4=9A</p></td>
+<td class=3D"confluenceTd">
+<p>true</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>cursor</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=B8=B8=E6=A0=87</p></td>
+<td class=3D"confluenceTd">
+<p>eyJpZCI6MTIzfQ=3D=3D</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>limit</p></td>
+<td class=3D"confluenceTd">
+<p>int</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=AF=8F=E6=AC=A1=E8=8E=B7=E5=8F=96=E6=95=B0=E9=87=8F=EF=BC=8C=E9=BB=98=
+=E8=AE=A420=EF=BC=8C=E6=9C=80=E5=A4=A7100</p></td>
+<td class=3D"confluenceTd">
+<p>20</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E5=93=8D=E5=BA=94=E7=A4=BA=E4=BE=8B</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "items": [
+    {
+      "order_id": "0xOrder123...",
+      "request_id": null,
+      "user_address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+      "contract_address": "0xContract123...",
+      "order_type": "limit",
+      "order_status": "pending",
+      "index_coin": "0xBTC_Token_Address",
+      "collateral_coin": "0xUSDC_Token_Address",
+      "pay_coin": "0xUSDC_Token_Address",
+      "is_long": true,
+      "size": null,
+      "collateral_amount": null,
+      "trigger_price": "48000.00",
+      "trigger_above": false,
+      "acceptable_price": "48100.00",
+      "execution_fee": "2.00",
+      "position_id": null,
+      "block_number": 12345678,
+      "tx_hash": "0xTx123...",
+      "create_timestamp_ms": 1704067200000,
+      "update_timestamp_ms": null,
+      "cancel_timestamp_ms": null,
+      "execute_timestamp_ms": null
+    }
+  ],
+  "next_cursor": "eyJvcmRlcl9pZCI6IjB4T3JkZXIxMjMuLi4iLCJjcmVhdGVfdGltZSI6M=
+TcwNDA2NzIwMDAwMH0=3D",
+  "has_more": false
+}</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-4.=E8=8E=
+=B7=E5=8F=96=E5=B7=A8=E9=B2=B8=E4=BA=A4=E6=98=93=E8=AE=B0=E5=BD=95">4. =E8=
+=8E=B7=E5=8F=96=E5=B7=A8=E9=B2=B8=E4=BA=A4=E6=98=93=E8=AE=B0=E5=BD=95</h3>
+<p><strong>=E8=B7=AF=E5=BE=84</strong>: <code>GET /api/v3/bnb/trades/whale<=
+/code></p>
+<p><strong>=E6=8F=8F=E8=BF=B0</strong>: =E7=9B=91=E6=8E=A7 BNB Chain =E4=B8=
+=8A=E7=9A=84=E5=B7=A8=E9=B2=B8=E4=BA=A4=E6=98=93=EF=BC=8C=E7=94=A8=E6=88=B7=
+=E5=9C=B0=E5=9D=80=E6=9D=A5=E6=BA=90=E4=BA=8E <code>special_user_address</c=
+ode> =E8=A1=A8=EF=BC=88category=3D'whale'=EF=BC=8C=E7=94=B1=E8=BF=90=E8=90=
+=A5=E4=BA=BA=E5=91=98=E6=89=8B=E5=8A=A8=E7=BB=B4=E6=8A=A4=EF=BC=89</p>
+<p><strong>=E8=AF=B7=E6=B1=82=E5=8F=82=E6=95=B0</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"1b=
+31d7ed-5bb4-45c0-a18e-9cdecd76bdf7" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=8F=82=E6=95=B0</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=BF=85=E5=A1=AB</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=A4=BA=E4=BE=8B</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>symbol</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BA=A4=E6=98=93=E5=AF=B9=E7=AC=A6=E5=8F=B7</p></td>
+<td class=3D"confluenceTd">
+<p>BTC/USD</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>action_type</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=93=8D=E4=BD=9C=E7=B1=BB=E5=9E=8B</p></td>
+<td class=3D"confluenceTd">
+<p>increase</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>is_long</p></td>
+<td class=3D"confluenceTd">
+<p>bool</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=98=AF=E5=90=A6=E5=81=9A=E5=A4=9A</p></td>
+<td class=3D"confluenceTd">
+<p>true</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>from</p></td>
+<td class=3D"confluenceTd">
+<p>int64</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=B5=B7=E5=A7=8B=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=
+=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>1704067200000</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>to</p></td>
+<td class=3D"confluenceTd">
+<p>int64</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=BB=93=E6=9D=9F=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=
+=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>1704153600000</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>cursor</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=B8=B8=E6=A0=87</p></td>
+<td class=3D"confluenceTd">
+<p>eyJpZCI6MTIzfQ=3D=3D</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>limit</p></td>
+<td class=3D"confluenceTd">
+<p>int</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=AF=8F=E6=AC=A1=E8=8E=B7=E5=8F=96=E6=95=B0=E9=87=8F=EF=BC=8C=E9=BB=98=
+=E8=AE=A420=EF=BC=8C=E6=9C=80=E5=A4=A7100</p></td>
+<td class=3D"confluenceTd">
+<p>20</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E5=93=8D=E5=BA=94=E7=A4=BA=E4=BE=8B</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "items": [
+    {
+      "action_id": "0x123abc...def_1",
+      "tx_hash": "0x123abc...def",
+      "log_index": 1,
+      "block_number": 12345678,
+      "user_address": "0xWhale123...",
+      "contract_address": "0xContract123...",
+      "position_id": "0xPos456...",
+      "action_type": "increase",
+      "index_coin": "0xBTC_Token_Address",
+      "collateral_coin": "0xUSDC_Token_Address",
+      "is_long": true,
+      "size_delta": "10.0",
+      "collateral_delta": "500000",
+      "price": "50000.00",
+      "realized_pnl": "0",
+      "has_profit": null,
+      "fee_usd": "500.00",
+      "action_time_ms": 1704067200000,
+      "block_timestamp": 1704067200
+    }
+  ],
+  "next_cursor": "eyJhY3Rpb25faWQiOiIweDEyM2FiYy4uLmRlZl8xIiwidGltZXN0YW1wI=
+joxNzA0MDY3MjAwMDAwfQ=3D=3D",
+  "has_more": true
+}</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-5.=E8=8E=
+=B7=E5=8F=96=E8=81=AA=E6=98=8E=E9=92=B1=E4=BA=A4=E6=98=93=E8=AE=B0=E5=BD=95=
+">5. =E8=8E=B7=E5=8F=96=E8=81=AA=E6=98=8E=E9=92=B1=E4=BA=A4=E6=98=93=E8=AE=
+=B0=E5=BD=95</h3>
+<p><strong>=E8=B7=AF=E5=BE=84</strong>: <code>GET /api/v3/bnb/trades/smart-=
+money</code></p>
+<p><strong>=E6=8F=8F=E8=BF=B0</strong>: =E7=9B=91=E6=8E=A7 BNB Chain =E4=B8=
+=8A=E8=81=AA=E6=98=8E=E9=92=B1=E4=BA=A4=E6=98=93=E8=80=85=E7=9A=84=E6=93=8D=
+=E4=BD=9C=EF=BC=8C=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=E6=9D=A5=E6=BA=90=E4=
+=BA=8E <code>special_user_address</code> =E8=A1=A8=EF=BC=88category=3D'smar=
+t_money'=EF=BC=8C=E7=94=B1=E8=BF=90=E8=90=A5=E4=BA=BA=E5=91=98=E6=89=8B=E5=
+=8A=A8=E7=BB=B4=E6=8A=A4=EF=BC=89</p>
+<p><strong>=E8=AF=B7=E6=B1=82=E5=8F=82=E6=95=B0</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"48=
+38c07c-1b95-4e29-8cfd-6527fb4bbc25" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=8F=82=E6=95=B0</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=BF=85=E5=A1=AB</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=A4=BA=E4=BE=8B</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>symbol</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BA=A4=E6=98=93=E5=AF=B9=E7=AC=A6=E5=8F=B7</p></td>
+<td class=3D"confluenceTd">
+<p>BTC/USD</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>action_type</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=93=8D=E4=BD=9C=E7=B1=BB=E5=9E=8B</p></td>
+<td class=3D"confluenceTd">
+<p>increase</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>is_long</p></td>
+<td class=3D"confluenceTd">
+<p>bool</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=98=AF=E5=90=A6=E5=81=9A=E5=A4=9A</p></td>
+<td class=3D"confluenceTd">
+<p>true</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>from</p></td>
+<td class=3D"confluenceTd">
+<p>int64</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=B5=B7=E5=A7=8B=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=
+=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>1704067200000</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>to</p></td>
+<td class=3D"confluenceTd">
+<p>int64</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=BB=93=E6=9D=9F=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=
+=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>1704153600000</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>cursor</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=B8=B8=E6=A0=87</p></td>
+<td class=3D"confluenceTd">
+<p>eyJpZCI6MTIzfQ=3D=3D</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>limit</p></td>
+<td class=3D"confluenceTd">
+<p>int</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=AF=8F=E6=AC=A1=E8=8E=B7=E5=8F=96=E6=95=B0=E9=87=8F=EF=BC=8C=E9=BB=98=
+=E8=AE=A420=EF=BC=8C=E6=9C=80=E5=A4=A7100</p></td>
+<td class=3D"confluenceTd">
+<p>20</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E5=93=8D=E5=BA=94=E7=A4=BA=E4=BE=8B</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "items": [
+    {
+      "action_id": "0x123abc...def_1",
+      "tx_hash": "0x123abc...def",
+      "log_index": 1,
+      "block_number": 12345678,
+      "user_address": "0xSmart123...",
+      "contract_address": "0xContract123...",
+      "position_id": "0xPos456...",
+      "action_type": "increase",
+      "index_coin": "0xBTC_Token_Address",
+      "collateral_coin": "0xUSDC_Token_Address",
+      "is_long": true,
+      "size_delta": "2.0",
+      "collateral_delta": "100000",
+      "price": "50000.00",
+      "realized_pnl": "0",
+      "has_profit": null,
+      "fee_usd": "100.00",
+      "action_time_ms": 1704067200000,
+      "block_timestamp": 1704067200
+    }
+  ],
+  "next_cursor": "eyJhY3Rpb25faWQiOiIweDEyM2FiYy4uLmRlZl8xIiwidGltZXN0YW1wI=
+joxNzA0MDY3MjAwMDAwfQ=3D=3D",
+  "has_more": true
+}</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-6.=E8=8E=
+=B7=E5=8F=96=E6=B5=81=E5=8A=A8=E6=80=A7=E6=B1=A0=E5=88=97=E8=A1=A8">6. =E8=
+=8E=B7=E5=8F=96=E6=B5=81=E5=8A=A8=E6=80=A7=E6=B1=A0=E5=88=97=E8=A1=A8</h3>
+<p><strong>=E8=B7=AF=E5=BE=84</strong>: <code>GET /api/v3/bnb/pools</code><=
+/p>
+<p><strong>=E6=8F=8F=E8=BF=B0</strong>: =E8=8E=B7=E5=8F=96 BNB Chain =E4=B8=
+=8A=E6=89=80=E6=9C=89=E6=B5=81=E5=8A=A8=E6=80=A7=E6=B1=A0=E5=AD=90=E7=9A=84=
+=E6=A6=82=E8=A7=88=E6=95=B0=E6=8D=AE=EF=BC=8C=E5=8C=85=E5=90=AB=E6=9C=80=E8=
+=BF=9130=E5=A4=A9=E5=8E=86=E5=8F=B2=E5=BF=AB=E7=85=A7</p>
+<p><strong>=E8=AF=B7=E6=B1=82=E5=8F=82=E6=95=B0</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"38=
+b462e3-b907-4cde-97a6-1d0c4c75eeb9" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=8F=82=E6=95=B0</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=BF=85=E5=A1=AB</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=A4=BA=E4=BE=8B</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>type</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=B1=A0=E5=AD=90=E7=B1=BB=E5=9E=8B: <code>LV</code>, <code>LP</code></=
+p></td>
+<td class=3D"confluenceTd">
+<p>LV</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>include_history</p></td>
+<td class=3D"confluenceTd">
+<p>bool</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=98=AF=E5=90=A6=E5=8C=85=E5=90=AB=E5=8E=86=E5=8F=B2=E6=95=B0=E6=8D=AE=
+=EF=BC=8C=E9=BB=98=E8=AE=A4true</p></td>
+<td class=3D"confluenceTd">
+<p>true</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E5=93=8D=E5=BA=94=E7=A4=BA=E4=BE=8B</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "items": [
+    {
+      "token_address": "0xBTC_Token_Address",
+      "coin_symbol": "BTC",
+      "type": "LV",
+      "pool_amount": "100.5",
+      "reserved_amount": "20.0",
+      "weight": "0.50",
+      "fee_amount": "5.0",
+      "protocol_fee": "2.0",
+      "guaranteed_usd": "1000000.00",
+      "max_usd_amount": "5000000.00",
+      "global_short_size": "50.0",
+      "global_short_average_price": "49000.00",
+      "max_global_short_size": "200.0",
+      "max_global_long_size": "300.0",
+      "cumulative_funding_rate": "0.0012",
+      "last_funding_time": 1704067200000,
+      "is_shortable": true,
+      "is_stable": false,
+      "last_update_block_number": 12345678,
+      "last_update_tx_hash": "0xUpdate123...",
+      "last_update_time_ms": 1704153600000,
+      "history_30d": [
+        {
+          "day_timestamp": 1704067200000,
+          "pool_amount": "99.8",
+          "reserved_amount": "19.5",
+          "weight": "0.49",
+          "fee_amount": "4.8",
+          "protocol_fee": "1.9",
+          "global_short_size": "49.0",
+          "cumulative_funding_rate": "0.0011",
+          "actual_snapshot_time": "2025-01-01T00:00:00Z"
+        },
+        {
+          "day_timestamp": 1703980800000,
+          "pool_amount": "98.5",
+          "reserved_amount": "19.0",
+          "weight": "0.48",
+          "fee_amount": "4.5",
+          "protocol_fee": "1.8",
+          "global_short_size": "48.0",
+          "cumulative_funding_rate": "0.0010",
+          "actual_snapshot_time": "2024-12-31T00:00:00Z"
+        }
+      ]
+    }
+  ],
+  "next_cursor": null,
+  "has_more": false
+}</pre>
+</div>
+</div>
+<p><strong>=E8=AF=B4=E6=98=8E</strong>:</p>
+<ul>
+<li>
+<p><code>history_30d</code>: =E6=9C=80=E8=BF=9130=E5=A4=A9=E7=9A=84=E6=AF=
+=8F=E6=97=A5=E5=BF=AB=E7=85=A7=E6=95=B0=E6=8D=AE=EF=BC=88=E4=BB=A5=E5=A4=A9=
+=E4=B8=BA=E5=8D=95=E4=BD=8D=EF=BC=8C=E6=9C=80=E5=A4=9A30=E6=9D=A1=E8=AE=B0=
+=E5=BD=95=EF=BC=89</p></li>
+<li>
+<p>=E5=8E=86=E5=8F=B2=E6=95=B0=E6=8D=AE=E6=8C=89=E6=97=B6=E9=97=B4=E5=80=92=
+=E5=BA=8F=E6=8E=92=E5=88=97=EF=BC=88=E6=9C=80=E6=96=B0=E7=9A=84=E5=9C=A8=E5=
+=89=8D=EF=BC=89</p></li>
+<li>
+<p>=E5=A6=82=E6=9E=9C <code>include_history=3Dfalse</code>=EF=BC=8C=E5=88=
+=99 <code>history_30d</code> =E5=AD=97=E6=AE=B5=E4=B8=BA=E7=A9=BA=E6=95=B0=
+=E7=BB=84</p></li>
+</ul>
+<p><strong>=E5=AE=9E=E7=8E=B0=E6=96=B9=E6=A1=88</strong>:</p>
+<ul>
+<li>
+<p><strong>=E6=95=B0=E6=8D=AE=E6=BA=90</strong>: <code>bnb_custodies_hourly=
+</code> =E8=A1=A8=EF=BC=88=E5=B0=8F=E6=97=B6=E7=BA=A7=E5=BF=AB=E7=85=A7=E6=
+=95=B0=E6=8D=AE=EF=BC=89</p></li>
+<li>
+<p><strong>=E8=81=9A=E5=90=88=E9=80=BB=E8=BE=91</strong>:</p>
+<ul>
+<li>
+<p>=E4=BB=8E <code>bnb_custodies_hourly</code> =E8=A1=A8=E6=8C=89=E5=A4=A9=
+=E5=88=86=E7=BB=84=E6=9F=A5=E8=AF=A2</p></li>
+<li>
+<p>=E6=AF=8F=E5=A4=A9=E5=8F=96=E6=9C=80=E5=90=8E=E4=B8=80=E4=B8=AA=E5=B0=8F=
+=E6=97=B6=EF=BC=8823:00=EF=BC=89=E7=9A=84=E5=BF=AB=E7=85=A7=E6=95=B0=E6=8D=
+=AE=E4=BD=9C=E4=B8=BA=E8=AF=A5=E6=97=A5=E6=95=B0=E6=8D=AE</p></li>
+<li>
+<p>=E5=A6=82=E6=9E=9C=E5=BD=93=E5=A4=A923:00=E6=95=B0=E6=8D=AE=E4=B8=8D=E5=
+=AD=98=E5=9C=A8=EF=BC=8C=E5=88=99=E5=8F=96=E5=BD=93=E5=A4=A9=E6=9C=80=E5=90=
+=8E=E4=B8=80=E6=9D=A1=E5=8F=AF=E7=94=A8=E6=95=B0=E6=8D=AE</p></li>
+<li>
+<p>=E9=99=90=E5=88=B6=E6=9F=A5=E8=AF=A2=E6=9C=80=E8=BF=9130=E5=A4=A9=E7=9A=
+=84=E6=95=B0=E6=8D=AE</p></li>
+</ul></li>
+<li>
+<p><strong>=E6=9F=A5=E8=AF=A2=E7=A4=BA=E4=BE=8B</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- =E4=
+=BC=AA=E4=BB=A3=E7=A0=81=E7=A4=BA=E4=BE=8B
+SELECT DISTINCT ON (DATE(actual_snapshot_time), token_address)
+  token_address,
+  DATE_TRUNC('day', actual_snapshot_time) as day_timestamp,
+  pool_amount,
+  reserved_amount,
+  -- ... =E5=85=B6=E4=BB=96=E5=AD=97=E6=AE=B5
+FROM bnb_custodies_hourly
+WHERE token_address =3D $1
+  AND actual_snapshot_time &gt;=3D NOW() - INTERVAL '30 days'
+ORDER BY DATE(actual_snapshot_time) DESC,
+         actual_snapshot_time DESC
+LIMIT 30;</pre>
+</div>
+</div></li>
+</ul>
+<hr>
+<h3 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-7.=E8=8E=
+=B7=E5=8F=96=E6=8C=87=E5=AE=9A=E6=B5=81=E5=8A=A8=E6=80=A7=E6=B1=A0=E8=AF=A6=
+=E6=83=85">7. =E8=8E=B7=E5=8F=96=E6=8C=87=E5=AE=9A=E6=B5=81=E5=8A=A8=E6=80=
+=A7=E6=B1=A0=E8=AF=A6=E6=83=85</h3>
+<p><strong>=E8=B7=AF=E5=BE=84</strong>: <code>GET /api/v3/bnb/pools/:token_=
+address</code></p>
+<p><strong>=E6=8F=8F=E8=BF=B0</strong>: =E8=8E=B7=E5=8F=96=E6=8C=87=E5=AE=
+=9A=E6=B5=81=E5=8A=A8=E6=80=A7=E6=B1=A0=E7=9A=84=E8=AF=A6=E7=BB=86=E4=BF=A1=
+=E6=81=AF=E5=92=8C=E5=8E=86=E5=8F=B2=E6=95=B0=E6=8D=AE</p>
+<p><strong>=E8=B7=AF=E5=BE=84=E5=8F=82=E6=95=B0</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a6=
+5a8fc3-2ad1-4297-af82-a97e7bb93bbd" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=8F=82=E6=95=B0</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=BF=85=E5=A1=AB</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=A4=BA=E4=BE=8B</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>token_address</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=98=AF</p></td>
+<td class=3D"confluenceTd">
+<p>Token =E5=90=88=E7=BA=A6=E5=9C=B0=E5=9D=80=EF=BC=8842=E4=BD=8D=EF=BC=89<=
+/p></td>
+<td class=3D"confluenceTd">
+<p>0xBTC_Token_Address</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E6=9F=A5=E8=AF=A2=E5=8F=82=E6=95=B0</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"34=
+bffa19-4228-4650-854e-0427f66acda7" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=8F=82=E6=95=B0</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=BF=85=E5=A1=AB</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=A4=BA=E4=BE=8B</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>include_history</p></td>
+<td class=3D"confluenceTd">
+<p>bool</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=98=AF=E5=90=A6=E5=8C=85=E5=90=AB=E5=8E=86=E5=8F=B2=E6=95=B0=E6=8D=AE=
+=EF=BC=8C=E9=BB=98=E8=AE=A4false</p></td>
+<td class=3D"confluenceTd">
+<p>true</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>from</p></td>
+<td class=3D"confluenceTd">
+<p>int64</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=8E=86=E5=8F=B2=E6=95=B0=E6=8D=AE=E8=B5=B7=E5=A7=8B=E6=97=B6=E9=97=B4=
+=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>1704067200000</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>to</p></td>
+<td class=3D"confluenceTd">
+<p>int64</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=8E=86=E5=8F=B2=E6=95=B0=E6=8D=AE=E7=BB=93=E6=9D=9F=E6=97=B6=E9=97=B4=
+=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>1704153600000</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E5=93=8D=E5=BA=94=E7=A4=BA=E4=BE=8B</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "current": {
+    "token_address": "0xBTC_Token_Address",
+    "coin_symbol": "BTC",
+    "type": "LV",
+    "pool_amount": "100.5",
+    "reserved_amount": "20.0",
+    "weight": "0.50",
+    "fee_amount": "5.0",
+    "protocol_fee": "2.0",
+    "guaranteed_usd": "1000000.00",
+    "max_usd_amount": "5000000.00",
+    "global_short_size": "50.0",
+    "global_short_average_price": "49000.00",
+    "max_global_short_size": "200.0",
+    "max_global_long_size": "300.0",
+    "cumulative_funding_rate": "0.0012",
+    "last_funding_time": 1704067200000,
+    "is_shortable": true,
+    "is_stable": false,
+    "last_update_block_number": 12345678,
+    "last_update_tx_hash": "0xUpdate123...",
+    "last_update_time_ms": 1704153600000
+  },
+  "history": [
+    {
+      "hour_timestamp": 1704067200000,
+      "pool_amount": "99.8",
+      "reserved_amount": "19.5",
+      "weight": "0.49",
+      "fee_amount": "4.8",
+      "protocol_fee": "1.9",
+      "actual_snapshot_time": "2025-01-01T00:00:00Z"
+    }
+  ]
+}</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-8.=E8=8E=
+=B7=E5=8F=96=E6=89=80=E6=9C=89=E4=BA=A4=E6=98=93=E5=B8=81=E5=AF=B9=E8=A1=8C=
+=E6=83=85=E6=95=B0=E6=8D=AE">8. =E8=8E=B7=E5=8F=96=E6=89=80=E6=9C=89=E4=BA=
+=A4=E6=98=93=E5=B8=81=E5=AF=B9=E8=A1=8C=E6=83=85=E6=95=B0=E6=8D=AE</h3>
+<p><strong>=E8=B7=AF=E5=BE=84</strong>: <code>GET /api/v3/bnb/markets</code=
+></p>
+<p><strong>=E6=8F=8F=E8=BF=B0</strong>: =E8=8E=B7=E5=8F=96 BNB Chain =E4=B8=
+=8A=E6=89=80=E6=9C=89=E4=BA=A4=E6=98=93=E5=AF=B9=E7=9A=84=E5=AE=9E=E6=97=B6=
+=E8=A1=8C=E6=83=85=E6=95=B0=E6=8D=AE</p>
+<p><strong>=E8=AF=B7=E6=B1=82=E5=8F=82=E6=95=B0</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"56=
+50856e-30b8-44aa-98a7-29abb4e7ba82" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=8F=82=E6=95=B0</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=BF=85=E5=A1=AB</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=A4=BA=E4=BE=8B</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>symbol</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BA=A4=E6=98=93=E5=AF=B9=E7=AC=A6=E5=8F=B7=EF=BC=8C=E4=B8=8D=E5=A1=AB=
+=E5=88=99=E8=BF=94=E5=9B=9E=E6=89=80=E6=9C=89</p></td>
+<td class=3D"confluenceTd">
+<p>BTC/USD</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E5=93=8D=E5=BA=94=E7=A4=BA=E4=BE=8B</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "items": [
+    {
+      "symbol": "BTC/USD",
+      "index_coin": "0xBTC_Token_Address",
+      "last_price": "50000.00",
+      "high_24h": "51000.00",
+      "low_24h": "49000.00",
+      "pool_amount": "100.5",
+      "reserved_amount": "20.0",
+      "usdc_decimals": 6,
+      "usdc_pool_amount": "50000000.00",
+      "usdc_reserved_amount": "10000000.00",
+      "max_global_long_size": "300.0",
+      "max_global_short_size": "200.0",
+      "long_position_interest": "150.5",
+      "short_position_interest": "80.3",
+      "funding_fee_rate_long_1h": "0.00008",
+      "funding_fee_rate_short_1h": "0.00007",
+      "borrow_fee_rate_long_1h": "0.00005",
+      "borrow_fee_rate_short_1h": "0.00003",
+      "snapshot_time_ms": 1704153600000
+    }
+  ],
+  "next_cursor": null,
+  "has_more": false
+}</pre>
+</div>
+</div>
+<p><strong>=E5=AD=97=E6=AE=B5=E8=AF=B4=E6=98=8E</strong>:</p>
+<ul>
+<li>
+<p><code>pool_amount</code>: =E6=8C=87=E6=95=B0=E5=B8=81=E7=A7=8D=EF=BC=88i=
+ndex_coin=EF=BC=89=E7=9A=84=E6=B1=A0=E5=AD=90=E6=95=B0=E9=87=8F</p></li>
+<li>
+<p><code>reserved_amount</code>: =E6=8C=87=E6=95=B0=E5=B8=81=E7=A7=8D=E7=9A=
+=84=E9=A2=84=E7=95=99=E6=95=B0=E9=87=8F</p></li>
+<li>
+<p><code>usdc_decimals</code>: USDC =E4=BB=A3=E5=B8=81=E7=B2=BE=E5=BA=A6</p=
+></li>
+<li>
+<p><code>usdc_pool_amount</code>: USDC =E7=9A=84=E6=B1=A0=E5=AD=90=E6=95=B0=
+=E9=87=8F</p></li>
+<li>
+<p><code>usdc_reserved_amount</code>: USDC =E7=9A=84=E9=A2=84=E7=95=99=E6=
+=95=B0=E9=87=8F</p></li>
+<li>
+<p><code>max_global_long_size</code>: =E6=9C=80=E5=A4=A7=E5=85=A8=E5=B1=80=
+=E5=A4=9A=E5=A4=B4=E4=BB=93=E4=BD=8D</p></li>
+<li>
+<p><code>max_global_short_size</code>: =E6=9C=80=E5=A4=A7=E5=85=A8=E5=B1=80=
+=E7=A9=BA=E5=A4=B4=E4=BB=93=E4=BD=8D</p></li>
+<li>
+<p><code>long_position_interest</code>: =E5=BD=93=E5=89=8D=E5=A4=9A=E5=A4=
+=B4=E6=8C=81=E4=BB=93=E9=87=8F</p></li>
+<li>
+<p><code>short_position_interest</code>: =E5=BD=93=E5=89=8D=E7=A9=BA=E5=A4=
+=B4=E6=8C=81=E4=BB=93=E9=87=8F</p></li>
+<li>
+<p><code>funding_fee_rate_long_1h</code>: 1=E5=B0=8F=E6=97=B6=E8=B5=84=E9=
+=87=91=E8=B4=B9=E7=8E=87=EF=BC=88=E5=A4=9A=E5=A4=B4=EF=BC=89</p></li>
+<li>
+<p><code>funding_fee_rate_short_1h</code>: 1=E5=B0=8F=E6=97=B6=E8=B5=84=E9=
+=87=91=E8=B4=B9=E7=8E=87=EF=BC=88=E7=A9=BA=E5=A4=B4=EF=BC=89</p></li>
+<li>
+<p><code>borrow_fee_rate_long_1h</code>: 1=E5=B0=8F=E6=97=B6=E5=80=9F=E6=AC=
+=BE=E8=B4=B9=E7=8E=87=EF=BC=88=E5=A4=9A=E5=A4=B4=EF=BC=89</p></li>
+<li>
+<p><code>borrow_fee_rate_short_1h</code>: 1=E5=B0=8F=E6=97=B6=E5=80=9F=E6=
+=AC=BE=E8=B4=B9=E7=8E=87=EF=BC=88=E7=A9=BA=E5=A4=B4=EF=BC=89</p></li>
+</ul>
+<hr>
+<h3 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-9.=E8=8E=
+=B7=E5=8F=96=E6=8C=87=E5=AE=9A=E4=BA=A4=E6=98=93=E5=B8=81=E5=AF=B9=E8=A1=8C=
+=E6=83=85=E8=AF=A6=E6=83=85">9. =E8=8E=B7=E5=8F=96=E6=8C=87=E5=AE=9A=E4=BA=
+=A4=E6=98=93=E5=B8=81=E5=AF=B9=E8=A1=8C=E6=83=85=E8=AF=A6=E6=83=85</h3>
+<p><strong>=E8=B7=AF=E5=BE=84</strong>: <code>GET /api/v3/bnb/markets/:toke=
+n_address</code></p>
+<p><strong>=E6=8F=8F=E8=BF=B0</strong>: =E8=8E=B7=E5=8F=96=E6=8C=87=E5=AE=
+=9A=E4=BA=A4=E6=98=93=E5=B8=81=E5=AF=B9=E7=9A=84=E8=AF=A6=E7=BB=86=E8=A1=8C=
+=E6=83=85=E6=95=B0=E6=8D=AE=E5=92=8C=E5=8E=86=E5=8F=B2=E6=95=B0=E6=8D=AE</p=
+>
+<p><strong>=E8=B7=AF=E5=BE=84=E5=8F=82=E6=95=B0</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"1a=
+06ccc2-847e-4cc7-9056-b8237f784a4b" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=8F=82=E6=95=B0</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=BF=85=E5=A1=AB</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=A4=BA=E4=BE=8B</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>token_address</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=98=AF</p></td>
+<td class=3D"confluenceTd">
+<p>Token =E5=90=88=E7=BA=A6=E5=9C=B0=E5=9D=80=EF=BC=8842=E4=BD=8D=EF=BC=89<=
+/p></td>
+<td class=3D"confluenceTd">
+<p>0xBTC_Token_Address</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E6=9F=A5=E8=AF=A2=E5=8F=82=E6=95=B0</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"18=
+76d997-4bb2-43ae-bd25-8febcc4cf029" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=8F=82=E6=95=B0</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=BF=85=E5=A1=AB</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=A4=BA=E4=BE=8B</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>include_history</p></td>
+<td class=3D"confluenceTd">
+<p>bool</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=98=AF=E5=90=A6=E5=8C=85=E5=90=AB=E5=8E=86=E5=8F=B2=E6=95=B0=E6=8D=AE=
+=EF=BC=8C=E9=BB=98=E8=AE=A4false</p></td>
+<td class=3D"confluenceTd">
+<p>true</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>interval</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=97=B6=E9=97=B4=E9=97=B4=E9=9A=94: <code>1h</code>, <code>4h</code>, =
+<code>1d</code>=EF=BC=8C=E9=BB=98=E8=AE=A41h</p></td>
+<td class=3D"confluenceTd">
+<p>1h</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>from</p></td>
+<td class=3D"confluenceTd">
+<p>int64</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=8E=86=E5=8F=B2=E6=95=B0=E6=8D=AE=E8=B5=B7=E5=A7=8B=E6=97=B6=E9=97=B4=
+=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>1704067200000</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>to</p></td>
+<td class=3D"confluenceTd">
+<p>int64</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=8E=86=E5=8F=B2=E6=95=B0=E6=8D=AE=E7=BB=93=E6=9D=9F=E6=97=B6=E9=97=B4=
+=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>1704153600000</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E5=93=8D=E5=BA=94=E7=A4=BA=E4=BE=8B</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "current": {
+    "symbol": "BTC/USD",
+    "index_coin": "0xBTC_Token_Address",
+    "last_price": "50000.00",
+    "high_24h": "51000.00",
+    "low_24h": "49000.00",
+    "pool_amount": "100.5",
+    "reserved_amount": "20.0",
+    "usdc_decimals": 6,
+    "usdc_pool_amount": "50000000.00",
+    "usdc_reserved_amount": "10000000.00",
+    "max_global_long_size": "300.0",
+    "max_global_short_size": "200.0",
+    "long_position_interest": "150.5",
+    "short_position_interest": "80.3",
+    "funding_fee_rate_long_1h": "0.00008",
+    "funding_fee_rate_short_1h": "0.00007",
+    "borrow_fee_rate_long_1h": "0.00005",
+    "borrow_fee_rate_short_1h": "0.00003",
+    "snapshot_time_ms": 1704153600000
+  },
+  "history": [
+    {
+      "timestamp": 1704067200000,
+      "last_price": "49800.00",
+      "high_24h": "50500.00",
+      "low_24h": "48900.00",
+      "long_position_interest": "148.2",
+      "short_position_interest": "78.5",
+      "funding_fee_rate_long_1h": "0.00009",
+      "funding_fee_rate_short_1h": "0.00008",
+      "borrow_fee_rate_long_1h": "0.00005",
+      "borrow_fee_rate_short_1h": "0.00003"
+    }
+  ]
+}</pre>
+</div>
+</div>
+<p><strong>=E5=AD=97=E6=AE=B5=E8=AF=B4=E6=98=8E</strong>:</p>
+<ul>
+<li>
+<p><code>pool_amount</code>: =E6=8C=87=E6=95=B0=E5=B8=81=E7=A7=8D=EF=BC=88i=
+ndex_coin=EF=BC=89=E7=9A=84=E6=B1=A0=E5=AD=90=E6=95=B0=E9=87=8F</p></li>
+<li>
+<p><code>reserved_amount</code>: =E6=8C=87=E6=95=B0=E5=B8=81=E7=A7=8D=E7=9A=
+=84=E9=A2=84=E7=95=99=E6=95=B0=E9=87=8F</p></li>
+<li>
+<p><code>usdc_decimals</code>: USDC =E4=BB=A3=E5=B8=81=E7=B2=BE=E5=BA=A6</p=
+></li>
+<li>
+<p><code>usdc_pool_amount</code>: USDC =E7=9A=84=E6=B1=A0=E5=AD=90=E6=95=B0=
+=E9=87=8F</p></li>
+<li>
+<p><code>usdc_reserved_amount</code>: USDC =E7=9A=84=E9=A2=84=E7=95=99=E6=
+=95=B0=E9=87=8F</p></li>
+<li>
+<p><code>max_global_long_size</code>: =E6=9C=80=E5=A4=A7=E5=85=A8=E5=B1=80=
+=E5=A4=9A=E5=A4=B4=E4=BB=93=E4=BD=8D</p></li>
+<li>
+<p><code>max_global_short_size</code>: =E6=9C=80=E5=A4=A7=E5=85=A8=E5=B1=80=
+=E7=A9=BA=E5=A4=B4=E4=BB=93=E4=BD=8D</p></li>
+<li>
+<p><code>long_position_interest</code>: =E5=BD=93=E5=89=8D=E5=A4=9A=E5=A4=
+=B4=E6=8C=81=E4=BB=93=E9=87=8F</p></li>
+<li>
+<p><code>short_position_interest</code>: =E5=BD=93=E5=89=8D=E7=A9=BA=E5=A4=
+=B4=E6=8C=81=E4=BB=93=E9=87=8F</p></li>
+<li>
+<p><code>funding_fee_rate_long_1h</code>: 1=E5=B0=8F=E6=97=B6=E8=B5=84=E9=
+=87=91=E8=B4=B9=E7=8E=87=EF=BC=88=E5=A4=9A=E5=A4=B4=EF=BC=89</p></li>
+<li>
+<p><code>funding_fee_rate_short_1h</code>: 1=E5=B0=8F=E6=97=B6=E8=B5=84=E9=
+=87=91=E8=B4=B9=E7=8E=87=EF=BC=88=E7=A9=BA=E5=A4=B4=EF=BC=89</p></li>
+<li>
+<p><code>borrow_fee_rate_long_1h</code>: 1=E5=B0=8F=E6=97=B6=E5=80=9F=E6=AC=
+=BE=E8=B4=B9=E7=8E=87=EF=BC=88=E5=A4=9A=E5=A4=B4=EF=BC=89</p></li>
+<li>
+<p><code>borrow_fee_rate_short_1h</code>: 1=E5=B0=8F=E6=97=B6=E5=80=9F=E6=
+=AC=BE=E8=B4=B9=E7=8E=87=EF=BC=88=E7=A9=BA=E5=A4=B4=EF=BC=89</p></li>
+</ul>
+<hr>
+<h3 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-10.=E6=
+=9F=A5=E8=AF=A2=E5=85=A8=E5=B1=80=E4=BA=A4=E6=98=93=E8=AE=B0=E5=BD=95">10. =
+=E6=9F=A5=E8=AF=A2=E5=85=A8=E5=B1=80=E4=BA=A4=E6=98=93=E8=AE=B0=E5=BD=95</h=
+3>
+<p><strong>=E8=B7=AF=E5=BE=84</strong>: <code>GET /api/v3/bnb/trades</code>=
+</p>
+<p><strong>=E6=8F=8F=E8=BF=B0</strong>: =E8=8E=B7=E5=8F=96 BNB Chain =E4=B8=
+=8A=E6=9C=80=E8=BF=91 7 =E5=A4=A9=E7=9A=84=E4=BA=A4=E6=98=93=E8=AE=B0=E5=BD=
+=95=EF=BC=88=E6=8C=89=E4=BA=A4=E6=98=93=E9=87=8F=E6=88=96=E6=B4=BB=E8=B7=83=
+=E5=BA=A6=E6=8E=92=E5=BA=8F=EF=BC=89</p>
+<p><strong>=E8=AF=B7=E6=B1=82=E5=8F=82=E6=95=B0</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"42=
+578a70-5203-402c-a4f4-12743efbddf3" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=8F=82=E6=95=B0</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=BF=85=E5=A1=AB</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=A4=BA=E4=BE=8B</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>time_range</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=97=B6=E9=97=B4=E8=8C=83=E5=9B=B4: <code>1h</code>, <code>6h</code>, =
+<code>24h</code>, <code>7d</code>=EF=BC=8C=E9=BB=98=E8=AE=A424h</p></td>
+<td class=3D"confluenceTd">
+<p>24h</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>symbol</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BA=A4=E6=98=93=E5=AF=B9=E7=AC=A6=E5=8F=B7</p></td>
+<td class=3D"confluenceTd">
+<p>BTC/USD</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>min_volume_usd</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=9C=80=E5=B0=8F=E4=BA=A4=E6=98=93=E9=A2=9D=EF=BC=88USD=EF=BC=89</p></=
+td>
+<td class=3D"confluenceTd">
+<p>10000</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>sort_by</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8E=92=E5=BA=8F=E4=BE=9D=E6=8D=AE: <code>volume</code>, <code>time</c=
+ode>=EF=BC=8C=E9=BB=98=E8=AE=A4time</p></td>
+<td class=3D"confluenceTd">
+<p>volume</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>cursor</p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=B8=B8=E6=A0=87</p></td>
+<td class=3D"confluenceTd">
+<p>eyJpZCI6MTIzfQ=3D=3D</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>limit</p></td>
+<td class=3D"confluenceTd">
+<p>int</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=AF=8F=E6=AC=A1=E8=8E=B7=E5=8F=96=E6=95=B0=E9=87=8F=EF=BC=8C=E9=BB=98=
+=E8=AE=A420=EF=BC=8C=E6=9C=80=E5=A4=A7100</p></td>
+<td class=3D"confluenceTd">
+<p>20</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E5=93=8D=E5=BA=94=E7=A4=BA=E4=BE=8B</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "items": [
+    {
+      "action_id": "0x123abc...def_1",
+      "tx_hash": "0x123abc...def",
+      "log_index": 1,
+      "block_number": 12345678,
+      "user_address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+      "contract_address": "0xContract123...",
+      "position_id": "0xPos456...",
+      "action_type": "increase",
+      "index_coin": "0xBTC_Token_Address",
+      "collateral_coin": "0xUSDC_Token_Address",
+      "is_long": true,
+      "size_delta": "5.0",
+      "price": "50000.00",
+      "volume_usd": "250000.00",
+      "fee_usd": "250.00",
+      "action_time_ms": 1704067200000,
+      "cache_time_ms": 1704153600000
+    }
+  ],
+  "next_cursor": "eyJhY3Rpb25faWQiOiIweDEyM2FiYy4uLmRlZl8xIiwidm9sdW1lIjoyN=
+TAwMDAsInRpbWVzdGFtcCI6MTcwNDA2NzIwMDAwMH0=3D",
+  "has_more": true,
+  "stats": {
+    "total_volume_24h": "500000000.00",
+    "total_trades_24h": 15000,
+    "avg_trade_size": "33333.33"
+  }
+}</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-=E6=95=
+=B0=E6=8D=AE=E6=A8=A1=E5=9E=8B">=E6=95=B0=E6=8D=AE=E6=A8=A1=E5=9E=8B</h2>
+<h3 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-BNBChain=
+=E5=AD=97=E6=AE=B5=E6=A0=BC=E5=BC=8F">BNB Chain =E5=AD=97=E6=AE=B5=E6=A0=BC=
+=E5=BC=8F</h3>
+<p><strong>=E5=9C=B0=E5=9D=80=E5=AD=97=E6=AE=B5</strong>: 42 =E5=AD=97=E7=
+=AC=A6 (0x + 40 hex)</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "user_address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+  "contract_address": "0x123456789abcdef123456789abcdef1234567890"
+}</pre>
+</div>
+</div>
+<p><strong>=E4=BA=A4=E6=98=93=E5=93=88=E5=B8=8C</strong>: 66 =E5=AD=97=E7=
+=AC=A6 (0x + 64 hex)</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "tx_hash": "0x123abc...def0123456789abcdef0123456789abcdef0123456789abcde=
+f012345"
+}</pre>
+</div>
+</div>
+<p><strong>Token =E5=9C=B0=E5=9D=80</strong>: 42 =E5=AD=97=E7=AC=A6 (0x + 4=
+0 hex)</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "index_coin": "0xBTC_Token_Address_123456789abcdef123456",
+  "collateral_coin": "0xUSDC_Token_Address_123456789abcdef12345"
+}</pre>
+</div>
+</div>
+<p><strong>=E5=8C=BA=E5=9D=97=E5=92=8C=E4=BA=8B=E4=BB=B6=E6=A0=87=E8=AF=86<=
+/strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "block_number": 12345678,
+  "log_index": 1
+}</pre>
+</div>
+</div>
+<h3 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-=E6=9E=
+=9A=E4=B8=BE=E7=B1=BB=E5=9E=8B">=E6=9E=9A=E4=B8=BE=E7=B1=BB=E5=9E=8B</h3>
+<h4 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-TradeAct=
+ionType(=E4=BA=A4=E6=98=93=E6=93=8D=E4=BD=9C=E7=B1=BB=E5=9E=8B)">TradeActio=
+nType (=E4=BA=A4=E6=98=93=E6=93=8D=E4=BD=9C=E7=B1=BB=E5=9E=8B)</h4>
+<ul>
+<li>
+<p><code>open</code>: =E5=BC=80=E4=BB=93</p></li>
+<li>
+<p><code>increase</code>: =E5=A2=9E=E4=BB=93</p></li>
+<li>
+<p><code>decrease</code>: =E5=87=8F=E4=BB=93</p></li>
+<li>
+<p><code>close</code>: =E5=B9=B3=E4=BB=93</p></li>
+<li>
+<p><code>liquidate</code>: =E6=B8=85=E7=AE=97</p></li>
+</ul>
+<h4 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-OrderTyp=
+e(=E8=AE=A2=E5=8D=95=E7=B1=BB=E5=9E=8B)">OrderType (=E8=AE=A2=E5=8D=95=E7=
+=B1=BB=E5=9E=8B)</h4>
+<ul>
+<li>
+<p><code>market</code>: =E5=B8=82=E4=BB=B7=E5=8D=95</p></li>
+<li>
+<p><code>limit</code>: =E9=99=90=E4=BB=B7=E5=8D=95</p></li>
+<li>
+<p><code>trigger</code>: =E8=A7=A6=E5=8F=91=E5=8D=95</p></li>
+</ul>
+<h4 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-OrderSta=
+tus(=E8=AE=A2=E5=8D=95=E7=8A=B6=E6=80=81)">OrderStatus (=E8=AE=A2=E5=8D=95=
+=E7=8A=B6=E6=80=81)</h4>
+<ul>
+<li>
+<p><code>pending</code>: =E5=BE=85=E6=89=A7=E8=A1=8C</p></li>
+<li>
+<p><code>executed</code>: =E5=B7=B2=E6=89=A7=E8=A1=8C</p></li>
+<li>
+<p><code>cancelled</code>: =E5=B7=B2=E5=8F=96=E6=B6=88</p></li>
+<li>
+<p><code>expired</code>: =E5=B7=B2=E8=BF=87=E6=9C=9F</p></li>
+</ul>
+<h4 id=3D"V3=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3-Position=
+Status(=E4=BB=93=E4=BD=8D=E7=8A=B6=E6=80=81)">PositionStatus (=E4=BB=93=E4=
+=BD=8D=E7=8A=B6=E6=80=81)</h4>
+<ul>
+<li>
+<p><code>active</code>: =E6=B4=BB=E8=B7=83=E4=B8=AD</p></li>
+<li>
+<p><code>closed</code>: =E5=B7=B2=E5=B9=B3=E4=BB=93</p></li>
+<li>
+<p><code>liquidated</code>: =E5=B7=B2=E6=B8=85=E7=AE=97</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_22_1570213070.1772008255825--

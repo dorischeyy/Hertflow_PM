@@ -1,0 +1,66 @@
+﻿Priority,Feature Name,负责人,Page & Status,Description
+P1,Carousel,,"Trade,Done",顶部ticker滚动条，显示多个市场和价格变化
+P1,Market List,,"Trade,Done",点击当前市场下拉选择其他市场
+P1,Price Chart,,"Trade,Done",价格K线图，trading view 免费版API
+P1,Recent Trades,,"Trade,Done",显示：Price、Size、Time 全局交易历史，24h Market Sentiment
+P1,Market Info,,"Trade,Done",显示：24h High/Low、Liquidity、Open Interest、1H Net Rate
+P0,Trade Panel,,"Trade,Done",多空方向，订单选择Market和Limit，止盈止损，杠杆，输入框
+P0,Trade Panel - TPSL,,"Trade,Done",TP Price输入框，TP Price/Gain/%显示 SL Price输入框，SL Price/Loss/%显示
+P1,Trade Panel - Detail Review,,"Trade,Done",显示手续费金额；显示当前杠杆倍数；显示预计开仓价格；显示预计强平价格；显示滑点百分比
+P1,Positions Tab,,"Trade,Done",显示：Symbol、Size、Net Value、Collateral、Entry Price、Mark/Liq Price、TP/SL Price
+P1,Orders Tab,,"Trade,Done",显示订单数量：Orders 12
+P1,History Tab,,"Trade,Done",历史交易记录
+P0,Claim Tab,,"Trade,Done",Claim功能入口
+P2,Chart Positions,,"Trade,Done",图表上显示持仓位置
+P1,Pool List,,"Pools,Done",表格展示：Pool、TVL、Supply、Fee APY、APR Snapshot、Actions
+P1,Pool List - Filter - Category,,"Pools,Done",按分类筛选：All/Forex/Equities/Indices/Crypto/Commodities/Meme
+P1,Pool List - Search,,"Pools,Done",Search Pools输入框模糊搜索
+P1,Pool List - Filter - In Wallet,,"Pools,Done",仅显示有持仓的Pool
+P2,Pool Detail,,"Pools,Done",分页导航：1、2、3
+P1,Pool Detail - Overview,,"Pools,Done",显示：TVL、Total Earned Fees、Remaining Deposit Cap、Remaining Withdrawal Cap、Deposits、Earnings
+P1,Pool Detail - Chart,,"Pools,Done",TVL/Fee APR图表，支持30D/90D/180D
+P0,Pool Detail - Trade Panel,,"Pools,Done",Deposit/Withdraw按钮切换，输入框、快捷百分比、Rate/Fees/Slippage显示
+P1,Pool Detail - My Activity,,"Pools,Done",显示：Action、Shares、Value、Time
+P1,Pool Detail - Pool Activity,,"Pools,Done",显示：Action、Shares、Value、Time
+P1,Vault List,,"Vaults,Done",卡片显示：名称、APY、TVL/Supply、Market Exposure图标、Deposited进度、Your Holdings
+P1,Vaults List - Overview,,"Vaults,Done",显示：TVL、Total Earned Fees、Your Deposits、Your Earnings
+P1,Vault Detail - Overview,,"Vaults,Done",显示：TVL、Total Earned Fees、Remaining Deposit Cap、Remaining Withdrawal Cap、Deposits、Earned Fees
+P1,Vault Detail - Chart,,"Vaults,Done","TVL/Fee APR/Market Exposure三个Tab，支持30D/90D/180D
+TVL卡片：圆环图显示Deposited和Remaining
+APR卡片：费用明细
+Market Exposure卡片：池子聚合组成"
+P0,Vault Detail - Trade Panel,,"Vaults,Done",Deposit/Withdraw按钮切换，输入框、快捷百分比、Rate/Fees/Slippage显示
+P1,Vault Detail - My Activity,,"Vaults,Done",显示：Action、Shares、Value、Time
+P1,Vault Detail - Vault Activity,,"Vaults,Done",显示：Action、Shares、Value、Time
+P1,Claim Faucet,,"General,Done",右上角Claim Faucet按钮(测试网领水)
+P0,钱包连接,,"General,Done",右上角钱包地址显示和下拉
+P1,设置按钮,,"General,Done",右上角设置图标
+P1,顶部导航,,"General,Done",Trade、Pools、Vaults三个主导航
+P1,Logo,,"General,Done",左上角HertzFlow Logo
+P2,在线状态,,"General,Todo,Done",左下角Online绿点
+P1,底部社交链接,,"General,Done",Twitter、Discord、Telegram、Docs链接
+P0,数值精度显示,,"General,Done","USD: 2dp+k/m, %: 2dp+符号+颜色"
+P2,"Launch
+「V3」",,"Launch,Todo",无准入市场创建，预言机选择，风控参数自定义，市场新增权衡指标，标签，disable处理
+P2,"Leaderboard & Referral
+「主网前」",,"Leaderboard,Todo",积分系统主导的leaderboard以及推荐码系统
+P0,Hyper Lev,cen,"Trade,Todo",止盈止损限制，零手续费交易+利润抽成，损失返还，重新拟定MMR等
+P0,Dashboard,cen,"Dashboard,Todo",数据统计面板
+P2,"1CT
+「主网阶段」",,"General,Todo",一键交易账户 - 用户转usdc用于交易 以及 bnb作为手续费 → 协议创建托管钱包 （avantsi用pin+EOA - 私钥可导出；而GMX用SCA 智能合约钱包 + 付费节点）
+P1,Portfolio,doris,"Portfolio,Todo",右侧用户持仓面板优化。竞品参考https://jup.ag/portfolio/C1FR9xr2GKx36GBTv2bkkhriP4QmqPnBd8rv4GRvitkj
+P3,Chart - Depth,,"Trade,Todo",模拟订单部深度图以及对应买卖造成的价格冲击。
+P3,Chart - Market Config,,"Trade,Todo",市场参数配置表，在launch后再加即可
+P2,H5 - 优化,,"General,Todo",交互，页面UI细抠一下
+P3,Chart - Funding History,,"Trade,Todo",市场fungding历史线图，分多空。其他大所funding rate聚合，展示套利空间
+P0,Vault - 优化,doris,"Vaults,Todo",增加交互纵深，内容层级，CTA按钮，视图选择，filter
+P0,Trade - History优化,cen,"Trade,Todo",交易历史记录结构梳理。新增action type：保证金添加移除，失败/成功订单创建，编辑，执行
+P2,前端埋点,,"General,Todo",基于mix panel的用户数据统计
+P2,BD需求 - 体验金,,"General,Todo",主网前
+P1,Claim - 优化,doris,"Trade,Todo",结构重构：新增概览看板，Tab 分栏重构，将列表彻底拆分为待处理 (Pending)和历史记录 (History)两个独立视图
+P3,Btm Nav - 高频交易信息面板,,"General,Todo",新闻；行业热力图；Leaderboard；signal （巨鲸&聪明钱动向）
+P2,btm nav - connection indicator,,"General,Done",网络监测及baner提示
+P1,Chart - 统计周期,cen,"Pools,Vaults,Todo",新增all-time记录
+P0,隔离测试生产环境 当前混用infra 仅前端隔离,,"General,Todo",运维，keeper，合约配合做环境隔离 防止测试数据污染生产环境
+P2,Borrow,,,
+P0,合约脱敏,kayce,"General,Todo",部署GMX/GLV替换为 HZ 的合约并完成verify

@@ -1,0 +1,3167 @@
+Date: Wed, 25 Feb 2026 08:30:48 +0000 (UTC)
+Message-ID: <764109150.5.1772008248971@964dced612df>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_4_921196433.1772008248971"
+
+------=_Part_4_921196433.1772008248971
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=93=
+=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3</t=
+itle>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=93=E8=
+=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=
+=E4=BB=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=
+=A1=A3-=E4=B8=80=E3=80=81=E6=A6=82=E8=BF=B0">=E4=B8=80=E3=80=81=E6=A6=82=E8=
+=BF=B0</h1>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-1.1=E5=8A=9F=E8=83=BD=E5=AE=9A=E4=BD=8D">1.1 =E5=8A=9F=E8=83=BD=E5=AE=9A=
+=E4=BD=8D</h3>
+<p>=E5=BB=BA=E7=AB=8B<strong>=E9=80=9A=E7=94=A8=E7=9A=84=E7=94=A8=E6=88=B7=
+=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=
+=BB=9F</strong>=EF=BC=8C=E4=BD=9C=E4=B8=BA=E6=95=B4=E4=B8=AA=E6=95=B0=E6=8D=
+=AE=E7=BB=9F=E8=AE=A1=E5=B9=B3=E5=8F=B0=E7=9A=84=E5=9F=BA=E7=A1=80=E6=95=B0=
+=E6=8D=AE=E5=B1=82=E3=80=82</p>
+<p><strong>=E6=A0=B8=E5=BF=83=E8=81=8C=E8=B4=A3</strong>=EF=BC=9A</p>
+<ul>
+<li>
+<p>=E8=AE=B0=E5=BD=95=E6=89=80=E6=9C=89=E7=94=A8=E6=88=B7=E7=9A=84=E4=BA=A4=
+=E6=98=93=E8=A1=8C=E4=B8=BA=EF=BC=88=E5=BC=80=E4=BB=93=E3=80=81=E5=8A=A0=E4=
+=BB=93=E3=80=81=E5=87=8F=E4=BB=93=E3=80=81=E5=B9=B3=E4=BB=93=E3=80=81=E6=B8=
+=85=E7=AE=97=EF=BC=89</p></li>
+<li>
+<p>=E8=BF=BD=E8=B8=AA=E6=89=80=E6=9C=89=E7=94=A8=E6=88=B7=E7=9A=84=E5=AE=9E=
+=E6=97=B6=E6=8C=81=E4=BB=93=E7=8A=B6=E6=80=81</p></li>
+<li>
+<p>=E6=8F=90=E4=BE=9B=E9=80=9A=E7=94=A8=E7=9A=84=E4=BA=A4=E6=98=93=E5=92=8C=
+=E6=8C=81=E4=BB=93=E6=9F=A5=E8=AF=A2=E6=8E=A5=E5=8F=A3</p></li>
+</ul>
+<p><strong>=E8=AE=BE=E8=AE=A1=E5=8E=9F=E5=88=99</strong>=EF=BC=9A</p>
+<ul>
+<li>
+<p>=E2=9C=85 =E6=95=B0=E6=8D=AE=E9=80=9A=E7=94=A8=E6=80=A7=EF=BC=9A=E4=B8=
+=8D=E4=B8=8E=E7=89=B9=E5=AE=9A=E4=B8=9A=E5=8A=A1=E7=BB=91=E5=AE=9A</p></li>
+<li>
+<p>=E2=9C=85 =E5=AE=8C=E6=95=B4=E6=80=A7=EF=BC=9A=E8=AE=B0=E5=BD=95=E6=89=
+=80=E6=9C=89=E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA=E5=92=8C=E6=8C=81=E4=BB=93=
+=E5=8F=98=E5=8C=96</p></li>
+<li>
+<p>=E2=9C=85 =E5=8F=AF=E8=BF=BD=E6=BA=AF=E6=80=A7=EF=BC=9A=E5=AE=8C=E6=95=
+=B4=E7=9A=84=E4=BA=A4=E6=98=93=E9=93=BE=E8=B7=AF=E8=BF=BD=E8=B8=AA</p></li>
+<li>
+<p>=E2=9C=85 =E5=8F=AF=E6=89=A9=E5=B1=95=E6=80=A7=EF=BC=9A=E6=94=AF=E6=8C=
+=81=E5=A4=9A=E7=A7=8D=E4=B8=9A=E5=8A=A1=E5=9C=BA=E6=99=AF=E5=A4=8D=E7=94=A8=
+</p></li>
+</ul>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-1.2=E5=BA=94=E7=94=A8=E5=9C=BA=E6=99=AF">1.2 =E5=BA=94=E7=94=A8=E5=9C=BA=
+=E6=99=AF</h3>
+<p>=E5=9F=BA=E7=A1=80=E6=95=B0=E6=8D=AE=E5=8F=AF=E7=94=A8=E4=BA=8E=EF=BC=9A=
+</p>
+<ul>
+<li>
+<p>=F0=9F=93=8A <strong>=E7=AB=9E=E8=B5=9B=E5=8A=9F=E8=83=BD</strong>=EF=BC=
+=9A=E8=AE=A1=E7=AE=97=E7=94=A8=E6=88=B7=E7=AB=9E=E8=B5=9B=E6=8C=87=E6=A0=87=
+=EF=BC=88=E4=BA=A4=E6=98=93=E9=87=8F=E3=80=81PnL=E3=80=81ROI=E7=AD=89=EF=BC=
+=89</p></li>
+<li>
+<p>=F0=9F=93=88 <strong>=E6=95=B0=E6=8D=AE=E5=88=86=E6=9E=90</strong>=EF=BC=
+=9A=E7=94=A8=E6=88=B7=E8=A1=8C=E4=B8=BA=E5=88=86=E6=9E=90=E3=80=81=E4=BA=A4=
+=E6=98=93=E6=A8=A1=E5=BC=8F=E8=AF=86=E5=88=AB</p></li>
+<li>
+<p>=F0=9F=9B=A1=EF=B8=8F <strong>=E9=A3=8E=E6=8E=A7=E7=B3=BB=E7=BB=9F</stro=
+ng>=EF=BC=9A=E5=BC=82=E5=B8=B8=E4=BA=A4=E6=98=93=E6=A3=80=E6=B5=8B=E3=80=81=
+=E9=A3=8E=E9=99=A9=E9=A2=84=E8=AD=A6</p></li>
+<li>
+<p>=F0=9F=93=91 <strong>=E6=8A=A5=E8=A1=A8=E7=94=9F=E6=88=90</strong>=EF=BC=
+=9A=E4=BA=A4=E6=98=93=E7=BB=9F=E8=AE=A1=E3=80=81=E7=94=A8=E6=88=B7=E7=94=BB=
+=E5=83=8F</p></li>
+<li>
+<p>=F0=9F=8E=81 <strong>=E5=A5=96=E5=8A=B1=E7=B3=BB=E7=BB=9F</strong>=EF=BC=
+=9A=E4=BA=A4=E6=98=93=E6=8C=96=E7=9F=BF=E3=80=81=E8=BF=94=E4=BD=A3=E8=AE=A1=
+=E7=AE=97</p></li>
+</ul>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-1.3=E7=B3=BB=E7=BB=9F=E6=9E=B6=E6=9E=84">1.3 =E7=B3=BB=E7=BB=9F=E6=9E=B6=
+=E6=9E=84</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">=E2=94=
+=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82                      =E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=
+=8C=E6=8C=81=E4=BB=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F                  =
+              =E2=94=82
+=E2=94=82                                                                  =
+         =E2=94=82
+=E2=94=82  =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=90  =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=90                  =E2=94=82
+=E2=94=82  =E2=94=82 user_trades_0~127      =E2=94=82  =E2=94=82 user_posit=
+ions_0~127  =E2=94=82                  =E2=94=82
+=E2=94=82  =E2=94=82 (=E6=8C=89=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=E5=88=
+=86128=E5=88=86=E5=8C=BA)   =E2=94=82  =E2=94=82 (=E6=8C=89=E7=94=A8=E6=88=
+=B7=E5=9C=B0=E5=9D=80=E5=88=86128=E5=88=86=E5=8C=BA) =E2=94=82             =
+     =E2=94=82
+=E2=94=82  =E2=94=82                        =E2=94=82  =E2=94=82           =
+            =E2=94=82                  =E2=94=82
+=E2=94=82  =E2=94=82 - =E5=BC=80=E4=BB=93 (open)          =E2=94=82  =E2=94=
+=82 - position_id         =E2=94=82                  =E2=94=82
+=E2=94=82  =E2=94=82 - =E5=8A=A0=E4=BB=93 (increase)      =E2=94=82=E2=97=
+=84=E2=94=80=E2=94=A4 - avg_entry_price     =E2=94=82                  =E2=
+=94=82
+=E2=94=82  =E2=94=82 - =E5=87=8F=E4=BB=93 (decrease)      =E2=94=82  =E2=94=
+=82 - position_size       =E2=94=82                  =E2=94=82
+=E2=94=82  =E2=94=82 - =E5=B9=B3=E4=BB=93 (close)         =E2=94=82  =E2=94=
+=82 - realized_pnl        =E2=94=82                  =E2=94=82
+=E2=94=82  =E2=94=82 - =E6=B8=85=E7=AE=97 (liquidation)   =E2=94=82  =E2=94=
+=82 - collateral_amount   =E2=94=82                  =E2=94=82
+=E2=94=82  =E2=94=82                        =E2=94=82  =E2=94=82           =
+            =E2=94=82                  =E2=94=82
+=E2=94=82  =E2=94=82 =E6=9F=A5=E8=AF=A2=E6=96=B9=E5=BC=8F=EF=BC=9A         =
+    =E2=94=82  =E2=94=82 =E6=9F=A5=E8=AF=A2=E6=96=B9=E5=BC=8F=EF=BC=9A     =
+       =E2=94=82                  =E2=94=82
+=E2=94=82  =E2=94=82 =E2=9C=93 =E5=8D=95=E7=94=A8=E6=88=B7=EF=BC=9A=E6=B8=
+=B8=E6=A0=87=E5=88=86=E9=A1=B5     =E2=94=82  =E2=94=82 =E2=9C=93 =E5=8D=95=
+=E7=94=A8=E6=88=B7=EF=BC=9A=E7=9B=B4=E6=8E=A5=E6=9F=A5=E8=AF=A2    =E2=94=
+=82                  =E2=94=82
+=E2=94=82  =E2=94=82 =E2=9C=93 =E5=85=A8=E9=87=8F=EF=BC=9A=E7=B4=A2=E5=BC=
+=95=E8=A1=A8=E4=BC=98=E5=8C=96 =E2=AD=90  =E2=94=82  =E2=94=82 =E2=9C=93 =
+=E6=B4=BB=E8=B7=83=E6=8C=81=E4=BB=93=EF=BC=9A=E7=8A=B6=E6=80=81=E8=BF=87=E6=
+=BB=A4  =E2=94=82                  =E2=94=82
+=E2=94=82  =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=98  =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=98                  =E2=94=82
+=E2=94=82            =E2=96=B2                           =E2=96=B2         =
+                        =E2=94=82
+=E2=94=82            =E2=94=82                           =E2=94=82         =
+                        =E2=94=82
+=E2=94=82            =E2=94=82  =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90                =E2=94=82
+=E2=94=82            =E2=94=82  =E2=94=82 user_trades_timezone (=E6=97=B6=
+=E9=97=B4=E7=B4=A2=E5=BC=95=E8=A1=A8) =E2=AD=90     =E2=94=82              =
+  =E2=94=82
+=E2=94=82            =E2=94=9C=E2=94=80=E2=96=BA=E2=94=82 - =E8=AE=B0=E5=BD=
+=95=E6=AF=8F=E5=A4=A9=E5=90=84=E5=88=86=E5=8C=BA=E6=98=AF=E5=90=A6=E6=9C=89=
+=E6=95=B0=E6=8D=AE               =E2=94=82                =E2=94=82
+=E2=94=82               =E2=94=82 - =E7=94=A8=E4=BA=8E=E4=BC=98=E5=8C=96=E8=
+=B7=A8=E5=88=86=E5=8C=BA=E6=97=B6=E9=97=B4=E8=8C=83=E5=9B=B4=E6=9F=A5=E8=AF=
+=A2             =E2=94=82                =E2=94=82
+=E2=94=82               =E2=94=82 - =E5=85=A8=E9=87=8F=E6=9F=A5=E8=AF=A2=E6=
+=80=A7=E8=83=BD=E6=8F=90=E5=8D=87 4-12 =E5=80=8D               =E2=94=82   =
+             =E2=94=82
+=E2=94=82               =E2=94=82                                         =
+=E2=94=82                =E2=94=82
+=E2=94=82               =E2=94=82 =E6=A0=B8=E5=BF=83=E5=AD=97=E6=AE=B5=EF=
+=BC=9A                               =E2=94=82                =E2=94=82
+=E2=94=82               =E2=94=82 - date_key (YYYYMMDD)                   =
+=E2=94=82                =E2=94=82
+=E2=94=82               =E2=94=82 - shard_id (0-127)                      =
+=E2=94=82                =E2=94=82
+=E2=94=82               =E2=94=82 - table_name (user_trades_X)            =
+=E2=94=82                =E2=94=82
+=E2=94=82               =E2=94=82 - record_count (=E7=BB=9F=E8=AE=A1)      =
+             =E2=94=82                =E2=94=82
+=E2=94=82               =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=98                =E2=94=82
+=E2=94=82                              =E2=96=B2                           =
+                =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=BC=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=98
+                               =E2=94=82
+                               =E2=94=82  UserTradeService
+                               =E2=94=82  (=E5=86=99=E5=85=A5=E6=97=B6=E5=
+=90=8C=E6=AD=A5=E6=9B=B4=E6=96=B0=E7=B4=A2=E5=BC=95=E8=A1=A8)
+                               =E2=94=82
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=BC=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=90
+=E2=94=82              PositionService =E2=94=82                           =
+                =E2=94=82
+=E2=94=82                              =E2=94=82                           =
+                =E2=94=82
+=E2=94=82  =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=B4=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90                  =E2=94=82
+=E2=94=82  =E2=94=82  ParseService (=E5=A4=84=E7=90=86 Sui =E5=8C=BA=E5=9D=
+=97=E9=93=BE=E4=BA=8B=E4=BB=B6)                =E2=94=82                  =
+=E2=94=82
+=E2=94=82  =E2=94=82    - VaultIncreasePositionEvent                   =E2=
+=94=82                  =E2=94=82
+=E2=94=82  =E2=94=82    - VaultDecreasePositionEvent                   =E2=
+=94=82                  =E2=94=82
+=E2=94=82  =E2=94=82    - VaultLiquidatePositionEvent                  =E2=
+=94=82                  =E2=94=82
+=E2=94=82  =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98                  =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E4=BA=8C=E3=80=81=E6=95=B0=E6=8D=AE=E6=A8=A1=E5=9E=8B=E8=AE=BE=E8=AE=A1">=
+=E4=BA=8C=E3=80=81=E6=95=B0=E6=8D=AE=E6=A8=A1=E5=9E=8B=E8=AE=BE=E8=AE=A1</h=
+2>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-2.1=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA=E8=A1=A8(user_tr=
+ades)">2.1 =E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA=E8=A1=A8 =
+(user_trades)</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>=EF=BC=9A=E8=AE=B0=E5=BD=95=E6=89=80=
+=E6=9C=89=E7=94=A8=E6=88=B7=E7=9A=84=E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA=E4=
+=BA=8B=E4=BB=B6</p>
+<p><strong>=E5=88=86=E8=A1=A8=E7=AD=96=E7=95=A5</strong>=EF=BC=9A=E5=9F=BA=
+=E4=BA=8E=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=E5=93=88=E5=B8=8C=E5=88=86=E8=
+=A1=A8=EF=BC=8C=E5=85=B1128=E4=B8=AA=E5=88=86=E5=8C=BA (user_trades_0 ~ use=
+r_trades_127)</p>
+<ul>
+<li>
+<p>=E4=BD=BF=E7=94=A8=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=E7=9A=84=E5=8D=81=
+=E5=85=AD=E8=BF=9B=E5=88=B6=E5=80=BC=E5=AF=B9128=E5=8F=96=E6=A8=A1=E7=A1=AE=
+=E5=AE=9A=E5=88=86=E5=8C=BA</p></li>
+<li>
+<p>=E6=9F=A5=E8=AF=A2=E5=8D=95=E4=B8=AA=E7=94=A8=E6=88=B7=E6=97=B6=E7=9B=B4=
+=E6=8E=A5=E5=AE=9A=E4=BD=8D=E5=88=B0=E5=AF=B9=E5=BA=94=E5=88=86=E5=8C=BA=EF=
+=BC=8C=E6=80=A7=E8=83=BD=E6=9C=80=E4=BC=98</p></li>
+<li>
+<p>=E8=B7=A8=E7=94=A8=E6=88=B7=E6=9F=A5=E8=AF=A2=E9=80=9A=E8=BF=87=E6=97=B6=
+=E9=97=B4=E7=B4=A2=E5=BC=95=E8=A1=A8=E4=BC=98=E5=8C=96=EF=BC=8C=E9=81=BF=E5=
+=85=8D=E5=85=A8=E9=87=8F=E6=89=AB=E6=8F=8F</p></li>
+</ul>
+<p><strong>=E6=9F=A5=E8=AF=A2=E4=BC=98=E5=8C=96</strong>=EF=BC=9A=E9=80=9A=
+=E8=BF=87 <code>user_trades_timezone</code> =E7=B4=A2=E5=BC=95=E8=A1=A8=E8=
+=AE=B0=E5=BD=95=E6=AF=8F=E5=A4=A9=E5=90=84=E5=88=86=E5=8C=BA=E6=98=AF=E5=90=
+=A6=E6=9C=89=E6=95=B0=E6=8D=AE=EF=BC=8C=E5=A4=A7=E5=B9=85=E5=87=8F=E5=B0=91=
+=E8=B7=A8=E8=A1=A8=E6=9F=A5=E8=AF=A2=E5=BC=80=E9=94=80</p>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E8=A1=A8=E7=BB=93=E6=9E=84">=E8=A1=A8=E7=BB=93=E6=9E=84</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE user_trades_tmpl
+(
+    id               BIGSERIAL PRIMARY KEY,
+    -- =E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA=E6=A0=87=E8=AF=86
+    action_id        VARCHAR NOT NULL,    -- =E8=A1=8C=E4=B8=BAID (tx_diges=
+t + event_index)
+    tx_digest        VARCHAR NOT NULL,    -- =E4=BA=A4=E6=98=93=E5=93=88=E5=
+=B8=8C
+    event_index      INT     NOT NULL,    -- =E4=BA=8B=E4=BB=B6=E7=B4=A2=E5=
+=BC=95
+    -- =E7=94=A8=E6=88=B7=E5=92=8C=E4=BB=93=E4=BD=8D=E4=BF=A1=E6=81=AF
+    user_address     VARCHAR NOT NULL,    -- =E7=94=A8=E6=88=B7=E5=9C=B0=E5=
+=9D=80
+    position_id      VARCHAR NOT NULL,    -- =E4=BB=93=E4=BD=8DID
+    package_id       VARCHAR NOT NULL,    -- =E5=90=88=E7=BA=A6 package ID
+    -- =E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA=E7=B1=BB=E5=9E=8B
+    action_type      VARCHAR NOT NULL,    -- open/increase/decrease/close/l=
+iquidation
+    -- =E5=B8=81=E7=A7=8D=E4=BF=A1=E6=81=AF
+    index_coin       VARCHAR NOT NULL,    -- =E6=A0=87=E7=9A=84=E5=B8=81=E7=
+=A7=8D
+    collateral_coin  VARCHAR NOT NULL,    -- =E4=BF=9D=E8=AF=81=E9=87=91=E5=
+=B8=81=E7=A7=8D
+    is_long          BOOLEAN NOT NULL,    -- =E5=A4=9A=E7=A9=BA=E6=96=B9=E5=
+=90=91
+    -- =E6=95=B0=E9=87=8F=E5=92=8C=E4=BB=B7=E6=A0=BC
+    size_delta       VARCHAR NOT NULL,    -- =E4=BB=93=E4=BD=8D=E5=8F=98=E5=
+=8C=96=E9=87=8F=EF=BC=88=E4=BB=A3=E5=B8=81=E6=95=B0=E9=87=8F=EF=BC=89
+    collateral_delta VARCHAR NOT NULL,    -- =E4=BF=9D=E8=AF=81=E9=87=91=E5=
+=8F=98=E5=8C=96=E9=87=8F=EF=BC=88=E4=BB=A3=E5=B8=81=E6=95=B0=E9=87=8F=EF=BC=
+=89
+    price            VARCHAR NOT NULL,    -- =E6=89=A7=E8=A1=8C=E4=BB=B7=E6=
+=A0=BC
+    -- =E7=9B=88=E4=BA=8F=E5=92=8C=E8=B4=B9=E7=94=A8
+    realized_pnl     VARCHAR DEFAULT '0', -- =E6=9C=AC=E6=AC=A1=E6=93=8D=E4=
+=BD=9C=E7=9A=84=E5=B7=B2=E5=AE=9E=E7=8E=B0=E7=9B=88=E4=BA=8F (USD)
+    has_profit       BOOLEAN,             -- =E6=98=AF=E5=90=A6=E7=9B=88=E5=
+=88=A9=EF=BC=88=E4=BB=85=E5=87=8F=E4=BB=93/=E5=B9=B3=E4=BB=93/=E6=B8=85=E7=
+=AE=97=E6=9C=89=E5=80=BC=EF=BC=89
+    fee_usd          VARCHAR NOT NULL,    -- =E6=89=8B=E7=BB=AD=E8=B4=B9 (U=
+SD)
+    -- =E6=97=B6=E9=97=B4=E6=88=B3
+    action_time_ms   BIGINT  NOT NULL,    -- =E8=A1=8C=E4=B8=BA=E5=8F=91=E7=
+=94=9F=E6=97=B6=E9=97=B4
+    -- =E5=85=83=E6=95=B0=E6=8D=AE
+    create_at        BIGINT  NOT NULL,
+    update_at        BIGINT  NOT NULL
+);
+
+-- =E7=B4=A2=E5=BC=95
+CREATE INDEX idx_user_trades_user_time ON user_trades_tmpl (user_address, a=
+ction_time_ms DESC, id DESC);
+CREATE INDEX idx_user_trades_user_action ON user_trades_tmpl (user_address,=
+ action_type);
+CREATE INDEX idx_user_trades_position ON user_trades_tmpl (position_id);
+CREATE INDEX idx_user_trades_time ON user_trades_tmpl (action_time_ms);
+CREATE UNIQUE INDEX udx_user_trades_action_id ON user_trades_tmpl (action_i=
+d);</pre>
+</div>
+</div>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-Go=E6=95=B0=E6=8D=AE=E6=A8=A1=E5=9E=8B">Go =E6=95=B0=E6=8D=AE=E6=A8=A1=E5=
+=9E=8B</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// data=
+-statistics-infra/model/user_trade.go
+
+package model
+
+import (
+    "fmt"
+    "github.com/HertzFlow/data-statistics/data-statistics-infra/consts"
+    "github.com/HertzFlow/data-statistics/data-statistics-utils/utils"
+)
+
+// UserTradeActionDBModel =E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E8=A1=8C=E4=
+=B8=BA=E8=A1=A8=EF=BC=88=E6=8C=89=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=E5=88=
+=86128=E4=B8=AA=E5=88=86=E5=8C=BA=EF=BC=89
+type UserTradeActionDBModel struct {
+    BaseDBModel
+
+    // =E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA=E6=A0=87=E8=AF=86
+    ActionID   string `gorm:"column:action_id; type:varchar; uniqueIndex"`
+    TxDigest   string `gorm:"column:tx_digest; type:varchar; index:idx_user=
+_trade_tx"`
+    EventIndex int    `gorm:"column:event_index; type:int"`
+
+    // =E7=94=A8=E6=88=B7=E5=92=8C=E4=BB=93=E4=BD=8D=E4=BF=A1=E6=81=AF
+    UserAddress string `gorm:"column:user_address; type:varchar; index:idx_=
+user_trade_user"`
+    PositionID  string `gorm:"column:position_id; type:varchar; index:idx_u=
+ser_trade_pos"`
+    PackageID   string `gorm:"column:package_id; type:varchar"`
+
+    // =E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA=E7=B1=BB=E5=9E=8B
+    ActionType consts.TradeActionType `gorm:"column:action_type; type:varch=
+ar; index:idx_user_trade_action"`
+
+    // =E5=B8=81=E7=A7=8D=E4=BF=A1=E6=81=AF
+    IndexCoin      consts.CoinType `gorm:"column:index_coin; type:varchar"`
+    CollateralCoin consts.CoinType `gorm:"column:collateral_coin; type:varc=
+har"`
+    IsLong         bool            `gorm:"column:is_long; type:bool"`
+
+    // =E6=95=B0=E9=87=8F=E5=92=8C=E4=BB=B7=E6=A0=BC=EF=BC=88=E6=B3=A8=E6=
+=84=8F=EF=BC=9Asize=E5=92=8Ccollateral=E6=98=AF=E4=BB=A3=E5=B8=81=E6=95=B0=
+=E9=87=8F=EF=BC=8C=E4=B8=8D=E6=98=AFUSD=E4=BB=B7=E5=80=BC=EF=BC=89
+    SizeDelta       string `gorm:"column:size_delta; type:varchar"`        =
+// =E4=BB=93=E4=BD=8D=E5=8F=98=E5=8C=96=E9=87=8F=EF=BC=88=E4=BB=A3=E5=B8=81=
+=E6=95=B0=E9=87=8F=EF=BC=8C=E5=B8=A6=E7=AC=A6=E5=8F=B7=EF=BC=89
+    CollateralDelta string `gorm:"column:collateral_delta; type:varchar"`  =
+// =E4=BF=9D=E8=AF=81=E9=87=91=E5=8F=98=E5=8C=96=E9=87=8F=EF=BC=88=E4=BB=A3=
+=E5=B8=81=E6=95=B0=E9=87=8F=EF=BC=8C=E5=B8=A6=E7=AC=A6=E5=8F=B7=EF=BC=89
+    Price           string `gorm:"column:price; type:varchar"`             =
+// =E6=89=A7=E8=A1=8C=E4=BB=B7=E6=A0=BC
+    RealizedPnl     string `gorm:"column:realized_pnl; type:varchar"`      =
+// =E5=B7=B2=E5=AE=9E=E7=8E=B0=E7=9B=88=E4=BA=8F=EF=BC=88USD=EF=BC=89
+    HasProfit       *bool  `gorm:"column:has_profit; type:bool"`           =
+// =E6=98=AF=E5=90=A6=E7=9B=88=E5=88=A9=EF=BC=88=E4=BB=85=E5=87=8F=E4=BB=93=
+/=E5=B9=B3=E4=BB=93=E6=9C=89=E5=80=BC=EF=BC=89
+    FeeUsd          string `gorm:"column:fee_usd; type:varchar"`           =
+// =E6=89=8B=E7=BB=AD=E8=B4=B9=EF=BC=88USD=EF=BC=89
+    ActionTimeMs    int64  `gorm:"column:action_time_ms; type:bigint; index=
+:idx_user_trade_time"` // =E6=93=8D=E4=BD=9C=E6=97=B6=E9=97=B4=E6=88=B3
+}
+
+func (m UserTradeActionDBModel) TableName() string {
+    // =E6=8C=89=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=E5=88=86=E5=8C=BA=EF=
+=BC=88128=E5=88=86=E5=8C=BA=EF=BC=89
+    res, err :=3D utils.HexAddrMod(m.UserAddress, 128)
+    if err !=3D nil {
+        return "user_trades_0"
+    }
+    return m.GenTableName(res)
+}
+
+func (m UserTradeActionDBModel) GenTableName(i int) string {
+    return fmt.Sprintf("user_trades_%d", i)
+}
+
+// UserTradeActionTmplDBModel =E6=A8=A1=E6=9D=BF=E8=A1=A8=E7=94=A8=E4=BA=8E=
+=E5=88=9B=E5=BB=BA=E5=88=86=E5=8C=BA
+type UserTradeActionTmplDBModel struct {
+    UserTradeActionDBModel
+}
+
+func (UserTradeActionTmplDBModel) TableName() string {
+    return "user_trades_tmpl"
+}</pre>
+</div>
+</div>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E5=B8=B8=E9=87=8F=E5=AE=9A=E4=B9=89">=E5=B8=B8=E9=87=8F=E5=AE=9A=E4=B9=89=
+</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// data=
+-statistics-infra/consts/trade_action.go
+
+package consts
+
+type TradeActionType string
+
+const (
+    TradeActionOpen        TradeActionType =3D "open"        // =E5=BC=80=
+=E4=BB=93
+    TradeActionIncrease    TradeActionType =3D "increase"    // =E5=8A=A0=
+=E4=BB=93
+    TradeActionDecrease    TradeActionType =3D "decrease"    // =E5=87=8F=
+=E4=BB=93
+    TradeActionClose       TradeActionType =3D "close"       // =E5=B9=B3=
+=E4=BB=93
+    TradeActionLiquidation TradeActionType =3D "liquidation" // =E6=B8=85=
+=E7=AE=97
+)</pre>
+</div>
+</div>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E5=AD=97=E6=AE=B5=E8=AF=B4=E6=98=8E">=E5=AD=97=E6=AE=B5=E8=AF=B4=E6=98=8E=
+</h4>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"41=
+9aee61-a03d-40f9-8f0a-145ce3973ab9" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=AD=97=E6=AE=B5</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=A4=BA=E4=BE=8B</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>id</p></td>
+<td class=3D"confluenceTd">
+<p>BIGSERIAL</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=87=AA=E5=A2=9E=E4=B8=BB=E9=94=AE</p></td>
+<td class=3D"confluenceTd">
+<p><code>1</code>, <code>2</code>, <code>3</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>action_id</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=A1=8C=E4=B8=BA=E5=94=AF=E4=B8=80=E6=A0=87=E8=AF=86=EF=BC=88=E5=85=A8=
+=E5=B1=80=E5=94=AF=E4=B8=80=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>0x123abc_0</code> (tx_digest + event_index)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>tx_digest</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BA=A4=E6=98=93=E5=93=88=E5=B8=8C</p></td>
+<td class=3D"confluenceTd">
+<p><code>0x123abc...</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>event_index</p></td>
+<td class=3D"confluenceTd">
+<p>INT</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BA=8B=E4=BB=B6=E7=B4=A2=E5=BC=95</p></td>
+<td class=3D"confluenceTd">
+<p><code>0</code>, <code>1</code>, <code>2</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>user_address</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=EF=BC=88=E5=88=86=E8=A1=A8=E9=94=AE=
+=EF=BC=8C=E9=85=8D=E5=90=88action_type=E5=BB=BA=E7=AB=8B=E8=81=94=E5=90=88=
+=E7=B4=A2=E5=BC=95=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>0x1a2b3c...</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>position_id</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BB=93=E4=BD=8DID</p></td>
+<td class=3D"confluenceTd">
+<p><code>0xabc123...</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>package_id</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=90=88=E7=BA=A6=E5=8C=85ID</p></td>
+<td class=3D"confluenceTd">
+<p><code>0x456def...</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>action_type</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=A1=8C=E4=B8=BA=E7=B1=BB=E5=9E=8B=EF=BC=88=E9=85=8D=E5=90=88user_addr=
+ess=E5=BB=BA=E7=AB=8B=E8=81=94=E5=90=88=E7=B4=A2=E5=BC=95=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>open</code>, <code>increase</code>, <code>decrease</code>, <code>c=
+lose</code>, <code>liquidation</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>index_coin</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=A0=87=E7=9A=84=E5=B8=81=E7=A7=8D</p></td>
+<td class=3D"confluenceTd">
+<p><code>BTC</code>, <code>ETH</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>collateral_coin</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BF=9D=E8=AF=81=E9=87=91=E5=B8=81=E7=A7=8D</p></td>
+<td class=3D"confluenceTd">
+<p><code>USDT</code>, <code>USDC</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>is_long</p></td>
+<td class=3D"confluenceTd">
+<p>BOOLEAN</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=A4=9A=E7=A9=BA=E6=96=B9=E5=90=91</p></td>
+<td class=3D"confluenceTd">
+<p><code>true</code> (=E5=81=9A=E5=A4=9A), <code>false</code> (=E5=81=9A=E7=
+=A9=BA)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>size_delta</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BB=93=E4=BD=8D=E5=8F=98=E5=8C=96=E9=87=8F=EF=BC=88=E4=BB=A3=E5=B8=81=
+=E6=95=B0=E9=87=8F=EF=BC=8C=E5=B8=A6=E7=AC=A6=E5=8F=B7=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>1.5</code> (=E5=A2=9E=E5=8A=A0), <code>-0.5</code> (=E5=87=8F=E5=
+=B0=91)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>collateral_delta</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BF=9D=E8=AF=81=E9=87=91=E5=8F=98=E5=8C=96=E9=87=8F=EF=BC=88=E4=BB=A3=
+=E5=B8=81=E6=95=B0=E9=87=8F=EF=BC=8C=E5=B8=A6=E7=AC=A6=E5=8F=B7=EF=BC=89</p=
+></td>
+<td class=3D"confluenceTd">
+<p><code>100.0</code> (=E5=A2=9E=E5=8A=A0), <code>-50.0</code> (=E5=87=8F=
+=E5=B0=91)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>price</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=89=A7=E8=A1=8C=E4=BB=B7=E6=A0=BC</p></td>
+<td class=3D"confluenceTd">
+<p><code>50000.0</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>realized_pnl</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=9C=AC=E6=AC=A1=E5=B7=B2=E5=AE=9E=E7=8E=B0=E7=9B=88=E4=BA=8F (USD)</p=
+></td>
+<td class=3D"confluenceTd">
+<p><code>100.5</code> (=E7=9B=88=E5=88=A9), <code>-50.0</code> (=E4=BA=8F=
+=E6=8D=9F)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>has_profit</p></td>
+<td class=3D"confluenceTd">
+<p>BOOLEAN</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=98=AF=E5=90=A6=E7=9B=88=E5=88=A9=EF=BC=88=E4=BB=85=E5=87=8F=E4=BB=93=
+/=E5=B9=B3=E4=BB=93=E6=9C=89=E5=80=BC=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>true</code> (=E7=9B=88=E5=88=A9), <code>false</code> (=E4=BA=8F=E6=
+=8D=9F), <code>null</code> (=E5=A2=9E=E4=BB=93)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>fee_usd</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=89=8B=E7=BB=AD=E8=B4=B9 (USD)</p></td>
+<td class=3D"confluenceTd">
+<p><code>5.0</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>action_time_ms</p></td>
+<td class=3D"confluenceTd">
+<p>BIGINT</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=A1=8C=E4=B8=BA=E5=8F=91=E7=94=9F=E6=97=B6=E9=97=B4=EF=BC=88=E6=AF=AB=
+=E7=A7=92=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>1704067200000</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>create_at</p></td>
+<td class=3D"confluenceTd">
+<p>BIGINT</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=88=9B=E5=BB=BA=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=
+=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>1704067200000</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>update_at</p></td>
+<td class=3D"confluenceTd">
+<p>BIGINT</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=9B=B4=E6=96=B0=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=
+=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>1704067200000</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E7=B4=A2=E5=BC=95=E8=AF=B4=E6=98=8E">=E7=B4=A2=E5=BC=95=E8=AF=B4=E6=98=8E=
+</h4>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d1=
+3e8d9c-cece-4522-9772-b51bc0fe3ea8" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E7=B4=A2=E5=BC=95=E5=90=8D=E7=A7=B0</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=AD=97=E6=AE=B5</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=94=A8=E9=80=94</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>PRIMARY KEY</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=B8=BB=E9=94=AE</p></td>
+<td class=3D"confluenceTd">
+<p><code>id</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E5=94=AF=E4=B8=80=E6=A0=87=E8=AF=86=E6=AF=8F=E6=9D=A1=E8=AE=B0=E5=BD=95=
+</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>udx_user_trades_action_id</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=94=AF=E4=B8=80=E7=B4=A2=E5=BC=95</p></td>
+<td class=3D"confluenceTd">
+<p><code>action_id</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BF=9D=E8=AF=81=E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA=E7=9A=84=E5=85=A8=
+=E5=B1=80=E5=94=AF=E4=B8=80=E6=80=A7</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>idx_user_trades_user_time</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=A4=8D=E5=90=88=E7=B4=A2=E5=BC=95</p></td>
+<td class=3D"confluenceTd">
+<p><code>user_address, action_time_ms DESC, id DESC</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E5=8D=95=E7=94=A8=E6=88=B7=E6=B8=B8=E6=A0=87=E5=88=86=E9=A1=B5=E6=9F=A5=
+=E8=AF=A2=EF=BC=88=E6=9C=80=E5=B8=B8=E7=94=A8=EF=BC=89</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>idx_user_trades_user_action</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=A4=8D=E5=90=88=E7=B4=A2=E5=BC=95</p></td>
+<td class=3D"confluenceTd">
+<p><code>user_address, action_type</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8C=89=E7=94=A8=E6=88=B7=E5=92=8C=E4=BA=A4=E6=98=93=E7=B1=BB=E5=9E=8B=
+=E8=BF=87=E6=BB=A4=E6=9F=A5=E8=AF=A2</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>idx_user_trades_position</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=8D=95=E5=88=97=E7=B4=A2=E5=BC=95</p></td>
+<td class=3D"confluenceTd">
+<p><code>position_id</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8C=89=E4=BB=93=E4=BD=8D=E6=9F=A5=E8=AF=A2=E6=89=80=E6=9C=89=E4=BA=A4=
+=E6=98=93</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>idx_user_trades_time</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=8D=95=E5=88=97=E7=B4=A2=E5=BC=95</p></td>
+<td class=3D"confluenceTd">
+<p><code>action_time_ms</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=97=B6=E9=97=B4=E8=8C=83=E5=9B=B4=E6=9F=A5=E8=AF=A2</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-2.2=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E6=97=B6=E9=97=B4=E7=B4=A2=E5=BC=
+=95=E8=A1=A8(user_trades_timezone)">2.2 =E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=
+=93=E6=97=B6=E9=97=B4=E7=B4=A2=E5=BC=95=E8=A1=A8 (user_trades_timezone)</h3=
+>
+<p><strong>=E7=94=A8=E9=80=94</strong>=EF=BC=9A=E8=AE=B0=E5=BD=95=E6=AF=8F=
+=E5=A4=A9=E5=90=84=E5=88=86=E5=8C=BA=E8=A1=A8=E6=98=AF=E5=90=A6=E6=9C=89=E4=
+=BA=A4=E6=98=93=E6=95=B0=E6=8D=AE=EF=BC=8C=E7=94=A8=E4=BA=8E=E4=BC=98=E5=8C=
+=96=E6=97=B6=E9=97=B4=E8=8C=83=E5=9B=B4=E6=9F=A5=E8=AF=A2</p>
+<p><strong>=E6=A0=B8=E5=BF=83=E4=BB=B7=E5=80=BC</strong>=EF=BC=9A</p>
+<ul>
+<li>
+<p>=E9=81=BF=E5=85=8D=E5=85=A8=E9=87=8F=E6=89=AB=E6=8F=8F128=E4=B8=AA=E5=88=
+=86=E5=8C=BA=E8=A1=A8</p></li>
+<li>
+<p>=E9=80=9A=E8=BF=87=E6=97=B6=E9=97=B4=E8=8C=83=E5=9B=B4=E5=BF=AB=E9=80=9F=
+=E5=AE=9A=E4=BD=8D=E6=9C=89=E6=95=B0=E6=8D=AE=E7=9A=84=E5=88=86=E5=8C=BA</p=
+></li>
+<li>
+<p>=E5=87=8F=E5=B0=91=E6=97=A0=E6=95=88=E6=9F=A5=E8=AF=A2=EF=BC=8C=E6=8F=90=
+=E5=8D=87=E6=9F=A5=E8=AF=A2=E6=80=A7=E8=83=BD10=E5=80=8D=E4=BB=A5=E4=B8=8A<=
+/p></li>
+</ul>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E8=A1=A8=E7=BB=93=E6=9E=84.1">=E8=A1=A8=E7=BB=93=E6=9E=84</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE user_trades_timezone
+(
+    id            BIGSERIAL PRIMARY KEY,
+    -- =E6=97=B6=E9=97=B4=E7=BB=B4=E5=BA=A6=EF=BC=88=E5=A4=A9=E7=BA=A7=E5=
+=88=AB=EF=BC=89
+    date_key      VARCHAR NOT NULL,    -- =E6=97=A5=E6=9C=9F=E9=94=AE=EF=BC=
+=8C=E6=A0=BC=E5=BC=8F=EF=BC=9AYYYYMMDD=EF=BC=88=E5=A6=82=EF=BC=9A20250122=
+=EF=BC=89
+    date_start_ms BIGINT  NOT NULL,    -- =E8=AF=A5=E5=A4=A9=E7=9A=84=E8=B5=
+=B7=E5=A7=8B=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=8C=
+UTC 00:00:00=EF=BC=89
+    date_end_ms   BIGINT  NOT NULL,    -- =E8=AF=A5=E5=A4=A9=E7=9A=84=E7=BB=
+=93=E6=9D=9F=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=8C=
+UTC 23:59:59.999=EF=BC=89
+    -- =E5=88=86=E5=8C=BA=E4=BF=A1=E6=81=AF
+    shard_id      INT     NOT NULL,    -- =E5=88=86=E5=8C=BA=E8=A1=A8=E7=BC=
+=96=E5=8F=B7=EF=BC=880-127=EF=BC=89
+    table_name    VARCHAR NOT NULL,    -- =E5=88=86=E5=8C=BA=E8=A1=A8=E5=90=
+=8D=E7=A7=B0=EF=BC=88user_trades_0 ~ user_trades_127=EF=BC=89
+    -- =E7=BB=9F=E8=AE=A1=E4=BF=A1=E6=81=AF=EF=BC=88=E5=8F=AF=E9=80=89=EF=
+=BC=8C=E7=94=A8=E4=BA=8E=E7=9B=91=E6=8E=A7=EF=BC=89
+    record_count  BIGINT  DEFAULT 0,   -- =E8=AF=A5=E5=88=86=E5=8C=BA=E8=AF=
+=A5=E5=A4=A9=E7=9A=84=E8=AE=B0=E5=BD=95=E6=95=B0
+    -- =E5=85=83=E6=95=B0=E6=8D=AE
+    create_at     BIGINT  NOT NULL,
+    update_at     BIGINT  NOT NULL
+);
+
+-- =E7=B4=A2=E5=BC=95
+CREATE UNIQUE INDEX udx_user_trades_tz_date_shard ON user_trades_timezone (=
+date_key, shard_id);
+CREATE INDEX idx_user_trades_tz_date_range ON user_trades_timezone (date_st=
+art_ms, date_end_ms);
+CREATE INDEX idx_user_trades_tz_shard ON user_trades_timezone (shard_id);</=
+pre>
+</div>
+</div>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-Go=E6=95=B0=E6=8D=AE=E6=A8=A1=E5=9E=8B.1">Go =E6=95=B0=E6=8D=AE=E6=A8=A1=
+=E5=9E=8B</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// data=
+-statistics-infra/model/user_trade.go
+
+// UserTradeTimezoneDBModel =E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E6=97=B6=
+=E9=97=B4=E7=B4=A2=E5=BC=95=E8=A1=A8
+type UserTradeTimezoneDBModel struct {
+    BaseDBModel
+
+    // =E6=97=B6=E9=97=B4=E7=BB=B4=E5=BA=A6
+    DateKey     string `gorm:"column:date_key; type:varchar; uniqueIndex:ud=
+x_user_trades_tz_date_shard"`     // YYYYMMDD
+    DateStartMs int64  `gorm:"column:date_start_ms; type:bigint; index:idx_=
+user_trades_tz_date_range"`
+    DateEndMs   int64  `gorm:"column:date_end_ms; type:bigint; index:idx_us=
+er_trades_tz_date_range"`
+
+    // =E5=88=86=E5=8C=BA=E4=BF=A1=E6=81=AF
+    ShardID     int    `gorm:"column:shard_id; type:int; uniqueIndex:udx_us=
+er_trades_tz_date_shard; index:idx_user_trades_tz_shard"`
+    TableName   string `gorm:"column:table_name; type:varchar"`
+
+    // =E7=BB=9F=E8=AE=A1=E4=BF=A1=E6=81=AF
+    RecordCount int64 `gorm:"column:record_count; type:bigint; default:0"`
+}
+
+func (UserTradeTimezoneDBModel) TableName() string {
+    return "user_trades_timezone"
+}
+
+// GenerateDateKey =E7=94=9F=E6=88=90=E6=97=A5=E6=9C=9F=E9=94=AE=EF=BC=88YY=
+YYMMDD=EF=BC=89
+func GenerateDateKey(timestampMs int64) string {
+    return time.UnixMilli(timestampMs).UTC().Format("20060102")
+}
+
+// GetDayRange =E8=8E=B7=E5=8F=96=E6=9F=90=E5=A4=A9=E7=9A=84=E8=B5=B7=E6=AD=
+=A2=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88UTC=EF=BC=89
+func GetDayRange(timestampMs int64) (startMs, endMs int64) {
+    t :=3D time.UnixMilli(timestampMs).UTC()
+    year, month, day :=3D t.Date()
+
+    start :=3D time.Date(year, month, day, 0, 0, 0, 0, time.UTC)
+    end :=3D time.Date(year, month, day, 23, 59, 59, 999999999, time.UTC)
+
+    return start.UnixMilli(), end.UnixMilli()
+}</pre>
+</div>
+</div>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E5=AD=97=E6=AE=B5=E8=AF=B4=E6=98=8E.1">=E5=AD=97=E6=AE=B5=E8=AF=B4=E6=98=
+=8E</h4>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f2=
+28ff25-92ea-4318-8c13-2fc1703c7f78" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=AD=97=E6=AE=B5</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=A4=BA=E4=BE=8B</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>id</p></td>
+<td class=3D"confluenceTd">
+<p>BIGSERIAL</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=87=AA=E5=A2=9E=E4=B8=BB=E9=94=AE</p></td>
+<td class=3D"confluenceTd">
+<p><code>1</code>, <code>2</code>, <code>3</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>date_key</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=97=A5=E6=9C=9F=E9=94=AE=EF=BC=88YYYYMMDD=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>20250122</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>date_start_ms</p></td>
+<td class=3D"confluenceTd">
+<p>BIGINT</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=AF=A5=E5=A4=A9=E8=B5=B7=E5=A7=8B=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=
+=E6=AF=AB=E7=A7=92=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>1737504000000</code> (2025-01-22 00:00:00 UTC)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>date_end_ms</p></td>
+<td class=3D"confluenceTd">
+<p>BIGINT</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=AF=A5=E5=A4=A9=E7=BB=93=E6=9D=9F=E6=97=B6=E9=97=B4=E6=88=B3=EF=BC=88=
+=E6=AF=AB=E7=A7=92=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>1737590399999</code> (2025-01-22 23:59:59.999 UTC)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>shard_id</p></td>
+<td class=3D"confluenceTd">
+<p>INT</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=88=86=E5=8C=BA=E8=A1=A8=E7=BC=96=E5=8F=B7</p></td>
+<td class=3D"confluenceTd">
+<p><code>0</code> ~ <code>127</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>table_name</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=88=86=E5=8C=BA=E8=A1=A8=E5=90=8D=E7=A7=B0</p></td>
+<td class=3D"confluenceTd">
+<p><code>user_trades_0</code>, <code>user_trades_127</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>record_count</p></td>
+<td class=3D"confluenceTd">
+<p>BIGINT</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=AF=A5=E5=88=86=E5=8C=BA=E8=AF=A5=E5=A4=A9=E7=9A=84=E8=AE=B0=E5=BD=95=
+=E6=95=B0=EF=BC=88=E5=8F=AF=E9=80=89=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>1234</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E4=BD=BF=E7=94=A8=E7=A4=BA=E4=BE=8B">=E4=BD=BF=E7=94=A8=E7=A4=BA=E4=BE=8B=
+</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// =E5=
+=86=99=E5=85=A5=E4=BA=A4=E6=98=93=E6=97=B6=EF=BC=8C=E5=90=8C=E6=AD=A5=E6=9B=
+=B4=E6=96=B0=E7=B4=A2=E5=BC=95=E8=A1=A8
+func (d *UserTradeDALImpl) StoreTradeAction(ctx context.Context, action *mo=
+del.UserTradeActionDBModel) error {
+    // 1. =E5=86=99=E5=85=A5=E4=BA=A4=E6=98=93=E6=95=B0=E6=8D=AE
+    tableName :=3D action.TableName()
+    if err :=3D d.db.WithContext(ctx).Table(tableName).Create(action).Error=
+; err !=3D nil {
+        return err
+    }
+
+    // 2. =E6=9B=B4=E6=96=B0=E6=97=B6=E9=97=B4=E7=B4=A2=E5=BC=95=EF=BC=88UP=
+SERT=EF=BC=89
+    shardID, _ :=3D utils.HexAddrMod(action.UserAddress, 128)
+    dateKey :=3D model.GenerateDateKey(action.ActionTimeMs)
+    startMs, endMs :=3D model.GetDayRange(action.ActionTimeMs)
+
+    timezone :=3D &amp;model.UserTradeTimezoneDBModel{
+        DateKey:     dateKey,
+        DateStartMs: startMs,
+        DateEndMs:   endMs,
+        ShardID:     shardID,
+        TableName:   tableName,
+        RecordCount: 1,
+    }
+
+    return d.db.WithContext(ctx).Table("user_trades_timezone").
+        Clauses(clause.OnConflict{
+            Columns: []clause.Column{{Name: "date_key"}, {Name: "shard_id"}=
+},
+            DoUpdates: clause.Assignments(map[string]interface{}{
+                "record_count": gorm.Expr("record_count + 1"),
+                "update_at":    time.Now().UnixMilli(),
+            }),
+        }).Create(timezone).Error
+}
+
+// =E6=9F=A5=E8=AF=A2=E6=97=B6=EF=BC=8C=E5=85=88=E9=80=9A=E8=BF=87=E7=B4=A2=
+=E5=BC=95=E8=A1=A8=E8=8E=B7=E5=8F=96=E9=9C=80=E8=A6=81=E6=9F=A5=E8=AF=A2=E7=
+=9A=84=E5=88=86=E5=8C=BA
+func (d *UserTradeDALImpl) GetActiveShardsByDateRange(ctx context.Context, =
+startMs, endMs int64) ([]int, error) {
+    var timezones []*model.UserTradeTimezoneDBModel
+
+    err :=3D d.db.WithContext(ctx).Table("user_trades_timezone").
+        Where("date_end_ms &gt;=3D ? AND date_start_ms &lt;=3D ?", startMs,=
+ endMs).
+        Group("shard_id").
+        Find(&amp;timezones).Error
+
+    if err !=3D nil {
+        return nil, err
+    }
+
+    // =E6=8F=90=E5=8F=96=E5=94=AF=E4=B8=80=E7=9A=84=E5=88=86=E5=8C=BAID
+    shardMap :=3D make(map[int]bool)
+    for _, tz :=3D range timezones {
+        shardMap[tz.ShardID] =3D true
+    }
+
+    shards :=3D make([]int, 0, len(shardMap))
+    for shardID :=3D range shardMap {
+        shards =3D append(shards, shardID)
+    }
+
+    return shards, nil
+}</pre>
+</div>
+</div>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-2.3=E7=94=A8=E6=88=B7=E6=8C=81=E4=BB=93=E8=AE=B0=E5=BD=95=E8=A1=A8(user_po=
+sitions)">2.3 =E7=94=A8=E6=88=B7=E6=8C=81=E4=BB=93=E8=AE=B0=E5=BD=95=E8=A1=
+=A8 (user_positions)</h3>
+<p><strong>=E7=94=A8=E9=80=94</strong>=EF=BC=9A=E8=AE=B0=E5=BD=95=E7=94=A8=
+=E6=88=B7=E7=9A=84=E5=AE=9E=E6=97=B6=E6=8C=81=E4=BB=93=E7=8A=B6=E6=80=81</p=
+>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E8=A1=A8=E7=BB=93=E6=9E=84.2">=E8=A1=A8=E7=BB=93=E6=9E=84</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE T=
+ABLE user_positions
+(
+    id                      BIGSERIAL PRIMARY KEY,
+    -- =E4=BB=93=E4=BD=8D=E6=A0=87=E8=AF=86
+    package_id              VARCHAR NOT NULL,    -- =E4=BB=93=E4=BD=8D=E5=
+=AF=B9=E5=BA=94=E7=9A=84 package ID
+    position_id             VARCHAR NOT NULL,    -- =E4=BB=93=E4=BD=8DID
+    user_address            VARCHAR NOT NULL,    -- =E6=8C=81=E4=BB=93=E5=
+=9C=B0=E5=9D=80
+    -- =E5=B8=81=E7=A7=8D=E4=BF=A1=E6=81=AF
+    index_coin              VARCHAR NOT NULL,    -- =E6=8C=81=E4=BB=93=E5=
+=B8=81=E7=A7=8D=EF=BC=88=E6=A0=87=E7=9A=84=EF=BC=89
+    collateral_coin         VARCHAR NOT NULL,    -- =E4=BF=9D=E8=AF=81=E9=
+=87=91=E5=B8=81=E7=A7=8D
+    is_long                 BOOLEAN NOT NULL,    -- =E5=A4=9A=E7=A9=BA=E6=
+=96=B9=E5=90=91
+    -- =E4=BB=93=E4=BD=8D=E6=95=B0=E9=87=8F=E5=92=8C=E4=BB=B7=E6=A0=BC
+    position_size           VARCHAR NOT NULL,    -- =E5=BD=93=E5=89=8D=E6=
+=8C=81=E4=BB=93=E6=95=B0=E9=87=8F (USD)
+    collateral_amount       VARCHAR NOT NULL,    -- =E5=BD=93=E5=89=8D=E4=
+=BF=9D=E8=AF=81=E9=87=91=E6=95=B0=E9=87=8F (USD)
+    open_price              VARCHAR NOT NULL,    -- =E5=BC=80=E4=BB=93=E4=
+=BB=B7=E6=A0=BC
+    avg_entry_price         VARCHAR NOT NULL,    -- =E5=B9=B3=E5=9D=87=E6=
+=8C=81=E4=BB=93=E4=BB=B7=E6=A0=BC=EF=BC=88=E5=8A=A0=E6=9D=83=E5=B9=B3=E5=9D=
+=87=EF=BC=89
+    -- =E7=9B=88=E4=BA=8F=E4=BF=A1=E6=81=AF
+    realized_pnl            VARCHAR DEFAULT '0', -- =E5=B7=B2=E5=AE=9E=E7=
+=8E=B0=E7=9B=88=E4=BA=8F=EF=BC=88=E7=B4=AF=E8=AE=A1=EF=BC=89
+    last_pnl_update_time_ms BIGINT,              -- =E4=B8=8A=E6=AC=A1=E6=
+=9B=B4=E6=96=B0=E5=B7=B2=E5=AE=9E=E7=8E=B0=E7=9B=88=E4=BA=8F=E6=97=B6=E9=97=
+=B4
+    -- =E7=BB=9F=E8=AE=A1=E5=AD=97=E6=AE=B5
+    total_increase_volume   VARCHAR DEFAULT '0', -- =E7=B4=AF=E8=AE=A1=E5=
+=8A=A0=E4=BB=93=E9=87=8F
+    total_decrease_volume   VARCHAR DEFAULT '0', -- =E7=B4=AF=E8=AE=A1=E5=
+=87=8F=E4=BB=93=E9=87=8F
+    total_fees_paid         VARCHAR DEFAULT '0', -- =E7=B4=AF=E8=AE=A1=E6=
+=94=AF=E4=BB=98=E6=89=8B=E7=BB=AD=E8=B4=B9
+    -- =E7=8A=B6=E6=80=81=E5=92=8C=E6=97=B6=E9=97=B4
+    status                  VARCHAR NOT NULL,    -- active/closed/liquidate=
+d
+    open_time_ms            BIGINT  NOT NULL,    -- =E5=BC=80=E4=BB=93=E6=
+=97=B6=E9=97=B4
+    close_time_ms           BIGINT,              -- =E5=B9=B3=E4=BB=93=E6=
+=97=B6=E9=97=B4
+    last_update_time_ms     BIGINT  NOT NULL,    -- =E6=9C=80=E5=90=8E=E6=
+=9B=B4=E6=96=B0=E6=97=B6=E9=97=B4
+    last_update_tx_digest   VARCHAR,             -- =E6=9C=80=E5=90=8E=E6=
+=9B=B4=E6=96=B0=E7=9A=84=E4=BA=A4=E6=98=93=E5=93=88=E5=B8=8C
+    created_at              BIGINT  NOT NULL,
+    updated_at              BIGINT  NOT NULL
+);
+-- =E7=B4=A2=E5=BC=95
+CREATE INDEX idx_user_positions_user ON user_positions (user_address);
+CREATE INDEX idx_user_positions_status ON user_positions (status);
+CREATE INDEX idx_user_positions_time ON user_positions (open_time_ms);
+CREATE UNIQUE INDEX udx_user_positions_package_position ON user_positions (=
+package_id, position_id);</pre>
+</div>
+</div>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-Go=E6=95=B0=E6=8D=AE=E6=A8=A1=E5=9E=8B.2">Go =E6=95=B0=E6=8D=AE=E6=A8=A1=
+=E5=9E=8B</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// data=
+-statistics-infra/model/user_position.go
+
+package model
+
+import (
+    "github.com/HertzFlow/data-statistics/data-statistics-infra/consts"
+)
+
+// UserPositionDBModel =E7=94=A8=E6=88=B7=E6=8C=81=E4=BB=93=E8=AE=B0=E5=BD=
+=95=E8=A1=A8
+type UserPositionDBModel struct {
+    BaseDBModel
+
+    // =E4=BB=93=E4=BD=8D=E6=A0=87=E8=AF=86
+    PositionID  string `gorm:"column:position_id; type:varchar; uniqueIndex=
+"`
+    UserAddress string `gorm:"column:user_address; type:varchar; index:idx_=
+user_positions_user"`
+    PackageID   string `gorm:"column:package_id; type:varchar; index:idx_us=
+er_positions_package"`
+
+    // =E5=B8=81=E7=A7=8D=E4=BF=A1=E6=81=AF
+    IndexCoin      consts.CoinType `gorm:"column:index_coin; type:varchar"`
+    CollateralCoin consts.CoinType `gorm:"column:collateral_coin; type:varc=
+har"`
+    IsLong         bool            `gorm:"column:is_long; type:bool"`
+
+    // =E4=BB=93=E4=BD=8D=E6=95=B0=E9=87=8F=E5=92=8C=E4=BB=B7=E6=A0=BC
+    PositionSize     string `gorm:"column:position_size; type:varchar"`
+    CollateralAmount string `gorm:"column:collateral_amount; type:varchar"`
+    OpenPrice        string `gorm:"column:open_price; type:varchar"`
+    AvgEntryPrice    string `gorm:"column:avg_entry_price; type:varchar"`
+
+    // =E7=9B=88=E4=BA=8F=E4=BF=A1=E6=81=AF
+    RealizedPnl           string `gorm:"column:realized_pnl; type:varchar; =
+default:'0'"`
+    LastPnlUpdateTimeMs   *int64 `gorm:"column:last_pnl_update_time_ms; typ=
+e:bigint"`
+
+    // =E7=BB=9F=E8=AE=A1=E5=AD=97=E6=AE=B5
+    TotalIncreaseVolume string `gorm:"column:total_increase_volume; type:va=
+rchar; default:'0'"`
+    TotalDecreaseVolume string `gorm:"column:total_decrease_volume; type:va=
+rchar; default:'0'"`
+    TotalFeesPaid       string `gorm:"column:total_fees_paid; type:varchar;=
+ default:'0'"`
+
+    // =E7=8A=B6=E6=80=81=E5=92=8C=E6=97=B6=E9=97=B4
+    Status              string  `gorm:"column:status; type:varchar; index:i=
+dx_user_positions_status"`
+    OpenTimeMs          int64   `gorm:"column:open_time_ms; type:bigint; in=
+dex:idx_user_positions_time"`
+    CloseTimeMs         *int64  `gorm:"column:close_time_ms; type:bigint"`
+    LastUpdateTimeMs    int64   `gorm:"column:last_update_time_ms; type:big=
+int"`
+    LastUpdateTxDigest  *string `gorm:"column:last_update_tx_digest; type:v=
+archar"`
+}
+
+func (UserPositionDBModel) TableName() string {
+    return "user_positions"
+}
+
+// NewUserPosition =E5=88=9B=E5=BB=BA=E6=96=B0=E7=9A=84=E6=8C=81=E4=BB=93=
+=E8=AE=B0=E5=BD=95
+func NewUserPosition(
+    positionID, userAddress, packageID string,
+    indexCoin, collateralCoin consts.CoinType,
+    isLong bool,
+    openPrice string,
+    timestampMs int64,
+) *UserPositionDBModel {
+    return &amp;UserPositionDBModel{
+        PositionID:       positionID,
+        UserAddress:      userAddress,
+        PackageID:        packageID,
+        IndexCoin:        indexCoin,
+        CollateralCoin:   collateralCoin,
+        IsLong:           isLong,
+        PositionSize:     "0",
+        CollateralAmount: "0",
+        OpenPrice:        openPrice,
+        AvgEntryPrice:    openPrice,
+        Status:           consts.PositionStatusActive,
+        OpenTimeMs:       timestampMs,
+        LastUpdateTimeMs: timestampMs,
+    }
+}</pre>
+</div>
+</div>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E5=AD=97=E6=AE=B5=E8=AF=B4=E6=98=8E.2">=E5=AD=97=E6=AE=B5=E8=AF=B4=E6=98=
+=8E</h4>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"64=
+627237-3de6-4109-a216-f86a37b5ec95" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=AD=97=E6=AE=B5</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=A4=BA=E4=BE=8B</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>position_id</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BB=93=E4=BD=8D=E5=94=AF=E4=B8=80=E6=A0=87=E8=AF=86</p></td>
+<td class=3D"confluenceTd">
+<p><code>0xabc123...</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>user_address</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8C=81=E4=BB=93=E5=9C=B0=E5=9D=80</p></td>
+<td class=3D"confluenceTd">
+<p><code>0x1a2b3c...</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>package_id</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BB=93=E4=BD=8D=E5=AF=B9=E5=BA=94=E7=9A=84 package ID</p></td>
+<td class=3D"confluenceTd">
+<p><code>0x456def...</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>index_coin</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8C=81=E4=BB=93=E5=B8=81=E7=A7=8D=EF=BC=88=E6=A0=87=E7=9A=84=EF=BC=89=
+</p></td>
+<td class=3D"confluenceTd">
+<p><code>BTC</code>, <code>ETH</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>collateral_coin</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BF=9D=E8=AF=81=E9=87=91=E5=B8=81=E7=A7=8D</p></td>
+<td class=3D"confluenceTd">
+<p><code>USDT</code>, <code>USDC</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>is_long</p></td>
+<td class=3D"confluenceTd">
+<p>BOOLEAN</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=A4=9A=E7=A9=BA=E6=96=B9=E5=90=91</p></td>
+<td class=3D"confluenceTd">
+<p><code>true</code> (=E5=81=9A=E5=A4=9A), <code>false</code> (=E5=81=9A=E7=
+=A9=BA)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>position_size</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=BD=93=E5=89=8D=E6=8C=81=E4=BB=93=E6=95=B0=E9=87=8F (USD)</p></td>
+<td class=3D"confluenceTd">
+<p><code>10000.0</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>collateral_amount</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=BD=93=E5=89=8D=E4=BF=9D=E8=AF=81=E9=87=91=E6=95=B0=E9=87=8F (USD)</p=
+></td>
+<td class=3D"confluenceTd">
+<p><code>2000.0</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>open_price</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=BC=80=E4=BB=93=E4=BB=B7=E6=A0=BC</p></td>
+<td class=3D"confluenceTd">
+<p><code>50000.0</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>avg_entry_price</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=B9=B3=E5=9D=87=E6=8C=81=E4=BB=93=E4=BB=B7=E6=A0=BC=EF=BC=88=E5=8A=A0=
+=E6=9D=83=E5=B9=B3=E5=9D=87=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>50500.0</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>realized_pnl</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=B7=B2=E5=AE=9E=E7=8E=B0=E7=9B=88=E4=BA=8F=EF=BC=88=E7=B4=AF=E8=AE=A1=
+=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>150.5</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>last_pnl_update_time_ms</p></td>
+<td class=3D"confluenceTd">
+<p>BIGINT</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=B8=8A=E6=AC=A1=E6=9B=B4=E6=96=B0=E5=B7=B2=E5=AE=9E=E7=8E=B0=E7=9B=88=
+=E4=BA=8F=E6=97=B6=E9=97=B4</p></td>
+<td class=3D"confluenceTd">
+<p><code>1704067200000</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>total_increase_volume</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=B4=AF=E8=AE=A1=E5=8A=A0=E4=BB=93=E9=87=8F (USD)</p></td>
+<td class=3D"confluenceTd">
+<p><code>15000.0</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>total_decrease_volume</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=B4=AF=E8=AE=A1=E5=87=8F=E4=BB=93=E9=87=8F (USD)</p></td>
+<td class=3D"confluenceTd">
+<p><code>5000.0</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>total_fees_paid</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=B4=AF=E8=AE=A1=E6=94=AF=E4=BB=98=E6=89=8B=E7=BB=AD=E8=B4=B9 (USD)</p=
+></td>
+<td class=3D"confluenceTd">
+<p><code>50.0</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>status</p></td>
+<td class=3D"confluenceTd">
+<p>VARCHAR</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8C=81=E4=BB=93=E7=8A=B6=E6=80=81</p></td>
+<td class=3D"confluenceTd">
+<p><code>active</code>, <code>closed</code>, <code>liquidated</code></p></t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>open_time_ms</p></td>
+<td class=3D"confluenceTd">
+<p>BIGINT</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=BC=80=E4=BB=93=E6=97=B6=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89=
+</p></td>
+<td class=3D"confluenceTd">
+<p><code>1704067200000</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>close_time_ms</p></td>
+<td class=3D"confluenceTd">
+<p>BIGINT</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=B9=B3=E4=BB=93=E6=97=B6=E9=97=B4=EF=BC=88=E6=AF=AB=E7=A7=92=EF=BC=89=
+</p></td>
+<td class=3D"confluenceTd">
+<p><code>1704153600000</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E4=B8=89=E3=80=81DAL=E5=B1=82=E8=AE=BE=E8=AE=A1">=E4=B8=89=E3=80=81DAL=E5=
+=B1=82=E8=AE=BE=E8=AE=A1</h2>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-3.1UserTradeDAL=E6=8E=A5=E5=8F=A3=E5=AE=9A=E4=B9=89">3.1 UserTradeDAL =E6=
+=8E=A5=E5=8F=A3=E5=AE=9A=E4=B9=89</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// bloc=
+k-scanner/internal/dal/user_trade.go
+
+package dal
+
+import (
+    "context"
+    "github.com/HertzFlow/data-statistics/data-statistics-infra/model"
+)
+
+type UserTradeDAL interface {
+    // =E5=8D=95=E4=B8=AA=E4=BF=9D=E5=AD=98
+    StoreTradeAction(ctx context.Context, action *model.UserTradeActionDBMo=
+del) error
+    StoreUserPosition(ctx context.Context, position *model.UserPositionDBMo=
+del) error
+
+    // =E6=89=B9=E9=87=8F=E4=BF=9D=E5=AD=98
+    BatchStoreTradeActions(ctx context.Context, actions []*model.UserTradeA=
+ctionDBModel) error
+    BatchStoreUserPositions(ctx context.Context, positions []*model.UserPos=
+itionDBModel) error
+
+    // =E5=8D=95=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E6=9F=A5=E8=AF=A2=EF=
+=BC=88=E6=B8=B8=E6=A0=87=E5=88=86=E9=A1=B5=EF=BC=89
+    GetTradeActionsByUser(ctx context.Context, req *UserTradeQueryRequest) =
+(*UserTradeQueryResponse, error)
+
+    // =E5=85=A8=E9=87=8F=E4=BA=A4=E6=98=93=E6=9F=A5=E8=AF=A2=EF=BC=88=E8=
+=B7=A8=E6=89=80=E6=9C=89=E7=94=A8=E6=88=B7=E5=88=86=E8=A1=A8=EF=BC=89
+    GetAllTradeActions(ctx context.Context, req *AllTradeQueryRequest) (*Al=
+lTradeQueryResponse, error)
+
+    // =E6=8C=81=E4=BB=93=E6=9F=A5=E8=AF=A2
+    GetUserPosition(ctx context.Context, userAddress, positionID string) (*=
+model.UserPositionDBModel, error)
+    GetActiveUserPositions(ctx context.Context, userAddress string) ([]*mod=
+el.UserPositionDBModel, error)
+    UpdatePositionStatus(ctx context.Context, userAddress, positionID strin=
+g, status string, closeTimeMs *int64) error
+}
+
+// UserTradeQueryRequest =E5=8D=95=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E6=
+=9F=A5=E8=AF=A2=E8=AF=B7=E6=B1=82=EF=BC=88=E6=B8=B8=E6=A0=87=E5=88=86=E9=A1=
+=B5=EF=BC=89
+type UserTradeQueryRequest struct {
+    UserAddress    string                  // =E5=BF=85=E9=9C=80=EF=BC=9A=
+=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80
+    ActionType     *consts.TradeActionType // =E5=8F=AF=E9=80=89=EF=BC=9A=
+=E4=BA=A4=E6=98=93=E7=B1=BB=E5=9E=8B=E8=BF=87=E6=BB=A4
+    StartTimeMs    *int64                  // =E5=8F=AF=E9=80=89=EF=BC=9A=
+=E8=B5=B7=E5=A7=8B=E6=97=B6=E9=97=B4
+    EndTimeMs      *int64                  // =E5=8F=AF=E9=80=89=EF=BC=9A=
+=E7=BB=93=E6=9D=9F=E6=97=B6=E9=97=B4
+    Limit          int                     // =E6=AF=8F=E9=A1=B5=E5=A4=A7=
+=E5=B0=8F=EF=BC=88=E9=BB=98=E8=AE=A420=EF=BC=8C=E6=9C=80=E5=A4=A7100=EF=BC=
+=89
+    NextActionTime *int64                  // =E6=B8=B8=E6=A0=87=EF=BC=9A=
+=E4=B8=8B=E4=B8=80=E9=A1=B5=E8=B5=B7=E5=A7=8B=E6=97=B6=E9=97=B4
+    NextID         *int64                  // =E6=B8=B8=E6=A0=87=EF=BC=9A=
+=E4=B8=8B=E4=B8=80=E9=A1=B5=E8=B5=B7=E5=A7=8BID
+}
+
+// UserTradeQueryResponse =E5=8D=95=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E6=
+=9F=A5=E8=AF=A2=E5=93=8D=E5=BA=94
+type UserTradeQueryResponse struct {
+    Actions        []*model.UserTradeActionDBModel
+    HasMore        bool   // =E6=98=AF=E5=90=A6=E6=9C=89=E4=B8=8B=E4=B8=80=
+=E9=A1=B5
+    NextActionTime *int64 // =E4=B8=8B=E4=B8=80=E9=A1=B5=E6=B8=B8=E6=A0=87=
+=EF=BC=9A=E6=97=B6=E9=97=B4
+    NextID         *int64 // =E4=B8=8B=E4=B8=80=E9=A1=B5=E6=B8=B8=E6=A0=87=
+=EF=BC=9AID
+}
+
+// AllTradeQueryRequest =E5=85=A8=E9=87=8F=E4=BA=A4=E6=98=93=E6=9F=A5=E8=AF=
+=A2=E8=AF=B7=E6=B1=82
+type AllTradeQueryRequest struct {
+    StartTimeMs int64                   // =E5=BF=85=E9=9C=80=EF=BC=9A=E8=
+=B5=B7=E5=A7=8B=E6=97=B6=E9=97=B4
+    EndTimeMs   int64                   // =E5=BF=85=E9=9C=80=EF=BC=9A=E7=
+=BB=93=E6=9D=9F=E6=97=B6=E9=97=B4
+    ActionType  *consts.TradeActionType // =E5=8F=AF=E9=80=89=EF=BC=9A=E4=
+=BA=A4=E6=98=93=E7=B1=BB=E5=9E=8B=E8=BF=87=E6=BB=A4
+    Limit       int                     // =E6=AF=8F=E6=89=B9=E6=AC=A1=E5=
+=A4=A7=E5=B0=8F=EF=BC=88=E9=BB=98=E8=AE=A41000=EF=BC=89
+}
+
+// AllTradeQueryResponse =E5=85=A8=E9=87=8F=E4=BA=A4=E6=98=93=E6=9F=A5=E8=
+=AF=A2=E5=93=8D=E5=BA=94
+type AllTradeQueryResponse struct {
+    Actions    []*model.UserTradeActionDBModel
+    TotalCount int
+}</pre>
+</div>
+</div>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-3.2=E5=88=86=E8=A1=A8=E6=9F=A5=E8=AF=A2=E6=96=B9=E6=A1=88">3.2 =E5=88=86=
+=E8=A1=A8=E6=9F=A5=E8=AF=A2=E6=96=B9=E6=A1=88</h3>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-3.2.1=E5=8D=95=E7=94=A8=E6=88=B7=E6=9F=A5=E8=AF=A2=EF=BC=88=E6=B8=B8=E6=A0=
+=87=E5=88=86=E9=A1=B5=EF=BC=89">3.2.1 =E5=8D=95=E7=94=A8=E6=88=B7=E6=9F=A5=
+=E8=AF=A2=EF=BC=88=E6=B8=B8=E6=A0=87=E5=88=86=E9=A1=B5=EF=BC=89</h4>
+<p><strong>=E9=80=82=E7=94=A8=E5=9C=BA=E6=99=AF</strong>=EF=BC=9A=E6=9F=A5=
+=E8=AF=A2=E5=8D=95=E4=B8=AA=E7=94=A8=E6=88=B7=E7=9A=84=E4=BA=A4=E6=98=93=E5=
+=8E=86=E5=8F=B2</p>
+<p><strong>=E4=BC=98=E5=8A=BF</strong>=EF=BC=9A</p>
+<ul>
+<li>
+<p>=E7=9B=B4=E6=8E=A5=E5=AE=9A=E4=BD=8D=E5=88=B0=E7=94=A8=E6=88=B7=E5=AF=B9=
+=E5=BA=94=E7=9A=84=E5=88=86=E5=8C=BA=E8=A1=A8=EF=BC=8C=E6=9F=A5=E8=AF=A2=E6=
+=80=A7=E8=83=BD=E6=9C=80=E4=BC=98</p></li>
+<li>
+<p>=E6=B8=B8=E6=A0=87=E5=88=86=E9=A1=B5=E9=81=BF=E5=85=8D=E6=B7=B1=E5=88=86=
+=E9=A1=B5=E6=80=A7=E8=83=BD=E9=97=AE=E9=A2=98</p></li>
+<li>
+<p>=E6=94=AF=E6=8C=81=E6=97=A0=E9=99=90=E6=BB=9A=E5=8A=A8=E5=8A=A0=E8=BD=BD=
+</p></li>
+</ul>
+<p><strong>=E5=AE=9E=E7=8E=B0=E9=80=BB=E8=BE=91</strong>=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">func (d=
+ *UserTradeDALImpl) GetTradeActionsByUser(
+    ctx context.Context,
+    req *UserTradeQueryRequest,
+) (*UserTradeQueryResponse, error) {
+    // 1. =E6=A0=B9=E6=8D=AE=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=E8=AE=A1=
+=E7=AE=97=E5=88=86=E5=8C=BA=E8=A1=A8
+    var model model.UserTradeActionDBModel
+    model.UserAddress =3D req.UserAddress
+    tableName :=3D model.TableName() // user_trades_0 ~ user_trades_127
+
+    // 2. =E6=9E=84=E5=BB=BA=E6=9F=A5=E8=AF=A2=E6=9D=A1=E4=BB=B6
+    query :=3D d.db.WithContext(ctx).Table(tableName).
+        Where("user_address =3D ?", req.UserAddress)
+
+    // =E6=B8=B8=E6=A0=87=E5=88=86=E9=A1=B5=EF=BC=9A=E5=9F=BA=E4=BA=8E (act=
+ion_time_ms DESC, id DESC)
+    if req.NextActionTime !=3D nil &amp;&amp; req.NextID !=3D nil {
+        query =3D query.Where(
+            "(action_time_ms &lt; ?) OR (action_time_ms =3D ? AND id &lt; ?=
+)",
+            *req.NextActionTime, *req.NextActionTime, *req.NextID,
+        )
+    }
+
+    // =E6=97=B6=E9=97=B4=E8=8C=83=E5=9B=B4=E8=BF=87=E6=BB=A4
+    if req.StartTimeMs !=3D nil {
+        query =3D query.Where("action_time_ms &gt;=3D ?", *req.StartTimeMs)
+    }
+    if req.EndTimeMs !=3D nil {
+        query =3D query.Where("action_time_ms &lt;=3D ?", *req.EndTimeMs)
+    }
+
+    // =E4=BA=A4=E6=98=93=E7=B1=BB=E5=9E=8B=E8=BF=87=E6=BB=A4
+    if req.ActionType !=3D nil {
+        query =3D query.Where("action_type =3D ?", *req.ActionType)
+    }
+
+    // 3. =E6=89=A7=E8=A1=8C=E6=9F=A5=E8=AF=A2=EF=BC=88=E5=A4=9A=E6=9F=A51=
+=E6=9D=A1=E5=88=A4=E6=96=AD=E6=98=AF=E5=90=A6=E6=9C=89=E4=B8=8B=E4=B8=80=E9=
+=A1=B5=EF=BC=89
+    limit :=3D req.Limit
+    if limit &lt;=3D 0 || limit &gt; 100 {
+        limit =3D 20
+    }
+
+    var actions []*model.UserTradeActionDBModel
+    err :=3D query.Order("action_time_ms DESC, id DESC").
+        Limit(limit + 1).
+        Find(&amp;actions).Error
+
+    if err !=3D nil {
+        return nil, err
+    }
+
+    // 4. =E5=A4=84=E7=90=86=E5=88=86=E9=A1=B5=E6=B8=B8=E6=A0=87
+    hasMore :=3D len(actions) &gt; limit
+    if hasMore {
+        actions =3D actions[:limit]
+    }
+
+    var nextActionTime, nextID *int64
+    if hasMore &amp;&amp; len(actions) &gt; 0 {
+        last :=3D actions[len(actions)-1]
+        nextActionTime =3D &amp;last.ActionTimeMs
+        nextID =3D &amp;last.ID
+    }
+
+    return &amp;UserTradeQueryResponse{
+        Actions:        actions,
+        HasMore:        hasMore,
+        NextActionTime: nextActionTime,
+        NextID:         nextID,
+    }, nil
+}</pre>
+</div>
+</div>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-3.2.2=E5=85=A8=E9=87=8F=E6=9F=A5=E8=AF=A2=EF=BC=88=E5=9F=BA=E4=BA=8E=E6=97=
+=B6=E9=97=B4=E7=B4=A2=E5=BC=95=E8=A1=A8=E4=BC=98=E5=8C=96=EF=BC=89">3.2.2 =
+=E5=85=A8=E9=87=8F=E6=9F=A5=E8=AF=A2=EF=BC=88=E5=9F=BA=E4=BA=8E=E6=97=B6=E9=
+=97=B4=E7=B4=A2=E5=BC=95=E8=A1=A8=E4=BC=98=E5=8C=96=EF=BC=89</h4>
+<p><strong>=E9=80=82=E7=94=A8=E5=9C=BA=E6=99=AF</strong>=EF=BC=9A</p>
+<ul>
+<li>
+<p>=E5=B9=B3=E5=8F=B0=E7=BA=A7=E7=BB=9F=E8=AE=A1=E5=88=86=E6=9E=90=EF=BC=88=
+=E5=A6=82=E6=AF=8F=E6=97=A5=E4=BA=A4=E6=98=93=E6=80=BB=E9=87=8F=E3=80=81=E6=
+=89=8B=E7=BB=AD=E8=B4=B9=E7=BB=9F=E8=AE=A1=EF=BC=89</p></li>
+<li>
+<p>=E6=95=B0=E6=8D=AE=E5=AF=BC=E5=87=BA=E5=92=8C=E5=A4=87=E4=BB=BD</p></li>
+<li>
+<p>=E7=AB=9E=E8=B5=9B=E6=8E=92=E8=A1=8C=E6=A6=9C=E8=AE=A1=E7=AE=97</p></li>
+</ul>
+<p><strong>=E4=BC=98=E5=8C=96=E7=AD=96=E7=95=A5</strong>=EF=BC=9A</p>
+<ul>
+<li>
+<p>=E2=9C=85 =E9=80=9A=E8=BF=87 <code>user_trades_timezone</code> =E7=B4=A2=
+=E5=BC=95=E8=A1=A8=E5=AE=9A=E4=BD=8D=E6=9C=89=E6=95=B0=E6=8D=AE=E7=9A=84=E5=
+=88=86=E5=8C=BA</p></li>
+<li>
+<p>=E2=9C=85 =E5=8F=AA=E6=9F=A5=E8=AF=A2=E6=9C=89=E6=95=B0=E6=8D=AE=E7=9A=
+=84=E5=88=86=E5=8C=BA=EF=BC=8C=E9=81=BF=E5=85=8D=E6=97=A0=E6=95=88=E6=9F=A5=
+=E8=AF=A2</p></li>
+<li>
+<p>=E2=9C=85 =E6=80=A7=E8=83=BD=E6=8F=90=E5=8D=87=EF=BC=9A=E4=BB=8E=E6=9F=
+=A5=E8=AF=A2128=E4=B8=AA=E5=88=86=E5=8C=BA=E9=99=8D=E4=BD=8E=E5=88=B0=E5=B9=
+=B3=E5=9D=8710-20=E4=B8=AA=E5=88=86=E5=8C=BA</p></li>
+</ul>
+<p><strong>=E5=AE=9E=E7=8E=B0=E9=80=BB=E8=BE=91</strong>=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">func (d=
+ *UserTradeDALImpl) GetAllTradeActions(
+    ctx context.Context,
+    req *AllTradeQueryRequest,
+) (*AllTradeQueryResponse, error) {
+    // 1. =E9=80=9A=E8=BF=87=E6=97=B6=E9=97=B4=E7=B4=A2=E5=BC=95=E8=A1=A8=
+=E8=8E=B7=E5=8F=96=E9=9C=80=E8=A6=81=E6=9F=A5=E8=AF=A2=E7=9A=84=E5=88=86=E5=
+=8C=BA=EF=BC=88=E5=85=B3=E9=94=AE=E4=BC=98=E5=8C=96=EF=BC=89
+    activeShards, err :=3D d.GetActiveShardsByDateRange(ctx, req.StartTimeM=
+s, req.EndTimeMs)
+    if err !=3D nil {
+        return nil, fmt.Errorf("failed to get active shards: %w", err)
+    }
+
+    // =E5=A6=82=E6=9E=9C=E6=B2=A1=E6=9C=89=E4=BB=BB=E4=BD=95=E5=88=86=E5=
+=8C=BA=E6=9C=89=E6=95=B0=E6=8D=AE=EF=BC=8C=E7=9B=B4=E6=8E=A5=E8=BF=94=E5=9B=
+=9E=E7=A9=BA=E7=BB=93=E6=9E=9C
+    if len(activeShards) =3D=3D 0 {
+        return &amp;AllTradeQueryResponse{
+            Actions:    []*model.UserTradeActionDBModel{},
+            TotalCount: 0,
+        }, nil
+    }
+
+    // 2. =E5=B9=B6=E5=8F=91=E6=9F=A5=E8=AF=A2=E6=9C=89=E6=95=B0=E6=8D=AE=
+=E7=9A=84=E5=88=86=E5=8C=BA=E8=A1=A8=EF=BC=88=E5=A4=A7=E5=B9=85=E5=87=8F=E5=
+=B0=91=E6=9F=A5=E8=AF=A2=E6=95=B0=E9=87=8F=EF=BC=89
+    resultCh :=3D make(chan []*model.UserTradeActionDBModel, len(activeShar=
+ds))
+    errCh :=3D make(chan error, len(activeShards))
+
+    var wg sync.WaitGroup
+
+    for _, shardID :=3D range activeShards {
+        wg.Add(1)
+        go func(shardID int) {
+            defer wg.Done()
+
+            tableName :=3D fmt.Sprintf("user_trades_%d", shardID)
+            var actions []*model.UserTradeActionDBModel
+
+            query :=3D d.db.WithContext(ctx).Table(tableName).
+                Where("action_time_ms &gt;=3D ? AND action_time_ms &lt;=3D =
+?",
+                    req.StartTimeMs, req.EndTimeMs)
+
+            if req.ActionType !=3D nil {
+                query =3D query.Where("action_type =3D ?", *req.ActionType)
+            }
+
+            if err :=3D query.Find(&amp;actions).Error; err !=3D nil {
+                errCh &lt;- err
+                return
+            }
+
+            resultCh &lt;- actions
+        }(shardID)
+    }
+
+    // 3. =E7=AD=89=E5=BE=85=E6=89=80=E6=9C=89=E5=88=86=E7=89=87=E6=9F=A5=
+=E8=AF=A2=E5=AE=8C=E6=88=90
+    wg.Wait()
+    close(resultCh)
+    close(errCh)
+
+    // 4. =E6=A3=80=E6=9F=A5=E9=94=99=E8=AF=AF
+    if len(errCh) &gt; 0 {
+        return nil, &lt;-errCh
+    }
+
+    // 5. =E8=81=9A=E5=90=88=E7=BB=93=E6=9E=9C
+    var allActions []*model.UserTradeActionDBModel
+    for actions :=3D range resultCh {
+        allActions =3D append(allActions, actions...)
+    }
+
+    // 6. =E6=8C=89=E6=97=B6=E9=97=B4=E6=8E=92=E5=BA=8F
+    sort.Slice(allActions, func(i, j int) bool {
+        if allActions[i].ActionTimeMs =3D=3D allActions[j].ActionTimeMs {
+            return allActions[i].ID &gt; allActions[j].ID
+        }
+        return allActions[i].ActionTimeMs &gt; allActions[j].ActionTimeMs
+    })
+
+    // 7. =E9=99=90=E5=88=B6=E8=BF=94=E5=9B=9E=E6=95=B0=E9=87=8F
+    if req.Limit &gt; 0 &amp;&amp; len(allActions) &gt; req.Limit {
+        allActions =3D allActions[:req.Limit]
+    }
+
+    return &amp;AllTradeQueryResponse{
+        Actions:    allActions,
+        TotalCount: len(allActions),
+    }, nil
+}
+
+// GetActiveShardsByDateRange =E9=80=9A=E8=BF=87=E6=97=B6=E9=97=B4=E7=B4=A2=
+=E5=BC=95=E8=A1=A8=E8=8E=B7=E5=8F=96=E6=9C=89=E6=95=B0=E6=8D=AE=E7=9A=84=E5=
+=88=86=E5=8C=BA
+func (d *UserTradeDALImpl) GetActiveShardsByDateRange(ctx context.Context, =
+startMs, endMs int64) ([]int, error) {
+    var timezones []*model.UserTradeTimezoneDBModel
+
+    err :=3D d.db.WithContext(ctx).Table("user_trades_timezone").
+        Where("date_end_ms &gt;=3D ? AND date_start_ms &lt;=3D ?", startMs,=
+ endMs).
+        Select("DISTINCT shard_id").
+        Find(&amp;timezones).Error
+
+    if err !=3D nil {
+        return nil, err
+    }
+
+    // =E6=8F=90=E5=8F=96=E5=94=AF=E4=B8=80=E7=9A=84=E5=88=86=E5=8C=BAID
+    shardMap :=3D make(map[int]bool)
+    for _, tz :=3D range timezones {
+        shardMap[tz.ShardID] =3D true
+    }
+
+    shards :=3D make([]int, 0, len(shardMap))
+    for shardID :=3D range shardMap {
+        shards =3D append(shards, shardID)
+    }
+
+    return shards, nil
+}</pre>
+</div>
+</div>
+<p><strong>=E6=80=A7=E8=83=BD=E5=AF=B9=E6=AF=94</strong>=EF=BC=9A</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"4e=
+ff0775-56ac-4706-9723-71c675ff2e47" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=9C=BA=E6=99=AF</p></th>
+<th class=3D"confluenceTh">
+<p>=E6=97=A0=E7=B4=A2=E5=BC=95=E8=A1=A8</p></th>
+<th class=3D"confluenceTh">
+<p>=E6=9C=89=E7=B4=A2=E5=BC=95=E8=A1=A8</p></th>
+<th class=3D"confluenceTh">
+<p>=E6=80=A7=E8=83=BD=E6=8F=90=E5=8D=87</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E6=9F=A5=E8=AF=A21=E5=A4=A9=E6=95=B0=E6=8D=AE</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=9F=A5=E8=AF=A2128=E4=B8=AA=E5=88=86=E5=8C=BA</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=9F=A5=E8=AF=A2~10=E4=B8=AA=E5=88=86=E5=8C=BA</p></td>
+<td class=3D"confluenceTd">
+<p><strong>12.8=E5=80=8D</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E6=9F=A5=E8=AF=A27=E5=A4=A9=E6=95=B0=E6=8D=AE</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=9F=A5=E8=AF=A2128=E4=B8=AA=E5=88=86=E5=8C=BA</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=9F=A5=E8=AF=A2~30=E4=B8=AA=E5=88=86=E5=8C=BA</p></td>
+<td class=3D"confluenceTd">
+<p><strong>4.3=E5=80=8D</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E6=9F=A5=E8=AF=A230=E5=A4=A9=E6=95=B0=E6=8D=AE</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=9F=A5=E8=AF=A2128=E4=B8=AA=E5=88=86=E5=8C=BA</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=9F=A5=E8=AF=A2~80=E4=B8=AA=E5=88=86=E5=8C=BA</p></td>
+<td class=3D"confluenceTd">
+<p><strong>1.6=E5=80=8D</strong></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E6=80=A7=E8=83=BD=E4=BC=98=E5=8C=96=E5=BB=BA=E8=AE=AE</strong>=
+=EF=BC=9A</p>
+<ol start=3D"1">
+<li>
+<p><strong>=E6=97=B6=E9=97=B4=E8=8C=83=E5=9B=B4=E9=99=90=E5=88=B6</strong>=
+=EF=BC=9A=E5=BC=BA=E5=88=B6=E8=A6=81=E6=B1=82=E6=97=B6=E9=97=B4=E8=8C=83=E5=
+=9B=B4=EF=BC=88=E5=A6=82=E6=9C=80=E5=A4=9A=E6=9F=A5=E8=AF=A230=E5=A4=A9=E6=
+=95=B0=E6=8D=AE=EF=BC=89</p></li>
+<li>
+<p><strong>=E5=BC=82=E6=AD=A5=E5=A4=84=E7=90=86</strong>=EF=BC=9A=E5=A4=A7=
+=E6=95=B0=E6=8D=AE=E9=87=8F=E6=9F=A5=E8=AF=A2=E9=80=9A=E8=BF=87=E5=90=8E=E5=
+=8F=B0=E4=BB=BB=E5=8A=A1=E5=BC=82=E6=AD=A5=E5=A4=84=E7=90=86</p></li>
+<li>
+<p><strong>=E7=BB=93=E6=9E=9C=E7=BC=93=E5=AD=98</strong>=EF=BC=9A=E7=9B=B8=
+=E5=90=8C=E6=9F=A5=E8=AF=A2=E6=9D=A1=E4=BB=B6=E7=9A=84=E7=BB=93=E6=9E=9C=E7=
+=BC=93=E5=AD=98=E5=88=B0Redis=EF=BC=88TTL: 5=E5=88=86=E9=92=9F=EF=BC=89</p>=
+</li>
+<li>
+<p><strong>=E5=88=86=E6=89=B9=E8=BF=94=E5=9B=9E</strong>=EF=BC=9A=E4=BD=BF=
+=E7=94=A8=E6=B5=81=E5=BC=8FAPI=E6=88=96=E5=88=86=E6=89=B9=E8=BF=94=E5=9B=9E=
+=EF=BC=8C=E9=81=BF=E5=85=8D=E4=B8=80=E6=AC=A1=E6=80=A7=E5=8A=A0=E8=BD=BD=E5=
+=A4=A7=E9=87=8F=E6=95=B0=E6=8D=AE</p></li>
+</ol>
+<hr>
+<h2 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E5=9B=9B=E3=80=81=E6=9C=8D=E5=8A=A1=E5=B1=82=E8=AE=BE=E8=AE=A1">=E5=9B=9B=
+=E3=80=81=E6=9C=8D=E5=8A=A1=E5=B1=82=E8=AE=BE=E8=AE=A1</h2>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-4.1UserTradeService(=E9=80=9A=E7=94=A8=E4=BA=A4=E6=98=93=E8=BF=BD=E8=B8=AA=
+=E6=9C=8D=E5=8A=A1)">4.1 UserTradeService (=E9=80=9A=E7=94=A8=E4=BA=A4=E6=
+=98=93=E8=BF=BD=E8=B8=AA=E6=9C=8D=E5=8A=A1)</h3>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E6=A0=B8=E5=BF=83=E8=81=8C=E8=B4=A3">=E6=A0=B8=E5=BF=83=E8=81=8C=E8=B4=A3=
+</h4>
+<ul>
+<li>
+<p>=E8=AE=B0=E5=BD=95=E6=89=80=E6=9C=89=E7=94=A8=E6=88=B7=E7=9A=84=E4=BA=A4=
+=E6=98=93=E8=A1=8C=E4=B8=BA</p></li>
+<li>
+<p>=E6=9B=B4=E6=96=B0=E7=94=A8=E6=88=B7=E6=8C=81=E4=BB=93=E7=8A=B6=E6=80=81=
+</p></li>
+<li>
+<p>=E8=AE=A1=E7=AE=97=E5=B9=B3=E5=9D=87=E5=85=A5=E5=9C=BA=E4=BB=B7=E6=A0=BC=
+=E3=80=81=E7=B4=AF=E8=AE=A1=E7=9B=88=E4=BA=8F=E7=AD=89</p></li>
+</ul>
+<h4 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E6=9C=8D=E5=8A=A1=E6=8E=A5=E5=8F=A3">=E6=9C=8D=E5=8A=A1=E6=8E=A5=E5=8F=A3=
+</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// bloc=
+k-scanner/internal/service/user_trade_srv.go
+
+package service
+
+import (
+    "context"
+    "github.com/HertzFlow/data-statistics/block-scanner/internal/dal"
+    "github.com/HertzFlow/data-statistics/data-statistics-infra/consts"
+    "github.com/HertzFlow/data-statistics/data-statistics-infra/contract_ev=
+ent"
+    "go.uber.org/zap"
+)
+
+type UserTradeService struct {
+    logger       *zap.Logger
+    userTradeDAL dal.UserTradeDAL
+}
+
+func NewUserTradeService(
+    logger *zap.Logger,
+    userTradeDAL dal.UserTradeDAL,
+) *UserTradeService {
+    return &amp;UserTradeService{
+        logger:       logger.With(zap.String("module", "UserTradeService"))=
+,
+        userTradeDAL: userTradeDAL,
+    }
+}
+
+// RecordIncreaseTradeAction =E8=AE=B0=E5=BD=95=E5=A2=9E=E4=BB=93=E4=BA=A4=
+=E6=98=93=E8=A1=8C=E4=B8=BA=EF=BC=88=E5=BC=80=E4=BB=93=E6=88=96=E5=8A=A0=E4=
+=BB=93=EF=BC=89
+func (s *UserTradeService) RecordIncreaseTradeAction(
+    ctx context.Context,
+    event *contract_event.VaultIncreasePositionEvent,
+    actionType consts.TradeActionType,
+    txDigest string,
+    eventIndex int,
+    timestampMs int64,
+    packageID string,
+    checkpoint int64,
+) error
+
+// RecordDecreaseTradeAction =E8=AE=B0=E5=BD=95=E5=87=8F=E4=BB=93=E4=BA=A4=
+=E6=98=93=E8=A1=8C=E4=B8=BA=EF=BC=88=E5=87=8F=E4=BB=93=E3=80=81=E5=B9=B3=E4=
+=BB=93=E6=88=96=E6=B8=85=E7=AE=97=EF=BC=89
+func (s *UserTradeService) RecordDecreaseTradeAction(
+    ctx context.Context,
+    event *contract_event.VaultDecreasePositionEvent,
+    actionType consts.TradeActionType,
+    txDigest string,
+    eventIndex int,
+    timestampMs int64,
+    packageID string,
+    checkpoint int64,
+) error</pre>
+</div>
+</div>
+<h2 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E4=BA=94=E3=80=81API=E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1(data-statistics-=
+query)">=E4=BA=94=E3=80=81API =E6=8E=A5=E5=8F=A3=E8=AE=BE=E8=AE=A1 (data-st=
+atistics-query)</h2>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-5.1=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=8E=86=E5=8F=B2=E6=8E=A5=E5=8F=
+=A3=EF=BC=88=E6=B8=B8=E6=A0=87=E5=88=86=E9=A1=B5=EF=BC=89">5.1 =E7=94=A8=E6=
+=88=B7=E4=BA=A4=E6=98=93=E5=8E=86=E5=8F=B2=E6=8E=A5=E5=8F=A3=EF=BC=88=E6=B8=
+=B8=E6=A0=87=E5=88=86=E9=A1=B5=EF=BC=89</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// GET =
+/api/v1/user/trades
+// =E6=9F=A5=E8=AF=A2=E7=94=A8=E6=88=B7=E7=9A=84=E4=BA=A4=E6=98=93=E8=A1=8C=
+=E4=B8=BA=E5=8E=86=E5=8F=B2=EF=BC=88=E6=94=AF=E6=8C=81=E6=B8=B8=E6=A0=87=E5=
+=88=86=E9=A1=B5=EF=BC=89
+
+type UserTradesRequest struct {
+    UserAddress    string `form:"user_address" binding:"required"` // =E7=
+=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80
+    ActionType     string `form:"action_type"`                     // =E5=
+=8F=AF=E9=80=89=EF=BC=9A=E4=BA=A4=E6=98=93=E7=B1=BB=E5=9E=8B=E8=BF=87=E6=BB=
+=A4
+    StartTimeMs    *int64 `form:"start_time_ms"`                   // =E5=
+=8F=AF=E9=80=89=EF=BC=9A=E8=B5=B7=E5=A7=8B=E6=97=B6=E9=97=B4
+    EndTimeMs      *int64 `form:"end_time_ms"`                     // =E5=
+=8F=AF=E9=80=89=EF=BC=9A=E7=BB=93=E6=9D=9F=E6=97=B6=E9=97=B4
+    Limit          int    `form:"limit" default:"20"`              // =E6=
+=AF=8F=E9=A1=B5=E5=A4=A7=E5=B0=8F=EF=BC=88=E9=BB=98=E8=AE=A420=EF=BC=8C=E6=
+=9C=80=E5=A4=A7100=EF=BC=89
+    NextActionTime *int64 `form:"next_action_time"`                // =E6=
+=B8=B8=E6=A0=87=EF=BC=9A=E4=B8=8B=E4=B8=80=E9=A1=B5=E8=B5=B7=E5=A7=8B=E6=97=
+=B6=E9=97=B4
+    NextID         *int64 `form:"next_id"`                         // =E6=
+=B8=B8=E6=A0=87=EF=BC=9A=E4=B8=8B=E4=B8=80=E9=A1=B5=E8=B5=B7=E5=A7=8BID
+}
+
+type UserTradesResponse struct {
+    Actions        []TradeActionInfo `json:"actions"`         // =E4=BA=A4=
+=E6=98=93=E8=A1=8C=E4=B8=BA=E5=88=97=E8=A1=A8
+    HasMore        bool              `json:"has_more"`        // =E6=98=AF=
+=E5=90=A6=E6=9C=89=E4=B8=8B=E4=B8=80=E9=A1=B5
+    NextActionTime *int64            `json:"next_action_time"` // =E4=B8=8B=
+=E4=B8=80=E9=A1=B5=E6=B8=B8=E6=A0=87=EF=BC=9A=E6=97=B6=E9=97=B4
+    NextID         *int64            `json:"next_id"`         // =E4=B8=8B=
+=E4=B8=80=E9=A1=B5=E6=B8=B8=E6=A0=87=EF=BC=9AID
+}
+
+type TradeActionInfo struct {
+    ID              int64  `json:"id"`              // =E8=AE=B0=E5=BD=95ID
+    ActionID        string `json:"action_id"`       // =E6=93=8D=E4=BD=9CID
+    TxDigest        string `json:"tx_digest"`       // =E4=BA=A4=E6=98=93=
+=E5=93=88=E5=B8=8C
+    EventIndex      int    `json:"event_index"`     // =E4=BA=8B=E4=BB=B6=
+=E7=B4=A2=E5=BC=95
+    PositionID      string `json:"position_id"`     // =E4=BB=93=E4=BD=8DID
+    ActionType      string `json:"action_type"`     // =E4=BA=A4=E6=98=93=
+=E7=B1=BB=E5=9E=8B
+    IndexCoin       string `json:"index_coin"`      // =E6=A0=87=E7=9A=84=
+=E5=B8=81=E7=A7=8D
+    CollateralCoin  string `json:"collateral_coin"` // =E4=BF=9D=E8=AF=81=
+=E9=87=91=E5=B8=81=E7=A7=8D
+    IsLong          bool   `json:"is_long"`         // =E5=A4=9A=E7=A9=BA=
+=E6=96=B9=E5=90=91
+    SizeDelta       string `json:"size_delta"`      // =E4=BB=93=E4=BD=8D=
+=E5=8F=98=E5=8C=96=E9=87=8F=EF=BC=88=E4=BB=A3=E5=B8=81=E6=95=B0=E9=87=8F=EF=
+=BC=89
+    CollateralDelta string `json:"collateral_delta"`// =E4=BF=9D=E8=AF=81=
+=E9=87=91=E5=8F=98=E5=8C=96=E9=87=8F=EF=BC=88=E4=BB=A3=E5=B8=81=E6=95=B0=E9=
+=87=8F=EF=BC=89
+    Price           string `json:"price"`           // =E6=89=A7=E8=A1=8C=
+=E4=BB=B7=E6=A0=BC
+    RealizedPnl     string `json:"realized_pnl"`    // =E5=B7=B2=E5=AE=9E=
+=E7=8E=B0=E7=9B=88=E4=BA=8F
+    HasProfit       *bool  `json:"has_profit"`      // =E6=98=AF=E5=90=A6=
+=E7=9B=88=E5=88=A9
+    FeeUsd          string `json:"fee_usd"`         // =E6=89=8B=E7=BB=AD=
+=E8=B4=B9
+    ActionTimeMs    int64  `json:"action_time_ms"`  // =E6=93=8D=E4=BD=9C=
+=E6=97=B6=E9=97=B4=E6=88=B3
+}</pre>
+</div>
+</div>
+<p><strong>=E4=BD=BF=E7=94=A8=E7=A4=BA=E4=BE=8B</strong>=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># =E7=
+=AC=AC=E4=B8=80=E9=A1=B5=E8=AF=B7=E6=B1=82
+curl 'http://localhost:9086/api/v1/user/trades?user_address=3D0x123...&amp;=
+limit=3D20'
+
+# =E5=93=8D=E5=BA=94
+{
+  "actions": [...],
+  "has_more": true,
+  "next_action_time": 1704067200000,
+  "next_id": 42
+}
+
+# =E7=AC=AC=E4=BA=8C=E9=A1=B5=E8=AF=B7=E6=B1=82=EF=BC=88=E4=BD=BF=E7=94=A8=
+=E4=B8=8A=E4=B8=80=E9=A1=B5=E8=BF=94=E5=9B=9E=E7=9A=84=E6=B8=B8=E6=A0=87=EF=
+=BC=89
+curl 'http://localhost:9086/api/v1/user/trades?user_address=3D0x123...&amp;=
+limit=3D20&amp;next_action_time=3D1704067200000&amp;next_id=3D42'</pre>
+</div>
+</div>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-5.2=E7=94=A8=E6=88=B7=E6=8C=81=E4=BB=93=E6=9F=A5=E8=AF=A2=E6=8E=A5=E5=8F=
+=A3">5.2 =E7=94=A8=E6=88=B7=E6=8C=81=E4=BB=93=E6=9F=A5=E8=AF=A2=E6=8E=A5=E5=
+=8F=A3</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// GET =
+/api/v1/user/positions
+// =E6=9F=A5=E8=AF=A2=E7=94=A8=E6=88=B7=E7=9A=84=E6=8C=81=E4=BB=93=E5=88=97=
+=E8=A1=A8
+
+type UserPositionsRequest struct {
+    UserAddress string `form:"user_address" binding:"required"`
+    Status      string `form:"status"`  // active/closed/liquidated
+}
+
+type UserPositionsResponse struct {
+    Positions []PositionInfo `json:"positions"`
+}
+
+type PositionInfo struct {
+    PositionID           string `json:"position_id"`
+    PackageID            string `json:"package_id"`
+    IndexCoin            string `json:"index_coin"`
+    CollateralCoin       string `json:"collateral_coin"`
+    IsLong               bool   `json:"is_long"`
+    PositionSize         string `json:"position_size"`
+    CollateralAmount     string `json:"collateral_amount"`
+    OpenPrice            string `json:"open_price"`
+    AvgEntryPrice        string `json:"avg_entry_price"`
+    RealizedPnl          string `json:"realized_pnl"`
+    LastPnlUpdateTimeMs  *int64 `json:"last_pnl_update_time_ms"`
+    TotalIncreaseVolume  string `json:"total_increase_volume"`
+    TotalDecreaseVolume  string `json:"total_decrease_volume"`
+    TotalFeesPaid        string `json:"total_fees_paid"`
+    Status               string `json:"status"`
+    OpenTimeMs           int64  `json:"open_time_ms"`
+    CloseTimeMs          *int64 `json:"close_time_ms"`
+}</pre>
+</div>
+</div>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-5.3=E4=BB=93=E4=BD=8D=E8=AF=A6=E6=83=85=E6=8E=A5=E5=8F=A3">5.3 =E4=BB=93=
+=E4=BD=8D=E8=AF=A6=E6=83=85=E6=8E=A5=E5=8F=A3</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// GET =
+/api/v1/user/position/:position_id
+// =E6=9F=A5=E8=AF=A2=E5=8D=95=E4=B8=AA=E4=BB=93=E4=BD=8D=E7=9A=84=E8=AF=A6=
+=E7=BB=86=E4=BF=A1=E6=81=AF=EF=BC=88=E5=8C=85=E5=90=AB=E6=89=80=E6=9C=89=E4=
+=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA=EF=BC=89
+
+type PositionDetailResponse struct {
+    Position PositionInfo        `json:"position"`
+    Actions  []TradeActionInfo   `json:"actions"`
+}</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E5=85=AD=E3=80=81=E6=95=B0=E6=8D=AE=E5=BA=93=E8=BF=81=E7=A7=BB">=E5=85=AD=
+=E3=80=81=E6=95=B0=E6=8D=AE=E5=BA=93=E8=BF=81=E7=A7=BB</h2>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-6.1SQL=E8=BF=81=E7=A7=BB=E8=84=9A=E6=9C=AC">6.1 SQL =E8=BF=81=E7=A7=BB=E8=
+=84=9A=E6=9C=AC</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- 1. =
+=E5=88=9B=E5=BB=BA=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA=E6=
+=A8=A1=E6=9D=BF=E8=A1=A8=EF=BC=88=E6=8C=89=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=
+=80=E5=88=86128=E4=B8=AA=E5=88=86=E5=8C=BA=EF=BC=89
+CREATE TABLE IF NOT EXISTS user_trades_tmpl (
+    id                   BIGSERIAL PRIMARY KEY,
+    action_id            VARCHAR NOT NULL,
+    tx_digest            VARCHAR NOT NULL,
+    event_index          INT NOT NULL,
+    user_address         VARCHAR NOT NULL,
+    position_id          VARCHAR NOT NULL,
+    package_id           VARCHAR NOT NULL,
+    action_type          VARCHAR NOT NULL,
+    index_coin           VARCHAR NOT NULL,
+    collateral_coin      VARCHAR NOT NULL,
+    is_long              BOOLEAN NOT NULL,
+    size_delta           VARCHAR NOT NULL,
+    collateral_delta     VARCHAR NOT NULL,
+    price                VARCHAR NOT NULL,
+    realized_pnl         VARCHAR DEFAULT '0',
+    has_profit           BOOLEAN,
+    fee_usd              VARCHAR NOT NULL,
+    action_time_ms       BIGINT NOT NULL,
+    create_at            BIGINT NOT NULL,
+    update_at            BIGINT NOT NULL
+);
+
+-- =E7=B4=A2=E5=BC=95
+CREATE INDEX idx_user_trades_user_time ON user_trades_tmpl(user_address, ac=
+tion_time_ms DESC, id DESC);
+CREATE INDEX idx_user_trades_user_action ON user_trades_tmpl(user_address, =
+action_type);
+CREATE INDEX idx_user_trades_position ON user_trades_tmpl(position_id);
+CREATE INDEX idx_user_trades_time ON user_trades_tmpl(action_time_ms);
+CREATE UNIQUE INDEX udx_user_trades_action_id ON user_trades_tmpl(action_id=
+);
+
+-- =E5=88=9B=E5=BB=BA128=E4=B8=AA=E5=88=86=E5=8C=BA=E8=A1=A8=EF=BC=88user_t=
+rades_0 ~ user_trades_127=EF=BC=89
+DO $$
+DECLARE
+    i INT;
+BEGIN
+    FOR i IN 0..127 LOOP
+        EXECUTE format('
+            CREATE TABLE IF NOT EXISTS user_trades_%s (LIKE user_trades_tmp=
+l INCLUDING ALL)
+        ', i);
+    END LOOP;
+END $$;
+
+-- 2. =E5=88=9B=E5=BB=BA=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E6=97=B6=E9=97=
+=B4=E7=B4=A2=E5=BC=95=E8=A1=A8
+CREATE TABLE IF NOT EXISTS user_trades_timezone (
+    id            BIGSERIAL PRIMARY KEY,
+    date_key      VARCHAR NOT NULL,
+    date_start_ms BIGINT  NOT NULL,
+    date_end_ms   BIGINT  NOT NULL,
+    shard_id      INT     NOT NULL,
+    table_name    VARCHAR NOT NULL,
+    record_count  BIGINT  DEFAULT 0,
+    create_at     BIGINT  NOT NULL,
+    update_at     BIGINT  NOT NULL
+);
+
+-- =E7=B4=A2=E5=BC=95
+CREATE UNIQUE INDEX udx_user_trades_tz_date_shard ON user_trades_timezone (=
+date_key, shard_id);
+CREATE INDEX idx_user_trades_tz_date_range ON user_trades_timezone (date_st=
+art_ms, date_end_ms);
+CREATE INDEX idx_user_trades_tz_shard ON user_trades_timezone (shard_id);
+
+-- 3. =E5=88=9B=E5=BB=BA=E7=94=A8=E6=88=B7=E6=8C=81=E4=BB=93=E8=AE=B0=E5=BD=
+=95=E8=A1=A8
+CREATE TABLE IF NOT EXISTS user_positions (
+    id                        BIGSERIAL PRIMARY KEY,
+    position_id               VARCHAR NOT NULL UNIQUE,
+    user_address              VARCHAR NOT NULL,
+    package_id                VARCHAR NOT NULL,
+    index_coin                VARCHAR NOT NULL,
+    collateral_coin           VARCHAR NOT NULL,
+    is_long                   BOOLEAN NOT NULL,
+    position_size             VARCHAR NOT NULL,
+    collateral_amount         VARCHAR NOT NULL,
+    open_price                VARCHAR NOT NULL,
+    avg_entry_price           VARCHAR NOT NULL,
+    realized_pnl              VARCHAR DEFAULT '0',
+    last_pnl_update_time_ms   BIGINT,
+    total_increase_volume     VARCHAR DEFAULT '0',
+    total_decrease_volume     VARCHAR DEFAULT '0',
+    total_fees_paid           VARCHAR DEFAULT '0',
+    status                    VARCHAR NOT NULL,
+    open_time_ms              BIGINT NOT NULL,
+    close_time_ms             BIGINT,
+    last_update_time_ms       BIGINT NOT NULL,
+    last_update_tx_digest     VARCHAR,
+    created_at                TIMESTAMP DEFAULT NOW(),
+    updated_at                TIMESTAMP DEFAULT NOW()
+);
+
+CREATE INDEX idx_user_positions_user ON user_positions(user_address);
+CREATE INDEX idx_user_positions_status ON user_positions(status);
+CREATE INDEX idx_user_positions_time ON user_positions(open_time_ms);
+CREATE INDEX idx_user_positions_package ON user_positions(package_id);</pre=
+>
+</div>
+</div>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-6.2GORM=E8=87=AA=E5=8A=A8=E8=BF=81=E7=A7=BB">6.2 GORM =E8=87=AA=E5=8A=A8=
+=E8=BF=81=E7=A7=BB</h3>
+<p>=E5=9C=A8 <code>block-scanner/internal/dal/migrate.go</code> =E4=B8=AD=
+=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">func Au=
+toMigrate(db *gorm.DB) error {
+    // =E8=87=AA=E5=8A=A8=E8=BF=81=E7=A7=BB=E6=A8=A1=E6=9D=BF=E8=A1=A8
+    if err :=3D db.AutoMigrate(
+        // ... =E7=8E=B0=E6=9C=89=E8=A1=A8 ...
+
+        // =E3=80=90=E6=96=B0=E5=A2=9E=E3=80=91=E7=94=A8=E6=88=B7=E4=BA=A4=
+=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=93=E8=BF=BD=E8=B8=AA=E8=A1=A8
+        &amp;model.UserTradeActionTmplDBModel{},
+        &amp;model.UserTradeTimezoneDBModel{},  // =E6=97=B6=E9=97=B4=E7=B4=
+=A2=E5=BC=95=E8=A1=A8
+        &amp;model.UserPositionTmplDBModel{},
+    ); err !=3D nil {
+        return err
+    }
+
+    // =E5=88=9B=E5=BB=BA=E5=88=86=E5=8C=BA=E8=A1=A8
+    if err :=3D createUserTradePartitions(db); err !=3D nil {
+        return err
+    }
+
+    if err :=3D createUserPositionPartitions(db); err !=3D nil {
+        return err
+    }
+
+    return nil
+}
+
+// createUserTradePartitions =E5=88=9B=E5=BB=BAuser_trades=E7=9A=84128=E4=
+=B8=AA=E5=88=86=E5=8C=BA=E8=A1=A8
+func createUserTradePartitions(db *gorm.DB) error {
+    for i :=3D 0; i &lt; 128; i++ {
+        tableName :=3D fmt.Sprintf("user_trades_%d", i)
+        sql :=3D fmt.Sprintf("CREATE TABLE IF NOT EXISTS %s (LIKE user_trad=
+es_tmpl INCLUDING ALL)", tableName)
+        if err :=3D db.Exec(sql).Error; err !=3D nil {
+            return fmt.Errorf("failed to create table %s: %w", tableName, e=
+rr)
+        }
+    }
+    return nil
+}
+
+// createUserPositionPartitions =E5=88=9B=E5=BB=BAuser_positions=E7=9A=8412=
+8=E4=B8=AA=E5=88=86=E5=8C=BA=E8=A1=A8
+func createUserPositionPartitions(db *gorm.DB) error {
+    for i :=3D 0; i &lt; 128; i++ {
+        tableName :=3D fmt.Sprintf("user_positions_%d", i)
+        sql :=3D fmt.Sprintf("CREATE TABLE IF NOT EXISTS %s (LIKE user_posi=
+tions_tmpl INCLUDING ALL)", tableName)
+        if err :=3D db.Exec(sql).Error; err !=3D nil {
+            return fmt.Errorf("failed to create table %s: %w", tableName, e=
+rr)
+        }
+    }
+    return nil
+}</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E4=B8=83=E3=80=81=E6=95=B0=E6=8D=AE=E6=B5=81=E5=9B=BE">=E4=B8=83=E3=80=81=
+=E6=95=B0=E6=8D=AE=E6=B5=81=E5=9B=BE</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Sui =E5=
+=8C=BA=E5=9D=97=E9=93=BE=E4=BA=8B=E4=BB=B6
+  =E2=86=93
+ChainScanService (=E6=89=AB=E6=8F=8F=E5=8C=BA=E5=9D=97=E9=93=BE)
+  =E2=86=93
+Kafka: contract_event
+  =E2=86=93
+ParseService (=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90)
+  =E2=94=9C=E2=94=80 VaultIncreasePositionEvent
+  =E2=94=9C=E2=94=80 VaultDecreasePositionEvent
+  =E2=94=94=E2=94=80 VaultLiquidatePositionEvent
+  =E2=86=93
+PositionService (=E7=8E=B0=E6=9C=89=E6=9C=8D=E5=8A=A1)
+  =E2=86=93
+=E3=80=90=E6=A0=B8=E5=BF=83=E3=80=91UserTradeService
+  =E2=94=9C=E2=94=80 RecordIncreaseTradeAction()  =E2=86=92 user_trades_X (=
+=E5=8D=95=E4=B8=AA=E4=BF=9D=E5=AD=98)
+  =E2=94=82                                =E2=94=94=E2=86=92 user_trades_t=
+imezone (=E6=9B=B4=E6=96=B0=E7=B4=A2=E5=BC=95) =E2=AD=90
+  =E2=94=9C=E2=94=80 RecordDecreaseTradeAction()  =E2=86=92 user_trades_X (=
+=E5=8D=95=E4=B8=AA=E4=BF=9D=E5=AD=98)
+  =E2=94=82                                =E2=94=94=E2=86=92 user_trades_t=
+imezone (=E6=9B=B4=E6=96=B0=E7=B4=A2=E5=BC=95) =E2=AD=90
+  =E2=94=9C=E2=94=80 BatchStoreTradeActions()     =E2=86=92 user_trades_X (=
+=E6=89=B9=E9=87=8F=E4=BF=9D=E5=AD=98)
+  =E2=94=82                                =E2=94=94=E2=86=92 user_trades_t=
+imezone (=E6=89=B9=E9=87=8F=E6=9B=B4=E6=96=B0=E7=B4=A2=E5=BC=95) =E2=AD=90
+  =E2=94=94=E2=94=80 UpdateUserPosition()         =E2=86=92 user_positions_=
+X (=E6=9B=B4=E6=96=B0=E6=8C=81=E4=BB=93)
+  =E2=86=93
+=E3=80=90=E6=9F=A5=E8=AF=A2=E5=B1=82=E3=80=91UserTradeDAL
+  =E2=94=9C=E2=94=80 GetTradeActionsByUser()      =E2=86=92 =E6=B8=B8=E6=A0=
+=87=E5=88=86=E9=A1=B5=E6=9F=A5=E8=AF=A2=EF=BC=88=E5=8D=95=E7=94=A8=E6=88=B7=
+=EF=BC=89
+  =E2=94=82                                  =E7=9B=B4=E6=8E=A5=E5=AE=9A=E4=
+=BD=8D=E5=88=86=E5=8C=BA=E8=A1=A8
+  =E2=94=9C=E2=94=80 GetAllTradeActions()         =E2=86=92 =E8=B7=A8=E8=A1=
+=A8=E5=B9=B6=E5=8F=91=E6=9F=A5=E8=AF=A2=EF=BC=88=E5=85=A8=E9=87=8F=EF=BC=89
+  =E2=94=82   =E2=94=9C=E2=94=80 GetActiveShardsByDateRange() =E2=AD=90 =E6=
+=9F=A5=E8=AF=A2=E7=B4=A2=E5=BC=95=E8=A1=A8=E5=AE=9A=E4=BD=8D=E5=88=86=E5=8C=
+=BA
+  =E2=94=82   =E2=94=94=E2=94=80 =E5=B9=B6=E5=8F=91=E6=9F=A5=E8=AF=A2=E5=AE=
+=9A=E4=BD=8D=E5=88=B0=E7=9A=84=E5=88=86=E5=8C=BA=EF=BC=88=E5=A4=A7=E5=B9=85=
+=E5=87=8F=E5=B0=91=E6=9F=A5=E8=AF=A2=E6=95=B0=EF=BC=89
+  =E2=94=94=E2=94=80 GetActiveUserPositions()     =E2=86=92 =E6=9F=A5=E8=AF=
+=A2=E6=B4=BB=E8=B7=83=E6=8C=81=E4=BB=93
+  =E2=86=93
+=E3=80=90=E4=B8=9A=E5=8A=A1=E5=8A=9F=E8=83=BD=E5=B1=82=E3=80=91
+  =E2=94=9C=E2=94=80 =E7=AB=9E=E8=B5=9B=E5=8A=9F=E8=83=BD (=E5=9F=BA=E4=BA=
+=8E=E9=80=9A=E7=94=A8=E6=95=B0=E6=8D=AE=E7=BB=9F=E8=AE=A1)
+  =E2=94=9C=E2=94=80 =E6=95=B0=E6=8D=AE=E5=88=86=E6=9E=90 (=E7=94=A8=E6=88=
+=B7=E8=A1=8C=E4=B8=BA=E5=88=86=E6=9E=90)
+  =E2=94=9C=E2=94=80 =E9=A3=8E=E6=8E=A7=E7=B3=BB=E7=BB=9F (=E5=BC=82=E5=B8=
+=B8=E6=A3=80=E6=B5=8B)
+  =E2=94=94=E2=94=80 =E6=8A=A5=E8=A1=A8=E7=94=9F=E6=88=90 (=E4=BA=A4=E6=98=
+=93=E7=BB=9F=E8=AE=A1)
+
+=E3=80=90=E5=88=86=E8=A1=A8=E7=AD=96=E7=95=A5=E3=80=91
+  user_trades_0 ~ user_trades_127     (=E6=8C=89=E7=94=A8=E6=88=B7=E5=9C=B0=
+=E5=9D=80=E5=93=88=E5=B8=8C=E5=88=86=E5=8C=BA)
+  user_positions_0 ~ user_positions_127 (=E6=8C=89=E7=94=A8=E6=88=B7=E5=9C=
+=B0=E5=9D=80=E5=93=88=E5=B8=8C=E5=88=86=E5=8C=BA)</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E5=85=AB=E3=80=81=E8=AE=BE=E8=AE=A1=E6=80=BB=E7=BB=93">=E5=85=AB=E3=80=81=
+=E8=AE=BE=E8=AE=A1=E6=80=BB=E7=BB=93</h2>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-8.1=E6=A0=B8=E5=BF=83=E6=94=B9=E8=BF=9B=E7=82=B9">8.1 =E6=A0=B8=E5=BF=83=
+=E6=94=B9=E8=BF=9B=E7=82=B9</h3>
+<ol start=3D"1">
+<li>
+<p><strong>=E5=88=86=E8=A1=A8=E7=AD=96=E7=95=A5=E4=BC=98=E5=8C=96</strong><=
+/p>
+<ul>
+<li>
+<p>=E2=9C=85 =E4=BB=8E=E6=8C=89=E6=9C=88=E5=88=86=E5=8C=BA=E6=94=B9=E4=B8=
+=BA=E6=8C=89=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=E5=88=86128=E4=B8=AA=E5=88=
+=86=E5=8C=BA</p></li>
+<li>
+<p>=E2=9C=85 =E5=8D=95=E7=94=A8=E6=88=B7=E6=9F=A5=E8=AF=A2=E6=80=A7=E8=83=
+=BD=E6=9C=80=E4=BC=98=EF=BC=88=E7=9B=B4=E6=8E=A5=E5=AE=9A=E4=BD=8D=E5=88=86=
+=E5=8C=BA=EF=BC=89</p></li>
+<li>
+<p>=E2=9C=85 =E9=81=BF=E5=85=8D=E7=83=AD=E7=82=B9=E5=88=86=E5=8C=BA=E9=97=
+=AE=E9=A2=98=EF=BC=88=E5=9D=87=E5=8C=80=E5=88=86=E5=B8=83=EF=BC=89</p></li>
+</ul></li>
+<li>
+<p><strong>=E4=B8=BB=E9=94=AE=E5=92=8C=E7=B4=A2=E5=BC=95=E4=BC=98=E5=8C=96<=
+/strong> =E2=AD=90 =E6=9C=80=E6=96=B0=E4=BC=98=E5=8C=96</p>
+<ul>
+<li>
+<p>=E2=9C=85 =E4=B8=BB=E9=94=AE=E7=AE=80=E5=8C=96=EF=BC=9A=E4=BB=8E=E5=A4=
+=8D=E5=90=88=E4=B8=BB=E9=94=AE <code>(id, user_address)</code> =E6=94=B9=E4=
+=B8=BA=E5=8D=95=E4=B8=80=E4=B8=BB=E9=94=AE <code>id</code></p></li>
+<li>
+<p>=E2=9C=85 =E6=96=B0=E5=A2=9E=E8=81=94=E5=90=88=E7=B4=A2=E5=BC=95=EF=BC=
+=9A<code>idx_user_trades_user_action (user_address, action_type)</code></p>=
+</li>
+<li>
+<p>=E2=9C=85 =E6=8F=90=E9=AB=98=E5=86=99=E5=85=A5=E6=80=A7=E8=83=BD=EF=BC=
+=8C=E7=AE=80=E5=8C=96=E4=B8=BB=E9=94=AE=E7=AE=A1=E7=90=86</p></li>
+<li>
+<p>=E2=9C=85 =E6=94=AF=E6=8C=81=E6=8C=89=E7=94=A8=E6=88=B7=E5=92=8C=E4=BA=
+=A4=E6=98=93=E7=B1=BB=E5=9E=8B=E5=BF=AB=E9=80=9F=E8=BF=87=E6=BB=A4=E6=9F=A5=
+=E8=AF=A2</p></li>
+</ul></li>
+<li>
+<p><strong>=E6=B8=B8=E6=A0=87=E5=88=86=E9=A1=B5=E5=AE=9E=E7=8E=B0</strong><=
+/p>
+<ul>
+<li>
+<p>=E2=9C=85 =E5=9F=BA=E4=BA=8E (action_time_ms DESC, id DESC) =E7=BB=84=E5=
+=90=88=E6=B8=B8=E6=A0=87</p></li>
+<li>
+<p>=E2=9C=85 =E9=81=BF=E5=85=8D=E6=B7=B1=E5=88=86=E9=A1=B5=E6=80=A7=E8=83=
+=BD=E9=97=AE=E9=A2=98</p></li>
+<li>
+<p>=E2=9C=85 =E6=94=AF=E6=8C=81=E6=97=A0=E9=99=90=E6=BB=9A=E5=8A=A8=E5=8A=
+=A0=E8=BD=BD</p></li>
+</ul></li>
+<li>
+<p><strong>=E6=97=B6=E9=97=B4=E7=B4=A2=E5=BC=95=E8=A1=A8=E4=BC=98=E5=8C=96<=
+/strong> =E2=AD=90 =E6=A0=B8=E5=BF=83=E5=88=9B=E6=96=B0</p>
+<ul>
+<li>
+<p>=E2=9C=85 =E6=96=B0=E5=A2=9E <code>user_trades_timezone</code> =E7=B4=A2=
+=E5=BC=95=E8=A1=A8</p></li>
+<li>
+<p>=E2=9C=85 =E8=AE=B0=E5=BD=95=E6=AF=8F=E5=A4=A9=E5=90=84=E5=88=86=E5=8C=
+=BA=E6=98=AF=E5=90=A6=E6=9C=89=E6=95=B0=E6=8D=AE</p></li>
+<li>
+<p>=E2=9C=85 =E5=85=A8=E9=87=8F=E6=9F=A5=E8=AF=A2=E6=80=A7=E8=83=BD=E6=8F=
+=90=E5=8D=87 4-12 =E5=80=8D</p></li>
+</ul></li>
+<li>
+<p><strong>=E5=85=A8=E9=87=8F=E6=9F=A5=E8=AF=A2=E6=96=B9=E6=A1=88</strong><=
+/p>
+<ul>
+<li>
+<p>=E2=9C=85 =E9=80=9A=E8=BF=87=E7=B4=A2=E5=BC=95=E8=A1=A8=E5=AE=9A=E4=BD=
+=8D=E6=9C=89=E6=95=B0=E6=8D=AE=E7=9A=84=E5=88=86=E5=8C=BA</p></li>
+<li>
+<p>=E2=9C=85 =E8=B7=A8=E5=88=86=E5=8C=BA=E5=B9=B6=E5=8F=91=E6=9F=A5=E8=AF=
+=A2=EF=BC=88=E5=8F=AA=E6=9F=A5=E6=9C=89=E6=95=B0=E6=8D=AE=E7=9A=84=E5=88=86=
+=E5=8C=BA=EF=BC=89</p></li>
+<li>
+<p>=E2=9C=85 =E6=94=AF=E6=8C=81=E6=97=B6=E9=97=B4=E8=8C=83=E5=9B=B4=E5=92=
+=8C=E7=B1=BB=E5=9E=8B=E8=BF=87=E6=BB=A4</p></li>
+<li>
+<p>=E2=9C=85 =E7=BB=93=E6=9E=9C=E8=81=9A=E5=90=88=E5=92=8C=E6=8E=92=E5=BA=
+=8F</p></li>
+</ul></li>
+<li>
+<p><strong>=E6=89=B9=E9=87=8F=E6=93=8D=E4=BD=9C=E6=94=AF=E6=8C=81</strong><=
+/p>
+<ul>
+<li>
+<p>=E2=9C=85 =E5=8D=95=E4=B8=AA=E4=BF=9D=E5=AD=98=EF=BC=9AStoreTradeAction(=
+)</p></li>
+<li>
+<p>=E2=9C=85 =E6=89=B9=E9=87=8F=E4=BF=9D=E5=AD=98=EF=BC=9ABatchStoreTradeAc=
+tions()</p></li>
+<li>
+<p>=E2=9C=85 =E8=87=AA=E5=8A=A8=E6=8C=89=E5=88=86=E5=8C=BA=E8=A1=A8=E5=88=
+=86=E7=BB=84=E6=89=B9=E9=87=8F=E6=8F=92=E5=85=A5</p></li>
+<li>
+<p>=E2=9C=85 =E5=86=99=E5=85=A5=E6=97=B6=E5=90=8C=E6=AD=A5=E6=9B=B4=E6=96=
+=B0=E7=B4=A2=E5=BC=95=E8=A1=A8</p></li>
+</ul></li>
+</ol>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-8.2=E6=80=A7=E8=83=BD=E8=80=83=E8=99=91">8.2 =E6=80=A7=E8=83=BD=E8=80=83=
+=E8=99=91</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"64=
+c469cd-1842-460c-828b-1274a29720e1" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E6=93=8D=E4=BD=9C=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E6=80=A7=E8=83=BD=E7=89=B9=E5=BE=81</p></th>
+<th class=3D"confluenceTh">
+<p>=E4=BC=98=E5=8C=96=E7=AD=96=E7=95=A5</p></th>
+<th class=3D"confluenceTh">
+<p>=E6=95=88=E6=9E=9C</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=8D=95=E7=94=A8=E6=88=B7=E6=9F=A5=E8=AF=A2</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9A=A1 =E6=9E=81=E5=BF=AB</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=9B=B4=E6=8E=A5=E5=AE=9A=E4=BD=8D=E5=88=86=E5=8C=BA + =E6=B8=B8=E6=A0=
+=87=E5=88=86=E9=A1=B5</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=AF=AB=E7=A7=92=E7=BA=A7=E5=93=8D=E5=BA=94</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=85=A8=E9=87=8F=E6=9F=A5=E8=AF=A2=EF=BC=88=E6=9C=89=E7=B4=A2=E5=BC=95=
+=E8=A1=A8=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9A=A1 =E5=BF=AB</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=B4=A2=E5=BC=95=E8=A1=A8=E5=AE=9A=E4=BD=8D=E5=88=86=E5=8C=BA + =E5=B9=
+=B6=E5=8F=91=E6=9F=A5=E8=AF=A2</p></td>
+<td class=3D"confluenceTd">
+<p>4-12=E5=80=8D=E6=8F=90=E5=8D=87</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=85=A8=E9=87=8F=E6=9F=A5=E8=AF=A2=EF=BC=88=E6=97=A0=E7=B4=A2=E5=BC=95=
+=E8=A1=A8=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p>=F0=9F=90=8C =E8=BE=83=E6=85=A2</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=9F=A5=E8=AF=A2=E6=89=80=E6=9C=89128=E4=B8=AA=E5=88=86=E5=8C=BA</p></=
+td>
+<td class=3D"confluenceTd">
+<p>=E5=9F=BA=E5=87=86=E6=80=A7=E8=83=BD</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=8D=95=E4=B8=AA=E4=BF=9D=E5=AD=98</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9A=A1 =E6=9E=81=E5=BF=AB</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=9B=B4=E6=8E=A5=E5=86=99=E5=85=A5 + =E7=B4=A2=E5=BC=95=E8=A1=A8UPSERT=
+</p></td>
+<td class=3D"confluenceTd">
+<p>=E9=A2=9D=E5=A4=961=E6=AC=A1=E5=86=99=E5=85=A5</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E6=89=B9=E9=87=8F=E4=BF=9D=E5=AD=98</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9A=A1=E2=9A=A1 =E5=BE=88=E5=BF=AB</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8C=89=E5=88=86=E5=8C=BA=E5=88=86=E7=BB=84 + =E6=89=B9=E9=87=8FUPSERT=
+</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=BF=91=E4=B9=8E=E7=BA=BF=E6=80=A7=E6=89=A9=E5=B1=95</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E7=B4=A2=E5=BC=95=E8=A1=A8=E7=BB=B4=E6=8A=A4=E6=88=90=E6=9C=AC<=
+/strong>=EF=BC=9A</p>
+<ul>
+<li>
+<p>=E6=AF=8F=E6=AC=A1=E5=86=99=E5=85=A5=EF=BC=9A=E9=A2=9D=E5=A4=961=E6=AC=
+=A1 UPSERT =E6=93=8D=E4=BD=9C=EF=BC=88=E7=BA=A65-10ms=EF=BC=89</p></li>
+<li>
+<p>=E5=AD=98=E5=82=A8=E6=88=90=E6=9C=AC=EF=BC=9A=E6=AF=8F=E5=A4=A9=E6=AF=8F=
+=E6=B4=BB=E8=B7=83=E5=88=86=E5=8C=BA1=E6=9D=A1=E8=AE=B0=E5=BD=95=EF=BC=88=
+=E7=BA=A6128KB/=E5=A4=A9=EF=BC=89</p></li>
+<li>
+<p>=E6=80=A7=E8=83=BD=E6=94=B6=E7=9B=8A=EF=BC=9A=E5=85=A8=E9=87=8F=E6=9F=A5=
+=E8=AF=A2=E6=80=A7=E8=83=BD=E6=8F=90=E5=8D=87 4-12 =E5=80=8D</p></li>
+</ul>
+<p><strong>=E6=8A=95=E8=B5=84=E5=9B=9E=E6=8A=A5=E7=8E=87</strong>=EF=BC=9A=
+=E2=9C=85 =E6=9E=81=E9=AB=98=EF=BC=88=E5=86=99=E5=85=A5=E6=88=90=E6=9C=AC=
+=E5=BE=AE=E5=B0=8F=EF=BC=8C=E6=9F=A5=E8=AF=A2=E6=94=B6=E7=9B=8A=E5=B7=A8=E5=
+=A4=A7=EF=BC=89</p>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-8.3=E4=BD=BF=E7=94=A8=E5=BB=BA=E8=AE=AE">8.3 =E4=BD=BF=E7=94=A8=E5=BB=BA=
+=E8=AE=AE</h3>
+<p><strong>=E6=8E=A8=E8=8D=90=E5=9C=BA=E6=99=AF</strong>=EF=BC=9A</p>
+<ul>
+<li>
+<p>=E2=9C=85 =E7=94=A8=E6=88=B7=E4=B8=AA=E4=BA=BA=E4=BA=A4=E6=98=93=E5=8E=
+=86=E5=8F=B2=E6=9F=A5=E8=AF=A2</p></li>
+<li>
+<p>=E2=9C=85 =E5=AE=9E=E6=97=B6=E4=BA=A4=E6=98=93=E8=AE=B0=E5=BD=95=E5=86=
+=99=E5=85=A5</p></li>
+<li>
+<p>=E2=9C=85 =E5=8D=95=E7=94=A8=E6=88=B7=E6=95=B0=E6=8D=AE=E7=BB=9F=E8=AE=
+=A1=E5=92=8C=E5=88=86=E6=9E=90</p></li>
+</ul>
+<p><strong>=E8=B0=A8=E6=85=8E=E4=BD=BF=E7=94=A8</strong>=EF=BC=9A</p>
+<ul>
+<li>
+<p>=E2=9A=A0=EF=B8=8F =E8=B7=A8=E6=89=80=E6=9C=89=E7=94=A8=E6=88=B7=E7=9A=
+=84=E5=85=A8=E9=87=8F=E6=9F=A5=E8=AF=A2=EF=BC=88=E9=9C=80=E8=A6=81=E9=99=90=
+=E5=88=B6=E6=97=B6=E9=97=B4=E8=8C=83=E5=9B=B4=EF=BC=89</p></li>
+<li>
+<p>=E2=9A=A0=EF=B8=8F =E5=A4=8D=E6=9D=82=E7=9A=84=E8=B7=A8=E7=94=A8=E6=88=
+=B7=E8=81=9A=E5=90=88=E7=BB=9F=E8=AE=A1=EF=BC=88=E5=BB=BA=E8=AE=AE=E4=BD=BF=
+=E7=94=A8=E6=95=B0=E6=8D=AE=E4=BB=93=E5=BA=93=E6=88=96=E9=A2=84=E8=AE=A1=E7=
+=AE=97=EF=BC=89</p></li>
+</ul>
+<p><strong>=E7=A6=81=E6=AD=A2=E6=93=8D=E4=BD=9C</strong>=EF=BC=9A</p>
+<ul>
+<li>
+<p>=E2=9D=8C =E6=97=A0=E6=97=B6=E9=97=B4=E8=8C=83=E5=9B=B4=E9=99=90=E5=88=
+=B6=E7=9A=84=E5=85=A8=E9=87=8F=E6=9F=A5=E8=AF=A2</p></li>
+<li>
+<p>=E2=9D=8C =E9=A2=91=E7=B9=81=E7=9A=84=E8=B7=A8=E8=A1=A8JOIN=E6=93=8D=E4=
+=BD=9C</p></li>
+<li>
+<p>=E2=9D=8C =E5=AE=9E=E6=97=B6=E7=9A=84=E5=85=A8=E5=B9=B3=E5=8F=B0=E7=94=
+=A8=E6=88=B7=E6=8E=92=E8=A1=8C=E6=A6=9C=EF=BC=88=E4=BD=BF=E7=94=A8Redis=E7=
+=BC=93=E5=AD=98=E4=BB=A3=E6=9B=BF=EF=BC=89</p></li>
+</ul>
+<hr>
+<h2 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-=E4=B9=9D=E3=80=81=E6=97=B6=E9=97=B4=E7=B4=A2=E5=BC=95=E8=A1=A8=E8=AF=A6=
+=E7=BB=86=E8=AF=B4=E6=98=8E">=E4=B9=9D=E3=80=81=E6=97=B6=E9=97=B4=E7=B4=A2=
+=E5=BC=95=E8=A1=A8=E8=AF=A6=E7=BB=86=E8=AF=B4=E6=98=8E</h2>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-9.1=E4=B8=BA=E4=BB=80=E4=B9=88=E9=9C=80=E8=A6=81=E6=97=B6=E9=97=B4=E7=B4=
+=A2=E5=BC=95=E8=A1=A8=EF=BC=9F">9.1 =E4=B8=BA=E4=BB=80=E4=B9=88=E9=9C=80=E8=
+=A6=81=E6=97=B6=E9=97=B4=E7=B4=A2=E5=BC=95=E8=A1=A8=EF=BC=9F</h3>
+<p><strong>=E9=97=AE=E9=A2=98=E8=83=8C=E6=99=AF</strong>=EF=BC=9A</p>
+<ul>
+<li>
+<p>user_trades =E8=A1=A8=E6=8C=89=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=E5=88=
+=86128=E4=B8=AA=E5=88=86=E5=8C=BA</p></li>
+<li>
+<p>=E6=8C=89=E6=97=B6=E9=97=B4=E8=8C=83=E5=9B=B4=E6=9F=A5=E8=AF=A2=E6=89=80=
+=E6=9C=89=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E6=97=B6=EF=BC=8C=E9=9C=80=E8=
+=A6=81=E6=89=AB=E6=8F=8F=E6=89=80=E6=9C=89128=E4=B8=AA=E5=88=86=E5=8C=BA</p=
+></li>
+<li>
+<p>=E5=8D=B3=E4=BD=BF=E6=9F=90=E4=BA=9B=E5=88=86=E5=8C=BA=E5=9C=A8=E8=AF=A5=
+=E6=97=B6=E9=97=B4=E6=AE=B5=E6=B2=A1=E6=9C=89=E6=95=B0=E6=8D=AE=EF=BC=8C=E4=
+=B9=9F=E4=BC=9A=E6=89=A7=E8=A1=8C=E6=9F=A5=E8=AF=A2=EF=BC=8C=E9=80=A0=E6=88=
+=90=E8=B5=84=E6=BA=90=E6=B5=AA=E8=B4=B9</p></li>
+</ul>
+<p><strong>=E8=A7=A3=E5=86=B3=E6=96=B9=E6=A1=88</strong>=EF=BC=9A</p>
+<ul>
+<li>
+<p>=E5=BC=95=E5=85=A5 <code>user_trades_timezone</code> =E7=B4=A2=E5=BC=95=
+=E8=A1=A8</p></li>
+<li>
+<p>=E8=AE=B0=E5=BD=95=E6=AF=8F=E5=A4=A9=E5=90=84=E5=88=86=E5=8C=BA=E6=98=AF=
+=E5=90=A6=E6=9C=89=E4=BA=A4=E6=98=93=E6=95=B0=E6=8D=AE</p></li>
+<li>
+<p>=E6=9F=A5=E8=AF=A2=E6=97=B6=E5=85=88=E9=80=9A=E8=BF=87=E7=B4=A2=E5=BC=95=
+=E8=A1=A8=E5=AE=9A=E4=BD=8D=E6=9C=89=E6=95=B0=E6=8D=AE=E7=9A=84=E5=88=86=E5=
+=8C=BA=EF=BC=8C=E5=86=8D=E6=9F=A5=E8=AF=A2</p></li>
+</ul>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-9.2=E7=B4=A2=E5=BC=95=E8=A1=A8=E5=B7=A5=E4=BD=9C=E5=8E=9F=E7=90=86">9.2 =
+=E7=B4=A2=E5=BC=95=E8=A1=A8=E5=B7=A5=E4=BD=9C=E5=8E=9F=E7=90=86</h3>
+<p><strong>=E5=86=99=E5=85=A5=E6=B5=81=E7=A8=8B</strong>=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">1. =E5=
+=86=99=E5=85=A5=E4=BA=A4=E6=98=93=E6=95=B0=E6=8D=AE=E5=88=B0 user_trades_X
+   =E2=86=93
+2. =E8=AE=A1=E7=AE=97=E5=88=86=E5=8C=BAID=EF=BC=9AshardID =3D HexAddrMod(us=
+erAddress, 128)
+   =E2=86=93
+3. =E8=AE=A1=E7=AE=97=E6=97=A5=E6=9C=9F=E9=94=AE=EF=BC=9AdateKey =3D Format=
+(timestamp, "20060102")
+   =E2=86=93
+4. UPSERT =E5=88=B0 user_trades_timezone:
+   - =E5=94=AF=E4=B8=80=E9=94=AE=EF=BC=9A(date_key, shard_id)
+   - =E5=86=B2=E7=AA=81=E6=97=B6=EF=BC=9Arecord_count++</pre>
+</div>
+</div>
+<p><strong>=E6=9F=A5=E8=AF=A2=E6=B5=81=E7=A8=8B</strong>=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">1. =E6=
+=9F=A5=E8=AF=A2=E6=97=B6=E9=97=B4=E8=8C=83=E5=9B=B4=EF=BC=9A2025-01-20 ~ 20=
+25-01-22
+   =E2=86=93
+2. =E6=9F=A5=E8=AF=A2=E7=B4=A2=E5=BC=95=E8=A1=A8=E8=8E=B7=E5=8F=96=E6=B4=BB=
+=E8=B7=83=E5=88=86=E5=8C=BA=EF=BC=9A
+   SELECT DISTINCT shard_id
+   FROM user_trades_timezone
+   WHERE date_end_ms &gt;=3D startMs AND date_start_ms &lt;=3D endMs
+
+   =E7=BB=93=E6=9E=9C=EF=BC=9A[3, 15, 27, 42, 88, 101, 117]  (7=E4=B8=AA=E5=
+=88=86=E5=8C=BA)
+   =E2=86=93
+3. =E5=B9=B6=E5=8F=91=E6=9F=A5=E8=AF=A2=E8=BF=997=E4=B8=AA=E5=88=86=E5=8C=
+=BA=EF=BC=88=E8=80=8C=E4=B8=8D=E6=98=AF128=E4=B8=AA=EF=BC=89
+   =E2=86=93
+4. =E8=81=9A=E5=90=88=E7=BB=93=E6=9E=9C=E5=B9=B6=E8=BF=94=E5=9B=9E</pre>
+</div>
+</div>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-9.3=E6=80=A7=E8=83=BD=E6=95=B0=E6=8D=AE=E5=88=86=E6=9E=90">9.3 =E6=80=A7=
+=E8=83=BD=E6=95=B0=E6=8D=AE=E5=88=86=E6=9E=90</h3>
+<p><strong>=E5=81=87=E8=AE=BE=E5=9C=BA=E6=99=AF</strong>=EF=BC=9A</p>
+<ul>
+<li>
+<p>=E6=80=BB=E7=94=A8=E6=88=B7=E6=95=B0=EF=BC=9A10,000</p></li>
+<li>
+<p>=E6=B4=BB=E8=B7=83=E7=94=A8=E6=88=B7=E6=95=B0=EF=BC=9A1,000=EF=BC=88=E6=
+=AF=8F=E5=A4=A9=EF=BC=89</p></li>
+<li>
+<p>=E5=88=86=E5=8C=BA=E6=95=B0=EF=BC=9A128</p></li>
+<li>
+<p>=E5=B9=B3=E5=9D=87=E5=88=86=E5=B8=83=EF=BC=9A1000 / 128 =E2=89=88 8 =E4=
+=B8=AA=E6=B4=BB=E8=B7=83=E5=88=86=E5=8C=BA/=E5=A4=A9</p></li>
+</ul>
+<p><strong>=E6=80=A7=E8=83=BD=E5=AF=B9=E6=AF=94</strong>=EF=BC=9A</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"10=
+c6bd65-a805-473b-b019-8b85630c9e28" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E6=9F=A5=E8=AF=A2=E5=A4=A9=E6=95=B0</p></th>
+<th class=3D"confluenceTh">
+<p>=E6=97=A0=E7=B4=A2=E5=BC=95=E8=A1=A8</p></th>
+<th class=3D"confluenceTh">
+<p>=E6=9C=89=E7=B4=A2=E5=BC=95=E8=A1=A8</p></th>
+<th class=3D"confluenceTh">
+<p>=E6=8F=90=E5=8D=87=E5=80=8D=E6=95=B0</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1=E5=A4=A9</p></td>
+<td class=3D"confluenceTd">
+<p>128=E4=B8=AA=E5=88=86=E5=8C=BA</p></td>
+<td class=3D"confluenceTd">
+<p>~8=E4=B8=AA=E5=88=86=E5=8C=BA</p></td>
+<td class=3D"confluenceTd">
+<p>16=E5=80=8D</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>3=E5=A4=A9</p></td>
+<td class=3D"confluenceTd">
+<p>128=E4=B8=AA=E5=88=86=E5=8C=BA</p></td>
+<td class=3D"confluenceTd">
+<p>~24=E4=B8=AA=E5=88=86=E5=8C=BA</p></td>
+<td class=3D"confluenceTd">
+<p>5.3=E5=80=8D</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>7=E5=A4=A9</p></td>
+<td class=3D"confluenceTd">
+<p>128=E4=B8=AA=E5=88=86=E5=8C=BA</p></td>
+<td class=3D"confluenceTd">
+<p>~56=E4=B8=AA=E5=88=86=E5=8C=BA</p></td>
+<td class=3D"confluenceTd">
+<p>2.3=E5=80=8D</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>30=E5=A4=A9</p></td>
+<td class=3D"confluenceTd">
+<p>128=E4=B8=AA=E5=88=86=E5=8C=BA</p></td>
+<td class=3D"confluenceTd">
+<p>~128=E4=B8=AA=E5=88=86=E5=8C=BA</p></td>
+<td class=3D"confluenceTd">
+<p>1=E5=80=8D</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E7=BB=93=E8=AE=BA</strong>=EF=BC=9A=E6=97=B6=E9=97=B4=E8=8C=83=
+=E5=9B=B4=E8=B6=8A=E7=9F=AD=EF=BC=8C=E4=BC=98=E5=8C=96=E6=95=88=E6=9E=9C=E8=
+=B6=8A=E6=98=8E=E6=98=BE</p>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-9.4=E7=B4=A2=E5=BC=95=E8=A1=A8=E7=BB=B4=E6=8A=A4">9.4 =E7=B4=A2=E5=BC=95=
+=E8=A1=A8=E7=BB=B4=E6=8A=A4</h3>
+<p><strong>=E8=87=AA=E5=8A=A8=E7=BB=B4=E6=8A=A4</strong>=EF=BC=9A</p>
+<ul>
+<li>
+<p>=E6=AF=8F=E6=AC=A1=E5=86=99=E5=85=A5=E4=BA=A4=E6=98=93=E6=97=B6=E8=87=AA=
+=E5=8A=A8=E6=9B=B4=E6=96=B0=E7=B4=A2=E5=BC=95=E8=A1=A8</p></li>
+<li>
+<p>=E4=BD=BF=E7=94=A8 UPSERT =E9=81=BF=E5=85=8D=E9=87=8D=E5=A4=8D=E6=8F=92=
+=E5=85=A5</p></li>
+<li>
+<p>=E8=87=AA=E5=8A=A8=E7=B4=AF=E5=8A=A0 record_count</p></li>
+</ul>
+<p><strong>=E5=AE=9A=E6=9C=9F=E6=B8=85=E7=90=86</strong>=EF=BC=88=E5=8F=AF=
+=E9=80=89=EF=BC=89=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- =E5=
+=88=A0=E9=99=A490=E5=A4=A9=E5=89=8D=E7=9A=84=E7=B4=A2=E5=BC=95=E8=AE=B0=E5=
+=BD=95
+DELETE FROM user_trades_timezone
+WHERE date_start_ms &lt; EXTRACT(EPOCH FROM NOW() - INTERVAL '90 days') * 1=
+000;</pre>
+</div>
+</div>
+<p><strong>=E7=9B=91=E6=8E=A7=E6=8C=87=E6=A0=87</strong>=EF=BC=9A</p>
+<ul>
+<li>
+<p>=E6=AF=8F=E5=A4=A9=E7=B4=A2=E5=BC=95=E8=A1=A8=E5=A2=9E=E9=95=BF=EF=BC=9A=
+=E7=BA=A6128=E6=9D=A1=E8=AE=B0=E5=BD=95=EF=BC=88=E6=9C=80=E5=A4=9A=EF=BC=8C=
+=E5=81=87=E8=AE=BE=E6=89=80=E6=9C=89=E5=88=86=E5=8C=BA=E9=83=BD=E6=9C=89=E6=
+=95=B0=E6=8D=AE=EF=BC=89</p></li>
+<li>
+<p>=E5=AE=9E=E9=99=85=E5=A2=9E=E9=95=BF=EF=BC=9A=E5=8F=96=E5=86=B3=E4=BA=8E=
+=E6=B4=BB=E8=B7=83=E7=94=A8=E6=88=B7=E5=88=86=E5=B8=83</p></li>
+<li>
+<p>=E5=BB=BA=E8=AE=AE=E5=AE=9A=E6=9C=9F=E6=A3=80=E6=9F=A5 record_count=EF=
+=BC=8C=E8=AF=86=E5=88=AB=E7=83=AD=E7=82=B9=E5=88=86=E5=8C=BA</p></li>
+</ul>
+<h3 id=3D"id-=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=92=8C=E6=8C=81=E4=BB=
+=93=E8=BF=BD=E8=B8=AA=E7=B3=BB=E7=BB=9F=E8=AE=BE=E8=AE=A1=E6=96=87=E6=A1=A3=
+-9.5=E6=BD=9C=E5=9C=A8=E4=BC=98=E5=8C=96=E6=96=B9=E5=90=91">9.5 =E6=BD=9C=
+=E5=9C=A8=E4=BC=98=E5=8C=96=E6=96=B9=E5=90=91</h3>
+<p><strong>=E8=BF=9B=E4=B8=80=E6=AD=A5=E4=BC=98=E5=8C=96</strong>=EF=BC=88=
+=E5=8F=AF=E9=80=89=EF=BC=89=EF=BC=9A</p>
+<ol start=3D"1">
+<li>
+<p><strong>=E5=B0=8F=E6=97=B6=E7=BA=A7=E7=B4=A2=E5=BC=95</strong>=EF=BC=9A=
+=E5=A6=82=E6=9E=9C=E6=9F=A5=E8=AF=A2=E6=9B=B4=E7=B2=BE=E7=BB=86=EF=BC=8C=E5=
+=8F=AF=E4=BB=A5=E6=94=B9=E4=B8=BA=E5=B0=8F=E6=97=B6=E7=BA=A7=EF=BC=88YYYYMM=
+DDHH=EF=BC=89</p></li>
+<li>
+<p><strong>=E9=A2=84=E8=81=9A=E5=90=88=E7=BB=9F=E8=AE=A1</strong>=EF=BC=9A=
+=E5=9C=A8=E7=B4=A2=E5=BC=95=E8=A1=A8=E4=B8=AD=E5=AD=98=E5=82=A8=E6=9B=B4=E5=
+=A4=9A=E7=BB=9F=E8=AE=A1=E4=BF=A1=E6=81=AF=EF=BC=88=E6=80=BB=E4=BA=A4=E6=98=
+=93=E9=87=8F=E3=80=81=E6=80=BB=E6=89=8B=E7=BB=AD=E8=B4=B9=E7=AD=89=EF=BC=89=
+</p></li>
+<li>
+<p><strong>=E5=B8=83=E9=9A=86=E8=BF=87=E6=BB=A4=E5=99=A8</strong>=EF=BC=9A=
+=E5=AF=B9=E4=BA=8E=E6=9E=81=E9=AB=98=E5=B9=B6=E5=8F=91=E5=9C=BA=E6=99=AF=EF=
+=BC=8C=E5=8F=AF=E4=BB=A5=E4=BD=BF=E7=94=A8=E5=B8=83=E9=9A=86=E8=BF=87=E6=BB=
+=A4=E5=99=A8=E8=BF=9B=E4=B8=80=E6=AD=A5=E5=87=8F=E5=B0=91=E6=9F=A5=E8=AF=A2=
+</p></li>
+<li>
+<p><strong>=E5=88=86=E5=8C=BA=E8=A1=A8=E5=8E=8B=E7=BC=A9</strong>=EF=BC=9A=
+=E5=AF=B9=E4=BA=8E=E5=8E=86=E5=8F=B2=E5=86=B7=E6=95=B0=E6=8D=AE=E5=88=86=E5=
+=8C=BA=EF=BC=8C=E5=8F=AF=E4=BB=A5=E5=AE=9A=E6=9C=9F=E5=8E=8B=E7=BC=A9=E6=88=
+=96=E5=BD=92=E6=A1=A3</p></li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_4_921196433.1772008248971--

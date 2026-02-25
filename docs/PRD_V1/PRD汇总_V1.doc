@@ -1,0 +1,556 @@
+Date: Wed, 25 Feb 2026 08:25:40 +0000 (UTC)
+Message-ID: <534364943.5.1772007940070@1bfb2fa8633c>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_4_308762734.1772007940070"
+
+------=_Part_4_308762734.1772007940070
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>PRD=E6=B1=87=E6=80=BB_V1</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>PRD=E6=B1=87=E6=80=BB_V1</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"PRD=E6=B1=87=E6=80=BB_V1-=E9=9C=80=E6=B1=82">=E9=9C=80=E6=
+=B1=82</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a9=
+ddba38-6dca-493a-ae8b-153b1e94debc" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=E5=8A=9F=E8=83=BD=E5=AE=9E=E7=8E=B0</strong></p></td>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=E6=96=87=E6=A1=A3=E9=93=BE=E6=8E=A5</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=AE=98=E7=BD=91</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://www.figma.com/design/WDFgkuyX=
+7PmBUKyjJEPdmB/Untitled?node-id=3D96-2748&amp;t=3DZwyZwKyMRNK9iz2T-4" rel=
+=3D"nofollow">=E5=AE=98=E7=BD=91=E4=BC=98=E5=8C=96_P0</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Portfolio_V1</p>
+<blockquote>
+<p>=E9=A1=B6=E9=83=A8=E5=AF=BC=E8=88=AA=E6=A0=8F</p>
+</blockquote>
+<ul>
+<li>
+<p><strong>=E3=80=8CPortfolio=E3=80=8D</strong>=E9=92=B1=E5=8C=85=E6=93=8D=
+=E4=BD=9C=EF=BC=88=E5=88=87=E6=8D=A2=EF=BC=9B=E8=BF=9E=E6=8E=A5=EF=BC=9B=E6=
+=96=AD=E5=BC=80=EF=BC=89=EF=BC=9B=E9=92=B1=E5=8C=85=E4=BD=99=E9=A2=9D=E5=B1=
+=95=E7=A4=BA=EF=BC=9B=E4=BA=A4=E6=98=93=E5=8E=86=E5=8F=B2=E8=AE=B0=E5=BD=95=
+=EF=BC=9BHzLP=E6=B5=81=E5=8A=A8=E6=80=A7=E5=8E=86=E5=8F=B2=E8=AE=B0=E5=BD=
+=95</p></li>
+<li>
+<p><strong>=E3=80=8CSettings=E3=80=8D</strong>=E4=B8=BB=E9=A2=98=E8=89=B2=
+=EF=BC=9Bonboard=E5=BC=B9=E7=AA=97=E5=B1=95=E7=A4=BA/=E9=9A=90=E8=97=8F=EF=
+=BC=9B=E5=88=87=E6=8D=A2=E7=BD=91=E7=BB=9C=EF=BC=9B=E5=88=87=E6=8D=A2/=E8=
+=87=AA=E5=AE=9A=E4=B9=89rpc</p></li>
+<li>
+<p><strong>=E3=80=8C=E9=92=B1=E5=8C=85=E8=BF=9E=E6=8E=A5=E3=80=8D</strong>=
+=E6=B5=8B=E8=AF=95=E7=BD=91=E9=98=B6=E6=AE=B5H5=E4=BB=85=E5=B1=95=E7=A4=BAS=
+lush=EF=BC=9BPC Slush + Suiet=E3=80=82(=E5=8E=9F=E5=9B=A0=EF=BC=9Aokx=E4=B8=
+=8D=E6=94=AF=E6=8C=81testnet=EF=BC=9BSuiet=E6=97=A0=E6=89=8B=E6=9C=BA=E7=AB=
+=AF=E5=BA=94=E7=94=A8=EF=BC=8C=E4=B8=94=E4=B8=8D=E6=94=AF=E6=8C=81H5=E6=B5=
+=8F=E8=A7=88=E5=99=A8=E6=8F=92=E4=BB=B6=E6=B7=BB=E5=8A=A0)</p></li>
+</ul>
+<p></p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://hertzflow.slack.com/docs/T08G=
+35AED17/F090ZJ311PG" rel=3D"nofollow">=E9=92=B1=E5=8C=85=E8=BF=9E=E6=8E=A5=
+=E5=8A=9F=E8=83=BD&amp;=E4=B8=AA=E4=BA=BA=E4=B8=AD=E5=BF=83</a><br><a class=
+=3D"external-link" href=3D"https://hertzflow.slack.com/docs/T08G35AED17/F09=
+8FP8125T" rel=3D"nofollow">PRD_Settings_P1</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Trade_V1</p>
+<ul>
+<li>
+<p><strong>=E3=80=8COnboarding=E3=80=8D</strong>Disclaimer + =E5=BC=95=E5=
+=AF=BC=E5=BC=B9=E7=AA=97</p></li>
+<li>
+<p><strong>=E3=80=8C=E4=BA=A4=E6=98=93=E9=9D=A2=E6=9D=BF=E3=80=8D</strong>=
+=E5=B8=82=E4=BB=B7=E5=8D=95=EF=BC=88multi-collateral borrow=EF=BC=89=EF=BC=
+=8C=E9=99=90=E4=BB=B7=E5=8D=95=E3=80=82</p></li>
+<li>
+<p><strong>=E3=80=8C=E5=8E=86=E5=8F=B2=E8=AE=B0=E5=BD=95=E3=80=8D</strong>=
+=E6=8C=81=E4=BB=93=E3=80=81=E9=99=90=E4=BB=B7=E3=80=81=E4=BA=A4=E6=98=93=E7=
+=9A=84=E5=8E=86=E5=8F=B2=E8=AE=B0=E5=BD=95=E5=B1=95=E7=A4=BA=EF=BC=9Bk=E7=
+=BA=BF=E6=A0=87=E8=AE=B0=EF=BC=9B=E4=BB=A5=E5=8F=8A=E8=BF=87=E6=BB=A4=E7=AD=
+=9B=E9=80=89=E5=8A=9F=E8=83=BD=E3=80=82=E5=85=B6=E4=B8=AD=E5=8E=86=E5=8F=B2=
+=E8=AE=B0=E5=BD=95=E5=8C=85=E6=8B=AC=E5=BC=80=E5=B9=B3=E4=BB=93=EF=BC=8C=E4=
+=BF=9D=E8=AF=81=E9=87=91=E4=BF=AE=E6=94=B9=EF=BC=8C=E6=B8=85=E7=AE=97=E8=AE=
+=B0=E5=BD=95=E3=80=82=E5=8A=9F=E8=83=BD=E5=8C=85=E5=90=AB=E5=B9=B3=E4=BB=93=
+=EF=BC=8C=E4=BF=9D=E8=AF=81=E9=87=91=E4=BF=AE=E6=94=B9=EF=BC=8C=E9=99=90=E4=
+=BB=B7=E5=8D=95=E4=BF=AE=E6=94=B9=EF=BC=8C=E5=88=86=E4=BA=ABpnl=EF=BC=8C=E4=
+=B8=80=E9=94=AE=E5=85=A8=E5=B9=B3=E5=8F=8A=E4=B8=80=E9=94=AE=E5=8F=96=E6=B6=
+=88=E3=80=82</p></li>
+<li>
+<p><strong>=E3=80=8C=E8=B4=B9=E7=94=A8=E7=BB=93=E6=9E=84=E3=80=8D</strong>O=
+pen/Close Fee + Swap + =E7=BA=BF=E6=80=A7Price Impact + Borrow Fee=EF=BC=9B=
+MMR&lt;0.2%=E6=97=B6=E6=94=B6=E5=8F=96Liquidation Fee=E5=B9=B6=E5=B0=86=E5=
+=89=A9=E4=BD=99=E4=BF=9D=E8=AF=81=E9=87=91=E8=BF=94=E8=BF=98=E7=94=A8=E6=88=
+=B7</p></li>
+<li>
+<p><strong>=E3=80=8C=E9=A3=8E=E6=8E=A7=E6=9C=BA=E5=88=B6=E3=80=8D</strong>M=
+ax OI=EF=BC=9BMax Position Size=EF=BC=9BSwap=E5=AF=B9=E5=BA=94=E7=9A=84=E6=
+=9D=83=E9=87=8D=E5=81=8F=E5=B7=AE=E6=AF=94=E5=80=BC=E9=99=90=E5=88=B6=EF=BC=
+=9B=E5=89=A9=E4=BD=99=E6=B5=81=E5=8A=A8=E6=80=A7=E5=88=A4=E6=96=AD=EF=BC=9B=
+Open Order=E6=95=B0=E9=87=8F=E9=99=90=E5=88=B6=E3=80=82</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p>=E3=80=8COnboarding=E3=80=8D</p>
+<p><a class=3D"external-link" href=3D"https://hertzflow.slack.com/docs/T08G=
+35AED17/F09A65J3138" rel=3D"nofollow">PRD_=E9=A3=8E=E9=99=A9=E6=8F=90=E7=A4=
+=BA</a></p>
+<p><a class=3D"external-link" href=3D"https://hertzflow.slack.com/docs/T08G=
+35AED17/F09ABEFLHED" rel=3D"nofollow">PRD - =E9=A6=96=E6=AC=A1=E5=BC=95=E5=
+=AF=BC=E5=BC=B9=E7=AA=97=EF=BC=88P2=EF=BC=89</a></p>
+<p><a class=3D"external-link" href=3D"https://hertzflow.slack.com/docs/T08G=
+35AED17/F098D3K2207" rel=3D"nofollow">PRD_=E6=B5=8B=E8=AF=95=E7=BD=91faucet=
+=E9=A2=86=E5=8F=96=E5=85=A5=E5=8F=A3=EF=BC=88P2=EF=BC=89</a></p>
+<p>=E3=80=8C=E4=BA=A4=E6=98=93=E9=9D=A2=E6=9D=BF=E3=80=8D<br><a class=3D"ex=
+ternal-link" href=3D"https://hertzflow.slack.com/docs/T08G35AED17/F08MGBFDD=
+50" rel=3D"nofollow">=E4=BA=A4=E6=98=93=E9=9D=A2=E6=9D=BF=E4=BA=A7=E5=93=81=
+=E6=96=87=E6=A1=A3</a></p>
+<p><a class=3D"external-link" href=3D"https://hertzflow.slack.com/docs/T08G=
+35AED17/F08QYU18W0H" rel=3D"nofollow">=E5=B8=82=E5=9C=BA=E9=80=89=E6=8B=A9&=
+amp;=E8=AE=A2=E5=8D=95=E5=8C=BA</a></p>
+<p><a data-card-appearance=3D"inline" href=3D"https://hertzflow.atlassian.n=
+et/wiki/spaces/H/pages/2490433/PRD_Swap+Fee+Impact+Fee+_P1?atlOrigin=3DeyJp=
+IjoiOGZiMTYyMjM1NDdjNDMzNDhiNzNiMDQ3MTVjZTg4NWIiLCJwIjoiYyJ9" rel=3D"nofoll=
+ow">https://hertzflow.atlassian.net/wiki/spaces/H/pages/2490433/PRD_Swap+Fe=
+e+Impact+Fee+_P1?atlOrigin=3DeyJpIjoiOGZiMTYyMjM1NDdjNDMzNDhiNzNiMDQ3MTVjZT=
+g4NWIiLCJwIjoiYyJ9</a></p>
+<p>=E3=80=8C=E5=8E=86=E5=8F=B2=E8=AE=B0=E5=BD=95=E3=80=8D</p>
+<p><a class=3D"external-link" href=3D"https://hertzflow.slack.com/docs/T08G=
+35AED17/F09BQTKNFMX" rel=3D"nofollow">PRD_K=E7=BA=BF=E5=9B=BE=E5=8A=9F=E8=
+=83=BD=E4=BC=98=E5=8C=96_P2</a></p>
+<p><a class=3D"external-link" href=3D"https://hertzflow.slack.com/docs/T08G=
+35AED17/F098W0BN8Q6" rel=3D"nofollow">PRD_=E4=BA=A4=E6=98=93=E5=88=97=E8=A1=
+=A8=E5=A2=9E=E5=8A=A0=E6=8E=92=E5=BA=8F=E4=B8=8E=E7=AD=9B=E9=80=89=E5=8A=9F=
+=E8=83=BD_Aug05_P2</a><br><a class=3D"external-link" href=3D"https://www.fi=
+gma.com/design/AmguvHz2zBT9YzQgH9AVB8/HertzFlow?node-id=3D2582-28668&amp;t=
+=3DIdif13lp572exnuK-4" rel=3D"nofollow">=E8=AE=BE=E8=AE=A1=E7=A8=BF</a></p>
+<p><a class=3D"external-link" href=3D"https://hertzflow.slack.com/docs/T08G=
+35AED17/F099SBFGY69" rel=3D"nofollow">receive in=E4=BC=98=E5=8C=96+activity=
+=E4=BC=98=E5=8C=96</a></p>
+<p><a class=3D"external-link" href=3D"https://hertzflow.slack.com/docs/T08G=
+35AED17/F09A4RGRHN1" rel=3D"nofollow">PRD_=E6=94=B9=E5=8D=95&amp;=E6=B5=81=
+=E5=8A=A8=E6=80=A7=E9=9D=A2=E6=9D=BF=E5=A2=9E=E5=8A=A0=E4=BF=AE=E6=94=B9=E6=
+=BB=91=E7=82=B9=E5=8A=9F=E8=83=BD</a></p>
+<p><a class=3D"external-link" href=3D"https://www.figma.com/design/AmguvHz2=
+zBT9YzQgH9AVB8/HertzFlow?node-id=3D3134-45" rel=3D"nofollow">Share</a></p>
+<p>=E3=80=8C=E5=85=B6=E4=BB=96=E3=80=8D</p>
+<p><a class=3D"external-link" href=3D"https://hertzflow.slack.com/docs/T08G=
+35AED17/F09AV6VTP46" rel=3D"nofollow">PRD_toast=E6=8F=90=E7=A4=BA</a></p>
+<p><a class=3D"external-link" href=3D"https://hertzflow.slack.com/docs/T08G=
+35AED17/F0998L67DRP" rel=3D"nofollow">404=E9=A1=B5=E9=9D=A2=E8=A7=84=E8=8C=
+=83</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>HzLP_V1</p>
+<blockquote>
+<p>=E5=8D=95=E4=B8=80=E5=A4=9A=E8=B5=84=E4=BA=A7=E6=B5=81=E5=8A=A8=E6=B1=A0=
+</p>
+</blockquote>
+<ul>
+<li>
+<p><strong>=E3=80=8C=E4=BA=A4=E6=98=93=E9=9D=A2=E6=9D=BF=E3=80=8D</strong>=
+=E6=B7=BB=E5=8A=A0/=E7=A7=BB=E9=99=A4=E6=B5=81=E5=8A=A8=E6=80=A7=EF=BC=9B=
+=E6=BB=91=E7=82=B9=E8=AE=BE=E7=BD=AE</p></li>
+<li>
+<p><strong>=E3=80=8C=E8=B4=B9=E7=94=A8=E7=BB=93=E6=9E=84=E3=80=8D </strong>=
+Base Fee + =E7=BA=BF=E6=80=A7 Price Impact</p></li>
+<li>
+<p><strong>=E3=80=8C=E6=95=B0=E6=8D=AE=E5=B1=95=E7=A4=BA=E3=80=8D</strong>T=
+VL=EF=BC=9BSupply=EF=BC=9BPrice=EF=BC=9BAPY=EF=BC=9BPool Composition=EF=BC=
+=9BUtilization=EF=BC=9BAPR</p></li>
+<li>
+<p><strong>=E3=80=8C=E9=A3=8E=E6=8E=A7=E6=9C=BA=E5=88=B6=E3=80=8D</strong><=
+/p>
+<ul>
+<li>
+<p><strong>=E5=89=8D=E7=AB=AF=E9=99=90=E5=88=B6=EF=BC=9A</strong>=E6=9D=83=
+=E9=87=8D=E5=81=8F=E5=B7=AE=E6=AF=94=E8=B6=85=E8=BF=8720% =E2=86=92 =E4=B8=
+=8D=E5=8F=AF=E6=B7=BB=E5=8A=A0/=E7=A7=BB=E9=99=A4</p></li>
+<li>
+<p><strong>=E5=90=88=E7=BA=A6=E9=99=90=E5=88=B6=EF=BC=9A=EF=BC=88=E6=B5=8B=
+=E8=AF=95=E7=BD=91=E9=98=B6=E6=AE=B5=EF=BC=89</strong>maxAUM =E8=B6=85=E8=
+=BF=87$500k =E2=86=92 revert</p></li>
+</ul></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p><a data-card-appearance=3D"inline" href=3D"https://hertzflow.atlassian.n=
+et/wiki/spaces/H/pages/19398688/PRD_HzLP_V1?atlOrigin=3DeyJpIjoiYzA2MDhmMzk=
+xNjg4NDI1MWJkYmUyYmYwZmU4Yjc0MTgiLCJwIjoiYyJ9" rel=3D"nofollow">https://her=
+tzflow.atlassian.net/wiki/spaces/H/pages/19398688/PRD_HzLP_V1?atlOrigin=3De=
+yJpIjoiYzA2MDhmMzkxNjg4NDI1MWJkYmUyYmYwZmU4Yjc0MTgiLCJwIjoiYyJ9</a></p></td=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Dashboard_V1</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://hertzflow.slack.com/docs/T08G=
+35AED17/F08TQV03UBH" rel=3D"nofollow">Dashboard</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>H5</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://www.figma.com/design/AmguvHz2=
+zBT9YzQgH9AVB8/HertzFlow?node-id=3D3713-8112" rel=3D"nofollow">H5</a></p></=
+td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<h2 id=3D"PRD=E6=B1=87=E6=80=BB_V1-2.=E7=9B=B8=E5=85=B3=E6=96=87=E6=A1=A3">=
+2. =E7=9B=B8=E5=85=B3=E6=96=87=E6=A1=A3</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"0f=
+3b0eac-7cc8-4716-b73c-e8c8a3f7fe28" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=E6=96=87=E6=A1=A3</strong></p></td>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Last Update</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a data-card-appearance=3D"inline" href=3D"https://hertzflow.atlassian.n=
+et/wiki/spaces/H/pages/10518529?atlOrigin=3DeyJpIjoiYzk2NzA2NDc5MmY3NDgzZGF=
+hNzcyODRjM2ZkOTQ4NTYiLCJwIjoiYyJ9" rel=3D"nofollow">https://hertzflow.atlas=
+sian.net/wiki/spaces/H/pages/10518529?atlOrigin=3DeyJpIjoiYzk2NzA2NDc5MmY3N=
+DgzZGFhNzcyODRjM2ZkOTQ4NTYiLCJwIjoiYyJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=AF=8F=E5=91=A8=E4=B8=80=E6=9B=B4=E6=96=B0=E5=B9=B6=E5=90=8C=E6=AD=A5=
+=E4=BA=A7=E5=93=81=E7=BE=A4</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a data-card-appearance=3D"inline" href=3D"https://hertzflow.atlassian.n=
+et/wiki/spaces/H/embed/4063267?atlOrigin=3DeyJpIjoiZmY4YWIyMmU1MDE3NGIwZGEx=
+YzkxMGNiZGFiMDM1M2YiLCJwIjoiYyJ9" rel=3D"nofollow">https://hertzflow.atlass=
+ian.net/wiki/spaces/H/embed/4063267?atlOrigin=3DeyJpIjoiZmY4YWIyMmU1MDE3NGI=
+wZGExYzkxMGNiZGFiMDM1M2YiLCJwIjoiYyJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>=E9=A1=B5=E9=9D=A2=E9=93=BE=E6=8E=A5</p>
+<p>=E5=8F=82=E6=95=B0=E9=85=8D=E7=BD=AE</p>
+<p>=E5=9F=8B=E7=82=B9=EF=BC=88=E5=89=8D=E5=90=8E=E7=AB=AF =E6=95=B4=E7=90=
+=86=E4=B8=AD=EF=BC=89</p>
+<p>=E5=85=A8=E5=B1=80=E5=85=AC=E5=BC=8F</p>
+<p>Error Mapping =EF=BC=88=E8=AF=AD=E4=B9=89=E5=8C=96toast=E6=95=B4=E7=90=
+=86=E4=B8=AD=EF=BC=89</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a data-card-appearance=3D"inline" href=3D"https://hertzflow.atlassian.n=
+et/wiki/x/tIAoAQ" rel=3D"nofollow">https://hertzflow.atlassian.net/wiki/x/t=
+IAoAQ</a></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>22 August =E6=9B=B4=E6=AD=A3=EF=BC=9APnL=E8=BF=99=E7=B1=BB=E4=BB=8D=E4=
+=B8=BA+$0.00 -$0.00 =E9=A2=9C=E8=89=B2=E5=8C=BA=E5=88=86 =E4=B8=8D=E7=94=A8=
+&lt;$0.01=E5=B1=95=E7=A4=BA</p></li>
+</ul>
+<p>26 August =E6=9B=B4=E6=96=B0=E5=B8=81=E6=9C=AC=E4=BD=8D=E4=BB=B7=E6=A0=
+=BC=E5=B1=95=E7=A4=BA=E8=A7=84=E8=8C=83=EF=BC=9A</p>
+<ol start=3D"1">
+<li>
+<p>BTC 6dp =E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86=EF=BC=9A&lt;0.000001BTC =EF=
+=BC=9BETH HzLP SUI 4dp USDC 2dp</p></li>
+<li>
+<p>=E5=B0=8F=E9=A2=9D=E9=9A=90=E8=97=8F=EF=BC=9A<code>&lt;0.000001 BTC</cod=
+e>=EF=BC=9B <code>&lt;0.0001 ETH</code>=EF=BC=9B<code>&lt;0.01 SUI/HzLP</co=
+de></p></li>
+<li>
+<p>=E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86=EF=BC=9A=E7=A8=B3=E5=AE=9A=E5=B8=81=
+=EF=BC=8C=E6=8C=89=E7=BE=8E=E5=85=83=E8=A7=86=E8=A7=89=E4=B9=A0=E6=83=AF=E5=
+=B1=95=E7=A4=BA=EF=BC=9A<code>2dp</code> e.g. 1.12 USDC</p></li>
+<li>
+<p>=E8=8B=A5=E5=90=8E=E7=BB=AD=E6=B7=BB=E5=8A=A0=E8=B5=84=E4=BA=A7=EF=BC=8C=
+=E4=BB=B7=E6=A0=BC10k - 100k=E6=8C=89BTC=E6=9D=A5=EF=BC=9B=E4=BB=B7=E6=A0=
+=BC1k- 10k=E7=9A=84=E6=8C=89ETH=EF=BC=9B=E4=BB=B7=E6=A0=BC1-1k=E7=9A=84=E6=
+=8C=89SUI=EF=BC=9Bmeme=E7=9B=B8=E5=85=B3=E7=9A=84=E7=9B=B4=E6=8E=A52dp</p><=
+/li>
+</ol></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a data-card-appearance=3D"inline" href=3D"https://hertzflow.atlassian.n=
+et/wiki/spaces/H/pages/2457917/Docs?atlOrigin=3DeyJpIjoiNmQ1MmJiMTc0ZWFhNGV=
+mZTgwNmNkMWFjMzUwMTNmY2MiLCJwIjoiYyJ9" rel=3D"nofollow">https://hertzflow.a=
+tlassian.net/wiki/spaces/H/pages/2457917/Docs?atlOrigin=3DeyJpIjoiNmQ1MmJiM=
+Tc0ZWFhNGVmZTgwNmNkMWFjMzUwMTNmY2MiLCJwIjoiYyJ9</a></p>
+<p><a data-card-appearance=3D"inline" href=3D"https://hertzflow.atlassian.n=
+et/wiki/spaces/H/pages/19365953/Non-tech+Docs?atlOrigin=3DeyJpIjoiOGUzZDE2Y=
+2E5NzdhNGQ2ZTg0MDFiZTA5Mjc0MmFhY2QiLCJwIjoiYyJ9" rel=3D"nofollow">https://h=
+ertzflow.atlassian.net/wiki/spaces/H/pages/19365953/Non-tech+Docs?atlOrigin=
+=3DeyJpIjoiOGUzZDE2Y2E5NzdhNGQ2ZTg0MDFiZTA5Mjc0MmFhY2QiLCJwIjoiYyJ9</a></p>=
+</td>
+<td class=3D"confluenceTd">
+<p>Gitbook =E4=BA=A7=E5=93=81=E6=96=87=E6=A1=A3 =EF=BC=88=E5=8C=85=E6=8B=AC=
+tech for dev=EF=BC=89<br>
+Google Doc =E6=8A=80=E6=9C=AF=E8=AF=B4=E6=98=8E=E6=96=87=E6=A1=A3 =EF=BC=88=
+<strong>non</strong>-tech for dev=EF=BC=89</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://hertzflow.slack.com/docs/T08G=
+35AED17/F097W3YGJ4V" rel=3D"nofollow">=E5=A4=9A=E8=AF=AD=E8=A8=80=E6=96=87=
+=E6=A1=A3</a></p></td>
+<td class=3D"confluenceTd">
+<p><code>Aug01 =E6=9A=82=E4=BB=85=E6=94=AF=E6=8C=81=E8=8B=B1=E6=96=87</code=
+><br>
+=E4=B8=8A=E5=91=A8prd=E6=96=B0=E6=96=87=E6=A1=88=E5=BE=85=E5=90=8C=E6=AD=A5=
+ <a class=3D"external-link" href=3D"https://hertzflow.slack.com/team/U09837=
+G5FB3" rel=3D"nofollow">@cen</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://hertzflow.slack.com/docs/T08G=
+35AED17/F092B7LPJUX" rel=3D"nofollow">api=E6=8E=A5=E5=8F=A3=E6=96=87=E6=A1=
+=A3</a></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=96=B0=E6=8E=A5=E5=8F=A3=E9=9C=80=E6=B1=82=E5=90=8C=E6=AD=A5 <a class=
+=3D"external-link" href=3D"https://hertzflow.slack.com/team/U09837G5FB3" re=
+l=3D"nofollow">@cen</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_4_308762734.1772007940070--
