@@ -217,42 +217,70 @@ SL Price Cap = Entry × [1 ± (-0.8 × Collateral - Fees) / Size]
 
 **触发方式**：PM 提供当月全部周报内容 → Claude 生成英文月报初稿
 
+**月报对应的设计模板幻灯片（`docs/月报/2-3/2-3New/`）：**
+- `A07.pdf` → 对应 Section 1.3（Current Progress 进度条 + Risks & Status）
+- `A09.pdf` → 对应 Section 2.1（Key Execution Focus 表格）
+- `A11.pdf` → 对应 Section 2.2（Upcoming Schedule 甘特图）
+
 **月报结构（英文，对外版本）：**
 
 ```
 [1. Monthly Executive Summary]
-  - 总体进度一段话概述（solid/steady/on track 等定性判断）
-  - Core Workstreams（4个主线：Trade / Pools&Vaults / Oracle&Keeper / Release Readiness）
+  - 一段话概述本月整体进展（用 solid / steady / on track 等定性词，不提版本号）
+  - Core Workstreams：列出本月 3-4 条主线工作（如 Advanced Trading / Infrastructure / QA & Readiness）
 
 [1.1 Milestones]
-  - 表格：Area | Completion（列出本月每个团队的关键完成项）
+  - 表格：Area | Completion
+  - Area 按团队分组：PM & PD / FE / BE & SC / QA & Ops
+  - 每行描述该团队本月一项关键完成项
 
 [1.2 Key Highlights]
-  - 🛠 Technical Progress（Keeper / Oracle / Trade / Pools&Vaults / QA&Ops 分项）
-  - 📌 Product Experience（产品视角的体验进展）
-  - 🌐 Ecosystem & External Readiness（对外准备进展）
+  - 🛠 Technical Progress（分项：Keeper / Oracle / FE / BE / QA & Ops）
+  - 📌 Product Experience（产品视角：用户体验进展、流程优化、PRD 推进）
+  - 🌐 Ecosystem & External Readiness（对外准备：文档、合规、测试环境）
 
-[Risks & Issues]
+[1.3 Current Progress]               ← 对应 A07
+  - 进度条表格，按团队列出本月各工作流完成百分比
+  - 团队标签固定为：PM & PD / BE & SC / FE / QA & Ops
+  - 示例行格式：PM & PD | Core Release Delivered | 100%
+
+  Risks & Status（紧跟在 1.3 下，同属此页）
   - 表格：Risk | Impact | Status
 
 [2. Next Month Objectives]
 
-[2.1 Key Plans]
-  - 表格：Team | Key Objective | Notes
+[2.1 Key Execution Focus]             ← 对应 A09
+  - 表格：Team | Target | Description
+  - Team 取值：FE / BE / SC / FE & BE / SC & BE / Keeper / BE / PM / Design / QA / Ops 等组合
+  - 每行为下月一个执行重点，Description 控制在 10 字以内
 
-[2.2 Planned Milestones]
-  - 表格：Time | Target | Owner（按 Week 1-4 分解）
-
-[2.3 Development Gantt]
-  - ASCII 甘特图（按 Workstream 展示 W1-W4 进度条）
+[2.2 Upcoming Schedule]               ← 对应 A11
+  - 标题：Project Development Gantt Chart（YYYY Mon）
+  - ASCII 甘特图，6 个团队泳道，按 W1-W4 展示
+  - 团队固定顺序：FE / BE / SC / Keeper / PM & PD / QA & Ops
+  - 格式示例：
+    FE      Contract integration sweep         ████W1████  Market page optimization  ████W2-W4████
+    BE      Dashboard data prep                ████W1-W2████  Chart API validation   ████W3-W4████
+    SC      Trading params review              ████W1-W2████  Testnet configuration  ████W3-W4████
+    Keeper  Concurrency scaling support        ████W1-W4████
+    PM & PD Advanced trading PRD              ████W1-W2████  UI/UX tracking         ████W2-W4████
+    QA&Ops  Auto-test expansion & smoke tests  ████W1-W4████
 ```
 
 **写月报的规则：**
 - 全程英文，语气专业克制，面向投资人可读
-- 不过度乐观，风险要如实列出
-- 技术细节（合约参数、Keeper 架构、Oracle 配置）需由研发补充确认后再定稿
-- 禁止出现内部表述（如"催收"、"待定"等）
-- 文字部分由 PM 负责，技术细节与甘特图由研发侧补充
+- **不提具体版本号**（不写 V1.0.1、V2 等），改用概括性表述：
+  - ❌ "V1.0.1 delivered / V2 feature X"
+  - ✅ "the current release / the next phase / advanced trading features / upcoming capabilities"
+- **对外表述要模糊、概括**，避免暴露内部研发进度细节，突出方向和成果而非具体实现
+- 不过度乐观，风险要如实列出，但用词客观中性
+- **不出现**内部表述：催收、待定、TODO、人名(@cen/@doris 等)、Jira 编号（HZFL-XXX）
+- **A07 / A09 / A11 内容需 review**：生成初稿后，主动对照这三张幻灯片检查：
+  - 1.3 进度百分比是否与周报事实一致，无夸大
+  - 2.1 执行重点是否与下月实际计划对齐，无矛盾
+  - 2.2 甘特图时间线是否与 2.1 中各团队目标匹配，无冲突
+- 技术细节（合约参数、Keeper 架构）需研发侧确认后补充，初稿可留 [TBD - engineering to confirm]
+- 文字初稿由 PM 产出，技术细节与最终甘特图由研发侧补充，最终版由 @arthur 确认
 
 ---
 
