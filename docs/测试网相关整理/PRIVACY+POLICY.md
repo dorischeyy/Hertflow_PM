@@ -1,0 +1,785 @@
+Date: Wed, 25 Feb 2026 08:33:03 +0000 (UTC)
+
+Message-ID: \<1589333872.7.1772008383590@964dced612df\>
+
+Subject: Exported From Confluence
+
+MIME-Version: 1.0
+
+Content-Type: multipart/related;
+
+boundary="----=\_Part_6_1031878886.1772008383590"
+
+------=\_Part_6_1031878886.1772008383590
+
+Content-Type: text/html; charset=UTF-8
+
+Content-Transfer-Encoding: quoted-printable
+
+Content-Location: file:///C:/exported.html
+
+\<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+
+xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+
+xmlns:v=3D'urn:schemas-microsoft-com:vml'
+
+xmlns=3D'urn:w3-org-ns:HTML'\>
+
+\<head\>
+
+\<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+
+"\>
+
+\<title\>PRIVACY POLICY\</title\>
+
+\<!--\[if gte mso 9\]\>
+
+\<xml\>
+
+\<o:OfficeDocumentSettings\>
+
+\<o:TargetScreenSize\>1024x640\</o:TargetScreenSize\>
+
+\<o:PixelsPerInch\>72\</o:PixelsPerInch\>
+
+\<o:AllowPNG/\>
+
+\</o:OfficeDocumentSettings\>
+
+\<w:WordDocument\>
+
+\<w:View\>Print\</w:View\>
+
+\<w:Zoom\>90\</w:Zoom\>
+
+\<w:DoNotOptimizeForBrowser/\>
+
+\</w:WordDocument\>
+
+\</xml\>
+
+\<\![endif\]--\>
+
+\<style\>
+
+\<!--
+
+@page Section1 {
+
+size: 8.5in 11.0in;
+
+margin: 1.0in;
+
+mso-header-margin: .5in;
+
+mso-footer-margin: .5in;
+
+mso-paper-source: 0;
+
+}
+
+table {
+
+border: solid 1px;
+
+border-collapse: collapse;
+
+}
+
+table td, table th {
+
+border: solid 1px;
+
+padding: 5px;
+
+}
+
+td {
+
+page-break-inside: avoid;
+
+}
+
+tr {
+
+page-break-after: avoid;
+
+}
+
+div.Section1 {
+
+page: Section1;
+
+}
+
+/\* Confluence print stylesheet. Common to all themes for print medi=
+
+a \*/
+
+/\* Full of !important until we improve batching for print CSS \*/
+
+@media print {
+
+\#main {
+
+padding-bottom: 1em !important; /\* The default padding of 6em is to=
+
+o much for printouts \*/
+
+}
+
+body {
+
+font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+
+rif);
+
+}
+
+body, \#full-height-container, \#main, \#page, \#content, .has-personal-sid=
+
+ebar \#content {
+
+background: var(--ds-surface, \#fff) !important;
+
+color: var(--ds-text, \#000) !important;
+
+border: 0 !important;
+
+width: 100% !important;
+
+height: auto !important;
+
+min-height: auto !important;
+
+margin: 0 !important;
+
+padding: 0 !important;
+
+display: block !important;
+
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+
+color: var(--ds-text, \#000);
+
+}
+
+\#content h1,
+
+\#content h2,
+
+\#content h3,
+
+\#content h4,
+
+\#content h5,
+
+\#content h6 {
+
+page-break-after: avoid;
+
+}
+
+pre {
+
+font: var(--ds-font-code, Monaco, "Courier New", monospace);
+
+}
+
+\#header,
+
+.aui-header-inner,
+
+\#navigation,
+
+\#sidebar,
+
+.sidebar,
+
+\#personal-info-sidebar,
+
+.ia-fixed-sidebar,
+
+.page-actions,
+
+.navmenu,
+
+.ajs-menu-bar,
+
+.noprint,
+
+.inline-control-link,
+
+.inline-control-link a,
+
+a.show-labels-editor,
+
+.global-comment-actions,
+
+.comment-actions,
+
+.quick-comment-container,
+
+\#addcomment {
+
+display: none !important;
+
+}
+
+/\* CONF-28544 cannot print multiple pages in IE \*/
+
+\#splitter-content {
+
+position: relative !important;
+
+}
+
+.comment .date::before {
+
+content: none !important; /\* remove middot for print view \*/
+
+}
+
+h1.pagetitle img {
+
+height: auto;
+
+width: auto;
+
+}
+
+.print-only {
+
+display: block;
+
+}
+
+\#footer {
+
+position: relative !important; /\* CONF-17506 Place the footer at en=
+
+d of the content \*/
+
+margin: 0;
+
+padding: 0;
+
+background: none;
+
+clear: both;
+
+}
+
+\#poweredby {
+
+border-top: none;
+
+background: none;
+
+}
+
+\#poweredby li.print-only {
+
+display: list-item;
+
+font-style: italic;
+
+}
+
+\#poweredby li.noprint {
+
+display: none;
+
+}
+
+/\* no width controls in print \*/
+
+.wiki-content .table-wrap,
+
+.wiki-content p,
+
+.panel .codeContent,
+
+.panel .codeContent pre,
+
+.image-wrap {
+
+overflow: visible !important;
+
+}
+
+/\* TODO - should this work? \*/
+
+\#children-section,
+
+\#comments-section .comment,
+
+\#comments-section .comment .comment-body,
+
+\#comments-section .comment .comment-content,
+
+\#comments-section .comment p {
+
+page-break-inside: avoid;
+
+}
+
+\#page-children a {
+
+text-decoration: none;
+
+}
+
+/\*\*
+
+hide twixies
+
+the specificity here is a hack because print styles
+
+are getting loaded before the base styles. \*/
+
+\#comments-section.pageSection .section-header,
+
+\#comments-section.pageSection .section-title,
+
+\#children-section.pageSection .section-header,
+
+\#children-section.pageSection .section-title,
+
+.children-show-hide {
+
+padding-left: 0;
+
+margin-left: 0;
+
+}
+
+.children-show-hide.icon {
+
+display: none;
+
+}
+
+/\* personal sidebar \*/
+
+.has-personal-sidebar \#content {
+
+margin-right: 0px;
+
+}
+
+.has-personal-sidebar \#content .pageSection {
+
+margin-right: 0px;
+
+}
+
+.no-print, .no-print \* {
+
+display: none !important;
+
+}
+
+}
+
+--\>
+
+\</style\>
+
+\</head\>
+
+\<body\>
+
+\<h1\>PRIVACY POLICY\</h1\>
+
+\<div class=3D"Section1"\>
+
+\<p local-id=3D"63c18da7-0a05-456a-820a-3782fa05ca47"\>\<strong\>Last U=
+
+pdated:\</strong\> \[January 1, 2026\]\</p\>
+
+\<p local-id=3D"70fd3ef0-2c2e-4b76-981d-7d5b6bdeac0c"\>This Privacy Policy (t=
+
+he \<strong\>=E2=80=9CPolicy=E2=80=9D\</strong\>) describes how personal data i=
+
+s collected, used, and processed in connection with access to and use of th=
+
+e HertzFlow user interface, websites, and related services (collectively, t=
+
+he \<strong\>=E2=80=9CInterface=E2=80=9D\</strong\>) and, where applicable, int=
+
+eraction with the HertzFlow decentralized protocol (the \<strong\>=E2=80=9CPr=
+
+otocol=E2=80=9D\</strong\>).\<br\>
+
+This Policy is issued by \<strong\>HertzFlow LTD\</strong\>, a business company=
+
+incorporated in the British Virgin Islands (the \<strong\>=E2=80=9CCompany=
+
+=E2=80=9D\</strong\>), acting as the data controller for personal data proces=
+
+sed in connection with the Interface, to the extent applicable under releva=
+
+nt data protection laws.\<br\>
+
+By accessing or using the Interface, or otherwise providing information, th=
+
+e user acknowledges having read and understood this Policy.\<br\>\</p\>
+
+\<h2 local-id=3D"ec3ad4af-2306-4d83-aab9-46b13a797a24" id=3D"PRIVACYPOLICY-1=
+
+.SCOPEANDGENERALPRINCIPLES"\>\<strong\>1. SCOPE AND GENERAL PRINCIPLES\</strong=
+
+\>\</h2\>
+
+\<p local-id=3D"849dc515-45a5-48cb-915c-302bcafce6a0"\>HertzFlow is designed =
+
+as a decentralized, non-custodial protocol. The Company does not require us=
+
+ers to create accounts, does not custody assets, and does not intentionally=
+
+collect personal data beyond what is necessary to operate and secure the I=
+
+nterface.\<br\>
+
+Blockchain data recorded on public networks is \<strong\>public by nature\</st=
+
+rong\> and is not controlled by the Company.\<br\>\</p\>
+
+\<h2 local-id=3D"834159bf-ba9c-473f-8942-e9bb8cf2f366" id=3D"PRIVACYPOLICY-2=
+
+.INFORMATIONTHATMAYBECOLLECTED"\>\<strong\>2. INFORMATION THAT MAY BE COLLECTE=
+
+D\</strong\>\</h2\>
+
+\<h3 local-id=3D"89ff65d8-7ee9-4d61-b525-0df2bd1ea2e8" id=3D"PRIVACYPOLICY-2=
+
+.1InformationProvidedDirectly"\>\<strong\>2.1 Information Provided Directly\</s=
+
+trong\>\</h3\>
+
+\<p local-id=3D"8ad6bf34-2b9b-4082-a97c-f1cec81ef094"\>Depending on how the I=
+
+nterface is used, the following information may be processed:\<br\>\</p\>
+
+\<ul local-id=3D"bcadf298-34b6-418a-b724-8cd2a966a3e0"\>
+
+\<li local-id=3D"bed4f51f-62fe-42da-b390-755d07fc07b2"\>
+
+\<p local-id=3D"b4990ea8-bde3-463e-b521-0402db475f8b"\>public blockchain wall=
+
+et addresses when voluntarily connected;\</p\>\</li\>
+
+\<li local-id=3D"e12471c9-0589-4e10-b536-d0a32e4e9d3b"\>
+
+\<p local-id=3D"767188eb-a5ec-4225-8cef-921376bf6b51"\>transaction identifier=
+
+s and on-chain interaction data associated with such addresses; and\</p\>\</li=
+
+\>
+
+\<li local-id=3D"3cd254c8-364b-4750-8bb3-c6652ed483f4"\>
+
+\<p local-id=3D"7212af25-3f0f-47f7-a258-ef63e7952ced"\>contact information or=
+
+content voluntarily provided through communications (e.g., support inquiri=
+
+es).\</p\>\</li\>
+
+\</ul\>
+
+\<h3 local-id=3D"7557ae79-c58a-4cca-8bb7-4bcefe32f229" id=3D"PRIVACYPOLICY-2=
+
+.2InformationCollectedAutomatically"\>\<strong\>2.2 Information Collected Auto=
+
+matically\</strong\>\</h3\>
+
+\<p local-id=3D"f5e01672-be29-4d88-963e-1a59f78a6c04"\>When accessing the Int=
+
+erface, certain technical and usage data may be collected automatically, in=
+
+cluding:\<br\>\</p\>
+
+\<ul local-id=3D"260240a7-0263-4995-9d12-fbf6c2c15ca5"\>
+
+\<li local-id=3D"4b2b713a-51d5-4faf-beab-e5cb001f4f9b"\>
+
+\<p local-id=3D"63c756f7-0e8c-4934-8166-524ff0de7cf1"\>IP-derived country or =
+
+region (not precise location);\</p\>\</li\>
+
+\<li local-id=3D"3280c6fd-0d68-4b91-a7ce-e3d36c4763fc"\>
+
+\<p local-id=3D"e3ea8fc9-0572-4660-865c-cf3ada425dba"\>browser type, device t=
+
+ype, operating system, and language;\</p\>\</li\>
+
+\<li local-id=3D"965e9179-6082-450b-ac94-2cad987b9a2f"\>
+
+\<p local-id=3D"35e94d68-458d-4040-902e-52c92d7822a9"\>access timestamps and =
+
+pages or endpoints accessed.\</p\>\</li\>
+
+\</ul\>
+
+\<p local-id=3D"5edae2e4-a269-444f-b857-169cd443d302"\>This information is ge=
+
+nerally used in aggregated or anonymized form.\<br\>\</p\>
+
+\<h2 local-id=3D"d24c5c2b-8aff-484c-9e55-6ce0fb39388d" id=3D"PRIVACYPOLICY-3=
+
+.PURPOSESANDLEGALBASESFORPROCESSING"\>\<strong\>3. PURPOSES AND LEGAL BASES FO=
+
+R PROCESSING\</strong\>\</h2\>
+
+\<p local-id=3D"f000429e-f24d-49a5-9b68-93bcb2482cff"\>Personal data, where a=
+
+pplicable, is processed for the following purposes:\<br\>\</p\>
+
+\<ul local-id=3D"aba2186b-67a7-4084-8cd7-512491ba5ed9"\>
+
+\<li local-id=3D"64912dfb-4a63-4d74-b620-5702a065250b"\>
+
+\<p local-id=3D"2e87ac0d-70f8-4515-8c15-ab17cd9fbe91"\>enabling access to and=
+
+operation of the Interface;\</p\>\</li\>
+
+\<li local-id=3D"bf8f2a2f-aa77-4e67-b4ca-f68ff0841840"\>
+
+\<p local-id=3D"961069f4-9312-4c6d-9976-9027d22c4baa"\>maintaining security, =
+
+integrity, and abuse prevention;\</p\>\</li\>
+
+\<li local-id=3D"9cecec70-3c08-4f9a-b114-bafaaad55087"\>
+
+\<p local-id=3D"79fc7d04-f6de-4d1c-a2d3-1246ff356736"\>complying with legal o=
+
+bligations and enforcing terms;\</p\>\</li\>
+
+\<li local-id=3D"4f6f52ea-0c05-4a8f-8003-259e65b5950c"\>
+
+\<p local-id=3D"1c3544ce-e623-4ef0-8837-cbb44427cb92"\>improving functionalit=
+
+y and user experience through analytics.\</p\>\</li\>
+
+\</ul\>
+
+\<p local-id=3D"031ddc48-5ef8-4897-9b1d-a8259d669c92"\>Processing is conducte=
+
+d based on legitimate interests, contractual necessity, legal obligations, =
+
+or user consent, as applicable under relevant laws.\<br\>\</p\>
+
+\<h2 local-id=3D"9849e57e-e806-4d77-9a74-1dfb8d340a6d" id=3D"PRIVACYPOLICY-4=
+
+.WALLETCONNECTIONSANDTHIRD-PARTYSERVICES"\>\<strong\>4. WALLET CONNECTIONS AND=
+
+THIRD-PARTY SERVICES\</strong\>\</h2\>
+
+\<p local-id=3D"733b7069-5207-491e-8fa3-5579f03dc908"\>Use of the Interface m=
+
+ay require connection to third-party wallet providers or services not opera=
+
+ted or controlled by the Company. Such providers process data in accordance=
+
+with their own privacy policies and terms.\<br\>
+
+The Company does not control and is not responsible for the privacy practic=
+
+es of third-party wallets, blockchain networks, or external services.\<br\>\</=
+
+p\>
+
+\<h2 local-id=3D"be548aa7-b5a6-4291-aacf-d641172d5436" id=3D"PRIVACYPOLICY-5=
+
+.COOKIESANDSIMILARTECHNOLOGIES"\>\<strong\>5. COOKIES AND SIMILAR TECHNOLOGIES=
+
+\</strong\>\</h2\>
+
+\<p local-id=3D"141e0419-98db-458b-aada-207c1267886c"\>The Interface may use =
+
+strictly necessary cookies or similar technologies for functionality, secur=
+
+ity, and performance. These technologies are not used for advertising or pr=
+
+ofiling purposes.\<br\>
+
+Continued use of the Interface constitutes acknowledgment of such use.\<br\>\<=
+
+/p\>
+
+\<h2 local-id=3D"de93e99d-3fed-460b-9477-01b6ff9379b2" id=3D"PRIVACYPOLICY-6=
+
+.DATASHARING"\>\<strong\>6. DATA SHARING\</strong\>\</h2\>
+
+\<p local-id=3D"d145ba9c-a49f-4b22-8f2f-78803331490b"\>Personal data may be s=
+
+hared only in limited circumstances, including:\<br\>\</p\>
+
+\<ul local-id=3D"e7cea6f8-2aba-4c94-bf30-99795d5c517b"\>
+
+\<li local-id=3D"4f948ae4-b0c5-4c1c-a9b3-9a5f56d241c6"\>
+
+\<p local-id=3D"98c28521-dd6d-42d9-bc0a-b95f38088fc9"\>with service providers=
+
+supporting security, analytics, or infrastructure;\</p\>\</li\>
+
+\<li local-id=3D"90330b8e-e5d3-4a9e-be72-c2d66eebdc52"\>
+
+\<p local-id=3D"7cfb8f5a-4952-4600-bed8-f874b84c12fd"\>with professional advi=
+
+sors or authorities where legally required; or\</p\>\</li\>
+
+\<li local-id=3D"76307a1e-1757-40f9-9d8d-1dc7e89f7b9d"\>
+
+\<p local-id=3D"08fa1a15-7d61-40f0-b7cd-f1d0d7ea9d6e"\>to protect rights, use=
+
+rs, or the integrity of the Interface.\</p\>\</li\>
+
+\</ul\>
+
+\<p local-id=3D"dde86306-6b48-4408-8dc9-064609758a97"\>No personal data is so=
+
+ld.\<br\>\</p\>
+
+\<h2 local-id=3D"761fa791-02fc-420e-ba39-e096908c22cb" id=3D"PRIVACYPOLICY-7=
+
+.INTERNATIONALDATATRANSFERS"\>\<strong\>7. INTERNATIONAL DATA TRANSFERS\</stron=
+
+g\>\</h2\>
+
+\<p local-id=3D"361c4220-f3b0-4237-88a1-409277424419"\>Personal data may be p=
+
+rocessed in jurisdictions outside the user=E2=80=99s country of residence. =
+
+Where required, appropriate safeguards are implemented in accordance with a=
+
+pplicable data protection laws.\<br\>\</p\>
+
+\<h2 local-id=3D"c6caf20b-e4ae-45c9-89fd-1c9dd1cb078f" id=3D"PRIVACYPOLICY-8=
+
+.DATARETENTION"\>\<strong\>8. DATA RETENTION\</strong\>\</h2\>
+
+\<p local-id=3D"53cd8a0b-7416-4c31-b1ca-68b378086152"\>Personal data is retai=
+
+ned only for as long as necessary to fulfill the purposes described in this=
+
+Policy, unless a longer retention period is required or permitted by law.\<=
+
+br\>\</p\>
+
+\<h2 local-id=3D"d454d5d0-6a46-4cbb-b67f-2e89f51c0d90" id=3D"PRIVACYPOLICY-9=
+
+.USERDATALIMITATIONS"\>\<strong\>9. USER DATA LIMITATIONS\</strong\>\</h2\>
+
+\<p local-id=3D"343092b8-a446-4e99-924c-809bb52f32ce"\>Due to the decentraliz=
+
+ed and non-custodial nature of the Protocol and the minimal personal data p=
+
+rocessed in connection with the Interface, the Company may be unable to ide=
+
+ntify, access, modify, or delete certain data, including data permanently r=
+
+ecorded on public blockchain networks.\<br\>
+
+Where applicable data protection laws provide rights in relation to persona=
+
+l data, the exercise of such rights may be limited or unavailable due to:\<b=
+
+r\>\</p\>
+
+\<ul local-id=3D"6dbaecea-abff-42ac-8625-015a79345b91"\>
+
+\<li local-id=3D"ce0b3a1f-5992-40bc-8e09-f0cfdebe8858"\>
+
+\<p local-id=3D"9685b62f-bb03-4111-956f-50328fb8bca6"\>the technical immutabi=
+
+lity of blockchain systems;\</p\>\</li\>
+
+\<li local-id=3D"a4dfcbd6-ff21-4034-a8dd-2fa22fb4c27a"\>
+
+\<p local-id=3D"90002e66-4c36-4731-bc25-c27b6a59a35b"\>the absence of user ac=
+
+counts or identifying information; and\</p\>\</li\>
+
+\<li local-id=3D"7fc278a6-7ae9-4f54-a8e6-5a5c3cb7d1d6"\>
+
+\<p local-id=3D"d15331b7-92bc-454f-91e4-c39cdf0581bd"\>legal or security obli=
+
+gations.\</p\>\</li\>
+
+\</ul\>
+
+\<p local-id=3D"441afed6-197a-4903-bcd6-9cf080a3a50d"\>Nothing in this Policy=
+
+shall be interpreted as creating obligations beyond those required under a=
+
+pplicable law.\<br\>\</p\>
+
+\<h2 local-id=3D"fe75a1c8-856c-449f-8e08-3ef82a6e2023" id=3D"PRIVACYPOLICY-1=
+
+0.SECURITY"\>\<strong\>10. SECURITY\</strong\>\</h2\>
+
+\<p local-id=3D"ed9d2047-0b96-4ba9-bc94-56f0fce56a55"\>Reasonable technical a=
+
+nd organizational measures are implemented to protect personal data. Howeve=
+
+r, no system can guarantee absolute security, particularly when interacting=
+
+with public blockchain networks.\<br\>\</p\>
+
+\<h2 local-id=3D"96a65fe2-1ec6-42d4-900d-d40386bccfde" id=3D"PRIVACYPOLICY-1=
+
+1.CHILDREN"\>\<strong\>11. CHILDREN\</strong\>\</h2\>
+
+\<p local-id=3D"24edeed8-91e9-4eab-bed2-45f20e9bf47a"\>The Interface is not i=
+
+ntended for individuals under the age of 18. Personal data of minors is not=
+
+knowingly collected.\<br\>\</p\>
+
+\<h2 local-id=3D"92223c4f-ab0e-4143-9f95-21f6cf1189b2" id=3D"PRIVACYPOLICY-1=
+
+2.THIRD-PARTYLINKS"\>\<strong\>12. THIRD-PARTY LINKS\</strong\>\</h2\>
+
+\<p local-id=3D"c151f764-08c2-4dd2-b93c-a7d405f5bc0e"\>The Interface may cont=
+
+ain links to third-party websites or platforms. The Company is not responsi=
+
+ble for the privacy practices or content of such third parties.\<br\>\</p\>
+
+\<h2 local-id=3D"d324d6a4-c7fa-4e64-99d7-c6e6fea71f7a" id=3D"PRIVACYPOLICY-1=
+
+3.POLICYUPDATES"\>\<strong\>13. POLICY UPDATES\</strong\>\</h2\>
+
+\<p local-id=3D"1c877cc8-1c30-4a03-bfab-88aaa730d0c3"\>This Policy may be upd=
+
+ated from time to time. Updates become effective upon publication, with the=
+
+=E2=80=9CLast Updated=E2=80=9D date revised accordingly. Continued use of =
+
+the Interface constitutes acknowledgment of the updated Policy.\<br\>\</p\>
+
+\<h2 local-id=3D"98916408-bc54-45ee-ba23-1bf42e820585" id=3D"PRIVACYPOLICY-1=
+
+4.CONTACT"\>\<strong\>14. CONTACT\</strong\>\</h2\>
+
+\<p local-id=3D"0185f25f-765a-486d-8ac8-772bee5d50c6"\>Questions or requests =
+
+regarding this Policy may be directed to:\<br\>\<strong\>\[\</strong\>\<a class=3D"=
+
+external-link" href=3D"mailto:contact@hertzflow.xyz" rel=3D"nofollow"\>\<stro=
+
+ng\>contact@hertzflow.xyz\</strong\>\</a\>\<strong\>\]\</strong\>\</p\>
+
+\</div\>
+
+\</body\>
+
+\</html\>
+
+------=\_Part_6_1031878886.1772008383590--

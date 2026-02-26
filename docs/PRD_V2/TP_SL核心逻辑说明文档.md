@@ -1,0 +1,2885 @@
+Date: Tue, 24 Feb 2026 10:09:46 +0000 (UTC)
+
+Message-ID: \<1408233131.15.1771927786933@bd3ef31162f0\>
+
+Subject: Exported From Confluence
+
+MIME-Version: 1.0
+
+Content-Type: multipart/related;
+
+boundary="----=\_Part_14_1675691800.1771927786932"
+
+------=\_Part_14_1675691800.1771927786932
+
+Content-Type: text/html; charset=UTF-8
+
+Content-Transfer-Encoding: quoted-printable
+
+Content-Location: file:///C:/exported.html
+
+\<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+
+xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+
+xmlns:v=3D'urn:schemas-microsoft-com:vml'
+
+xmlns=3D'urn:w3-org-ns:HTML'\>
+
+\<head\>
+
+\<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+
+"\>
+
+\<title\>TP/SL=E6=A0=B8=E5=BF=83=E9=80=BB=E8=BE=91=E8=AF=B4=E6=98=8E=E6=
+
+=96=87=E6=A1=A3\</title\>
+
+\<!--\[if gte mso 9\]\>
+
+\<xml\>
+
+\<o:OfficeDocumentSettings\>
+
+\<o:TargetScreenSize\>1024x640\</o:TargetScreenSize\>
+
+\<o:PixelsPerInch\>72\</o:PixelsPerInch\>
+
+\<o:AllowPNG/\>
+
+\</o:OfficeDocumentSettings\>
+
+\<w:WordDocument\>
+
+\<w:View\>Print\</w:View\>
+
+\<w:Zoom\>90\</w:Zoom\>
+
+\<w:DoNotOptimizeForBrowser/\>
+
+\</w:WordDocument\>
+
+\</xml\>
+
+\<\![endif\]--\>
+
+\<style\>
+
+\<!--
+
+@page Section1 {
+
+size: 8.5in 11.0in;
+
+margin: 1.0in;
+
+mso-header-margin: .5in;
+
+mso-footer-margin: .5in;
+
+mso-paper-source: 0;
+
+}
+
+table {
+
+border: solid 1px;
+
+border-collapse: collapse;
+
+}
+
+table td, table th {
+
+border: solid 1px;
+
+padding: 5px;
+
+}
+
+td {
+
+page-break-inside: avoid;
+
+}
+
+tr {
+
+page-break-after: avoid;
+
+}
+
+div.Section1 {
+
+page: Section1;
+
+}
+
+/\* Confluence print stylesheet. Common to all themes for print medi=
+
+a \*/
+
+/\* Full of !important until we improve batching for print CSS \*/
+
+@media print {
+
+\#main {
+
+padding-bottom: 1em !important; /\* The default padding of 6em is to=
+
+o much for printouts \*/
+
+}
+
+body {
+
+font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+
+rif);
+
+}
+
+body, \#full-height-container, \#main, \#page, \#content, .has-personal-sid=
+
+ebar \#content {
+
+background: var(--ds-surface, \#fff) !important;
+
+color: var(--ds-text, \#000) !important;
+
+border: 0 !important;
+
+width: 100% !important;
+
+height: auto !important;
+
+min-height: auto !important;
+
+margin: 0 !important;
+
+padding: 0 !important;
+
+display: block !important;
+
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+
+color: var(--ds-text, \#000);
+
+}
+
+\#content h1,
+
+\#content h2,
+
+\#content h3,
+
+\#content h4,
+
+\#content h5,
+
+\#content h6 {
+
+page-break-after: avoid;
+
+}
+
+pre {
+
+font: var(--ds-font-code, Monaco, "Courier New", monospace);
+
+}
+
+\#header,
+
+.aui-header-inner,
+
+\#navigation,
+
+\#sidebar,
+
+.sidebar,
+
+\#personal-info-sidebar,
+
+.ia-fixed-sidebar,
+
+.page-actions,
+
+.navmenu,
+
+.ajs-menu-bar,
+
+.noprint,
+
+.inline-control-link,
+
+.inline-control-link a,
+
+a.show-labels-editor,
+
+.global-comment-actions,
+
+.comment-actions,
+
+.quick-comment-container,
+
+\#addcomment {
+
+display: none !important;
+
+}
+
+/\* CONF-28544 cannot print multiple pages in IE \*/
+
+\#splitter-content {
+
+position: relative !important;
+
+}
+
+.comment .date::before {
+
+content: none !important; /\* remove middot for print view \*/
+
+}
+
+h1.pagetitle img {
+
+height: auto;
+
+width: auto;
+
+}
+
+.print-only {
+
+display: block;
+
+}
+
+\#footer {
+
+position: relative !important; /\* CONF-17506 Place the footer at en=
+
+d of the content \*/
+
+margin: 0;
+
+padding: 0;
+
+background: none;
+
+clear: both;
+
+}
+
+\#poweredby {
+
+border-top: none;
+
+background: none;
+
+}
+
+\#poweredby li.print-only {
+
+display: list-item;
+
+font-style: italic;
+
+}
+
+\#poweredby li.noprint {
+
+display: none;
+
+}
+
+/\* no width controls in print \*/
+
+.wiki-content .table-wrap,
+
+.wiki-content p,
+
+.panel .codeContent,
+
+.panel .codeContent pre,
+
+.image-wrap {
+
+overflow: visible !important;
+
+}
+
+/\* TODO - should this work? \*/
+
+\#children-section,
+
+\#comments-section .comment,
+
+\#comments-section .comment .comment-body,
+
+\#comments-section .comment .comment-content,
+
+\#comments-section .comment p {
+
+page-break-inside: avoid;
+
+}
+
+\#page-children a {
+
+text-decoration: none;
+
+}
+
+/\*\*
+
+hide twixies
+
+the specificity here is a hack because print styles
+
+are getting loaded before the base styles. \*/
+
+\#comments-section.pageSection .section-header,
+
+\#comments-section.pageSection .section-title,
+
+\#children-section.pageSection .section-header,
+
+\#children-section.pageSection .section-title,
+
+.children-show-hide {
+
+padding-left: 0;
+
+margin-left: 0;
+
+}
+
+.children-show-hide.icon {
+
+display: none;
+
+}
+
+/\* personal sidebar \*/
+
+.has-personal-sidebar \#content {
+
+margin-right: 0px;
+
+}
+
+.has-personal-sidebar \#content .pageSection {
+
+margin-right: 0px;
+
+}
+
+.no-print, .no-print \* {
+
+display: none !important;
+
+}
+
+}
+
+--\>
+
+\</style\>
+
+\</head\>
+
+\<body\>
+
+\<h1\>TP/SL=E6=A0=B8=E5=BF=83=E9=80=BB=E8=BE=91=E8=AF=B4=E6=98=8E=E6=96=
+
+=87=E6=A1=A3\</h1\>
+
+\<div class=3D"Section1"\>
+
+\<h1 id=3D"TP/SL=E6=A0=B8=E5=BF=83=E9=80=BB=E8=BE=91=E8=AF=B4=E6=98=
+
+=8E=E6=96=87=E6=A1=A3-=E4=B8=80=E3=80=81=E6=A0=B8=E5=BF=83=E9=97=AE=E9=A2=
+
+=98=E5=88=97=E8=A1=A8"\>
+
+\<style\>\[data-colorid=3Dj6wsval9sf\]{color:#bf2600} html\[data-color-mode=3Dda=
+
+rk\] \[data-colorid=3Dj6wsval9sf\]{color:#ff6640}\[data-colorid=3Demi6h2ft0o\]{c=
+
+olor:#bf2600} html\[data-color-mode=3Ddark\] \[data-colorid=3Demi6h2ft0o\]{colo=
+
+r:#ff6640}\[data-colorid=3Djltott2k8x\]{color:#bf2600} html\[data-color-mode=
+
+=3Ddark\] \[data-colorid=3Djltott2k8x\]{color:#ff6640}\[data-colorid=3Dnd4c5alm=
+
+39\]{color:#bf2600} html\[data-color-mode=3Ddark\] \[data-colorid=3Dnd4c5alm39\]=
+
+{color:#ff6640}\</style\>\<strong\>=E4=B8=80=E3=80=81=E6=A0=B8=E5=BF=83=E9=97=
+
+=AE=E9=A2=98=E5=88=97=E8=A1=A8\</strong\>\</h1\>
+
+\<p\>=E4=BB=A5=E4=B8=8B=E9=97=AE=E9=A2=98=E8=81=9A=E7=84=A6=E5=9B=9B=E4=B8=AA=
+
+=E6=96=B9=E9=9D=A2=EF=BC=9A\<br\>\<strong\>=E7=B3=BB=E7=BB=9F=E7=BA=A7=E5=BC=BA=
+
+=E5=88=B6 PnL =E9=99=90=E5=88=B6 =E2=86=92 TP/SL =E4=B8=8E Position =E7=9A=
+
+=84=E7=BB=91=E5=AE=9A =E2=86=92 =E5=8F=82=E6=95=B0=E5=90=88=E6=B3=95=E6=80=
+
+=A7=E6=9B=B4=E6=96=B0 =E2=86=92 Keeper =E8=A1=8C=E4=B8=BA=E3=80=82\</strong\>=
+
+\</p\>
+
+\<h3 id=3D"TP/SL=E6=A0=B8=E5=BF=83=E9=80=BB=E8=BE=91=E8=AF=B4=E6=98=8E=E6=96=
+
+=87=E6=A1=A3-A=EF=BD=9C=E7=B3=BB=E7=BB=9F=E7=BA=A7=E5=BC=BA=E5=88=B6PnL=E6=
+
+=9C=BA=E5=88=B6=EF=BC=88+2500%TP/=E2=80=9380%SL=EF=BC=89"\>\<strong\>A=EF=BD=
+
+=9C=E7=B3=BB=E7=BB=9F=E7=BA=A7=E5=BC=BA=E5=88=B6 PnL =E6=9C=BA=E5=88=B6=EF=
+
+=BC=88+2500% TP / =E2=80=9380% SL=EF=BC=89\</strong\>\</h3\>
+
+\<p\>+2500% TP =E4=B8=BA=E9=92=88=E5=AF=B9\<strong\>=E6=89=80=E6=9C=89=E4=BB=93=
+
+=E4=BD=8D\</strong\>=E7=9A=84=E5=BC=BA=E5=88=B6=E6=AD=A2=E7=9B=88=EF=BC=8C=E7=
+
+=9B=B8=E5=BD=93=E4=BA=8E=E5=BC=BA=E5=B9=B3=E7=BA=BF=E3=80=82-80%SL=E4=B8=BA=
+
+\<strong\>=E6=8F=90=E4=BA=A4=E6=AD=A2=E6=8D=9F=E5=8D=95\</strong\>=E6=89=8D=E6=
+
+=9C=89=E7=9A=84=E9=99=90=E5=88=B6=EF=BC=8C=E7=9B=B8=E5=BD=93=E4=BA=8E=E6=AD=
+
+=A2=E6=8D=9F=E4=BB=B7=E6=A0=BC=E8=BE=B9=E7=95=8C=E3=80=82\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>=E8=A7=A6=E5=8F=91=E6=96=B9=E5=BC=8F\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<div class=3D"table-wrap"\>
+
+\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"c9=
+
+a95b1d-6db9-4135-8e4e-9b64fb9d6f30" class=3D"confluenceTable"\>
+
+\<colgroup\>
+
+\<col style=3D"width: 149.0px;"\>
+
+\<col style=3D"width: 154.0px;"\>
+
+\<col style=3D"width: 455.0px;"\>
+
+\</colgroup\>
+
+\<tbody\>
+
+\<tr\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>=E6=96=B9=E6=A1=88\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>=E6=8F=8F=E8=BF=B0\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>\<strong\>=E5=B7=B2=E7=A1=AE=E8=AE=A4\</strong\>\</p\>\</th\>
+
+\</tr\>
+
+\<tr\>
+
+\<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"\>
+
+\<p\>\<strong\>=E2=9C=85 =E5=AE=9E=E6=97=B6=E6=A3=80=E6=9F=A5=E5=BD=93=E5=89=8D=
+
+PnL =E2=86=92 =E7=9B=B4=E6=8E=A5=E5=B9=B3=E4=BB=93\</strong\>\</p\>\</td\>
+
+\<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"\>
+
+\<p\>Keeper =E6=AF=8F=E6=AC=A1=E6=89=A7=E8=A1=8C=E4=BB=BB=E5=8A=A1=E6=97=B6=
+
+=E6=A3=80=E6=9F=A5 PnL=EF=BC=8C=E6=AD=A2=E6=8D=9F=E8=B5=B0=E7=9A=84 order d=
+
+ecrease=EF=BC=8C=E8=80=8C=E6=AD=A2=E7=9B=88=E6=98=AF=E7=B1=BB=E4=BC=BC=E6=
+
+=B8=85=E7=AE=97=E5=BC=8F=E6=8E=A5=E7=AE=A1\</p\>\</td\>
+
+\<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"\>
+
+\<p\>=E6=97=A0=E9=A2=9D=E5=A4=96=E8=AE=A2=E5=8D=95=E7=BB=93=E6=9E=84=EF=BC=8C=
+
+=E7=94=B1keeper=E8=BF=9B=E8=A1=8C=E5=88=A4=E6=96=AD=EF=BC=9A\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>=E5=85=A8=E9=83=A8=E4=BB=93=E4=BD=8D=EF=BC=9A\</strong\>pnl 2500%=
+
+=EF=BC=8C=E6=88=96=E5=88=B0=E8=BE=BE=E5=BC=BA=E5=B9=B3=E7=BA=BF =E2=86=92 =
+
+=E5=85=A8=E9=83=A8=E5=BC=BA=E5=B9=B3\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>=E5=B8=A6=E6=9C=89=E6=AD=A2=E6=8D=9F=E5=8D=95=E7=9A=84=E4=BB=93=
+
+=E4=BD=8D=EF=BC=9A\</strong\>=E6=8C=89=E6=AD=A2=E7=9B=88=E6=AD=A2=E6=8D=9F=E7=
+
+=BA=BF=E6=9D=A5=E3=80=82\<strong\>=E5=A4=9A=E4=BB=93 SL Price =3D max{ =E7=94=
+
+=A8=E6=88=B7=E8=AE=BE=E7=BD=AE=EF=BC=8C=E4=BB=B7=E6=A0=BC=E8=BE=B9=E7=95=8C=
+
+} ; =E7=A9=BA=E4=BB=93 SL Price =3D min {=E7=94=A8=E6=88=B7=E8=AE=BE=E7=BD=
+
+=AE=EF=BC=8C=E4=BB=B7=E6=A0=BC=E8=BE=B9=E7=95=8C} \</strong\>=E2=86=92 =E6=89=
+
+=A7=E8=A1=8C=E8=A7=A6=E5=8F=91=E5=8D=95=E6=AD=A2=E6=8D=9F\</p\>\</li\>
+
+\</ul\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"\>
+
+\<p\>\<strong\>=E2=9D=8C 2=EF=BC=9A=E7=94=9F=E6=88=90=E9=9A=90=E5=BC=8F=E7=B3=
+
+=BB=E7=BB=9F TP=E6=88=96SL =E8=AE=A2=E5=8D=95\</strong\>\</p\>\</td\>
+
+\<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"\>
+
+\<p\>=E5=89=8D=E7=AB=AF=E6=8F=90=E4=BA=A4/=E4=B8=BA=E6=AF=8F=E4=B8=AA positio=
+
+n =E5=86=99=E5=85=A5=E4=B8=80=E4=B8=AA internal TP order=EF=BC=8CKeeper =E5=
+
+=AF=B9 order =E8=A7=A6=E5=8F=91\</p\>\</td\>
+
+\<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd"\>
+
+\<p\>\<strong\>SL=EF=BC=88TP=EF=BC=89 Price=E8=87=AA=E5=8A=A8=E6=9B=B4=E6=96=B0=
+
+=E7=A1=AE=E8=AE=A4=EF=BC=9A\</strong\> entry/size/collateral =E5=8F=98=E5=8C=
+
+=96 =E2=86=92 =E7=B3=BB=E7=BB=9F=E7=BA=A7 =E2=80=9380% SL price =E4=B9=9F=
+
+=E4=BC=9A=E5=8F=98=E5=8C=96=E3=80=82=E6=98=AF=E5=90=A6=E6=AF=8F=E6=AC=A1=E4=
+
+=BB=93=E4=BD=8D=E5=8F=98=E5=8C=96=E9=83=BD=E8=A6=81=E5=90=8C=E6=AD=A5=E5=88=
+
+=B7=E6=96=B0=E8=AF=A5=E8=BE=B9=E7=95=8C=EF=BC=9F gas=E6=B6=88=E8=80=97=E6=
+
+=98=AF=E5=90=A6=E4=BC=9A=E8=BF=87=E5=A4=A7=EF=BC=9F\<strong\>=E4=B8=8D=E8=87=
+
+=AA=E5=8A=A8=E6=9B=B4=E6=96=B0=E5=B9=B6=E6=8F=90=E4=BA=A4=EF=BC=8C=E6=97=A0=
+
+=E9=A2=9D=E5=A4=96 gas =E6=B6=88=E8=80=97=E3=80=82=E5=89=8D=E7=AB=AF=E9=87=
+
+=8D=E6=96=B0=E8=AE=A1=E7=AE=97=E5=B9=B6=E5=B1=95=E7=A4=BA=E6=9B=B4=E6=96=B0=
+
+=E5=90=8E=E4=BB=B7=E6=A0=BC=E5=8D=B3=E5=8F=AF=EF=BC=8Corder=E9=87=8C=E6=97=
+
+=A0=E9=9C=80=E5=B1=95=E7=A4=BA=E4=BF=AE=E6=94=B9=E5=8E=86=E5=8F=B2=E3=80=82=
+
+\</strong\>\</p\>\</td\>
+
+\</tr\>
+
+\</tbody\>
+
+\</table\>
+
+\</div\>
+
+\<h3 id=3D"TP/SL=E6=A0=B8=E5=BF=83=E9=80=BB=E8=BE=91=E8=AF=B4=E6=98=8E=E6=96=
+
+=87=E6=A1=A3-B=EF=BD=9CTP/SL=E7=9A=84=E7=BB=91=E5=AE=9A=E6=A8=A1=E5=9E=8B&a=
+
+mp;=E6=AD=BB=E5=8D=95=E6=B8=85=E7=90=86"\>\<strong\>B=EF=BD=9CTP/SL =E7=9A=84=
+
+=E7=BB=91=E5=AE=9A=E6=A8=A1=E5=9E=8B &amp; =E6=AD=BB=E5=8D=95=E6=B8=85=E7=
+
+=90=86\</strong\>\</h3\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>TP/SL =E7=9A=84=E7=BB=91=E5=AE=9A=E6=96=B9=E5=BC=8F\</strong\>\</p\>=
+
+\</li\>
+
+\</ol\>
+
+\<div class=3D"table-wrap"\>
+
+\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"6e=
+
+6d5d99-b66d-405b-a43a-4a55ca2d827d" class=3D"confluenceTable"\>
+
+\<colgroup\>
+
+\<col style=3D"width: 136.0px;"\>
+
+\<col style=3D"width: 623.0px;"\>
+
+\</colgroup\>
+
+\<tbody\>
+
+\<tr\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>=E6=96=B9=E5=BC=8F\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>=E6=8F=8F=E8=BF=B0\</p\>\</th\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>=E2=9C=85 position id\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E4=B8=80=E4=B8=AA position =E5=8F=AA=E8=83=BD=E6=9C=89\<strong\>=E4=B8=80=
+
+=E7=BB=84\</strong\> TP/SL\</p\>
+
+\<blockquote\>
+
+\<p\>=E6=8C=89size=E6=AF=94=E4=BE=8B=E5=8F=AF=E6=8C=82=E5=A4=9A=E4=B8=AA=E8=
+
+=A7=A6=E5=8F=91=E5=8D=95=EF=BC=8C=E4=BD=86=E6=AD=A4=E7=89=88=E6=9C=AC=E4=B8=
+
+=8D=E6=94=AF=E6=8C=81\</p\>
+
+\</blockquote\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>=E2=9D=8C order id\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>TP/SL =E4=BD=9C=E4=B8=BA\<strong\>=E7=8B=AC=E7=AB=8B=E6=8C=82=E5=8D=95=EF=
+
+=BC=8C\</strong\>=E4=B8=8D=E4=BE=9D=E8=B5=96=E5=8E=9F=E6=9C=89=E4=BB=93=E4=BD=
+
+=8D=E6=98=AF=E5=90=A6=E5=AD=98=E5=9C=A8\</p\>\</td\>
+
+\</tr\>
+
+\</tbody\>
+
+\</table\>
+
+\</div\>
+
+\<ol start=3D"2"\>
+
+\<li\>
+
+\<p\>\<strong\>Position =E5=AD=98=E5=9C=A8=E4=BD=86 TP/SL =E5=8F=82=E6=95=B0=E9=
+
+=9D=9E=E6=B3=95=E6=97=B6=E7=9A=84=E8=A1=8C=E4=B8=BA\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<p\>=E5=A6=82=E4=BF=AE=E6=94=B9=E4=BF=9D=E8=AF=81=E9=87=91=E5=AF=BC=E8=87=B4=
+
+SL price &lt; liq price=EF=BC=9A\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>=E8=AE=A2=E5=8D=95=E4=BF=9D=E7=95=99=EF=BC=8C=E4=BD=86=E6=B0=B8=E8=BF=9C=
+
+=E6=97=A0=E6=B3=95=E8=A7=A6=E5=8F=91=EF=BC=9F\</p\>\</li\>
+
+\<li\>
+
+\<p\>=E7=B3=BB=E7=BB=9F=E7=AB=8B=E5=8D=B3=E6=A0=87=E8=AE=B0=E6=97=A0=E6=95=88=
+
+/ =E5=88=A0=E9=99=A4=EF=BC=9F\</p\>\</li\>
+
+\<li\>
+
+\<p\>=E5=B8=AE=E7=94=A8=E6=88=B7=E9=87=8D=E6=96=B0=E8=AE=A1=E7=AE=97=E5=B9=B6=
+
+=E6=8F=90=E4=BA=A4=E4=B8=80=E4=B8=AA=E5=90=88=E6=B3=95 TP/SL=EF=BC=9F\</p\>\</=
+
+li\>
+
+\</ul\>
+
+\<ol start=3D"3"\>
+
+\<li\>
+
+\<p\>\<strong\>Position =E6=B6=88=E5=A4=B1=E5=90=8E=E7=9A=84 TP/SL=E6=AD=BB=E5=
+
+=8D=95=E5=A4=84=E7=90=86\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<p\>=E5=BD=93 position =E8=A2=AB=E5=B9=B3=E6=8E=89=EF=BC=9A\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>TP/SL =E6=98=AF=E5=90=A6=E8=87=AA=E5=8A=A8=E5=8F=96=E6=B6=88=EF=BC=8C=E5=
+
+=8D=B3Keeper =E6=98=AF=E5=90=A6=E9=9C=80=E8=A6=81=E8=BF=9B=E8=A1=8C=E6=B8=
+
+=85=E7=90=86=EF=BC=9F\</p\>\</li\>
+
+\<li\>
+
+\<p\>=E6=98=AF=E5=90=A6=E5=85=81=E8=AE=B8=E6=AD=BB=E5=8D=95=E9=95=BF=E6=9C=9F=
+
+=E5=AD=98=E5=9C=A8=EF=BC=8C=E8=BF=98=E6=98=AF=E6=9C=89=E4=B8=80=E4=B8=AA=E8=
+
+=B6=85=E6=97=B6=E9=99=90=E5=88=B6=EF=BC=9F\</p\>\</li\>
+
+\</ul\>
+
+\<ol start=3D"4"\>
+
+\<li\>
+
+\<p\>\<strong\>Keeper =E9=81=87=E5=88=B0=E9=9D=9E=E6=B3=95=E8=A7=A6=E5=8F=91=E5=
+
+=8F=82=E6=95=B0=E6=97=B6=E7=9A=84=E9=BB=98=E8=AE=A4=E8=A1=8C=E4=B8=BA=EF=BC=
+
+=9A\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>revert=E8=AE=A2=E5=8D=95=E7=BB=A7=E7=BB=AD=E6=8C=82=E7=9D=80\</p\>\</li\>
+
+\<li\>
+
+\<p\>=E8=87=AA=E5=8A=A8 cancel\</p\>\</li\>
+
+\<li\>
+
+\<p\>=E7=B3=BB=E7=BB=9F=E6=9B=BF=E7=94=A8=E6=88=B7=E8=B0=83=E6=95=B4=E5=88=B0=
+
+=E5=90=88=E6=B3=95=E8=BE=B9=E7=95=8C\</p\>\</li\>
+
+\</ul\>
+
+\<h3 id=3D"TP/SL=E6=A0=B8=E5=BF=83=E9=80=BB=E8=BE=91=E8=AF=B4=E6=98=8E=E6=96=
+
+=87=E6=A1=A3-C=EF=BD=9C=E5=8F=82=E6=95=B0=E5=86=B2=E7=AA=81=E4=B8=8E=E8=BF=
+
+=9E=E9=94=81=E5=BD=B1=E5=93=8D=E5=A4=84=E7=90=86"\>\<strong\>C=EF=BD=9C=E5=8F=
+
+=82=E6=95=B0=E5=86=B2=E7=AA=81=E4=B8=8E=E8=BF=9E=E9=94=81=E5=BD=B1=E5=93=8D=
+
+=E5=A4=84=E7=90=86\</strong\>\</h3\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>=E4=BB=93=E4=BD=8D=E5=8F=82=E6=95=B0=E4=BF=AE=E6=94=B9=E5=AF=BC=
+
+=E8=87=B4 TP/SL =E8=B6=8A=E7=95=8C=E6=97=B6=E7=9A=84=E8=A1=8C=E4=B8=BA\</str=
+
+ong\>\</p\>\</li\>
+
+\</ol\>
+
+\<p\>=E4=BF=AE=E6=94=B9=E5=A6=82=E4=B8=8B=E5=8F=82=E6=95=B0=E6=97=B6=E5=8F=AF=
+
+=E8=83=BD=E5=AF=BC=E8=87=B4 TP/SL =E4=B8=8D=E5=86=8D=E5=90=88=E6=B3=95=EF=
+
+=BC=9Acollateral=EF=BC=9Bentry price=EF=BC=88=E7=94=B1=E5=8A=A0=E5=87=8F=E4=
+
+=BB=93=E5=BC=95=E8=B5=B7=EF=BC=89=EF=BC=9Blimit order price=EF=BC=9Bliquida=
+
+tion price=EF=BC=88=E4=BF=9D=E8=AF=81=E9=87=91=E4=BF=AE=E6=94=B9=E6=88=96=
+
+=E5=8A=A0=E5=87=8F=E4=BB=93=E6=88=96=E9=99=90=E4=BB=B7=E5=8D=95=E6=89=A7=E8=
+
+=A1=8C=E5=BC=95=E8=B5=B7=EF=BC=89=E3=80=82=E6=AD=A4=E6=97=B6=E7=B3=BB=E7=BB=
+
+=9F=E5=AF=B9=E8=B6=8A=E7=95=8C=E7=9A=84=E5=A4=84=E7=90=86=E9=80=BB=E8=BE=91=
+
+=EF=BC=9A\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>TP/SL =E4=BF=9D=E7=95=99=E4=BD=86=E8=BF=9B=E5=85=A5=E4=B8=8D=E5=8F=AF=E6=
+
+=89=A7=E8=A1=8C=E7=8A=B6=E6=80=81=EF=BC=9F\</p\>\</li\>
+
+\<li\>
+
+\<p\>=E8=87=AA=E5=8A=A8 cancel =E7=9B=B8=E5=85=B3 TP/SL=EF=BC=9F\</p\>\</li\>
+
+\<li\>
+
+\<p\>=E8=87=AA=E5=8A=A8=E8=B0=83=E6=95=B4 TP/SL =E5=88=B0=E7=B3=BB=E7=BB=9F=
+
+=E8=BE=B9=E7=95=8C=EF=BC=9F\</p\>\</li\>
+
+\</ul\>
+
+\<ol start=3D"2"\>
+
+\<li\>
+
+\<p\>\<strong\>=E8=BF=9E=E9=94=81=E6=9B=B4=E6=96=B0=E9=80=BB=E8=BE=91\</strong\>\<=
+
+/p\>\</li\>
+
+\</ol\>
+
+\<p\>=E5=8F=82=E6=95=B0=E5=8F=98=E5=8C=96=E4=BC=9A=E5=BC=95=E5=8F=91=E9=93=BE=
+
+=E5=BC=8F=E5=8F=98=E5=8C=96=EF=BC=9A=E4=BF=AE=E6=94=B9 collateral =E2=86=92=
+
+entry price =E5=8F=98 =E2=86=92 liq price =E5=8F=98 =E2=86=92 min SL price=
+
+=E5=8F=98 =E2=86=92 =E5=8E=9F SL =E4=B8=8D=E5=90=88=E6=B3=95=E3=80=82=E6=
+
+=AD=A4=E6=97=B6keeper=E6=98=AF=E5=90=A6=EF=BC=9A\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>=E8=87=AA=E5=8A=A8=E8=BF=9E=E9=94=81=E6=9B=B4=E6=96=B0=E6=89=80=E6=9C=89=
+
+=E4=BE=9D=E8=B5=96=E5=8F=82=E6=95=B0=EF=BC=9F\</p\>\</li\>
+
+\<li\>
+
+\<p\>=E8=AE=A9=E5=89=8D=E7=AB=AF=E8=AE=A1=E7=AE=97=E5=90=8E=E8=A6=81=E6=B1=82=
+
+=E7=94=A8=E6=88=B7=E9=87=8D=E6=96=B0=E6=8F=90=E4=BA=A4=EF=BC=9F\</p\>\</li\>
+
+\<li\>
+
+\<p\>=E5=85=81=E8=AE=B8=E4=B8=8D=E6=9B=B4=E6=96=B0=E5=B9=B6=E8=AE=A9=E8=AE=A2=
+
+=E5=8D=95=E8=BF=9B=E5=85=A5=E5=A4=B1=E6=95=88=E7=8A=B6=E6=80=81=EF=BC=9F\</p=
+
+\>\</li\>
+
+\</ul\>
+
+\<h1 id=3D"TP/SL=E6=A0=B8=E5=BF=83=E9=80=BB=E8=BE=91=E8=AF=B4=E6=98=8E=E6=96=
+
+=87=E6=A1=A3-=E4=BA=8C=E3=80=81=E7=BB=93=E8=AE=BA"\>\<strong\>=E4=BA=8C=E3=80=
+
+=81=E7=BB=93=E8=AE=BA\</strong\>\</h1\>
+
+\<h3 id=3D"TP/SL=E6=A0=B8=E5=BF=83=E9=80=BB=E8=BE=91=E8=AF=B4=E6=98=8E=E6=96=
+
+=87=E6=A1=A3-1.GMX=E8=AE=BE=E8=AE=A1=E5=93=B2=E5=AD=A6"\>\<strong\>1. GMX=E8=
+
+=AE=BE=E8=AE=A1=E5=93=B2=E5=AD=A6\</strong\>\</h3\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>=E7=94=A8=E6=88=B7=E5=AE=8C=E5=85=A8=E6=8E=A7=E5=88=B6=EF=BC=9A\<=
+
+/strong\>=E8=AE=A2=E5=8D=95=E5=8F=82=E6=95=B0=E7=94=B1=E7=94=A8=E6=88=B7=E5=
+
+=86=B3=E5=AE=9A=EF=BC=9B=E6=9B=B4=E6=96=B0=E8=B4=A3=E4=BB=BB=E5=9C=A8\<stron=
+
+g\>=E7=94=A8=E6=88=B7/=E5=89=8D=E7=AB=AF=EF=BC=9B\</strong\>=E5=90=88=E7=BA=A6=
+
+=E4=B8=8D=E4=BC=9A=E8=87=AA=E5=8A=A8=E8=B0=83=E6=95=B4=E4=BB=BB=E4=BD=95=E5=
+
+=8F=82=E6=95=B0=EF=BC=9B\<strong\>autoCancel =E6=98=AF=E5=8F=AF=E9=80=89=E7=
+
+=9A=84\</strong\>\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Keeper =E5=8F=AA=E6=89=A7=E8=A1=8C=EF=BC=8C=E4=B8=8D=E5=86=B3=E7=
+
+=AD=96=EF=BC=9A\</strong\>=E5=8F=AA=E6=A3=80=E6=9F=A5=E8=A7=A6=E5=8F=91=E6=9D=
+
+=A1=E4=BB=B6=EF=BC=8C=E4=B8=8D=E8=B4=9F=E8=B4=A3=E6=9B=B4=E6=96=B0=E8=AE=A2=
+
+=E5=8D=95=E5=8F=82=E6=95=B0=EF=BC=8C=E4=B8=8D=E8=B4=9F=E8=B4=A3=E6=B8=85=E7=
+
+=90=86=E6=AD=BB=E5=8D=95=EF=BC=88autoCancel=3Dfalse =E7=9A=84=E6=83=85=E5=
+
+=86=B5=EF=BC=89\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>=E5=90=88=E7=BA=A6=E6=89=A7=E8=A1=8C=E9=98=B6=E6=AE=B5=E6=A3=80=
+
+=E6=9F=A5=EF=BC=9APosition =E5=90=88=E7=90=86=E6=80=A7=E4=B8=8E=E8=AE=A2=E5=
+
+=8D=95=E5=90=88=E7=90=86=E6=80=A7=E4=B8=8D=E5=BC=BA=E8=80=A6=E5=90=88=EF=BC=
+
+=8C=E6=89=A7=E8=A1=8C=E9=98=B6=E6=AE=B5=E5=86=8D=E6=A3=80=E6=9F=A5=E3=80=82=
+
+\</strong\>\</p\>\</li\>
+
+\</ul\>
+
+\<h3 id=3D"TP/SL=E6=A0=B8=E5=BF=83=E9=80=BB=E8=BE=91=E8=AF=B4=E6=98=8E=E6=96=
+
+=87=E6=A1=A3-2.=E5=89=8D=E7=AB=AF=E5=AE=9E=E8=B7=B5"\>\<strong\>2. =E5=89=8D=
+
+=E7=AB=AF=E5=AE=9E=E8=B7=B5\</strong\>\</h3\>
+
+\<div class=3D"table-wrap"\>
+
+\<table data-layout=3D"default" data-local-id=3D"b8ee5741-dacd-4551-8eaf-cb1=
+
+31da518c2" class=3D"confluenceTable"\>
+
+\<colgroup\>
+
+\<col style=3D"width: 162.0px;"\>
+
+\<col style=3D"width: 344.0px;"\>
+
+\<col style=3D"width: 253.0px;"\>
+
+\</colgroup\>
+
+\<tbody\>
+
+\<tr\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>\<strong\>=E9=80=BB=E8=BE=91\</strong\>\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>\<strong\>=E5=89=8D=E7=AB=AF=E5=A4=84=E7=90=86=E6=96=B9=E5=BC=8F\</strong\>\<=
+
+/p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>\<strong\>Keeper=E5=A4=84=E7=90=86=E6=96=B9=E5=BC=8F\</strong\>\</p\>\</th\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E4=BB=93=E4=BD=8D=E5=8F=98=E5=8C=96\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=A3=80=E6=9F=A5=E6=89=80=E6=9C=89 TP/SL =E2=86=92 =E8=AE=A1=E7=AE=97=
+
+=E6=96=B0=E7=9A=84=E5=90=88=E7=90=86=E8=BE=B9=E7=95=8C =E2=86=92 =E6=8F=90=
+
+=E7=A4=BA=E7=94=A8=E6=88=B7=E6=9B=B4=E6=96=B0=E6=88=96=E8=87=AA=E5=8A=A8=E8=
+
+=B0=83=E7=94=A8 updateOrder()\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=8F=AA=E6=A3=80=E6=9F=A5=E8=A7=A6=E5=8F=91=E6=9D=A1=E4=BB=B6=EF=BC=8C=
+
+=E4=B8=8D=E8=B4=9F=E8=B4=A3=E6=9B=B4=E6=96=B0=E5=85=B3=E8=81=94=E8=AE=A2=E5=
+
+=8D=95=E5=8F=82=E6=95=B0=EF=BC=8C=E9=85=8D=E5=90=88=E5=90=88=E7=BA=A6=E6=AD=
+
+=BB=E5=8D=95=E6=B8=85=E7=90=86=EF=BC=88=E4=BB=85=E9=99=90=E5=87=8F=E4=BB=93=
+
+=E7=9A=84=E6=9D=A1=E4=BB=B6=E5=8D=95=EF=BC=89\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>SL price &lt; liq price\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=8F=90=E9=86=92=E7=94=A8=E6=88=B7=E8=AF=A5 SL =E5=8F=AF=E8=83=BD=E6=
+
+=97=A0=E6=B3=95=E7=94=9F=E6=95=88\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>autoCancel\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E9=BB=98=E8=AE=A4=E5=BC=80=E5=90=AF\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=9B=B4=E6=96=B0=E4=BD=93=E9=AA=8C\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E8=87=AA=E5=8A=A8=E8=AE=A1=E7=AE=97=E5=90=88=E7=90=86 TP/SL =E5=B9=B6=
+
+=E6=8F=90=E4=BE=9B=E4=B8=80=E9=94=AE=E6=9B=B4=E6=96=B0=E5=8A=9F=E8=83=BD\</p=
+
+\>
+
+\<p\>\<strong\>=E6=98=BE=E7=A4=BA=E8=AD=A6=E5=91=8A=EF=BC=9A\</strong\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>SL price &lt; liq price =E6=97=B6=E6=8F=90=E7=A4=BA=E9=A3=8E=E9=99=A9\</p=
+
+\>\</li\>
+
+\<li\>
+
+\<p\>=E8=AE=A2=E5=8D=95=E5=8F=82=E6=95=B0=E4=B8=8E=E4=BB=93=E4=BD=8D=E4=B8=8D=
+
+=E5=8C=B9=E9=85=8D=E6=97=B6=E6=8F=90=E7=A4=BA\</p\>\</li\>
+
+\</ol\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\</tbody\>
+
+\</table\>
+
+\</div\>
+
+\<h3 id=3D"TP/SL=E6=A0=B8=E5=BF=83=E9=80=BB=E8=BE=91=E8=AF=B4=E6=98=8E=E6=96=
+
+=87=E6=A1=A3-3.TP/SLPrice=E8=87=AA=E5=8A=A8=E6=9B=B4=E6=96=B0=E4=B8=8E=E8=
+
+=B4=A3=E4=BB=BB=E8=8C=83=E5=9B=B4"\>\<strong\>3. TP/SL Price =E8=87=AA=E5=8A=
+
+=A8=E6=9B=B4=E6=96=B0=E4=B8=8E=E8=B4=A3=E4=BB=BB=E8=8C=83=E5=9B=B4\</strong\>=
+
+\</h3\>
+
+\<p\>TP/SL =E8=AE=A2=E5=8D=95=E4=B8=BA \<strong\>=E5=AE=8C=E5=85=A8=E7=8B=AC=E7=
+
+=AB=8B=E7=9A=84=E9=93=BE=E4=B8=8A=E8=AE=A2=E5=8D=95\</strong\>=EF=BC=8C=E5=AD=
+
+=98=E5=82=A8=E5=9B=BA=E5=AE=9A=E7=9A=84 \<code\>triggerPrice\</code\>=EF=BC=8C=
+
+=E4=B8=8E Position =E4=BB=85=E9=80=9A=E8=BF=87 \`positionKey\` =E9=80=BB=E8=
+
+=BE=91=E5=85=B3=E8=81=94=E3=80=82=E5=BD=93 Position =E5=8F=82=E6=95=B0=E5=
+
+=8F=98=E5=8C=96=E6=97=B6=EF=BC=8C=E8=AE=A2=E5=8D=95=E7=9A=84 \`triggerPrice\`=
+
+\<strong\>=E4=BF=9D=E6=8C=81=E4=B8=8D=E5=8F=98=EF=BC=8C=E4=B8=8D=E8=87=AA=E5=
+
+=8A=A8=E6=9B=B4=E6=96=B0=EF=BC=8C=E6=97=A0=E9=A2=9D=E5=A4=96 gas =E6=B6=88=
+
+=E8=80=97\</strong\> =E3=80=82\</p\>
+
+\<blockquote\>
+
+\<p\>=E8=BF=99=E6=98=AF=E6=9C=89=E6=84=8F=E7=9A=84=E8=AE=BE=E8=AE=A1=EF=BC=8C=
+
+=E5=87=8F=E5=B0=91=E9=93=BE=E4=B8=8A=E8=AE=A1=E7=AE=97=E5=A4=8D=E6=9D=82=E5=
+
+=BA=A6\</p\>
+
+\</blockquote\>
+
+\<div class=3D"table-wrap"\>
+
+\<table data-layout=3D"default" data-local-id=3D"4ea9d620-a8c5-4c2a-ad8a-6f6=
+
+98d650880" class=3D"confluenceTable"\>
+
+\<colgroup\>
+
+\<col\>
+
+\<col style=3D"width: 106.0px;"\>
+
+\<col style=3D"width: 653.0px;"\>
+
+\</colgroup\>
+
+\<tbody\>
+
+\<tr\>
+
+\<th class=3D"numberingColumn confluenceTh"\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>\<strong\>=E8=A7=92=E8=89=B2\</strong\>\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>\<strong\>=E8=B4=A3=E4=BB=BB\</strong\>\</p\>\</th\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>1\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E7=94=A8=E6=88=B7/=E5=89=8D=E7=AB=AF\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E8=B4=9F=E8=B4=A3=E6=A3=80=E6=B5=8B=E4=BB=93=E4=BD=8D=E5=8F=98=E5=8C=96=
+
+=EF=BC=8C=E5=86=B3=E5=AE=9A=E6=98=AF=E5=90=A6=E6=9B=B4=E6=96=B0 TP/SL\</p\>\</=
+
+td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>2\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=90=88=E7=BA=A6\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=8F=90=E4=BE=9B \`updateOrder()\` =E6=8E=A5=E5=8F=A3=EF=BC=8C=E5=85=81=
+
+=E8=AE=B8=E4=BF=AE=E6=94=B9=E8=AE=A2=E5=8D=95=E5=8F=82=E6=95=B0\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>3\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Keeper\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E4=BB=85=E8=B4=9F=E8=B4=A3=E6=89=A7=E8=A1=8C=E8=AE=A2=E5=8D=95=EF=BC=8C=
+
+=E4=B8=8D=E8=B4=9F=E8=B4=A3=E6=9B=B4=E6=96=B0=E8=AE=A2=E5=8D=95=E5=8F=82=E6=
+
+=95=B0\</p\>\</td\>
+
+\</tr\>
+
+\</tbody\>
+
+\</table\>
+
+\</div\>
+
+\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
+
+\<div class=3D"codeContent panelContent pdl"\>
+
+\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>=E4=BB=
+
+=93=E4=BD=8D=E5=8F=98=E5=8C=96=EF=BC=88size/collateral/entry=EF=BC=89
+
+=E2=86=93
+
+=E5=89=8D=E7=AB=AF=E6=A3=80=E6=B5=8B TP/SL =E5=8F=82=E6=95=B0=E6=98=AF=E5=
+
+=90=A6=E8=BF=87=E6=9C=9F=E6=88=96=E9=9D=9E=E6=B3=95
+
+=E2=86=93
+
+=E8=AE=A1=E7=AE=97=E6=96=B0=E7=9A=84 TP/SL =E5=90=88=E7=90=86=E5=80=BC
+
+=E2=86=93
+
+=E6=8F=90=E7=A4=BA=E7=94=A8=E6=88=B7=E6=9B=B4=E6=96=B0=EF=BC=88=E6=88=96=E8=
+
+=87=AA=E5=8A=A8=E6=9B=B4=E6=96=B0?=E6=88=96=E5=AE=9E=E9=99=85=E4=B8=8D=E8=
+
+=B0=83=E7=94=A8=E5=90=88=E7=BA=A6=EF=BC=8C=E5=8F=AA=E6=98=AF=E5=B1=95=E7=A4=
+
+=BA=E5=B1=82=E9=9D=A2=E9=87=8D=E6=96=B0=E8=AE=A1=E7=AE=97=E5=B9=B6=E5=B1=95=
+
+=E7=A4=BA=EF=BC=89
+
+=E2=86=93
+
+=E8=B0=83 updateOrder()\</pre\>
+
+\</div\>
+
+\</div\>
+
+\<h3 id=3D"TP/SL=E6=A0=B8=E5=BF=83=E9=80=BB=E8=BE=91=E8=AF=B4=E6=98=8E=E6=96=
+
+=87=E6=A1=A3-4.Position=E5=AD=98=E5=9C=A8=E4=BD=86TP/SL=E5=8F=82=E6=95=B0=
+
+=E9=9D=9E=E6=B3=95=E6=97=B6=E7=9A=84=E8=A1=8C=E4=B8=BA"\>4. Position =E5=AD=
+
+=98=E5=9C=A8=E4=BD=86 TP/SL =E5=8F=82=E6=95=B0=E9=9D=9E=E6=B3=95=E6=97=B6=
+
+=E7=9A=84=E8=A1=8C=E4=B8=BA\</h3\>
+
+\<p\>=E5=A6=82=E4=BF=AE=E6=94=B9=E4=BF=9D=E8=AF=81=E9=87=91=E5=AF=BC=E8=87=B4=
+
+SL price &lt; liq price=EF=BC=9A\<strong\>=E8=AE=A2=E5=8D=95=E4=BF=9D=E7=95=
+
+=99=EF=BC=8C=E4=B8=8D=E5=88=A0=E9=99=A4=EF=BC=8C=E4=B8=8D=E8=87=AA=E5=8A=A8=
+
+=E8=B0=83=E6=95=B4=E3=80=82\</strong\>=E5=90=88=E7=BA=A6=E4=B8=8D=E4=BC=9A=E4=
+
+=B8=BB=E5=8A=A8=E9=AA=8C=E8=AF=81 TP/SL =E5=8F=82=E6=95=B0=E7=9A=84"=E5=90=
+
+=88=E6=B3=95=E6=80=A7"=E3=80=82=E8=AE=A2=E5=8D=95=E4=B8=8D=E4=BC=9A=E5=9B=
+
+=A0=E6=97=B6=E9=97=B4=E8=BF=87=E9=95=BF=E8=80=8C=E5=A4=B1=E6=95=88=E3=80=82=
+
+\</p\>
+
+\<div class=3D"table-wrap"\>
+
+\<table data-layout=3D"default" data-local-id=3D"57a710c6-a1e7-47e9-84b3-f2c=
+
+fabd5ae55" class=3D"confluenceTable"\>
+
+\<tbody\>
+
+\<tr\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>=E6=83=85=E5=86=B5\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>GMX =E8=A1=8C=E4=B8=BA\</p\>\</th\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>SL price =E5=B7=B2=E8=90=BD=E5=9C=A8=E6=B8=85=E7=AE=97=E4=BB=B7=E4=B9=8B=
+
+=E5=A4=96\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>=E4=B8=8D=E4=BC=9A=E4=B8=BB=E5=8A=A8=E8=B0=83=E6=95=B4=E6=88=96=
+
+=E5=88=A0=E9=99=A4 SL\</strong\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=8F=82=E6=95=B0=E4=B8=8D=E5=86=8D=E5=90=88=E7=90=86\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E4=BB=8D=E7=84=B6=E5=85=81=E8=AE=B8=E6=8C=82=E5=8D=95\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E8=A7=A6=E5=8F=91 SL =E6=97=B6 position =E5=8F=AF=E8=83=BD=E5=B7=B2=E7=
+
+=BB=8F=E4=B8=8D=E5=AD=98=E5=9C=A8\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=89=A7=E8=A1=8C revert=EF=BC=88=E6=AD=BB=E5=8D=95=EF=BC=89\</p\>\</td\>
+
+\</tr\>
+
+\</tbody\>
+
+\</table\>
+
+\</div\>
+
+\<p\>\<strong\>&lt;=E5=9C=BA=E6=99=AF=E7=A4=BA=E4=BE=8B&gt;\</strong\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>Position =E6=B8=85=E7=AE=97=E4=BB=B7=E6=9B=B4=E6=96=B0=E4=B8=BA \$1050\</p=
+
+\>\</li\>
+
+\<li\>
+
+\<p\>SL =E8=AE=BE=E7=BD=AE=E5=9C=A8 \$1000=EF=BC=88=E4=BD=8E=E4=BA=8E=E6=B8=85=
+
+=E7=AE=97=E4=BB=B7=EF=BC=89\</p\>\</li\>
+
+\<li\>
+
+\<p\>=E5=BD=93=E4=BB=B7=E6=A0=BC=E8=B7=8C=E8=87=B3 \$1050 =E2=86=92 Position =
+
+=E5=85=88=E8=A2=AB=E6=B8=85=E7=AE=97\</p\>\</li\>
+
+\<li\>
+
+\<p\>=E5=A6=82=E6=9E=9C \<strong\>autoCancel=3Dtrue \</strong\>=E2=86=92 \<strong\>=
+
+=E5=90=88=E7=BA=A6\</strong\>=E5=9C=A8=E6=B8=85=E7=AE=97/=E7=94=A8=E6=88=B7=
+
+=E5=87=8F=E4=BB=93=E6=97=B6\<strong\>=E8=87=AA=E5=8A=A8=E5=8F=96=E6=B6=88\</st=
+
+rong\> SL =E8=AE=A2=E5=8D=95=EF=BC=8Ckeeper=E4=B8=8D=E5=81=9A=E9=A2=9D=E5=A4=
+
+=96=E6=B8=85=E7=90=86\</p\>\</li\>
+
+\<li\>
+
+\<p\>=E5=A6=82=E6=9E=9C \<strong\>autoCancel=3Dfalse \</strong\>=E2=86=92 =E8=AE=
+
+=A2=E5=8D=95=E4=BB=8D=E6=8C=82=E7=9D=80=EF=BC=8C=E8=B7=8C=E8=87=B3 \$1000 =
+
+=E2=86=92 SL =E8=A2=AB=E8=A7=A6=E5=8F=91 =EF=BC=88=E8=BF=99=E9=87=8C=E6=AF=
+
+=94=E6=AD=BB=E5=8D=95=E5=85=9C=E5=BA=95\<strong\>=E8=80=97gas\</strong\> - \<str=
+
+ong\>=E5=A4=9A=E7=AC=94\</strong\>keeper=E5=B0=9D=E8=AF=95=E6=89=A7=E8=A1=8C=
+
+=E6=97=B6gas=EF=BC=8C=E4=BB=A5=E5=8F=8A\<strong\>=E5=8D=95=E7=AC=94\</strong\>=
+
+=E7=94=A8=E6=88=B7=E6=89=8B=E5=8A=A8=E5=8F=96=E6=B6=88=E8=AE=A2=E5=8D=95=E6=
+
+=97=B6=E7=9A=84gas=EF=BC=89\</p\>\</li\>
+
+\<li\>
+
+\<p\>Keeper =E6=89=A7=E8=A1=8C =E2=86=92 Position =E5=B7=B2=E4=B8=8D=E5=AD=98=
+
+=E5=9C=A8 =EF=BC=9ASL =E6=88=90=E4=B8=BA\<strong\>=E6=AD=BB=E5=8D=95\</strong\>=
+
+=EF=BC=8C=E6=89=A7=E8=A1=8C=E6=97=B6=E8=A2=AB=E5=90=88=E7=BA=A6revert=EF=BC=
+
+=8C=E9=95=BF=E6=9C=9F=E5=AD=98=E5=9C=A8\</p\>\</li\>
+
+\</ol\>
+
+\<h3 id=3D"TP/SL=E6=A0=B8=E5=BF=83=E9=80=BB=E8=BE=91=E8=AF=B4=E6=98=8E=E6=96=
+
+=87=E6=A1=A3-5.Keeper=E9=81=87=E5=88=B0=E9=9D=9E=E6=B3=95=E8=A7=A6=E5=8F=91=
+
+=E5=8F=82=E6=95=B0=E6=97=B6=E7=9A=84=E9=BB=98=E8=AE=A4=E8=A1=8C=E4=B8=BA"\>5=
+
+. Keeper =E9=81=87=E5=88=B0=E9=9D=9E=E6=B3=95=E8=A7=A6=E5=8F=91=E5=8F=82=E6=
+
+=95=B0=E6=97=B6=E7=9A=84=E9=BB=98=E8=AE=A4=E8=A1=8C=E4=B8=BA\</h3\>
+
+\<p\>GMX=E5=88=86=E4=B8=89=E7=B1=BB=EF=BC=9Arevert=EF=BC=8C=E5=8F=96=E6=B6=88=
+
+=E4=BB=A5=E5=8F=8A=E5=86=BB=E7=BB=93=E3=80=82keeper=E6=A0=B9=E6=8D=AE\<stron=
+
+g\>=E9=94=99=E8=AF=AF=E7=B1=BB=E5=9E=8B\</strong\>=E5=A4=84=E7=90=86=EF=BC=8C=
+
+=E4=B8=8D=E4=BC=9A=E8=87=AA=E5=8A=A8=E8=B0=83=E6=95=B4=E3=80=82=E5=85=B3=E9=
+
+=94=AE=E4=BB=A3=E7=A0=81=EF=BC=9A\<code\>OrderHandler.\_handleOrderError\</code=
+
+\>\</p\>
+
+\<div class=3D"table-wrap"\>
+
+\<table data-layout=3D"default" data-local-id=3D"75eeabd8-1507-4f2d-bc14-69b=
+
+d79847946" class=3D"confluenceTable"\>
+
+\<tbody\>
+
+\<tr\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>=E9=94=99=E8=AF=AF=E7=B1=BB=E5=9E=8B\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>=E5=A4=84=E7=90=86=E6=96=B9=E5=BC=8F\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>=E8=AE=A2=E5=8D=95=E7=8A=B6=E6=80=81\</p\>\</th\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<code\>InvalidOrderPrices\</code\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>revert\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E7=BB=A7=E7=BB=AD=E6=8C=82=E7=9D=80=EF=BC=8C=E7=AD=89=E5=BE=85=E8=A7=A6=
+
+=E5=8F=91=E6=9D=A1=E4=BB=B6=E6=BB=A1=E8=B6=B3\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<code\>EmptyPosition\</code\> (=E9=9D=9E=E5=B8=82=E4=BB=B7=E5=8D=95)\</p\>\</t=
+
+d\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>revert\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E7=BB=A7=E7=BB=AD=E6=8C=82=E7=9D=80=EF=BC=8C=E6=88=90=E4=B8=BA=E6=AD=BB=
+
+=E5=8D=95\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<code\>OrderValidFromTimeNotReached\</code\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>revert\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E7=BB=A7=E7=BB=AD=E6=8C=82=E7=9D=80=EF=BC=8C=E7=AD=89=E5=BE=85=E7=94=9F=
+
+=E6=95=88=E6=97=B6=E9=97=B4\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<code\>InvalidPositionMarket\</code\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>cancel\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E8=AE=A2=E5=8D=95=E5=8F=96=E6=B6=88=EF=BC=8C=E9=80=80=E8=BF=98=E8=B5=84=
+
+=E9=87=91\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<code\>InvalidCollateralTokenForMarket\</code\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>cancel\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E8=AE=A2=E5=8D=95=E5=8F=96=E6=B6=88=EF=BC=8C=E9=80=80=E8=BF=98=E8=B5=84=
+
+=E9=87=91\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<code\>InvalidPositionSizeValues\</code\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>cancel\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E8=AE=A2=E5=8D=95=E5=8F=96=E6=B6=88=EF=BC=8C=E9=80=80=E8=BF=98=E8=B5=84=
+
+=E9=87=91\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=B8=82=E4=BB=B7=E5=8D=95=E6=89=A7=E8=A1=8C=E5=A4=B1=E8=B4=A5\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>cancel\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E8=AE=A2=E5=8D=95=E5=8F=96=E6=B6=88=EF=BC=8C=E9=80=80=E8=BF=98=E8=B5=84=
+
+=E9=87=91\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=85=B6=E4=BB=96=E9=94=99=E8=AF=AF\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>freeze\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E8=AE=A2=E5=8D=95=E5=86=BB=E7=BB=93=EF=BC=8C=E9=9C=80=E8=A6=81 FROZEN_O=
+
+RDER_KEEPER\</p\>\</td\>
+
+\</tr\>
+
+\</tbody\>
+
+\</table\>
+
+\</div\>
+
+\<h1 id=3D"TP/SL=E6=A0=B8=E5=BF=83=E9=80=BB=E8=BE=91=E8=AF=B4=E6=98=8E=E6=96=
+
+=87=E6=A1=A3-=E4=B8=89=E3=80=81=E8=AE=A2=E5=8D=95=E5=86=B2=E7=AA=81=E7=8A=
+
+=B6=E6=80=81=E8=A1=A8"\>\<strong\>=E4=B8=89=E3=80=81=E8=AE=A2=E5=8D=95=E5=86=
+
+=B2=E7=AA=81=E7=8A=B6=E6=80=81=E8=A1=A8\</strong\>\</h1\>
+
+\<div class=3D"table-wrap"\>
+
+\<table data-layout=3D"default" data-local-id=3D"fe1f7c58-6d6d-4860-8cfe-3cd=
+
+f0771cf50" class=3D"confluenceTable"\>
+
+\<colgroup\>
+
+\<col\>
+
+\</colgroup\>
+
+\<tbody\>
+
+\<tr\>
+
+\<th class=3D"numberingColumn confluenceTh"\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>\<strong\>=E5=9C=BA=E6=99=AF\</strong\>\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>\<strong\>=E8=A7=A6=E5=8F=91=E6=9D=A1=E4=BB=B6=EF=BC=88=E5=89=8D=E7=AB=AF=
+
+=E5=AE=9E=E6=97=B6=E6=A0=A1=E9=AA=8C=EF=BC=89\</strong\>\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>\<strong\>=E5=89=8D=E7=AB=AF=E8=A1=8C=E4=B8=BA=EF=BC=88UI=EF=BC=89\</strong=
+
+\>\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>\<strong\>=E9=93=BE=E4=B8=8A=E6=89=A7=E8=A1=8C=E9=98=B6=E6=AE=B5=EF=BC=88K=
+
+eeper=EF=BC=89\</strong\>\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>\<strong\>QA=E8=A6=81=E7=82=B9\</strong\>\</p\>\</th\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>1\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>TP =E4=BB=B7=E6=A0=BC=E5=8A=A3=E4=BA=8E Mark Price\</strong\>\</p\>\<=
+
+/td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>TP Price =E2=89=A4 Mark Price=EF=BC=88=E5=A4=9A=EF=BC=89=E2=95=B1 TP Pri=
+
+ce =E2=89=A5 Mark Price=EF=BC=88=E7=A9=BA=EF=BC=89\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E8=BE=93=E5=85=A5=E6=A1=86=E7=BA=A2=E6=A1=86 + Tooltip=EF=BC=9A=E2=80=
+
+=9DTP =E4=BB=B7=E6=A0=BC=E5=BF=85=E9=A1=BB=E4=BC=98=E4=BA=8E=E5=B8=82=E4=BB=
+
+=B7=E2=80=9C\</p\>
+
+\<p\>=E7=A6=81=E6=AD=A2=E6=8F=90=E4=BA=A4\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Keeper =E4=B8=8D=E4=BC=9A=E6=94=B6=E5=88=B0=E8=AE=A2=E5=8D=95\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>2\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>SL=E4=BB=B7=E6=A0=BC=E4=BC=98=E4=BA=8E Mark Price\</strong\>\</p\>\</=
+
+td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>SL Price =E2=89=A5 Mark Price=EF=BC=88=E5=A4=9A=EF=BC=89=E2=95=B1 SL Pri=
+
+ce =E2=89=A4 Mark Price=EF=BC=88=E7=A9=BA=EF=BC=89\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E8=BE=93=E5=85=A5=E6=A1=86=E7=BA=A2=E6=A1=86 + Tooltip=EF=BC=9A=E2=80=
+
+=9DSL =E5=BF=85=E9=A1=BB=E5=8A=A3=E4=BA=8E=E5=B8=82=E4=BB=B7=E2=80=9C\</p\>
+
+\<p\>=E7=A6=81=E6=AD=A2=E6=8F=90=E4=BA=A4\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=90=8C=E4=B8=8A\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>3\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>SL=E4=BB=B7=E6=A0=BC=E5=8A=A3=E4=BA=8E Liq Price\</strong\>\</p\>
+
+\<p\>\<strong\>\<span data-colorid=3D"jltott2k8x"\>=E4=BB=85=E7=94=A8=E4=BA=8E=E7=
+
+=BB=91=E5=AE=9A=E4=BA=86position id=E7=9A=84active TP/SL=EF=BC=8C=E9=99=90=
+
+=E4=BB=B7=E5=8D=95=E7=9A=84TP/SL=E6=B2=A1=E6=9C=89=E6=AD=A4=E9=99=90=E5=88=
+
+=B6\</span\>\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>SL Price =E2=89=A4 Liq Price=EF=BC=88=E5=A4=9A=EF=BC=89=E2=95=B1\</p\>
+
+\<p\>SL Price =E2=89=A5 Liq Price=EF=BC=88=E7=A9=BA=EF=BC=89\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E8=BE=93=E5=85=A5=E6=A1=86=E7=BA=A2=E6=A1=86 + Tooltip=EF=BC=9A=E2=80=
+
+=9DSL =E5=BF=85=E9=A1=BB=E4=BC=98=E4=BA=8E=E5=BC=BA=E5=B9=B3=E4=BB=B7=E2=80=
+
+=9C\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>4\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>TP =E4=BB=B7=E6=A0=BC=E4=BC=98=E4=BA=8ETP Price Cap\</strong\>\</p\>=
+
+\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>TP Price &gt; MaxTP=EF=BC=88=E5=A4=9A=EF=BC=89=E2=95=B1 TP Price &lt; Mi=
+
+nTP=EF=BC=88=E7=A9=BA=EF=BC=89\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Tooltip=EF=BC=9A\<strong\>=E2=80=9CAbove Max TP Price / Below Min TP Price=
+
+=E2=80=9D\</strong\>\</p\>
+
+\<p\>=E7=A6=81=E6=AD=A2=E6=8F=90=E4=BA=A4\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=97=A0=E8=AE=A2=E5=8D=95=E8=BF=9B=E5=85=A5=E9=93=BE=E4=B8=8A\</p\>
+
+\<p\>=E8=8B=A5=E6=8F=90=E4=BA=A4=E5=88=B0=E9=93=BE=E4=B8=8A=EF=BC=8CKeeper =
+
+=E6=89=A7=E8=A1=8C=E6=97=B6=E5=8F=96=E6=B6=88=E8=AF=A5 SL\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>5\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>SL =E4=BB=B7=E6=A0=BC=E8=B6=85=E5=87=BA SL Price Cap\</strong\>\</p=
+
+\>
+
+\<p\>\<strong\>\<span data-colorid=3D"emi6h2ft0o"\>=E4=BB=85=E7=94=A8=E4=BA=8E=E6=
+
+=AD=A2=E6=8D=9F=E5=8D=95\</span\>\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Trigger Price &lt; MinSL=EF=BC=88=E5=A4=9A=EF=BC=89=E2=95=B1 Trigger Pri=
+
+ce &gt; MaxSL=EF=BC=88=E7=A9=BA=EF=BC=89\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Tooltip=EF=BC=9A=E2=80=9DBelow Min SL Price / Above Max SL Price=E2=80=
+
+=9C\</p\>
+
+\<p\>=E7=A6=81=E6=AD=A2=E6=8F=90=E4=BA=A4\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=97=A0=E8=AE=A2=E5=8D=95=E8=BF=9B=E5=85=A5=E9=93=BE=E4=B8=8A\</p\>
+
+\<p\>=E8=8B=A5=E6=8F=90=E4=BA=A4=E5=88=B0=E9=93=BE=E4=B8=8A=EF=BC=8CKeeper =
+
+=E6=89=A7=E8=A1=8C=E6=97=B6=E5=8F=96=E6=B6=88=E8=AF=A5 SL\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>6\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>PnL% =E2=89=A5 2500%\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>PnL% =E2=89=A5 \<strong\>2500%\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>History=E4=B8=AD=E7=9A=84type =3D \<strong\>take profit\</strong\> =E8=80=8C=
+
+=E9=9D=9Eliquidated\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>=E6=8E=A5=E7=AE=A1=E5=B9=B3=E4=BB=93\</strong\>=E5=B9=B6=E6=B8=85=
+
+=E7=90=86=E6=89=80=E6=9C=89=E7=BB=91=E5=AE=9A TP/SL\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=A4=A7=E9=98=B3=E7=BA=BF=E6=9E=81=E7=AB=AF=E4=B8=8A=E6=B6=A8=E6=B5=8B=
+
+=E8=AF=95=EF=BC=9Akeeper=E6=98=AF=E5=90=A6=E6=AD=A3=E5=B8=B8=E8=A7=A6=E5=8F=
+
+=91\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>7\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>PnL% =E2=89=A4 -80%\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>PnL% =E2=89=A4 \<strong\>-80%\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>History=E4=B8=AD=E7=9A=84type =3D \<strong\>Stop Loss\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=8C=89SL=E4=BB=B7=E6=A0=BC=E8=BE=B9=E7=95=8C=E5=B9=B3=E4=BB=93=E5=B9=
+
+=B6=E6=B8=85=E7=90=86=E6=89=80=E6=9C=89=E7=BB=91=E5=AE=9A TP/SL\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=89=8B=E5=B7=A5=E7=BB=95=E5=89=8D=E7=AB=AF=E6=8F=90=E5=8D=95=E6=B5=8B=
+
+=E8=AF=95\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>8\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>=E5=8A=A0=E5=87=8F=E4=BB=93=E5=AF=BC=E8=87=B4=E5=8F=82=E6=95=B0=
+
+=E5=86=B2=E7=AA=81 \</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E7=94=A8=E6=88=B7=E5=8A=A0=E4=BB=93 =E2=86=92 =E6=96=B0 entry =E4=BD=BF=
+
+TP =E8=B6=85=E8=BF=87 MaxTP\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>UI =E6=A0=87=E9=BB=84=E6=8F=90=E7=A4=BA =E2=80=9C=E6=AD=A2=E7=9B=88=E5=
+
+=B7=B2=E5=A4=B1=E6=95=88=EF=BC=8C=E8=AF=B7=E6=9B=B4=E6=96=B0=E2=80=9D\</p\>\</=
+
+td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=A0=87=E8=AE=B0 STALE=EF=BC=8C=E4=BF=9D=E7=95=99=E4=BD=86=E4=B8=8D=E6=
+
+=89=A7=E8=A1=8C\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=A8=A1=E7=B3=8A=E6=B5=8B=E8=AF=95\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>9\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>=E4=BF=AE=E6=94=B9=E4=BF=9D=E8=AF=81=E9=87=91=E5=AF=BC=E8=87=B4=
+
+=E5=8F=82=E6=95=B0=E5=86=B2=E7=AA=81 \</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=87=8F=E5=B0=91=E4=BF=9D=E8=AF=81=E9=87=91 =E2=86=92 SL =E4=BD=8E=E4=
+
+=BA=8E=E6=96=B0=E7=9A=84=E6=9C=80=E4=BD=8E SL =E4=BB=B7=E6=A0=BC\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=BC=B9=E7=AA=97=E6=8F=90=E7=A4=BA=EF=BC=9A=E2=80=9C=E9=99=8D=E4=BD=8E=
+
+=E4=BF=9D=E8=AF=81=E9=87=91=E4=BC=9A=E5=AF=BC=E8=87=B4=E6=AD=A2=E6=8D=9F=E5=
+
+=A4=B1=E6=95=88=E2=80=9D\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Keeper =E5=9C=A8=E6=89=A7=E8=A1=8C=E6=97=B6 cancel\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E4=BF=AE=E6=94=B9=E4=BF=9D=E8=AF=81=E9=87=91=E5=90=8E SL =E5=A4=B1=E6=
+
+=95=88=E6=83=85=E5=86=B5\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>10\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>=E4=BF=AE=E6=94=B9=E9=99=90=E4=BB=B7=E5=AF=BC=E8=87=B4=E5=8F=82=
+
+=E6=95=B0=E5=86=B2=E7=AA=81 \</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E4=BF=AE=E6=94=B9=E9=99=90=E4=BB=B7=E5=AF=BC=E8=87=B4 entry =E6=94=B9=
+
+=E5=8F=98 =E2=86=92 TP/SL =E5=8F=98=E4=B8=BA=E9=9D=9E=E6=B3=95\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E9=AB=98=E4=BA=AE=E6=89=80=E6=9C=89=E5=8F=97=E5=BD=B1=E5=93=8D=E7=9A=84=
+
+TP/SL=EF=BC=8C=E8=AE=A9=E7=94=A8=E6=88=B7=E6=9B=B4=E6=96=B0\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=A0=87=E8=AE=B0 STALE=EF=BC=8C=E4=BF=9D=E7=95=99=E4=BD=86=E4=B8=8D=E6=
+
+=89=A7=E8=A1=8C\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E9=99=90=E4=BB=B7=E5=8D=95=E6=9B=B4=E6=96=B0=E8=81=94=E5=8A=A8=E9=80=BB=
+
+=E8=BE=91\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>11\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>=E5=A4=9A=E4=BA=8B=E4=BB=B6=E5=86=B2=E7=AA=81\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=A4=9A=E6=AC=A1=E5=BF=AB=E9=80=9F=E4=BF=AE=E6=94=B9 size / collateral=
+
+/ limit price =E4=BD=BF=E8=AE=A2=E5=8D=95=E5=8F=8D=E5=A4=8D=E5=A4=B1=E6=95=
+
+=88\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Keeper =E6=8C=89=E6=9C=80=E6=96=B0=E7=8A=B6=E6=80=81=E4=B8=BA=E5=87=86=
+
+=EF=BC=8C=E6=97=A7=E7=8A=B6=E6=80=81=E8=AE=A2=E5=8D=95=E5=8F=98 stale\</p\>
+
+\<p\>=E8=8B=A5=E4=BB=93=E4=BD=8D=E4=BB=85=E5=89=A9=E9=83=A8=E5=88=86Size &lt;=
+
+tpsl size=EF=BC=8C\<strong\>\<span data-colorid=3D"nd4c5alm39"\>=E5=BA=94=E7=
+
+=94=A8=E4=BA=8E=E5=89=A9=E4=BD=99size=E8=BF=98=E6=98=AFrevert=EF=BC=9F\</spa=
+
+n\>\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=B9=B6=E5=8F=91=E6=B5=8B=E8=AF=95\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>12\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>=E8=A7=A6=E5=8F=91=E5=86=B2=E7=AA=81\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E9=97=AA=E5=B4=A9/=E7=9E=AC=E6=8B=89=E5=AF=BC=E8=87=B4=E4=BB=B7=E6=A0=
+
+=BC=E7=9E=AC=E9=97=B4=E8=B7=A8=E8=B6=8A TP =E5=92=8C SL =E5=8C=BA=E9=97=B4\<=
+
+/p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=90=8C=E4=B8=80 tick =E5=91=BD=E4=B8=AD 2 =E6=9D=A1=E4=BB=B6=E6=97=B6=
+
+=EF=BC=8C=E4=BB=A5SL=E4=B8=BA=E4=BC=98=E5=85=88=E6=89=A7=E8=A1=8C=EF=BC=8C=
+
+=E5=90=8C=E6=97=B6=E5=8F=96=E6=B6=88TP\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>\<span data-colorid=3D"j6wsval9sf"\>=EF=BC=88=E4=BC=9A=E6=9C=89=E8=
+
+=BF=99=E7=A7=8D=E6=83=85=E5=86=B5=E4=B9=88=EF=BC=9F=EF=BC=89\</span\>\</strong=
+
+\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>13\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Position =E8=A2=AB=E5=B9=B3=E6=8E=89\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Position size =E5=8F=98=E4=B8=BA 0\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=97=A0=E5=89=8D=E7=AB=AF=E5=8A=A8=E4=BD=9C\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=90=88=E7=BA=A6=E8=B4=9F=E8=B4=A3TP/SL =E8=87=AA=E5=8A=A8=E6=B8=85=E7=
+
+=90=86\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=89=8B=E5=8A=A8=E5=B9=B3=E4=BB=93=E5=90=8E=E6=A3=80=E6=9F=A5=E7=9B=B8=
+
+=E5=85=B3=E8=AE=A2=E5=8D=95=E6=B8=85=E7=90=86\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"numberingColumn confluenceTd"\>14\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Keeper =E8=A7=A6=E5=8F=91=E4=BB=B7=E6=A0=BC=E5=B7=B2=E8=BE=BE=E4=
+
+=BD=86=E8=AE=A2=E5=8D=95=E5=8F=82=E6=95=B0=E4=B8=8D=E5=90=88=E6=B3=95\</stro=
+
+ng\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>InvalidOrderPrices / =E9=99=90=E4=BB=B7=E5=8D=95EmptyPosition\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=97=A0 UI\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Keeper revert=EF=BC=88=E4=B8=8D cancel=EF=BC=89=EF=BC=8C=E8=AE=A2=E5=8D=
+
+=95=E7=BB=A7=E7=BB=AD=E6=8C=82=E7=9D=80\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=97=A0\</p\>\</td\>
+
+\</tr\>
+
+\</tbody\>
+
+\</table\>
+
+\</div\>
+
+\<div class=3D"table-wrap"\>
+
+\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"68=
+
+e9c61b-7bd3-4764-a043-9c2dc76cb709" class=3D"confluenceTable"\>
+
+\<colgroup\>
+
+\<col style=3D"width: 77.0px;"\>
+
+\<col style=3D"width: 199.0px;"\>
+
+\<col style=3D"width: 182.0px;"\>
+
+\<col style=3D"width: 151.0px;"\>
+
+\<col style=3D"width: 151.0px;"\>
+
+\</colgroup\>
+
+\<tbody\>
+
+\<tr\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>=E5=9C=BA=E6=99=AF=E7=BC=96=E5=8F=B7\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>=E5=9C=BA=E6=99=AF=E6=8F=8F=E8=BF=B0\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>=E7=B3=BB=E7=BB=9F=E8=A1=8C=E4=B8=BA\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>TP/SL =E6=9B=B4=E6=96=B0=E9=80=BB=E8=BE=91\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>=E4=BB=93=E4=BD=8D=E5=90=88=E5=B9=B6=E9=80=BB=E8=BE=91\</p\>\</th\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>A\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Market \| TP/SL\</p\>
+
+\<p\>=E5=81=87=E5=AE=9APosition Id =3D M\<sub\>A\</sub\>=EF=BC=9BTrigger Order Id=
+
+=3D TP/SL\<sub\>A\</sub\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>A1\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>A + Market \| TP/SL\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=90=88=E5=B9=B6=E4=BB=93=E4=BD=8D=EF=BC=88size=E3=80=81collateral=E3=
+
+=80=81entryPrice=EF=BC=89=E9=87=8D=E7=AE=97\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>TP/SL\<sub\>A\</sub\> =E5=85=A8=E9=87=8F=E5=88=A0=E9=99=A4=EF=BC=9B=E6=8F=90=
+
+=E4=BA=A4=E7=9A=84=E6=96=B0 TP/SL =E4=BD=9C=E4=B8=BA=E2=80=9C=E5=90=88=E5=
+
+=B9=B6=E5=90=8E=E4=BB=93=E4=BD=8D=E2=80=9D=E7=9A=84 TP/SL=EF=BC=88=E4=BB=B7=
+
+=E6=A0=BC=E9=9C=80=E9=87=8D=E6=96=B0=E6=8C=89=E6=96=B0 Entry Price =E6=A0=
+
+=A1=E9=AA=8C=EF=BC=89\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Entry Price =3D =E5=8A=A0=E6=9D=83=E5=B9=B3=E5=9D=87=EF=BC=9BFees =E7=94=
+
+=A8=E5=90=88=E5=B9=B6=E5=90=8E=E6=95=B0=E5=80=BC=E9=87=8D=E6=96=B0=E5=8F=82=
+
+=E4=B8=8E TP/SL =E5=85=AC=E5=BC=8F\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>A2\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>A + Limit \| TP/SL\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E4=BB=85=E7=94=9F=E6=95=88L\<sub\>A2\</sub\>; TP/SL\<sub\>A2\</sub\> =E5=A4=84=
+
+=E4=BA=8E inactive\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>inactive=EF=BC=88=E4=B8=8D=E7=94=9F=E6=95=88=E3=80=81=E4=BD=86=E4=BF=9D=
+
+=E5=AD=98=EF=BC=89\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E4=BB=93=E4=BD=8D=E4=B8=8D=E5=8F=98\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>A3\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>L\<sub\>A2\</sub\>=E6=88=90=E4=BA=A4=EF=BC=88=E9=99=90=E4=BB=B7=E5=8D=95=EF=
+
+=BC=89\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=90=88=E5=B9=B6=E4=BB=93=E4=BD=8D=EF=BC=9B=E6=BF=80=E6=B4=BB TP/SL=EF=
+
+=BC=9B=E6=8C=89=E5=90=88=E5=B9=B6=E5=90=8E Entry Price =E9=87=8D=E6=96=B0=
+
+=E9=AA=8C=E8=AF=81 TP/SL =E5=90=88=E8=A7=84=E6=80=A7=E3=80=82\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E8=8B=A5=E5=90=88=E8=A7=84=E2=86=92=E6=BF=80=E6=B4=BB=EF=BC=9B=E4=B8=8D=
+
+=E5=90=88=E8=A7=84=E2=86=92=E5=8F=96=E6=B6=88=EF=BC=88=E6=8F=90=E7=A4=BA=EF=
+
+=BC=9A=E8=B6=85=E5=87=BA TP/SL =E5=90=88=E8=A7=84=E4=BB=B7=E6=A0=BC=E5=8C=
+
+=BA=E9=97=B4=EF=BC=89\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Entry Price =E6=8C=89=E6=88=90=E4=BA=A4=E4=BB=B7=E4=B8=8E=E5=8E=9F=E4=BB=
+
+=93=E4=BD=8D=E5=8A=A0=E6=9D=83=EF=BC=9BFees =E5=8F=96=E6=9C=80=E6=96=B0=EF=
+
+=BC=8C=E9=87=8D=E6=96=B0=E6=A0=A1=E9=AA=8C TP/SL\<sub\>A2\</sub\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>A5\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>A2 =E7=9A=84=E9=99=90=E4=BB=B7=E5=8D=95=E6=9C=80=E7=BB=88=E6=9C=AA=E6=88=
+
+=90=E4=BA=A4=E8=80=8C=E8=A2=AB=E5=8F=96=E6=B6=88\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=88=A0=E9=99=A4=E9=99=90=E4=BB=B7=E5=8D=95=EF=BC=8C=E5=B9=B6=E5=88=A0=
+
+=E9=99=A4 inactive TP/SL\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=85=A8=E9=87=8F=E5=8F=96=E6=B6=88\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=97=A0=E5=8F=98=E5=8C=96\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>B\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Limit L\<sub\>B\</sub\>=EF=BC=9APosition Size =3D 0=EF=BC=8C=E6=97=A0TP/SL\</=
+
+p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>B1\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>B + Limit \| TP/SL\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E4=B8=A4=E4=B8=AA=E9=99=90=E4=BB=B7=E5=8D=95=E9=83=BD=E5=AD=98=E5=9C=A8=
+
+=EF=BC=9B=E7=AC=AC=E4=BA=8C=E5=8D=95=E7=9A=84 TP/SL inactive\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>inactive=EF=BC=8C=E5=9F=BA=E4=BA=8EL\<sub\>B1\</sub\>=E7=9A=84 size =E5=92=
+
+=8C limit price=E6=88=90=E4=BA=A4\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=A4=9A=E4=B8=AA=E6=8C=82=E5=8D=95=E4=BA=92=E4=B8=8D=E5=BD=B1=E5=93=8D=
+
+\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>B2\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>L\<sub\>B1\</sub\>=E6=88=90=E4=BA=A4\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=88=90=E4=BA=A4=E5=88=9B=E5=BB=BA=E4=BB=93=E4=BD=8D=EF=BC=9BTP/SL =E6=
+
+=BF=80=E6=B4=BB\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>active\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Entry Price =3D limit price\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>B3\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>L\<sub\>B\</sub\>=E6=8E=A5=E7=9D=80=E6=88=90=E4=BA=A4\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=90=88=E5=B9=B6=E4=BB=93=E4=BD=8D=EF=BC=8CEntry Price =E9=87=8D=E7=AE=
+
+=97\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E4=BF=9D=E7=95=99=E5=B7=B2=E6=9C=89 TP/SL=EF=BC=8C=E4=BD=86=E9=9C=80=E5=
+
+=AF=B9 TP/SL =E8=A7=A6=E5=8F=91=E4=BB=B7=E6=A0=BC=E9=87=8D=E6=96=B0=E6=A0=
+
+=A1=E9=AA=8C=EF=BC=9B=E4=B8=8D=E5=90=88=E8=A7=84=E5=88=99=E5=8F=96=E6=B6=88=
+
+\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E8=8B=A5 TP/SL =E6=97=A0=E6=B3=95=E8=A6=86=E7=9B=96=E6=96=B0=E7=9A=84=
+
+=E4=BB=93=E4=BD=8D=E5=A4=A7=E5=B0=8F=EF=BC=8C=E6=8C=89=E6=95=B4=E4=BD=93=E4=
+
+=BB=93=E4=BD=8D=E4=BD=BF=E7=94=A8=E7=9B=B8=E5=90=8C=E8=A7=A6=E5=8F=91=E4=BB=
+
+=B7=E6=A0=BC\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>C\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Limit L\<sub\>C\</sub\>=EF=BC=9APosition Size =3D 0=EF=BC=8C=E5=B7=B2=E6=9C=
+
+=89TP/SL\<sub\>C\</sub\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>C1\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>L\<sub\>C\</sub\>=E5=85=A8=E9=83=A8=E6=88=90=E4=BA=A4\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E4=BB=93=E4=BD=8D=E5=AE=8C=E6=95=B4=E5=88=9B=E5=BB=BA\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>active\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Entry Price =3D =E5=8A=A0=E6=9D=83\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>C2\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>L\<sub\>C\</sub\>=E5=8F=96=E6=B6=88\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=AF=B9=E5=BA=94TP/SL =E4=BB=8D=E4=BF=9D=E7=95=99\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>E\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=A4=8D=E6=9D=82=E5=86=B2=E7=AA=81=EF=BC=9A=E5=B7=B2=E6=9C=89=E4=BB=93=
+
+=E4=BD=8D M\<sub\>E\</sub\> +=E4=BB=93=E4=BD=8D=E5=B8=A6=E6=AD=A2=E7=9B=88=E6=
+
+=AD=A2=E6=8D=9FTP/SL\<sub\>ME\</sub\>+ =E9=99=90=E4=BB=B7=E5=8D=95L\<sub\>E\</sub\>=
+
+\+ =E9=99=90=E4=BB=B7=E5=8D=95=E5=B8=A6=E6=AD=A2=E7=9B=88=E6=AD=A2=E6=8D=9F=
+
+TP/SL\<sub\>LE\</sub\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>E1\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E9=99=90=E4=BB=B7=E5=8D=95=E6=9C=AA=E6=88=90=E4=BA=A4\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E4=B8=A4=E5=A5=97 TP/SL =E5=B9=B6=E5=AD=98=EF=BC=9A=E4=B8=80=E5=A5=97 a=
+
+ctive=EF=BC=8C=E4=B8=80=E5=A5=97 inactive=E3=80=82=E4=BB=85=E5=B7=B2=E6=9C=
+
+=89=E4=BB=93=E4=BD=8D=E7=9A=84 TP/SL =E7=94=9F=E6=95=88\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>active: existing; inactive: new\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>E2\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E9=99=90=E4=BB=B7=E5=8D=95=E6=88=90=E4=BA=A4=E5=90=8E=EF=BC=8C=E4=BB=93=
+
+=E4=BD=8D=E5=90=88=E5=B9=B6\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E4=B8=A4=E5=A5=97 TP/SL =E5=86=B2=E7=AA=81=EF=BC=8C=E9=9C=80=E8=A6=81=
+
+=E5=90=88=E5=B9=B6\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=97=A7 TP/SL =E5=88=A0=E9=99=A4=EF=BC=9B=E6=96=B0=E7=9A=84 TP/SL =E9=
+
+=87=8D=E7=AE=97=E5=90=8E=E6=BF=80=E6=B4=BB\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=90=88=E5=B9=B6=E4=BB=93=E4=BD=8D=E5=90=8E TP/SL =E5=BF=85=E9=A1=BB=
+
+=E5=9F=BA=E4=BA=8E=E6=9C=80=E6=96=B0 Entry Price =E6=A0=A1=E9=AA=8C\</p\>\</td=
+
+\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>E3\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E9=99=90=E4=BB=B7=E5=8D=95=E9=83=A8=E5=88=86=E6=88=90=E4=BA=A4\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E4=BB=93=E4=BD=8D=E5=90=88=E5=B9=B6=E9=83=A8=E5=88=86\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>inactive\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E7=AD=89=E5=BE=85=E5=85=A8=E9=83=A8=E6=88=90=E4=BA=A4=E6=89=8D=E6=BF=80=
+
+=E6=B4=BB\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>E4\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E9=99=90=E4=BB=B7=E5=8D=95=E5=8F=96=E6=B6=88\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>cancel=EF=BC=8Cinactive TP/SL =E7=A7=BB=E9=99=A4\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>inactive TP/SL =E7=A7=BB=E9=99=A4=EF=BC=8C=E5=8E=9F=E6=9C=89active=E4=BF=
+
+=9D=E7=95=99\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>E5\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E9=99=90=E4=BB=B7=E5=8D=95=E6=88=90=E4=BA=A4=E6=97=B6=EF=BC=8C=E4=BB=93=
+
+=E4=BD=8D=E5=B7=B2=E8=A2=AB=E5=AF=B9=E4=BE=A7 SL/TP =E5=B9=B3=E6=8E=89\</p\>\<=
+
+/td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>inactive TP/SL =E5=88=A0=E9=99=A4\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\</p\>\</td\>
+
+\</tr\>
+
+\</tbody\>
+
+\</table\>
+
+\</div\>
+
+\<p\>=E5=90=84=E7=A7=8D=E6=8C=81=E4=BB=93=E7=BB=84=E5=90=88=E8=AE=A1=E7=AE=97=
+
+\</p\>
+
+\<div class=3D"table-wrap"\>
+
+\<table data-layout=3D"default" data-local-id=3D"dba924f7-3ed2-41b8-b9bb-2d6=
+
+b72d4e455" class=3D"confluenceTable"\>
+
+\<tbody\>
+
+\<tr\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>\<strong\>=E5=9C=BA=E6=99=AF\</strong\>\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>Entry Price =E7=94=A8=E5=93=AA=E4=B8=AA=EF=BC=9F\</p\>\</th\>
+
+\<th class=3D"confluenceTh"\>
+
+\<p\>TP/SL =E7=9A=84=E4=BB=B7=E6=A0=BC=E6=A0=A1=E9=AA=8C=E6=80=8E=E6=A0=B7=E7=
+
+=AE=97=EF=BC=9F\</p\>\</th\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=97=A0=E6=8C=81=E4=BB=93 + =E9=99=90=E4=BB=B7=E5=8D=95 + TP/SL\</p\>\</t=
+
+d\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Entry =3D Limit Price\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E5=90=84 TP/SL =E5=85=AC=E5=BC=8F=E7=9A=84 Entry =3D Limit Price\</p\>\</t=
+
+d\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=9C=89=E6=8C=81=E4=BB=93 + =E9=99=90=E4=BB=B7=E5=8D=95 + TP/SL=EF=BC=
+
+=88=E6=9C=AA=E6=88=90=E4=BA=A4=EF=BC=89\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Entry =3D =E5=90=88=E5=B9=B6=E5=90=8E Entry\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>TP/SL =E9=9C=80=E5=9F=BA=E4=BA=8E=E2=80=9C=E5=BD=93=E5=89=8D=E6=8C=81=E4=
+
+=BB=93=E2=80=9D=E6=A0=A1=E9=AA=8C\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>=E6=9C=89=E6=8C=81=E4=BB=93 + =E9=99=90=E4=BB=B7=E5=8D=95=E6=88=90=E4=BA=
+
+=A4\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Entry =3D =E5=90=88=E5=B9=B6=E5=90=8E Entry\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>TP/SL =E5=85=A8=E9=83=A8=E5=9F=BA=E4=BA=8E=E6=96=B0 Entry =E8=AE=A1=E7=
+
+=AE=97\</p\>\</td\>
+
+\</tr\>
+
+\</tbody\>
+
+\</table\>
+
+\</div\>
+
+\</div\>
+
+\</body\>
+
+\</html\>
+
+------=\_Part_14_1675691800.1771927786932--

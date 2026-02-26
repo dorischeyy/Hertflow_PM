@@ -1,0 +1,4257 @@
+Date: Wed, 25 Feb 2026 08:25:53 +0000 (UTC)
+
+Message-ID: \<1219233846.19.1772007953009@047d62afff77\>
+
+Subject: Exported From Confluence
+
+MIME-Version: 1.0
+
+Content-Type: multipart/related;
+
+boundary="----=\_Part_18_938295566.1772007953008"
+
+------=\_Part_18_938295566.1772007953008
+
+Content-Type: text/html; charset=UTF-8
+
+Content-Transfer-Encoding: quoted-printable
+
+Content-Location: file:///C:/exported.html
+
+\<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+
+xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+
+xmlns:v=3D'urn:schemas-microsoft-com:vml'
+
+xmlns=3D'urn:w3-org-ns:HTML'\>
+
+\<head\>
+
+\<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+
+"\>
+
+\<title\>Docs=E5=BA=95=E7=A8=BF\</title\>
+
+\<!--\[if gte mso 9\]\>
+
+\<xml\>
+
+\<o:OfficeDocumentSettings\>
+
+\<o:TargetScreenSize\>1024x640\</o:TargetScreenSize\>
+
+\<o:PixelsPerInch\>72\</o:PixelsPerInch\>
+
+\<o:AllowPNG/\>
+
+\</o:OfficeDocumentSettings\>
+
+\<w:WordDocument\>
+
+\<w:View\>Print\</w:View\>
+
+\<w:Zoom\>90\</w:Zoom\>
+
+\<w:DoNotOptimizeForBrowser/\>
+
+\</w:WordDocument\>
+
+\</xml\>
+
+\<\![endif\]--\>
+
+\<style\>
+
+\<!--
+
+@page Section1 {
+
+size: 8.5in 11.0in;
+
+margin: 1.0in;
+
+mso-header-margin: .5in;
+
+mso-footer-margin: .5in;
+
+mso-paper-source: 0;
+
+}
+
+table {
+
+border: solid 1px;
+
+border-collapse: collapse;
+
+}
+
+table td, table th {
+
+border: solid 1px;
+
+padding: 5px;
+
+}
+
+td {
+
+page-break-inside: avoid;
+
+}
+
+tr {
+
+page-break-after: avoid;
+
+}
+
+div.Section1 {
+
+page: Section1;
+
+}
+
+/\* Confluence print stylesheet. Common to all themes for print medi=
+
+a \*/
+
+/\* Full of !important until we improve batching for print CSS \*/
+
+@media print {
+
+\#main {
+
+padding-bottom: 1em !important; /\* The default padding of 6em is to=
+
+o much for printouts \*/
+
+}
+
+body {
+
+font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+
+rif);
+
+}
+
+body, \#full-height-container, \#main, \#page, \#content, .has-personal-sid=
+
+ebar \#content {
+
+background: var(--ds-surface, \#fff) !important;
+
+color: var(--ds-text, \#000) !important;
+
+border: 0 !important;
+
+width: 100% !important;
+
+height: auto !important;
+
+min-height: auto !important;
+
+margin: 0 !important;
+
+padding: 0 !important;
+
+display: block !important;
+
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+
+color: var(--ds-text, \#000);
+
+}
+
+\#content h1,
+
+\#content h2,
+
+\#content h3,
+
+\#content h4,
+
+\#content h5,
+
+\#content h6 {
+
+page-break-after: avoid;
+
+}
+
+pre {
+
+font: var(--ds-font-code, Monaco, "Courier New", monospace);
+
+}
+
+\#header,
+
+.aui-header-inner,
+
+\#navigation,
+
+\#sidebar,
+
+.sidebar,
+
+\#personal-info-sidebar,
+
+.ia-fixed-sidebar,
+
+.page-actions,
+
+.navmenu,
+
+.ajs-menu-bar,
+
+.noprint,
+
+.inline-control-link,
+
+.inline-control-link a,
+
+a.show-labels-editor,
+
+.global-comment-actions,
+
+.comment-actions,
+
+.quick-comment-container,
+
+\#addcomment {
+
+display: none !important;
+
+}
+
+/\* CONF-28544 cannot print multiple pages in IE \*/
+
+\#splitter-content {
+
+position: relative !important;
+
+}
+
+.comment .date::before {
+
+content: none !important; /\* remove middot for print view \*/
+
+}
+
+h1.pagetitle img {
+
+height: auto;
+
+width: auto;
+
+}
+
+.print-only {
+
+display: block;
+
+}
+
+\#footer {
+
+position: relative !important; /\* CONF-17506 Place the footer at en=
+
+d of the content \*/
+
+margin: 0;
+
+padding: 0;
+
+background: none;
+
+clear: both;
+
+}
+
+\#poweredby {
+
+border-top: none;
+
+background: none;
+
+}
+
+\#poweredby li.print-only {
+
+display: list-item;
+
+font-style: italic;
+
+}
+
+\#poweredby li.noprint {
+
+display: none;
+
+}
+
+/\* no width controls in print \*/
+
+.wiki-content .table-wrap,
+
+.wiki-content p,
+
+.panel .codeContent,
+
+.panel .codeContent pre,
+
+.image-wrap {
+
+overflow: visible !important;
+
+}
+
+/\* TODO - should this work? \*/
+
+\#children-section,
+
+\#comments-section .comment,
+
+\#comments-section .comment .comment-body,
+
+\#comments-section .comment .comment-content,
+
+\#comments-section .comment p {
+
+page-break-inside: avoid;
+
+}
+
+\#page-children a {
+
+text-decoration: none;
+
+}
+
+/\*\*
+
+hide twixies
+
+the specificity here is a hack because print styles
+
+are getting loaded before the base styles. \*/
+
+\#comments-section.pageSection .section-header,
+
+\#comments-section.pageSection .section-title,
+
+\#children-section.pageSection .section-header,
+
+\#children-section.pageSection .section-title,
+
+.children-show-hide {
+
+padding-left: 0;
+
+margin-left: 0;
+
+}
+
+.children-show-hide.icon {
+
+display: none;
+
+}
+
+/\* personal sidebar \*/
+
+.has-personal-sidebar \#content {
+
+margin-right: 0px;
+
+}
+
+.has-personal-sidebar \#content .pageSection {
+
+margin-right: 0px;
+
+}
+
+.no-print, .no-print \* {
+
+display: none !important;
+
+}
+
+}
+
+--\>
+
+\</style\>
+
+\</head\>
+
+\<body\>
+
+\<h1\>Docs=E5=BA=95=E7=A8=BF\</h1\>
+
+\<div class=3D"Section1"\>
+
+\<p\>\</p\>
+
+\<blockquote\>
+
+\<p\>\<a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+
+://hertzflow.slack.com/files/U09837G5FB3/F09DNE8S80Z/docs_v1\_\_\_\_\_\_\_.zip" re=
+
+l=3D"nofollow"\>https://hertzflow.slack.com/files/U09837G5FB3/F09DNE8S80Z/do=
+
+cs_v1\_\_\_\_\_\_\_.zip\</a\>\</p\>
+
+\</blockquote\>
+
+\<h2 id=3D"Docs=E5=BA=95=E7=A8=BF-WelcometoHertzflow"\>Welcome to Hertzflow\</=
+
+h2\>
+
+\<p\>\<code\>\[figure1\] \</code\>\</p\>
+
+\<p\>\<strong\>Redefining On-Chain Perpetuals &amp; Liquidity \</strong\>\</p\>
+
+\<p\>HertzFlow is a high-performance perpetual DEX on Sui, purpose-built for =
+
+high-performance perpetual trading and efficient liquidity provision. We co=
+
+mbine deep liquidity, robust mechanism design, and crypto-native innovation=
+
+to deliver a trading experience that is \<strong\>transparent, permissionles=
+
+s, and capital-efficient, \</strong\>all fully on-chain. Whether you're a tra=
+
+der or a liquidity provider, HertzFlow empowers you to seamlessly engage in=
+
+perpetual markets with diverse order types and various market choices, lev=
+
+eraging cutting-edge risk management and liquidity optimization.\<br\>\<strong=
+
+\>What You Can Do With Hertzflow\</strong\>\<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Trade Perpetuals Across Multiple Asset Classes\</strong\>\<br\>
+
+Borrow from a deep pool of XBTC, ETH, SUI, or USDC to power your trades. Ac=
+
+cess leveraged, perpetual exposure with various supported tokens through or=
+
+acle-secured pricing.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Provide Liquidity &amp; Earn Real Yield\</strong\>\<br\>
+
+Deposit various supported tokens into our dynamic liquidity pools, earning =
+
+real yield from every trade - perp swaps, position opens/closes, borrowing =
+
+interest, trader losses, and more. Your capital stays productive 24/7, and =
+
+stay flexible with instant withdrawals.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Build &amp; Integrate\</strong\>\<br\>
+
+Leverage our SDKs, APIs, and composable smart contracts to create your own =
+
+strategies, integrate liquidity into dApps, or launch new markets permissio=
+
+nlessly.\</p\>\</li\>
+
+\</ol\>
+
+\<p\>\<strong\>The Hertzflow Stack\</strong\>\<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>The Protocol\</strong\>\<br\>
+
+Smart contracts with a capital-efficient Hertzflow Liquidity Pool model des=
+
+ign enabling trades using \<strong\>any supported asset as collateral\</strong=
+
+\>, with up to \<strong\>100=C3=97 leverage;\</strong\> dynamic rebalancing adju=
+
+stments, and oracle-driven pricing.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>The Interface\</strong\> \<br\>
+
+An intuitive, high-speed trading front-end designed for both pro traders an=
+
+d DeFi newbies.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>The Liquidity Layer\</strong\> \<br\>
+
+Optimized capital allocation via adaptive pool architecture, reducing slipp=
+
+age while protecting LPs from excessive volatility exposure.\</p\>\</li\>
+
+\</ol\>
+
+\<p\>\<strong\>Why Hertzflow\</strong\>\<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>High-Performance On-Chain Execution: \</strong\>Trade with asset-f=
+
+lexible margin, up to 100=C3=97 leverage, and near-instant confirmation wit=
+
+h Layer 2 scalability.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Risk-Optimized Liquidity: \</strong\>Earn capital-efficient yield =
+
+with risk-adjusted returns.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>CEX-like, Seamless: \</strong\>Experience an intuitive, high-perfo=
+
+rmance trading interface that mirrors the familiarity of centralized exchan=
+
+ges while delivering complete on-chain transparency.\</p\>\</li\>
+
+\</ol\>
+
+\<h2 id=3D"Docs=E5=BA=95=E7=A8=BF-TRADEONHERTZFLOW"\>\<strong\>TRADE ON HERTZFL=
+
+OW\</strong\>\</h2\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-Overview"\>Overview\</h3\>
+
+\<blockquote\>
+
+\<p\>Purpose-build for traders who demand execution precision, fee transparen=
+
+cy, and capital efficiency\</p\>
+
+\</blockquote\>
+
+\<p\>\<code\>\[figure2\] \</code\>\</p\>
+
+\<p\>Hertzflow is a capital-efficient, fully on-chain perpetual DEX designed =
+
+for transparency, speed, and composability. Built with a robust Hertzflow L=
+
+iquidity Pool (HzLP) model, our system empowers traders to open, manage, an=
+
+d close leveraged positions with minimal friction =E2=80=94 while providing=
+
+liquidity providers with sustainable, risk-adjusted returns.\</p\>
+
+\<p\>\<strong\>Key Highlights\</strong\>\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Any Collateral, Any Market:\</strong\> Borrow from supported asset=
+
+s and instantly swap into the desired leveraged exposure, all within one tr=
+
+ansaction.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Dynamic Risk Controls:\</strong\> Margin-based liquidation thresho=
+
+lds adapt to leverage used, ensuring predictable risk boundaries.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>CEX-like Order Execution\</strong\> =E2=80=93 Full range of market=
+
+, limit, and trigger orders with instant, seamless UX matching the familiar=
+
+ity and precision of centralized exchanges.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Predictable &amp; Fair Fees: \</strong\>A simple, transparent fee =
+
+model balances LP incentives with trader cost predictability, avoiding hidd=
+
+en slippage or opaque settlement deductions.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Trusted by Pros, Powered by SUI:\</strong\> SUI=E2=80=99s object-b=
+
+ased concurrency model enables instantaneous execution of margin trading op=
+
+erations while preventing conflicts in high-concurrency scenarios, as all d=
+
+ependent objects involved in the position are locked and updated atomically=
+
+during execution.\</p\>\</li\>
+
+\</ul\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-PositionManagement"\>Position Management\</h=
+
+3\>
+
+\<blockquote\>
+
+\<p\>Effortless, transparent handling of your open positions.\</p\>
+
+\</blockquote\>
+
+\<p\>Hertzflow uses a capital-efficient HzLP model design that includes:\<br\>\<=
+
+/p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Choice of Collateral\</strong\>: Traders may borrow from any suppo=
+
+rted asset to swap and use as collateral when opening leveraged positions i=
+
+n a selected market. Each trade is fully isolated from the rest of the port=
+
+folio.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Instant Borrow &amp; Swap: \</strong\>On order execution, traders =
+
+borrow from Hertzflow Liquidity Pool (HzLP) using their collateral as margi=
+
+n, and open the position in a single \<strong\>SUI Programmable Transaction B=
+
+lock (PTB).\</strong\> The PTB mechanism allows multiple operations - borrowi=
+
+ng, swapping, and position creation - to be executed atomically within one =
+
+transaction block, ensuring \<strong\>state consistency\</strong\>: either all =
+
+steps succeed, or none are applied.Borrowing and swapping is automatically =
+
+performed against the selected collateral asset at position open, and a bor=
+
+row fee accrues for the duration of the trade.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Decoupled Exposure\</strong\>: There is no separate margin account=
+
+. Instead, collateral and exposure sit symmetrically in a single position o=
+
+bject. This avoids cross-margin spillover while maintaining composability.\<=
+
+/p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Liquidation Criteria &amp; Keeper Network Execution\</strong\>: He=
+
+rtzflow implements continuous \<strong\>on-chain collateral monitoring\</stron=
+
+g\> through its \<strong\>Keeper Network\</strong\>. Built-in checks continuousl=
+
+y evaluate the current Margin Rate (MR) vs. Maintenance Margin Rate (MMR). =
+
+If MR &lt; MMR, keeper bots trigger an on-chain liquidation - automated, sa=
+
+fe, and transparent.\</p\>\</li\>
+
+\</ol\>
+
+\<p\>\</p\>
+
+\<p\>When placing orders in a selected market, the following parameters are s=
+
+et:\<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Side: \</strong\>Open Long; Open Short; Close Long; Close Short; I=
+
+ncrease Long; Increase Short; Decrease Long; Decrease Short\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Order Type: \</strong\>Market/Limit/Trigger (Coming Soon)\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Collateral Asset &amp; Amount: Minimum: 10 USD. \</strong\>Any ass=
+
+et in the collateral whitelist, deposited into the position contract. Colla=
+
+terals can be adjusted real time when managing positions.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Exposure &amp; Leverage:\</strong\> Leverage can be set between \<s=
+
+trong\>1.1x and 100x.\</strong\> Position size is calculated automatically fro=
+
+m the leverage set and collateral amount.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Slippage: \</strong\>All market and swap orders are executed again=
+
+st Hertzflow Liquidity Pool (HzLP). Slippage tolerance can be set per trade=
+
+=E2=80=94 orders that breach this tolerance will revert to protect the tra=
+
+der.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Entry Price:\</strong\> Market price for market orders, a limit pr=
+
+ice set by traders for limit orders. Meanwhile, liquidation price is estima=
+
+ted and updated automatically.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Exit Price:\</strong\> For tigger orders, exit price can be set to=
+
+stop loss or take profit. For market orders, exit price is the executed pr=
+
+ice at which positions are closed.\</p\>\</li\>
+
+\</ol\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-ClosePosition"\>Close Position\</h3\>
+
+\<blockquote\>
+
+\<p\>Closed manually, via automated triggers, or through liquidation.\</p\>
+
+\</blockquote\>
+
+\<p\>Positions may be settled via market or limit order:\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Market:\</strong\> Trader manually initiates a full or partial set=
+
+tlement for market positions.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Limit:\</strong\> Settles automatically only if mark price reaches=
+
+or betters limit price.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>When a non-liquidated close is executed:\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Positive PnL\</strong\>: Trader receives their initial collateral =
+
+plus realized trading profit, transferred directly from the liquidity pool.=
+
+\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Negative PnL\</strong\>: Trader receives remaining collateral afte=
+
+r losses, with the loss amount retained by the protocol=E2=80=99s liquidity=
+
+pool.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Partial Close\</strong\>: Proportional PnL is realized based on th=
+
+e closed portion of the position.\</p\>\</li\>
+
+\</ul\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-Liquidation"\>\<strong\>Liquidation\</strong\>\<=
+
+/h3\>
+
+\<blockquote\>
+
+\<p\>Automated, transparent and precisely risk-managed\</p\>
+
+\</blockquote\>
+
+\<p\>Hertzflow implements continuous \<strong\>on-chain collateral monitoring\</=
+
+strong\> through its \<strong\>Keeper Network\</strong\>. Built-in checks contin=
+
+uously evaluate a position=E2=80=99s \<strong\>Margin Rate (MR) \</strong\>agai=
+
+nst the \<strong\>Maintenance Margin Requirement (MMR)\</strong\>.\</p\>
+
+\<p\>For crypto markets, the \<strong\>MR\</strong\> is defined as the ratio of \<=
+
+strong\>effective collateral\</strong\> to \<strong\>position size\</strong\>, and=
+
+calculated as:\<br\>
+
+MR =3D Collateral \* (1 + uPnL% =E2=88=92 r_fees) / Size \* 100%\<br\>
+
+where uPnL% is the unrealized profit and loss rate, and r_fees is the sum o=
+
+f close fee rate, accrued borrow fee rate and liquidation fee rate.\</p\>
+
+\<p\>If a position=E2=80=99s MR falls below the MMR, keeper bots trigger an \<=
+
+strong\>on-chain liquidation\</strong\> using SUI=E2=80=99s native \<strong\>Pro=
+
+grammable Transaction Block (PTB)\</strong\> execution. The PTB ensures that =
+
+the liquidation - closing the position, repaying borrowed assets from the H=
+
+ertzflow Liquidity Pool (HzLP), and updating all relevant objects - is exec=
+
+uted atomically.\<br\>
+
+This approach guarantees that liquidations are:\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Automated\</strong\>: Keeper bots continuously monitor and act wit=
+
+hout manual intervention.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Safe\</strong\>: PTB execution prevents partial state updates and =
+
+ensures object ownership consistency.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Transparent\</strong\>: All liquidation transactions are recorded =
+
+on-chain, providing auditable history for users and auditors.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>The liquidation mechanism is coordinated through a decentralized \<strong=
+
+\>Keeper Network\</strong\>, rather than relying on a single liquidator implem=
+
+entation. The Keeper framework will be open-sourced, enabling any participa=
+
+nt to operate independent keeper nodes responsible for monitoring margin co=
+
+nditions and executing liquidations. This design distributes responsibility=
+
+across a wide set of actors, removing single points of failure and enhanci=
+
+ng system resilience. When a liquidation is triggered, the executing keeper=
+
+will be compensated on-chain with \<strong\>15% of the liquidated collateral=
+
+\</strong\> as a liquidation incentive. This reward will be applied consisten=
+
+tly, whether the keeper node is operated by the protocol team or by externa=
+
+l participants, ensuring proper alignment of incentives and continuous enfo=
+
+rcement of margin requirements. Implementation timelines and operational de=
+
+tails may evolve, and the final specifications will follow the team=E2=80=
+
+=99s official roadmap and announcements.\</p\>
+
+\<p\>\</p\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-OrderTypes"\>Order Types\</h3\>
+
+\<blockquote\>
+
+\<p\>Supporting dynamic trading needs with clarity and precision\</p\>
+
+\</blockquote\>
+
+\<p\>Orders are categorized into three primary execution modes: Market Orders=
+
+, Limit Orders, and Trigger Orders.\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Market Open\</strong\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Execution:\</strong\> At the current mark price, with slippage inc=
+
+luded.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Behavior:\</strong\> Executes instantly after the transaction is c=
+
+onfirmed onchain.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Use Case:\</strong\> Ideal for traders prioritizing speed over pri=
+
+ce precision.\</p\>\</li\>
+
+\</ol\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Limit Open\</strong\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Execution:\</strong\> At the execution price that reaches or bette=
+
+rs the trader=E2=80=99s limit.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Behavior:\</strong\> Only fills when the trade can be executed at =
+
+the limit or better.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Use Case:\</strong\> Ensures price discipline; no slippage beyond =
+
+the user=E2=80=99s set level.\</p\>\</li\>
+
+\</ol\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Market Close\</strong\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Execution:\</strong\> At the current mark price, with slippage inc=
+
+luded.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Behavior:\</strong\> Immediate closure at prevailing market condit=
+
+ions.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Use Case:\</strong\> Fastest way to exit without price conditions.=
+
+\</p\>\</li\>
+
+\</ol\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Limit Close\</strong\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Execution\</strong\>: Only at the trader=E2=80=99s pre-set limit p=
+
+rice or better.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Behavior\</strong\>: Order remains active until filled or canceled=
+
+.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Use Case\</strong\>: Suitable for take-profit or disciplined exits=
+
+, but execution is not guaranteed.\</p\>\</li\>
+
+\</ol\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Trigger Open\</strong\> \<em\>(coming soon in Hertzflow)\</em\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Execution\</strong\>: Converts into a market order once the trigge=
+
+r price is hit.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Behavior\</strong\>: Inactive until triggered, then immediately op=
+
+ens a position at the best available market price with slippage included.\</=
+
+p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Use Case: \</strong\>Standard for stop-loss or take-profit strateg=
+
+ies where execution speed is critical.\</p\>\</li\>
+
+\</ol\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Trigger Close\</strong\> \<em\>(coming soon in Hertzflow)\</em\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Execution\</strong\>: Converts into a market order once the trigge=
+
+r price is reached.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Behavior\</strong\>: Prioritizes certainty of exit, but may incur =
+
+slippage relative to the trigger price.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Use Case\</strong\>: Used for stop-loss and take-profit exits wher=
+
+e speed of execution is more important than exact price.\</p\>\</li\>
+
+\</ol\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Liquidation\</strong\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Execution:\</strong\> At the current mark price.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Behavior:\</strong\> Automatically executed when margin requiremen=
+
+ts are breached.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Use Case:\</strong\> Protects liquidity pools from excessive expos=
+
+ure.\</p\>\</li\>
+
+\</ol\>\</li\>
+
+\</ol\>
+
+\<div class=3D"table-wrap"\>
+
+\<table data-layout=3D"default" data-local-id=3D"125092a0-5173-4217-8cd1-b56=
+
+109d4ad26" class=3D"confluenceTable"\>
+
+\<tbody\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Order Type\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Trigger\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Use Case\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Market \</strong\>\<br\>\<strong\>Open / Close\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Mark Price (immediate)\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Entering / Exiting a trade quickly when execution speed is more importan=
+
+t than exact price.\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Limit \</strong\>\<br\>\<strong\>Open / Close\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Execution price reaches trader=E2=80=99s set limit price\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Opening at a specific target price without compromising on value.\</p\>\</t=
+
+d\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Trigger \</strong\>\<em\>(Coming Soon)\</em\>\<br\>\<strong\>Open / Close\<=
+
+/strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Execution price reaches trader=E2=80=99s set trigger price (immediate)\</=
+
+p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Stop-loss or take-profit strategies when you prioritize execution certai=
+
+nty.\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Liquidation\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Mark price hits liquidation threshold\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Platform safeguard to prevent further losses and maintain solvency.\</p\>\<=
+
+/td\>
+
+\</tr\>
+
+\</tbody\>
+
+\</table\>
+
+\</div\>
+
+\<p\>\<strong\>Note that:\</strong\> \<em\>Trigger orders (Open/Close)\</em\> are pla=
+
+nned for release soon (subject to roadmap updates), but here=E2=80=99s how =
+
+they differ from limit orders, as the two concepts are often mixed:\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Limit\</strong\>: Stays active in the order book from placement. E=
+
+xecutes only at your set price or better. Great for price discipline, but m=
+
+ay never fill in fast markets.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Trigger\</strong\>: Inactive until your trigger price is hit, then=
+
+becomes a market order. Prioritizes execution over exact price, so slippag=
+
+e is possible.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>\</p\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-FeeStructure"\>Fee Structure\</h3\>
+
+\<blockquote\>
+
+\<p\>Transparent, adaptable, and reflective of market conditions, designed fo=
+
+r fairness and risk alignment\</p\>
+
+\</blockquote\>
+
+\<p\>Hertzflow fee structure is designed to make fees predictable, transparen=
+
+t, and directly tied to the actual cost of trading and liquidity provisioni=
+
+ng.\<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Swap Fee: \</strong\>A flat percentage applied to token swaps, cre=
+
+dited to liquidity providers.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Hourly Borrow Fee: \</strong\>A time-based fee applied to the noti=
+
+onal borrowed when using leverage. This accrues from position open until cl=
+
+ose on an hourly basis and compensates LPs for capital utilization. The bor=
+
+row rate is asset-specific and \<strong\>dynamically adjusts\</strong\> with ut=
+
+ilization.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Hourly Funding Fee: \</strong\>A periodic payment between long and=
+
+short positions to keep open interest balance between longs and shorts, wh=
+
+ich indirectly keeps perpetual contract prices anchored to the underlying i=
+
+ndex. Funding rates are recalculated continuously and settle hourly. Positi=
+
+ve Rate - Longs pay shorts. Negative Rate - Shorts pay longs.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Open / Close Fee: \</strong\>A fixed percentage charged once at po=
+
+sition creation/closure. Note that for collateral edits, this is called =E2=
+
+=80=98\<strong\>deposit/withdraw fee\</strong\>=E2=80=99.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Liquidation Fee: \</strong\>Applied when a position is force-close=
+
+d due to insufficient margin. The liquidation fee, along with close positio=
+
+n fee and accrued borrow fee will be deducted from the remaining collateral=
+
+. After deduction, remaining fund will be returned back to traders.\</p\>\</li=
+
+\>
+
+\</ol\>
+
+\<div class=3D"table-wrap"\>
+
+\<table data-layout=3D"default" data-local-id=3D"72abf211-4df5-4a4e-aff7-8f7=
+
+d8ddc6c84" class=3D"confluenceTable"\>
+
+\<tbody\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Action\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Fee Type\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Fee Rate\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Purpose\</strong\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td rowspan=3D"2" class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Leverage Trading\</strong\>\<br\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Swap Fee\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>-\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Hertzflow differentiates fees depending on the type of asset swap (stabl=
+
+e vs. general assets) and applies a separate protocol =E2=80=9Ctax=E2=80=9D=
+
+in addition to base fees.\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Hourly Borrow Fee\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Dynamic\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Applied once per position to compensate LPs for capital utilization.\<br\>
+
+=3D \frac{\text{tokens borrowed}}{\text{tokens in the pool}}\<br\>
+
+\times \text{hourly borrow rate} \times \text{PositionSize}\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Position Open / Close\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Open / Close Fee\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>0.06%\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Fixed percentage charged on position creation/closure; for collateral ad=
+
+justments, referred to as \<strong\>deposit/withdraw fee\</strong\>.\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Liquidation\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Liquidation Fee\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>1%\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Extra fee applied on involuntary closures to mitigate systemic risk.\</p\>=
+
+\</td\>
+
+\</tr\>
+
+\</tbody\>
+
+\</table\>
+
+\</div\>
+
+\<h2 id=3D"Docs=E5=BA=95=E7=A8=BF-LIQUIDITYPROVISION"\>LIQUIDITY PROVISION\</h=
+
+2\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-LiquidityStrategy"\>Liquidity Strategy\</h3\>
+
+\<blockquote\>
+
+\<p\>Designed for liquidity providers who value risk management and long-term=
+
+yield stability\</p\>
+
+\</blockquote\>
+
+\<p\>Our protocol=E2=80=99s liquidity model is built to efficiently serve lev=
+
+eraged perpetual trading while minimizing risk concentration for liquidity =
+
+providers (LPs). Instead of relying on constant order matching between buye=
+
+rs and sellers, we use a \<strong\>pooled virtual HzLP architecture\</strong\> =
+
+capable of handling \<strong\>Open Interest (OI) imbalances\</strong\> and dire=
+
+ctional exposure, while ensuring trade settlement remains robust even durin=
+
+g extreme market moves.\</p\>
+
+\<p\>\<code\>\[figure4\] \</code\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>\$HzLP: \</strong\>Hertzflow Liquidity Provider tokens that represe=
+
+nt shares of the liquidity pool.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Deposits:\</strong\> LPs contribute supported tokens like SUI, ETH=
+
+, XBTC and receive \$HzLP representing their share.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Withdrawals:\</strong\> LPs maintain on-chain proof of ownership a=
+
+nd can exit instantly.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Fees:\</strong\> When providing or withdrawing liquidity, a dynami=
+
+c fee is charged for pool composition rebalancing.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Earnings:\</strong\> LPs receive a proportional share of:\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>Opening/closing trade fees\</p\>\</li\>
+
+\<li\>
+
+\<p\>Traders=E2=80=99 losses\</p\>\</li\>
+
+\<li\>
+
+\<p\>Liquidation fees\</p\>\</li\>
+
+\<li\>
+
+\<p\>LP deposit/withdraw fees\</p\>\</li\>
+
+\<li\>
+
+\<p\>Borrow and swap fees (when applicable)\</p\>\</li\>
+
+\</ol\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Risk Management: \</strong\>Hertzflow=E2=80=99s liquidity is manag=
+
+ed against a target weightage per asset. For each token we configure a posi=
+
+tive tolerance =CE=B4% that bounds how far the current weight c% may deviat=
+
+e from the target weight t% when deposits/withdrawals are executed.\</p\>\</li=
+
+\>
+
+\</ol\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-\$HzLP"\>\$HzLP\</h3\>
+
+\<blockquote\>
+
+\<p\>The backbone of Hertzflow with predictability, fairness, and traceable r=
+
+eal yield\</p\>
+
+\</blockquote\>
+
+\<p\>\$HzLP is the LP token that mirrors liquidity providers=E2=80=99 shares o=
+
+f the Hertzflow Liquidity Pool. Its value evolves over time as fees accrue =
+
+and the pool earn traders=E2=80=99 losses as their counterparty.\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>How the \$HzLP Pool Works\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<p\>The \$HzLP Pool aggregates deposits from LPs and deploys them to provide =
+
+liquidity for all markets on the platform. The liquidity automatically serv=
+
+es as the counterparty to every trade:\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>When traders win (positive PnL): Profits are paid out from the pool to t=
+
+he trader.\</p\>\</li\>
+
+\<li\>
+
+\<p\>When traders lose (negative PnL): Losses are credited to the pool, incre=
+
+asing its TVL.\</p\>\</li\>
+
+\</ul\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Deposit &amp; Withdraw\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<p\>When you add liquidity, the Liquidity Pool mints \$HzLP to your wallet; w=
+
+hen you redeem, \$HzLP is burned and you instantly receive equal value of un=
+
+derlying asset. Withdrawals can be made at any time and settled instantly.\<=
+
+br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Dynamic LP Fees\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<p\>When providing or withdrawing liquidity, fees are calculated based on th=
+
+e deviation from the pool=E2=80=99s \<strong\>target token weight\</strong\> be=
+
+fore and after your action. It adjusts dynamically for liquidity actions to=
+
+reward behaviors that improve pool balance and penalize those that increas=
+
+e imbalance. \<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>If your deposit or withdrawal moves the pool\<strong\> closer to its targe=
+
+t weightage\</strong\> (e.g., adding scarce assets or withdrawing surplus ass=
+
+ets), you pay a \<strong\>lower fee\</strong\>.\</p\>\</li\>
+
+\<li\>
+
+\<p\>If your action \<strong\>increases imbalance\</strong\> (e.g., adding oversu=
+
+pplied assets or withdrawing scarce ones), the fee will be \<strong\>higher\</=
+
+strong\>.\</p\>\</li\>
+
+\</ul\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Limits\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<p\>We cap deposits by a pool-share limit to prevent outsized single-tx grow=
+
+th so that post-trade weightage is kept within a certain band. Similarly, w=
+
+ithdrawals are also capped by a per-tx pool shrink limit.\<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Earnings\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<p\>Fees (swap, open/close, borrow/funding net, liquidation rewards) and tra=
+
+ders=E2=80=99 PnL accrue into the LP pool and are reflected in the \<strong\>=
+
+\$HzLP price\</strong\>.\<br\>\</p\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-YieldMechanism"\>Yield Mechanism\</h3\>
+
+\<p\>Liquidity Providers (LPs) are the backbone enabling all leveraged tradin=
+
+g activity on Hertzflow. By depositing assets into the Liquidity Pool, LPs =
+
+act as the counterparty to traders =E2=80=94 earning yield from fees while =
+
+bearing controlled market risk. \$HzLP yields come primarily from\<strong\> fe=
+
+es.\</strong\> This is due to the fact that over the long term, trading PnL t=
+
+ends to net out (delta-neutral), meaning LP returns are driven mostly by st=
+
+eady fee income.\</p\>
+
+\<p\>\<strong\>Yield Composition\</strong\>\<br\>
+
+Unless otherwise announced by governance, LP earnings include:\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Swap Fees\</strong\> from token conversions.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Open/Close Position Fees\</strong\> from leveraged trades.\</p\>\</li=
+
+\>
+
+\<li\>
+
+\<p\>\<strong\>Borrow &amp; Funding Fees\</strong\> from capital utilization and =
+
+open interest balancing.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Liquidation Fees\</strong\> from forced position closures.\</p\>\</li=
+
+\>
+
+\<li\>
+
+\<p\>\<strong\>LP Fees\</strong\> from LP deposit/withdrawal\</p\>\</li\>
+
+\<li\>
+
+\<p\>Traders=E2=80=99 net losses.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>\<strong\>Annual Percentage Yield (APY)\</strong\>\<br\>
+
+APY is used to\<em\>\<strong\> \</strong\>\</em\>estimate the projected annual retu=
+
+rn based on compounding earnings. It factors in Swap, Close and Borrow Fees=
+
+, Traders=E2=80=99 Net PnL, LP Deposit/Withdrawal. \<br\>
+
+APY\_{total} =3D \left( 1 + \frac{\sum \left( APR\_{Day} \times c\\\_{\text{to=
+
+ken}} \right)}{365} \right)^{365} - 1\<br\>
+
+, where c% represents the current weightage of the token in the liquidity p=
+
+ool.\</p\>
+
+\<p\>\<strong\>Fee Distribution\</strong\>\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Liquidity Providers (60%)\</strong\>\<br\>
+
+LPs receive 60% of all protocol revenues. This compensates them for supplyi=
+
+ng liquidity and bearing counterparty risk against traders.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Protocol Treasury (40%)\</strong\>\<br\>
+
+The remaining 40% of revenues accrue to the protocol treasury. These funds =
+
+are reinvested into protocol growth and resilience =E2=80=94 including prot=
+
+ocol-owned liquidity, gas subsidies, trading competitions, trader rebates, =
+
+insurance backstops for LPs, and incentive campaigns. The overarching objec=
+
+tive is to ensure that treasury revenues ultimately flow back to benefit LP=
+
+s and traders directly or indirectly.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\<strong\>Note that\</strong\>: APY is variable and not guaranteed.\<br\>\</p\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-RiskManagement&amp;Rebalancing"\>Risk Manag=
+
+ement &amp; Rebalancing\</h3\>
+
+\<blockquote\>
+
+\<p\>Hertzflow=E2=80=98s robust risk mitigation mechanisms\</p\>
+
+\</blockquote\>
+
+\<p\>Hertzflow employs several safeguards to protect LP capital=EF=BC=9A\<br\>\<=
+
+/p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Dynamic Borrowing Rates\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<p\>\<strong\>Utilization ratios\</strong\> are monitored continuously for Liqui=
+
+dity Pool health. The hourly settled borrow rate is set dynamic to discoura=
+
+ge imbalances between long and short open interest. \<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Automatic Keeper-based Liquidation\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<p\>Liquidation is triggerred on-chain via smart contracts - no manual inter=
+
+vention needed, saving LPs from catastrophic exposure and keeping traders=
+
+=E2=80=99 expectations clear. \<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>LP Fee Optimization\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<p\>Hertzflow uses dynamic fees as a rebalancing tool =E2=80=94 it rewards b=
+
+ehavior that fixes imbalances and charges more for behavior that worsens th=
+
+em. This keeps the pool composition healthier, improves execution for trade=
+
+rs, and makes your LP returns more stable. Multi-asset pool composition and=
+
+dynamic LP fee also allow LPs to self-select their risk profile. \<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Weightage Deviation Tolerance\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<p\>The LP pool targets a \<strong\>per-asset weightage\</strong\> t% =E2=88=88\[=
+
+0,1\] and tracks the \<strong\>current weight\</strong\> c% =E2=88=88\[0,1\]. A \<s=
+
+trong\>dynamic tolerance band\</strong\> =CE=B4% =E2=89=A5 0 is introduced to =
+
+allow operation around the target. These bands are enforced \<strong\>per ass=
+
+et\</strong\> to keep the pool balanced and to limit concentration risk. In h=
+
+igh-vol / large OI skew periods, the configurable deviation between current=
+
+weightage and target weightage can be adjusted timely to prevent extreme i=
+
+mbalance.\<br\>\</p\>
+
+\<h2 id=3D"Docs=E5=BA=95=E7=A8=BF-TUTORIALS"\>TUTORIALS\</h2\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-QuickStart"\>\<strong\>Quick Start\</strong\>\</=
+
+h3\>
+
+\<p\>\</p\>
+
+\<p\>\<code\>\[Figure 5\]\</code\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>What you need\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>A supported Sui wallet: \</strong\>\<a class=3D"external-link" href=
+
+=3D"https://suiet.app/install" rel=3D"nofollow"\>\<strong\>Suiet\</strong\>\</a\>\<=
+
+strong\>; \</strong\>\<a class=3D"external-link" href=3D"https://www.okx.com/en=
+
+-sg/download" rel=3D"nofollow"\>\<strong\>OKX Wallet\</strong\>\</a\>\<strong\>; \</s=
+
+trong\>\<a class=3D"external-link" href=3D"https://slush.app/download" rel=3D=
+
+"nofollow"\>\<strong\>Slush\</strong\>\</a\>.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Gas token:\</strong\> \<strong\>SUI\</strong\>. Keep a small buffer fo=
+
+r fees (we recommend \<strong\>=E2=89=A5 0.05 SUI\</strong\> at all times).\</p\>=
+
+\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Collateral / swap assets: SUI / ETH / XBTC / USDC on Sui\</strong=
+
+\> and other supported tokens listed in the app.\</p\>\</li\>
+
+\<li\>
+
+\<p\>A modern browser (Chrome/Brave/Edge) with your wallet extension or mobil=
+
+e in-app browser.\</p\>\</li\>
+
+\</ul\>
+
+\<blockquote\>
+
+\<p\>\<strong\>Tips: \</strong\>On Sui, coins are \<em\>objects\</em\>. If your balan=
+
+ce shows as multiple small =E2=80=9Ccoin objects,=E2=80=9D your wallet may =
+
+auto-merge them for spending. If a transaction fails with =E2=80=9Cinsuffic=
+
+ient coin,=E2=80=9D try hitting \<strong\>Merge\</strong\> (most wallets expose=
+
+this) or reduce the input amount.\</p\>
+
+\</blockquote\>
+
+\<p\>\</p\>
+
+\<p\>\<code\>\[Figure 6 - 8\]\</code\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Access &amp; connect\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Open Hertzflow dapp\</strong\> and click \<code\>Connect\</code\> (top=
+
+right).\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Select network:\</strong\> For testing, you will be connected to \<=
+
+code\>Sui Testnet\</code\> by default.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Claim Faucets:\</strong\> For testing, you can claim faucets on th=
+
+e top right corner by clicking the \<code\>Claim Faucet\</code\> button.\</p\>\</l=
+
+i\>
+
+\<li\>
+
+\<p\>\<strong\>Settings\</strong\>: You can change your \<code\>Theme\</code\>, \<code=
+
+\>Network\</code\> and \<code\>RPC Settings\</code\>.\</p\>\</li\>
+
+\</ul\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Funding your account (Mainnet coming soon)\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>You already hold SUI / USDC / XBTC / ETH on Sui: You=E2=80=99re set. \<st=
+
+rong\>Keep =E2=89=A5 0.05 SUI for gas\</strong\>, then proceed to Trade or Pro=
+
+vide Liquidity.\</p\>\</li\>
+
+\<li\>
+
+\<p\>Assets on another chain or CEX: \<strong\>Bridge / On-ramp\</strong\> with y=
+
+our preferred bridge or on-ramp services to send \<strong\>SUI\</strong\> (for =
+
+gas) and supported tokens\<strong\> (Sui)\</strong\> to your connected wallet a=
+
+ddress.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>CEX withdrawal:\</strong\> When withdrawing to Sui, ensure the \<st=
+
+rong\>network is Sui\</strong\> (not Ethereum/Solana/etc.), and that the token=
+
+is native SUI / \<strong\>USDC / ETH / XBTC on Sui\</strong\> (contract addres=
+
+ses differ across chains).\</p\>\</li\>
+
+\</ul\>
+
+\<blockquote\>
+
+\<p\>\<strong\>Note that: \</strong\>Transfers between chains are \<strong\>not\</st=
+
+rong\> instantaneous and may require a swap after bridging. Always verify to=
+
+ken symbols and networks before sending.\</p\>
+
+\</blockquote\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-Trading"\>Trading\</h3\>
+
+\<p\>\</p\>
+
+\<p\>\<code\>\[Figure 9\]\</code\>\<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Select a Market\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>Use the \<strong\>Market dropdown\</strong\> to choose a pair\</p\>\</li\>
+
+\<li\>
+
+\<p\>View market info including mark price, 24h CHG%, 24h high, 24h low, open=
+
+interest, and indicative hourly borrow rates.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>\<code\>\[Figure 10\]\</code\>\<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Fill in Order Form\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Side\</strong\>: \<strong\>Long\</strong\> (expect price to rise) or \<=
+
+strong\>Short\</strong\> (expect price to fall).\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Order type\</strong\>:\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Market\</strong\>: Execute now at best available price.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Limit\</strong\>: Execute at your price or better.\</p\>\</li\>
+
+\</ul\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Collateral, Leverage, and Size=EF=BC=9A\</strong\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Collateral: \</strong\>Minimum 10 USD, supported tokens - SUI, USD=
+
+C, XBTC, ETH\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Leverage: \</strong\>1.1x to 100x\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Size:\</strong\> Collateral =C3=97 Leverage\</p\>\</li\>
+
+\</ul\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Price &amp; Slippage\</strong\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Entry Price\</strong\>: Live mark price for market orders, can be =
+
+set for limit orders\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Slippage Tolerance\</strong\>: Accepted price difference between e=
+
+xecution price and entry price\</p\>\</li\>
+
+\</ul\>\</li\>
+
+\</ul\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Review Order Details and Confirm\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Fees: \</strong\>Hover for a precise breakdown:\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Open Fee: \</strong\>Fixed 0.06% of notional\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Swap Fee:\</strong\> If using a different token as collateral\</p\>\<=
+
+/li\>
+
+\</ul\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Est. Liq. Price:\</strong\> The estimated market price at which yo=
+
+ur position will be forcibly closed by the protocol to prevent your collate=
+
+ral from falling below the \<strong\>maintenance margin requirement\</strong\>.=
+
+It=E2=80=99s calculated in real time based on your \<strong\>Entry Price\</st=
+
+rong\>, \<strong\>Collateral\</strong\>, \<strong\>Position Size\</strong\>, \<strong=
+
+\>Leverage\</strong\>, and \<strong\>Maintenance Margin Requirement (MMR)\</stron=
+
+g\>. Maintenance Margin Requirement (MMR) is a set protocol level, which, fo=
+
+r crypto markets, is size/max_leverage + accrued fees.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Place &amp; Confirm:\</strong\> Approve in your Sui wallet, and yo=
+
+u will be notified your execution status through a toast.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>\<code\>\[Figure 11 - 13\]\</code\>\<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Track Order Status\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Positions: \</strong\>View market position details, edit collatera=
+
+ls, close or share current position details\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Orders:\</strong\> Any open orders that have not yet been executed=
+
+. You can also adjust limit price or cancel (all) orders in this tab.\</p\>\</=
+
+li\>
+
+\<li\>
+
+\<p\>\<strong\>History:\</strong\> Archive of all trades that have been fully exe=
+
+cuted.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>\<code\>\[Figure 14\]\</code\>\<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Manage Positions\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Add Collateral:\</strong\> Lowers leverage =E2=86=92 pushes liquid=
+
+ation further away.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Remove Collateral: \</strong\>Increases leverage =E2=86=92 brings =
+
+liquidation closer.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Collateral Edit Limit: \</strong\>Collaterals are bounded\<strong\> =
+
+\</strong\>such that\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Deposit:\</strong\> 10 USD =E2=89=A4 Deposit &lt; The collateral s=
+
+ize that reduces leverage below \<strong\>Min Leverage 1.1x\</strong\>\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Withdraw:\</strong\> 10 USD =E2=89=A4 Withdrawal &lt; The collater=
+
+al size that pushes leverage above \<strong\>Max Leverage 100x\</strong\>\</p\>\</=
+
+li\>
+
+\</ul\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>\<code\>\[Figure 15\]\</code\>\<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Close Positions\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Market Close: \</strong\>Partial or full exposure reduction. Fees =
+
+apply only to the closed notional; funding/borrow accrual adjusts pro-rata.=
+
+\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Limit Close: \</strong\>Partial or full exposure reduction only wh=
+
+en market price reaches or betters set limit price. Limit price is bounded =
+
+by Mark Price =C2=B110%.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Liquidation:\</strong\> If triggered by keepers, a liquidation fee=
+
+is applied and remaining collateral settles per protocol rules.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\<strong\>Note that: \</strong\>For Limit Orders, Hertzflow enforces a price=
+
+range around the current \<strong\>Mark Price\</strong\> (0.9=C3=97=E2=80=931.=
+
+1=C3=97) to ensure safe and reliable execution. \<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Prevent Unfillable Orders:\</strong\> Orders with extreme prices m=
+
+ay never execute, remaining pending indefinitely and wasting system resourc=
+
+es.\</p\>\</li\>
+
+\</ul\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Reduce Execution Risk: \</strong\>Excessively low (for longs) or h=
+
+igh (for shorts) prices can trigger failures on-chain, margin shortfalls, o=
+
+r dead orders.\</p\>\</li\>
+
+\</ul\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Chain Performance &amp; Concurrency Safety: \</strong\>Extreme ord=
+
+ers increase computational load in high-concurrency environments, potential=
+
+ly causing conflicts or failed transactions.\</p\>\</li\>
+
+\</ul\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>User Experience:\</strong\> This also prevent accidental mispricin=
+
+g due to typos or misclicks.Ensures orders remain meaningful for profit-tak=
+
+ing or stop-loss purposes.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-LiquidityProviding"\>Liquidity Providing\</h=
+
+3\>
+
+\<p\>\</p\>
+
+\<p\>\<code\>\[Figure 16\]\</code\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>\$HzLP Overview\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<p\>\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>Navigate to the \<strong\>\$HzLP Vault\</strong\> page in the app to see its =
+
+performance.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>HzLP Price:\</strong\> This price fluctuates based on supply and d=
+
+emand dynamics of \$HzLP, fee income, and the perceived value of the underly=
+
+ing liquidity pool.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>APY: \</strong\>An\<em\> \</em\>estimate of the projected annual retur=
+
+n based on compounding earnings. It factors in Swap, Close and Borrow Fees,=
+
+Traders=E2=80=99 Net PnL, LP Deposit/Withdrawal.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>HzLP Supply: \</strong\>The total number of tokens that have been =
+
+minted through liquidity provision.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Market Cap:\</strong\> Calculated by multiplying the current \$HzLP=
+
+price by supply. It provides an estimate of the total value of \$HzLP in th=
+
+e market.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Total liquidity:\</strong\> The aggregate value of assets within .=
+
+It represents the total amount of funds available for trading or borrowing=
+
+within the pool.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Composition:\</strong\> The respective proportions of SUI, USDC, E=
+
+TH and XBTC within Hertzflow Liquidity Pool.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>\<code\>\[Figure 17\]\</code\>\<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Liquidity Deposit &amp; Withdrawal\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>Select a token you would like to buy \$HzLP with or sell \$HzLP for.\</p\>\</=
+
+li\>
+
+\<li\>
+
+\<p\>Enter the pay amount, or click on balance percentage for shortcut, and t=
+
+he receive token amount will be automatically updated.\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Max Deposit: \</strong\>Capped by the increase in TVL that pushes =
+
+the current weightage above max allowed deviation from target weightage.\</p=
+
+\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Max Withdrawal: \</strong\>Capped by the decrease in TVL that redu=
+
+ces the current weightage below max allowed deviation from target weightage=
+
+.\</p\>\</li\>
+
+\<li\>
+
+\<p\>Deposits and withdrawals will be queued until settlement events release =
+
+capital if current weightage reaches its allowed maximum/minimum.\</p\>\</li\>
+
+\</ul\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Review Details:\</strong\> Check slippage and liquidity provision =
+
+fee. If applicable, an optimal token with a better fee option will be sugge=
+
+sted to purchase/receive with.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Confirm transaction:\</strong\> Approve the deposit in your connec=
+
+ted Sui wallet.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Receive tokens:\</strong\> First-time purchase of \$HzLP will need =
+
+an approval in order to be added into your wallet, representing your liquid=
+
+ity position.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>\<code\>\[Figure 18\]\</code\>\<br\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Performance Tracking\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Pool Size: \</strong\>Total value of assets currently deposited in=
+
+to Hertzflow Liquidity Pool. Larger pool size generally indicates better tr=
+
+ade stability, deeper liquidity, and lower slippage. Traders=E2=80=99 net p=
+
+rofit is negative in a market =E2=86=92 Asset pool size reduces. Vice versa=
+
+.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Current/Target Weightage:\</strong\> Current Weightage describes t=
+
+he \<strong\>present proportion\</strong\> of each asset in the pool, while Tar=
+
+get Weightage defines the \<strong\>desired or planned proportion\</strong\> se=
+
+t by Hertzflow. A max allowed deviation is also set to protect LPs from con=
+
+centration risks.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Utilization: \</strong\>Refers to the extent to which the pool's l=
+
+iquidity is actually being used for trades or borrows. High utilization imp=
+
+lies a \<strong\>larger share of active liquidity\</strong\>, meaning more asse=
+
+ts are frequently traded or borrowed, which result in higher potential earn=
+
+ings for LPs. Low utilization indicates idle assets, signaling potential in=
+
+efficiencies or under-used capital within the pool.\</p\>\</li\>
+
+\</ul\>
+
+\<h2 id=3D"Docs=E5=BA=95=E7=A8=BF-HERTZFLOWRESOURCES"\>\<strong\>HERTZFLOW RESO=
+
+URCES\</strong\>\</h2\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-Glossary"\>Glossary\</h3\>
+
+\<blockquote\>
+
+\<p\>=E5=BB=BA=E8=AE=AE=E7=94=A8hover tooltip=E4=BB=A3=E6=9B=BF - =E8=BF=99=
+
+=E6=A0=B7=E7=94=A8=E6=88=B7=E6=AF=8F=E6=AC=A1hover=E5=88=B0=E4=B8=80=E4=B8=
+
+=AA=E8=AF=8D=E8=AF=AD=E9=83=BD=E4=BC=9A=E7=9C=8B=E5=88=B0=E8=A7=A3=E9=87=8A=
+
+=EF=BC=8C=E4=B8=8D=E7=94=A8=E5=8E=BB=E6=9F=A5=E6=89=BE=E3=80=82\</p\>
+
+\</blockquote\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Position Management Terms\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Isolated Position: \</strong\>Each position tracks its own collate=
+
+ral and exposure independently. No cross-margin blending between positions.=
+
+\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Collateral Asset: \</strong\>Any supported token (e.g. SUI, USDC, =
+
+ETH, XBTC) used by a trader to back a leveraged position.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Atomic Borrow &amp; Swap\</strong\>: When opening positions in Her=
+
+tzflow perpetual swap markets, traders can open positions via a single on-c=
+
+hain transaction that deposits collateral, allocates margin, borrows agains=
+
+t it, and swaps into the desired asset. This atomic process streamlines ent=
+
+ry into a perpetual swap contract.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Leverage &amp; Exposure: \</strong\>Leverage defines the multiplie=
+
+r on collateral to determine position size (range: 1.1=C3=97 to 100=C3=97).=
+
+Exposure =3D Collateral =C3=97 Leverage. Adjusting collateral dynamically =
+
+post-trade adjusts leverage accordingly.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Liquidation: \</strong\>Automated protocol-triggered position clos=
+
+ure occurs when collateral + unrealized PnL falls below Maintenance Margin =
+
+Requirement (MMR), which, for crypto markets, is size/max_leverage + accrue=
+
+d fees.\</p\>\</li\>
+
+\</ul\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Order Types\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<div class=3D"table-wrap"\>
+
+\<table data-layout=3D"default" data-local-id=3D"92f9a649-a252-463c-8514-00e=
+
+2829e80c4" class=3D"confluenceTable"\>
+
+\<tbody\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Order Type\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Activation Trigger\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Behavior\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Best Use Case\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Market \</strong\>\<br\>\<strong\>Open / Close\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Execution at the current mark price\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Immediate execution with built-in slippage control\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Fast entry or exit when speed is prioritized\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Limit \</strong\>\<br\>\<strong\>Open / Close\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Match or exceed limit price\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Executes only at or better than specified price\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Price-sensitive entries\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Trigger \</strong\>\<em\>(Coming Soon)\</em\>\<br\>\<strong\>Open / Close\<=
+
+/strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Mark price reaches trigger level\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Becomes a market order when activated =E2=80=94 executes despite slippag=
+
+e\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Exit strategies based on price action\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Liquidation\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Collateral under MMR set by protocol rules\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Force-close to protect LPs and protocol integrity\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Protocol-enforced systemic safeguard\</p\>\</td\>
+
+\</tr\>
+
+\</tbody\>
+
+\</table\>
+
+\</div\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Fee Structure\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Swap Fee: \</strong\>A flat percentage applied to token swaps when=
+
+swapping or opening positions where swapping is involved. Returned to LPs =
+
+as revenue.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Hourly Borrow Fee: \</strong\>A time-based utilization charge that=
+
+accrues per hour of active leveraged exposure. Compensates LPs for locked =
+
+capital.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Open / Close Fee: \</strong\>A fixed 0.06% charge on position open=
+
+ing or closing. For collateral-only changes, this is referred to as a =E2=
+
+=80=9Cdeposit/withdraw fee.=E2=80=9D\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Liquidation Fee: \</strong\>A 1% fee imposed when a position is fo=
+
+rce-closed via liquidation. Serves to deter aggressive leverage and protect=
+
+the liquidity pool.\</p\>\</li\>
+
+\</ul\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Liquidity Provision\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>\$HzLP Token: \</strong\>Represents an LP=E2=80=99s share in Hertzf=
+
+low Liquidity Pool. Minted on deposit and burned on withdrawal, tracking eq=
+
+uity and accrued yield.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Deposit / Withdrawal: \</strong\>Instantly mint or burn \$HzLP agai=
+
+nst the supported asset. Caps are enforced to control post-trade token weig=
+
+htage relative to target weightage.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Dynamic LP Fee: \</strong\>Fees scale based on deviation from targ=
+
+et asset weights. Rebalance gains \<strong\>=E2=86=92 \</strong\>pay lower fees=
+
+. Increased imbalance =E2=86=92 face higher fees.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>APY (Annual Percentage Yield): \</strong\>An estimate of the proje=
+
+cted annual return based on compounding earnings. It factors in Swap, Close=
+
+and Borrow Fees, Traders=E2=80=99 Net PnL, LP Deposit/Withdrawal, and Liqu=
+
+idation Penalties.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Weightage Tolerance (=CE=B4%): \</strong\>Each asset has a current=
+
+weightage (c%), a target weightage (t%) and an allowed deviation (=CE=B4%)=
+
+. Pool composition is dynamically guarded within \[t% =E2=80=93 =CE=B4, t% +=
+
+=CE=B4\] to manage concentration risk.\</p\>\</li\>
+
+\</ul\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-MediaKit=E2=86=92"\>Media Kit =E2=86=92\</h3=
+
+\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-X=E2=86=92"\>\<a class=3D"external-link" hre=
+
+f=3D"https://x.com/Hertzflow_xyz" rel=3D"nofollow"\>\<strong\>X =E2=86=92\</str=
+
+ong\>\</a\>\</h3\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-TG=E2=86=92"\>\<a class=3D"external-link" hr=
+
+ef=3D"https://t.me/hertzflow_xyz" rel=3D"nofollow"\>\<strong\>TG =E2=86=92\</st=
+
+rong\>\</a\>\</h3\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-DC=E2=86=92"\>\<a class=3D"external-link" hr=
+
+ef=3D"https://discord.gg/sBQqf2H7ts" rel=3D"nofollow"\>DC =E2=86=92\</a\>\</h3\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-Medium=E2=86=92"\>\<a class=3D"external-link=
+
+" href=3D"https://medium.com/@hertzflow" rel=3D"nofollow"\>\<strong\>Medium =
+
+=E2=86=92\</strong\>\</a\>\</h3\>
+
+\<h2 id=3D"Docs=E5=BA=95=E7=A8=BF-TEHCNICALDOCS"\>\<strong\>TEHCNICAL DOCS\</str=
+
+ong\>\</h2\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-Overview.1"\>Overview\</h3\>
+
+\<p\>\</p\>
+
+\<p\>\<code\>\[Figure 19\]\</code\>\<br\>
+
+Hertzflow implements a modular, upgrade-friendly design for decentralized p=
+
+erpetual futures and liquidity management on Sui. At the center lies the \<s=
+
+trong\>Hub\</strong\>, a lightweight registry that anchors all user interactio=
+
+n addresses while enabling seamless upgrades of underlying modules. Core lo=
+
+gic - funds custody, perps execution, risk controls, and governance - resid=
+
+es in dedicated contracts that can evolve independently without disrupting =
+
+external integrations.\<br\>
+
+The architecture balances \<strong\>security\</strong\>, \<strong\>composability\<=
+
+/strong\>, and \<strong\>low-latency execution\</strong\>:\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Security:\</strong\> All assets are custodied in a single \<strong\>=
+
+Vault\</strong\>, with isolated accounting for liquidity providers and margin=
+
+traders. Permissioned updates are tightly scoped through capability object=
+
+s (AdminCap, KeeperCap).\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Composability:\</strong\> A shared \<strong\>Oracle module\</strong\> =
+
+provides normalized, manipulation-resistant price feeds to all consumers (P=
+
+erps Engine, Vault, risk checks).\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Execution flow:\</strong\> Users submit requests to the Trade modu=
+
+le; Keepers monitor the mempool, trigger execution, and fetch oracle data; =
+
+execution modules resolve the request using final prices from the Oracle.\</=
+
+p\>\</li\>
+
+\</ul\>
+
+\<p\>The price pipeline leverages \<strong\>Pyth Network\</strong\> and \<strong\>C=
+
+hainlink \</strong\>as primary high-frequency source and falls back to \<stron=
+
+g\>CEX index prices\</strong\> (Binance, OKX, Bybit, etc.) when necessary. Adv=
+
+anced slippage protection and anomaly handling ensure continuous availabili=
+
+ty even under oracle failure or market stress.\</p\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-SmartContracts"\>Smart Contracts\</h3\>
+
+\<p\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>List And Responsibilities\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<div class=3D"table-wrap"\>
+
+\<table data-layout=3D"default" data-local-id=3D"7fb8b9a7-31ee-4f2b-87d2-c8e=
+
+72d4d7f9a" class=3D"confluenceTable"\>
+
+\<tbody\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Contract\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Role / Description\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Key Responsibilities\</strong\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Hub\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Entry point and registry of the protocol\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Module Registery: \</strong\>Stores latest addresses of all critic=
+
+al modules (Vault, Perps Engine, etc.)\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Update Control: \</strong\>Does not execute business logic, enabli=
+
+ng upgrades without altering user-facing addresses\</p\>\</li\>
+
+\</ul\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Vault\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Custodian of all assets within the protocol\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Asset Custody\</strong\>: Holds HzLP liquidity pool and user margi=
+
+n securely.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>PnL Settlement\</strong\>: Calculates &amp; settles profit/loss pe=
+
+r trade.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Fee Management\</strong\>: Computes open/close, borrow, and swap f=
+
+ees, allocates to LPs &amp; treasury.\</p\>\</li\>
+
+\</ul\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Hertzflow Liquidity Pool (HzLP)\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Minting &amp; burning of HzLP tokens, managing liquidity\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Mint HzLP\</strong\>: Issues tokens proportional to deposits.\</p\>\<=
+
+/li\>
+
+\<li\>
+
+\<p\>\<strong\>Burn HzLP\</strong\>: Burns tokens and returns underlying assets +=
+
+yield.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Valuation\</strong\>: Computes real-time NAV for \\HzLP.\</p\>\</li\>
+
+\</ul\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Perps Engine\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Core trading engine for perpetual positions\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Position Management\</strong\>: Handles Open, Increase, Decrease, =
+
+Close.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Margin Checks\</strong\>: Validates collateral before execution.\</=
+
+p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Liquidation\</strong\>: Monitors maintenance margin; triggers forc=
+
+ed closure.\</p\>\</li\>
+
+\</ul\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Governance\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>DAO-controlled contract to manage protocol parameters\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Parameter Management\</strong\>: Voting to adjust fees, margins, r=
+
+isk parameters, new assets.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Protocol Upgrades\</strong\>: Authorizes upgrades to core contract=
+
+s.\</p\>\</li\>
+
+\</ul\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Oracle\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>On-chain price information interface\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Price Verification\</strong\>: Validates timestamps, confidence in=
+
+tervals, and volatility to prevent manipulation.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Price Provision\</strong\>: Supplies trusted real-time prices to V=
+
+ault and Perps Engine.\</p\>\</li\>
+
+\</ul\>\</td\>
+
+\</tr\>
+
+\</tbody\>
+
+\</table\>
+
+\</div\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Core Parameters\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<div class=3D"table-wrap"\>
+
+\<table data-layout=3D"default" data-local-id=3D"251408a8-50a7-490a-8fab-0c6=
+
+edaca1154" class=3D"confluenceTable"\>
+
+\<tbody\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Parameter\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Summary\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Details\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Trading Fees\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Fee structure across all trading activities\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Base Fee Rate\</strong\>: Percentage fee on open, close, and decre=
+
+ase operations.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Funding Fee Rate\</strong\>: Time-based fee to balance long/short =
+
+OI.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Liquidation Fee Rate\</strong\>: Extra fee charged on forced liqui=
+
+dations.\</p\>\</li\>
+
+\</ul\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Slippage Tolerance\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Price deviation safeguard\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>Maximum allowed deviation between expected and executed price.\</p\>\</li\>
+
+\<li\>
+
+\<p\>Exceeding threshold =E2=86=92 automatic transaction revert.\</p\>\</li\>
+
+\</ul\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Initial Margin Ratio (IMR)\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Minimum collateral to open positions\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>Ratio of collateral-to-position size required.\</p\>\</li\>
+
+\<li\>
+
+\<p\>Formula: Initial Margin =3D 1 / Max Leverage.\</p\>\</li\>
+
+\</ul\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Max Leverage\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Upper bound on leverage usage\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>Maximum leverage per position.\</p\>\</li\>
+
+\<li\>
+
+\<p\>mpacts margin requirements &amp; liquidation thresholds.\</p\>\</li\>
+
+\</ul\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Token Weights\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Asset allocation in HzLP pool\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>Target weights for SUI, ETH, BTC, USDC.\</p\>\</li\>
+
+\<li\>
+
+\<p\>Determines swap pricing, liquidity balancing, and pool risk profile.\</p\>=
+
+\</li\>
+
+\</ul\>\</td\>
+
+\</tr\>
+
+\</tbody\>
+
+\</table\>
+
+\</div\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Price Oracle Architecture\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<blockquote\>
+
+\<p\>Accurate and tamper-resistant price discovery is a cornerstone of the He=
+
+rtzflow protocol. Our oracle design balances \<strong\>decentralization, reli=
+
+ability, and latency requirements\</strong\> to serve both trading and risk m=
+
+anagement functions.\</p\>
+
+\</blockquote\>
+
+\<p\>The Hertzflow oracle design ensures:\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Primary reliance\</strong\> on decentralized, manipulation-resista=
+
+nt feeds (Pyth).\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Automatic degradation\</strong\> to high-quality CEX index prices =
+
+when needed.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Liquidity-aware weighting\</strong\> for fallback aggregation.\</p\>=
+
+\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Multi-layer resiliency\</strong\> with redundancy at both the runt=
+
+ime and infrastructure levels.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>\<strong\>3.1 Aggregator Strategy\</strong\>\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Primary Source =E2=80=93 Pyth Network\</strong\>\<br\>
+
+Hertzflow prioritizes high-frequency decentralized price streams from \<stro=
+
+ng\>Pyth Network\</strong\>. Pyth aggregates prices and confidence intervals f=
+
+rom multiple independent publishers, applying a PoS-weighted mechanism to p=
+
+roduce manipulation-resistant reference prices.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Fallback Source =E2=80=93 CEX Index Prices\</strong\>\<br\>
+
+If Pyth data is unavailable or stale beyond \<strong\>3 seconds\</strong\>, the=
+
+system degrades gracefully to an \<strong\>index price feed\</strong\> aggrega=
+
+ted from leading centralized exchanges (Binance, OKX, Bybit).\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\<strong\>3.2 Update Frequency\</strong\>\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Latency Guarantees\</strong\>\<br\>\<strong\>p99 latency\</strong\>: =E2=
+
+=89=A4 1=E2=80=932 seconds, ensuring keepers=E2=80=98 liquidation and settl=
+
+ement logic remains real-time.\<br\>\<strong\>p999 latency\</strong\>: bounded by=
+
+a stricter upper limit (configurable) to guarantee global stability under =
+
+stress conditions.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>\<strong\>3.3 Oracle Node Selection\</strong\>\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Decentralized Path (Preferred)\</strong\>: Pyth Network for resili=
+
+ent, publisher-aggregated price feeds. To eliminate reliance on third-party=
+
+APIs and avoid rate limits, we self-host Pyth=E2=80=99s core infrastructur=
+
+e components including \<code\>pythnet-rpc\</code\>, \<code\>wormhole-spy\</code\>,=
+
+and \<code\>hermes\</code\>.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Centralized Path (Fallback)\</strong\>: CEX feeds selected strictl=
+
+y from venues with top-tier depth and reputation (Binance, OKX, Bybit). Fee=
+
+ds are consumed via WebSocket subscriptions to minimize latency. Redundancy=
+
+across exchanges ensures continuity even if individual feeds degrade.\</p\>\<=
+
+/li\>
+
+\</ul\>
+
+\<p\>\<strong\>3.4\</strong\> \<strong\>Slippage Protection Mechanism\</strong\>\<br\>
+
+When fallback aggregation relies on CEX data, Hertzflow enforces a \<strong\>=
+
+liquidity-weighted scoring system\</strong\> to prioritize healthier order bo=
+
+oks:\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Depth Score (a):\</strong\> Sum of bid/ask liquidity within =C2=B1=
+
+1% of current price.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Support Ratio (b):\</strong\> Ratio of near-book (top 3 levels) to=
+
+mid-book liquidity, measuring order book resilience.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Balance Score (c):\</strong\> Relative balance of total bids vs. a=
+
+sks, reflecting buy/sell symmetry.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>The composite score is calculated as:\<br\>\<code\>Score\_{exchange} =3D w_1 =
+
+=C3=97 a + w_2 =C3=97 b + w_3 =C3=97 c\</code\>\<br\>
+
+Scores are used as weights in the final aggregated index, ensuring \<strong\>=
+
+high-liquidity venues contribute more heavily\</strong\> to the effective ora=
+
+cle price.\</p\>
+
+\<p\>\<strong\>3.5 Exception Handling &amp; Failover\</strong\>\<br\>
+
+To maintain uninterrupted pricing, the system implements \<strong\>multi-laye=
+
+red resiliency mechanisms\</strong\>:\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Real-Time Failover\</strong\>: Wait up to \<strong\>3s\</strong\> for =
+
+Pyth updates. If data remains stale, immediately switch to the fallback CEX=
+
+index.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Continuity Assurance\</strong\>:\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Quick Fixer\</strong\>: Patches short-term gaps detected at runtim=
+
+e.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Gap Fixer\</strong\>: Scheduled process validating DB continuity a=
+
+nd repairing missed intervals.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Lazy Filler\</strong\>: On-demand backfill during query time for e=
+
+xternal consumers.\</p\>\</li\>
+
+\</ul\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Architecture-Level Redundancy\</strong\>: Fetcher and Aggregator s=
+
+ervices run in \<strong\>active-active multi-instance mode\</strong\>, eliminat=
+
+ing single points of failure.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>This architecture delivers a \<strong\>highly available, low-latency, mani=
+
+pulation-resistant oracle service\</strong\>, supporting both normal trading =
+
+and stress scenarios with predictable guarantees.\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Move Modules &amp; Interfaces\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<p\>\<strong\>4.1 Core Price Module (\</strong\>\<code\>oracle_core\</code\>\<strong\>=
+
+)\</strong\>\<br\>\<strong\>Purpose:\</strong\> Store and provide authoritative pri=
+
+ce data.\<br\>\<strong\>Key Object:\</strong\> \<code\>PriceStore\</code\>\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>Mapping: \<code\>Symbol -&gt; Price\</code\>\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<code\>Price\</code\> struct fields:\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<code\>value: u64\</code\> =E2=80=93 latest price\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<code\>timestamp: u64\</code\> =E2=80=93 Unix timestamp\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<code\>keeper_signature: vector&lt;u8&gt;\</code\> =E2=80=93 signature from=
+
+Keeper\</p\>\</li\>
+
+\</ul\>\</li\>
+
+\</ul\>
+
+\<p\>\<strong\>Access Control:\</strong\>\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>Only \<code\>KeeperCap\</code\> holders can write (\<code\>update_price\</code\>=
+
+).\</p\>\</li\>
+
+\<li\>
+
+\<p\>Public read-only access via \<code\>get_price\</code\>.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\<strong\>Interfaces:\</strong\>\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<code\>update_price\</code\>\</p\>\</li\>
+
+\</ul\>
+
+\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
+
+\<div class=3D"codeContent panelContent pdl"\>
+
+\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>entry f=
+
+un update_price(cap: &amp;KeeperCap, symbol: vector&lt;u8&gt;, price: u64, =
+
+timestamp: u64, signature: vector&lt;u8&gt;)\</pre\>
+
+\</div\>
+
+\</div\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Purpose\</strong\>: Allows an authorized Keeper to update the pric=
+
+e of a trading pair.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Workflow\</strong\>:\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>Off-chain aggregation services produce a new price point.\</p\>\</li\>
+
+\<li\>
+
+\<p\>The aggregator signs the price data with its private key.\</p\>\</li\>
+
+\<li\>
+
+\<p\>The Keeper submits an on-chain transaction carrying the \<code\>KeeperCap\<=
+
+/code\> as proof of authorization.\</p\>\</li\>
+
+\<li\>
+
+\<p\>The smart contract verifies both the signature and the \<code\>KeeperCap\</=
+
+code\> before writing to \<code\>PriceStore\</code\>.\</p\>\</li\>
+
+\</ul\>\</li\>
+
+\<li\>
+
+\<p\>\<code\>get_price\</code\>\</p\>\</li\>
+
+\</ul\>
+
+\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
+
+\<div class=3D"codeContent panelContent pdl"\>
+
+\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>public =
+
+fun get_price(store: &amp;PriceStore, symbol: vector&lt;u8&gt;): (u64, u64)=
+
+\</pre\>
+
+\</div\>
+
+\</div\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Purpose\</strong\>: Provides a read-only interface for other on-ch=
+
+ain modules (e.g., DEXs, lending protocols) to access the latest price and =
+
+timestamp.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Use Case\</strong\>: Essential for accurate trade settlement, marg=
+
+in calculations, and liquidation logic.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>\<strong\>4.2 Permission Management Module (\</strong\>\<code\>oracle_admin\</c=
+
+ode\>\<strong\>)\</strong\>\<br\>\<strong\>Purpose:\</strong\> Manage access to price =
+
+updates; decouples governance from price logic.\<br\>\<strong\>Capability Objec=
+
+ts:\</strong\>\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<code\>AdminCap\</code\>: Unique authority, held by protocol owner.\</p\>\</li=
+
+\>
+
+\<li\>
+
+\<p\>\<code\>KeeperCap\</code\>: Issued by \<code\>AdminCap\</code\> to off-chain Kee=
+
+per wallets.The \<strong\>Permission Management Module\</strong\> separates acc=
+
+ess control from core price logic, ensuring modularity and security. Its pr=
+
+imary purpose is to manage \<strong\>authorization capabilities\</strong\> for =
+
+price updates.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\<strong\>Interfaces:\</strong\>\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<code\>grant_keeper_cap\</code\>\</p\>\</li\>
+
+\</ul\>
+
+\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
+
+\<div class=3D"codeContent panelContent pdl"\>
+
+\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>grant_k=
+
+eeper_cap(admin_cap: &amp;AdminCap, recipient: address)\</pre\>
+
+\</div\>
+
+\</div\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Purpose:\</strong\> Grants a new \<code\>KeeperCap\</code\> to a speci=
+
+fied off-chain Keeper wallet.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<code\>revoke_keeper_cap\</code\>\</p\>\</li\>
+
+\</ul\>
+
+\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
+
+\<div class=3D"codeContent panelContent pdl"\>
+
+\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>revoke\_=
+
+keeper_cap(admin_cap: &amp;AdminCap, keeper_cap: KeeperCap)\</pre\>
+
+\</div\>
+
+\</div\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Purpose:\</strong\> Revokes a Keeper=E2=80=99s authorization by de=
+
+stroying the associated \<code\>KeeperCap\</code\>.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\<em\>All administrative operations require \</em\>\<code\>AdminCap\</code\>\<em\>=
+
+as the first argument, enforcing centralized governance and security.\</em\>=
+
+\</p\>
+
+\<p\>\<strong\>4.3 Trading Pair Registration Module (\</strong\>\<code\>symbol_regi=
+
+stry\</code\>\<strong\>)\</strong\>\<br\>\<strong\>Purpose: \</strong\>The \<strong\>Symb=
+
+ol Registry Module\</strong\> manages all trading pair symbols (\<code\>Symbol\<=
+
+/code\>) supported by the oracle. Its main responsibility is maintaining an =
+
+\<strong\>on-chain allowlist\</strong\> of valid trading pairs.\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>Protocol administrators (AdminCap holders) can dynamically \<strong\>add, =
+
+enable, or disable\</strong\> trading pairs.\</p\>\</li\>
+
+\<li\>
+
+\<p\>Before accepting a price update, \<code\>oracle_core\</code\> queries \<code\>=
+
+symbol_registry\</code\> to ensure that the trading pair is \<strong\>officiall=
+
+y supported\</strong\>.\</p\>\</li\>
+
+\<li\>
+
+\<p\>This validation prevents updates to invalid, deprecated, or unsupported =
+
+trading pairs, maintaining data integrity across the protocol.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<ol start=3D"1"\>
+
+\<li\>
+
+\<p\>\<strong\>Independent Deployments\</strong\>\</p\>\</li\>
+
+\</ol\>
+
+\<p\>Mainnet and testnet deploy completely separate contract instances. This =
+
+ensures that all on-chain objects=E2=80=94including \<code\>PriceStore\</code\>=
+
+and \<code\>AdminCap\</code\> - have distinct Object IDs per environment. Off-=
+
+chain services must also be configured separately, including connections to=
+
+different Sui RPC nodes, Kafka topics, and database instances (e.g., Influ=
+
+xDB or PostgreSQL). This prevents test data from contaminating production a=
+
+nd ensures that test workloads do not impact mainnet performance.\</p\>
+
+\<p\>\<strong\>5.1 Key and Permission Management:\</strong\>\<br\>
+
+Keeper wallet addresses and private keys are fully isolated between mainnet=
+
+and testnet.\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Price Signing:\</strong\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>Mainnet keys must be secured using Hardware Security Modules (HSM) or mu=
+
+lti-signature schemes.\</p\>\</li\>
+
+\<li\>
+
+\<p\>Testnet keys may follow a more relaxed security policy.\</p\>\</li\>
+
+\</ul\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>AdminCap Management:\</strong\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<code\>AdminCap\</code\> addresses are distinct per network.\</p\>\</li\>
+
+\<li\>
+
+\<p\>Mainnet\<code\> AdminCap\</code\> should reside in a highly secure cold wall=
+
+et or multi-signature wallet.\</p\>\</li\>
+
+\</ul\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>\<strong\>5.2 Data Sources and Dependencies:\</strong\>\<br\>
+
+Off-chain services rely on decentralized and centralized price feeds such a=
+
+s Pyth Network and CEX APIs. Data sources are strictly segregated across en=
+
+vironments:\<br\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Testnet \</strong\>\<code\>Fetcher\</code\>\<strong\>:\</strong\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>Connects to sandbox/test endpoints of CEX APIs.\</p\>\</li\>
+
+\<li\>
+
+\<p\>Uses public testnet Hermes API from Pyth.\</p\>\</li\>
+
+\</ul\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Mainnet \</strong\>\<code\>Fetcher\</code\>\<strong\>:\</strong\>\</p\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>Connects to production-grade CEX APIs.\</p\>\</li\>
+
+\<li\>
+
+\<p\>Uses self-hosted Pythnet RPC and Hermes services.\</p\>\</li\>
+
+\</ul\>\</li\>
+
+\</ul\>
+
+\<h2 id=3D"Docs=E5=BA=95=E7=A8=BF-SECURITY"\>\<strong\>SECURITY\</strong\>\</h2\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-RiskMitigations"\>Risk Mitigations\</h3\>
+
+\<p\>While Hertzflow is designed to minimize risk for both traders and liquid=
+
+ity providers through robust risk controls, decentralized leveraged trading=
+
+carries inherent risks. We recommend participating only with funds you are=
+
+comfortable risking, and keeping a close eye on your positions during peri=
+
+ods of heightened market volatility.\<br\>\</p\>
+
+\<div class=3D"table-wrap"\>
+
+\<table data-layout=3D"default" data-local-id=3D"faff8c65-184d-45b6-99e7-cd4=
+
+76f1847d3" class=3D"confluenceTable"\>
+
+\<tbody\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Risk Type\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Definition / Impact\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Our Mitigation Mechanisms\</strong\>\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Directional Exposure Risk\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>LPs become unintentionally exposed to price movements when there=E2=80=
+
+=99s a high open interest (OI) imbalance, especially under volatility.\</p\>\<=
+
+/td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Dynamic Borrowing Rates:\</strong\> Utilization ratios are monitor=
+
+ed in real time, adjusting hourly borrow rates to discourage extreme OI ske=
+
+w.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Dynamic LP Fees:\</strong\> LP deposit and withdraw fees scale wit=
+
+h imbalance/volatility to incentivize OI rebalancing.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>OI Monitoring:\</strong\> Continuous tracking of imbalance metrics=
+
+to adjust parameters proactively.\</p\>\</li\>
+
+\</ul\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Liquidity Risk\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Traders may be unable to open/close positions at desired size or LPs may=
+
+face withdrawal delays during high utilization.\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Dynamic Position Limits (DPL):\</strong\> Restricts outsized posit=
+
+ion openings during extreme market conditions.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Weightage Deviation Tolerance:\</strong\> Enforces per-asset balan=
+
+ce bands to prevent concentration risk and keep liquidity accessible.\</p\>\</=
+
+li\>
+
+\</ul\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Keeper Risk\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Losses from inactive, malicious, or underperforming keepers that handle =
+
+trade execution, liquidations, and price updates.\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Automated Smart Contract=E2=80=93Driven Liquidation: \</strong\>Li=
+
+quidations are executed deterministically on-chain, triggered by protocol-d=
+
+efined conditions without manual intervention or discretionary delays.\</p\>\<=
+
+/li\>
+
+\<li\>
+
+\<p\>\<strong\>Decentralized Keeper Network Operation: \</strong\>Multiple indepe=
+
+ndent keeper nodes participate in execution. Each operator is required to p=
+
+ost collateralized stake, ensuring economic alignment and accountability.\</=
+
+p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Slashing &amp; Incentive Layer: \</strong\>A slashing framework pe=
+
+nalizes inactive or malicious keepers, while rewarding timely and accurate =
+
+execution. This maintains high-quality service across the network.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Redundant Failover Systems: \</strong\>Backup keeper nodes and aut=
+
+omated failover mechanisms guarantee continuity of liquidation services, ev=
+
+en under high network congestion or node outages\</p\>\</li\>
+
+\</ul\>
+
+\<p\>\</p\>
+
+\<p\>3,4=E6=9C=89=E6=97=A0=EF=BC=9F\</p\>\</td\>
+
+\</tr\>
+
+\<tr\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>\<strong\>Oracle &amp; Price Deviation Risk\</strong\>\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<p\>Settlement prices may deviate from order prices due to latency or oracle=
+
+feed misalignment.\</p\>\</td\>
+
+\<td class=3D"confluenceTd"\>
+
+\<ul\>
+
+\<li\>
+
+\<p\>\<strong\>Dual-oracle Validation:\</strong\> Price feeds are cross-verified =
+
+using both \<strong\>Pyth\</strong\> and \<strong\>Chainlink\</strong\>, with an in=
+
+ternal keeper-driven index providing additional redundancy.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Deviation Threshold Enforcement:\</strong\> Trades are automatical=
+
+ly rejected if submitted prices deviate beyond predefined thresholds relati=
+
+ve to validated oracle values, protecting the system from manipulation and =
+
+stale data.\</p\>\</li\>
+
+\<li\>
+
+\<p\>\<strong\>Time Travel Execution:\</strong\> In the event of oracle or networ=
+
+k outages, eligible delayed orders may be executed retroactively at histori=
+
+cally validated fair prices, ensuring fairness and continuity of execution =
+
+without penalizing traders for infrastructure downtime.\</p\>\</li\>
+
+\</ul\>
+
+\<p\>=E7=AC=AC=E4=B8=89=E4=B8=AA=E6=9C=89=E6=97=A0=EF=BC=9F\</p\>\</td\>
+
+\</tr\>
+
+\</tbody\>
+
+\</table\>
+
+\</div\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-Audits"\>Audits\</h3\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-BugBounties"\>Bug Bounties\</h3\>
+
+\<p\>TBA\<br\>\</p\>
+
+\<h2 id=3D"Docs=E5=BA=95=E7=A8=BF-LEGAL"\>\<strong\>LEGAL\</strong\>\</h2\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-T&amp;C"\>T&amp;C\</h3\>
+
+\<h3 id=3D"Docs=E5=BA=95=E7=A8=BF-PrivacyPolicies"\>Privacy Policies\</h3\>
+
+\<p\>\</p\>
+
+\</div\>
+
+\</body\>
+
+\</html\>
+
+------=\_Part_18_938295566.1772007953008--
