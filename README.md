@@ -15,7 +15,13 @@ Hertzflow/
 │   ├── 后端/               # 后端接口与架构设计文档
 │   ├── 测试网相关整理/      # 测试网文档、法律文本等
 │   ├── 项目组周报汇总/      # 周报、排期、Release Notes
-│   ├── 月报/               # 月报文档及附件
+│   ├── 月报/               # 月报 PDF（按月归档）
+│   │   ├── HertzFlow_2025.10_Monthly Report.pdf
+│   │   ├── HertzFlow_2025.11_Monthly Report.pdf
+│   │   ├── HertzFlow_2025.12_Monthly Report.pdf
+│   │   ├── HertzFlow_2026.1_Monthly Report.pdf
+│   │   ├── HertzFlow_2026.2_Monthly Report.pdf
+│   │   └── HertzFlow月报.md   # Confluence 月报原文（含产出流程说明）
 │   ├── prds/              # Markdown 格式需求文档（模板与草稿）
 │   │   ├── 需求模板.md
 │   │   └── v2.0-超高杠杆需求.md
@@ -55,7 +61,7 @@ V2 阶段需求文档，涵盖 Trade / Pools / Vault / Dashboard / Claim 等核�
 
 ### `docs/月报/`
 
-HertzFlow 月报正文及 PDF 附件。
+每月对外英文月报 PDF，按 `HertzFlow_YYYY.MM_Monthly Report.pdf` 命名归档。目前收录 2025.10 至今。`HertzFlow月报.md` 为 Confluence 原文，含月报产出流程说明。
 
 ### `docs/prds/`
 
