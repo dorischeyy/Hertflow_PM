@@ -1,0 +1,805 @@
+Date: Wed, 25 Feb 2026 08:25:48 +0000 (UTC)
+Message-ID: <1480575176.3.1772007948835@964dced612df>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2_1429923664.1772007948835"
+
+------=_Part_2_1429923664.1772007948835
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=E5=89=8D=E7=AB=AF=E6=95=B0=E5=AD=97=E5=B1=95=E7=A4=BA=E8=A7=84=
+=E8=8C=83</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=E5=89=8D=E7=AB=AF=E6=95=B0=E5=AD=97=E5=B1=95=E7=A4=BA=E8=A7=84=E8=
+=8C=83</h1>
+    <div class=3D"Section1">
+        <blockquote>
+<p>=E5=89=8D=E7=AB=AF=E6=95=B0=E5=AD=97=E5=B1=95=E7=A4=BA=E8=A7=84=E8=8C=83=
+Logs=EF=BC=9A</p>
+<ul>
+<li>
+<p>Aug11=EF=BC=9A=E7=BB=86=E5=8C=96=E5=B8=81=E6=9C=AC=E4=BD=8D=E5=B1=95=E7=
+=A4=BA=E8=A7=84=E8=8C=83</p></li>
+<li>
+<p>Aug 08 =E5=B7=B2=E7=A1=AE=E8=AE=A4=EF=BC=9AHzLP price- =E6=8C=89=E8=B7=
+=9Fsui=E5=B7=AE=E4=B8=8D=E5=A4=9A=E7=9A=84=E4=BB=B7=E4=BD=8D=E6=9D=A5=E7=9C=
+=8B4dp=E4=B8=BD=EF=BC=9BNetwork Fee=E5=89=8D=E7=AB=AF=E4=B8=8D=E5=B1=95=E7=
+=A4=BA</p></li>
+</ul>
+</blockquote>
+<h1 id=3D"id-=E5=89=8D=E7=AB=AF=E6=95=B0=E5=AD=97=E5=B1=95=E7=A4=BA=E8=A7=
+=84=E8=8C=83-=E9=9C=80=E6=B1=82=E6=A6=82=E8=BF=B0">=E9=9C=80=E6=B1=82=E6=A6=
+=82=E8=BF=B0</h1>
+<p>=E4=B8=BA=E9=81=BF=E5=85=8D=E5=9B=A0=E7=B2=BE=E5=BA=A6=E8=BF=87=E4=BD=8E=
+=E5=AF=BC=E8=87=B4=E8=AF=AF=E5=B7=AE=EF=BC=8C=E6=88=96=E8=BF=87=E9=AB=98=E5=
+=AF=BC=E8=87=B4=E7=95=8C=E9=9D=A2=E6=9D=82=E4=B9=B1=EF=BC=8C=E5=89=8D=E7=AB=
+=AF=E6=98=BE=E7=A4=BA=E5=B1=82=E7=B2=BE=E5=BA=A6=E7=BA=A6=E5=AE=9A=E7=BB=9F=
+=E4=B8=80=E6=A0=87=E5=87=86=EF=BC=8C=E5=85=B7=E4=BD=93=E5=8C=85=E6=8B=AC=EF=
+=BC=9A<br></p>
+<ol start=3D"1">
+<li>
+<p>=E5=B0=8F=E9=A2=9D=E9=9A=90=E8=97=8F</p></li>
+<li>
+<p>rate=E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86</p></li>
+<li>
+<p>=E9=9B=B6=E5=80=BC=E6=98=BE=E7=A4=BA0</p></li>
+<li>
+<p>price &amp; token amount=E6=98=BE=E7=A4=BA=E7=B2=BE=E5=BA=A6=E8=A7=84=E8=
+=8C=83</p></li>
+</ol>
+<h1 id=3D"id-=E5=89=8D=E7=AB=AF=E6=95=B0=E5=AD=97=E5=B1=95=E7=A4=BA=E8=A7=
+=84=E8=8C=83-=E6=B1=87=E6=80=BB">=E6=B1=87=E6=80=BB</h1>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"76b93f86-915d-492b-b875-cee=
+505d78c4c" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 201.0px;">
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 55.0px;">
+<col style=3D"width: 314.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=AD=97=E6=AE=B5</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=B0=8F=E6=95=B0=E4=BD=8D=E6=95=B0</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=8D=95=E4=BD=8D</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=A4=87=E6=B3=A8</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>=E5=BC=BA=E8=B0=83=E4=BA=A4=E6=98=93=E8=A7=84=E6=A8=A1 / =E7=83=
+=AD=E5=BA=A6=EF=BC=8C=E4=B8=8D=E5=BC=BA=E8=B0=83=E7=B2=BE=E7=A1=AE=EF=BC=8C=
+=E5=BC=BA=E8=B0=83=E5=A4=A7=E5=B0=8F =EF=BC=88U=EF=BC=89</strong><br>
+//Trade Page<br><code>24h Volume</code><br><code>Liquidity(L/S)</code><br><=
+code>Open Interest</code><br><code>Size</code><br><code>Collateral</code><b=
+r><code>Est. PnL</code><br><code>Held Token Amount(USD=EF=BC=89</code><br><=
+code>Est. Receive (USD)</code><br><code>Unrealized PnL</code><br><code>Fees=
+ - =E5=8C=85=E6=8B=AC Open Fee, Close Fee, Borrow Fee, Network Fee (USD),De=
+posit Fee</code><br><code>Max=EF=BC=88USD=EF=BC=89</code><br><code>Est.PnL<=
+/code><br><code>Held Token(USD=EF=BC=89</code><br><code>Est. Receive (USD)<=
+/code><br><code>Balance</code><br>
+//HzLP Page<br><code>Market Cap</code><br><code>PoolSize (USD)</code><br><c=
+ode>Available for Borrow</code>;<code>MaxDepositInput</code>; <code>Remaini=
+ng Withdrawal Limit (USD)</code><br><code>Fees</code></p></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>$</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p><strong>0&lt;=E6=95=B0=E5=80=BC&lt;0.01 =E5=B1=95=E7=A4=BA&lt;$0.01</str=
+ong></p></li>
+<li>
+<p>=E7=AD=89=E4=BA=8E=E9=9B=B6=E6=97=B6=E5=86=8D=E5=B1=95=E7=A4=BA $0<stron=
+g>=EF=BC=88=E4=B8=8D=E6=98=AF0.00=EF=BC=89</strong></p></li>
+<li>
+<p>=E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86=EF=BC=9APnL=E8=BF=99=E7=B1=BB=E6=9C=
+=89=E6=AD=A3=E6=9C=89=E8=B4=9F=E7=9A=84 =E8=BF=98=E6=98=AF=E6=8C=89+$0.00=
+=E7=BB=BF=E8=89=B2=EF=BC=8C-$0.00=E7=BA=A2=E8=89=B2=E5=A4=84=E7=90=86</p></=
+li>
+</ol></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>=E5=B1=95=E7=A4=BA=E4=BD=99=E9=A2=9D=EF=BC=8C=E5=A4=A7=E5=B0=8F=
+=EF=BC=88=E5=B8=81=EF=BC=89</strong><br><code>Network Fee</code></p>
+<p><code>Held Token Amount(=E5=B8=81=EF=BC=89</code><br><code>Est. Receive =
+(=E5=B8=81)</code><br><code>Balance=EF=BC=88=E5=B8=81=EF=BC=89=EF=BC=9B</co=
+de><br><code> HzLP Supply</code><br><code>Held HzLP=EF=BC=88=E5=B8=81=EF=BC=
+=89</code></p></td>
+<td class=3D"confluenceTd">
+<p>BTC 6dp <br>
+ETH SUI HzLP 4dp <br>
+USDC 2dp</p>
+<p>=E5=B0=8F=E9=A2=9D=E9=9A=90=E8=97=8F=EF=BC=9A<code>&lt;0.000001 BTC</cod=
+e>=EF=BC=9B <code>&lt;0.0001 ETH</code>=EF=BC=9B<code>&lt;0.01 SUI</code></=
+p>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>
+<del>1000+:</del><code> 2dp=EF=BC=9B=E4=B8=8D=E5=B1=95=E7=A4=BA=E5=B0=BE=E6=
+=95=B0</code>
+<del>=EF=BC=88</del><em>
+<del>e.g. 1,999.45 ETH=EF=BC=9B5 ETH</del></em>
+<del>=EF=BC=89</del></p></li>
+<li>
+<p>
+<del>1~1000:</del><code> BTC 6dp=EF=BC=8CETH 4dp=EF=BC=8CSUI&amp;HzLP 2dp =
+=EF=BC=9B=E4=B8=8D=E5=B1=95=E7=A4=BA=E5=B0=BE=E6=95=B0</code>
+<del>=EF=BC=88</del><em>
+<del>e.g. 999.1234 ETH =EF=BC=9B999.123456 WBTC=EF=BC=9B5.1 SUI=EF=BC=9B11.=
+1 HzLP</del></em>
+<del>=EF=BC=89</del></p></li>
+<li>
+<p>
+<del>&lt;1=EF=BC=9A</del><br>
+<del>a. BTC=EF=BC=9A0.000001~1=EF=BC=9A</del><code>6sf</code>
+<del>=EF=BC=8C=E5=85=B6=E4=B8=AD&lt;0.0001=E7=94=A8</del><code>=E5=B0=8F=E5=
+=B0=BE=E5=B7=B4</code>
+<del>=EF=BC=88</del><em>
+<del>e.g. 0.0=E2=82=85123456 WBTC=EF=BC=9B0.000123456 WBTC</del></em>
+<del>=EF=BC=89=EF=BC=9B&lt;0.000001WBTC =EF=BC=9A</del><code>&lt;0.000001 W=
+BTC</code></p>
+<p>
+<del>b. ETH=EF=BC=9A0.0001 ~1:</del><code>4sf</code>
+<del>=EF=BC=88</del><em>
+<del>e.g. 0.0001234 ETH</del></em>
+<del>=EF=BC=89=EF=BC=9B&lt;0.0001ETH =EF=BC=9A</del><code>&lt;0.0001ETH</co=
+de></p>
+<p>
+<del>c. SUI/HzLP=EF=BC=9A0.01~1:</del><code>2sf</code>
+<del>=EF=BC=88</del><em>
+<del>e.g. 0.012 SUI=EF=BC=9B0.12HzLP</del></em>
+<del>=EF=BC=89=EF=BC=9B&lt;0.01SUI/HzLP =EF=BC=9A</del><code>&lt;0.01SUI/Hz=
+LP</code></p></li>
+<li>
+<p>=E8=8B=A5=E5=90=8E=E7=BB=AD=E6=B7=BB=E5=8A=A0=E8=B5=84=E4=BA=A7=EF=BC=8C=
+=E4=BB=B7=E6=A0=BC10k - 100k=E6=8C=89BTC=E6=9D=A5=EF=BC=9B=E4=BB=B7=E6=A0=
+=BC1k- 10k=E7=9A=84=E6=8C=89ETH=EF=BC=9B=E4=BB=B7=E6=A0=BC1-1k=E7=9A=84=E6=
+=8C=89SUI=EF=BC=9Bmeme=E7=9B=B8=E5=85=B3=E7=9A=84=E7=9B=B4=E6=8E=A52dp =EF=
+=BC=9B=E7=A8=B3=E5=AE=9A=E5=B8=81=EF=BC=8C=E6=8C=89=E7=BE=8E=E5=85=83=E8=A7=
+=86=E8=A7=89=E4=B9=A0=E6=83=AF=E5=B1=95=E7=A4=BA=EF=BC=9A<code>2dp</code></=
+p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>[token]</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>
+<del>=E6=95=B0=E5=80=BC =E2=89=A51,000=EF=BC=9A</del><code>=E5=8D=83=E5=88=
+=86=E7=AC=A6=EF=BC=8C2dp=EF=BC=9B=E4=B8=8D=E5=B1=95=E7=A4=BA=E5=B0=BE=E6=95=
+=B0</code><br>
+<del>e.g. Wallet WBTC Balance =3D 4,830.12</del></p></li>
+<li>
+<p>
+<del>1=E2=89=A4 =E6=95=B0=E5=80=BC &lt;1,000=EF=BC=9A</del><code>BTC 6dp=EF=
+=BC=8CETH 4dp=EF=BC=8CSUI&amp;HzLP 2dp =EF=BC=9B=E4=B8=8D=E5=B1=95=E7=A4=BA=
+=E5=B0=BE=E6=95=B0</code></p></li>
+<li>
+<p>
+<del>=E6=95=B0=E5=80=BC &lt;1=EF=BC=9A</del><code>BTC 6sf=EF=BC=8CETH 4sf=
+=EF=BC=8CSUI&amp;HzLP 2sf; =E5=85=B6=E4=B8=AD&lt;0.0001=E7=94=A8=E5=B0=8F=
+=E5=B0=BE=E5=B7=B4 =EF=BC=88e.g. 0.0=E2=82=85123456 WBTC=EF=BC=89</code></p=
+></li>
+<li>
+<p>
+<del>=E5=B0=8F=E9=A2=9D=E9=9A=90=E8=97=8F=EF=BC=9A</del><code>&lt;0.000001 =
+BTC</code>
+<del>=EF=BC=9B</del><code>&lt;0.0001 ETH</code>
+<del>=EF=BC=9B</del><code>&lt;0.01 SUI</code></p></li>
+<li>
+<p>=E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86=EF=BC=9A=E7=A8=B3=E5=AE=9A=E5=B8=81=
+=EF=BC=8C=E6=8C=89=E7=BE=8E=E5=85=83=E8=A7=86=E8=A7=89=E4=B9=A0=E6=83=AF=E5=
+=B1=95=E7=A4=BA=EF=BC=9A<code>2dp</code> e.g. 1.12 USDC</p></li>
+<li>
+<p>=E8=8B=A5=E5=90=8E=E7=BB=AD=E6=B7=BB=E5=8A=A0=E8=B5=84=E4=BA=A7=EF=BC=8C=
+=E4=BB=B7=E6=A0=BC10k - 100k=E6=8C=89BTC=E6=9D=A5=EF=BC=9B=E4=BB=B7=E6=A0=
+=BC1k- 10k=E7=9A=84=E6=8C=89ETH=EF=BC=9B=E4=BB=B7=E6=A0=BC1-1k=E7=9A=84=E6=
+=8C=89SUI=EF=BC=9Bmeme=E7=9B=B8=E5=85=B3=E7=9A=84=E7=9B=B4=E6=8E=A52dp</p><=
+/li>
+</ol>
+<p></p>
+<p>BTC 6dp <br>
+ETH SUI HzLP 4dp <br>
+USDC 2dp</p>
+<p>=E5=B0=8F=E9=A2=9D=E9=9A=90=E8=97=8F=EF=BC=9A<code>&lt;0.000001 BTC</cod=
+e>=EF=BC=9B <code>&lt;0.0001 ETH</code>=EF=BC=9B<code>&lt;0.01 SUI</code></=
+p>
+<p></p>
+<p><strong>=E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86=EF=BC=9A</strong><code>rate=
+</code>=E6=B1=87=E7=8E=87=E5=B1=95=E7=A4=BA=E7=89=B9=E6=AE=8A=E5=A4=84=E7=
+=90=86=EF=BC=9A</p>
+<p>a. =E6=95=B0=E5=80=BC =E2=89=A5100=EF=BC=9A=E5=8D=83=E5=88=86=E7=AC=A6=
+=EF=BC=8C2dp<br>
+e.g. ETH:HzLP =3D 3629.12; WBTC:HzLP =3D 114,830.12</p>
+<p>b. 1=E2=89=A4 =E6=95=B0=E5=80=BC &lt;100=EF=BC=9A4dp<br>
+e.g. SUI:HzLP =3D 4.1234</p>
+<p>c. 0.0001=E2=89=A4 =E6=95=B0=E5=80=BC &lt;1=EF=BC=9A=E5=B1=95=E7=A4=BA4s=
+f<br>
+e.g. HzLP:SUI =3D 0.1234</p>
+<p>d. =E6=95=B0=E5=80=BC &lt;0.0001=EF=BC=9A=E5=B1=95=E7=A4=BA=E5=B0=8F=E5=
+=B0=BE=E5=B7=B4 5sf <br>
+e.g. HzLP: BTC =3D 0.0=E2=82=8512345</p>
+<p>e. =E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86=EF=BC=9A=E7=A8=B3=E5=AE=9A=E5=B8=
+=81=EF=BC=8C=E5=A4=96=E6=B1=87=E7=B1=BB=E6=B3=A2=E5=8A=A8=E6=80=A7=E5=B0=8F=
+=E7=9A=84=E6=B1=87=E7=8E=87=E5=B1=95=E7=A4=BA=EF=BC=9A4dp=EF=BC=9B<br>
+e.g. USDC:HzLP =3D 1.1234 <br></p>
+<ol start=3D"1">
+<li>
+<p><code>HzLPPage_PoolSize=EF=BC=88=E5=B8=81=EF=BC=89</code>hover=E6=97=B6=
+=E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86=EF=BC=9A=E5=B1=95=E7=A4=BA=E5=AE=8C=E6=
+=95=B4=E5=B0=8F=E6=95=B0</p></li>
+</ol></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>=E7=B2=BE=E5=BA=A6=E8=A6=81=E6=B1=82=E9=AB=98=E7=9A=84=E4=BB=B7=
+=E6=A0=BC=EF=BC=88U=EF=BC=89</strong><br>
+//<br><code>Mark Price</code> <br><code>24h Low</code><br><code>24h High</c=
+ode> <br><code>Entry Price; Mark Price; Liq. Price</code><br><code>Trigger =
+Price</code><br><code>Est. Receive (USD)</code><br><code>Price</code><br>
+//<br><code>HzLP Price</code></p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>BTC, ETH: 2</p></li>
+<li>
+<p>SUI: 4</p></li>
+<li>
+<p>USDC: 4</p></li>
+<li>
+<p>HzLP: 4</p></li>
+<li>
+<p>=E8=8B=A5=E5=90=8E=E7=BB=AD=E6=B7=BB=E5=8A=A0=E8=B5=84=E4=BA=A7=E5=8F=82=
+=E7=85=A7<a class=3D"external-link" href=3D"https://hertzflow.slack.com/doc=
+s/T08G35AED17/F09816QEE2K?focus_section_id=3Dtemp:C:XIU2df48b164d32443fa48c=
+b184a" rel=3D"nofollow">2.1</a></p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>$</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E7=99=BE=E5=88=86=E6=95=B0<br><code>24h%</code><br><code>Est. PnL%</cod=
+e><br>
+//<br><code>Current/Target Weightage</code><br><code>Utilization</code><br>=
+<code>APR</code>=EF=BC=9B<code>APY</code><br></p></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>%</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p><strong>0&lt;=E6=95=B0=E5=80=BC&lt;0.01 =E5=B1=95=E7=A4=BA&lt;$0.01=EF=
+=BC=88=E9=9C=80=E8=A6=81=E6=94=B9=EF=BC=89</strong></p></li>
+<li>
+<p>=E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86=EF=BC=9Aborrow rate =E5=B1=95=E7=A4=
+=BA3dp =E5=85=B7=E4=BD=93=E6=95=B0=E5=80=BC</p></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"id-=E5=89=8D=E7=AB=AF=E6=95=B0=E5=AD=97=E5=B1=95=E7=A4=BA=E8=A7=
+=84=E8=8C=83-=E5=85=B7=E4=BD=93=E9=9C=80=E6=B1=82">=E5=85=B7=E4=BD=93=E9=9C=
+=80=E6=B1=82</h1>
+<h2 id=3D"id-=E5=89=8D=E7=AB=AF=E6=95=B0=E5=AD=97=E5=B1=95=E7=A4=BA=E8=A7=
+=84=E8=8C=83-1.=E5=B8=B8=E8=A7=84=E6=95=B0=E9=87=8F=E5=B1=95=E7=A4=BA=EF=BC=
+=9A"><strong>1. =E5=B8=B8=E8=A7=84=E6=95=B0=E9=87=8F=E5=B1=95=E7=A4=BA=EF=
+=BC=9A</strong></h2>
+<p>=E4=B8=BB=E8=A6=81=E9=80=82=E7=94=A8=EF=BC=9A <strong>=E4=BF=A1=E6=81=AF=
+=E5=B1=95=E7=A4=BA</strong>=E7=B1=BB=E6=95=B0=E6=8D=AE=EF=BC=8C<strong>=E5=
+=BC=BA=E8=B0=83=E4=BA=A4=E6=98=93=E8=A7=84=E6=A8=A1 / =E7=83=AD=E5=BA=A6=EF=
+=BC=8C=E4=B8=8D=E5=BC=BA=E8=B0=83=E7=B2=BE=E7=A1=AE=EF=BC=8C=E5=BC=BA=E8=B0=
+=83=E5=A4=A7=E5=B0=8F=E3=80=82</strong><br></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"ce27dc36-1810-42d4-a7d1-a90=
+c1f098f61" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 161.0px;">
+<col style=3D"width: 345.0px;">
+<col style=3D"width: 253.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E6=95=B0=E5=80=BC</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=AD=97=E6=AE=B5/=E4=BD=8D=E7=BD=AE</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=A7=84=E8=8C=83</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1.1 =E8=A7=84=E6=A8=A1=E7=9B=B8=E5=85=B3=E6=95=B0=E5=80=BC</p></td>
+<td class=3D"confluenceTd">
+<p><code>24h Vol</code><br>
+{TradePage_MarketDetail<br><code>Liquidity(L/S)</code><br>
+{TradePage_MarketDetail<br><code>Open Interest(L/S)</code><br>
+{TradePage_MarketDetail<br><code>24h Vol </code><br>
+{TradePage_Positions<br><code>Size</code><br>
+{TradePage_Positions; TradePage_Positions_ChangeCollateralPopup;TradePage_P=
+ositions_ClosePopup; TradePage_Orders; WalletPopup_ActivityTab; TradePage_H=
+istory<br><code>Collateral</code><br>
+ {TradePage_Positions; TradePage_Positions_ChangeCollateralPopup; TradePage=
+_Positions_ClosePopup; TradePage_Orders; TradePage_History<br><code>Est. Pn=
+L</code><br>
+{TradePage_Positions; TradePage_Positions_ClosePopup<br><code>Unrealized Pn=
+L</code><br>
+{TradePage_Positions_NetPnLTooltip;<br><code>Fees - =E5=8C=85=E6=8B=AC Open=
+ Fee, Close Fee, Borrow Fee, Network Fee (USD),Deposit Fee</code><br>
+{TradePage_Positions_ChangeCollateralPopup; TradePage_Positions_NetPnLToolt=
+ip; TradePage_History<br><code>Max</code><br>
+{TradePage_Positions_ChangeCollateralPopup;<br><code>Est.PnL</code><br>
+{TradePage_Positions_ChangeCollateralPopup;WalletPopup_ActivityTab<br><code=
+>Held Token(USD=EF=BC=89</code><br>
+{CoinlistPopup; WalletPopup_PortfolioTab<br><code>Est. Receive (USD)</code>=
+<br>
+{TradePage_Positions_ClosePopup<br><code>Balance</code><br>
+{WalletPopup_<br>
+//<br><code>Total Liquidity</code><br>
+{HzLPPage; HzLPPage_LiquidityTooltip<br><code>Market Cap</code><br>
+{HzLPPage<br><code>PoolSIze(USD)</code><br>
+{HzLPPage_LiquidityAllocation<br><code> Available for Borrow</code>;<code>M=
+axDepositInput</code>; <code>Remaining Withdrawal Limit</code><br>
+{HzLPPage_LiquidityAllocation_UtilizationTooltip<br><code>Fees</code><br>
+{HzLPPage_TradingPanel</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>=E6=95=B0=E5=80=BC&lt; 0.01=EF=BC=9A=E5=B1=95=E7=A4=BA &lt;0.01<br>
+e.g. =E6=94=AF=E4=BB=980.001 SUI=E6=97=B6=EF=BC=8C=E8=BE=93=E5=85=A5=E6=A1=
+=86=E6=8D=A2=E7=AE=97=E5=B1=95=E7=A4=BA &lt;$0.01</p></li>
+<li>
+<p>0.01 =E2=89=A4 =E6=95=B0=E5=80=BC&lt; 1,000=EF=BC=9A.2dp <br>
+e.g. Fee $1.03</p></li>
+<li>
+<p>1,000=E2=89=A4 =E6=95=B0=E5=80=BC&lt;1,000,000=EF=BC=9A.2dp K<br>
+e.g. 2.45 K</p></li>
+<li>
+<p>1,000,000=E2=89=A4 =E6=95=B0=E5=80=BC&lt;1,000,000,000=EF=BC=9A=E5=B1=95=
+=E7=A4=BA .2dp M<br>
+e.g. 2.45 M</p></li>
+<li>
+<p>10e9=E2=89=A4 =E6=95=B0=E5=80=BC=EF=BC=9A=E5=B1=95=E7=A4=BA .2dp B<br>
+e.g. 2,450.45 B</p></li>
+<li>
+<p>=E6=9C=89=E5=8D=95=E4=BD=8D=E5=B1=95=E7=A4=BA=E5=8D=95=E4=BD=8D=EF=BC=9A=
+$<br>
+e.g. $2,450.45 B</p></li>
+<li>
+<p>=E7=89=B9=E6=AE=8A=EF=BC=9A=E6=BB=91=E7=82=B9 =E6=9D=A0=E6=9D=86 =E8=BE=
+=93=E5=85=A5=E6=A1=86=E5=BF=AB=E6=8D=B7=E8=BE=93=E5=85=A5=E7=99=BE=E5=88=86=
+=E6=AF=94=E7=AD=89 =E4=BB=A5=E5=AE=9E=E9=99=85=E8=AE=BE=E7=BD=AE=E7=B2=BE=
+=E5=BA=A6=E4=B8=BA=E5=87=86</p></li>
+</ol></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1.2 =E4=BD=99=E9=A2=9D=E5=B1=95=E7=A4=BA=E7=9B=B8=E5=85=B3=E8=B5=84=E4=
+=BA=A7=E6=95=B0=E9=87=8F =EF=BC=88=E5=B8=81=EF=BC=89<br>
+(<strong>=E5=B0=8F=E9=A2=9D=E9=9A=90=E8=97=8F=E5=88=86bi zhong=E7=89=B9=E6=
+=AE=8A=E5=A4=84=E7=90=86</strong>)</p></td>
+<td class=3D"confluenceTd">
+<p><code>Network Fee</code><br>
+{TradePage_Positions_ChangeCollateralPopup;<br><code>Held Token Amount(=E5=
+=B8=81=EF=BC=89</code><br>
+{CoinlistPopup; WalletPopup_PortfolioTab<br><code>Est. Receive (=E5=B8=81)<=
+/code><br><code>Balance=EF=BC=88=E5=B8=81=EF=BC=89=EF=BC=9B</code><br>
+{TradePage_TradePanel; TradePage_Positions_ClosePopup;HzLPPage_TradePanel;<=
+br><code> HzLP Supply</code><br>
+{HzLPPage<br><code>Held HzLP=EF=BC=88=E5=B8=81=EF=BC=89</code><br>
+{HzLPPage_tradepanel</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p><strong>=E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86=EF=BC=9A</strong><code>Netw=
+ork Fee </code><strong>=E6=A8=A1=E6=8B=9F=E5=88=99=E5=B1=95=E7=A4=BA3dp=EF=
+=BC=8C=E5=86=99=E6=AD=BB=E5=88=99=E9=BB=98=E8=AE=A4 0.05 SUI</strong>;</p><=
+/li>
+<li>
+<p>=E5=B8=81=E6=9C=AC=E4=BD=8D=E6=95=B0=E9=87=8F=E5=B1=95=E7=A4=BA=EF=BC=9A=
+<br>
+a. =E6=95=B0=E5=80=BC =E2=89=A51,000=EF=BC=9A=E5=8D=83=E5=88=86=E7=AC=A6=EF=
+=BC=8C2dp<br>
+e.g. Wallet WBTC Balance =3D 4,830.12</p>
+<p>b. 1=E2=89=A4 =E6=95=B0=E5=80=BC &lt;1,000=EF=BC=9A<strong>BTC 6dp</stro=
+ng><br><strong>ETH 4dp SUI 2dp</strong><br>
+e.g. 9,994.12 SUI <br>
+e.g. 45.4325 ETH<br>
+e.g. 2.123456 WBTC</p>
+<p></p>
+<p>c. 0.0001=E2=89=A4 =E6=95=B0=E5=80=BC &lt;1=EF=BC=9A=E5=B1=95=E7=A4=BA4s=
+f<br>
+e.g. 0.1234 SUI<br>
+e.g. 0.0001234 BTC</p>
+<p></p>
+<p>d. =E6=95=B0=E5=80=BC&lt;0.0001=E5=B1=95=E7=A4=BA=E5=B0=8F=E5=B0=BE=E5=
+=B7=B4 5sf<br>
+e.g. 0.0=E2=82=8512345 BTC</p>
+<p>e. =E5=B0=8F=E9=A2=9D=E9=9A=90=E8=97=8F=EF=BC=9A<br>
+&lt;0.000001 BTC<br>
+&lt;0.0001ETH<br>
+&lt;0.01 SUI</p>
+<p>f. =E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86=EF=BC=9A=E7=A8=B3=E5=AE=9A=E5=B8=
+=81=EF=BC=8C=E6=8C=89=E7=BE=8E=E5=85=83=E8=A7=86=E8=A7=89=E4=B9=A0=E6=83=AF=
+=E5=B1=95=E7=A4=BA=EF=BC=9A2dp<br>
+e.g. 1.12 USDC</p></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-=E5=89=8D=E7=AB=AF=E6=95=B0=E5=AD=97=E5=B1=95=E7=A4=BA=E8=A7=
+=84=E8=8C=83-2.Trading=E7=9B=B8=E5=85=B3=E6=95=B0=E5=80=BC=EF=BC=9A"><stron=
+g>2. Trading</strong>=E7=9B=B8=E5=85=B3=E6=95=B0=E5=80=BC=EF=BC=9A</h2>
+<p>=E9=80=82=E7=94=A8=EF=BC=9A<strong>=E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA<=
+/strong>=E7=B1=BB=E6=95=B0=E6=8D=AE=EF=BC=9B<strong>=E7=B2=BE=E5=BA=A6=E8=
+=A6=81=E6=B1=82=E6=9B=B4=E9=AB=98=E3=80=82=E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=
+=86=EF=BC=9A=E4=BB=B7=E6=A0=BC=E5=8F=98=E5=8A=A8=E5=B7=AE=E5=BC=82=E6=9E=81=
+=E5=B0=8F=E8=B5=84=E4=BA=A7</strong><br></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"49920867-bd49-4722-9d63-da1=
+b8f271e0e" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E6=95=B0=E5=80=BC</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=AD=97=E6=AE=B5/=E4=BD=8D=E7=BD=AE</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=A7=84=E8=8C=83</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>2.1 =E8=B5=84=E4=BA=A7=E4=BB=B7=E6=A0=BC (USD)<br>
+=EF=BC=88=E5=B0=8F=E9=A2=9D=E9=9A=90=E8=97=8F=EF=BC=9A&lt;$0.1)</p></td>
+<td class=3D"confluenceTd">
+<p><code>Mark Price</code> {TradePage_MarketList; TradePage_MarketDetail; H=
+zLP_LiquidityAllocation; <br><code>24h Low</code><br>
+{TradePage_MarketDetail; <br><code>24h High</code><br>
+{TradePage_MarketDetail; <br><code>Entry Price; Mark Price; Liq. Price</cod=
+e><br>
+{TradePage_Positions; TradePage_Positions_ChangeCollateralPopup;TradePage_P=
+ositions_ClosePopup; WalletPopup_PortfolioTab; WalletPopup_ActivityTab<br><=
+code>Trigger Price</code><br>
+{TradePage_Positions_ClosePopup;WalletPopup_PortfolioTab<br><code>Price</co=
+de><br>
+{TradePage_Order; TradePage_History<br><code>HzLP Price</code><br>
+{{HzLPPage; HzLPPage_tradepanel</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>=E5=B1=95=E7=A4=BA=E5=AE=8C=E6=95=B4=E4=B8=8D=E7=BC=A9=E7=95=A5</p></li>
+<li>
+<p>=E5=B1=95=E7=A4=BA=E7=BE=8E=E5=85=83=E5=8D=95=E4=BD=8D=EF=BC=9A$</p></li=
+>
+<li>
+<p>=E6=95=B0=E5=80=BC =E2=89=A5100=EF=BC=9A=E5=8D=83=E5=88=86=E7=AC=A6=EF=
+=BC=8C2dp<br>
+e.g. ETHUSD - $3629.12; WBTCUSD - $114,830.12</p></li>
+<li>
+<p>1=E2=89=A4 =E6=95=B0=E5=80=BC &lt;100=EF=BC=9A4dp<br>
+e.g. SUIUSD - $4.1234; KAITOUSD - $1.1234</p></li>
+<li>
+<p>0.0001=E2=89=A4 =E6=95=B0=E5=80=BC &lt;1=EF=BC=9A=E5=B1=95=E7=A4=BA4sf<b=
+r>
+e.g. FARTCOINUSD - $0.1234<br>
+PUMPUSD - $0.001234</p></li>
+<li>
+<p>=E6=95=B0=E5=80=BC &lt;0.0001=EF=BC=9A=E5=B1=95=E7=A4=BA=E5=B0=8F=E5=B0=
+=BE=E5=B7=B4 5sf <br>
+e.g. 0.0=E2=82=8512345</p></li>
+<li>
+<p>=E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86=EF=BC=9A=E7=A8=B3=E5=AE=9A=E5=B8=81=
+=EF=BC=8C=E5=A4=96=E6=B1=87=E7=B1=BB=E6=B3=A2=E5=8A=A8=E6=80=A7=E5=B0=8F=E7=
+=9A=84=E4=BB=B7=E6=A0=BC=E5=B1=95=E7=A4=BA=EF=BC=9A4dp=EF=BC=9B<br>
+e.g. USDT $1.1234<br>
+TRYUSD $0.0246</p></li>
+</ol></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>2.2 =E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA=E7=9B=B8=E5=85=B3=E8=B5=84=E4=
+=BA=A7=E6=95=B0=E9=87=8F =EF=BC=88=E5=B8=81=E6=9C=AC=E4=BD=8D=EF=BC=89<br>
+=EF=BC=88=E5=B0=8F=E9=A2=9D=E9=9A=90=E8=97=8F=EF=BC=9A<br>
+&lt; 0.000001 [token])</p></td>
+<td class=3D"confluenceTd">
+<p><code>Pay=EF=BC=9BEst. Receive=EF=BC=9BMax=E5=9B=9E=E5=A1=AB</code><br>
+{TradePage_TradePanel; TradePage_Positions_ClosePopup;HzLPPage_TradePanel;<=
+/p>
+<p><code>Rate</code><br>
+{HzLPPage_tradepanel<br></p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>ETH, SUI, BTC, HzLP 6dp, =E6=95=B0=E5=80=BC&lt;0.000001=E6=97=B6=E5=B1=
+=95=E7=A4=BA&lt;0.000001</p></li>
+<li>
+<p><code>rate</code>=E6=B1=87=E7=8E=87=E5=B1=95=E7=A4=BA=E7=89=B9=E6=AE=8A=
+=E5=A4=84=E7=90=86=EF=BC=9A</p>
+<p>a. =E6=95=B0=E5=80=BC =E2=89=A5100=EF=BC=9A=E5=8D=83=E5=88=86=E7=AC=A6=
+=EF=BC=8C2dp<br>
+e.g. ETH:HzLP =3D 3629.12; WBTC:HzLP =3D 114,830.12</p>
+<p>b. 1=E2=89=A4 =E6=95=B0=E5=80=BC &lt;100=EF=BC=9A4dp<br>
+e.g. SUI:HzLP =3D 4.1234</p>
+<p>c. 0.0001=E2=89=A4 =E6=95=B0=E5=80=BC &lt;1=EF=BC=9A=E5=B1=95=E7=A4=BA4s=
+f<br>
+e.g. HzLP:SUI =3D 0.1234</p>
+<p>d. =E6=95=B0=E5=80=BC &lt;0.0001=EF=BC=9A=E5=B1=95=E7=A4=BA=E5=B0=8F=E5=
+=B0=BE=E5=B7=B4 5sf <br>
+e.g. HzLP: BTC =3D 0.0=E2=82=8512345</p>
+<p>e. =E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86=EF=BC=9A=E7=A8=B3=E5=AE=9A=E5=B8=
+=81=EF=BC=8C=E5=A4=96=E6=B1=87=E7=B1=BB=E6=B3=A2=E5=8A=A8=E6=80=A7=E5=B0=8F=
+=E7=9A=84=E6=B1=87=E7=8E=87=E5=B1=95=E7=A4=BA=EF=BC=9A4dp=EF=BC=9B<br>
+e.g. USDC:HzLP =3D 1.1234</p></li>
+<li>
+<p><code>PoolSize=EF=BC=88=E5=B8=81=EF=BC=89</code>hover=E6=97=B6=E7=89=B9=
+=E6=AE=8A=E5=A4=84=E7=90=86=EF=BC=9A=E5=B1=95=E7=A4=BA=E5=AE=8C=E6=95=B4=E5=
+=B0=8F=E6=95=B0, &lt;0.0001=E5=B1=95=E7=A4=BA=E5=B0=8F=E5=B0=BE=E5=B7=B40.0=
+=E2=82=8512345 BTC</p></li>
+</ol></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>2.3 =E7=99=BE=E5=88=86=E6=95=B0<br>
+=EF=BC=88=E5=B0=8F=E9=A2=9D=E9=9A=90=E8=97=8F=EF=BC=9A&lt;0.01%)<br></p></t=
+d>
+<td class=3D"confluenceTd">
+<p><code>24h%</code><br>
+{TradePage_MarketList; TradePage_MarketDetail; <br><code>Est. PnL%</code><b=
+r>
+{TradePage_Positions; TradePage_Positions_ClosePopup<br><code>Current/Targe=
+t Weightage</code><br>
+{HzLPPage_LiquidityAllocation;<br><code>Utilization</code><br>
+{HzLPPage_LiquidityAllocation<br><code>APR=EF=BC=9BAPY</code><br>
+{HzLPPage_LiquidityAllocation</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>=E7=89=B9=E6=AE=8A=EF=BC=9A=E6=BB=91=E7=82=B9 =E6=9D=A0=E6=9D=86 <code>b=
+orrow</code><br><code>rate%</code> =E8=BE=93=E5=85=A5=E6=A1=86=E5=BF=AB=E6=
+=8D=B7=E8=BE=93=E5=85=A5=E7=99=BE=E5=88=86=E6=AF=94=E7=AD=89 =E4=BB=A5=E5=
+=AE=9E=E9=99=85=E8=AE=BE=E7=BD=AE=E7=B2=BE=E5=BA=A6=E4=B8=BA=E5=87=86=EF=BC=
+=9B=E6=9C=89=E8=B4=9F=E5=80=BC=E7=9A=84=E5=B8=A6=E5=8A=A0=E5=87=8F=E5=8F=B7=
+</p></li>
+<li>
+<p>&lt;0.01%=E8=AE=B0=E5=81=9A&lt;0.01%</p></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_2_1429923664.1772007948835--

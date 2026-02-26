@@ -1,1255 +1,142 @@
-Date: Wed, 25 Feb 2026 08:29:59 +0000 (UTC)
+# Research - Chaos Labs风控参数自动化
 
-Message-ID: \<1858170559.37.1772008199751@d9e7a55ef2cb\>
+<div class="Section1">
 
-Subject: Exported From Confluence
+<div class="confluence-information-macro confluence-information-macro-information">
 
-MIME-Version: 1.0
+<style>[data-colorid=p2132iyc2i]{color:#bf2600} html[data-color-mode=dark] [data-colorid=p2132iyc2i]{color:#ff6640}[data-colorid=uuqj8vt20g]{color:#bf2600} html[data-color-mode=dark] [data-colorid=uuqj8vt20g]{color:#ff6640}[data-colorid=p8e9ipf42j]{color:#bf2600} html[data-color-mode=dark] [data-colorid=p8e9ipf42j]{color:#ff6640}</style><span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon"></span>
 
-Content-Type: multipart/related;
+<div class="confluence-information-macro-body">
 
-boundary="----=\_Part_36_1631763067.1772008199751"
+**调研人：**<a href="https://hertzflow.atlassian.net/wiki/people/712020:d48dd58c-bb1b-4c50-94db-2cabaaa6b6a3?ref=confluence" class="confluence-userlink user-mention" data-account-id="712020:d48dd58c-bb1b-4c50-94db-2cabaaa6b6a3" target="_blank" data-linked-resource-id="360623" data-linked-resource-version="1" data-linked-resource-type="userinfo" data-base-url="https://hertzflow.atlassian.net/wiki">novax 0x</a>
 
-------=\_Part_36_1631763067.1772008199751
+**调研背景：**
 
-Content-Type: text/html; charset=UTF-8
+1.  <a href="https://chaoslabs.xyz/posts/gmx-v2-risk-portal-product-launch" class="external-link" rel="nofollow">GMX</a>跟<a href="https://chaoslabs.xyz/posts/chaos-labs-partners-with-jupiter-protocol" class="external-link" rel="nofollow">Jupite</a>r还有<a href="https://chaoslabs.xyz/posts/chaos-labs-partners-with-avantis#e16611c70c2a" class="external-link" rel="nofollow">avantis</a>都跟chaoslabs有不同程度的合作（其中GMX&JUP接了risk oracle，AVNT的话是参与了risk para的风控参数评估与推荐）
 
-Content-Transfer-Encoding: quoted-printable
+2.  流程：<a href="https://docs.chaoslabs.xyz/integration-guides/risk-integration/overview" class="external-link" rel="nofollow">Risk Oracle → Keeper → Config Updates</a>； <a href="https://github.com/ChaosLabsInc/chaos-agents" class="external-link" rel="nofollow">github相关链接1</a>； <a href="https://github.com/ChaosLabsInc/chaos-agents-factory" class="external-link" rel="nofollow">链接2</a>
 
-Content-Location: file:///C:/exported.html
+3.  责任：负责参数根据市场响应自动化更新。即动态更新funding，max OI，tvl cap等市场/池子/vaults的风控参数。<a href="https://community.chaoslabs.xyz/gmx-v2-arbitrum/risk/markets" class="external-link" rel="nofollow">可视化dashboard</a>；<a href="https://community.chaoslabs.xyz/gmx-v2-arbitrum/risk/alerts" class="external-link" rel="nofollow">风险监控&amp;实时推送</a>
 
-\<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+**结论：**
 
-xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+1.  Chaos Labs 的 Risk Oracle 并不是通用型 SaaS，而是Chaos Labs量化团队根据合作方体量针对性的 **链下模拟 + 链上推荐值** 的系统。
 
-xmlns:v=3D'urn:schemas-microsoft-com:vml'
+2.  Chaos Labs 本身不会改动我们的合约，也不会理解我们所有内部逻辑。他们只负责在链上写入“推荐参数值”；是否采用、如何验证、何时生效，都需要我们在协议层自行实现。
 
-xmlns=3D'urn:w3-org-ns:HTML'\>
+3.  HertzFlow必须构建自己的 Oracle 读取逻辑、Keeper 执行模块、挑战窗口机制，以及参数有效性验证流程。
 
-\<head\>
+</div>
 
-\<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+</div>
 
-"\>
+# 合作模式选择
 
-\<title\>Research - Chaos Labs=E9=A3=8E=E6=8E=A7=E5=8F=82=E6=95=B0=E8=87=
+<div class="table-wrap">
 
-=AA=E5=8A=A8=E5=8C=96\</title\>
+<table class="confluenceTable" data-table-width="760" data-layout="default" data-local-id="78d1bcad-4994-4890-ac8e-68b01d22a7ec">
+<tbody>
+<tr>
+<th class="confluenceTh"><p>方案</p></th>
+<th class="confluenceTh"><p>能力</p></th>
+<th class="confluenceTh"><p>成本</p></th>
+<th class="confluenceTh"><p>适用性</p></th>
+</tr>
+&#10;<tr>
+<td class="confluenceTd"><p><strong>一次性初始风险框架（Avantis 用的）</strong></p></td>
+<td class="confluenceTd"><p>初始参数建议，无自动化</p></td>
+<td class="confluenceTd"><p>中</p></td>
+<td class="confluenceTd"><p><strong>适用测试网</strong></p>
+<p>快速起步，但后续要自己调</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>全自动 Risk Oracle（GMX 用的）</strong></p></td>
+<td class="confluenceTd"><p>自动推荐 + 持续更新</p>
+<ul>
+<li><p><strong>已实现：</strong>只有两部分已经自动化<strong>Long/Short OI Cap</strong> 和 <strong>Dynamic Price Impact</strong>。</p></li>
+<li><p><strong>计划中：</strong>根据 GMX 的治理提案，未来还会逐步开放<strong>Funding、Borrow、Vault 流动性分配等更多风险参数</strong>。</p></li>
+</ul></td>
+<td class="confluenceTd"><p><strong><span data-colorid="uuqj8vt20g">高</span></strong></p>
+<ul>
+<li><p>GMX 的合同费用约为 <strong>18,333 美元/月</strong></p></li>
+<li><p>Aave 的合作金额接近 <strong>85 万美元</strong></p></li>
+</ul></td>
+<td class="confluenceTd"><p><strong>一定规模后<span data-colorid="p2132iyc2i">【需上层决策具体体量】</span>适用主网</strong></p>
+<p>最安全，但投入最大</p></td>
+</tr>
+</tbody>
+</table>
 
-\<!--\[if gte mso 9\]\>
+</div>
 
-\<xml\>
+1.  **可信度：**综合来看，Chaos Labs 当前是最成熟的 DeFi 风险建模与自动化参数管理服务商。可靠性方面，Chaos Labs 已经获得 GMX 社区的高度认可：GMX DAO 投票以 100% 支持其接入；他们也负责 GMX V2 启动时的 Genesis Risk Framework，并为 **Aave、Jupiter、Pendle、dYdX** 等多个大型协议提供建模服务。相较之下，Gauntlet 更偏向“写报告 + 提案”，自动化能力弱，是一种不同路线。
 
-\<o:OfficeDocumentSettings\>
+2.  **成本投入：**Chaos Labs 的价格体系较高。Chaos Labs 没有轻量订阅版，唯一低成本选择是一锤子买卖的“初始风险框架”咨询，只提供**初始参数**，不包含自动化更新和持续监控。如果我们希望长期使用动态 Risk Oracle，则成本需要充分考虑。
 
-\<o:TargetScreenSize\>1024x640\</o:TargetScreenSize\>
+3.  **技术投入：**从当前代码仓库情况来看，我们暂时无法直接对接 Risk Oracle。现有仓库仅有配置占位，没有实际实现：缺少 Risk Oracle 读取逻辑、正式 Keeper 实现，以及参数挑战/确认机制。同时要理解 Chaos Labs 输出的参数含义，也需要团队具备完整的风险建模背景。总体估算，实现对接至少需要 **<span colorid="p8e9ipf42j">【产品确认合作方式后技术评估】 </span>周的工程量**。
 
-\<o:PixelsPerInch\>72\</o:PixelsPerInch\>
+# Q&A
 
-\<o:AllowPNG/\>
+### Q1：Risk Oracle 是通用产品吗？Chaos Labs 不懂我们合约怎么智能调参数？
 
-\</o:OfficeDocumentSettings\>
+**A1**\
 
-\<w:WordDocument\>
+- Risk Oracle 只是链上推荐引擎：Chaos Labs 在链下做模拟，写入推荐值；执行权在协议的 Keeper。Chaos Labs 不会直接改我们合约。
 
-\<w:View\>Print\</w:View\>
+- 如果我们希望使用这些推荐值，就要自行编写读取 Risk Oracle 的合约或脚本、自主的 Keeper、以及挑战窗口逻辑。Chaos Labs 只提供推荐值、允许的调节范围和否决流程说明。
 
-\<w:Zoom\>90\</w:Zoom\>
+- Risk Oracle 的能力靠深入理解客户协议（例如 GMX V2 的 market config、impact 公式、资金费率模型），再由量化团队建模。不是一个套模板的通用 SaaS。
 
-\<w:DoNotOptimizeForBrowser/\>
+### Q2：GMX 只开放 OI Cap，Chaos Labs 还能管理哪些参数？
 
-\</w:WordDocument\>
+**A2**\
 
-\</xml\>
+- 已经自动化的参数：Long/Short OI Cap、Dynamic Price Impact。截图里的 Recommended Value 对应这两类参数。
 
-\<\![endif\]--\>
+- 规划中的参数：GMX 治理提案写明会逐步开放 Funding、Borrow、Vault 流动性分配等。Chaos Labs 在 Aave 已经试运行类似的借贷上限、清算阈值、利率等参数。
 
-\<style\>
+### Q3：**我们能否直接照搬 Chaos Labs 给 GMX 的推荐值？**
 
-\<!--
+**A3**\
 
-@page Section1 {
+- Chaos Labs 在 Public Risk Hub 公布推荐值，任何人都能查看。这些数值包含市场最大未平仓金额（OI Cap）、价格冲击系数等核心安全阈值。
 
-size: 8.5in 11.0in;
+- 不能照搬：Chaos Labs 给 GMX 的推荐值建立在 GMX 自有的流动性规模、手续费结构、清算深度、Keeper 响应速度以及风险参数之间的联动关系之上。我们的仓位规模、LP 资金池、订单执行流程与 GMX 并不相同，需要结合自己的流动性状况和清算模型重新设置。
 
-margin: 1.0in;
+- 还会带来社区形象风险：参数名或数值完全一致，容易被认为缺乏自主风控能力。
 
-mso-header-margin: .5in;
+### Q4：Chaos Labs 的服务费用是多少？是否存在免费版？
 
-mso-footer-margin: .5in;
+**A4**\
 
-mso-paper-source: 0;
+- 持续服务价格高：GMX 付费约 18,333 美元/月，Aave 的合同金额约 850,000 美元。
 
-}
+- 没有轻量订阅版。唯一的低成本方案是一次性咨询（例如 Avantis 的创世风险框架），该方案只给初始参数，不包含持续更新与自动化。
 
-table {
+- 公共仪表盘属于营销层的免费服务，真正适合协议的安全参数需要付费定制。
 
-border: solid 1px;
+### Q5：与现有仓库对接需要多少工程量？
 
-border-collapse: collapse;
+**A5**\
 
-}
+- 需要在合约或脚本里完成 Risk Oracle 读取功能。`contracts-v2/config/riskOracle.ts` 只有配置占位，没有实际读取逻辑。
 
-table td, table th {
+- 需要构建 Keeper：在 `config/general.ts` 中配置执行 gas、挑战窗口等参数，并写 Keeper 执行代码。目前仓库缺乏正式 Keeper 实现。
 
-border: solid 1px;
+- 需要团队理解每个参数的含义，才能判断 Chaos Labs 的推荐值是否符合本协议的风险边界。
 
-padding: 5px;
+### Q6：Chaos Labs 是否可靠？与 GMX 的合作深度如何？
 
-}
+**A6**\
 
-td {
+- GMX DAO 在 2024 年 9 月发起的治理投票中，以 100% 的赞成票决定让 Chaos Labs 的 Risk Oracle 进入 GMX 协议。此前，Chaos Labs 已经为 GMX V2 写过风险规则总集（被 GMX 称作“Genesis Risk Framework”），这一步当时用于定义 GMX V2 启动时的初始参数。
 
-page-break-inside: avoid;
+- 当前双方合作范围包含两项自动化：最大未平仓头寸上限（Long/Short OI Cap）和价格冲击参数（Dynamic Price Impact）。在同一份治理说明里，GMX 表示下一阶段会把资金费率（Funding）和借币利率（Borrow）也交给 Chaos Labs 来计算推荐值。
 
-}
+- Chaos Labs 公开列出的付费客户还包括 Jupiter、Aave、dYdX、Pendle 等。Avantis 目前只付费购买了 Chaos Labs 的初始参数咨询服务，没有启用自动化更新。
 
-tr {
+- 主要竞争对手 Gauntlet 仍主要提供“写报告＋提交治理提案”的服务模式，缺乏直接的自动化推送。2024 年初 Aave 社区因为合作沟通问题解约了 Gauntlet，并由 Chaos Labs 接手部分风险建模工作。
 
-page-break-after: avoid;
+评估 Gauntlet 等备选服务时，应重点比较自动化能力、响应速度和协同体验。
 
-}
-
-div.Section1 {
-
-page: Section1;
-
-}
-
-/\* Confluence print stylesheet. Common to all themes for print medi=
-
-a \*/
-
-/\* Full of !important until we improve batching for print CSS \*/
-
-@media print {
-
-\#main {
-
-padding-bottom: 1em !important; /\* The default padding of 6em is to=
-
-o much for printouts \*/
-
-}
-
-body {
-
-font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
-
-rif);
-
-}
-
-body, \#full-height-container, \#main, \#page, \#content, .has-personal-sid=
-
-ebar \#content {
-
-background: var(--ds-surface, \#fff) !important;
-
-color: var(--ds-text, \#000) !important;
-
-border: 0 !important;
-
-width: 100% !important;
-
-height: auto !important;
-
-min-height: auto !important;
-
-margin: 0 !important;
-
-padding: 0 !important;
-
-display: block !important;
-
-}
-
-a, a:link, a:visited, a:focus, a:hover, a:active {
-
-color: var(--ds-text, \#000);
-
-}
-
-\#content h1,
-
-\#content h2,
-
-\#content h3,
-
-\#content h4,
-
-\#content h5,
-
-\#content h6 {
-
-page-break-after: avoid;
-
-}
-
-pre {
-
-font: var(--ds-font-code, Monaco, "Courier New", monospace);
-
-}
-
-\#header,
-
-.aui-header-inner,
-
-\#navigation,
-
-\#sidebar,
-
-.sidebar,
-
-\#personal-info-sidebar,
-
-.ia-fixed-sidebar,
-
-.page-actions,
-
-.navmenu,
-
-.ajs-menu-bar,
-
-.noprint,
-
-.inline-control-link,
-
-.inline-control-link a,
-
-a.show-labels-editor,
-
-.global-comment-actions,
-
-.comment-actions,
-
-.quick-comment-container,
-
-\#addcomment {
-
-display: none !important;
-
-}
-
-/\* CONF-28544 cannot print multiple pages in IE \*/
-
-\#splitter-content {
-
-position: relative !important;
-
-}
-
-.comment .date::before {
-
-content: none !important; /\* remove middot for print view \*/
-
-}
-
-h1.pagetitle img {
-
-height: auto;
-
-width: auto;
-
-}
-
-.print-only {
-
-display: block;
-
-}
-
-\#footer {
-
-position: relative !important; /\* CONF-17506 Place the footer at en=
-
-d of the content \*/
-
-margin: 0;
-
-padding: 0;
-
-background: none;
-
-clear: both;
-
-}
-
-\#poweredby {
-
-border-top: none;
-
-background: none;
-
-}
-
-\#poweredby li.print-only {
-
-display: list-item;
-
-font-style: italic;
-
-}
-
-\#poweredby li.noprint {
-
-display: none;
-
-}
-
-/\* no width controls in print \*/
-
-.wiki-content .table-wrap,
-
-.wiki-content p,
-
-.panel .codeContent,
-
-.panel .codeContent pre,
-
-.image-wrap {
-
-overflow: visible !important;
-
-}
-
-/\* TODO - should this work? \*/
-
-\#children-section,
-
-\#comments-section .comment,
-
-\#comments-section .comment .comment-body,
-
-\#comments-section .comment .comment-content,
-
-\#comments-section .comment p {
-
-page-break-inside: avoid;
-
-}
-
-\#page-children a {
-
-text-decoration: none;
-
-}
-
-/\*\*
-
-hide twixies
-
-the specificity here is a hack because print styles
-
-are getting loaded before the base styles. \*/
-
-\#comments-section.pageSection .section-header,
-
-\#comments-section.pageSection .section-title,
-
-\#children-section.pageSection .section-header,
-
-\#children-section.pageSection .section-title,
-
-.children-show-hide {
-
-padding-left: 0;
-
-margin-left: 0;
-
-}
-
-.children-show-hide.icon {
-
-display: none;
-
-}
-
-/\* personal sidebar \*/
-
-.has-personal-sidebar \#content {
-
-margin-right: 0px;
-
-}
-
-.has-personal-sidebar \#content .pageSection {
-
-margin-right: 0px;
-
-}
-
-.no-print, .no-print \* {
-
-display: none !important;
-
-}
-
-}
-
---\>
-
-\</style\>
-
-\</head\>
-
-\<body\>
-
-\<h1\>Research - Chaos Labs=E9=A3=8E=E6=8E=A7=E5=8F=82=E6=95=B0=E8=87=AA=
-
-=E5=8A=A8=E5=8C=96\</h1\>
-
-\<div class=3D"Section1"\>
-
-\<div class=3D"confluence-information-macro confluence-information-m=
-
-acro-information"\>
-
-\<style\>\[data-colorid=3Dp2132iyc2i\]{color:#bf2600} html\[data-color-mode=3Dda=
-
-rk\] \[data-colorid=3Dp2132iyc2i\]{color:#ff6640}\[data-colorid=3Duuqj8vt20g\]{c=
-
-olor:#bf2600} html\[data-color-mode=3Ddark\] \[data-colorid=3Duuqj8vt20g\]{colo=
-
-r:#ff6640}\[data-colorid=3Dp8e9ipf42j\]{color:#bf2600} html\[data-color-mode=
-
-=3Ddark\] \[data-colorid=3Dp8e9ipf42j\]{color:#ff6640}\</style\>\<span class=3D"a=
-
-ui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon"=
-
-\>\</span\>
-
-\<div class=3D"confluence-information-macro-body"\>
-
-\<p\>\<strong\>=E8=B0=83=E7=A0=94=E4=BA=BA=EF=BC=9A\</strong\>\<a class=3D"conflue=
-
-nce-userlink user-mention" data-account-id=3D"712020:d48dd58c-bb1b-4c50-94d=
-
-b-2cabaaa6b6a3" href=3D"https://hertzflow.atlassian.net/wiki/people/712020:=
-
-d48dd58c-bb1b-4c50-94db-2cabaaa6b6a3?ref=3Dconfluence" target=3D"\_blank" da=
-
-ta-linked-resource-id=3D"360623" data-linked-resource-version=3D"1" data-li=
-
-nked-resource-type=3D"userinfo" data-base-url=3D"https://hertzflow.atlassia=
-
-n.net/wiki"\>novax 0x\</a\>\</p\>
-
-\<p\>\<strong\>=E8=B0=83=E7=A0=94=E8=83=8C=E6=99=AF=EF=BC=9A\</strong\>\</p\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>\<a class=3D"external-link" href=3D"https://chaoslabs.xyz/posts/gmx-v2-ri=
-
-sk-portal-product-launch" rel=3D"nofollow"\>GMX\</a\>=E8=B7=9F\<a class=3D"exte=
-
-rnal-link" href=3D"https://chaoslabs.xyz/posts/chaos-labs-partners-with-jup=
-
-iter-protocol" rel=3D"nofollow"\>Jupite\</a\>r=E8=BF=98=E6=9C=89\<a class=3D"ex=
-
-ternal-link" href=3D"https://chaoslabs.xyz/posts/chaos-labs-partners-with-a=
-
-vantis#e16611c70c2a" rel=3D"nofollow"\>avantis\</a\>=E9=83=BD=E8=B7=9Fchaoslab=
-
-s=E6=9C=89=E4=B8=8D=E5=90=8C=E7=A8=8B=E5=BA=A6=E7=9A=84=E5=90=88=E4=BD=9C=
-
-=EF=BC=88=E5=85=B6=E4=B8=ADGMX&amp;JUP=E6=8E=A5=E4=BA=86risk oracle=EF=BC=
-
-=8CAVNT=E7=9A=84=E8=AF=9D=E6=98=AF=E5=8F=82=E4=B8=8E=E4=BA=86risk para=E7=
-
-=9A=84=E9=A3=8E=E6=8E=A7=E5=8F=82=E6=95=B0=E8=AF=84=E4=BC=B0=E4=B8=8E=E6=8E=
-
-=A8=E8=8D=90=EF=BC=89\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=B5=81=E7=A8=8B=EF=BC=9A\<a class=3D"external-link" href=3D"https://do=
-
-cs.chaoslabs.xyz/integration-guides/risk-integration/overview" rel=3D"nofol=
-
-low"\>Risk Oracle =E2=86=92 Keeper =E2=86=92 Config Updates\</a\>=EF=BC=9B \<a =
-
-class=3D"external-link" href=3D"https://github.com/ChaosLabsInc/chaos-agent=
-
-s" rel=3D"nofollow"\>github=E7=9B=B8=E5=85=B3=E9=93=BE=E6=8E=A51\</a\>=EF=BC=
-
-=9B \<a class=3D"external-link" href=3D"https://github.com/ChaosLabsInc/chao=
-
-s-agents-factory" rel=3D"nofollow"\>=E9=93=BE=E6=8E=A52\</a\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=B4=A3=E4=BB=BB=EF=BC=9A=E8=B4=9F=E8=B4=A3=E5=8F=82=E6=95=B0=E6=A0=B9=
-
-=E6=8D=AE=E5=B8=82=E5=9C=BA=E5=93=8D=E5=BA=94=E8=87=AA=E5=8A=A8=E5=8C=96=E6=
-
-=9B=B4=E6=96=B0=E3=80=82=E5=8D=B3=E5=8A=A8=E6=80=81=E6=9B=B4=E6=96=B0fundin=
-
-g=EF=BC=8Cmax OI=EF=BC=8Ctvl cap=E7=AD=89=E5=B8=82=E5=9C=BA/=E6=B1=A0=E5=AD=
-
-=90/vaults=E7=9A=84=E9=A3=8E=E6=8E=A7=E5=8F=82=E6=95=B0=E3=80=82\<a class=3D=
-
-"external-link" href=3D"https://community.chaoslabs.xyz/gmx-v2-arbitrum/ris=
-
-k/markets" rel=3D"nofollow"\>=E5=8F=AF=E8=A7=86=E5=8C=96dashboard\</a\>=EF=BC=
-
-=9B\<a class=3D"external-link" href=3D"https://community.chaoslabs.xyz/gmx-v=
-
-2-arbitrum/risk/alerts" rel=3D"nofollow"\>=E9=A3=8E=E9=99=A9=E7=9B=91=E6=8E=
-
-=A7&amp;=E5=AE=9E=E6=97=B6=E6=8E=A8=E9=80=81\</a\>\</p\>\</li\>
-
-\</ol\>
-
-\<p\>\<strong\>=E7=BB=93=E8=AE=BA=EF=BC=9A\</strong\>\</p\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>Chaos Labs =E7=9A=84 Risk Oracle =E5=B9=B6=E4=B8=8D=E6=98=AF=E9=80=9A=E7=
-
-=94=A8=E5=9E=8B SaaS=EF=BC=8C=E8=80=8C=E6=98=AFChaos Labs=E9=87=8F=E5=8C=96=
-
-=E5=9B=A2=E9=98=9F=E6=A0=B9=E6=8D=AE=E5=90=88=E4=BD=9C=E6=96=B9=E4=BD=93=E9=
-
-=87=8F=E9=92=88=E5=AF=B9=E6=80=A7=E7=9A=84 \<strong\>=E9=93=BE=E4=B8=8B=E6=A8=
-
-=A1=E6=8B=9F + =E9=93=BE=E4=B8=8A=E6=8E=A8=E8=8D=90=E5=80=BC\</strong\> =E7=
-
-=9A=84=E7=B3=BB=E7=BB=9F=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>Chaos Labs =E6=9C=AC=E8=BA=AB=E4=B8=8D=E4=BC=9A=E6=94=B9=E5=8A=A8=E6=88=
-
-=91=E4=BB=AC=E7=9A=84=E5=90=88=E7=BA=A6=EF=BC=8C=E4=B9=9F=E4=B8=8D=E4=BC=9A=
-
-=E7=90=86=E8=A7=A3=E6=88=91=E4=BB=AC=E6=89=80=E6=9C=89=E5=86=85=E9=83=A8=E9=
-
-=80=BB=E8=BE=91=E3=80=82=E4=BB=96=E4=BB=AC=E5=8F=AA=E8=B4=9F=E8=B4=A3=E5=9C=
-
-=A8=E9=93=BE=E4=B8=8A=E5=86=99=E5=85=A5=E2=80=9C=E6=8E=A8=E8=8D=90=E5=8F=82=
-
-=E6=95=B0=E5=80=BC=E2=80=9D=EF=BC=9B=E6=98=AF=E5=90=A6=E9=87=87=E7=94=A8=E3=
-
-=80=81=E5=A6=82=E4=BD=95=E9=AA=8C=E8=AF=81=E3=80=81=E4=BD=95=E6=97=B6=E7=94=
-
-=9F=E6=95=88=EF=BC=8C=E9=83=BD=E9=9C=80=E8=A6=81=E6=88=91=E4=BB=AC=E5=9C=A8=
-
-=E5=8D=8F=E8=AE=AE=E5=B1=82=E8=87=AA=E8=A1=8C=E5=AE=9E=E7=8E=B0=E3=80=82\</p=
-
-\>\</li\>
-
-\<li\>
-
-\<p\>HertzFlow=E5=BF=85=E9=A1=BB=E6=9E=84=E5=BB=BA=E8=87=AA=E5=B7=B1=E7=9A=84=
-
-Oracle =E8=AF=BB=E5=8F=96=E9=80=BB=E8=BE=91=E3=80=81Keeper =E6=89=A7=E8=A1=
-
-=8C=E6=A8=A1=E5=9D=97=E3=80=81=E6=8C=91=E6=88=98=E7=AA=97=E5=8F=A3=E6=9C=BA=
-
-=E5=88=B6=EF=BC=8C=E4=BB=A5=E5=8F=8A=E5=8F=82=E6=95=B0=E6=9C=89=E6=95=88=E6=
-
-=80=A7=E9=AA=8C=E8=AF=81=E6=B5=81=E7=A8=8B=E3=80=82\</p\>\</li\>
-
-\</ol\>
-
-\</div\>
-
-\</div\>
-
-\<h1 id=3D"Research-ChaosLabs=E9=A3=8E=E6=8E=A7=E5=8F=82=E6=95=B0=E8=87=AA=
-
-=E5=8A=A8=E5=8C=96-=E5=90=88=E4=BD=9C=E6=A8=A1=E5=BC=8F=E9=80=89=E6=8B=A9"\>=
-
-=E5=90=88=E4=BD=9C=E6=A8=A1=E5=BC=8F=E9=80=89=E6=8B=A9\</h1\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"78=
-
-d1bcad-4994-4890-ac8e-68b01d22a7ec" class=3D"confluenceTable"\>
-
-\<colgroup\>
-
-\<col style=3D"width: 190.0px;"\>
-
-\<col style=3D"width: 257.0px;"\>
-
-\<col style=3D"width: 189.0px;"\>
-
-\<col style=3D"width: 122.0px;"\>
-
-\</colgroup\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=96=B9=E6=A1=88\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E8=83=BD=E5=8A=9B\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=88=90=E6=9C=AC\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E9=80=82=E7=94=A8=E6=80=A7\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>=E4=B8=80=E6=AC=A1=E6=80=A7=E5=88=9D=E5=A7=8B=E9=A3=8E=E9=99=A9=
-
-=E6=A1=86=E6=9E=B6=EF=BC=88Avantis =E7=94=A8=E7=9A=84=EF=BC=89\</strong\>\</p\>=
-
-\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=88=9D=E5=A7=8B=E5=8F=82=E6=95=B0=E5=BB=BA=E8=AE=AE=EF=BC=8C=E6=97=A0=
-
-=E8=87=AA=E5=8A=A8=E5=8C=96\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E4=B8=AD\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>=E9=80=82=E7=94=A8=E6=B5=8B=E8=AF=95=E7=BD=91\</strong\>\</p\>
-
-\<p\>=E5=BF=AB=E9=80=9F=E8=B5=B7=E6=AD=A5=EF=BC=8C=E4=BD=86=E5=90=8E=E7=BB=AD=
-
-=E8=A6=81=E8=87=AA=E5=B7=B1=E8=B0=83\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>=E5=85=A8=E8=87=AA=E5=8A=A8 Risk Oracle=EF=BC=88GMX =E7=94=A8=E7=
-
-=9A=84=EF=BC=89\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=87=AA=E5=8A=A8=E6=8E=A8=E8=8D=90 + =E6=8C=81=E7=BB=AD=E6=9B=B4=E6=96=
-
-=B0\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>=E5=B7=B2=E5=AE=9E=E7=8E=B0=EF=BC=9A\</strong\>=E5=8F=AA=E6=9C=89=
-
-=E4=B8=A4=E9=83=A8=E5=88=86=E5=B7=B2=E7=BB=8F=E8=87=AA=E5=8A=A8=E5=8C=96\<st=
-
-rong\>Long/Short OI Cap\</strong\> =E5=92=8C \<strong\>Dynamic Price Impact\</str=
-
-ong\>=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E8=AE=A1=E5=88=92=E4=B8=AD=EF=BC=9A\</strong\>=E6=A0=B9=E6=8D=AE =
-
-GMX =E7=9A=84=E6=B2=BB=E7=90=86=E6=8F=90=E6=A1=88=EF=BC=8C=E6=9C=AA=E6=9D=
-
-=A5=E8=BF=98=E4=BC=9A=E9=80=90=E6=AD=A5=E5=BC=80=E6=94=BE\<strong\>Funding=E3=
-
-=80=81Borrow=E3=80=81Vault =E6=B5=81=E5=8A=A8=E6=80=A7=E5=88=86=E9=85=8D=E7=
-
-=AD=89=E6=9B=B4=E5=A4=9A=E9=A3=8E=E9=99=A9=E5=8F=82=E6=95=B0\</strong\>=E3=80=
-
-=82\</p\>\</li\>
-
-\</ul\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>\<span data-colorid=3D"uuqj8vt20g"\>=E9=AB=98\</span\>\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>GMX =E7=9A=84=E5=90=88=E5=90=8C=E8=B4=B9=E7=94=A8=E7=BA=A6=E4=B8=BA \<str=
-
-ong\>18,333 =E7=BE=8E=E5=85=83/=E6=9C=88\</strong\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>Aave =E7=9A=84=E5=90=88=E4=BD=9C=E9=87=91=E9=A2=9D=E6=8E=A5=E8=BF=91 \<st=
-
-rong\>85 =E4=B8=87=E7=BE=8E=E5=85=83\</strong\>\</p\>\</li\>
-
-\</ul\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>=E4=B8=80=E5=AE=9A=E8=A7=84=E6=A8=A1=E5=90=8E\<span data-colorid=
-
-=3D"p2132iyc2i"\>=E3=80=90=E9=9C=80=E4=B8=8A=E5=B1=82=E5=86=B3=E7=AD=96=E5=
-
-=85=B7=E4=BD=93=E4=BD=93=E9=87=8F=E3=80=91\</span\>=E9=80=82=E7=94=A8=E4=B8=
-
-=BB=E7=BD=91\</strong\>\</p\>
-
-\<p\>=E6=9C=80=E5=AE=89=E5=85=A8=EF=BC=8C=E4=BD=86=E6=8A=95=E5=85=A5=E6=9C=80=
-
-=E5=A4=A7\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>\<strong\>=E5=8F=AF=E4=BF=A1=E5=BA=A6=EF=BC=9A\</strong\>=E7=BB=BC=E5=90=88=
-
-=E6=9D=A5=E7=9C=8B=EF=BC=8CChaos Labs =E5=BD=93=E5=89=8D=E6=98=AF=E6=9C=80=
-
-=E6=88=90=E7=86=9F=E7=9A=84 DeFi =E9=A3=8E=E9=99=A9=E5=BB=BA=E6=A8=A1=E4=B8=
-
-=8E=E8=87=AA=E5=8A=A8=E5=8C=96=E5=8F=82=E6=95=B0=E7=AE=A1=E7=90=86=E6=9C=8D=
-
-=E5=8A=A1=E5=95=86=E3=80=82=E5=8F=AF=E9=9D=A0=E6=80=A7=E6=96=B9=E9=9D=A2=EF=
-
-=BC=8CChaos Labs =E5=B7=B2=E7=BB=8F=E8=8E=B7=E5=BE=97 GMX =E7=A4=BE=E5=8C=
-
-=BA=E7=9A=84=E9=AB=98=E5=BA=A6=E8=AE=A4=E5=8F=AF=EF=BC=9AGMX DAO =E6=8A=95=
-
-=E7=A5=A8=E4=BB=A5 100% =E6=94=AF=E6=8C=81=E5=85=B6=E6=8E=A5=E5=85=A5=EF=BC=
-
-=9B=E4=BB=96=E4=BB=AC=E4=B9=9F=E8=B4=9F=E8=B4=A3 GMX V2 =E5=90=AF=E5=8A=A8=
-
-=E6=97=B6=E7=9A=84 Genesis Risk Framework=EF=BC=8C=E5=B9=B6=E4=B8=BA\<strong=
-
-\> Aave=E3=80=81Jupiter=E3=80=81Pendle=E3=80=81dYdX \</strong\>=E7=AD=89=E5=A4=
-
-=9A=E4=B8=AA=E5=A4=A7=E5=9E=8B=E5=8D=8F=E8=AE=AE=E6=8F=90=E4=BE=9B=E5=BB=BA=
-
-=E6=A8=A1=E6=9C=8D=E5=8A=A1=E3=80=82=E7=9B=B8=E8=BE=83=E4=B9=8B=E4=B8=8B=EF=
-
-=BC=8CGauntlet =E6=9B=B4=E5=81=8F=E5=90=91=E2=80=9C=E5=86=99=E6=8A=A5=E5=91=
-
-=8A + =E6=8F=90=E6=A1=88=E2=80=9D=EF=BC=8C=E8=87=AA=E5=8A=A8=E5=8C=96=E8=83=
-
-=BD=E5=8A=9B=E5=BC=B1=EF=BC=8C=E6=98=AF=E4=B8=80=E7=A7=8D=E4=B8=8D=E5=90=8C=
-
-=E8=B7=AF=E7=BA=BF=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E6=88=90=E6=9C=AC=E6=8A=95=E5=85=A5=EF=BC=9A\</strong\>Chaos Labs=
-
-=E7=9A=84=E4=BB=B7=E6=A0=BC=E4=BD=93=E7=B3=BB=E8=BE=83=E9=AB=98=E3=80=82Ch=
-
-aos Labs =E6=B2=A1=E6=9C=89=E8=BD=BB=E9=87=8F=E8=AE=A2=E9=98=85=E7=89=88=EF=
-
-=BC=8C=E5=94=AF=E4=B8=80=E4=BD=8E=E6=88=90=E6=9C=AC=E9=80=89=E6=8B=A9=E6=98=
-
-=AF=E4=B8=80=E9=94=A4=E5=AD=90=E4=B9=B0=E5=8D=96=E7=9A=84=E2=80=9C=E5=88=9D=
-
-=E5=A7=8B=E9=A3=8E=E9=99=A9=E6=A1=86=E6=9E=B6=E2=80=9D=E5=92=A8=E8=AF=A2=EF=
-
-=BC=8C=E5=8F=AA=E6=8F=90=E4=BE=9B\<strong\>=E5=88=9D=E5=A7=8B=E5=8F=82=E6=95=
-
-=B0\</strong\>=EF=BC=8C=E4=B8=8D=E5=8C=85=E5=90=AB=E8=87=AA=E5=8A=A8=E5=8C=96=
-
-=E6=9B=B4=E6=96=B0=E5=92=8C=E6=8C=81=E7=BB=AD=E7=9B=91=E6=8E=A7=E3=80=82=E5=
-
-=A6=82=E6=9E=9C=E6=88=91=E4=BB=AC=E5=B8=8C=E6=9C=9B=E9=95=BF=E6=9C=9F=E4=BD=
-
-=BF=E7=94=A8=E5=8A=A8=E6=80=81 Risk Oracle=EF=BC=8C=E5=88=99=E6=88=90=E6=9C=
-
-=AC=E9=9C=80=E8=A6=81=E5=85=85=E5=88=86=E8=80=83=E8=99=91=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E6=8A=80=E6=9C=AF=E6=8A=95=E5=85=A5=EF=BC=9A\</strong\>=E4=BB=8E=
-
-=E5=BD=93=E5=89=8D=E4=BB=A3=E7=A0=81=E4=BB=93=E5=BA=93=E6=83=85=E5=86=B5=E6=
-
-=9D=A5=E7=9C=8B=EF=BC=8C=E6=88=91=E4=BB=AC=E6=9A=82=E6=97=B6=E6=97=A0=E6=B3=
-
-=95=E7=9B=B4=E6=8E=A5=E5=AF=B9=E6=8E=A5 Risk Oracle=E3=80=82=E7=8E=B0=E6=9C=
-
-=89=E4=BB=93=E5=BA=93=E4=BB=85=E6=9C=89=E9=85=8D=E7=BD=AE=E5=8D=A0=E4=BD=8D=
-
-=EF=BC=8C=E6=B2=A1=E6=9C=89=E5=AE=9E=E9=99=85=E5=AE=9E=E7=8E=B0=EF=BC=9A=E7=
-
-=BC=BA=E5=B0=91 Risk Oracle =E8=AF=BB=E5=8F=96=E9=80=BB=E8=BE=91=E3=80=81=
-
-=E6=AD=A3=E5=BC=8F Keeper =E5=AE=9E=E7=8E=B0=EF=BC=8C=E4=BB=A5=E5=8F=8A=E5=
-
-=8F=82=E6=95=B0=E6=8C=91=E6=88=98/=E7=A1=AE=E8=AE=A4=E6=9C=BA=E5=88=B6=E3=
-
-=80=82=E5=90=8C=E6=97=B6=E8=A6=81=E7=90=86=E8=A7=A3 Chaos Labs =E8=BE=93=E5=
-
-=87=BA=E7=9A=84=E5=8F=82=E6=95=B0=E5=90=AB=E4=B9=89=EF=BC=8C=E4=B9=9F=E9=9C=
-
-=80=E8=A6=81=E5=9B=A2=E9=98=9F=E5=85=B7=E5=A4=87=E5=AE=8C=E6=95=B4=E7=9A=84=
-
-=E9=A3=8E=E9=99=A9=E5=BB=BA=E6=A8=A1=E8=83=8C=E6=99=AF=E3=80=82=E6=80=BB=E4=
-
-=BD=93=E4=BC=B0=E7=AE=97=EF=BC=8C=E5=AE=9E=E7=8E=B0=E5=AF=B9=E6=8E=A5=E8=87=
-
-=B3=E5=B0=91=E9=9C=80=E8=A6=81 \<strong\>\<span data-colorid=3D"p8e9ipf42j"\>=
-
-=E3=80=90=E4=BA=A7=E5=93=81=E7=A1=AE=E8=AE=A4=E5=90=88=E4=BD=9C=E6=96=B9=E5=
-
-=BC=8F=E5=90=8E=E6=8A=80=E6=9C=AF=E8=AF=84=E4=BC=B0=E3=80=91 \</span\>=E5=91=
-
-=A8=E7=9A=84=E5=B7=A5=E7=A8=8B=E9=87=8F\</strong\>=E3=80=82\</p\>
-
-\<p\>\</p\>\</li\>
-
-\</ol\>
-
-\<h1 id=3D"Research-ChaosLabs=E9=A3=8E=E6=8E=A7=E5=8F=82=E6=95=B0=E8=87=AA=
-
-=E5=8A=A8=E5=8C=96-Q&amp;A"\>Q&amp;A\</h1\>
-
-\<h3 id=3D"Research-ChaosLabs=E9=A3=8E=E6=8E=A7=E5=8F=82=E6=95=B0=E8=87=AA=
-
-=E5=8A=A8=E5=8C=96-Q1=EF=BC=9ARiskOracle=E6=98=AF=E9=80=9A=E7=94=A8=E4=BA=
-
-=A7=E5=93=81=E5=90=97=EF=BC=9FChaosLabs=E4=B8=8D=E6=87=82=E6=88=91=E4=BB=AC=
-
-=E5=90=88=E7=BA=A6=E6=80=8E=E4=B9=88=E6=99=BA=E8=83=BD=E8=B0=83=E5=8F=82=E6=
-
-=95=B0=EF=BC=9F"\>Q1=EF=BC=9ARisk Oracle =E6=98=AF=E9=80=9A=E7=94=A8=E4=BA=
-
-=A7=E5=93=81=E5=90=97=EF=BC=9FChaos Labs =E4=B8=8D=E6=87=82=E6=88=91=E4=BB=
-
-=AC=E5=90=88=E7=BA=A6=E6=80=8E=E4=B9=88=E6=99=BA=E8=83=BD=E8=B0=83=E5=8F=82=
-
-=E6=95=B0=EF=BC=9F\</h3\>
-
-\<p\>\<strong\>A1\</strong\>\<br\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Risk Oracle =E5=8F=AA=E6=98=AF=E9=93=BE=E4=B8=8A=E6=8E=A8=E8=8D=90=E5=BC=
-
-=95=E6=93=8E=EF=BC=9AChaos Labs =E5=9C=A8=E9=93=BE=E4=B8=8B=E5=81=9A=E6=A8=
-
-=A1=E6=8B=9F=EF=BC=8C=E5=86=99=E5=85=A5=E6=8E=A8=E8=8D=90=E5=80=BC=EF=BC=9B=
-
-=E6=89=A7=E8=A1=8C=E6=9D=83=E5=9C=A8=E5=8D=8F=E8=AE=AE=E7=9A=84 Keeper=E3=
-
-=80=82Chaos Labs =E4=B8=8D=E4=BC=9A=E7=9B=B4=E6=8E=A5=E6=94=B9=E6=88=91=E4=
-
-=BB=AC=E5=90=88=E7=BA=A6=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=A6=82=E6=9E=9C=E6=88=91=E4=BB=AC=E5=B8=8C=E6=9C=9B=E4=BD=BF=E7=94=A8=
-
-=E8=BF=99=E4=BA=9B=E6=8E=A8=E8=8D=90=E5=80=BC=EF=BC=8C=E5=B0=B1=E8=A6=81=E8=
-
-=87=AA=E8=A1=8C=E7=BC=96=E5=86=99=E8=AF=BB=E5=8F=96 Risk Oracle =E7=9A=84=
-
-=E5=90=88=E7=BA=A6=E6=88=96=E8=84=9A=E6=9C=AC=E3=80=81=E8=87=AA=E4=B8=BB=E7=
-
-=9A=84 Keeper=E3=80=81=E4=BB=A5=E5=8F=8A=E6=8C=91=E6=88=98=E7=AA=97=E5=8F=
-
-=A3=E9=80=BB=E8=BE=91=E3=80=82Chaos Labs =E5=8F=AA=E6=8F=90=E4=BE=9B=E6=8E=
-
-=A8=E8=8D=90=E5=80=BC=E3=80=81=E5=85=81=E8=AE=B8=E7=9A=84=E8=B0=83=E8=8A=82=
-
-=E8=8C=83=E5=9B=B4=E5=92=8C=E5=90=A6=E5=86=B3=E6=B5=81=E7=A8=8B=E8=AF=B4=E6=
-
-=98=8E=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>Risk Oracle =E7=9A=84=E8=83=BD=E5=8A=9B=E9=9D=A0=E6=B7=B1=E5=85=A5=E7=90=
-
-=86=E8=A7=A3=E5=AE=A2=E6=88=B7=E5=8D=8F=E8=AE=AE=EF=BC=88=E4=BE=8B=E5=A6=82=
-
-GMX V2 =E7=9A=84 market config=E3=80=81impact =E5=85=AC=E5=BC=8F=E3=80=81=
-
-=E8=B5=84=E9=87=91=E8=B4=B9=E7=8E=87=E6=A8=A1=E5=9E=8B=EF=BC=89=EF=BC=8C=E5=
-
-=86=8D=E7=94=B1=E9=87=8F=E5=8C=96=E5=9B=A2=E9=98=9F=E5=BB=BA=E6=A8=A1=E3=80=
-
-=82=E4=B8=8D=E6=98=AF=E4=B8=80=E4=B8=AA=E5=A5=97=E6=A8=A1=E6=9D=BF=E7=9A=84=
-
-=E9=80=9A=E7=94=A8 SaaS=E3=80=82\</p\>\</li\>
-
-\</ul\>
-
-\<h3 id=3D"Research-ChaosLabs=E9=A3=8E=E6=8E=A7=E5=8F=82=E6=95=B0=E8=87=AA=
-
-=E5=8A=A8=E5=8C=96-Q2=EF=BC=9AGMX=E5=8F=AA=E5=BC=80=E6=94=BEOICap=EF=BC=8CC=
-
-haosLabs=E8=BF=98=E8=83=BD=E7=AE=A1=E7=90=86=E5=93=AA=E4=BA=9B=E5=8F=82=E6=
-
-=95=B0=EF=BC=9F"\>Q2=EF=BC=9AGMX =E5=8F=AA=E5=BC=80=E6=94=BE OI Cap=EF=BC=8C=
-
-Chaos Labs =E8=BF=98=E8=83=BD=E7=AE=A1=E7=90=86=E5=93=AA=E4=BA=9B=E5=8F=82=
-
-=E6=95=B0=EF=BC=9F\</h3\>
-
-\<p\>\<strong\>A2\</strong\>\<br\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=B7=B2=E7=BB=8F=E8=87=AA=E5=8A=A8=E5=8C=96=E7=9A=84=E5=8F=82=E6=95=B0=
-
-=EF=BC=9ALong/Short OI Cap=E3=80=81Dynamic Price Impact=E3=80=82=E6=88=AA=
-
-=E5=9B=BE=E9=87=8C=E7=9A=84 Recommended Value =E5=AF=B9=E5=BA=94=E8=BF=99=
-
-=E4=B8=A4=E7=B1=BB=E5=8F=82=E6=95=B0=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=A7=84=E5=88=92=E4=B8=AD=E7=9A=84=E5=8F=82=E6=95=B0=EF=BC=9AGMX =E6=
-
-=B2=BB=E7=90=86=E6=8F=90=E6=A1=88=E5=86=99=E6=98=8E=E4=BC=9A=E9=80=90=E6=AD=
-
-=A5=E5=BC=80=E6=94=BE Funding=E3=80=81Borrow=E3=80=81Vault =E6=B5=81=E5=8A=
-
-=A8=E6=80=A7=E5=88=86=E9=85=8D=E7=AD=89=E3=80=82Chaos Labs =E5=9C=A8 Aave =
-
-=E5=B7=B2=E7=BB=8F=E8=AF=95=E8=BF=90=E8=A1=8C=E7=B1=BB=E4=BC=BC=E7=9A=84=E5=
-
-=80=9F=E8=B4=B7=E4=B8=8A=E9=99=90=E3=80=81=E6=B8=85=E7=AE=97=E9=98=88=E5=80=
-
-=BC=E3=80=81=E5=88=A9=E7=8E=87=E7=AD=89=E5=8F=82=E6=95=B0=E3=80=82\</p\>\</li\>
-
-\</ul\>
-
-\<h3 id=3D"Research-ChaosLabs=E9=A3=8E=E6=8E=A7=E5=8F=82=E6=95=B0=E8=87=AA=
-
-=E5=8A=A8=E5=8C=96-Q3=EF=BC=9A=E6=88=91=E4=BB=AC=E8=83=BD=E5=90=A6=E7=9B=B4=
-
-=E6=8E=A5=E7=85=A7=E6=90=ACChaosLabs=E7=BB=99GMX=E7=9A=84=E6=8E=A8=E8=8D=90=
-
-=E5=80=BC=EF=BC=9F"\>Q3=EF=BC=9A\<strong\>=E6=88=91=E4=BB=AC=E8=83=BD=E5=90=A6=
-
-=E7=9B=B4=E6=8E=A5=E7=85=A7=E6=90=AC Chaos Labs =E7=BB=99 GMX =E7=9A=84=E6=
-
-=8E=A8=E8=8D=90=E5=80=BC=EF=BC=9F\</strong\>\</h3\>
-
-\<p\>\<strong\>A3\</strong\>\<br\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Chaos Labs =E5=9C=A8 Public Risk Hub =E5=85=AC=E5=B8=83=E6=8E=A8=E8=8D=
-
-=90=E5=80=BC=EF=BC=8C=E4=BB=BB=E4=BD=95=E4=BA=BA=E9=83=BD=E8=83=BD=E6=9F=A5=
-
-=E7=9C=8B=E3=80=82=E8=BF=99=E4=BA=9B=E6=95=B0=E5=80=BC=E5=8C=85=E5=90=AB=E5=
-
-=B8=82=E5=9C=BA=E6=9C=80=E5=A4=A7=E6=9C=AA=E5=B9=B3=E4=BB=93=E9=87=91=E9=A2=
-
-=9D=EF=BC=88OI Cap=EF=BC=89=E3=80=81=E4=BB=B7=E6=A0=BC=E5=86=B2=E5=87=BB=E7=
-
-=B3=BB=E6=95=B0=E7=AD=89=E6=A0=B8=E5=BF=83=E5=AE=89=E5=85=A8=E9=98=88=E5=80=
-
-=BC=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E4=B8=8D=E8=83=BD=E7=85=A7=E6=90=AC=EF=BC=9AChaos Labs =E7=BB=99 GMX =
-
-=E7=9A=84=E6=8E=A8=E8=8D=90=E5=80=BC=E5=BB=BA=E7=AB=8B=E5=9C=A8 GMX =E8=87=
-
-=AA=E6=9C=89=E7=9A=84=E6=B5=81=E5=8A=A8=E6=80=A7=E8=A7=84=E6=A8=A1=E3=80=81=
-
-=E6=89=8B=E7=BB=AD=E8=B4=B9=E7=BB=93=E6=9E=84=E3=80=81=E6=B8=85=E7=AE=97=E6=
-
-=B7=B1=E5=BA=A6=E3=80=81Keeper =E5=93=8D=E5=BA=94=E9=80=9F=E5=BA=A6=E4=BB=
-
-=A5=E5=8F=8A=E9=A3=8E=E9=99=A9=E5=8F=82=E6=95=B0=E4=B9=8B=E9=97=B4=E7=9A=84=
-
-=E8=81=94=E5=8A=A8=E5=85=B3=E7=B3=BB=E4=B9=8B=E4=B8=8A=E3=80=82=E6=88=91=E4=
-
-=BB=AC=E7=9A=84=E4=BB=93=E4=BD=8D=E8=A7=84=E6=A8=A1=E3=80=81LP =E8=B5=84=E9=
-
-=87=91=E6=B1=A0=E3=80=81=E8=AE=A2=E5=8D=95=E6=89=A7=E8=A1=8C=E6=B5=81=E7=A8=
-
-=8B=E4=B8=8E GMX =E5=B9=B6=E4=B8=8D=E7=9B=B8=E5=90=8C=EF=BC=8C=E9=9C=80=E8=
-
-=A6=81=E7=BB=93=E5=90=88=E8=87=AA=E5=B7=B1=E7=9A=84=E6=B5=81=E5=8A=A8=E6=80=
-
-=A7=E7=8A=B6=E5=86=B5=E5=92=8C=E6=B8=85=E7=AE=97=E6=A8=A1=E5=9E=8B=E9=87=8D=
-
-=E6=96=B0=E8=AE=BE=E7=BD=AE=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=BF=98=E4=BC=9A=E5=B8=A6=E6=9D=A5=E7=A4=BE=E5=8C=BA=E5=BD=A2=E8=B1=A1=
-
-=E9=A3=8E=E9=99=A9=EF=BC=9A=E5=8F=82=E6=95=B0=E5=90=8D=E6=88=96=E6=95=B0=E5=
-
-=80=BC=E5=AE=8C=E5=85=A8=E4=B8=80=E8=87=B4=EF=BC=8C=E5=AE=B9=E6=98=93=E8=A2=
-
-=AB=E8=AE=A4=E4=B8=BA=E7=BC=BA=E4=B9=8F=E8=87=AA=E4=B8=BB=E9=A3=8E=E6=8E=A7=
-
-=E8=83=BD=E5=8A=9B=E3=80=82\</p\>\</li\>
-
-\</ul\>
-
-\<h3 id=3D"Research-ChaosLabs=E9=A3=8E=E6=8E=A7=E5=8F=82=E6=95=B0=E8=87=AA=
-
-=E5=8A=A8=E5=8C=96-Q4=EF=BC=9AChaosLabs=E7=9A=84=E6=9C=8D=E5=8A=A1=E8=B4=B9=
-
-=E7=94=A8=E6=98=AF=E5=A4=9A=E5=B0=91=EF=BC=9F=E6=98=AF=E5=90=A6=E5=AD=98=E5=
-
-=9C=A8=E5=85=8D=E8=B4=B9=E7=89=88=EF=BC=9F"\>Q4=EF=BC=9AChaos Labs =E7=9A=84=
-
-=E6=9C=8D=E5=8A=A1=E8=B4=B9=E7=94=A8=E6=98=AF=E5=A4=9A=E5=B0=91=EF=BC=9F=E6=
-
-=98=AF=E5=90=A6=E5=AD=98=E5=9C=A8=E5=85=8D=E8=B4=B9=E7=89=88=EF=BC=9F\</h3\>
-
-\<p\>\<strong\>A4\</strong\>\<br\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=8C=81=E7=BB=AD=E6=9C=8D=E5=8A=A1=E4=BB=B7=E6=A0=BC=E9=AB=98=EF=BC=9A=
-
-GMX =E4=BB=98=E8=B4=B9=E7=BA=A6 18,333 =E7=BE=8E=E5=85=83/=E6=9C=88=EF=BC=
-
-=8CAave =E7=9A=84=E5=90=88=E5=90=8C=E9=87=91=E9=A2=9D=E7=BA=A6 850,000 =E7=
-
-=BE=8E=E5=85=83=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=B2=A1=E6=9C=89=E8=BD=BB=E9=87=8F=E8=AE=A2=E9=98=85=E7=89=88=E3=80=82=
-
-=E5=94=AF=E4=B8=80=E7=9A=84=E4=BD=8E=E6=88=90=E6=9C=AC=E6=96=B9=E6=A1=88=E6=
-
-=98=AF=E4=B8=80=E6=AC=A1=E6=80=A7=E5=92=A8=E8=AF=A2=EF=BC=88=E4=BE=8B=E5=A6=
-
-=82 Avantis =E7=9A=84=E5=88=9B=E4=B8=96=E9=A3=8E=E9=99=A9=E6=A1=86=E6=9E=B6=
-
-=EF=BC=89=EF=BC=8C=E8=AF=A5=E6=96=B9=E6=A1=88=E5=8F=AA=E7=BB=99=E5=88=9D=E5=
-
-=A7=8B=E5=8F=82=E6=95=B0=EF=BC=8C=E4=B8=8D=E5=8C=85=E5=90=AB=E6=8C=81=E7=BB=
-
-=AD=E6=9B=B4=E6=96=B0=E4=B8=8E=E8=87=AA=E5=8A=A8=E5=8C=96=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=85=AC=E5=85=B1=E4=BB=AA=E8=A1=A8=E7=9B=98=E5=B1=9E=E4=BA=8E=E8=90=A5=
-
-=E9=94=80=E5=B1=82=E7=9A=84=E5=85=8D=E8=B4=B9=E6=9C=8D=E5=8A=A1=EF=BC=8C=E7=
-
-=9C=9F=E6=AD=A3=E9=80=82=E5=90=88=E5=8D=8F=E8=AE=AE=E7=9A=84=E5=AE=89=E5=85=
-
-=A8=E5=8F=82=E6=95=B0=E9=9C=80=E8=A6=81=E4=BB=98=E8=B4=B9=E5=AE=9A=E5=88=B6=
-
-=E3=80=82\</p\>\</li\>
-
-\</ul\>
-
-\<h3 id=3D"Research-ChaosLabs=E9=A3=8E=E6=8E=A7=E5=8F=82=E6=95=B0=E8=87=AA=
-
-=E5=8A=A8=E5=8C=96-Q5=EF=BC=9A=E4=B8=8E=E7=8E=B0=E6=9C=89=E4=BB=93=E5=BA=93=
-
-=E5=AF=B9=E6=8E=A5=E9=9C=80=E8=A6=81=E5=A4=9A=E5=B0=91=E5=B7=A5=E7=A8=8B=E9=
-
-=87=8F=EF=BC=9F"\>Q5=EF=BC=9A=E4=B8=8E=E7=8E=B0=E6=9C=89=E4=BB=93=E5=BA=93=
-
-=E5=AF=B9=E6=8E=A5=E9=9C=80=E8=A6=81=E5=A4=9A=E5=B0=91=E5=B7=A5=E7=A8=8B=E9=
-
-=87=8F=EF=BC=9F\</h3\>
-
-\<p\>\<strong\>A5\</strong\>\<br\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E9=9C=80=E8=A6=81=E5=9C=A8=E5=90=88=E7=BA=A6=E6=88=96=E8=84=9A=E6=9C=AC=
-
-=E9=87=8C=E5=AE=8C=E6=88=90 Risk Oracle =E8=AF=BB=E5=8F=96=E5=8A=9F=E8=83=
-
-=BD=E3=80=82\<code\>contracts-v2/config/riskOracle.ts\</code\> =E5=8F=AA=E6=9C=
-
-=89=E9=85=8D=E7=BD=AE=E5=8D=A0=E4=BD=8D=EF=BC=8C=E6=B2=A1=E6=9C=89=E5=AE=9E=
-
-=E9=99=85=E8=AF=BB=E5=8F=96=E9=80=BB=E8=BE=91=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E9=9C=80=E8=A6=81=E6=9E=84=E5=BB=BA Keeper=EF=BC=9A=E5=9C=A8 \<code\>conf=
-
-ig/general.ts\</code\> =E4=B8=AD=E9=85=8D=E7=BD=AE=E6=89=A7=E8=A1=8C gas=E3=
-
-=80=81=E6=8C=91=E6=88=98=E7=AA=97=E5=8F=A3=E7=AD=89=E5=8F=82=E6=95=B0=EF=BC=
-
-=8C=E5=B9=B6=E5=86=99 Keeper =E6=89=A7=E8=A1=8C=E4=BB=A3=E7=A0=81=E3=80=82=
-
-=E7=9B=AE=E5=89=8D=E4=BB=93=E5=BA=93=E7=BC=BA=E4=B9=8F=E6=AD=A3=E5=BC=8F Ke=
-
-eper =E5=AE=9E=E7=8E=B0=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E9=9C=80=E8=A6=81=E5=9B=A2=E9=98=9F=E7=90=86=E8=A7=A3=E6=AF=8F=E4=B8=AA=
-
-=E5=8F=82=E6=95=B0=E7=9A=84=E5=90=AB=E4=B9=89=EF=BC=8C=E6=89=8D=E8=83=BD=E5=
-
-=88=A4=E6=96=AD Chaos Labs =E7=9A=84=E6=8E=A8=E8=8D=90=E5=80=BC=E6=98=AF=E5=
-
-=90=A6=E7=AC=A6=E5=90=88=E6=9C=AC=E5=8D=8F=E8=AE=AE=E7=9A=84=E9=A3=8E=E9=99=
-
-=A9=E8=BE=B9=E7=95=8C=E3=80=82\</p\>\</li\>
-
-\</ul\>
-
-\<h3 id=3D"Research-ChaosLabs=E9=A3=8E=E6=8E=A7=E5=8F=82=E6=95=B0=E8=87=AA=
-
-=E5=8A=A8=E5=8C=96-Q6=EF=BC=9AChaosLabs=E6=98=AF=E5=90=A6=E5=8F=AF=E9=9D=A0=
-
-=EF=BC=9F=E4=B8=8EGMX=E7=9A=84=E5=90=88=E4=BD=9C=E6=B7=B1=E5=BA=A6=E5=A6=82=
-
-=E4=BD=95=EF=BC=9F"\>Q6=EF=BC=9AChaos Labs =E6=98=AF=E5=90=A6=E5=8F=AF=E9=9D=
-
-=A0=EF=BC=9F=E4=B8=8E GMX =E7=9A=84=E5=90=88=E4=BD=9C=E6=B7=B1=E5=BA=A6=E5=
-
-=A6=82=E4=BD=95=EF=BC=9F\</h3\>
-
-\<p\>\<strong\>A6\</strong\>\<br\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>GMX DAO =E5=9C=A8 2024 =E5=B9=B4 9 =E6=9C=88=E5=8F=91=E8=B5=B7=E7=9A=84=
-
-=E6=B2=BB=E7=90=86=E6=8A=95=E7=A5=A8=E4=B8=AD=EF=BC=8C=E4=BB=A5 100% =E7=9A=
-
-=84=E8=B5=9E=E6=88=90=E7=A5=A8=E5=86=B3=E5=AE=9A=E8=AE=A9 Chaos Labs =E7=9A=
-
-=84 Risk Oracle =E8=BF=9B=E5=85=A5 GMX =E5=8D=8F=E8=AE=AE=E3=80=82=E6=AD=A4=
-
-=E5=89=8D=EF=BC=8CChaos Labs =E5=B7=B2=E7=BB=8F=E4=B8=BA GMX V2 =E5=86=99=
-
-=E8=BF=87=E9=A3=8E=E9=99=A9=E8=A7=84=E5=88=99=E6=80=BB=E9=9B=86=EF=BC=88=E8=
-
-=A2=AB GMX =E7=A7=B0=E4=BD=9C=E2=80=9CGenesis Risk Framework=E2=80=9D=EF=BC=
-
-=89=EF=BC=8C=E8=BF=99=E4=B8=80=E6=AD=A5=E5=BD=93=E6=97=B6=E7=94=A8=E4=BA=8E=
-
-=E5=AE=9A=E4=B9=89 GMX V2 =E5=90=AF=E5=8A=A8=E6=97=B6=E7=9A=84=E5=88=9D=E5=
-
-=A7=8B=E5=8F=82=E6=95=B0=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=BD=93=E5=89=8D=E5=8F=8C=E6=96=B9=E5=90=88=E4=BD=9C=E8=8C=83=E5=9B=B4=
-
-=E5=8C=85=E5=90=AB=E4=B8=A4=E9=A1=B9=E8=87=AA=E5=8A=A8=E5=8C=96=EF=BC=9A=E6=
-
-=9C=80=E5=A4=A7=E6=9C=AA=E5=B9=B3=E4=BB=93=E5=A4=B4=E5=AF=B8=E4=B8=8A=E9=99=
-
-=90=EF=BC=88Long/Short OI Cap=EF=BC=89=E5=92=8C=E4=BB=B7=E6=A0=BC=E5=86=B2=
-
-=E5=87=BB=E5=8F=82=E6=95=B0=EF=BC=88Dynamic Price Impact=EF=BC=89=E3=80=82=
-
-=E5=9C=A8=E5=90=8C=E4=B8=80=E4=BB=BD=E6=B2=BB=E7=90=86=E8=AF=B4=E6=98=8E=E9=
-
-=87=8C=EF=BC=8CGMX =E8=A1=A8=E7=A4=BA=E4=B8=8B=E4=B8=80=E9=98=B6=E6=AE=B5=
-
-=E4=BC=9A=E6=8A=8A=E8=B5=84=E9=87=91=E8=B4=B9=E7=8E=87=EF=BC=88Funding=EF=
-
-=BC=89=E5=92=8C=E5=80=9F=E5=B8=81=E5=88=A9=E7=8E=87=EF=BC=88Borrow=EF=BC=89=
-
-=E4=B9=9F=E4=BA=A4=E7=BB=99 Chaos Labs =E6=9D=A5=E8=AE=A1=E7=AE=97=E6=8E=A8=
-
-=E8=8D=90=E5=80=BC=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>Chaos Labs =E5=85=AC=E5=BC=80=E5=88=97=E5=87=BA=E7=9A=84=E4=BB=98=E8=B4=
-
-=B9=E5=AE=A2=E6=88=B7=E8=BF=98=E5=8C=85=E6=8B=AC Jupiter=E3=80=81Aave=E3=80=
-
-=81dYdX=E3=80=81Pendle =E7=AD=89=E3=80=82Avantis =E7=9B=AE=E5=89=8D=E5=8F=
-
-=AA=E4=BB=98=E8=B4=B9=E8=B4=AD=E4=B9=B0=E4=BA=86 Chaos Labs =E7=9A=84=E5=88=
-
-=9D=E5=A7=8B=E5=8F=82=E6=95=B0=E5=92=A8=E8=AF=A2=E6=9C=8D=E5=8A=A1=EF=BC=8C=
-
-=E6=B2=A1=E6=9C=89=E5=90=AF=E7=94=A8=E8=87=AA=E5=8A=A8=E5=8C=96=E6=9B=B4=E6=
-
-=96=B0=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E4=B8=BB=E8=A6=81=E7=AB=9E=E4=BA=89=E5=AF=B9=E6=89=8B Gauntlet =E4=BB=
-
-=8D=E4=B8=BB=E8=A6=81=E6=8F=90=E4=BE=9B=E2=80=9C=E5=86=99=E6=8A=A5=E5=91=8A=
-
-=EF=BC=8B=E6=8F=90=E4=BA=A4=E6=B2=BB=E7=90=86=E6=8F=90=E6=A1=88=E2=80=9D=E7=
-
-=9A=84=E6=9C=8D=E5=8A=A1=E6=A8=A1=E5=BC=8F=EF=BC=8C=E7=BC=BA=E4=B9=8F=E7=9B=
-
-=B4=E6=8E=A5=E7=9A=84=E8=87=AA=E5=8A=A8=E5=8C=96=E6=8E=A8=E9=80=81=E3=80=82=
-
-2024 =E5=B9=B4=E5=88=9D Aave =E7=A4=BE=E5=8C=BA=E5=9B=A0=E4=B8=BA=E5=90=88=
-
-=E4=BD=9C=E6=B2=9F=E9=80=9A=E9=97=AE=E9=A2=98=E8=A7=A3=E7=BA=A6=E4=BA=86 Ga=
-
-untlet=EF=BC=8C=E5=B9=B6=E7=94=B1 Chaos Labs =E6=8E=A5=E6=89=8B=E9=83=A8=E5=
-
-=88=86=E9=A3=8E=E9=99=A9=E5=BB=BA=E6=A8=A1=E5=B7=A5=E4=BD=9C=E3=80=82\</p\>\</=
-
-li\>
-
-\</ul\>
-
-\<p\>=E8=AF=84=E4=BC=B0 Gauntlet =E7=AD=89=E5=A4=87=E9=80=89=E6=9C=8D=E5=8A=
-
-=A1=E6=97=B6=EF=BC=8C=E5=BA=94=E9=87=8D=E7=82=B9=E6=AF=94=E8=BE=83=E8=87=AA=
-
-=E5=8A=A8=E5=8C=96=E8=83=BD=E5=8A=9B=E3=80=81=E5=93=8D=E5=BA=94=E9=80=9F=E5=
-
-=BA=A6=E5=92=8C=E5=8D=8F=E5=90=8C=E4=BD=93=E9=AA=8C=E3=80=82\</p\>
-
-\<p\>\</p\>
-
-\</div\>
-
-\</body\>
-
-\</html\>
-
-------=\_Part_36_1631763067.1772008199751--
+</div>

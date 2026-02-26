@@ -1,4055 +1,1045 @@
-Date: Wed, 25 Feb 2026 08:25:56 +0000 (UTC)
+# Non-tech Docs底稿
 
-Message-ID: \<1313712207.7.1772007956787@1bfb2fa8633c\>
+<div class="Section1">
 
-Subject: Exported From Confluence
-
-MIME-Version: 1.0
-
-Content-Type: multipart/related;
-
-boundary="----=\_Part_6_505003863.1772007956786"
-
-------=\_Part_6_505003863.1772007956786
-
-Content-Type: text/html; charset=UTF-8
-
-Content-Transfer-Encoding: quoted-printable
-
-Content-Location: file:///C:/exported.html
-
-\<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
-
-xmlns:w=3D'urn:schemas-microsoft-com:office:word'
-
-xmlns:v=3D'urn:schemas-microsoft-com:vml'
-
-xmlns=3D'urn:w3-org-ns:HTML'\>
-
-\<head\>
-
-\<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
-
-"\>
-
-\<title\>Non-tech Docs=E5=BA=95=E7=A8=BF\</title\>
-
-\<!--\[if gte mso 9\]\>
-
-\<xml\>
-
-\<o:OfficeDocumentSettings\>
-
-\<o:TargetScreenSize\>1024x640\</o:TargetScreenSize\>
-
-\<o:PixelsPerInch\>72\</o:PixelsPerInch\>
-
-\<o:AllowPNG/\>
-
-\</o:OfficeDocumentSettings\>
-
-\<w:WordDocument\>
-
-\<w:View\>Print\</w:View\>
-
-\<w:Zoom\>90\</w:Zoom\>
-
-\<w:DoNotOptimizeForBrowser/\>
-
-\</w:WordDocument\>
-
-\</xml\>
-
-\<\![endif\]--\>
-
-\<style\>
-
-\<!--
-
-@page Section1 {
-
-size: 8.5in 11.0in;
-
-margin: 1.0in;
-
-mso-header-margin: .5in;
-
-mso-footer-margin: .5in;
-
-mso-paper-source: 0;
-
-}
-
-table {
-
-border: solid 1px;
-
-border-collapse: collapse;
-
-}
-
-table td, table th {
-
-border: solid 1px;
-
-padding: 5px;
-
-}
-
-td {
-
-page-break-inside: avoid;
-
-}
-
-tr {
-
-page-break-after: avoid;
-
-}
-
-div.Section1 {
-
-page: Section1;
-
-}
-
-/\* Confluence print stylesheet. Common to all themes for print medi=
-
-a \*/
-
-/\* Full of !important until we improve batching for print CSS \*/
-
-@media print {
-
-\#main {
-
-padding-bottom: 1em !important; /\* The default padding of 6em is to=
-
-o much for printouts \*/
-
-}
-
-body {
-
-font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
-
-rif);
-
-}
-
-body, \#full-height-container, \#main, \#page, \#content, .has-personal-sid=
-
-ebar \#content {
-
-background: var(--ds-surface, \#fff) !important;
-
-color: var(--ds-text, \#000) !important;
-
-border: 0 !important;
-
-width: 100% !important;
-
-height: auto !important;
-
-min-height: auto !important;
-
-margin: 0 !important;
-
-padding: 0 !important;
-
-display: block !important;
-
-}
-
-a, a:link, a:visited, a:focus, a:hover, a:active {
-
-color: var(--ds-text, \#000);
-
-}
-
-\#content h1,
-
-\#content h2,
-
-\#content h3,
-
-\#content h4,
-
-\#content h5,
-
-\#content h6 {
-
-page-break-after: avoid;
-
-}
-
-pre {
-
-font: var(--ds-font-code, Monaco, "Courier New", monospace);
-
-}
-
-\#header,
-
-.aui-header-inner,
-
-\#navigation,
-
-\#sidebar,
-
-.sidebar,
-
-\#personal-info-sidebar,
-
-.ia-fixed-sidebar,
-
-.page-actions,
-
-.navmenu,
-
-.ajs-menu-bar,
-
-.noprint,
-
-.inline-control-link,
-
-.inline-control-link a,
-
-a.show-labels-editor,
-
-.global-comment-actions,
-
-.comment-actions,
-
-.quick-comment-container,
-
-\#addcomment {
-
-display: none !important;
-
-}
-
-/\* CONF-28544 cannot print multiple pages in IE \*/
-
-\#splitter-content {
-
-position: relative !important;
-
-}
-
-.comment .date::before {
-
-content: none !important; /\* remove middot for print view \*/
-
-}
-
-h1.pagetitle img {
-
-height: auto;
-
-width: auto;
-
-}
-
-.print-only {
-
-display: block;
-
-}
-
-\#footer {
-
-position: relative !important; /\* CONF-17506 Place the footer at en=
-
-d of the content \*/
-
-margin: 0;
-
-padding: 0;
-
-background: none;
-
-clear: both;
-
-}
-
-\#poweredby {
-
-border-top: none;
-
-background: none;
-
-}
-
-\#poweredby li.print-only {
-
-display: list-item;
-
-font-style: italic;
-
-}
-
-\#poweredby li.noprint {
-
-display: none;
-
-}
-
-/\* no width controls in print \*/
-
-.wiki-content .table-wrap,
-
-.wiki-content p,
-
-.panel .codeContent,
-
-.panel .codeContent pre,
-
-.image-wrap {
-
-overflow: visible !important;
-
-}
-
-/\* TODO - should this work? \*/
-
-\#children-section,
-
-\#comments-section .comment,
-
-\#comments-section .comment .comment-body,
-
-\#comments-section .comment .comment-content,
-
-\#comments-section .comment p {
-
-page-break-inside: avoid;
-
-}
-
-\#page-children a {
-
-text-decoration: none;
-
-}
-
-/\*\*
-
-hide twixies
-
-the specificity here is a hack because print styles
-
-are getting loaded before the base styles. \*/
-
-\#comments-section.pageSection .section-header,
-
-\#comments-section.pageSection .section-title,
-
-\#children-section.pageSection .section-header,
-
-\#children-section.pageSection .section-title,
-
-.children-show-hide {
-
-padding-left: 0;
-
-margin-left: 0;
-
-}
-
-.children-show-hide.icon {
-
-display: none;
-
-}
-
-/\* personal sidebar \*/
-
-.has-personal-sidebar \#content {
-
-margin-right: 0px;
-
-}
-
-.has-personal-sidebar \#content .pageSection {
-
-margin-right: 0px;
-
-}
-
-.no-print, .no-print \* {
-
-display: none !important;
-
-}
-
-}
-
---\>
-
-\</style\>
-
-\</head\>
-
-\<body\>
-
-\<h1\>Non-tech Docs=E5=BA=95=E7=A8=BF\</h1\>
-
-\<div class=3D"Section1"\>
-
-\<style type=3D"text/css"\>/\*\<\![CDATA\[\*/
-
+<style type="text/css">/**/
 div.rbtoc1772007956741 {padding: 0px;}
-
 div.rbtoc1772007956741 ul {list-style: none;margin-left: 0px;}
-
 div.rbtoc1772007956741 li {margin-left: 0px;padding-left: 0px;}
 
-/\*\]\]\>\*/\</style\>
+/**/</style>
+
+<div class="toc-macro rbtoc1772007956741">
+
+- [1.1 Mainstream Asset Oracle](#Non-techDocs底稿-1.1MainstreamAssetOracle)
+- [1.2 Collateral Management](#Non-techDocs底稿-1.2CollateralManagement)
+  - [Long Positions](#Non-techDocs底稿-LongPositions)
+  - [Short Positions](#Non-techDocs底稿-ShortPositions)
+- [1.3 Leverage Management](#Non-techDocs底稿-1.3LeverageManagement)
+  - [Understanding Leverage on Hertzflow](#Non-techDocs底稿-UnderstandingLeverageonHertzflow)
+  - [Setting Leverage](#Non-techDocs底稿-SettingLeverage)
+  - [Margin and Maintenance Margin](#Non-techDocs底稿-MarginandMaintenanceMargin)
+  - [Risks of Using Leverage](#Non-techDocs底稿-RisksofUsingLeverage)
+- [1.4 Fee Structure](#Non-techDocs底稿-1.4FeeStructure)
+  - [Core Parameter Summary](#Non-techDocs底稿-CoreParameterSummary)
+  - [Open / Close Fee](#Non-techDocs底稿-Open/CloseFee)
+  - [Swap Fee](#Non-techDocs底稿-SwapFee)
+  - [Liquidation Fee](#Non-techDocs底稿-LiquidationFee)
+  - [Target and Current Weightage](#Non-techDocs底稿-TargetandCurrentWeightage)
+  - [LP Add / Remove Fees](#Non-techDocs底稿-LPAdd/RemoveFees)
+- [1.5 Limit Order](#Non-techDocs底稿-1.5LimitOrder)
+  - [Quick Reference Table](#Non-techDocs底稿-QuickReferenceTable)
+- [1.6 How Hertzflow Executes Trades](#Non-techDocs底稿-1.6HowHertzflowExecutesTrades)
+  - [Order Execution Flow](#Non-techDocs底稿-OrderExecutionFlow)
+  - [Example of a Perpetual Trade on Hertzflow](#Non-techDocs底稿-ExampleofaPerpetualTradeonHertzflow)
+- [1.7 liquidation](#Non-techDocs底稿-1.7liquidation)
+  - [How Liquidation Works](#Non-techDocs底稿-HowLiquidationWorks)
+  - [Factors Affecting Liquidation Price](#Non-techDocs底稿-FactorsAffectingLiquidationPrice)
+  - [Monitoring Margin and Liquidation](#Non-techDocs底稿-MonitoringMarginandLiquidation)
+  - [Liquidation Execution](#Non-techDocs底稿-LiquidationExecution)
+  - [2.1 Hertzflow Liquidity Pool (HzLP) Overview](#Non-techDocs底稿-2.1HertzflowLiquidityPool(HzLP)Overview)
+  - [2.2 \$HzLP Token](#Non-techDocs底稿-2.2$HzLPToken)
+  - [2.3 How the HzLP Pool Works](#Non-techDocs底稿-2.3HowtheHzLPPoolWorks)
+  - [2.4 Custodies](#Non-techDocs底稿-2.4Custodies)
+  - [2.5 Assets Under Management (AUM)](#Non-techDocs底稿-2.5AssetsUnderManagement(AUM))
+  - [2.6 Virtual Price, Market Price, and AUM Limits](#Non-techDocs底稿-2.6VirtualPrice,MarketPrice,andAUMLimits)
+  - [2.7 Calculating Global Unrealized PnL](#Non-techDocs底稿-2.7CalculatingGlobalUnrealizedPnL)
+  - [2.8 Exposure & Risks](#Non-techDocs底稿-2.8Exposure&Risks)
+- [1. Account & Funds Management](#Non-techDocs底稿-1.Account&FundsManagement)
+  - [Q1: How do I fund my Hertzflow account?](#Non-techDocs底稿-Q1:HowdoIfundmyHertzflowaccount?)
+  - [Q2: What are “native tokens” and “contract tokens”?](#Non-techDocs底稿-Q2:Whatare“nativetokens”and“contracttokens”?)
+  - [Q3: Can I withdraw my liquidity at any time?](#Non-techDocs底稿-Q3:CanIwithdrawmyliquidityatanytime?)
+- [2. Trading & Leverage Management](#Non-techDocs底稿-2.Trading&LeverageManagement)
+  - [Q1: How do I select a market?](#Non-techDocs底稿-Q1:HowdoIselectamarket?)
+  - [Q2: What is leverage?](#Non-techDocs底稿-Q2:Whatisleverage?)
+  - [Q3: How is the liquidation price calculated?](#Non-techDocs底稿-Q3:Howistheliquidationpricecalculated?)
+  - [Q4:How to Calculate PnL？](#Non-techDocs底稿-Q4:HowtoCalculatePnL？)
+  - [Q5: What is the Maintenance Margin Requirement (MMR)?](#Non-techDocs底稿-Q5:WhatistheMaintenanceMarginRequirement(MMR)?)
+  - [Q6: How can I avoid liquidation?](#Non-techDocs底稿-Q6:HowcanIavoidliquidation?)
+  - [Q7: What happens if my position is liquidated?](#Non-techDocs底稿-Q7:Whathappensifmypositionisliquidated?)
+- [3. Liquidity Provision & Earnings](#Non-techDocs底稿-3.LiquidityProvision&Earnings)
+  - [Q1: Why provide liquidity?](#Non-techDocs底稿-Q1:Whyprovideliquidity?)
+  - [Q2: What is \$HzLP?](#Non-techDocs底稿-Q2:Whatis$HzLP?)
+  - [Q3: How to get \$HzLP](#Non-techDocs底稿-Q3:Howtoget$HzLP)
+  - [Q4：How to Become a Liquidity Provider](#Non-techDocs底稿-Q4：HowtoBecomeaLiquidityProvider)
+  - [Q5: How to Calculate APY?](#Non-techDocs底稿-Q5:HowtoCalculateAPY?)
+  - [Q6: How do I withdraw from the liquidity pool?](#Non-techDocs底稿-Q6:HowdoIwithdrawfromtheliquiditypool?)
+- [4. Risk Management & Strategy](#Non-techDocs底稿-4.RiskManagement&Strategy)
+  - [Q1: How can I manage my trading risk?](#Non-techDocs底稿-Q1:HowcanImanagemytradingrisk?)
+  - [Q2: What if market volatility triggers my liquidation?](#Non-techDocs底稿-Q2:Whatifmarketvolatilitytriggersmyliquidation?)
 
-\<div class=3D"toc-macro rbtoc1772007956741"\>
+</div>
 
-\<ul class=3D"toc-indentation"\>
+1.  Core Mechanisms of HertzFlow Perps
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-1.1MainstreamAssetOracle"\>1.=
+#### **1.1 Mainstream Asset Oracle**
 
-1 Mainstream Asset Oracle\</a\>\</li\>
+Hertzflow aggregates token prices from two primary sources:
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-1.2CollateralManagement"\>1.2=
+- **Pyth Network**
 
-Collateral Management\</a\>
+- **CEX Index Feeds** (Binance, OKX, Coinbase)
 
-\<ul class=3D"toc-indentation"\>
+Pyth Network is the primary oracle for Hertzflow, with CEX index prices acting as a fallback and validation layer. The following describes how the multi-oracle system works:
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-LongPositions"\>Long Position=
+- If Pyth data is fresh and valid, Hertzflow uses the Pyth price.
 
-s\</a\>\</li\>
+- If Pyth data is stale or unavailable, the system switches to an aggregated index price built from top-tier exchanges (Binance, OKX, Bybit).
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-ShortPositions"\>Short Positi=
+- When using CEX data, Hertzflow applies a liquidity-weighted scoring system that accounts for order book depth, resilience, and bid/ask balance. Higher-liquidity venues are weighted more heavily in the final price.
 
-ons\</a\>\</li\>
+- If both Pyth and the fallback CEX feeds fail, no price update will occur.
 
-\</ul\>\</li\>
+**NOTE:** Oracle price updates occur during trade execution and through regular keeper updates.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-1.3LeverageManagement"\>1.3 L=
+This multi-layer design ensures Hertzflow maintains accurate, low-latency token pricing even during volatile conditions or infrastructure outages.
 
-everage Management\</a\>
+#### **1.2 Collateral Management**
 
-\<ul class=3D"toc-indentation"\>
+Hertzflow allows traders to open leveraged long and short positions across supported markets with up to **100x leverage**. Each position is fully isolated, with collateral, borrowing, and exposure tracked independently.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-UnderstandingLeverageonHertz=
+When a trader opens multiple positions in the same market and direction (long / short):
 
-flow"\>Understanding Leverage on Hertzflow\</a\>\</li\>
+- **Open positions:** Execution automatically increases the size of the existing position. Price, fee, and Profits and Losses (PnL) calculations are based on the current open position.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-SettingLeverage"\>Setting Lev=
+- **Collateral adjustments and closing:** Deposits, withdrawals, and close actions are applied directly to the existing position object.
 
-erage\</a\>\</li\>
+Adjusting Collaterals
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-MarginandMaintenanceMargin"\>=
+Collateral is deposited directly into each position, without a separate margin account. Traders can add or remove collateral in real time:
 
-Margin and Maintenance Margin\</a\>\</li\>
+- **Depositing collateral:** Increases margin rate, reducing leverage and lowering liquidation risk.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-RisksofUsingLeverage"\>Risks =
+- **Withdrawing collateral:** Decreases margin rate, increasing leverage and moving liquidation price closer.
 
-of Using Leverage\</a\>\</li\>
+- **Collateral Edit Limits:** Must be ≥ 10 USD and cannot reduce leverage below the minimum of 1.1x, and cannot increase leverage beyond the maximum of 100x.
 
-\</ul\>\</li\>
+Collateral can be selected from any whitelisted asset (SUI, USDC, xBTC, ETH) and is instantly borrowed and swapped through Hertzflow Liquidity Pool (HzLP)  at position open. A borrow fee accrues for the duration of the trade.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-1.4FeeStructure"\>1.4 Fee Str=
+##### Long Positions
 
-ucture\</a\>
+- **Exposure:** Trader gains upside exposure to the selected token.
 
-\<ul class=3D"toc-indentation"\>
+- **Collateral:** Provided by the trader in any whitelisted asset, borrowed and swapped atomically into the long position.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-CoreParameterSummary"\>Core P=
+- **Payouts:** Positive PnL and collateral withdrawals are returned to the trader with the option to settle in any whitelisted asset (SUI, USDC, xBTC, ETH).
 
-arameter Summary\</a\>\</li\>
+**EXAMPLE:** a trader can open a long position on ETH with SUI, or USDC, or xBTC, or ETH as collateral, and will receive their profit in SUI, or USDC, or xBTC, or ETH when closing.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Open/CloseFee"\>Open / Close =
+##### Short Positions
 
-Fee\</a\>\</li\>
+- **Exposure:** Trader profits if the selected token decreases in price.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-SwapFee"\>Swap Fee\</a\>\</li\>
+- **Collateral:** Provided by the trader in any whitelisted asset, swapped through HzLP to establish the short position.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-LiquidationFee"\>Liquidation =
+- **Payouts:** Positive PnL and collateral withdrawals are paid out in the collateral token by default, with the option to settle in any whitelisted asset.
 
-Fee\</a\>\</li\>
+**Example:** a trader shorting SUI  with USDC collateral can choose to settle in SUI if preferred.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-TargetandCurrentWeightage"\>T=
+#### **1.3 Leverage Management**
 
-arget and Current Weightage\</a\>\</li\>
+##### Understanding Leverage on Hertzflow
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-LPAdd/RemoveFees"\>LP Add / R=
+Leverage lets traders amplify their exposure by borrowing additional liquidity from the Hertzflow Liquidity Pool (HzLP). This enables positions much larger than the trader’s initial collateral. While leverage increases potential profits, it also magnifies losses and raises the risk of liquidation if the market moves unfavorably.
 
-emove Fees\</a\>\</li\>
+When a leveraged trade is opened:
 
-\</ul\>\</li\>
+1.  The trader deposits collateral (minimum \$10 USD equivalent).
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-1.5LimitOrder"\>1.5 Limit Ord=
+2.  Hertzflow automatically borrows from HzLP to scale the position size.
 
-er\</a\>
+3.  Exposure and risk are determined by the leverage multiplier selected.
 
-\<ul class=3D"toc-indentation"\>
+**EXAMPLE:** With 20x leverage and \$100 collateral, a trader opens a \$2,000 position. Profits (or losses) are calculated on the full \$2,000 exposure, not just the \$100 collateral.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-QuickReferenceTable"\>Quick R=
+##### Setting Leverage 
 
-eference Table\</a\>\</li\>
+Hertzflow supports leverage from **1.1x up to 100x** across all supported markets. The amount of leverage chosen directly determines both your potential returns and the distance to your liquidation price.
 
-\</ul\>\</li\>
+- **Range:** 1.1x to 100x across all supported assets
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-1.6HowHertzflowExecutesTrade=
+- **Adjustment:** Traders select leverage with a slider in the Hertzflow interface. The system automatically recalculates position size, liquidation level, and margin requirements in real time.
 
-s"\>1.6 How Hertzflow Executes Trades\</a\>
+- **Rules:** Higher leverage increases profit potential but reduces the margin buffer. Lower leverage provides more stability and reduces liquidation risk.
 
-\<ul class=3D"toc-indentation"\>
+##### Margin and Maintenance Margin
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-OrderExecutionFlow"\>Order Ex=
+- **Initial Margin:** The collateral you must deposit to open a position.
 
-ecution Flow\</a\>\</li\>
+- **Maintenance Margin (MMR):** The minimum margin level required to keep the position open.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-ExampleofaPerpetualTradeonHe=
+**NOTE:** If your margin rate (MR) falls below the MMR threshold, your position becomes eligible for liquidation by the Hertzflow Keeper Network.
 
-rtzflow"\>Example of a Perpetual Trade on Hertzflow\</a\>\</li\>
+##### Risks of Using Leverage
 
-\</ul\>\</li\>
+While leverage can boost returns, it also significantly increases the risk of liquidation. If the market moves against your position and your collateral falls below the maintenance margin, the Keeper Network will close your position automatically.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-1.7liquidation"\>1.7 liquidat=
+**TIPS:** To trade responsibly, it’s critical to:
 
-ion\</a\>
+- **Start small:** Begin with lower leverage until you build confidence and experience.
 
-\<ul class=3D"toc-indentation"\>
+- **Stay active:** Monitor collateral, liquidation price, PnL and margin ratio in real time.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-HowLiquidationWorks"\>How Liq=
+<!-- -->
 
-uidation Works\</a\>\</li\>
+- **Use stop-losses:** Always define a downside exit to protect against sudden moves.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-FactorsAffectingLiquidationP=
+#### **1.4 Fee Structure**
 
-rice"\>Factors Affecting Liquidation Price\</a\>\</li\>
+##### Core Parameter Summary
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-MonitoringMarginandLiquidati=
+<div class="table-wrap">
 
-on"\>Monitoring Margin and Liquidation\</a\>\</li\>
+|  |  |  |  |
+|----|----|----|----|
+| **Action** | **Fee Type** | **Rate** | **Purpose** |
+| Swap | Swap Fee | Dynamic | Protects LPs and keep the current weights aligned with their targets |
+| Borrowing | Hourly Borrow Fee | Dynamic | Compensates LPs for capital utilization |
+| Position Open / Close | Open/Close Fee | 0.06% | Charged on entry, exit, and collateral edits |
+| Forced Closure | Liquidation Fee | 0.2% | Risk mitigation & LP compensation |
+| \$HzLP Add / Remove | LP Fee | Dynamic | Risk mitigation & Pool composition balancing |
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-LiquidationExecution"\>Liquid=
+</div>
 
-ation Execution\</a\>\</li\>
+**NOTE:** Traders should monitor liquidation prices, as borrow and funding fees reduce collateral over time.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-2.1HertzflowLiquidityPool(Hz=
+##### Open / Close Fee
 
-LP)Overview"\>2.1 Hertzflow Liquidity Pool (HzLP) Overview\</a\>\</li\>
+A flat percentage of **0.06%** is applied whenever a position is opened or closed, and this fee goes to liquidity providers in HzLP.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-2.2\$HzLPToken"\>2.2 \$HzLP Tok=
+This same fee applies to:
 
-en\</a\>\</li\>
+- Take Profit / Stop Loss orders.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-2.3HowtheHzLPPoolWorks"\>2.3 =
+- Limit orders.
 
-How the HzLP Pool Works\</a\>\</li\>
+- Forced liquidations (in addition to liquidation fees).
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-2.4Custodies"\>2.4 Custodies\<=
+**EXAMPLE:** A position size of \$10,000 will be charged \$6 upon open, close or liquidation.
 
-/a\>\</li\>
+##### Swap Fee
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-2.5AssetsUnderManagement(AUM=
+Swaps between assets inside the Hertzflow LP (HzLP) pool incur a **dynamic swap fee** to protect liquidity providers (LPs) and to keep the pool weights aligned with their targets. Swaps apply two layers of fees:
 
-)"\>2.5 Assets Under Management (AUM)\</a\>\</li\>
+- **Base Fee Rate (base_bps)** – a flat fee applied to every swap.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-2.6VirtualPrice,MarketPrice,=
+  - Non-stables: swap_fee_bps = 30 (0.30%)
 
-andAUMLimits"\>2.6 Virtual Price, Market Price, and AUM Limits\</a\>\</li\>
+  - Stables: stable_swap_fee_bps = 4 (0.04%)
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-2.7CalculatingGlobalUnrealiz=
+- **Dynamic Impact Fee Rate (Rebate or Tax, tax_bps)** – adjusts depending on whether your swap moves the pool **toward** or **away from** the target weights. 
 
-edPnL"\>2.7 Calculating Global Unrealized PnL\</a\>\</li\>
+  - Non-stables: tax_bps = 150 (1.5%)
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-2.8Exposure&amp;Risks"\>2.8 E=
+  - Stables: stable_swap_fee_bps = 20 (0.2%)
 
-xposure &amp; Risks\</a\>\</li\>
+The **dynamic impact fee rate** is calculated as follows. The protocol measures the difference between the **current weightage** and the **target weightage**:
 
-\</ul\>\</li\>
+- **Initial Deviation (**init_diff = ｜c% - t%｜**)**\
+  For instance, BTC target weight is 20%. If the pool currently holds only 15%, then init_diff = 5%.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-1.Account&amp;FundsManagemen=
+- **Next Deviation (**next_diff =｜c%‘ - t%‘｜**)**\
+  After your swap, the deviation is recalculated. For instance, if your swap pushes BTC weight to 28%, then next_diff = 8%.
 
-t"\>1. Account &amp; Funds Management\</a\>
+Then the **dynamic impact fee** adjusts to reward behaviors that rebalances pool and :
 
-\<ul class=3D"toc-indentation"\>
+- **If next_diff \< init_diff → Rebate**\
+  Your swap brings the pool closer to balance. In this case, part of the fee is refunded. The rebate is capped so that the final fee never becomes negative.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q1:HowdoIfundmyHertzflowacco=
+`FORMULA:`
 
-unt?"\>Q1: How do I fund my Hertzflow account?\</a\>\</li\>
+`rebate_bps = tax_bps * init_diff / t%`
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q2:Whatare=E2=80=9Cnativetok=
+`final_fee_bps = max(0, base_bps - rebate_bps)`
 
-ens=E2=80=9Dand=E2=80=9Ccontracttokens=E2=80=9D?"\>Q2: What are =E2=80=9Cnat=
+- **If next_diff ≥ init_diff → Tax**\
+  Your swap makes the pool less balanced, so an extra tax is charged. If you help rebalance the pool, you get cheaper fees (rebate). If you push the pool further out of balance, you pay more (tax).
 
-ive tokens=E2=80=9D and =E2=80=9Ccontract tokens=E2=80=9D?\</a\>\</li\>
+`FORMULA:`
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q3:CanIwithdrawmyliquidityat=
+`avg_diff = (init_diff + next_diff) / 2`
 
-anytime?"\>Q3: Can I withdraw my liquidity at any time?\</a\>\</li\>
+`capped_diff = min(avg_diff, t%)`
 
-\</ul\>\</li\>
+`tax_bps_adj = tax_bps * capped_diff / t%`
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-2.Trading&amp;LeverageManage=
+`final_fee_bps = base_bps + tax_bps`
 
-ment"\>2. Trading &amp; Leverage Management\</a\>
+`The maximum loss is capped at (FEE_BPS_POWER - final_bps) / FEE_BPS_POWER.`
 
-\<ul class=3D"toc-indentation"\>
+**EXAMPLE：**
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q1:HowdoIselectamarket?"\>Q1:=
+- BTC target = 20%.
 
-How do I select a market?\</a\>\</li\>
+- Pool initially has 0% BTC → init_diff = 20%.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q2:Whatisleverage?"\>Q2: What=
+- After swap, pool goes to 80% BTC → next_diff = 60%.
 
-is leverage?\</a\>\</li\>
+- Average diff = 40%.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q3:Howistheliquidationpricec=
+final_bps = base_bps + 1.5% \* (20% / 20%) = 1.8%
 
-alculated?"\>Q3: How is the liquidation price calculated?\</a\>\</li\>
+So the fee is **much higher** than the base fee — a strong penalty for unbalancing the pool.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q4:HowtoCalculatePnL=EF=BC=
+##### Liquidation Fee
 
-=9F"\>Q4:How to Calculate PnL=EF=BC=9F\</a\>\</li\>
+When a position’s margin falls below maintenance requirements, it is force-closed.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q5:WhatistheMaintenanceMargi=
+- **Liquidation Fee Rate:** **1%** of collateral.
 
-nRequirement(MMR)?"\>Q5: What is the Maintenance Margin Requirement (MMR)?\</=
+- The fee is applied **in addition** to the Open/Close fee and any accrued Borrow Fees.
 
-a\>\</li\>
+- Remaining collateral (after deductions) is returned to the trader.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q6:HowcanIavoidliquidation?"=
+**EXAMPLE:**
 
-\>Q6: How can I avoid liquidation?\</a\>\</li\>
+- Collateral: \$10,000
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q7:Whathappensifmypositionis=
+- Remaining after liquidation: \$1,000
 
-liquidated?"\>Q7: What happens if my position is liquidated?\</a\>\</li\>
+- Liquidation Fee (1%): \$100
 
-\</ul\>\</li\>
+- Net returned: \$900
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-3.LiquidityProvision&amp;Ear=
+##### Target and Current Weightage
 
-nings"\>3. Liquidity Provision &amp; Earnings\</a\>
+- **Target Weight (t%token):** Desired share of pool TVL for each token.
 
-\<ul class=3D"toc-indentation"\>
+- **Current Weight (c%token):** Actual share based on live pool balances.
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q1:Whyprovideliquidity?"\>Q1:=
+- **Deviation (δ%token):** Maximum allowable relative deviation between target and current weight.
 
-Why provide liquidity?\</a\>\</li\>
+δ%token=∣c%−t%t%∣δ\\\_{token} = \left\|\frac{c\\ - t\\}{t\\}\right\|
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q2:Whatis\$HzLP?"\>Q2: What is=
+**NOTE:** If the new liquidity action would push δ% above the configured limit, the transaction will not be proceeded.
 
-\$HzLP?\</a\>\</li\>
+##### LP Add / Remove Fees
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q3:Howtoget\$HzLP"\>Q3: How to=
+Adding or removing liquidity (minting or burning HzLP) uses **the same weight-balance logic** as swaps. The final fee depends on whether the action moves pool weights toward or away from their targets.
 
-get \$HzLP\</a\>\</li\>
+- **Base Fee:** `add_remove_fee_bps = 30` (0.30%)
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q4=EF=BC=9AHowtoBecomeaLiqui=
+- **Deviation Threshold (δ%):** Each asset has a configured max deviation from its target weight:
 
-dityProvider"\>Q4=EF=BC=9AHow to Become a Liquidity Provider\</a\>\</li\>
+<div class="table-wrap">
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q5:HowtoCalculateAPY?"\>Q5: H=
+|       |                            |
+|-------|----------------------------|
+| Asset | δ% (Max Allowed Deviation) |
+| BTC   | 20%                        |
+| ETH   | 20%                        |
+| SUI   | 20%                        |
+| USDC  | 20%                        |
 
-ow to Calculate APY?\</a\>\</li\>
+</div>
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q6:HowdoIwithdrawfromtheliqu=
+**EXAMPLE:** TVL = \$1,000,000; δ% = 20%; user tries to add \$150,000 ETH.
 
-iditypool?"\>Q6: How do I withdraw from the liquidity pool?\</a\>\</li\>
+- Target weight of ETH = 40% → \$400,000
 
-\</ul\>\</li\>
+- Current weight of ETH = 30% → \$300,000
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-4.RiskManagement&amp;Strateg=
+<!-- -->
 
-y"\>4. Risk Management &amp; Strategy\</a\>
+- New weight = (300,000 + 150,000) / 1,000,000 = 45%
 
-\<ul class=3D"toc-indentation"\>
+- Target = 40%, deviation = (45% - 40%) / 40% = 12.5% (\< 20%) - rebate
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q1:HowcanImanagemytradingris=
+- `rebate_bps = 1.5% * 10% / 40%`
 
-k?"\>Q1: How can I manage my trading risk?\</a\>\</li\>
+- `final_fee_bps = max(0, base_bps - rebate_bps) = 0%`
 
-\<li\>\<a href=3D"#Non-techDocs=E5=BA=95=E7=A8=BF-Q2:Whatifmarketvolatilitytri=
+- Fee = **\$0**.
 
-ggersmyliquidation?"\>Q2: What if market volatility triggers my liquidation?=
+#### **1.5 Limit Order**
 
-\</a\>\</li\>
+Limit orders, unlike market orders, are always active until filled or manually cancelled. They execute only at your limit or better, and may not fill in volatile markets.
 
-\</ul\>\</li\>
+**NOTE:**
 
-\</ul\>
+- Limit orders are independent of your current position -  they can open a new position or add to an existing one.
 
-\</div\>
+- They remain active even if your current position is closed or liquidated.
 
-\<ol start=3D"1"\>
+- Hertzflow supports up to **20 active limit orders** per market.
 
-\<li\>
+⚠️**CAUTION**
 
-\<p\>Core Mechanisms of HertzFlow Perps\</p\>\</li\>
+- **When Placing Orders Near Liquidation Price:** Execution order is not strictly FIFO (first-in, first-out). If your limit price is near your liquidation threshold, then
 
-\</ol\>
+  - If the limit order executes first → your position may be saved.
 
-\<h4 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-1.1MainstreamAssetOracle"\>\<strong\>=
+  - If liquidation executes first → your position is closed, but the limit order stays active and may immediately open a new one.
 
-1.1 Mainstream Asset Oracle\</strong\>\</h4\>
+<!-- -->
 
-\<p\>Hertzflow aggregates token prices from two primary sources:\</p\>
+- **Simulated Liquidation Price Displayed When Setting Up a Limit Order:** The displayed liquidation price is only a simulation at the moment of order placement. When the limit order actually triggers, market conditions may have changed (funding fees, borrowing costs, or price shifts), so the real liquidation level may differ from what was shown on the form.
 
-\<ul\>
+  - **If you already have a position:** The displayed liquidation price factors in both your current position and the requested limit order.
 
-\<li\>
+  - **If you don’t have a position:** The liquidation price is calculated based only on the requested order.
 
-\<p\>\<strong\>Pyth Network\</strong\>\</p\>\</li\>
+##### Quick Reference Table
 
-\<li\>
+<div class="table-wrap">
 
-\<p\>\<strong\>CEX Index Feeds\</strong\> (Binance, OKX, Coinbase)\</p\>\</li\>
+|  |  |  |  |
+|----|----|----|----|
+| **Order Type** | **Trigger** | **Execution** | **Use Case** |
+| **Market (Open/Close)** | Mark price (immediate) | Instant, with slippage | Fast entry/exit |
+| **Limit (Open/Close)** | Price reaches your set limit | Executes at limit or better | Price discipline |
+| **Trigger (Open/Close)** *(Coming Soon)* | Price reaches your trigger | Converts to market order with slippage | Stop-loss / Take-profit |
+| **Liquidation** | Mark price hits liquidation | Forced closure to protect LP | Protocol safeguard |
 
-\</ul\>
+</div>
 
-\<p\>Pyth Network is the primary oracle for Hertzflow, with CEX index prices =
+#### **1.6 How Hertzflow Executes Trades**\
+\
 
-acting as a fallback and validation layer. The following describes how the =
+##### Order Execution Flow
 
-multi-oracle system works:\</p\>
+Hertzflow uses a modular request-based architecture for decentralized trading:
 
-\<ul\>
+1.  Trade Requests
 
-\<li\>
+    - Traders submit requests via the Hertzflow dashboard. These include:
 
-\<p\>If Pyth data is fresh and valid, Hertzflow uses the Pyth price.\</p\>\</li\>
+      - Open/close positions
 
-\<li\>
+      - Increase/decrease position size
 
-\<p\>If Pyth data is stale or unavailable, the system switches to an aggregat=
+      - Deposit/withdraw collateral
 
-ed index price built from top-tier exchanges (Binance, OKX, Bybit).\</p\>\</li=
+      - Set limit orders, take-profit, or stop-loss conditions
 
-\>
+    - Requests contain all details: position size, side, leverage, and price limits.
 
-\<li\>
+2.  Request Monitoring & Execution
 
-\<p\>When using CEX data, Hertzflow applies a liquidity-weighted scoring syst=
+    - Keepers watch submitted requests and current market prices.
 
-em that accounts for order book depth, resilience, and bid/ask balance. Hig=
+    - Once conditions are met (for example, a limit order price is reached), Keepers trigger on-chain execution.
 
-her-liquidity venues are weighted more heavily in the final price.\</p\>\</li\>
+    - The Oracle module provides final prices for settlement, ensuring trades reflect real-time market conditions.
 
-\<li\>
+3.  Logical vs Actual Orders
 
-\<p\>If both Pyth and the fallback CEX feeds fail, no price update will occur=
+    - Logical Order: Created when the trader submits the request (off-chain or in the smart contract).
 
-.\</p\>\</li\>
+    - Actual Order: Executed on-chain by the Keeper when the trigger condition is met.
 
-\</ul\>
+    - Market orders execute immediately; limit orders wait until the target price is hit; stop-loss orders (trigger close) behave similarly.
 
-\<p\>\<strong\>NOTE:\</strong\> Oracle price updates occur during trade execution=
+##### Example of a Perpetual Trade on Hertzflow
 
-and through regular keeper updates.\</p\>
+Let’s bring all the concepts together with a concrete example of trading on Hertzflow’s decentralized perpetual futures platform. This will illustrate how positions, fees, and leverage interact in practice.
 
-\<p\>This multi-layer design ensures Hertzflow maintains accurate, low-latenc=
+1.  Trade Setup
 
-y token pricing even during volatile conditions or infrastructure outages.\<=
+Imagine a trader wants to open a 2x long position on SUI. The parameters are:
 
-/p\>
+<div class="table-wrap">
 
-\<p\>\</p\>
+|                   |                 |                                          |
+|-------------------|-----------------|------------------------------------------|
+| Parameter         | Value           | Notes                                    |
+| Position Size     | \$1,000         | Total value of the position              |
+| Collateral        | \$500 SUI       | Deposited by trader                      |
+| Borrowed Amount   | \$500 SUI       | Provided by Hertzflow’s liquidity pool   |
+| Leverage          | 2x              | Total position ÷ collateral              |
+| Initial SUI Price | \$2.50          | Market price at position opening         |
+| Utilization Rate  | 40%             | Portion of liquidity pool already in use |
+| Borrow Rate       | 0.015% per hour | Hourly fee on borrowed amount            |
+| Open Fee          | 0.06%           | Charged on position size when opening    |
 
-\<h4 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-1.2CollateralManagement"\>\<strong\>1=
+</div>
 
-.2 Collateral Management\</strong\>\</h4\>
+2.  What Happens Next
 
-\<p\>Hertzflow allows traders to open leveraged long and short positions acro=
+Suppose the trader holds this position for 48 hours, during which SUI price rises by 10%.
 
-ss supported markets with up to \<strong\>100x leverage\</strong\>. Each positi=
+1.  Position Value Update
 
-on is fully isolated, with collateral, borrowing, and exposure tracked inde=
+- Final position value: \$1,100
 
-pendently.\</p\>
+- Final SUI price: \$2.75
 
-\<p\>When a trader opens multiple positions in the same market and direction =
+2.  Closing Fee
 
-(long / short):\</p\>
+- 0.06% of final position: \$1,100 × 0.06% = \$0.66
 
-\<ul\>
+3.  Borrow Fee Calculation\
+    Hertzflow accrues borrow fees hourly based on pool utilization:
 
-\<li\>
+Hourly Borrow Fee = (Tokens Borrowed / Tokens in Pool) × Hourly Borrow Rate × Position Size
 
-\<p\>\<strong\>Open positions:\</strong\> Execution automatically increases the s=
+- \$500 borrowed / \$1,250 in pool × 0.015% × \$1,000 = \$0.06 per hour
 
-ize of the existing position. Price, fee, and Profits and Losses (PnL) calc=
+- Over 48 hours: \$0.06 × 48 = \$2.88
 
-ulations are based on the current open position.\</p\>\</li\>
+3.  Profit Calculation
 
-\<li\>
+<div class="table-wrap">
 
-\<p\>\<strong\>Collateral adjustments and closing:\</strong\> Deposits, withdrawa=
+|                        |         |
+|------------------------|---------|
+| Item                   | Amount  |
+| Final Position Value   | \$1,100 |
+| Less: Initial Position | \$1,000 |
+| Less: Borrow Fees      | \$2.88  |
+| Less: Open Fee         | \$0.60  |
+| Less: Close Fee        | \$0.66  |
+| Net Profit             | \$95.86 |
 
-ls, and close actions are applied directly to the existing position object.=
+</div>
 
-\</p\>\</li\>
+**The trader earns \$95.86 after 2 days.**
 
-\</ul\>
+#### **1.7 liquidation**
 
-\<p\>Adjusting Collaterals\</p\>
+The **liquidation price** represents the threshold at which a position will be automatically closed if a trader’s collateral can no longer support the leveraged position. Hertzflow continuously monitors positions and triggers liquidations through its Keeper Network when necessary.
 
-\<p\>Collateral is deposited directly into each position, without a separate =
+##### How Liquidation Works
 
-margin account. Traders can add or remove collateral in real time:\</p\>
+- **Long Positions:**\
+  Liquidation occurs if the token price **falls below the liquidation price**.\
+  *Example:* If the liquidation price is \$2.50, the long position will be closed if the token drops below \$2.50.
 
-\<ul\>
+- **Short Positions:**\
+  Liquidation occurs if the token price **rises above the liquidation price**.\
+  *Example:* If the liquidation price is \$2.80, the short position will be closed if the token rises above \$2.80.
 
-\<li\>
+##### Factors Affecting Liquidation Price
 
-\<p\>\<strong\>Depositing collateral:\</strong\> Increases margin rate, reducing =
+The liquidation price is influenced by:
 
-leverage and lowering liquidation risk.\</p\>\</li\>
+1.  **Entry Price** – the average price of the position when opened.
 
-\<li\>
+2.  **Collateral Size** – the initial margin deposited minus any opening/closing fees.
 
-\<p\>\<strong\>Withdrawing collateral:\</strong\> Decreases margin rate, increasi=
+3.  **Fees:**
 
-ng leverage and moving liquidation price closer.\</p\>\</li\>
+    - **Liquidation Fee** – charged specifically when a position is liquidated.
 
-\<li\>
+    - **Close Fee** – combined fees for decreasing a position.
 
-\<p\>\<strong\>Collateral Edit Limits: \</strong\>Must be =E2=89=A5 10 USD and ca=
+    - **Borrow Fee** – accumulated interest for leveraged positions over time.
 
-nnot reduce leverage below the minimum of 1.1x, and cannot increase leverag=
+4.  **Position Size** – the total value of the position.
 
-e beyond the maximum of 100x.\</p\>\</li\>
+5.  **Maximum Leverage** – the highest allowed leverage for the market.
 
-\</ul\>
+The formula adjusts dynamically as the position evolves, taking into account any changes in collateral, added/removed margin, or partial position adjustments.
 
-\<p\>Collateral can be selected from any whitelisted asset (SUI, USDC, xBTC, =
+##### Monitoring Margin and Liquidation
 
-ETH) and is instantly borrowed and swapped through Hertzflow Liquidity Pool=
+Hertzflow calculates **Margin Rate (MR)** for each position:
 
-(HzLP)&nbsp; at position open. A borrow fee accrues for the duration of th=
+`MR = Collateral * (1 + uPnL% − r_fees) / Position Size * 100%`
 
-e trade.\</p\>
+- **uPnL%**: Unrealized profit or loss percentage
 
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-LongPositions"\>Long Positions\</h5\>
+- **r_fees**: Sum of close fee rate, borrow fee rate, and liquidation fee rate.
 
-\<ul\>
+If **MR falls below the Maintenance Margin Requirement (MMR)**, keeper bots trigger a liquidation automatically.
 
-\<li\>
+##### Liquidation Execution
 
-\<p\>\<strong\>Exposure:\</strong\> Trader gains upside exposure to the selected =
+1.  **Automated:** Keepers continuously monitor positions and execute liquidations without manual intervention.
 
-token.\</p\>\</li\>
+2.  **Safe:** SUI’s **Programmable Transaction Blocks (PTB)** ensure that closing a position, repaying borrowed assets from the Hertzflow Liquidity Pool (HzLP), and updating relevant objects occur atomically.
 
-\<li\>
+3.  **Transparent:** All liquidation transactions are recorded on-chain for full auditability.
 
-\<p\>\<strong\>Collateral:\</strong\> Provided by the trader in any whitelisted a=
+<!-- -->
 
-sset, borrowed and swapped atomically into the long position.\</p\>\</li\>
+2.  HzLP v1
 
-\<li\>
+##### 2.1 Hertzflow Liquidity Pool (HzLP) Overview
 
-\<p\>\<strong\>Payouts:\</strong\> Positive PnL and collateral withdrawals are re=
+The **Hertzflow Liquidity Pool (HzLP)** is the backbone of leveraged trading on Hertzflow. It acts as the counterparty to all traders, providing liquidity for perpetual markets across supported tokens (SUI, ETH, xBTC, USDC).
 
-turned to the trader with the option to settle in any whitelisted asset (SU=
+LPs (Liquidity Providers) deposit assets into the pool and receive **\$HzLP tokens**, representing their share of the pool. As traders open, close, and settle positions, the pool earns fees and traders’ losses, which accrue directly to LPs.\
+The JLP token derives its value from:
 
-I, USDC, xBTC, ETH).\</p\>\</li\>
+- An index fund of **SUI, ETH, xBTC, USDC**.
 
-\</ul\>
+- Trader's **profit and loss**.
 
-\<p\>\<strong\>EXAMPLE:\</strong\> a trader can open a long position on ETH with =
+- **75%** of the generated fees from swap fees, open/close position fees, borrow fees and liquidation fees
 
-SUI, or USDC, or xBTC, or ETH as collateral, and will receive their profit =
+##### 2.2 \$HzLP Token
 
-in SUI, or USDC, or xBTC, or ETH when closing.\</p\>
+- **Representation:** \$HzLP tokens mirror your share of the Hertzflow Liquidity Pool.
 
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-ShortPositions"\>Short Positions\</h=
+- **Acquisition:** Deposit supported tokens into the pool, and \$HzLP is minted proportionally.
 
-5\>
+- **Redemption:** Burn \$HzLP to withdraw your proportional share of underlying assets, plus accrued yield.
 
-\<ul\>
+- **Yield Mechanism:** \$HzLP grows in value over time through:
 
-\<li\>
+  - Swap fees from token conversions
 
-\<p\>\<strong\>Exposure:\</strong\> Trader profits if the selected token decrease=
+  - Open/close position fees from leveraged trades
 
-s in price.\</p\>\</li\>
+  - Borrow and funding fees
 
-\<li\>
+  - Liquidation fees from forced position closures
 
-\<p\>\<strong\>Collateral:\</strong\> Provided by the trader in any whitelisted a=
+  - Traders’ net losses
 
-sset, swapped through HzLP to establish the short position.\</p\>\</li\>
+##### 2.3 How the HzLP Pool Works
 
-\<li\>
+1.  **Deposits & Withdrawals**
 
-\<p\>\<strong\>Payouts:\</strong\> Positive PnL and collateral withdrawals are pa=
+    - Deposit tokens → Mint \$HzLP proportionally.
 
-id out in the collateral token by default, with the option to settle in any=
+    - Redeem \$HzLP → Burn tokens and receive underlying assets instantly.
 
-whitelisted asset.\</p\>\</li\>
+    - **Dynamic LP Fees:** Fees adjust based on pool balance relative to target asset weights.
 
-\</ul\>
+      - Adding scarce assets or removing surplus → Lower fees
 
-\<p\>\<strong\>Example:\</strong\> a trader shorting SUI&nbsp; with USDC collater=
+      - Adding oversupplied assets or removing scarce → Higher fees
 
-al can choose to settle in SUI if preferred.\</p\>
+2.  **Liquidity Deployment**
 
-\<h4 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-1.3LeverageManagement"\>\<strong\>1.3=
+    - The pool automatically serves as counterparty for all trades.
 
-Leverage Management\</strong\>\</h4\>
+    - Positive trader PnL → Pool pays out
 
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-UnderstandingLeverageonHertzflow"\>=
+    - Negative trader PnL → Pool earns, increasing TVL
 
-Understanding Leverage on Hertzflow\</h5\>
+3.  **Earnings & APY**
 
-\<p\>Leverage lets traders amplify their exposure by borrowing additional liq=
+    - Earnings come primarily from fees and traders’ losses.
 
-uidity from the Hertzflow Liquidity Pool (HzLP). This enables positions muc=
+    - Projected APY is compounded daily based on accrued fees and weight-adjusted earnings:
 
-h larger than the trader=E2=80=99s initial collateral. While leverage incre=
+`APY_total = (1 + Σ(Daily APR × Token Weight) / 365) ^ 365 − 1`
 
-ases potential profits, it also magnifies losses and raises the risk of liq=
+4.  **Governance & Fee Distribution:**
 
-uidation if the market moves unfavorably.\</p\>
+    - **LP Share:** 75% of all protocol fees accrue to LPs, compensating for counterparty risk.
 
-\<p\>When a leveraged trade is opened:\</p\>
+    - **Protocol Treasury:** 25% is reinvested into protocol growth, liquidity, insurance backstops, and incentive campaigns.
 
-\<ol start=3D"1"\>
+5.  **Risk Management**\
+    Hertzflow mitigates LP risks through:
 
-\<li\>
+    - **Dynamic Borrowing Rates:** Adjust rates in real-time to discourage OI imbalances
 
-\<p\>The trader deposits collateral (minimum \$10 USD equivalent).\</p\>\</li\>
+    - **Automated Keeper Liquidations:** Smart-contract-driven, deterministic on-chain liquidations
 
-\<li\>
+    - **Dynamic LP Fees:** Incentivize deposits/withdrawals that maintain pool balance
 
-\<p\>Hertzflow automatically borrows from HzLP to scale the position size.\</p=
+    - **Weightage Tolerance Bands:** Target ±δ% per-asset to prevent concentration risk
 
-\>\</li\>
+    - **Decentralized Keeper Network:** Redundant nodes ensure liquidations and trade execution even under stress
 
-\<li\>
+##### 2.4 Custodies
 
-\<p\>Exposure and risk are determined by the leverage multiplier selected.\</p=
+The **Hertzflow Liquidity Pool** manages multiple **custody accounts** for supported tokens, which hold and track the liquidity provided by LPs:
 
-\>\</li\>
+<div class="table-wrap">
 
-\</ol\>
+|       |                         |
+|-------|-------------------------|
+| Token | Custody Account         |
+| SUI   | … (on-chain account ID) |
+| ETH   | …                       |
+| xBTC  | …                       |
+| USDC  | …                       |
 
-\<p\>\<strong\>EXAMPLE:\</strong\> With 20x leverage and \$100 collateral, a trade=
+</div>
 
-r opens a \$2,000 position. Profits (or losses) are calculated on the full \$=
+Each custody account represents the pool’s holdings for that specific token, including deposited assets, locked amounts for traders, and any borrowed assets.
 
-2,000 exposure, not just the \$100 collateral.\</p\>
+**NOTE: Key Concepts**
 
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-SettingLeverage"\>Setting Leverage&=
+1.  Debt
 
-nbsp;\</h5\>
+    - Represents the amount of tokens borrowed from the custody.
 
-\<p\>Hertzflow supports leverage from \<strong\>1.1x up to 100x\</strong\> across=
+    - Calculated as:
 
-all supported markets. The amount of leverage chosen directly determines b=
+debt = max(custody.debt - custody.borrowLendInterestsAccrued, 0)
 
-oth your potential returns and the distance to your liquidation price.\</p\>
+- Provides the **pure debt amount** without accumulated interest.
 
-\<ul\>
+2.  Theoretically Owned
 
-\<li\>
+    - The “true” ownership of tokens in the custody, including borrowed assets:
 
-\<p\>\<strong\>Range:\</strong\> 1.1x to 100x across all supported assets\</p\>\</li=
+theoreticallyOwned = custody.assets.owned + debt(custody)
 
-\>
+- Borrowed tokens are **not included** in `custody.assets.owned`, so this ensures the actual total value is reflected.
 
-\<li\>
+3.  Total Locked
 
-\<p\>\<strong\>Adjustment:\</strong\> Traders select leverage with a slider in th=
+    - Represents the actual amount of tokens locked by the custody, including borrowed assets:
 
-e Hertzflow interface. The system automatically recalculates position size,=
+totalLocked = custody.assets.locked + debt(custody)
 
-liquidation level, and margin requirements in real time.\</p\>\</li\>
+- Ensures that liquidity obligations toward traders are fully captured.
 
-\<li\>
+##### 2.5 Assets Under Management (AUM)
 
-\<p\>\<strong\>Rules: \</strong\>Higher leverage increases profit potential but r=
+1.  Stablecoins (USDC)
 
-educes the margin buffer. Lower leverage provides more stability and reduce=
+For stablecoins, the AUM is calculated as:
 
-s liquidation risk.\</p\>\</li\>
+aum = theoreticallyOwned \* currentTokenPrice
 
-\</ul\>
+2.  Non-stablecoins (SUI, ETH, xBTC)
 
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-MarginandMaintenanceMargin"\>Margin=
+<!-- -->
 
-and Maintenance Margin\</h5\>
+1.  Global Short PnL:
 
-\<ul\>
+unrealizedShortPnl = custody.assets.globalShortSizes \* 
 
-\<li\>
+                     (\|custody.assets.globalShortAveragePrices - currentTokenPrice\|) /
 
-\<p\>\<strong\>Initial Margin:\</strong\> The collateral you must deposit to open=
+                     custody.assets.globalShortAveragePrices
 
-a position.\</p\>\</li\>
+shortTradersInProfit = custody.assets.globalShortAveragePrices \> currentTokenPrice
 
-\<li\>
+2.  **AUM Calculation:**
 
-\<p\>\<strong\>Maintenance Margin (MMR):\</strong\> The minimum margin level requ=
+netAssetsToken = max(0, theoreticallyOwned - custody.assets.locked)
 
-ired to keep the position open.\</p\>\</li\>
+netAssetsUsd   = netAssetsToken \* currentTokenPrice
 
-\</ul\>
+aumUsd        = custody.assets.guaranteedUsd
 
-\<p\>\<strong\>NOTE:\</strong\> If your margin rate (MR) falls below the MMR thre=
+if shortTradersInProfit:
 
-shold, your position becomes eligible for liquidation by the Hertzflow Keep=
+    aumUsd -= unrealizedShortPnl
 
-er Network.\</p\>
+else:
 
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-RisksofUsingLeverage"\>Risks of Usi=
+    aumUsd += unrealizedShortPnl
 
-ng Leverage\</h5\>
+- `guaranteedUsd` estimates the total size of all **long positions**.
 
-\<p\>While leverage can boost returns, it also significantly increases the ri=
+- Updated only when positions are opened/closed or collateral is adjusted.
 
-sk of liquidation. If the market moves against your position and your colla=
+- Does **not** update in real-time with token price changes.
 
-teral falls below the maintenance margin, the Keeper Network will close you=
+3.  Total AUM
 
-r position automatically.\</p\>
+The pool’s total AUM is the sum of all custody AUMs:
 
-\<p\>\<strong\>TIPS: \</strong\>To trade responsibly, it=E2=80=99s critical to:\</=
+totalAumUsd = Σ(aumUsd)
 
-p\>
+##### 2.6 Virtual Price, Market Price, and AUM Limits
 
-\<ul\>
+- Virtual Price:
 
-\<li\>
+Virtual Price = Total HzLP Pool Assets (USD) / Total \$HzLP in circulation
 
-\<p\>\<strong\>Start small:\</strong\> Begin with lower leverage until you build =
+- **Market Price:**
 
-confidence and experience.\</p\>\</li\>
+  - When the AUM limit is reached:
 
-\<li\>
+Market Price = Virtual Price + Market-assigned Premium
 
-\<p\>\<strong\>Stay active:\</strong\> Monitor collateral, liquidation price, PnL=
+- Minting new \$HzLP is **disabled** once the AUM cap is hit.
 
-and margin ratio in real time.\</p\>\</li\>
+- Existing tokens can still be sold on the market; if market price \< virtual price, redemption occurs at **Virtual Price**.
 
-\</ul\>
+<!-- -->
 
-\<ul\>
+- APY Update:
 
-\<li\>
+  - Estimated daily APY is recalculated every 24 hours using the previous day’s fees.
 
-\<p\>\<strong\>Use stop-losses:\</strong\> Always define a downside exit to prote=
+##### 2.7 Calculating Global Unrealized PnL
 
-ct against sudden moves.\</p\>\</li\>
+**For Long Positions**
 
-\</ul\>
+guaranteedUsd     = custody.assets.guaranteedUsd
 
-\<h4 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-1.4FeeStructure"\>\<strong\>1.4 Fee S=
+lockedTokensUsd   = custody.assets.locked \* currentTokenPrice
 
-tructure\</strong\>\</h4\>
+globalUnrealizedLongPnl = lockedTokensUsd - guaranteedUsd
 
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-CoreParameterSummary"\>Core Paramet=
+- Provides an estimate of total unrealized PnL for all open long positions.
 
-er Summary\</h5\>
+- Includes traders’ collateral, so the value may **overestimate actual PnL**.
 
-\<div class=3D"table-wrap"\>
+**For Short Positions**
 
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"e2=
+globalUnrealizedShortPnl = custody.assets.globalShortSizes \*
 
-639305-7d92-475c-b823-f1cd6ac0d536" class=3D"confluenceTable"\>
+                           (\|custody.assets.globalShortAveragePrices - currentTokenPrice\|) /
 
-\<tbody\>
+                           custody.assets.globalShortAveragePrices
 
-\<tr\>
+- Gives an estimate of total unrealized PnL for all open short positions.
 
-\<td class=3D"confluenceTd"\>
+- For highest accuracy, iterate over **all open positions** and sum individually.
 
-\<p\>\<strong\>Action\</strong\>\</p\>\</td\>
+##### 2.8 Exposure & Risks
 
-\<td class=3D"confluenceTd"\>
+**Market Exposure:**
 
-\<p\>\<strong\>Fee Type\</strong\>\</p\>\</td\>
+- LPs are exposed to price changes of pool assets. Non-stablecoins (SUI, ETH, xBTC) dominate this exposure.
 
-\<td class=3D"confluenceTd"\>
+- Gains occur when traders lose; losses occur when traders profit.
 
-\<p\>\<strong\>Rate\</strong\>\</p\>\</td\>
+- Sideways or bearish markets often benefit LPs as traders typically lose more.
 
-\<td class=3D"confluenceTd"\>
+**Primary Risks:**
 
-\<p\>\<strong\>Purpose\</strong\>\</p\>\</td\>
+<div class="table-wrap">
 
-\</tr\>
+|  |  |  |
+|----|----|----|
+| **Risk Type** | **Description** | **Mitigation** |
+| **Directional Exposure** | LPs can face temporary losses from OI imbalances. | Dynamic borrowing rates, LP fee scaling, OI monitoring |
+| **Liquidity Risk** | Withdrawal or trade execution may be delayed during high utilization. | Dynamic Position Limits, Weightage Tolerance Bands |
+| **Keeper Risk** | Malfunctioning or malicious keepers may mis-execute trades or liquidations. | Decentralized keeper network, slashing & incentive framework, automated failover |
+| **Oracle / Price Deviation Risk** | Misaligned or stale prices could lead to unfair settlements. | Dual-oracle validation (Pyth + CEX fallback), deviation threshold enforcement, retroactive fair execution |
 
-\<tr\>
+</div>
 
-\<td class=3D"confluenceTd"\>
+3.  FAQ
 
-\<p\>Swap\</p\>\</td\>
+When placing orders, traders configure the following:
 
-\<td class=3D"confluenceTd"\>
+- **Side:** Open Long, Open Short, Close Long, Close Short, Increase Long, Increase Short, Decrease Long, Decrease Short
 
-\<p\>Swap Fee\</p\>\</td\>
+- **Order Type:** Market / Limit / Trigger (coming soon)
 
-\<td class=3D"confluenceTd"\>
+- **Collateral Asset & Amount:** Any whitelisted token, minimum \$10 USD equivalent
 
-\<p\>Dynamic\</p\>\</td\>
+- **Exposure & Leverage:** From 1.1x up to 100x, automatically calculated based on collateral and leverage chosen
 
-\<td class=3D"confluenceTd"\>
+- **Slippage:** Accepted price difference between execution price and entry price
 
-\<p\>Protects LPs and keep the current weights aligned with their targets\</p\>=
+- **Entry Price:** Market price for market orders, or trader-defined price for limit orders
 
-\</td\>
+- **Exit Price:** Defined for trigger orders (take profit / stop loss), or the execution price for market closes
 
-\</tr\>
+#### 1. Account & Funds Management
 
-\<tr\>
+##### **Q1: How do I fund my Hertzflow account?**
 
-\<td class=3D"confluenceTd"\>
+ **A1:**
 
-\<p\>Borrowing\</p\>\</td\>
+- **If you already hold SUI / USDC / ETH / XBTC:** Connect your wallet and ensure you have ≥0.05 SUI for gas fees.
 
-\<td class=3D"confluenceTd"\>
+- **Assets on other chains:** Use a supported bridge to transfer SUI (for gas) and desired tokens to Sui network.
 
-\<p\>Hourly Borrow Fee\</p\>\</td\>
+- **CEX withdrawals:** Make sure to choose the Sui network and native Sui tokens (SUI, USDC, ETH, XBTC), not cross-chain wrapped tokens.
 
-\<td class=3D"confluenceTd"\>
+##### **Q2: What are “native tokens” and “contract tokens”?**
 
-\<p\>Dynamic\</p\>\</td\>
+ **A2:**
 
-\<td class=3D"confluenceTd"\>
+- **Native tokens:** Tokens that exist natively on the Sui network, such as SUI, USDC, ETH, XBTC.
 
-\<p\>Compensates LPs for capital utilization\</p\>\</td\>
+- **Contract tokens:** Tokens issued on other chains, usually bridged to Sui for trading.
 
-\</tr\>
+##### **Q3: Can I withdraw my liquidity at any time?**
 
-\<tr\>
+**A3:** Yes, but note:
 
-\<td class=3D"confluenceTd"\>
+- Withdrawals may be restricted by pool weight constraints.
 
-\<p\>Position Open / Close\</p\>\</td\>
+- First-time \$HzLP purchases require wallet approval.
 
-\<td class=3D"confluenceTd"\>
+- Withdrawals may be queued depending on the pool’s weight adjustments.
 
-\<p\>Open/Close Fee\</p\>\</td\>
+#### 2. Trading & Leverage Management
 
-\<td class=3D"confluenceTd"\>
+##### Q1: How do I select a market?
 
-\<p\>0.06%\</p\>\</td\>
+**A1:** Choose a trading pair from the market dropdown. You’ll see mark price, 24h change %, high/low, open interest, and indicative borrow rates.
 
-\<td class=3D"confluenceTd"\>
+##### Q2: What is leverage?
 
-\<p\>Charged on entry, exit, and collateral edits\</p\>\</td\>
+**A2:** Leverage lets you trade with borrowed funds. For example, 10x leverage means 1 unit of your capital controls 10 units of the asset. It magnifies both profits and losses.
 
-\</tr\>
+##### Q3: How is the liquidation price calculated?
 
-\<tr\>
+**A3:** The liquidation price is the market price at which your position will be force-closed. It depends on entry price, leverage, collateral, and the Maintenance Margin Requirement (MMR). Use the platform’s estimated liquidation price tool for guidance.
 
-\<td class=3D"confluenceTd"\>
+##### Q4:How to Calculate PnL？
 
-\<p\>Forced Closure\</p\>\</td\>
+**Unrealized PnL (uPnL%)**
 
-\<td class=3D"confluenceTd"\>
+- `uPnL% = (Mark Price - Entry Price) / Entry Price × 100%  (for longs)`
 
-\<p\>Liquidation Fee\</p\>\</td\>
+- `uPnL% = (Entry Price - Mark Price) / Entry Price × 100%  (for shorts)`
 
-\<td class=3D"confluenceTd"\>
+**Realized PnL**
 
-\<p\>0.2%\</p\>\</td\>
+- **Positive:** Collateral + profit returned from HzLP.
 
-\<td class=3D"confluenceTd"\>
+- **Negative:** Remaining collateral returned; losses retained by HzLP.
 
-\<p\>Risk mitigation &amp; LP compensation\</p\>\</td\>
+**Partial Close:** PnL is proportional to the closed portion.
 
-\</tr\>
+##### Q5: What is the Maintenance Margin Requirement (MMR)?
 
-\<tr\>
+**A5:** MMR is the minimum collateral required by the protocol. Falling below it triggers liquidation. It accounts for position size, leverage, and unrealized PnL.\
+**Margin Rate (MR)**
 
-\<td class=3D"confluenceTd"\>
+- `MR = Collateral × (1 + uPnL% - r_fees) / Position Size × 100%`
 
-\<p\>\$HzLP Add / Remove\</p\>\</td\>
+Where `r_fees` = sum of close fee, accrued borrow fee, liquidation fee.
 
-\<td class=3D"confluenceTd"\>
+- **Liquidation occurs** if MR \< Maintenance Margin Requirement (MMR).
 
-\<p\>LP Fee\</p\>\</td\>
+##### Q6: How can I avoid liquidation?
 
-\<td class=3D"confluenceTd"\>
+- Use conservative leverage.
 
-\<p\>Dynamic\</p\>\</td\>
+- Set stop-loss orders.
 
-\<td class=3D"confluenceTd"\>
+- Monitor your positions and market trends regularly.
 
-\<p\>Risk mitigation &amp; Pool composition balancing\</p\>\</td\>
+- Maintain sufficient collateral and avoid overexposure.
 
-\</tr\>
+##### Q7: What happens if my position is liquidated?
 
-\</tbody\>
+**A7:** Your position is force-closed at market price. Losses are deducted from your collateral, which could be your entire margin depending on leverage and market volatility.
 
-\</table\>
+#### 3. Liquidity Provision & Earnings
 
-\</div\>
+##### Q1: Why provide liquidity?
 
-\<p\>\<strong\>NOTE:\</strong\> Traders should monitor liquidation prices, as bor=
+ **A1:**
 
-row and funding fees reduce collateral over time.\</p\>
+- Earn trading fees whenever users trade.
 
-\<p\>\</p\>
+- Receive platform rewards or incentives.
 
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Open/CloseFee"\>Open / Close Fee\</h=
+##### Q2: What is \$HzLP?
 
-5\>
+**A2:** \$HzLP represents your share in the Hertzflow liquidity pool. Holding it entitles you to proportional earnings from the pool.
 
-\<p\>A flat percentage of \<strong\>0.06%\</strong\> is applied whenever a positi=
+##### Q3: How to get \$HzLP
 
-on is opened or closed, and this fee goes to liquidity providers in HzLP.\</=
+\$HzLP tokens represent your **share of the Hertzflow Liquidity Pool (HzLP)**. You can obtain them by:
 
-p\>
+- Deposit supported tokens (SUI, ETH, XBTC, USDC) into the HzLP pool.
 
-\<p\>This same fee applies to:\</p\>
+- \$HzLP is minted to your wallet proportional to your contribution.
 
-\<ul\>
+- Each \$HzLP token represents a share of the pool and entitles you to a portion of fees, liquidation rewards, and traders’ net losses.
 
-\<li\>
+You can redeem \$HzLP by:
 
-\<p\>Take Profit / Stop Loss orders.\</p\>\</li\>
+- Burn \$HzLP to withdraw your proportional share of the pool’s underlying assets.
 
-\<li\>
+- Withdrawals are **instant**, subject to pool composition limits to maintain target asset weights.
 
-\<p\>Limit orders.\</p\>\</li\>
+##### Q4：How to Become a Liquidity Provider
 
-\<li\>
+<div class="table-wrap">
 
-\<p\>Forced liquidations (in addition to liquidation fees).\</p\>\</li\>
+|  |  |  |  |
+|----|----|----|----|
+| **Step** | **Action** | **Description** | **Notes / Considerations** |
+| **Preparation** | Prepare wallet & assets | Supported Sui wallets: Suiet, OKX Wallet, Slush; Gas token: ≥ 0.05 SUI; Collateral assets: SUI, ETH, XBTC, USDC | Ensure your wallet is connected to the Sui network |
+| **Deposit Liquidity** | Navigate to \$HzLP Vault → Select token → Enter deposit amount → Confirm in wallet | Deposit selected tokens into the liquidity pool and receive \$HzLP tokens | Fees dynamically adjust based on pool target weight (closer to target = lower fee; further = higher fee). Deposits are capped to prevent overshooting target pool weights |
+| **Earnings** | LP earnings sources | Swap Fees, Open/Close Fees, Borrow & Funding Fees, Liquidation Fees, LP Deposit/Withdrawal Fees, Traders’ Net Losses | Earnings are distributed proportionally to your share of the pool |
+| **Withdraw Liquidity** | Select \$HzLP → Enter amount → Confirm in wallet | Redeem \$HzLP to receive your original tokens | Withdrawals are capped to maintain pool balance and prevent concentration risk; redeemed \$HzLP are burned |
 
-\</ul\>
+</div>
 
-\<p\>\<strong\>EXAMPLE: \</strong\>A position size of \$10,000 will be charged \$6 =
+**\$HzLP Deposit & Withdrawal Flow**
 
-upon open, close or liquidation.\</p\>
+`Preparation`
 
-\<p\>\</p\>
+`   ↓`
 
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-SwapFee"\>Swap Fee\</h5\>
+`Connect Wallet + Prepare Assets`
 
-\<p\>Swaps between assets inside the Hertzflow LP (HzLP) pool incur a \<strong=
+`   ↓`
 
-\>dynamic swap fee\</strong\> to protect liquidity providers (LPs) and to keep=
+`Deposit Liquidity`
 
-the pool weights aligned with their targets. Swaps apply two layers of fee=
+`   ├─ Select token & amount`
 
-s:\</p\>
+`   ├─ Dynamic fee adjustment`
 
-\<ul\>
+`   └─ Receive $HzLP in wallet`
 
-\<li\>
+`   ↓`
 
-\<p\>\<strong\>Base Fee Rate (base_bps)\</strong\> =E2=80=93 a flat fee applied t=
+`Accumulate Earnings`
 
-o every swap.\</p\>
+`   ├─ Swap Fees`
 
-\<ul\>
+`   ├─ Open/Close Fees`
 
-\<li\>
+`   ├─ Borrow & Funding Fees`
 
-\<p\>Non-stables: swap_fee_bps =3D 30 (0.30%)\</p\>\</li\>
+`   ├─ Liquidation Fees`
 
-\<li\>
+`   ├─ LP Deposit/Withdrawal Fees`
 
-\<p\>Stables: stable_swap_fee_bps =3D 4 (0.04%)\</p\>\</li\>
+`   └─ Traders’ Net Losses`
 
-\</ul\>\</li\>
+`   ↓`
 
-\<li\>
+`Withdraw Liquidity`
 
-\<p\>\<strong\>Dynamic Impact Fee Rate (Rebate or Tax, tax_bps)\</strong\> =E2=80=
+`   ├─ Enter $HzLP amount`
 
-=93 adjusts depending on whether your swap moves the pool \<strong\>toward\</s=
+`   ├─ Fee & pool weight restrictions`
 
-trong\> or \<strong\>away from\</strong\> the target weights.&nbsp;\</p\>
+`   └─ Receive original tokens + $HzLP burned`
 
-\<ul\>
+##### Q5: How to Calculate APY?
 
-\<li\>
+**\$HzLP Value**
 
-\<p\>Non-stables: tax_bps =3D 150 (1.5%)\</p\>\</li\>
+- `$HzLP Price = Total Pool AUM / Total $HzLP Supply`
 
-\<li\>
+<!-- -->
 
-\<p\>Stables: stable_swap_fee_bps =3D 20 (0.2%)\</p\>\</li\>
+- Fees, realized traders’ losses, and liquidations accrue to the pool, increasing \$HzLP price.
 
-\</ul\>\</li\>
+**APY Calculation**
 
-\</ul\>
+- `APY_total = (1 + (Σ(APR_day × c%_token) / 365))^365 - 1`
 
-\<p\>The \<strong\>dynamic impact fee rate\</strong\> is calculated as follows. T=
+Where `c%_token` = current weightage of the token in the pool.
 
-he protocol measures the difference between the \<strong\>current weightage\</=
+You can track cumulative earnings and APY on the liquidity page.
 
-strong\> and the \<strong\>target weightage\</strong\>:\</p\>
+##### Q6: How do I withdraw from the liquidity pool?
 
-\<ul\>
+- **Withdraw liquidity:** Redeem \$HzLP for underlying assets.
 
-\<li\>
+- **Burn \$HzLP:** Redeemed tokens are destroyed.
 
-\<p\>\<strong\>Initial Deviation (\</strong\>init_diff =3D =EF=BD=9Cc% - t%=EF=BD=
+- Pool weight restrictions may temporarily queue withdrawals to maintain balance.
 
-=9C\<strong\>)\</strong\>\<br\>
+#### 4. Risk Management & Strategy
 
-For instance, BTC target weight is 20%. If the pool currently holds only 1=
+##### Q1: How can I manage my trading risk?
 
-5%, then init_diff =3D 5%.\</p\>\</li\>
+- Diversify your positions across multiple assets.
 
-\<li\>
+- Set stop-loss orders to limit potential losses.
 
-\<p\>\<strong\>Next Deviation (\</strong\>next_diff =3D=EF=BD=9Cc%=E2=80=98 - t%=
+- Regularly monitor positions and adjust leverage.
 
-=E2=80=98=EF=BD=9C\<strong\>)\</strong\>\<br\>
+- Maintain sufficient collateral and avoid using all funds in a single position.
 
-After your swap, the deviation is recalculated. For instance, if your swap =
+##### Q2: What if market volatility triggers my liquidation?
 
-pushes BTC weight to 28%, then next_diff =3D 8%.\</p\>\</li\>
+- Understand hertzflow’s liquidation rules.
 
-\</ul\>
+- Adjust your positions and leverage proactively.
 
-\<p\>Then the \<strong\>dynamic impact fee\</strong\> adjusts to reward behaviors=
+- Stay calm and analyze the reason for liquidation to improve future strategies.
 
-that rebalances pool and :\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>If next_diff &lt; init_diff =E2=86=92 Rebate\</strong\>\<br\>
-
-Your swap brings the pool closer to balance. In this case, part of the fee=
-
-is refunded. The rebate is capped so that the final fee never becomes nega=
-
-tive.\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\<code\>FORMULA:\</code\>\</p\>
-
-\<p\>\<code\>rebate_bps =3D tax_bps \* init_diff / t%\</code\>\</p\>
-
-\<p\>\<code\>final_fee_bps =3D max(0, base_bps - rebate_bps)\</code\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>If next_diff =E2=89=A5 init_diff =E2=86=92 Tax\</strong\>\<br\>
-
-Your swap makes the pool less balanced, so an extra tax is charged. If you=
-
-help rebalance the pool, you get cheaper fees (rebate). If you push the po=
-
-ol further out of balance, you pay more (tax).\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\<code\>FORMULA:\</code\>\</p\>
-
-\<p\>\<code\>avg_diff =3D (init_diff + next_diff) / 2\</code\>\</p\>
-
-\<p\>\<code\>capped_diff =3D min(avg_diff, t%)\</code\>\</p\>
-
-\<p\>\<code\>tax_bps_adj =3D tax_bps \* capped_diff / t%\</code\>\</p\>
-
-\<p\>\<code\>final_fee_bps =3D base_bps + tax_bps\</code\>\</p\>
-
-\<p\>\<code\>The maximum loss is capped at (FEE_BPS_POWER - final_bps) / FEE_BP=
-
-S_POWER.\</code\>\</p\>
-
-\<p\>\<strong\>EXAMPLE=EF=BC=9A\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>BTC target =3D 20%.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Pool initially has 0% BTC =E2=86=92 init_diff =3D 20%.\</p\>\</li\>
-
-\<li\>
-
-\<p\>After swap, pool goes to 80% BTC =E2=86=92 next_diff =3D 60%.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Average diff =3D 40%.\</p\>\</li\>
-
-\</ul\>
-
-\<p\>final_bps =3D base_bps + 1.5% \* (20% / 20%) =3D 1.8%\</p\>
-
-\<p\>So the fee is \<strong\>much higher\</strong\> than the base fee =E2=80=94 a=
-
-strong penalty for unbalancing the pool.\</p\>
-
-\<p\>\</p\>
-
-\<p\>\</p\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-LiquidationFee"\>Liquidation Fee\</h=
-
-5\>
-
-\<p\>When a position=E2=80=99s margin falls below maintenance requirements, i=
-
-t is force-closed.\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Liquidation Fee Rate:\</strong\> \<strong\>1%\</strong\> of collateral=
-
-.\</p\>\</li\>
-
-\<li\>
-
-\<p\>The fee is applied \<strong\>in addition\</strong\> to the Open/Close fee an=
-
-d any accrued Borrow Fees.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Remaining collateral (after deductions) is returned to the trader.\</p\>\</=
-
-li\>
-
-\</ul\>
-
-\<p\>\<strong\>EXAMPLE:\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Collateral: \$10,000\</p\>\</li\>
-
-\<li\>
-
-\<p\>Remaining after liquidation: \$1,000\</p\>\</li\>
-
-\<li\>
-
-\<p\>Liquidation Fee (1%): \$100\</p\>\</li\>
-
-\<li\>
-
-\<p\>Net returned: \$900\</p\>
-
-\<p\>\</p\>\</li\>
-
-\</ul\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-TargetandCurrentWeightage"\>Target =
-
-and Current Weightage\</h5\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Target Weight (t%token):\</strong\> Desired share of pool TVL for =
-
-each token.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Current Weight (c%token):\</strong\> Actual share based on live po=
-
-ol balances.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Deviation (=CE=B4%token):\</strong\> Maximum allowable relative de=
-
-viation between target and current weight.\</p\>\</li\>
-
-\</ul\>
-
-\<p\>=CE=B4%token=3D=E2=88=A3c%=E2=88=92t%t%=E2=88=A3=CE=B4\\\_{token} =3D \le=
-
-ft\|\frac{c\\ - t\\}{t\\}\right\|\</p\>
-
-\<p\>\</p\>
-
-\<p\>\<strong\>NOTE: \</strong\>If the new liquidity action would push =CE=B4% ab=
-
-ove the configured limit, the transaction will not be proceeded.\</p\>
-
-\<p\>\</p\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-LPAdd/RemoveFees"\>LP Add / Remove =
-
-Fees\</h5\>
-
-\<p\>Adding or removing liquidity (minting or burning HzLP) uses \<strong\>the =
-
-same weight-balance logic\</strong\> as swaps. The final fee depends on wheth=
-
-er the action moves pool weights toward or away from their targets.\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Base Fee:\</strong\> \<code\>add_remove_fee_bps =3D 30\</code\> (0.30%=
-
-)\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Deviation Threshold (=CE=B4%):\</strong\> Each asset has a configu=
-
-red max deviation from its target weight:\</p\>\</li\>
-
-\</ul\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"ca=
-
-91b8b2-cb36-46d5-af7b-77b5bb5b5bf8" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Asset\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=CE=B4% (Max Allowed Deviation)\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>BTC\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>20%\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>ETH\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>20%\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>SUI\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>20%\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>USDC\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>20%\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>\</p\>
-
-\<p\>\<strong\>EXAMPLE:\</strong\> TVL =3D \$1,000,000; =CE=B4% =3D 20%; user trie=
-
-s to add \$150,000 ETH.\</p\>
-
-\<p\>\</p\>
-
-\<p\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Target weight of ETH =3D 40% =E2=86=92 \$400,000\</p\>\</li\>
-
-\<li\>
-
-\<p\>Current weight of ETH =3D 30% =E2=86=92 \$300,000\</p\>\</li\>
-
-\</ul\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>New weight =3D (300,000 + 150,000) / 1,000,000 =3D 45%\</p\>\</li\>
-
-\<li\>
-
-\<p\>Target =3D 40%, deviation =3D (45% - 40%) / 40% =3D 12.5% (&lt; 20%) - r=
-
-ebate\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>rebate_bps =3D 1.5% \* 10% / 40%\</code\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>final_fee_bps =3D max(0, base_bps - rebate_bps) =3D 0%\</code\>\</p\>\<=
-
-/li\>
-
-\<li\>
-
-\<p\>Fee =3D \<strong\>\$0\</strong\>.\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\</p\>
-
-\<h4 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-1.5LimitOrder"\>\<strong\>1.5 Limit O=
-
-rder\</strong\>\</h4\>
-
-\<p\>Limit orders, unlike market orders, are always active until filled or ma=
-
-nually cancelled. They execute only at your limit or better, and may not fi=
-
-ll in volatile markets.\</p\>
-
-\<p\>\<strong\>NOTE:\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Limit orders are independent of your current position -&nbsp; they can o=
-
-pen a new position or add to an existing one.\</p\>\</li\>
-
-\<li\>
-
-\<p\>They remain active even if your current position is closed or liquidated=
-
-.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Hertzflow supports up to \<strong\>20 active limit orders\</strong\> per mar=
-
-ket.\</p\>\</li\>
-
-\</ul\>
-
-\<p\>=E2=9A=A0=EF=B8=8F\<strong\>CAUTION\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>When Placing Orders Near Liquidation Price: \</strong\>Execution o=
-
-rder is not strictly FIFO (first-in, first-out). If your limit price is nea=
-
-r your liquidation threshold, then\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>If the limit order executes first =E2=86=92 your position may be saved.\<=
-
-/p\>\</li\>
-
-\<li\>
-
-\<p\>If liquidation executes first =E2=86=92 your position is closed, but the=
-
-limit order stays active and may immediately open a new one.\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Simulated Liquidation Price Displayed When Setting Up a Limit Or=
-
-der: \</strong\>The displayed liquidation price is only a simulation at the m=
-
-oment of order placement. When the limit order actually triggers, market co=
-
-nditions may have changed (funding fees, borrowing costs, or price shifts),=
-
-so the real liquidation level may differ from what was shown on the form.\<=
-
-/p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>If you already have a position:\</strong\> The displayed liquidati=
-
-on price factors in both your current position and the requested limit orde=
-
-r.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>If you don=E2=80=99t have a position:\</strong\> The liquidation p=
-
-rice is calculated based only on the requested order.\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-QuickReferenceTable"\>Quick Referen=
-
-ce Table\</h5\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"fd=
-
-c20f6e-b2c8-46d6-b15c-7132c69250a3" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Order Type\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Trigger\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Execution\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Use Case\</strong\>\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Market (Open/Close)\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Mark price (immediate)\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Instant, with slippage\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Fast entry/exit\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Limit (Open/Close)\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Price reaches your set limit\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Executes at limit or better\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Price discipline\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Trigger (Open/Close)\</strong\> \<em\>(Coming Soon)\</em\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Price reaches your trigger\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Converts to market order with slippage\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Stop-loss / Take-profit\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Liquidation\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Mark price hits liquidation\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Forced closure to protect LP\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Protocol safeguard\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>\</p\>
-
-\<h4 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-1.6HowHertzflowExecutesTrades"\>\<st=
-
-rong\>1.6 How Hertzflow Executes Trades\</strong\>\<br\>\<br\>\</h4\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-OrderExecutionFlow"\>Order Executio=
-
-n Flow\</h5\>
-
-\<p\>\</p\>
-
-\<p\>Hertzflow uses a modular request-based architecture for decentralized tr=
-
-ading:\</p\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>Trade Requests\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Traders submit requests via the Hertzflow dashboard. These include:\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Open/close positions\</p\>\</li\>
-
-\<li\>
-
-\<p\>Increase/decrease position size\</p\>\</li\>
-
-\<li\>
-
-\<p\>Deposit/withdraw collateral\</p\>\</li\>
-
-\<li\>
-
-\<p\>Set limit orders, take-profit, or stop-loss conditions\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>Requests contain all details: position size, side, leverage, and price l=
-
-imits.\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>Request Monitoring &amp; Execution\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Keepers watch submitted requests and current market prices.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Once conditions are met (for example, a limit order price is reached), K=
-
-eepers trigger on-chain execution.\</p\>\</li\>
-
-\<li\>
-
-\<p\>The Oracle module provides final prices for settlement, ensuring trades =
-
-reflect real-time market conditions.\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>Logical vs Actual Orders\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Logical Order: Created when the trader submits the request (off-chain or=
-
-in the smart contract).\</p\>\</li\>
-
-\<li\>
-
-\<p\>Actual Order: Executed on-chain by the Keeper when the trigger condition=
-
-is met.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Market orders execute immediately; limit orders wait until the target pr=
-
-ice is hit; stop-loss orders (trigger close) behave similarly.\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ol\>
-
-\<p\>\</p\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-ExampleofaPerpetualTradeonHertzflo=
-
-w"\>Example of a Perpetual Trade on Hertzflow\</h5\>
-
-\<p\>Let=E2=80=99s bring all the concepts together with a concrete example of=
-
-trading on Hertzflow=E2=80=99s decentralized perpetual futures platform. T=
-
-his will illustrate how positions, fees, and leverage interact in practice.=
-
-\</p\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>Trade Setup\</p\>\</li\>
-
-\</ol\>
-
-\<p\>Imagine a trader wants to open a 2x long position on SUI. The parameters=
-
-are:\</p\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"90=
-
-be1386-3bdc-44d7-82b7-1423637c1c7e" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Parameter\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Value\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Notes\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Position Size\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\$1,000\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Total value of the position\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Collateral\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\$500 SUI\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Deposited by trader\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Borrowed Amount\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\$500 SUI\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Provided by Hertzflow=E2=80=99s liquidity pool\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Leverage\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>2x\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Total position =C3=B7 collateral\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Initial SUI Price\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\$2.50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Market price at position opening\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Utilization Rate\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>40%\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Portion of liquidity pool already in use\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Borrow Rate\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>0.015% per hour\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Hourly fee on borrowed amount\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Open Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>0.06%\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Charged on position size when opening\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>\</p\>
-
-\<ol start=3D"2"\>
-
-\<li\>
-
-\<p\>What Happens Next\</p\>\</li\>
-
-\</ol\>
-
-\<p\>Suppose the trader holds this position for 48 hours, during which SUI pr=
-
-ice rises by 10%.\</p\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>Position Value Update\</p\>\</li\>
-
-\</ol\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Final position value: \$1,100\</p\>\</li\>
-
-\<li\>
-
-\<p\>Final SUI price: \$2.75\</p\>\</li\>
-
-\</ul\>
-
-\<ol start=3D"2"\>
-
-\<li\>
-
-\<p\>Closing Fee\</p\>\</li\>
-
-\</ol\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>0.06% of final position: \$1,100 =C3=97 0.06% =3D \$0.66\</p\>\</li\>
-
-\</ul\>
-
-\<ol start=3D"3"\>
-
-\<li\>
-
-\<p\>Borrow Fee Calculation\<br\>
-
-Hertzflow accrues borrow fees hourly based on pool utilization:\</p\>\</li\>
-
-\</ol\>
-
-\<p\>Hourly Borrow Fee =3D (Tokens Borrowed / Tokens in Pool) =C3=97 Hourly B=
-
-orrow Rate =C3=97 Position Size\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\$500 borrowed / \$1,250 in pool =C3=97 0.015% =C3=97 \$1,000 =3D \$0.06 per=
-
-hour\</p\>\</li\>
-
-\<li\>
-
-\<p\>Over 48 hours: \$0.06 =C3=97 48 =3D \$2.88\</p\>\</li\>
-
-\</ul\>
-
-\<ol start=3D"3"\>
-
-\<li\>
-
-\<p\>Profit Calculation\</p\>\</li\>
-
-\</ol\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"7f=
-
-336179-6246-4beb-b88d-8652ddcf6e44" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Item\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Amount\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Final Position Value\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\$1,100\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Less: Initial Position\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\$1,000\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Less: Borrow Fees\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\$2.88\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Less: Open Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\$0.60\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Less: Close Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\$0.66\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Net Profit\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\$95.86\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>\<strong\>The trader earns \$95.86 after 2 days.\</strong\>\</p\>
-
-\<p\>\</p\>
-
-\<h4 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-1.7liquidation"\>\<strong\>1.7 liquid=
-
-ation\</strong\>\</h4\>
-
-\<p\>\</p\>
-
-\<p\>The \<strong\>liquidation price\</strong\> represents the threshold at which=
-
-a position will be automatically closed if a trader=E2=80=99s collateral c=
-
-an no longer support the leveraged position. Hertzflow continuously monitor=
-
-s positions and triggers liquidations through its Keeper Network when neces=
-
-sary.\</p\>
-
-\<p\>\</p\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-HowLiquidationWorks"\>How Liquidati=
-
-on Works\</h5\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Long Positions:\</strong\>\<br\>
-
-Liquidation occurs if the token price \<strong\>falls below the liquidation =
-
-price\</strong\>.\<br\>\<em\>Example:\</em\> If the liquidation price is \$2.50, the=
-
-long position will be closed if the token drops below \$2.50.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Short Positions:\</strong\>\<br\>
-
-Liquidation occurs if the token price \<strong\>rises above the liquidation =
-
-price\</strong\>.\<br\>\<em\>Example:\</em\> If the liquidation price is \$2.80, the=
-
-short position will be closed if the token rises above \$2.80.\</p\>\</li\>
-
-\</ul\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-FactorsAffectingLiquidationPrice"\>=
-
-Factors Affecting Liquidation Price\</h5\>
-
-\<p\>The liquidation price is influenced by:\</p\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>\<strong\>Entry Price\</strong\> =E2=80=93 the average price of the position=
-
-when opened.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Collateral Size\</strong\> =E2=80=93 the initial margin deposited =
-
-minus any opening/closing fees.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Fees:\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Liquidation Fee\</strong\> =E2=80=93 charged specifically when a p=
-
-osition is liquidated.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Close Fee\</strong\> =E2=80=93 combined fees for decreasing a posi=
-
-tion.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Borrow Fee\</strong\> =E2=80=93 accumulated interest for leveraged=
-
-positions over time.\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Position Size\</strong\> =E2=80=93 the total value of the position=
-
-.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Maximum Leverage\</strong\> =E2=80=93 the highest allowed leverage=
-
-for the market.\</p\>\</li\>
-
-\</ol\>
-
-\<p\>The formula adjusts dynamically as the position evolves, taking into acc=
-
-ount any changes in collateral, added/removed margin, or partial position a=
-
-djustments.\</p\>
-
-\<p\>\</p\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-MonitoringMarginandLiquidation"\>Mo=
-
-nitoring Margin and Liquidation\</h5\>
-
-\<p\>Hertzflow calculates \<strong\>Margin Rate (MR)\</strong\> for each position=
-
-:\</p\>
-
-\<p\>\<code\>MR =3D Collateral \* (1 + uPnL% =E2=88=92 r_fees) / Position Size \*=
-
-100%\</code\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\</p\>
-
-\<p\>\<strong\>uPnL%\</strong\>: Unrealized profit or loss percentage\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>r_fees\</strong\>: Sum of close fee rate, borrow fee rate, and liq=
-
-uidation fee rate.\</p\>\</li\>
-
-\</ul\>
-
-\<p\>If \<strong\>MR falls below the Maintenance Margin Requirement (MMR)\</stro=
-
-ng\>, keeper bots trigger a liquidation automatically.\</p\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-LiquidationExecution"\>Liquidation =
-
-Execution\</h5\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>\<strong\>Automated:\</strong\> Keepers continuously monitor positions and e=
-
-xecute liquidations without manual intervention.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Safe:\</strong\> SUI=E2=80=99s \<strong\>Programmable Transaction Bl=
-
-ocks (PTB)\</strong\> ensure that closing a position, repaying borrowed asset=
-
-s from the Hertzflow Liquidity Pool (HzLP), and updating relevant objects o=
-
-ccur atomically.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Transparent:\</strong\> All liquidation transactions are recorded =
-
-on-chain for full auditability.\</p\>\</li\>
-
-\</ol\>
-
-\<p\>\</p\>
-
-\<ol start=3D"2"\>
-
-\<li\>
-
-\<p\>HzLP v1\</p\>\</li\>
-
-\</ol\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-2.1HertzflowLiquidityPool(HzLP)Ove=
-
-rview"\>2.1 Hertzflow Liquidity Pool (HzLP) Overview\</h5\>
-
-\<p\>The \<strong\>Hertzflow Liquidity Pool (HzLP)\</strong\> is the backbone of =
-
-leveraged trading on Hertzflow. It acts as the counterparty to all traders,=
-
-providing liquidity for perpetual markets across supported tokens (SUI, ET=
-
-H, xBTC, USDC).\</p\>
-
-\<p\>LPs (Liquidity Providers) deposit assets into the pool and receive \<stro=
-
-ng\>\$HzLP tokens\</strong\>, representing their share of the pool. As traders =
-
-open, close, and settle positions, the pool earns fees and traders=E2=80=99=
-
-losses, which accrue directly to LPs.\<br\>
-
-The JLP token derives its value from:\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>An index fund of \<strong\>SUI, ETH, xBTC, USDC\</strong\>.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Trader's \<strong\>profit and loss\</strong\>.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>75%\</strong\> of the generated fees from swap fees, open/close po=
-
-sition fees, borrow fees and liquidation fees\</p\>\</li\>
-
-\</ul\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-2.2\$HzLPToken"\>2.2 \$HzLP Token\</h5=
-
-\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Representation:\</strong\> \$HzLP tokens mirror your share of the H=
-
-ertzflow Liquidity Pool.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Acquisition:\</strong\> Deposit supported tokens into the pool, an=
-
-d \$HzLP is minted proportionally.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Redemption:\</strong\> Burn \$HzLP to withdraw your proportional sh=
-
-are of underlying assets, plus accrued yield.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Yield Mechanism:\</strong\> \$HzLP grows in value over time through=
-
-:\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Swap fees from token conversions\</p\>\</li\>
-
-\<li\>
-
-\<p\>Open/close position fees from leveraged trades\</p\>\</li\>
-
-\<li\>
-
-\<p\>Borrow and funding fees\</p\>\</li\>
-
-\<li\>
-
-\<p\>Liquidation fees from forced position closures\</p\>\</li\>
-
-\<li\>
-
-\<p\>Traders=E2=80=99 net losses\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-2.3HowtheHzLPPoolWorks"\>2.3 How th=
-
-e HzLP Pool Works\</h5\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>\<strong\>Deposits &amp; Withdrawals\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Deposit tokens =E2=86=92 Mint \$HzLP proportionally.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Redeem \$HzLP =E2=86=92 Burn tokens and receive underlying assets instant=
-
-ly.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Dynamic LP Fees:\</strong\> Fees adjust based on pool balance rela=
-
-tive to target asset weights.\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Adding scarce assets or removing surplus =E2=86=92 Lower fees\</p\>\</li\>
-
-\<li\>
-
-\<p\>Adding oversupplied assets or removing scarce =E2=86=92 Higher fees\</p\>\<=
-
-/li\>
-
-\</ul\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Liquidity Deployment\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>The pool automatically serves as counterparty for all trades.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Positive trader PnL =E2=86=92 Pool pays out\</p\>\</li\>
-
-\<li\>
-
-\<p\>Negative trader PnL =E2=86=92 Pool earns, increasing TVL\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Earnings &amp; APY\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Earnings come primarily from fees and traders=E2=80=99 losses.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Projected APY is compounded daily based on accrued fees and weight-adjus=
-
-ted earnings:\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ol\>
-
-\<p\>\<code\>APY_total =3D (1 + =CE=A3(Daily APR =C3=97 Token Weight) / 365) ^ =
-
-365 =E2=88=92 1\</code\>\</p\>
-
-\<ol start=3D"4"\>
-
-\<li\>
-
-\<p\>\<strong\>Governance &amp; Fee Distribution: \</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>LP Share:\</strong\> 75% of all protocol fees accrue to LPs, compe=
-
-nsating for counterparty risk.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Protocol Treasury:\</strong\> 25% is reinvested into protocol grow=
-
-th, liquidity, insurance backstops, and incentive campaigns.\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Risk Management\</strong\>\<br\>
-
-Hertzflow mitigates LP risks through:\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Dynamic Borrowing Rates:\</strong\> Adjust rates in real-time to d=
-
-iscourage OI imbalances\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Automated Keeper Liquidations:\</strong\> Smart-contract-driven, d=
-
-eterministic on-chain liquidations\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Dynamic LP Fees:\</strong\> Incentivize deposits/withdrawals that =
-
-maintain pool balance\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Weightage Tolerance Bands:\</strong\> Target =C2=B1=CE=B4% per-ass=
-
-et to prevent concentration risk\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Decentralized Keeper Network:\</strong\> Redundant nodes ensure li=
-
-quidations and trade execution even under stress\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ol\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-2.4Custodies"\>2.4 Custodies\</h5\>
-
-\<p\>The \<strong\>Hertzflow Liquidity Pool\</strong\> manages multiple \<strong\>c=
-
-ustody accounts\</strong\> for supported tokens, which hold and track the liq=
-
-uidity provided by LPs:\</p\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"31=
-
-c790f0-9e9b-42b9-bc08-b4563eea1d95" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Token\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Custody Account\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>SUI\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E2=80=A6 (on-chain account ID)\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>ETH\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E2=80=A6\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>xBTC\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E2=80=A6\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>USDC\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E2=80=A6\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>\</p\>
-
-\<p\>Each custody account represents the pool=E2=80=99s holdings for that spe=
-
-cific token, including deposited assets, locked amounts for traders, and an=
-
-y borrowed assets.\</p\>
-
-\<p\>\<strong\>NOTE: Key Concepts\</strong\>\</p\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>Debt\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Represents the amount of tokens borrowed from the custody.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Calculated as:\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ol\>
-
-\<p\>debt =3D max(custody.debt - custody.borrowLendInterestsAccrued, 0)\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\</p\>
-
-\<p\>Provides the \<strong\>pure debt amount\</strong\> without accumulated inter=
-
-est.\</p\>\</li\>
-
-\</ul\>
-
-\<ol start=3D"2"\>
-
-\<li\>
-
-\<p\>Theoretically Owned\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>The =E2=80=9Ctrue=E2=80=9D ownership of tokens in the custody, including=
-
-borrowed assets:\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ol\>
-
-\<p\>theoreticallyOwned =3D custody.assets.owned + debt(custody)\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\</p\>
-
-\<p\>Borrowed tokens are \<strong\>not included\</strong\> in \<code\>custody.asset=
-
-s.owned\</code\>, so this ensures the actual total value is reflected.\</p\>\</l=
-
-i\>
-
-\</ul\>
-
-\<ol start=3D"3"\>
-
-\<li\>
-
-\<p\>Total Locked\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Represents the actual amount of tokens locked by the custody, including =
-
-borrowed assets:\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ol\>
-
-\<p\>totalLocked =3D custody.assets.locked + debt(custody)\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\</p\>
-
-\<p\>Ensures that liquidity obligations toward traders are fully captured.\</p=
-
-\>\</li\>
-
-\</ul\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-2.5AssetsUnderManagement(AUM)"\>2.5=
-
-Assets Under Management (AUM)\</h5\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>Stablecoins (USDC)\</p\>\</li\>
-
-\</ol\>
-
-\<p\>For stablecoins, the AUM is calculated as:\</p\>
-
-\<p\>aum =3D theoreticallyOwned \* currentTokenPrice\</p\>
-
-\<ol start=3D"2"\>
-
-\<li\>
-
-\<p\>Non-stablecoins (SUI, ETH, xBTC)\</p\>\</li\>
-
-\</ol\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>Global Short PnL:\</p\>\</li\>
-
-\</ol\>
-
-\<p\>unrealizedShortPnl =3D custody.assets.globalShortSizes \*&nbsp;\</p\>
-
-\<p\>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(\|custody.assets.glob=
-
-alShortAveragePrices - currentTokenPrice\|) /\</p\>
-
-\<p\>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;custody.assets.global=
-
-ShortAveragePrices\</p\>
-
-\<p\>\</p\>
-
-\<p\>shortTradersInProfit =3D custody.assets.globalShortAveragePrices &gt; cu=
-
-rrentTokenPrice\</p\>
-
-\<ol start=3D"2"\>
-
-\<li\>
-
-\<p\>\<strong\>AUM Calculation:\</strong\>\</p\>\</li\>
-
-\</ol\>
-
-\<p\>netAssetsToken =3D max(0, theoreticallyOwned - custody.assets.locked)\</p=
-
-\>
-
-\<p\>netAssetsUsd &nbsp; =3D netAssetsToken \* currentTokenPrice\</p\>
-
-\<p\>aumUsd&nbsp; &nbsp; &nbsp; &nbsp; =3D custody.assets.guaranteedUsd\</p\>
-
-\<p\>\</p\>
-
-\<p\>if shortTradersInProfit:\</p\>
-
-\<p\>&nbsp;&nbsp;&nbsp;&nbsp;aumUsd -=3D unrealizedShortPnl\</p\>
-
-\<p\>else:\</p\>
-
-\<p\>&nbsp;&nbsp;&nbsp;&nbsp;aumUsd +=3D unrealizedShortPnl\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>guaranteedUsd\</code\> estimates the total size of all \<strong\>long =
-
-positions\</strong\>.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Updated only when positions are opened/closed or collateral is adjusted.=
-
-\</p\>\</li\>
-
-\<li\>
-
-\<p\>Does \<strong\>not\</strong\> update in real-time with token price changes.\<=
-
-/p\>\</li\>
-
-\</ul\>
-
-\<ol start=3D"3"\>
-
-\<li\>
-
-\<p\>Total AUM\</p\>\</li\>
-
-\</ol\>
-
-\<p\>The pool=E2=80=99s total AUM is the sum of all custody AUMs:\</p\>
-
-\<p\>totalAumUsd =3D =CE=A3(aumUsd)\</p\>
-
-\<p\>\</p\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-2.6VirtualPrice,MarketPrice,andAUM=
-
-Limits"\>2.6 Virtual Price, Market Price, and AUM Limits\</h5\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Virtual Price:\</p\>\</li\>
-
-\</ul\>
-
-\<p\>Virtual Price =3D Total HzLP Pool Assets (USD) / Total \$HzLP in circulat=
-
-ion\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Market Price:\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>When the AUM limit is reached:\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<p\>Market Price =3D Virtual Price + Market-assigned Premium\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Minting new \$HzLP is \<strong\>disabled\</strong\> once the AUM cap is hit.\<=
-
-/p\>\</li\>
-
-\<li\>
-
-\<p\>Existing tokens can still be sold on the market; if market price &lt; vi=
-
-rtual price, redemption occurs at \<strong\>Virtual Price\</strong\>.\</p\>\</li\>
-
-\</ul\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>APY Update:\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Estimated daily APY is recalculated every 24 hours using the previous da=
-
-y=E2=80=99s fees.\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-2.7CalculatingGlobalUnrealizedPnL"=
-
-\>2.7 Calculating Global Unrealized PnL\</h5\>
-
-\<p\>\<strong\>For Long Positions\</strong\>\</p\>
-
-\<p\>guaranteedUsd &nbsp; &nbsp; =3D custody.assets.guaranteedUsd\</p\>
-
-\<p\>lockedTokensUsd &nbsp; =3D custody.assets.locked \* currentTokenPrice\</p\>
-
-\<p\>globalUnrealizedLongPnl =3D lockedTokensUsd - guaranteedUsd\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\</p\>
-
-\<p\>Provides an estimate of total unrealized PnL for all open long positions=
-
-.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Includes traders=E2=80=99 collateral, so the value may \<strong\>overestim=
-
-ate actual PnL\</strong\>.\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\<strong\>For Short Positions\</strong\>\</p\>
-
-\<p\>globalUnrealizedShortPnl =3D custody.assets.globalShortSizes \*\</p\>
-
-\<p\>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
-
-sp;&nbsp;&nbsp;(\|custody.assets.globalShortAveragePrices - currentTokenPric=
-
-e\|) /\</p\>
-
-\<p\>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
-
-sp;&nbsp;&nbsp;custody.assets.globalShortAveragePrices\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Gives an estimate of total unrealized PnL for all open short positions.\<=
-
-/p\>\</li\>
-
-\<li\>
-
-\<p\>For highest accuracy, iterate over \<strong\>all open positions\</strong\> a=
-
-nd sum individually.\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\</p\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-2.8Exposure&amp;Risks"\>2.8 Exposur=
-
-e &amp; Risks\</h5\>
-
-\<p\>\<strong\>Market Exposure:\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>LPs are exposed to price changes of pool assets. Non-stablecoins (SUI, E=
-
-TH, xBTC) dominate this exposure.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Gains occur when traders lose; losses occur when traders profit.\</p\>\</li=
-
-\>
-
-\<li\>
-
-\<p\>Sideways or bearish markets often benefit LPs as traders typically lose =
-
-more.\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\<strong\>Primary Risks:\</strong\>\</p\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"30=
-
-6bde91-8c43-4a0d-ad90-50af20cd2c92" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Risk Type\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Description\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Mitigation\</strong\>\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Directional Exposure\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>LPs can face temporary losses from OI imbalances.\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Dynamic borrowing rates, LP fee scaling, OI monitoring\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Liquidity Risk\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Withdrawal or trade execution may be delayed during high utilization.\</p=
-
-\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Dynamic Position Limits, Weightage Tolerance Bands\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Keeper Risk\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Malfunctioning or malicious keepers may mis-execute trades or liquidatio=
-
-ns.\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Decentralized keeper network, slashing &amp; incentive framework, automa=
-
-ted failover\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Oracle / Price Deviation Risk\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Misaligned or stale prices could lead to unfair settlements.\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Dual-oracle validation (Pyth + CEX fallback), deviation threshold enforc=
-
-ement, retroactive fair execution\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>\</p\>
-
-\<p\>\</p\>
-
-\<ol start=3D"3"\>
-
-\<li\>
-
-\<p\>FAQ\</p\>\</li\>
-
-\</ol\>
-
-\<p\>When placing orders, traders configure the following:\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Side:\</strong\> Open Long, Open Short, Close Long, Close Short, I=
-
-ncrease Long, Increase Short, Decrease Long, Decrease Short\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Order Type:\</strong\> Market / Limit / Trigger (coming soon)\</p\>\<=
-
-/li\>
-
-\<li\>
-
-\<p\>\<strong\>Collateral Asset &amp; Amount:\</strong\> Any whitelisted token, m=
-
-inimum \$10 USD equivalent\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Exposure &amp; Leverage:\</strong\> From 1.1x up to 100x, automati=
-
-cally calculated based on collateral and leverage chosen\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Slippage:\</strong\> Accepted price difference between execution p=
-
-rice and entry price\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Entry Price:\</strong\> Market price for market orders, or trader-=
-
-defined price for limit orders\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Exit Price:\</strong\> Defined for trigger orders (take profit / s=
-
-top loss), or the execution price for market closes\</p\>\</li\>
-
-\</ul\>
-
-\<h4 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-1.Account&amp;FundsManagement"\>1. =
-
-Account &amp; Funds Management\</h4\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q1:HowdoIfundmyHertzflowaccount?"\>=
-
-\<strong\>Q1: How do I fund my Hertzflow account?\</strong\>\</h5\>
-
-\<p\>&nbsp;\<strong\>A1:\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>If you already hold SUI / USDC / ETH / XBTC:\</strong\> Connect yo=
-
-ur wallet and ensure you have =E2=89=A50.05 SUI for gas fees.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Assets on other chains:\</strong\> Use a supported bridge to trans=
-
-fer SUI (for gas) and desired tokens to Sui network.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>CEX withdrawals:\</strong\> Make sure to choose the Sui network an=
-
-d native Sui tokens (SUI, USDC, ETH, XBTC), not cross-chain wrapped tokens.=
-
-\</p\>\</li\>
-
-\</ul\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q2:Whatare=E2=80=9Cnativetokens=E2=
-
-=80=9Dand=E2=80=9Ccontracttokens=E2=80=9D?"\>\<strong\>Q2: What are =E2=80=9Cn=
-
-ative tokens=E2=80=9D and =E2=80=9Ccontract tokens=E2=80=9D?\</strong\>\</h5\>
-
-\<p\>&nbsp;\<strong\>A2:\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Native tokens:\</strong\> Tokens that exist natively on the Sui ne=
-
-twork, such as SUI, USDC, ETH, XBTC.\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Contract tokens:\</strong\> Tokens issued on other chains, usually=
-
-bridged to Sui for trading.\</p\>\</li\>
-
-\</ul\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q3:CanIwithdrawmyliquidityatanytim=
-
-e?"\>\<strong\>Q3: Can I withdraw my liquidity at any time?\</strong\>\</h5\>
-
-\<p\>\<strong\>A3:\</strong\> Yes, but note:\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Withdrawals may be restricted by pool weight constraints.\</p\>\</li\>
-
-\<li\>
-
-\<p\>First-time \$HzLP purchases require wallet approval.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Withdrawals may be queued depending on the pool=E2=80=99s weight adjustm=
-
-ents.\</p\>\</li\>
-
-\</ul\>
-
-\<h4 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-2.Trading&amp;LeverageManagement"\>=
-
-2\. Trading &amp; Leverage Management\</h4\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q1:HowdoIselectamarket?"\>Q1: How d=
-
-o I select a market?\</h5\>
-
-\<p\>\<strong\>A1:\</strong\> Choose a trading pair from the market dropdown. You=
-
-=E2=80=99ll see mark price, 24h change %, high/low, open interest, and indi=
-
-cative borrow rates.\</p\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q2:Whatisleverage?"\>Q2: What is le=
-
-verage?\</h5\>
-
-\<p\>\<strong\>A2:\</strong\> Leverage lets you trade with borrowed funds. For ex=
-
-ample, 10x leverage means 1 unit of your capital controls 10 units of the a=
-
-sset. It magnifies both profits and losses.\</p\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q3:Howistheliquidationpricecalcula=
-
-ted?"\>Q3: How is the liquidation price calculated?\</h5\>
-
-\<p\>\<strong\>A3:\</strong\> The liquidation price is the market price at which =
-
-your position will be force-closed. It depends on entry price, leverage, co=
-
-llateral, and the Maintenance Margin Requirement (MMR). Use the platform=E2=
-
-=80=99s estimated liquidation price tool for guidance.\</p\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q4:HowtoCalculatePnL=EF=BC=9F"\>Q4:=
-
-How to Calculate PnL=EF=BC=9F\</h5\>
-
-\<p\>\<strong\>Unrealized PnL (uPnL%)\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>uPnL% =3D (Mark Price - Entry Price) / Entry Price =C3=97 100%&nbs=
-
-p; (for longs)\</code\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>uPnL% =3D (Entry Price - Mark Price) / Entry Price =C3=97 100%&nbs=
-
-p; (for shorts)\</code\>\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\</p\>
-
-\<p\>\</p\>
-
-\<p\>\<strong\>Realized PnL\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Positive:\</strong\> Collateral + profit returned from HzLP.\</p\>\</=
-
-li\>
-
-\<li\>
-
-\<p\>\<strong\>Negative:\</strong\> Remaining collateral returned; losses retaine=
-
-d by HzLP.\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\<strong\>Partial Close:\</strong\> PnL is proportional to the closed portio=
-
-n.\</p\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q5:WhatistheMaintenanceMarginRequi=
-
-rement(MMR)?"\>Q5: What is the Maintenance Margin Requirement (MMR)?\</h5\>
-
-\<p\>\<strong\>A5:\</strong\> MMR is the minimum collateral required by the proto=
-
-col. Falling below it triggers liquidation. It accounts for position size, =
-
-leverage, and unrealized PnL.\<br\>\<strong\>Margin Rate (MR)\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>MR =3D Collateral =C3=97 (1 + uPnL% - r_fees) / Position Size =C3=
-
-=97 100%\</code\>\</p\>\</li\>
-
-\</ul\>
-
-\<p\>Where \<code\>r_fees\</code\> =3D sum of close fee, accrued borrow fee, liqu=
-
-idation fee.\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Liquidation occurs\</strong\> if MR &lt; Maintenance Margin Requir=
-
-ement (MMR).\</p\>\</li\>
-
-\</ul\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q6:HowcanIavoidliquidation?"\>Q6: H=
-
-ow can I avoid liquidation?\</h5\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Use conservative leverage.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Set stop-loss orders.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Monitor your positions and market trends regularly.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Maintain sufficient collateral and avoid overexposure.\</p\>\</li\>
-
-\</ul\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q7:Whathappensifmypositionisliquid=
-
-ated?"\>Q7: What happens if my position is liquidated?\</h5\>
-
-\<p\>\<strong\>A7:\</strong\> Your position is force-closed at market price. Loss=
-
-es are deducted from your collateral, which could be your entire margin dep=
-
-ending on leverage and market volatility.\</p\>
-
-\<p\>\</p\>
-
-\<h4 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-3.LiquidityProvision&amp;Earnings"=
-
-\>3. Liquidity Provision &amp; Earnings\</h4\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q1:Whyprovideliquidity?"\>Q1: Why p=
-
-rovide liquidity?\</h5\>
-
-\<p\>&nbsp;\<strong\>A1:\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Earn trading fees whenever users trade.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Receive platform rewards or incentives.\</p\>\</li\>
-
-\</ul\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q2:Whatis\$HzLP?"\>Q2: What is \$HzLP=
-
-?\</h5\>
-
-\<p\>\<strong\>A2:\</strong\> \$HzLP represents your share in the Hertzflow liquid=
-
-ity pool. Holding it entitles you to proportional earnings from the pool.\</=
-
-p\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q3:Howtoget\$HzLP"\>Q3: How to get \$=
-
-HzLP\</h5\>
-
-\<p\>\$HzLP tokens represent your \<strong\>share of the Hertzflow Liquidity Poo=
-
-l (HzLP)\</strong\>. You can obtain them by:\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Deposit supported tokens (SUI, ETH, XBTC, USDC) into the HzLP pool.\</p\>\<=
-
-/li\>
-
-\<li\>
-
-\<p\>\$HzLP is minted to your wallet proportional to your contribution.\</p\>\</l=
-
-i\>
-
-\<li\>
-
-\<p\>Each \$HzLP token represents a share of the pool and entitles you to a po=
-
-rtion of fees, liquidation rewards, and traders=E2=80=99 net losses.\</p\>\</l=
-
-i\>
-
-\</ul\>
-
-\<p\>You can redeem \$HzLP by:\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Burn \$HzLP to withdraw your proportional share of the pool=E2=80=99s und=
-
-erlying assets.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Withdrawals are \<strong\>instant\</strong\>, subject to pool composition li=
-
-mits to maintain target asset weights.\</p\>\</li\>
-
-\</ul\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q4=EF=BC=9AHowtoBecomeaLiquidityPr=
-
-ovider"\>Q4=EF=BC=9AHow to Become a Liquidity Provider\</h5\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"bc=
-
-8d03c8-c2de-41d7-9045-90fa6889fe4b" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Step\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Action\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Description\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Notes / Considerations\</strong\>\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Preparation\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Prepare wallet &amp; assets\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Supported Sui wallets: Suiet, OKX Wallet, Slush; Gas token: =E2=89=A5 0.=
-
-05 SUI; Collateral assets: SUI, ETH, XBTC, USDC\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Ensure your wallet is connected to the Sui network\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Deposit Liquidity\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Navigate to \$HzLP Vault =E2=86=92 Select token =E2=86=92 Enter deposit a=
-
-mount =E2=86=92 Confirm in wallet\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Deposit selected tokens into the liquidity pool and receive \$HzLP tokens=
-
-\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Fees dynamically adjust based on pool target weight (closer to target =
-
-=3D lower fee; further =3D higher fee). Deposits are capped to prevent over=
-
-shooting target pool weights\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Earnings\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>LP earnings sources\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Swap Fees, Open/Close Fees, Borrow &amp; Funding Fees, Liquidation Fees,=
-
-LP Deposit/Withdrawal Fees, Traders=E2=80=99 Net Losses\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Earnings are distributed proportionally to your share of the pool\</p\>\</t=
-
-d\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Withdraw Liquidity\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Select \$HzLP =E2=86=92 Enter amount =E2=86=92 Confirm in wallet\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Redeem \$HzLP to receive your original tokens\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Withdrawals are capped to maintain pool balance and prevent concentratio=
-
-n risk; redeemed \$HzLP are burned\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>\<strong\>\$HzLP Deposit &amp; Withdrawal Flow\</strong\>\</p\>
-
-\<p\>\<code\>Preparation\</code\>\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=86=93\</code\>\</p\>
-
-\<p\>\<code\>Connect Wallet + Prepare Assets\</code\>\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=86=93\</code\>\</p\>
-
-\<p\>\<code\>Deposit Liquidity\</code\>\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=94=9C=E2=94=80 Select token &amp; amount\</co=
-
-de\>\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=94=9C=E2=94=80 Dynamic fee adjustment\</code\>=
-
-\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=94=94=E2=94=80 Receive \$HzLP in wallet\</code=
-
-\>\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=86=93\</code\>\</p\>
-
-\<p\>\<code\>Accumulate Earnings\</code\>\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=94=9C=E2=94=80 Swap Fees\</code\>\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=94=9C=E2=94=80 Open/Close Fees\</code\>\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=94=9C=E2=94=80 Borrow &amp; Funding Fees\</co=
-
-de\>\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=94=9C=E2=94=80 Liquidation Fees\</code\>\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=94=9C=E2=94=80 LP Deposit/Withdrawal Fees\</c=
-
-ode\>\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=94=94=E2=94=80 Traders=E2=80=99 Net Losses\</=
-
-code\>\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=86=93\</code\>\</p\>
-
-\<p\>\<code\>Withdraw Liquidity\</code\>\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=94=9C=E2=94=80 Enter \$HzLP amount\</code\>\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=94=9C=E2=94=80 Fee &amp; pool weight restric=
-
-tions\</code\>\</p\>
-
-\<p\>\<code\>&nbsp;&nbsp;&nbsp;=E2=94=94=E2=94=80 Receive original tokens + \$Hz=
-
-LP burned\</code\>\</p\>
-
-\<p\>\</p\>
-
-\<p\>\</p\>
-
-\<p\>\</p\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q5:HowtoCalculateAPY?"\>Q5: How to =
-
-Calculate APY?\</h5\>
-
-\<p\>\<strong\>\$HzLP Value\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>\$HzLP Price =3D Total Pool AUM / Total \$HzLP Supply\</code\>\</p\>\</li=
-
-\>
-
-\</ul\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\</p\>
-
-\<p\>Fees, realized traders=E2=80=99 losses, and liquidations accrue to the p=
-
-ool, increasing \$HzLP price.\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\<strong\>APY Calculation\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>APY_total =3D (1 + (=CE=A3(APR_day =C3=97 c%\_token) / 365))^365 - =
-
-1\</code\>\</p\>\</li\>
-
-\</ul\>
-
-\<p\>Where \<code\>c%\_token\</code\> =3D current weightage of the token in the po=
-
-ol.\</p\>
-
-\<p\>You can track cumulative earnings and APY on the liquidity page.\</p\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q6:HowdoIwithdrawfromtheliquidityp=
-
-ool?"\>Q6: How do I withdraw from the liquidity pool?\</h5\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Withdraw liquidity:\</strong\> Redeem \$HzLP for underlying assets.=
-
-\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Burn \$HzLP:\</strong\> Redeemed tokens are destroyed.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Pool weight restrictions may temporarily queue withdrawals to maintain b=
-
-alance.\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\</p\>
-
-\<h4 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-4.RiskManagement&amp;Strategy"\>4. =
-
-Risk Management &amp; Strategy\</h4\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q1:HowcanImanagemytradingrisk?"\>Q1=
-
-: How can I manage my trading risk?\</h5\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Diversify your positions across multiple assets.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Set stop-loss orders to limit potential losses.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Regularly monitor positions and adjust leverage.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Maintain sufficient collateral and avoid using all funds in a single pos=
-
-ition.\</p\>\</li\>
-
-\</ul\>
-
-\<h5 id=3D"Non-techDocs=E5=BA=95=E7=A8=BF-Q2:Whatifmarketvolatilitytriggersm=
-
-yliquidation?"\>Q2: What if market volatility triggers my liquidation?\</h5\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Understand hertzflow=E2=80=99s liquidation rules.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Adjust your positions and leverage proactively.\</p\>\</li\>
-
-\<li\>
-
-\<p\>Stay calm and analyze the reason for liquidation to improve future strat=
-
-egies.\</p\>\</li\>
-
-\</ul\>
-
-\</div\>
-
-\</body\>
-
-\</html\>
-
-------=\_Part_6_505003863.1772007956786--
+</div>

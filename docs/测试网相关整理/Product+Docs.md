@@ -1,11937 +1,1345 @@
-Date: Wed, 25 Feb 2026 08:32:40 +0000 (UTC)
+# Product Docs
 
-Message-ID: \<1663467578.177.1772008360295@98df27f8e5b5\>
+<div class="Section1">
 
-Subject: Exported From Confluence
-
-MIME-Version: 1.0
-
-Content-Type: multipart/related;
-
-boundary="----=\_Part_176_106448087.1772008360294"
-
-------=\_Part_176_106448087.1772008360294
-
-Content-Type: text/html; charset=UTF-8
-
-Content-Transfer-Encoding: quoted-printable
-
-Content-Location: file:///C:/exported.html
-
-\<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
-
-xmlns:w=3D'urn:schemas-microsoft-com:office:word'
-
-xmlns:v=3D'urn:schemas-microsoft-com:vml'
-
-xmlns=3D'urn:w3-org-ns:HTML'\>
-
-\<head\>
-
-\<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
-
-"\>
-
-\<title\>Product Docs\</title\>
-
-\<!--\[if gte mso 9\]\>
-
-\<xml\>
-
-\<o:OfficeDocumentSettings\>
-
-\<o:TargetScreenSize\>1024x640\</o:TargetScreenSize\>
-
-\<o:PixelsPerInch\>72\</o:PixelsPerInch\>
-
-\<o:AllowPNG/\>
-
-\</o:OfficeDocumentSettings\>
-
-\<w:WordDocument\>
-
-\<w:View\>Print\</w:View\>
-
-\<w:Zoom\>90\</w:Zoom\>
-
-\<w:DoNotOptimizeForBrowser/\>
-
-\</w:WordDocument\>
-
-\</xml\>
-
-\<\![endif\]--\>
-
-\<style\>
-
-\<!--
-
-@page Section1 {
-
-size: 8.5in 11.0in;
-
-margin: 1.0in;
-
-mso-header-margin: .5in;
-
-mso-footer-margin: .5in;
-
-mso-paper-source: 0;
-
-}
-
-table {
-
-border: solid 1px;
-
-border-collapse: collapse;
-
-}
-
-table td, table th {
-
-border: solid 1px;
-
-padding: 5px;
-
-}
-
-td {
-
-page-break-inside: avoid;
-
-}
-
-tr {
-
-page-break-after: avoid;
-
-}
-
-div.Section1 {
-
-page: Section1;
-
-}
-
-/\* Confluence print stylesheet. Common to all themes for print medi=
-
-a \*/
-
-/\* Full of !important until we improve batching for print CSS \*/
-
-@media print {
-
-\#main {
-
-padding-bottom: 1em !important; /\* The default padding of 6em is to=
-
-o much for printouts \*/
-
-}
-
-body {
-
-font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
-
-rif);
-
-}
-
-body, \#full-height-container, \#main, \#page, \#content, .has-personal-sid=
-
-ebar \#content {
-
-background: var(--ds-surface, \#fff) !important;
-
-color: var(--ds-text, \#000) !important;
-
-border: 0 !important;
-
-width: 100% !important;
-
-height: auto !important;
-
-min-height: auto !important;
-
-margin: 0 !important;
-
-padding: 0 !important;
-
-display: block !important;
-
-}
-
-a, a:link, a:visited, a:focus, a:hover, a:active {
-
-color: var(--ds-text, \#000);
-
-}
-
-\#content h1,
-
-\#content h2,
-
-\#content h3,
-
-\#content h4,
-
-\#content h5,
-
-\#content h6 {
-
-page-break-after: avoid;
-
-}
-
-pre {
-
-font: var(--ds-font-code, Monaco, "Courier New", monospace);
-
-}
-
-\#header,
-
-.aui-header-inner,
-
-\#navigation,
-
-\#sidebar,
-
-.sidebar,
-
-\#personal-info-sidebar,
-
-.ia-fixed-sidebar,
-
-.page-actions,
-
-.navmenu,
-
-.ajs-menu-bar,
-
-.noprint,
-
-.inline-control-link,
-
-.inline-control-link a,
-
-a.show-labels-editor,
-
-.global-comment-actions,
-
-.comment-actions,
-
-.quick-comment-container,
-
-\#addcomment {
-
-display: none !important;
-
-}
-
-/\* CONF-28544 cannot print multiple pages in IE \*/
-
-\#splitter-content {
-
-position: relative !important;
-
-}
-
-.comment .date::before {
-
-content: none !important; /\* remove middot for print view \*/
-
-}
-
-h1.pagetitle img {
-
-height: auto;
-
-width: auto;
-
-}
-
-.print-only {
-
-display: block;
-
-}
-
-\#footer {
-
-position: relative !important; /\* CONF-17506 Place the footer at en=
-
-d of the content \*/
-
-margin: 0;
-
-padding: 0;
-
-background: none;
-
-clear: both;
-
-}
-
-\#poweredby {
-
-border-top: none;
-
-background: none;
-
-}
-
-\#poweredby li.print-only {
-
-display: list-item;
-
-font-style: italic;
-
-}
-
-\#poweredby li.noprint {
-
-display: none;
-
-}
-
-/\* no width controls in print \*/
-
-.wiki-content .table-wrap,
-
-.wiki-content p,
-
-.panel .codeContent,
-
-.panel .codeContent pre,
-
-.image-wrap {
-
-overflow: visible !important;
-
-}
-
-/\* TODO - should this work? \*/
-
-\#children-section,
-
-\#comments-section .comment,
-
-\#comments-section .comment .comment-body,
-
-\#comments-section .comment .comment-content,
-
-\#comments-section .comment p {
-
-page-break-inside: avoid;
-
-}
-
-\#page-children a {
-
-text-decoration: none;
-
-}
-
-/\*\*
-
-hide twixies
-
-the specificity here is a hack because print styles
-
-are getting loaded before the base styles. \*/
-
-\#comments-section.pageSection .section-header,
-
-\#comments-section.pageSection .section-title,
-
-\#children-section.pageSection .section-header,
-
-\#children-section.pageSection .section-title,
-
-.children-show-hide {
-
-padding-left: 0;
-
-margin-left: 0;
-
-}
-
-.children-show-hide.icon {
-
-display: none;
-
-}
-
-/\* personal sidebar \*/
-
-.has-personal-sidebar \#content {
-
-margin-right: 0px;
-
-}
-
-.has-personal-sidebar \#content .pageSection {
-
-margin-right: 0px;
-
-}
-
-.no-print, .no-print \* {
-
-display: none !important;
-
-}
-
-}
-
---\>
-
-\</style\>
-
-\</head\>
-
-\<body\>
-
-\<h1\>Product Docs\</h1\>
-
-\<div class=3D"Section1"\>
-
-\<style type=3D"text/css"\>/\*\<\![CDATA\[\*/
-
+<style type="text/css">/**/
 div.rbtoc1772008356434 {padding: 0px;}
-
 div.rbtoc1772008356434 ul {list-style: none;margin-left: 0px;}
-
 div.rbtoc1772008356434 li {margin-left: 0px;padding-left: 0px;}
 
-/\*\]\]\>\*/\</style\>
+/**/</style>
 
-\<div class=3D"toc-macro rbtoc1772008356434"\>
+<div class="toc-macro rbtoc1772008356434">
 
-\<ul class=3D"toc-indentation"\>
+- [Welcome to HertzFlow](#ProductDocs-WelcometoHertzFlow)
+  - [Introduction](#ProductDocs-Introduction)
+  - [Protocol Architecture](#ProductDocs-ProtocolArchitecture)
+  - [Why Choose HertzFlow](#ProductDocs-WhyChooseHertzFlow)
+  - [Getting Started](#ProductDocs-GettingStarted)
+- [Trade On HertzFlow](#ProductDocs-TradeOnHertzFlow)
+  - [Market Structure](#ProductDocs-MarketStructure)
+  - [Order Types](#ProductDocs-OrderTypes)
+  - [Position Management](#ProductDocs-PositionManagement)
+  - [Risk Management](#ProductDocs-RiskManagement)
+- [Liquidity Provision](#ProductDocs-LiquidityProvision)
+  - [Yield](#ProductDocs-Yield)
+  - [Risk Management](#ProductDocs-RiskManagement.2)
+- [Tutorials](#ProductDocs-Tutorials)
+  - [Get Started](#ProductDocs-GetStarted)
+  - [Trading](#ProductDocs-Trading)
+  - [Select a market](#ProductDocs-Selectamarket)
+  - [Fill in order form](#ProductDocs-Fillinorderform)
+  - [Track order status](#ProductDocs-Trackorderstatus)
+  - [Manage Positions](#ProductDocs-ManagePositions)
+  - [Liquidity](#ProductDocs-Liquidity)
+  - [Selecting a Pool/Vault](#ProductDocs-SelectingaPool/Vault)
+  - [Liquidity Operations](#ProductDocs-LiquidityOperations)
+  - [Monitor Positions](#ProductDocs-MonitorPositions)
+  - [Trading Terms](#ProductDocs-TradingTerms)
+  - [Liquidity Provision Terms](#ProductDocs-LiquidityProvisionTerms)
 
-\<li\>\<a href=3D"#ProductDocs-WelcometoHertzFlow"\>Welcome to HertzFlow\</a\>
+</div>
 
-\<ul class=3D"toc-indentation"\>
+# Welcome to HertzFlow
 
-\<li\>\<a href=3D"#ProductDocs-Introduction"\>Introduction\</a\>\</li\>
+## Introduction
 
-\<li\>\<a href=3D"#ProductDocs-ProtocolArchitecture"\>Protocol Architecture\</a\>=
+HertzFlow is a decentralized perpetual exchange on BNB Chain that enables leverage trading on crypto, FX, commodities, and stocks with up to 1000x leverage. Built with 100% self-custodial architecture, HertzFlow delivers institutional-grade trading performance with 24/7 uninterrupted oracle-validated pricing and zero-fee trading pairs.
 
-\</li\>
+### Key Features
 
-\<li\>\<a href=3D"#ProductDocs-WhyChooseHertzFlow"\>Why Choose HertzFlow\</a\>\</l=
+Universal Market Access Trade perpetuals across multiple asset classes—crypto, forex, commodities, and stocks—or permissionlessly create new markets for any oracle-supported asset. Bootstrap liquidity in minutes and access 24/7 continuous pricing secured by multi-oracle validation.
 
-i\>
+Powerful Leverage Engine with Capital Efficiency Access up to 1000x leverage with flexible collateral options. Use any supported asset as margin to maximize capital efficiency and capture market opportunities with minimal capital requirements.
 
-\<li\>\<a href=3D"#ProductDocs-GettingStarted"\>Getting Started\</a\>\</li\>
+Advanced Trading Terminal Experience CEX-quality execution with features including zero-fee trading pairs, loss protection mechanisms, and advanced order types. The platform eliminates traditional institutional advantages, creating a level playing field for all traders.
 
-\</ul\>\</li\>
+Composable Liquidity Layer HertzFlow's modular vault architecture enables one-click liquidity provision across all markets or targeted exposure through isolated pools. The protocol empowers curators to manage pool-level strategies while third-party developers can create optimized capital efficiency strategies through the open SDK.
 
-\<li\>\<a href=3D"#ProductDocs-TradeOnHertzFlow"\>Trade On HertzFlow\</a\>
+### How It Works
 
-\<ul class=3D"toc-indentation"\>
+#### For Traders
 
-\<li\>\<a href=3D"#ProductDocs-MarketStructure"\>Market Structure\</a\>\</li\>
+**Trade Perpetuals Across Multiple Asset Classes.**
 
-\<li\>\<a href=3D"#ProductDocs-OrderTypes"\>Order Types\</a\>\</li\>
+Connect your wallet and trade perpetuals with self-custodial security. Execute leveraged positions using USDC, with real-time oracle pricing ensuring fair execution at all times. The platform's multi-oracle validation system provides robust risk management, while features like hyper leverage and loss protection enhance trading outcomes.
 
-\<li\>\<a href=3D"#ProductDocs-PositionManagement"\>Position Management\</a\>\</li=
+#### For Liquidity Providers
 
-\>
+**Vault System** Provide liquidity through automated vaults that diversify exposure across all markets with a single deposit. Earn fees from trading activity, strategy yield, and trader losses while the protocol manages rebalancing and risk.
 
-\<li\>\<a href=3D"#ProductDocs-RiskManagement"\>Risk Management\</a\>\</li\>
+**Isolated Pools** Alternatively, provide liquidity directly to specific asset markets for more targeted exposure and potentially higher returns. Each isolated pool operates independently with its own risk parameters.
 
-\</ul\>\</li\>
+**Curator-Managed Strategies** Advanced users can leverage HertzFlow's curator system to access professionally managed liquidity strategies or create their own pools with custom parameters optimized for specific market conditions.
 
-\<li\>\<a href=3D"#ProductDocs-LiquidityProvision"\>Liquidity Provision\</a\>
+#### For Developers
 
-\<ul class=3D"toc-indentation"\>
+**Build & Integrate** Leverage our SDKs, APIs, and composable smart contracts to create your own strategies, integrate liquidity into dApps, or launch new markets permissionlessly.
 
-\<li\>\<a href=3D"#ProductDocs-Yield"\>Yield\</a\>\</li\>
+## Protocol Architecture
 
-\<li\>\<a href=3D"#ProductDocs-RiskManagement.2"\>Risk Management\</a\>\</li\>
+HertzFlow operates through three core layers:
 
-\</ul\>\</li\>
+**Smart Contract Layer** Capital-efficient liquidity pool design enabling perps trading via USDC, up to 1000x leverage, and dynamic rebalancing. Oracle-driven pricing ensures accurate market execution while automated risk management protects both traders and liquidity providers.
 
-\<li\>\<a href=3D"#ProductDocs-Tutorials"\>Tutorials\</a\>
+**Liquidity Optimization Layer** Adaptive pool architecture that allocates capital efficiently across markets, minimizing slippage and protecting LPs from excessive volatility exposure through auto-rebalancing mechanisms.
 
-\<ul class=3D"toc-indentation"\>
+**Trading Interface** Institutional-grade terminal delivering seamless UX with advanced order types, real-time analytics, and performance optimization. The interface abstracts blockchain complexity while maintaining full on-chain transparency.
 
-\<li\>\<a href=3D"#ProductDocs-GetStarted"\>Get Started\</a\>\</li\>
+## Why Choose HertzFlow
 
-\<li\>\<a href=3D"#ProductDocs-Trading"\>Trading\</a\>\</li\>
+**Self-Custodial Security** Your assets remain in your wallet at all times. Trade with the confidence that only you control your funds—no intermediaries, no custody risk.
 
-\<li\>\<a href=3D"#ProductDocs-Selectamarket"\>Select a market\</a\>\</li\>
+**Capital-Efficient Global Market Access** Extreme leverage options and flexible collateral maximize your trading capital's potential. Access global markets with minimal capital requirements.
 
-\<li\>\<a href=3D"#ProductDocs-Fillinorderform"\>Fill in order form\</a\>\</li\>
+**Real Yield for LPs** Liquidity providers earn from multiple revenue streams: trading fees, strategy yield, borrowing interest, and trader losses. Capital stays productive 24/7 with instant withdrawal capability.
 
-\<li\>\<a href=3D"#ProductDocs-Trackorderstatus"\>Track order status\</a\>\</li\>
+**Permissionless Innovation** Build on HertzFlow's leverage engine using robust SDKs and composable smart contracts. Create custom markets, integrate liquidity into dApps, or develop new trading strategies without permission.
 
-\<li\>\<a href=3D"#ProductDocs-ManagePositions"\>Manage Positions\</a\>\</li\>
+## Getting Started
 
-\<li\>\<a href=3D"#ProductDocs-Liquidity"\>Liquidity\</a\>\</li\>
+Ready to trade? Connect your wallet and start trading on hertzflow.xyz.
 
-\<li\>\<a href=3D"#ProductDocs-SelectingaPool/Vault"\>Selecting a Pool/Vault\</a=
+Want to provide liquidity? Explore our pool and vault options to start earning yield from global market activity.
 
-\>\</li\>
+Building something new? Check out our Developer Documentation to integrate HertzFlow into your application.
 
-\<li\>\<a href=3D"#ProductDocs-LiquidityOperations"\>Liquidity Operations\</a\>\</=
+### Contact Us
 
-li\>
+X Telegram Discord Medium Media Kit
 
-\<li\>\<a href=3D"#ProductDocs-MonitorPositions"\>Monitor Positions\</a\>\</li\>
+------------------------------------------------------------------------
 
-\<li\>\<a href=3D"#ProductDocs-TradingTerms"\>Trading Terms\</a\>\</li\>
+**Disclaimer**: Trading with leverage involves substantial risk of loss. This documentation does not constitute investment advice. Always trade responsibly and only risk capital you can afford to lose.
 
-\<li\>\<a href=3D"#ProductDocs-LiquidityProvisionTerms"\>Liquidity Provision Te=
+# Trade On HertzFlow
 
-rms\</a\>\</li\>
+## Market Structure
 
-\</ul\>\</li\>
+### Universal Market Access
 
-\</ul\>
+HertzFlow provides access to perpetual markets across multiple asset classes including cryptocurrencies, forex pairs, commodities, equities, and indices. Markets are permissionlessly created for any oracle-supported asset, enabling traders to bootstrap liquidity and access 24/7 continuous pricing secured by multi-oracle validation. Each market displays real-time data including mark price, 24-hour price change, trading volume, open interest separated by direction, and available liquidity for both long and short positions.
 
-\</div\>
+### Leverage Limits
 
-\<h1 local-id=3D"a1fb703b-96c1-4ec7-932f-9bc41f7e372c" id=3D"ProductDocs-Wel=
+Maximum leverage varies by asset class to balance capital efficiency with risk management. Forex markets support up to 1000x leverage given their relatively lower volatility. Major cryptocurrencies including ETH, BNB, and SOL allow up to 500x leverage. Altcoins and commodities are capped at 50x, while equities and indices permit up to 25x leverage. These limits ensure traders can maximize capital efficiency while maintaining appropriate risk boundaries for each asset type.
 
-cometoHertzFlow"\>Welcome to HertzFlow\</h1\>
+### Market Hours
 
-\<h2 local-id=3D"51faed10-a4a5-45d1-881a-621478df2333" id=3D"ProductDocs-Int=
+HertzFlow aligns its trading availability with the operating schedules of its underlying price oracle infrastructure, which mirrors the standard trading hours of each asset class in traditional markets. While cryptocurrency and forex markets trade continuously, certain real-world asset markets follow traditional trading schedules. Equity markets align with stock exchange hours, and commodity markets maintain hours specific to each asset class.
 
-roduction"\>Introduction\</h2\>
+During market closure, all trading operations including opening, closing, editing, and canceling positions are disabled. Existing positions remain open, and active take profit or stop loss orders continue to monitor for trigger conditions when markets reopen.
 
-\<p local-id=3D"391aff06-8657-4d32-9973-860dbf92419e"\>HertzFlow is a decentr=
+Trading availability by asset type is outlined below:
 
-alized perpetual exchange on BNB Chain that enables leverage trading on cry=
+To pick up a draggable item, press the space bar. While dragging, use the arrow keys to move the item. Press space again to drop the item in its new position, or press escape to cancel.
 
-pto, FX, commodities, and stocks with up to 1000x leverage. Built with 100%=
+To pick up a draggable item, press the space bar. While dragging, use the arrow keys to move the item. Press space again to drop the item in its new position, or press escape to cancel.
 
-self-custodial architecture, HertzFlow delivers institutional-grade tradin=
+<div class="table-wrap">
 
-g performance with 24/7 uninterrupted oracle-validated pricing and zero-fee=
+|  |  |  |
+|----|----|----|
+| Asset Type | Trading Schedule | Notes |
+| **Cryptocurrencies** | Continuous (24/7) | Markets remain open at all times |
+| **Foreign Exchange** | Sunday 5:00 PM ET – Friday 5:00 PM ET | Generally open during U.S. public holidays |
+| **Precious Metals** | Sunday 5:00 PM ET – Friday 5:00 PM ET | Gold and silver observe CME holiday closures |
+| **Commodities** | WTI: Sunday 6:00 PM ET – Friday 5:00 PM ET | Includes a daily maintenance pause from 5:00–6:00 PM ET; CME holidays apply |
+| **U.S. Indices (SPY, QQQ)** | Weekdays, 9:30 AM – 4:00 PM ET | Closed on weekends and NYSE holidays |
+| **U.S. Equities** | Weekdays, 9:30 AM – 4:00 PM ET | Closed on weekends and NYSE holidays |
 
-trading pairs.\</p\>
+</div>
 
-\<h3 local-id=3D"293d9c07-9827-442e-a375-412fcec5a478" id=3D"ProductDocs-Key=
+## Order Types
 
-Features"\>Key Features\</h3\>
+Orders are categorized into three primary execution modes: Market Orders, Limit Orders, and Trigger Orders, excluding liquidations.
 
-\<p local-id=3D"adbf9bce-ba56-4cbb-ae5f-ebbe5577be15"\>Universal Market Acces=
+To pick up a draggable item, press the space bar. While dragging, use the arrow keys to move the item. Press space again to drop the item in its new position, or press escape to cancel.
 
-s Trade perpetuals across multiple asset classes=E2=80=94crypto, forex, com=
+To pick up a draggable item, press the space bar. While dragging, use the arrow keys to move the item. Press space again to drop the item in its new position, or press escape to cancel.
 
-modities, and stocks=E2=80=94or permissionlessly create new markets for any=
+<div class="table-wrap">
 
-oracle-supported asset. Bootstrap liquidity in minutes and access 24/7 con=
+<table class="confluenceTable" data-layout="default" data-local-id="ac181ca7-3d34-4dd5-ae06-98299f51775a">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<tbody>
+<tr data-local-id="9dcbd2fe-1ae8-43d1-982b-fcbbfc662872">
+<td class="confluenceTd" data-local-id="6cdbb8de-bd5c-4c44-95eb-701229cdd6b7"><p><strong>Market</strong></p>
+<p><strong>Open / Close</strong></p></td>
+<td class="confluenceTd" data-local-id="b615170e-028e-4b96-83a7-1bed7ab7fe54"><p>Mark Price (immediate)</p></td>
+<td class="confluenceTd" data-local-id="d36ce52e-46f3-4332-a787-8af07228f972"><p>Entering / Exiting a trade quickly when execution speed is more important than exact price.</p></td>
+</tr>
+<tr data-local-id="f9dc3504-a28c-466c-ba4b-0a1e58c97bd4">
+<td class="confluenceTd" data-local-id="c42b524e-c3fb-44cd-82c2-a7dae411ae43"><p><strong>Limit</strong></p>
+<p><strong>Open</strong></p></td>
+<td class="confluenceTd" data-local-id="3c4d6fe9-a2a3-4dd3-be8c-77b7799eaeb4"><p>Execution price reaches trader’s set limit price</p></td>
+<td class="confluenceTd" data-local-id="33f69d92-a877-489a-b17d-d4e190740d2e"><p>Opening at a specific target price without compromising on value.</p></td>
+</tr>
+<tr data-local-id="cc872db9-d382-493e-83e0-b61280a5ad4f">
+<td class="confluenceTd" data-local-id="ff0b3c34-e8c7-4853-ad48-2778bbb396ea"><p><strong>Trigger</strong></p>
+<p><strong>Close</strong></p></td>
+<td class="confluenceTd" data-local-id="c660e500-5a40-4c03-8fe7-4c485ef99428"><p>Execution price reaches trader’s set trigger price (immediate)</p></td>
+<td class="confluenceTd" data-local-id="d0dc65ba-b4c5-452f-8145-3b8cd75b5fa6"><p>Stop-loss or take-profit strategies when you prioritize execution certainty.</p></td>
+</tr>
+<tr data-local-id="052bfbc8-748b-4317-8fc8-fdb8d62686d5">
+<td class="confluenceTd" data-local-id="b380dbaf-467b-409b-9b21-45d34016fb1b"><p><strong>Liquidation</strong></p></td>
+<td class="confluenceTd" data-local-id="67a8437d-33b8-43b3-87a1-f319218660bd"><p>Mark price hits liquidation threshold</p></td>
+<td class="confluenceTd" data-local-id="3febace8-6c5d-4f43-a811-321d948c1545"><p>Platform safeguard to prevent further losses and maintain solvency.</p></td>
+</tr>
+</tbody>
+</table>
 
-tinuous pricing secured by multi-oracle validation.\</p\>
+</div>
 
-\<p local-id=3D"6db05ac8-67a9-430a-b112-b8a8b8c17613"\>Powerful Leverage Engi=
+Change hint type
 
-ne with Capital Efficiency Access up to 1000x leverage with flexible collat=
+**Note that:** *Trigger orders* differ from *limit orders*:
 
-eral options. Use any supported asset as margin to maximize capital efficie=
+- **Limit**: Stays active in the order book from placement. Executes only at your set price or better. Great for price discipline, but may never fill in fast markets.
 
-ncy and capture market opportunities with minimal capital requirements.\</p\>
+- **Trigger**: Inactive until your trigger price is hit, then becomes a market order. Prioritizes execution over exact price, so slippage is possible.
 
-\<p local-id=3D"d709c247-b8e7-4631-ae41-38b992a4bc06"\>Advanced Trading Termi=
+### Price Impact Mechanism
 
-nal Experience CEX-quality execution with features including zero-fee tradi=
+Price impact reflects the cost of pool imbalance when trades skew the long-short ratio. Unlike traditional systems that charge impact fees at entry, HertzFlow applies a deferred impact model. When opening positions, the entry price equals the oracle mark price with no immediate impact charge. Throughout the position lifecycle, price impact accrues as open interest imbalance fluctuates, but fees are not assessed until closing.
 
-ng pairs, loss protection mechanisms, and advanced order types. The platfor=
+At position closure, the net price impact from entry to exit settles as part of the final position accounting. This approach allows traders to benefit from favorable market movements that reduce imbalance. Price impact is capped at **50 basis points (0.5%)** with excess amounts converting to rebates for traders. Positions that close into reduced imbalance receive positive price impact as a rebate, incentivizing liquidity balancing.
 
-m eliminates traditional institutional advantages, creating a level playing=
+### Guaranteed Take Profit and Stop Loss
 
-field for all traders.\</p\>
+HertzFlow implements guaranteed execution for take profit and stop loss orders across all leverage tiers. Given the platform's reliance on oracle pricing for execution, a trader's TP or SL request is always filled at the requested price, regardless of how far market price moves beyond the trigger level.
 
-\<p local-id=3D"ae3d874f-ef82-4c21-afbb-bfcb7c36b7a0"\>Composable Liquidity L=
+For example, if oracle prices gap below a trader's requested stop loss for a long position due to extreme volatility, HertzFlow closes the position at the requested SL price rather than the worse market price. This guarantee applies to all stop loss orders set within valid boundaries, ensuring traders have sophisticated risk management tools even during high market volatility or when trading with extreme leverage.
 
-ayer HertzFlow's modular vault architecture enables one-click liquidity pro=
+#### Take Profit Orders
 
-vision across all markets or targeted exposure through isolated pools. The =
+Take profit orders automatically close positions when price reaches a favorable level, securing gains without requiring active monitoring. Long positions set TP trigger prices above current mark price and entry price, while short positions set TP triggers below these benchmarks. The platform accepts two input methods: traders can specify exact trigger prices or target profit percentages, with the system automatically calculating the corresponding values.
 
-protocol empowers curators to manage pool-level strategies while third-part=
+TP prices are capped at +2500% PnL to protect liquidity provider solvency. This boundary ensures the system can honor guaranteed execution while maintaining sustainable risk parameters. When market price reaches the trigger level, a market order executes immediately to close the position at the specified price, with no slippage tolerance required due to the guaranteed execution mechanism.
 
-y developers can create optimized capital efficiency strategies through the=
+#### Stop Loss Orders
 
-open SDK.\</p\>
+Stop loss orders protect capital by automatically closing positions when price moves adversely. Long positions place SL triggers below current mark price and entry price, while short positions place triggers above these levels. Similar to take profit functionality, stop losses accept both price and loss percentage inputs with automatic conversion between formats.
 
-\<h3 local-id=3D"1d6441cd-3d5d-4851-a335-e32edaacfb8d" id=3D"ProductDocs-How=
+SL prices are capped at -80% PnL to prevent catastrophic liquidations while ensuring keeper bots can execute orders reliably. At extreme leverage levels approaching 1000x, this boundary provides critical protection against slippage and execution delays. Stop loss orders trigger as market orders when price hits the specified level, executing with priority to ensure position closure even during high volatility.
 
-ItWorks"\>How It Works\</h3\>
+The guaranteed execution mechanism ensures stop losses execute at the requested price even if oracle feeds gap significantly beyond the trigger level. This protection is particularly valuable at high leverage where small price movements can generate large percentage losses.
 
-\<h4 local-id=3D"113435bf-38c3-4a1f-85b0-14e4b90abacd" id=3D"ProductDocs-For=
+### Combined TP/SL Strategies
 
-Traders"\>For Traders\</h4\>
+Traders can set both take profit and stop loss orders simultaneously, creating bracketed exit strategies that automatically manage positions in either direction. When both orders are active, whichever trigger price is reached first executes and closes the position, automatically canceling the remaining order.
 
-\<p local-id=3D"79235963-9b70-4f79-bc48-5a31692a6d5d"\>\<strong\>Trade Perpetua=
+These orders remain attached to their positions and can be modified independently while positions remain open. Adding or removing collateral from positions adjusts the valid price boundaries for TP and SL orders, potentially requiring traders to update trigger prices to maintain compliance with the -80% to +2500% PnL range.
 
-ls Across Multiple Asset Classes.\</strong\>\</p\>
+## Position Management
 
-\<p local-id=3D"e2e6dec8-38b6-47d2-a51b-2648be13be66"\>Connect your wallet an=
+### Position Lifecycle
 
-d trade perpetuals with self-custodial security. Execute leveraged position=
+Positions display comprehensive metrics including notional size, net value incorporating unrealized PnL after fees, entry price, current mark price, liquidation price, and any active TP/SL trigger prices. Net value calculates as collateral plus net unrealized PnL minus accrued fees, providing real-time position valuation.
 
-s using USDC, with real-time oracle pricing ensuring fair execution at all =
+The platform supports flexible position adjustments throughout the lifecycle. Traders can increase positions by opening additional orders in the same direction, causing entry prices to recalculate as weighted averages and leverage to adjust based on new collateral-to-size ratios. Existing TP/SL orders automatically checks for validity of existing parameters.
 
-times. The platform's multi-oracle validation system provides robust risk m=
+### Position Reduction
 
-anagement, while features like hyper leverage and loss protection enhance t=
+Reducing positions provides two distinct modes to accommodate different trading strategies. The default mode - Keep Leverage Off - reduces position size while maintaining collateral, effectively deleveraging the position. This approach locks collateral in place and returns only realized PnL to the trader's wallet, allowing profit-taking while maintaining exposure at lower leverage.
 
-rading outcomes.\</p\>
+The alternative mode - Keep Leverage On - reduces both position size and collateral proportionally, maintaining the same leverage ratio. This mode returns both realized PnL and proportional collateral to the trader, similar to traditional perpetual platforms. The calculation for received funds accounts for fees and realized PnL, with any shortfall deducting from remaining position collateral.
 
-\<h4 local-id=3D"efacd293-0540-44fc-91d3-bfea477c0023" id=3D"ProductDocs-For=
+### Collateral Adjustment
 
-LiquidityProviders"\>For Liquidity Providers\</h4\>
+Traders can modify position margin without changing size through collateral editing. Adding collateral improves liquidation price, increases leverage headroom, and widens the valid price boundaries for TP/SL orders. Removing collateral moves liquidation price closer to mark price and may invalidate existing TP/SL orders if they fall outside the valid boundaries.
 
-\<p local-id=3D"d5d43789-81a1-4ed5-9899-1f3592760ff1"\>\<strong\>Vault System\</=
+When collateral removal narrows TP/SL caps, take profit orders beyond the new maximum update automatically to the new cap price. Stop loss orders that fall outside the new -80% boundary are marked invalid with visual warnings, requiring traders to either restore collateral or modify the orders to valid levels. The system prevents collateral removal that would leave positions below the 10 USDC minimum or exceed maximum leverage limits.
 
-strong\> Provide liquidity through automated vaults that diversify exposure =
+<div class="confluence-information-macro confluence-information-macro-information">
 
-across all markets with a single deposit. Earn fees from trading activity, =
+<span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon"></span>
 
-strategy yield, and trader losses while the protocol manages rebalancing an=
+<div class="confluence-information-macro-body">
 
-d risk.\</p\>
+When placing orders in a selected market, the following parameters are set:
 
-\<p local-id=3D"ea5c127e-a247-4f31-929d-66e03062a1f6"\>\<strong\>Isolated Pools=
+Side: Open Long; Open Short; Close Long; Close Short; Increase Long; Increase Short; Decrease Long; Decrease Short
 
-\</strong\> Alternatively, provide liquidity directly to specific asset marke=
+Order Type: Market/Limit/Trigger/Liquidated
 
-ts for more targeted exposure and potentially higher returns. Each isolated=
+Collateral Asset & Amount: Collaterals are in USDC, limited at a 10 USDC minimum, and can be adjusted real time when managing positions.
 
-pool operates independently with its own risk parameters.\</p\>
+Exposure & Leverage: Leverage can be set between 1.1x and 1000x. Position size is calculated automatically from the leverage set and collateral amount.
 
-\<p local-id=3D"ca93ac56-48d4-4eb3-ad4b-fefce5b96222"\>\<strong\>Curator-Manage=
+Slippage: All market and swap orders are executed against Hertzflow Liquidity Pools (HzLP). Slippage tolerance can be set per trade — orders that breach this tolerance will revert to protect the trader.
 
-d Strategies\</strong\> Advanced users can leverage HertzFlow's curator syste=
+Entry Price: Market price for market orders, a limit price set by traders for limit orders. Meanwhile, liquidation price is estimated and updated automatically.
 
-m to access professionally managed liquidity strategies or create their own=
+Exit Price: For tigger orders, exit price can be set to stop loss or take profit. For market orders, exit price is the executed price at which positions are closed.
 
-pools with custom parameters optimized for specific market conditions.\</p\>
+Positions may be settled via market or TP/SL order:
 
-\<h4 local-id=3D"f70faff4-f83a-4c10-a2aa-47e9111273ed" id=3D"ProductDocs-For=
+Market: Trader manually initiates a full or partial settlement for market positions.
 
-Developers"\>For Developers\</h4\>
+TP/SL: Settles automatically at mark price only if mark price reaches or betters limit price.
 
-\<p local-id=3D"bcb5a6e1-f1bc-4f67-992d-95654e002e82"\>\<strong\>Build &amp; In=
+When a non-liquidated close is executed:
 
-tegrate\</strong\> Leverage our SDKs, APIs, and composable smart contracts to=
+Positive PnL: Trader receives their initial collateral plus realized trading profit, transferred directly from the liquidity pool.
 
-create your own strategies, integrate liquidity into dApps, or launch new =
+Negative PnL: Trader receives remaining collateral after losses, with the loss amount retained by the protocol’s liquidity pool.
 
-markets permissionlessly.\</p\>
+Partial Close: Proportional PnL is realized based on the closed portion of the position.
 
-\<h2 local-id=3D"e221b7b2-e525-4e80-bd3e-a1246b3832c8" id=3D"ProductDocs-Pro=
+</div>
 
-tocolArchitecture"\>Protocol Architecture\</h2\>
+</div>
 
-\<p local-id=3D"69b61625-ca0a-466e-9858-683442efe798"\>HertzFlow operates thr=
+### Fee Structure
 
-ough three core layers:\</p\>
+#### **Trading Fees**
 
-\<p local-id=3D"8b8a5b93-3c62-403f-989d-eda5e94f3264"\>\<strong\>Smart Contract=
+Open Fee - Charged when opening positions (varies by market)
 
-Layer\</strong\> Capital-efficient liquidity pool design enabling perps trad=
+Close Fee - Charged when closing positions (varies by market)
 
-ing via USDC, up to 1000x leverage, and dynamic rebalancing. Oracle-driven =
+Price Impact - Dynamic fee based on pool imbalance (can be positive or negative)
 
-pricing ensures accurate market execution while automated risk management p=
+#### **Holding Fees (per hour)**
 
-rotects both traders and liquidity providers.\</p\>
+- **Funding Fee** - Paid between long and short traders based on market skew.
 
-\<p local-id=3D"2c9bf8ae-e044-47dd-b8c6-60b21b38fa09"\>\<strong\>Liquidity Opti=
+- **Borrow Fee** - Paid to liquidity providers for borrowed liquidity
 
-mization Layer\</strong\> Adaptive pool architecture that allocates capital e=
+- **Net Funding Rate -** The 1-hour net rate combines funding and borrow fees into a single annualized percentage. Hover over the net rate in Market Info to view:
 
-fficiently across markets, minimizing slippage and protecting LPs from exce=
+  - **8-hour rate** - Projected rate over 8 hours
 
-ssive volatility exposure through auto-rebalancing mechanisms.\</p\>
+  - **24-hour rate** - Projected daily rate
 
-\<p local-id=3D"c6ba2777-7181-4408-bdc7-fc7c27b466ea"\>\<strong\>Trading Interf=
+  - **365-day rate** - Projected annual rate (APR)
 
-ace\</strong\> Institutional-grade terminal delivering seamless UX with advan=
+  - **Hourly breakdown** - Separate funding fee and borrow fee components
 
-ced order types, real-time analytics, and performance optimization. The int=
+#### Price Impact
 
-erface abstracts blockchain complexity while maintaining full on-chain tran=
+Price impact reflects the cost of pool imbalance when your trade skews the long/short ratio:
 
-sparency.\</p\>
+- **Opening positions** - Entry price equals oracle mark price (no immediate impact)
 
-\<h2 local-id=3D"fb8568c1-0e23-492a-85c8-28184dc903ca" id=3D"ProductDocs-Why=
+- **During position** - Price impact accrues as OI imbalance changes (not charged immediately)
 
-ChooseHertzFlow"\>Why Choose HertzFlow\</h2\>
+- **Closing positions** - Net price impact from open to close settles at execution
 
-\<p local-id=3D"70f0dcf3-d153-46fe-ac91-2daed06da835"\>\<strong\>Self-Custodial=
+- **Impact cap** - Maximum 50 basis points (0.5%) with excess converting to rebates
 
-Security\</strong\> Your assets remain in your wallet at all times. Trade wi=
+- **Positive impact** - You may receive rebates if closing reduces pool imbalance
 
-th the confidence that only you control your funds=E2=80=94no intermediarie=
+#### Slippage Tolerance
 
-s, no custody risk.\</p\>
+Market orders incorporate configurable slippage tolerance to accommodate price movement during execution. The acceptable price boundary for market orders combines mark price, price impact, and slippage tolerance: `Mark Price × (1 ± Price Impact) × (1 ± Slippage)`. Limit orders use only price impact without slippage: `Limit Price × (1 ± Price Impact)`. Take profit and stop loss orders execute at trigger prices with no slippage component, relying on guaranteed execution mechanisms.
 
-\<p local-id=3D"7152d072-42ca-4385-9228-734108e1df2f"\>\<strong\>Capital-Effici=
+Higher slippage tolerance increases execution probability during volatility at the cost of allowing larger price deviations from the expected price. The default 0.5% tolerance balances execution certainty with price precision for most market conditions.
 
-ent Global Market Access\</strong\> Extreme leverage options and flexible col=
+### Liquidation Mechanics
 
-lateral maximize your trading capital's potential. Access global markets wi=
+#### Leverage Limits
 
-th minimal capital requirements.\</p\>
+Maximum leverage varies by asset class:
 
-\<p local-id=3D"78d4ed07-43dc-4246-8c13-101e6742a271"\>\<strong\>Real Yield for=
+To pick up a draggable item, press the space bar. While dragging, use the arrow keys to move the item. Press space again to drop the item in its new position, or press escape to cancel.
 
-LPs\</strong\> Liquidity providers earn from multiple revenue streams: tradi=
+To pick up a draggable item, press the space bar. While dragging, use the arrow keys to move the item. Press space again to drop the item in its new position, or press escape to cancel.
 
-ng fees, strategy yield, borrowing interest, and trader losses. Capital sta=
+<div class="table-wrap">
 
-ys productive 24/7 with instant withdrawal capability.\</p\>
+<table class="confluenceTable" data-layout="default" data-local-id="c5019903-2086-47b4-9a88-95f6ff95962b">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr data-local-id="92014456-41fd-46c7-9b4d-d3f339dc122d">
+<th class="confluenceTh" data-highlight-colour="color-mix(in srgb, var(--sp-color-bg-muted) 100%, transparent)" data-local-id="0f87a618-7a38-4df7-b852-71fe7e40eb71"><p>Asset Class</p>
+<p>Asset Class</p></th>
+<th class="confluenceTh" data-highlight-colour="color-mix(in srgb, var(--sp-color-bg-muted) 100%, transparent)" data-local-id="7d678551-97fa-419b-96b2-5bec613cdac6"><p>Max Leverage</p>
+<p>Max Leverage</p></th>
+</tr>
+&#10;<tr data-local-id="4514e911-cda0-4721-8f40-77c80a37a7ba">
+<td class="confluenceTd" data-local-id="e762d725-487f-4a41-b0ac-fe07718dfa0a"><p>Forex (FX)</p></td>
+<td class="confluenceTd" data-local-id="997d753c-cfde-4e5b-9501-38ceb9b09443"><p>1000x</p></td>
+</tr>
+<tr data-local-id="4fa2a4ad-0c29-4a4f-9997-975388f5eac3">
+<td class="confluenceTd" data-local-id="4d1723c9-4c27-4720-9d51-71310c012958"><p>ETH/BNB/SOL</p></td>
+<td class="confluenceTd" data-local-id="ec50f548-cd08-4977-97c4-9faf702e3298"><p>500x</p></td>
+</tr>
+<tr data-local-id="601d00cc-a487-4ff4-b3a7-1bfa39371fd7">
+<td class="confluenceTd" data-local-id="9323fc05-16fb-4c39-b0b7-7c5965a95965"><p>Altcoins</p></td>
+<td class="confluenceTd" data-local-id="bfc1b050-31c7-4f69-b343-5a091b5fd397"><p>50x</p></td>
+</tr>
+<tr data-local-id="96a80a21-71df-4456-8087-023a6a19a5ef">
+<td class="confluenceTd" data-local-id="c383f070-8d5a-42af-8245-7ae915396da5"><p>Commodities</p></td>
+<td class="confluenceTd" data-local-id="dcff6b92-6f2a-47b8-abe6-cdd619e35a3c"><p>50x</p></td>
+</tr>
+<tr data-local-id="497214dd-ce4e-4c01-bc5f-5ca0ae39c5b7">
+<td class="confluenceTd" data-local-id="56f30c84-73c3-4cdd-bca2-b071ccf807a5"><p>Equities &amp; Indices</p></td>
+<td class="confluenceTd" data-local-id="cafbd594-1111-4681-8583-6d6c16bf6133"><p>25x</p></td>
+</tr>
+</tbody>
+</table>
 
-\<p local-id=3D"37bab777-3fc3-4372-88f7-c1a8cb5e6ffe"\>\<strong\>Permissionless=
+</div>
 
-Innovation\</strong\> Build on HertzFlow's leverage engine using robust SDKs=
+Leverage is calculated as: `Leverage = Position Size / Collateral`
 
-and composable smart contracts. Create custom markets, integrate liquidity=
+#### Liquidation
 
-into dApps, or develop new trading strategies without permission.\</p\>
+Positions liquidate automatically when mark price reaches your liquidation price, preventing negative account balances.
 
-\<h2 local-id=3D"bcb8a3f3-ee71-483d-9e8f-dcc56448ba8a" id=3D"ProductDocs-Get=
+**Liquidation Price Formula:**
 
-tingStarted"\>Getting Started\</h2\>
+Long positions:
 
-\<p local-id=3D"e813442b-b928-452c-8de6-bf58849f8aae"\>Ready to trade? Connec=
+​
 
-t your wallet and start trading on hertzflow.xyz.\</p\>
+Liq Price = Entry Price × (1/Max_Leverage - 1/Leverage - Fees/Size + 1)
 
-\<p local-id=3D"3ae97042-dedd-4921-8261-eabd99dd25a1"\>Want to provide liquid=
+Plain TextCopyMore options
 
-ity? Explore our pool and vault options to start earning yield from global =
+Short positions:
 
-market activity.\</p\>
+​
 
-\<p local-id=3D"34a092d6-4aeb-48ca-9467-146de80a5daa"\>Building something new=
+Liq Price = Entry Price × (1 - (1/Max_Leverage - 1/Leverage - Fees/Size))
 
-? Check out our Developer Documentation to integrate HertzFlow into your ap=
+Plain TextCopyMore options
 
-plication.\</p\>
+Where `Fees` includes close fee, borrow fee, funding fee, price impact, and liquidation fee.
 
-\<h3 local-id=3D"787ea011-2e40-45e3-8b98-37caeea2f8b1" id=3D"ProductDocs-Con=
+**Liquidation Process:**
 
-tactUs"\>Contact Us\</h3\>
+1.  Position automatically closes at market price
 
-\<p local-id=3D"f21ee569-d443-4a80-94ee-8158b6e6671f"\>X Telegram Discord Med=
+2.  Remaining collateral (if any) returns to your wallet
 
-ium Media Kit\</p\>
+3.  Liquidation fee (0.5% - 1% of position size) is charged
 
-\<hr local-id=3D"9c5917b8-e64c-4465-9f3d-17b2cafc5983"\>
+4.  Any active TP/SL orders on the liquidated position cancel
 
-\<p local-id=3D"22336747-932d-4fb5-ad6a-3dbc44cfbce3"\>\<strong\>Disclaimer\</st=
+Monitor your liquidation price closely, especially during high volatility.
 
-rong\>: Trading with leverage involves substantial risk of loss. This docume=
+## Risk Management
 
-ntation does not constitute investment advice. Always trade responsibly and=
+### Best Practices
 
-only risk capital you can afford to lose.\</p\>
+#### Risk Management
 
-\<h1 local-id=3D"48935260-cf50-4e1c-8576-3589bdefb0a1" id=3D"ProductDocs-Tra=
+- **Never risk more than you can afford to lose** - Leverage magnifies both gains and losses
 
-deOnHertzFlow"\>Trade On HertzFlow\</h1\>
+- **Use stop losses** - Protect capital by setting automatic exit points
 
-\<h2 local-id=3D"074a855b-b026-425a-8f23-b33ee08df5c8" id=3D"ProductDocs-Mar=
+- **Monitor liquidation prices** - Keep adequate margin buffer especially above 50x leverage
 
-ketStructure"\>Market Structure\</h2\>
+- **Start small** - Test strategies with lower leverage before scaling up
 
-\<h3 local-id=3D"bb720c4a-26a8-49cf-b28c-04d3ee78533f" id=3D"ProductDocs-Uni=
+- **Diversify** - Avoid concentrating risk in a single market or position
 
-versalMarketAccess"\>Universal Market Access\</h3\>
+#### Order Strategy
 
-\<p local-id=3D"a34bef9e-4c3f-4dc7-a8e2-807b7dd340ae"\>HertzFlow provides acc=
+- **Limit orders for entries** - Get better prices during volatile markets
 
-ess to perpetual markets across multiple asset classes including cryptocurr=
+- **Market orders for exits** - Ensure execution when closing positions quickly
 
-encies, forex pairs, commodities, equities, and indices. Markets are permis=
+- **Bracket orders** - Always set both TP and SL for automated risk management
 
-sionlessly created for any oracle-supported asset, enabling traders to boot=
+- **Edit over cancel** - Modify existing orders instead of canceling and recreating to save gas
 
-strap liquidity and access 24/7 continuous pricing secured by multi-oracle =
+#### Fee Optimization
 
-validation. Each market displays real-time data including mark price, 24-ho=
+- **Check price impact** - Large orders in low liquidity markets pay higher impact fees
 
-ur price change, trading volume, open interest separated by direction, and =
+- **Monitor funding rates** - High negative rates increase position holding costs
 
-available liquidity for both long and short positions.\</p\>
+- **Claim fees regularly** - Don't let accrued rebates sit unclaimed
 
-\<h3 local-id=3D"a65249e3-df4a-4e3e-9032-e3cc2bbe9060" id=3D"ProductDocs-Lev=
+- **Time your entries** - Wait for favorable funding rate flips when holding multi-day positions
 
-erageLimits"\>Leverage Limits\</h3\>
+#### Liquidation Avoidance
 
-\<p local-id=3D"8d7f52ae-daa6-4479-945c-adb7b8a1753c"\>Maximum leverage varie=
+- **Maintain margin buffer** - Keep liquidation price at least 5-10% away from mark price
 
-s by asset class to balance capital efficiency with risk management. Forex =
+- **Add collateral preemptively** - Don't wait until liquidation is imminent
 
-markets support up to 1000x leverage given their relatively lower volatilit=
+- **Reduce leverage** - Lower leverage = greater safety margin
 
-y\. Major cryptocurrencies including ETH, BNB, and SOL allow up to 500x leve=
+- **Close partials** - Take profits and reduce size to improve liquidation price
 
-rage. Altcoins and commodities are capped at 50x, while equities and indice=
+### Advanced Features
 
-s permit up to 25x leverage. These limits ensure traders can maximize capit=
+#### Position Compounding
 
-al efficiency while maintaining appropriate risk boundaries for each asset =
+Compound realized gains back into positions for exponential growth:
 
-type.\</p\>
+1.  Close a portion of your winning position
 
-\<h3 local-id=3D"22212412-6f71-45a2-9ddf-81248d9e666d" id=3D"ProductDocs-Mar=
+2.  Receive PnL + proportional collateral (Keep Leverage On)
 
-ketHours"\>Market Hours\</h3\>
+3.  Immediately reopen a larger position with realized profits as additional collateral
 
-\<p local-id=3D"a5a8a0b5-9d7a-45f9-9834-9cfc512496aa"\>HertzFlow aligns its t=
+4.  Repeat to grow position size using market gains
 
-rading availability with the operating schedules of its underlying price or=
+This strategy maximizes capital efficiency but increases risk exposure - use strict stop losses.
 
-acle infrastructure, which mirrors the standard trading hours of each asset=
+#### Hedging
 
-class in traditional markets. While cryptocurrency and forex markets trade=
+Open opposing positions across markets to manage risk:
 
-continuously, certain real-world asset markets follow traditional trading =
+- **Cross-asset hedging** - Long crypto, short correlated equity indices
 
-schedules. Equity markets align with stock exchange hours, and commodity ma=
+- **Spread trading** - Long one commodity, short a related commodity
 
-rkets maintain hours specific to each asset class.\</p\>
+- **Basis trading** - Capture funding rate differentials between markets
 
-\<p local-id=3D"acd08031-380a-4ef8-9f4f-2f86cc556798"\>During market closure,=
+Note that each position incurs independent fees and margin requirements.
 
-all trading operations including opening, closing, editing, and canceling =
+#### Multi-Market Strategies
 
-positions are disabled. Existing positions remain open, and active take pro=
+Execute sophisticated strategies across HertzFlow's diverse markets:
 
-fit or stop loss orders continue to monitor for trigger conditions when mar=
+- **Macro plays** - Trade forex pairs based on economic data and central bank policies
 
-kets reopen.\</p\>
+- **Correlation plays** - Exploit relationships between crypto and traditional markets
 
-\<p local-id=3D"33055f18-3539-4e16-8b45-575340be3b3a"\>Trading availability b=
+- **Volatility trading** - Short VIX or similar indices during calm markets
 
-y asset type is outlined below:\</p\>
+- **Commodity cycles** - Position in gold, oil, or agriculture based on seasonal patterns
 
-\<p local-id=3D"4e805302-84db-4aeb-b6c0-e5c887e4cb7f"\>To pick up a draggable=
+Access to traditional markets 24/7 enables crypto traders to apply DeFi principles to TradFi assets.
 
-item, press the space bar. While dragging, use the arrow keys to move the =
+------------------------------------------------------------------------
 
-item. Press space again to drop the item in its new position, or press esca=
+**Risk Warning**: Trading with leverage carries substantial risk of loss and is not suitable for all investors. You should carefully consider whether trading is appropriate for you in light of your experience, objectives, financial resources, and other relevant circumstances. The possibility exists that you could sustain losses in excess of your deposited funds. Only trade with capital you can afford to lose.
 
-pe to cancel.\</p\>
+# Liquidity Provision
 
-\<p local-id=3D"9a069c5f-d848-430b-b380-84ac6d848843"\>To pick up a draggable=
+### Providing Liquidity
 
-item, press the space bar. While dragging, use the arrow keys to move the =
+### Overview
 
-item. Press space again to drop the item in its new position, or press esca=
+HertzFlow's liquidity infrastructure operates through isolated market pools that serve as counterparties to leveraged perpetual traders. Liquidity providers deposit USDC to earn yield from trading fees, borrow fees, and trader losses while maintaining exposure to specific market dynamics. The protocol implements a single-token deposit model with automatic 1:1 long-short rebalancing, eliminating complexity while ensuring capital efficiency.
 
-pe to cancel.\</p\>
+Unlike traditional AMMs that rely on continuous buyer-seller matching, HertzFlow employs pooled virtual liquidity capable of absorbing open interest imbalances and directional exposure. This architecture ensures trade settlement remains robust even during extreme market movements, while sophisticated risk controls protect liquidity providers from excessive drawdowns.
 
-\<div class=3D"table-wrap"\>
+### Liquidity Options
 
-\<table data-layout=3D"default" data-local-id=3D"4e09ced8-b172-4aff-bf49-472=
+#### HzLP: Market-Specific Pools
 
-1ed6c47a5" class=3D"confluenceTable"\>
+HzLP is the liquidity provider token minted when assets are deposited into an individual HertzFlow Liquidity Pool. HzLP tokens represent proportional ownership of isolated liquidity pools, each dedicated to a single perpetual market. When depositing USDC, providers receive HzLP tokens reflecting their pool share. These tokens accrue value as the pool collects trading fees and realizes profits from trader losses.
 
-\<tbody\>
+Each market operates independently with isolated risk parameters, allowing liquidity providers to select exposure based on their risk preferences. A BTC/USD pool's performance remains unaffected by ETH/USD pool dynamics, providing granular control over capital allocation and risk management.
 
-\<tr data-local-id=3D"634ea105-c34d-41c6-b237-1206ada0bf07"\>
+Key characteristics:
 
-\<th data-highlight-colour=3D"color-mix(in srgb, var(--sp-color-bg-muted) 10=
+Direct exposure to a single pool / market
 
-0%, transparent)" data-local-id=3D"a0033e5f-d54d-4782-944b-7786db53435a" cl=
+Value reflects pool performance and fee accrual
 
-ass=3D"confluenceTh"\>
+Redeemable for the underlying pool assets
 
-\<p local-id=3D"4d9e01df-537b-408b-90f7-713554b18aec"\>Asset Type\</p\>\</th\>
+#### Vault Aggregation
 
-\<th data-highlight-colour=3D"color-mix(in srgb, var(--sp-color-bg-muted) 10=
+HzV is the vault share token issued for deposits into HertzFlow Vaults. Each vault aggregates liquidity across multiple markets that share the same strategy, optimizing capital efficiency by shifting liquidity between markets based on utilization rates and fee opportunities.
 
-0%, transparent)" data-local-id=3D"d0c19570-b6c8-4cd7-812e-28ef2f75d9a3" cl=
+Key characteristics:
 
-ass=3D"confluenceTh"\>
+Indirect exposure across multiple markets
 
-\<p local-id=3D"5e4729fb-e7f9-4a90-b392-b5e8a3fe7501"\>Trading Schedule\</p\>\</=
+Capital allocated dynamically based on pool utilization and risk
 
-th\>
+Returns reflect aggregate vault performance rather than individual pool fees
 
-\<th data-highlight-colour=3D"color-mix(in srgb, var(--sp-color-bg-muted) 10=
+### Deposits
 
-0%, transparent)" data-local-id=3D"19d1b196-9e90-4661-86db-e4a8c8c5cc53" cl=
+Depositing USDC into a market pool mints HzLP tokens representing your proportional share, and into a vault mints HzV tokens representing your share. The protocol automatically splits deposits equally between long and short collateral reserves, maintaining a 1:1 balance regardless of current open interest skew.
 
-ass=3D"confluenceTh"\>
+**Token Pricing:**
 
-\<p local-id=3D"7564cf1c-f6f7-4195-90c0-eaaf0e65fd2d"\>Notes\</p\>\</th\>
+​
 
-\</tr\>
+Liquidity Token Price = AUM / Total Supply
 
-\<tr data-local-id=3D"7717ade5-bacf-4c43-9e9d-b35ececf3c11"\>
+Plain TextCopyMore options
 
-\<td data-local-id=3D"acfa8550-22ff-4d92-8e30-386653a3fbef" class=3D"conflue=
+Assets Under Management (AUM) includes deposited USDC, accrued fees, and net unrealized PnL from open trader positions. As traders pay fees and realize losses, pool AUM increases, raising the value of each liquidity token. Conversely, trader profits decrease pool value.
 
-nceTd"\>
+**Deposit Capacity Limits:**
 
-\<p local-id=3D"9e59851f-1ddb-455c-8bf2-32f66899443c"\>\<strong\>Cryptocurrenci=
+Maximum deposit amounts are constrained by risk parameters designed to prevent over-concentration:
 
-es\</strong\>\</p\>\</td\>
+​
 
-\<td data-local-id=3D"45c10d39-234e-44af-b507-9161baff91a1" class=3D"conflue=
+Max USDC In = Max AUM - Current AUM
 
-nceTd"\>
+Plain TextCopyMore options
 
-\<p local-id=3D"d5fa5ff4-0bc8-4e56-a264-4d68a4df3500"\>Continuous (24/7)\</p\>\<=
+Where `Max AUM` represents the protocol-configured ceiling for each market's total liquidity. This hard cap maintains balance across markets by preventing unlimited growth in popular pools that would drain liquidity from others. Each market's cap is calibrated based on trading volume, volatility, and oracle reliability.
 
-/td\>
+### Withdrawals
 
-\<td data-local-id=3D"d5783122-5ace-486a-9858-06054c34224b" class=3D"conflue=
+Withdrawing liquidity burns HzLP or HzV tokens and returns USDC at the current price. Withdrawals settle instantly on-chain without waiting periods, though maximum withdrawal amounts are subject to real-time risk checks ensuring sufficient liquidity remains for open positions.
 
-nceTd"\>
+**Withdrawal Capacity Constraints:**
 
-\<p local-id=3D"7bf5339e-5c8d-44c7-bfa7-9e1a6337f311"\>Markets remain open at=
+Two separate limits govern withdrawal availability.
 
-all times\</p\>\</td\>
+**PnL Factor Constraint:**
 
-\</tr\>
+​
 
-\<tr data-local-id=3D"1647e9c8-c834-49bb-a7d0-3e2f9913edaa"\>
+Max USDC Out (PnL) = (Current AUM - Max(Unrealized PnL Long, Unrealized PnL Short, 0)) / Max PnL Factor for Withdrawals
 
-\<td data-local-id=3D"4af90f25-68cd-4fbf-94bf-e783d9de3e34" class=3D"conflue=
+Plain TextCopyMore options
 
-nceTd"\>
+This constraint protects remaining LPs when trader unrealized profits are high. If traders hold large winning positions, withdrawals are restricted to prevent the remaining pool from becoming undersized relative to obligations. The `Max PnL Factor for Withdrawals` parameter determines how much pool value can be at risk from unrealized trader profits.
 
-\<p local-id=3D"a41ec9bb-33aa-4d5f-8065-9e4f49d79018"\>\<strong\>Foreign Exchan=
+**Reserve Factor Constraint:**
 
-ge\</strong\>\</p\>\</td\>
+​
 
-\<td data-local-id=3D"9e129701-124f-4cb2-a3f3-9578071f657c" class=3D"conflue=
+Max USDC Out (Reserve) = Current AUM - Max(Reserved USD Long, Reserved USD Short) / Reserve Factor
 
-nceTd"\>
+Plain TextCopyMore options
 
-\<p local-id=3D"ab6dcc32-3357-4bb6-acaa-a7ab2190f1f2"\>Sunday 5:00 PM ET =E2=
+Reserved USD represents total open interest (notional value of all open positions) on each side. The `Reserve Factor` ensures sufficient liquidity remains to cover potential position closures. This prevents LPs from withdrawing capital currently backing active trades.
 
-=80=93 Friday 5:00 PM ET\</p\>\</td\>
+The effective withdrawal limit is the minimum of these two constraints:
 
-\<td data-local-id=3D"d8b90337-1583-4e1b-a3fa-e7764b5076e6" class=3D"conflue=
+​
 
-nceTd"\>
+Max USDC Out = Min(Max USDC Out (PnL), Max USDC Out (Reserve))
 
-\<p local-id=3D"0e7473bf-4170-4421-86e9-de77a7a8649e"\>Generally open during =
+Plain TextCopyMore options
 
-U.S. public holidays\</p\>\</td\>
+### Automatic Rebalancing
 
-\</tr\>
+The protocol maintains equal long and short collateral pools through automatic rebalancing during deposits and withdrawals. When you deposit USDC, the contract allocates 50% to long collateral reserves and 50% to short reserves, regardless of current open interest distribution. This ensures the pool can service both long and short traders without bias.
 
-\<tr data-local-id=3D"b25fbbf8-20cb-438d-83b3-7d6554156de6"\>
+Price impact fees are eliminated at the contract level for liquidity operations. Unlike trading actions, deposits and withdrawals do not charge dynamic price impact, simplifying the LP experience and removing penalty mechanisms that would discourage healthy liquidity flow.
 
-\<td data-local-id=3D"f5546400-ae69-4f1c-9126-25202258c407" class=3D"conflue=
+## Yield
 
-nceTd"\>
+### Yield Sources
 
-\<p local-id=3D"b8c5cd7a-8006-456e-9c7b-dd45afaafd60"\>\<strong\>Precious Metal=
+#### Fee Income
 
-s\</strong\>\</p\>\</td\>
+Liquidity providers earn from multiple fee streams generated by trading activity:
 
-\<td data-local-id=3D"84b0c4fd-44d4-471b-aead-1b10c16501a6" class=3D"conflue=
+**Trading Fees:**
 
-nceTd"\>
+- Open position fees charged when traders establish positions
 
-\<p local-id=3D"f9055d4b-075a-4113-b1e2-32851240a090"\>Sunday 5:00 PM ET =E2=
+- Close position fees charged when positions are exited or liquidated
 
-=80=93 Friday 5:00 PM ET\</p\>\</td\>
+- Fee rates vary by market based on liquidity depth and volatility
 
-\<td data-local-id=3D"a5a39c61-babc-4f10-b48c-460f4f17fc48" class=3D"conflue=
+**Borrowing Fees:**
 
-nceTd"\>
+- Hourly fees paid by traders for borrowing liquidity to establish leveraged positions
 
-\<p local-id=3D"04995c36-cdf1-41b2-9a18-53455d27d454"\>Gold and silver observ=
+- Calculated as a percentage of position size based on pool utilization
 
-e CME holiday closures\</p\>\</td\>
+- Higher utilization increases borrow rates, incentivizing additional liquidity provision
 
-\</tr\>
+**Liquidation Fees:**
 
-\<tr data-local-id=3D"2601f3b0-3c9b-405a-827c-ce4cebc7aa63"\>
+- Penalties charged when trader positions are force-closed due to insufficient margin
 
-\<td data-local-id=3D"5b7b6c8c-5d68-4d43-b370-703eee88ed64" class=3D"conflue=
+- Compensates LPs for bearing liquidation execution risk
 
-nceTd"\>
+All fees settle continuously into the pool, increasing AUM and raising HzLP/HzV token value. Fee distribution occurs automatically without requiring manual claims.
 
-\<p local-id=3D"d0995d91-fed5-47a1-b0fa-60702e165d8f"\>\<strong\>Commodities\</s=
+### APY Calculation
 
-trong\>\</p\>\</td\>
+Annual Percentage Yield represents projected returns from fee income, displayed as an annualized rate with compounding. The platform presents APY derived from trailing APR data:
 
-\<td data-local-id=3D"78bade2a-f2f1-48c3-833c-2214c1894ba3" class=3D"conflue=
+**Fee APR** isolates annualized returns from trading activity fees only (open, close, borrow, liquidation), excluding price impact, PnL, and funding. This metric provides a conservative baseline yield expectation independent of market direction.
 
-nceTd"\>
+**Total APY** incorporates all yield sources including trader PnL over the measurement period. This metric is more volatile due to PnL variance but reflects comprehensive returns.
 
-\<p local-id=3D"977b3eb3-7b52-474c-a222-78375eb24627"\>WTI: Sunday 6:00 PM ET=
+APYtotal=(1+APRDay365)365−1APY\_{total} = \left( 1 + \frac{APR\_{Day}}{365} \right)^{365} - 1APYtotal​=(1+365APRDay​​)365−1
 
-=E2=80=93 Friday 5:00 PM ET\</p\>\</td\>
+### **Fee Distribution**
 
-\<td data-local-id=3D"b9b97075-0755-4d0f-90af-c0aa24529624" class=3D"conflue=
+**Liquidity Providers** LPs receive 60% of all protocol revenues. This compensates them for supplying liquidity and bearing counterparty risk against traders.
 
-nceTd"\>
+**Protocol Treasury** The remaining 40% of revenues accrue to the protocol treasury. These funds are reinvested into protocol growth and resilience — including protocol-owned liquidity, gas subsidies, trading competitions, trader rebates, insurance backstops for LPs, and incentive campaigns. The overarching objective is to ensure that treasury revenues ultimately flow back to benefit LPs and traders directly or indirectly.
 
-\<p local-id=3D"577ba582-b2e4-4603-aa13-ac4d6e2fa51e"\>Includes a daily maint=
+Change hint type
 
-enance pause from 5:00=E2=80=936:00 PM ET; CME holidays apply\</p\>\</td\>
+**Note that**: APY is variable and not guaranteed.
 
-\</tr\>
+## Risk Management
 
-\<tr data-local-id=3D"72a89212-4a73-437c-b44c-c79a53606985"\>
+### Risk Considerations
 
-\<td data-local-id=3D"55663c14-db16-4b27-a705-7ae7392afec2" class=3D"conflue=
+#### Counterparty Exposure
 
-nceTd"\>
+As the counterparty to all trades, LPs bear inverse correlation to trader performance. Extended periods of trader profitability decrease pool value, while trader losses increase it. Over long horizons, this exposure tends toward neutrality as winners and losers offset, but short-to-medium term variance can be significant.
 
-\<p local-id=3D"551e951d-f48b-4043-942a-0c6c30c94a0a"\>\<strong\>U.S. Indices (=
+Highly skilled or algorithmic traders may generate consistent profits, creating persistent headwinds for pool performance. The PnL factor caps provide some protection, but LPs should expect periods of negative returns from trader PnL.
 
-SPY, QQQ)\</strong\>\</p\>\</td\>
+#### Liquidity Constraints
 
-\<td data-local-id=3D"9a330454-9512-4e04-917c-851337ac7859" class=3D"conflue=
+During extreme market conditions, withdrawal capacity may become limited. While deposits and withdrawals typically settle instantly, temporary restrictions can prevent exits when trader unrealized profits are elevated or pool utilization is high.
 
-nceTd"\>
+Plan for potential illiquidity during stress periods. Maintain a diversified portfolio beyond LP positions to avoid forced exits during restricted periods. Review historical withdrawal cap patterns to assess typical liquidity availability.
 
-\<p local-id=3D"6d78a008-487b-46a2-973a-8b78d04e292a"\>Weekdays, 9:30 AM =E2=
+### Best Practices
 
-=80=93 4:00 PM ET\</p\>\</td\>
+#### Market Selection
 
-\<td data-local-id=3D"c8d1be61-099e-4cee-b10e-650dfdfae899" class=3D"conflue=
+Choose markets aligned with your risk tolerance and market outlook. High-volatility assets (meme tokens, altcoins) generate higher trading fees but expose LPs to greater PnL variance. Stable markets (major forex pairs, established cryptocurrencies) offer more consistent fee income with lower directional risk.
 
-nceTd"\>
+Review historical APY charts and trader PnL patterns before depositing. Pools with stable, positive fee APR and balanced win/loss ratios indicate healthy market dynamics. Extreme APY spikes often correlate with temporary PnL windfalls that may reverse.
 
-\<p local-id=3D"26ca1eb9-1263-403a-8020-383bf74966ea"\>Closed on weekends and=
+#### Capacity Monitoring
 
-NYSE holidays\</p\>\</td\>
+Check remaining deposit and withdrawal caps before committing capital. Deposits into pools near maximum AUM may have limited exit liquidity if trader activity increases utilization. Similarly, pools with restricted withdrawal capacity signal elevated trader PnL or reserve requirements.
 
-\</tr\>
+Monitor utilization rates and open interest distribution. High utilization (\>70%) increases borrow fees paid to LPs but also constrains withdrawal availability. Balanced long-short OI reduces directional exposure risk.
 
-\<tr data-local-id=3D"9c87f55f-12db-4daf-9a2b-97c1b9a9396c"\>
+#### Timing Considerations
 
-\<td data-local-id=3D"888a4f55-f9b3-433c-ac16-9f6d69e0f94d" class=3D"conflue=
+Deposit during periods of low trader PnL. Entering when traders hold large unrealized profits means buying HzLP at inflated prices that may decline when profits realize. Conversely, depositing after trader losses or during low volatility periods may capture better entry prices.
 
-nceTd"\>
+Avoid large deposits or withdrawals immediately before or after major market events (economic data releases, protocol updates) that may cause temporary volatility spikes affecting HzLP pricing.
 
-\<p local-id=3D"946c222e-f00a-49d3-9c35-436e68228c68"\>\<strong\>U.S. Equities\<=
+#### Diversification
 
-/strong\>\</p\>\</td\>
+Even within isolated pools, consider diversifying across multiple markets to spread risk. Concentrate positions in markets with:
 
-\<td data-local-id=3D"0a82d753-3f51-4c51-90a5-bcaba509a483" class=3D"conflue=
+- Established trading volume and liquidity depth
 
-nceTd"\>
+- Stable historical fee generation
 
-\<p local-id=3D"fea289d5-45a7-42f9-a322-b71ed05bde98"\>Weekdays, 9:30 AM =E2=
+- Moderate utilization rates
 
-=80=93 4:00 PM ET\</p\>\</td\>
+- Balanced long-short open interest
 
-\<td data-local-id=3D"4d207ae0-1df6-4d9a-a6a0-caed9e4d13b9" class=3D"conflue=
+Avoid over-concentrating in correlated markets (e.g., multiple altcoin pools) where directional moves affect all positions simultaneously.
 
-nceTd"\>
+------------------------------------------------------------------------
 
-\<p local-id=3D"b4380a43-cac1-4f10-ab1c-125ed8e64e42"\>Closed on weekends and=
+**Risk Warning**: Providing liquidity involves substantial risk including potential loss of capital from trader profits. Past performance of pool APY does not guarantee future results. Liquidity may become restricted during periods of high trader PnL or pool utilization. Only provide liquidity with capital you can afford to lose.
 
-NYSE holidays\</p\>\</td\>
+# Tutorials
 
-\</tr\>
+## Get Started
 
-\</tbody\>
+1
 
-\</table\>
+Insert a new step
 
-\</div\>
+**What you need**
 
-\<h2 local-id=3D"c8a869df-7a6b-453a-844d-e9115767ae24" id=3D"ProductDocs-Ord=
+<span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img src="56b6a17a397f80bf3d3e38be3816e880fad693973613860ca13d8fb977628c45" class="confluence-embedded-image image-center" loading="lazy" data-image-src="https://hertzflow.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252FgFoHxdZA8qEbd2g09fMX%25252FScreenshot%2525202026-01-21%252520at%25252018.55.29.png%253Falt%253Dmedia%2526token%253D8bf59e9d-c881-4642-9d4a-c39e548a?version=1&amp;modificationDate=1768998541101&amp;cacheVersion=1&amp;api=v2" data-height="794" data-width="662" data-unresolved-comment-count="0" data-linked-resource-id="74874909" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252FgFoHxdZA8qEbd2g09fMX%252FScreenshot%25202026-01-21%2520at%252018.55.29.png%3Falt%3Dmedia%26token%3D8bf59e9d-c881-4642-9d4a-c39e548a" data-base-url="https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="74743814" data-linked-resource-container-version="1" data-media-id="71bf30e9-c6d4-470d-9b11-dbf1702f2280" data-media-type="file" width="250" height="300" /></span>
 
-erTypes"\>Order Types\</h2\>
+Image options
 
-\<p local-id=3D"cbcc33d9-faee-43db-8158-326ef32a0455"\>Orders are categorized=
+- **Wallet Requirements:**
 
-into three primary execution modes: Market Orders, Limit Orders, and Trigg=
+  - A supported BNB Chain wallet (Binance Wallet, MetaMask, or any WalletConnect-compatible wallet)
 
-er Orders, excluding liquidations.\</p\>
+  - BNB for gas fees (recommend ≥ 0.01 BNB buffer at all times)
 
-\<p local-id=3D"453028cf-524b-4394-a3ea-46d07ed15e43"\>To pick up a draggable=
+- **Trading Assets:** USDC on BNB Chain for collateral. Bridge or on-ramp assets from other chains if needed
 
-item, press the space bar. While dragging, use the arrow keys to move the =
+- **System Requirements:**
 
-item. Press space again to drop the item in its new position, or press esca=
+  - Modern browser (Chrome, Brave, Edge, or Safari)
 
-pe to cancel.\</p\>
+  - Wallet browser extension or mobile in-app browser
 
-\<p local-id=3D"e266960b-6efc-4d10-8471-7acb83115ffd"\>To pick up a draggable=
+2
 
-item, press the space bar. While dragging, use the arrow keys to move the =
+Insert a new step
 
-item. Press space again to drop the item in its new position, or press esca=
+**Access & connect**
 
-pe to cancel.\</p\>
+<span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img src="239f45079b5a24c1fc51045dccae3d095211f4b56d10780816f8c78e121fe049" class="confluence-embedded-image image-center" loading="lazy" data-image-src="https://hertzflow.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252FaGsXbWXu5Cl2UJmQgqa7%25252FScreenshot%2525202026-01-21%252520at%25252018.57.52.png%253Falt%253Dmedia%2526token%253De590f541-9e98-4dad-a1f2-8ab0c084?version=1&amp;modificationDate=1768998541119&amp;cacheVersion=1&amp;api=v2" data-height="72" data-width="2336" data-unresolved-comment-count="0" data-linked-resource-id="74874915" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252FaGsXbWXu5Cl2UJmQgqa7%252FScreenshot%25202026-01-21%2520at%252018.57.52.png%3Falt%3Dmedia%26token%3De590f541-9e98-4dad-a1f2-8ab0c084" data-base-url="https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="74743814" data-linked-resource-container-version="1" data-media-id="6dd8bcb3-6fbd-478a-b3d4-27479ca98be3" data-media-type="file" width="250" height="7" /></span>
 
-\<div class=3D"table-wrap"\>
+Image options
 
-\<table data-layout=3D"default" data-local-id=3D"ac181ca7-3d34-4dd5-ae06-982=
+- **Open HertzFlow dapp** and click **Connect** (top right).
 
-99f51775a" class=3D"confluenceTable"\>
+- **Select network:** For testing, you will be connected to **BNB** **Testnet** by default.
 
-\<tbody\>
+- **Claim Faucets:** For testing, you can claim faucets on the top right corner by clicking the Claim Faucet button.
 
-\<tr data-local-id=3D"9dcbd2fe-1ae8-43d1-982b-fcbbfc662872"\>
+*Your wallet connection persists across sessions. HertzFlow never requests your private keys or seed phrase.*
 
-\<td data-local-id=3D"6cdbb8de-bd5c-4c44-95eb-701229cdd6b7" class=3D"conflue=
+3
 
-nceTd"\>
+Insert a new step
 
-\<p local-id=3D"2abf494e-8c8f-4494-b423-8943dc086c41"\>\<strong\>Market\</strong=
+**Funding your account**
 
-\>\</p\>
+- **If you already hold USDC on BNB Chain:** You're ready to trade or provide liquidity. Ensure you maintain sufficient BNB for gas fees (≥ 0.01 BNB recommended).
 
-\<p local-id=3D"fe69b31c-d5d2-415f-b327-517d9556e604"\>\<strong\>Open / Close\</=
+- **If transferring from another chain or CEX:**
 
-strong\>\</p\>\</td\>
+  - **Bridge assets**: Use your preferred bridge service to transfer USDC to BNB Chain
 
-\<td data-local-id=3D"b615170e-028e-4b96-83a7-1bed7ab7fe54" class=3D"conflue=
+  - **Withdraw from CEX**: When withdrawing, select BNB Chain (BSC) as the network
 
-nceTd"\>
+  - **Verify network**: Ensure you're sending to BNB Chain, not Ethereum or other networks
 
-\<p local-id=3D"69d05f62-accf-4f78-9366-f5fdc789d3bd"\>Mark Price (immediate)=
+  - **Check contract addresses**: USDC contract addresses differ across chains—verify you're receiving the correct BNB Chain USDC
 
-\</p\>\</td\>
+*Cross-chain transfers require time and may involve swap fees. Always verify token symbols and destination networks before sending.*
 
-\<td data-local-id=3D"d36ce52e-46f3-4332-a787-8af07228f972" class=3D"conflue=
+## Trading
 
-nceTd"\>
+1
 
-\<p local-id=3D"810a1d17-c388-4c9e-8890-1d4778d1217c"\>Entering / Exiting a t=
+Insert a new step
 
-rade quickly when execution speed is more important than exact price.\</p\>\</=
+## **Select a market**
 
-td\>
+<span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img src="48f8fa0a265eadb4c7aa5f98c3e945ab494bb9cceac6c52e5075328034908eb3" class="confluence-embedded-image image-center" loading="lazy" data-image-src="https://hertzflow.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252FxH8VRzMbtrVkK9K3qS4x%25252FScreenshot%2525202026-01-21%252520at%25252019.08.22.png%253Falt%253Dmedia%2526token%253D5e6be949-8438-4d32-bb8e-c3f2b57c?version=1&amp;modificationDate=1768998424229&amp;cacheVersion=1&amp;api=v2" data-height="826" data-width="1870" data-unresolved-comment-count="0" data-linked-resource-id="74580022" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252FxH8VRzMbtrVkK9K3qS4x%252FScreenshot%25202026-01-21%2520at%252019.08.22.png%3Falt%3Dmedia%26token%3D5e6be949-8438-4d32-bb8e-c3f2b57c" data-base-url="https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="74743814" data-linked-resource-container-version="1" data-media-id="25d477e5-56cf-4f11-b7b7-c7f7e836709d" data-media-type="file" width="250" height="110" /></span>
 
-\</tr\>
+Image options
 
-\<tr data-local-id=3D"f9dc3504-a28c-466c-ba4b-0a1e58c97bd4"\>
+- Click the **Market dropdown** in the top navigation. Browse available markets or use the search function. Filter by asset class: Crypto, Forex, Equities, Indices, Commodities, or Meme. Click on a market to view its market info.
 
-\<td data-local-id=3D"c42b524e-c3fb-44cd-82c2-a7dae411ae43" class=3D"conflue=
+### **Market Information:**
 
-nceTd"\>
+- **Mark Price**: Current oracle price with 24-hour change percentage
 
-\<p local-id=3D"fe3244a6-720b-409d-adac-206fcf17e428"\>\<strong\>Limit\</strong\>=
+- **24h High/Low**: Last traded price range over the last 24 hours
 
-\</p\>
+- **Available Liquidity (L/S)**: Remaining capacity for long and short positions
 
-\<p local-id=3D"c5e0f713-b90e-4554-864e-0b9881eae47a"\>\<strong\>Open\</strong\>\<=
+- **Open Interest (L/S)**: Total notional value of active positions per side
 
-/p\>\</td\>
+- **1h Net Rate (L/S)**: Combined funding and borrow rate per hour
 
-\<td data-local-id=3D"3c4d6fe9-a2a3-4dd3-be8c-77b7799eaeb4" class=3D"conflue=
+*Markets with a red dot label indicates **Market** **Closed**, and are temporarily unavailable during off-market hours (applies to certain real world assets).*
 
-nceTd"\>
+2
 
-\<p local-id=3D"877add46-b252-4fde-913a-8fdcdc9985ff"\>Execution price reache=
+Insert a new step
 
-s trader=E2=80=99s set limit price\</p\>\</td\>
+## **Fill in order form**
 
-\<td data-local-id=3D"33f69d92-a877-489a-b17d-d4e190740d2e" class=3D"conflue=
+<span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img src="3181013df4311bd889931e750994ac36b62ae54c60d9faef3905d1e0925719c4" class="confluence-embedded-image image-center" loading="lazy" data-image-src="https://hertzflow.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252F8HDX2RNUJvI7mIGLKrhp%25252FScreenshot%2525202026-01-21%252520at%25252019.16.12.png%253Falt%253Dmedia%2526token%253Def104dbe-dc5b-4fbc-9c51-20b8a11f?version=1&amp;modificationDate=1768998424248&amp;cacheVersion=1&amp;api=v2" data-height="1040" data-width="754" data-unresolved-comment-count="0" data-linked-resource-id="74580029" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252F8HDX2RNUJvI7mIGLKrhp%252FScreenshot%25202026-01-21%2520at%252019.16.12.png%3Falt%3Dmedia%26token%3Def104dbe-dc5b-4fbc-9c51-20b8a11f" data-base-url="https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="74743814" data-linked-resource-container-version="1" data-media-id="3b6da6a3-0d29-4b4c-8651-73ca6ca2bb3f" data-media-type="file" width="250" height="345" /></span>
 
-nceTd"\>
+Image options
 
-\<p local-id=3D"4abd5fd3-98e3-499a-965d-2cfeb0e75c5f"\>Opening at a specific =
+- **Side**: **Long** (expect price to rise) or **Short** (expect price to fall).
 
-target price without compromising on value.\</p\>\</td\>
+- **Order type**:
 
-\</tr\>
+  - **Market**: Execute now at best available price.
 
-\<tr data-local-id=3D"cc872db9-d382-493e-83e0-b61280a5ad4f"\>
+  - **Limit**: Execute at your price or better.
 
-\<td data-local-id=3D"ff0b3c34-e8c7-4853-ad48-2778bbb396ea" class=3D"conflue=
+  - **Take Profit and Stop Loss:** Enter either your desired exit price, or your target PnL%. Entry are limited such that **PnL% is capped between** **-80% and +2500%**.
 
-nceTd"\>
+  - **Collateral, Leverage, and Size：**
 
-\<p local-id=3D"5d963993-36c8-4197-b811-828851ddda08"\>\<strong\>Trigger\</stron=
+    - **Collateral:** Minimum 10 USDC
 
-g\>\</p\>
+    - **Leverage:** 1.1x to 1000x
 
-\<p local-id=3D"c632d484-d9ff-49a0-8da9-ed80c1a72c74"\>\<strong\>Close\</strong\>=
+    - **Size:** Collateral × Leverage
 
-\</p\>\</td\>
+*Your market position opens immediately. Your limit and TP/SL orders remain active in the **Orders** tab until filled or cancelled. Edit trigger prices or cancel orders anytime from the Orders interface. Monitor execution status via the toast notification.*
 
-\<td data-local-id=3D"c660e500-5a40-4c03-8fe7-4c485ef99428" class=3D"conflue=
+### **Review Order Details**
 
-nceTd"\>
+- **Entry Price**: Live mark price for market orders, can be set for limit orders
 
-\<p local-id=3D"086ff15f-1e0e-46cd-b581-96d2639295cf"\>Execution price reache=
+- **Est. Liq. Price:** The estimated market price at which your position will be forcibly closed by the protocol to prevent your collateral from falling below the maintenance margin requirement.
 
-s trader=E2=80=99s set trigger price (immediate)\</p\>\</td\>
+- **Fee Breakdown (hover for details):**
 
-\<td data-local-id=3D"d0dc65ba-b4c5-452f-8145-3b8cd75b5fa6" class=3D"conflue=
+  - **Open Fee**: Charged on position notional value
 
-nceTd"\>
+  - **Borrow Fee**: Accrues hourly based on position size
 
-\<p local-id=3D"56501084-96b7-43e6-97c0-fbfcc572cbe7"\>Stop-loss or take-prof=
+  - **Funding Fee**: Paid/received based on market imbalance
 
-it strategies when you prioritize execution certainty.\</p\>\</td\>
+  - **Price Impact**: Zero at entry, settles at position closure
 
-\</tr\>
+- **Slippage Tolerance**: Accepted price difference between execution price and entry price
 
-\<tr data-local-id=3D"052bfbc8-748b-4317-8fc8-fdb8d62686d5"\>
+*Higher slippage tolerance increases execution probability during volatility but allows larger price deviations.*
 
-\<td data-local-id=3D"b380dbaf-467b-409b-9b21-45d34016fb1b" class=3D"conflue=
+3
 
-nceTd"\>
+Insert a new step
 
-\<p local-id=3D"ab8083a3-a437-40c7-8c6c-2b32453afcf1"\>\<strong\>Liquidation\</s=
+## **Track order status**
 
-trong\>\</p\>\</td\>
+<span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img src="6e49b6137fab1a60726bc033e6f76082c9afa83087588029e9a767473781bea8" class="confluence-embedded-image image-center" loading="lazy" data-image-src="https://hertzflow.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252FHcfGksQ3O45euDhEBy2X%25252FScreenshot%2525202026-01-21%252520at%25252019.43.51.png%253Falt%253Dmedia%2526token%253D161cbaf8-1b1a-4977-8dbc-fd0e6ff5?version=1&amp;modificationDate=1768998424280&amp;cacheVersion=1&amp;api=v2" data-height="410" data-width="2336" data-unresolved-comment-count="0" data-linked-resource-id="74580035" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252FHcfGksQ3O45euDhEBy2X%252FScreenshot%25202026-01-21%2520at%252019.43.51.png%3Falt%3Dmedia%26token%3D161cbaf8-1b1a-4977-8dbc-fd0e6ff5" data-base-url="https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="74743814" data-linked-resource-container-version="1" data-media-id="49d4c15d-bce8-490a-90f8-0fe5bf87783a" data-media-type="file" width="250" height="43" /></span>
 
-\<td data-local-id=3D"67a8437d-33b8-43b3-87a1-f319218660bd" class=3D"conflue=
+Image options
 
-nceTd"\>
+- **Positions:** View market position details, edit collaterals, close or share current position details
 
-\<p local-id=3D"ddca95d4-dc77-4e49-b8a9-f9cd9eb3f7b8"\>Mark price hits liquid=
+<span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img src="31c9ff209b20bed2d1d8b25e4cf93460c80623137a99ab88cee5149e455c34cb" class="confluence-embedded-image image-center" loading="lazy" data-image-src="https://hertzflow.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252F8UGCVfNiGptmcnERSNTi%25252FScreenshot%2525202026-01-21%252520at%25252019.45.25.png%253Falt%253Dmedia%2526token%253D49f3b4e7-27e4-428f-a710-35fef681?version=1&amp;modificationDate=1768998424294&amp;cacheVersion=1&amp;api=v2" data-height="427" data-width="2336" data-unresolved-comment-count="0" data-linked-resource-id="74580041" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252F8UGCVfNiGptmcnERSNTi%252FScreenshot%25202026-01-21%2520at%252019.45.25.png%3Falt%3Dmedia%26token%3D49f3b4e7-27e4-428f-a710-35fef681" data-base-url="https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="74743814" data-linked-resource-container-version="1" data-media-id="0db47759-a085-4a82-8fcd-6fb28598c8a5" data-media-type="file" width="250" height="45" /></span>
 
-ation threshold\</p\>\</td\>
+Image options
 
-\<td data-local-id=3D"3febace8-6c5d-4f43-a811-321d948c1545" class=3D"conflue=
+- **Orders:** Any open orders that have not yet been executed. You can also adjust limit/trigger price or cancel (all) orders in this tab.
 
-nceTd"\>
+<span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img src="efcee6cc32baba8731393ed0bad6e7e53ac486682c72c15f050e754162ae8cf9" class="confluence-embedded-image image-center" loading="lazy" data-image-src="https://hertzflow.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252F7RKBsYYklYR9yXzACSAl%25252FScreenshot%2525202026-01-21%252520at%25252019.44.28.png%253Falt%253Dmedia%2526token%253D0198502d-7269-4a6c-9727-c9fce33b?version=1&amp;modificationDate=1768998424308&amp;cacheVersion=1&amp;api=v2" data-height="485" data-width="2336" data-unresolved-comment-count="0" data-linked-resource-id="74580047" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252F7RKBsYYklYR9yXzACSAl%252FScreenshot%25202026-01-21%2520at%252019.44.28.png%3Falt%3Dmedia%26token%3D0198502d-7269-4a6c-9727-c9fce33b" data-base-url="https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="74743814" data-linked-resource-container-version="1" data-media-id="e8f1db1c-071b-4551-a3e4-6c06f2b951e5" data-media-type="file" width="250" height="51" /></span>
 
-\<p local-id=3D"01a24116-7f0b-4773-b07e-ce87de8cefe6"\>Platform safeguard to =
+Image options
 
-prevent further losses and maintain solvency.\</p\>\</td\>
+- **History:** Archive of all trades that have been fully executed.
 
-\</tr\>
+<span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img src="1390b103d6d8ebf80edbae4f60fa72099d5925d5e5aacd1195b75b121dd5bacb" class="confluence-embedded-image image-center" loading="lazy" data-image-src="https://hertzflow.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252FXcIB5iAFo0QeZtO0Rq12%25252FScreenshot%2525202026-01-21%252520at%25252019.44.38.png%253Falt%253Dmedia%2526token%253Db3b786aa-e44f-4e30-8167-a9a94a34?version=1&amp;modificationDate=1768998424322&amp;cacheVersion=1&amp;api=v2" data-height="326" data-width="2336" data-unresolved-comment-count="0" data-linked-resource-id="74580053" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252FXcIB5iAFo0QeZtO0Rq12%252FScreenshot%25202026-01-21%2520at%252019.44.38.png%3Falt%3Dmedia%26token%3Db3b786aa-e44f-4e30-8167-a9a94a34" data-base-url="https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="74743814" data-linked-resource-container-version="1" data-media-id="3856a88e-012a-4850-b6e7-6288a4f70c05" data-media-type="file" width="250" height="34" /></span>
 
-\</tbody\>
+Image options
 
-\</table\>
+- **Claim:** Funding fees and price impact rebates accumulate during trading and become claimable after position closure. Click **Claim All** to claim all fees at once, or click individual **Claim** buttons for specific fee types
 
-\</div\>
+4
 
-\<p local-id=3D"4e5a61cb-3885-41e8-92c5-9f98ea69a164"\>Change hint type\</p\>
+Insert a new step
 
-\<p local-id=3D"d127f460-55fd-44d4-8bcf-a271a3414bdd"\>\<strong\>Note that:\</st=
+## **Manage Positions**
 
-rong\> \<em\>Trigger orders\</em\> differ from \<em\>limit orders\</em\>:\</p\>
+### **Edit Collateral**
 
-\<ul local-id=3D"34a24c35-dbcb-463e-b6aa-9ae3487146cd"\>
+<span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img src="57efd304cb82fe8f086efd8df98d27cdd7b8f16992e6220a2d379283c531a831" class="confluence-embedded-image image-center" loading="lazy" data-image-src="https://hertzflow.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252F430UfGc2Xpd3n5HBW64x%25252FScreenshot%2525202026-01-21%252520at%25252019.57.43.png%253Falt%253Dmedia%2526token%253D7cefa2f3-fcbc-4f6d-b37a-d564d9d2?version=1&amp;modificationDate=1768998424336&amp;cacheVersion=1&amp;api=v2" data-height="1016" data-width="910" data-unresolved-comment-count="0" data-linked-resource-id="74580059" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252F430UfGc2Xpd3n5HBW64x%252FScreenshot%25202026-01-21%2520at%252019.57.43.png%3Falt%3Dmedia%26token%3D7cefa2f3-fcbc-4f6d-b37a-d564d9d2" data-base-url="https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="74743814" data-linked-resource-container-version="1" data-media-id="7bbf83e9-fc18-44e3-b6a6-a862f784d5e0" data-media-type="file" width="250" height="279" /></span>
 
-\<li local-id=3D"247b6d06-14e7-4a9e-8fcc-0ee9497dba9e"\>
+Image options
 
-\<p local-id=3D"da5ff0fe-bfc2-487b-bc7f-3a460ac445d0"\>\<strong\>Limit\</strong\>=
+- **Adjust Collateral:** Add or remove collateral without changing size
 
-: Stays active in the order book from placement. Executes only at your set =
+- **Collateral Edit Limit:** Collaterals are bounded such that
 
-price or better. Great for price discipline, but may never fill in fast mar=
+  - **Deposit:** 10 USDC ≤ Deposit \< The collateral size that reduces leverage below **Min Leverage 1.1x**
 
-kets.\</p\>\</li\>
+  - **Withdraw:** Residual remains above 10 USDC, and Withdrawal \< The collateral size that pushes leverage above **Max Leverage 100x**
 
-\<li local-id=3D"c9e4cb44-4027-4c2a-9a52-abde5b33b5b4"\>
+*Adding collateral improves liquidation price and expands TP/SL price boundaries. Vice versa for remocing collateral.*
 
-\<p local-id=3D"ffc72d99-1ad4-4c8d-b6f5-079c52bd7ecb"\>\<strong\>Trigger\</stron=
+### **Position Increase**
 
-g\>: Inactive until your trigger price is hit, then becomes a market order. =
+- Open an additional order in the same direction on the same market. The system merges positions, recalculating entry price as a weighted average and adjusting leverage based on new total collateral.
 
-Prioritizes execution over exact price, so slippage is possible.\</p\>\</li\>
+### **Position Decrease**
 
-\</ul\>
+Click Close on the position row. Choose Market or Trigger Price close.
 
-\<h3 local-id=3D"3628ac61-8196-404a-a1a4-bfa05fb54c5b" id=3D"ProductDocs-Pri=
+Market Close: Partial or full exposure reduction. Fees apply only to the closed notional; funding/borrow accrual adjusts pro-rata.
 
-ceImpactMechanism"\>Price Impact Mechanism\</h3\>
+Trigger Close (TP/SL): Partial or full exposure reduction only when market price reaches or betters set TP/SL price. Price is bounded by PnL% cap.
 
-\<p local-id=3D"bdd341eb-ffe7-4682-bf9f-9899d2927576"\>Price impact reflects =
+Liquidation: If triggered by keepers, a liquidation fee is applied and remaining collateral settles per protocol rules.
 
-the cost of pool imbalance when trades skew the long-short ratio. Unlike tr=
+Keep Leverage:
 
-aditional systems that charge impact fees at entry, HertzFlow applies a def=
+Off (default): Reduces size while maintaining collateral (deleverages)
 
-erred impact model. When opening positions, the entry price equals the orac=
+On: Reduces size and collateral proportionally (maintains leverage)
 
-le mark price with no immediate impact charge. Throughout the position life=
+Edit Orders
 
-cycle, price impact accrues as open interest imbalance fluctuates, but fees=
+Click the edit icon next to the order to modify limit order or TP/SL trigger prices without cancelling.
 
-are not assessed until closing.\</p\>
+Limit / Trigger Price Edit Limit:
 
-\<p local-id=3D"99fd5ea8-1f81-41db-84d5-f3277ed394d2"\>At position closure, t=
+Limit orders: favorable to current mark price
 
-he net price impact from entry to exit settles as part of the final positio=
+TP orders: within +2500% PnL cap
 
-n accounting. This approach allows traders to benefit from favorable market=
+SL orders: within -80% PnL cap
 
-movements that reduce imbalance. Price impact is capped at \<strong\>50 basi=
+Cancelling Orders: Remove unwanted pending orders in the Orders tab. Click the cancel icon on the order row, or click Cancel All to remove all active orders.
 
-s points (0.5%)\</strong\> with excess amounts converting to rebates for trad=
+Cancelled limit orders return reserved collateral. Cancelled TP/SL orders simply remove triggers without affecting positions.
 
-ers. Positions that close into reduced imbalance receive positive price imp=
+## Liquidity
 
-act as a rebate, incentivizing liquidity balancing.\</p\>
+1
 
-\<h3 local-id=3D"a5e34b5a-bfaf-4fa0-967f-e10c301950b1" id=3D"ProductDocs-Gua=
+Insert a new step
 
-ranteedTakeProfitandStopLoss"\>Guaranteed Take Profit and Stop Loss\</h3\>
+## Selecting a Pool/Vault
 
-\<p local-id=3D"a0741410-b8d2-4290-bf0e-7444415e61ba"\>HertzFlow implements g=
+<span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img src="89ca7a94791c63eb5b2d163df7a558016fe7fa079baf0b85a9ab21dbd497a644" class="confluence-embedded-image image-center" loading="lazy" data-image-src="https://hertzflow.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252FmP0XggqMdZbAsc2AuyOh%25252FScreenshot%2525202026-01-21%252520at%25252020.30.45.png%253Falt%253Dmedia%2526token%253D78a57f22-57f9-4233-9054-e2930e47?version=1&amp;modificationDate=1768999480971&amp;cacheVersion=1&amp;api=v2" data-height="787" data-width="2336" data-unresolved-comment-count="0" data-linked-resource-id="74874925" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252FmP0XggqMdZbAsc2AuyOh%252FScreenshot%25202026-01-21%2520at%252020.30.45.png%3Falt%3Dmedia%26token%3D78a57f22-57f9-4233-9054-e2930e47" data-base-url="https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="74743814" data-linked-resource-container-version="1" data-media-id="27e34b95-b55b-47e7-a4e3-e7c820f71fd1" data-media-type="file" width="250" height="84" /></span>
 
-uaranteed execution for take profit and stop loss orders across all leverag=
+Image options
 
-e tiers. Given the platform's reliance on oracle pricing for execution, a t=
+- Browse the pool/vault list or use search to find specific markets
 
-rader's TP or SL request is always filled at the requested price, regardles=
+- Filter by asset class: Crypto, Forex, Equities, Indices, Commodities, or Meme
 
-s of how far market price moves beyond the trigger level.\</p\>
+- Toggle **In Wallet** to show only pools where you hold HzLP tokens
 
-\<p local-id=3D"d33eb3d3-0539-4637-9a96-9dbff053e9a3"\>For example, if oracle=
+- Click on a pool row to view its detail page
 
-prices gap below a trader's requested stop loss for a long position due to=
+2
 
-extreme volatility, HertzFlow closes the position at the requested SL pric=
+Insert a new step
 
-e rather than the worse market price. This guarantee applies to all stop lo=
+## Liquidity Operations
 
-ss orders set within valid boundaries, ensuring traders have sophisticated =
+<span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img src="eb98910f6a511c9585e26c9b36c5c8f5f82896f10816f42a9a8ee74f40afe88b" class="confluence-embedded-image image-center" loading="lazy" data-image-src="https://hertzflow.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252FlBWyNpftQIpYqeipJ0S9%25252FScreenshot%2525202026-01-21%252520at%25252020.35.15.png%253Falt%253Dmedia%2526token%253D800050f4-a27b-413d-afd2-a932f743?version=1&amp;modificationDate=1768999480989&amp;cacheVersion=1&amp;api=v2" data-height="1122" data-width="768" data-unresolved-comment-count="0" data-linked-resource-id="74874931" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252FlBWyNpftQIpYqeipJ0S9%252FScreenshot%25202026-01-21%2520at%252020.35.15.png%3Falt%3Dmedia%26token%3D800050f4-a27b-413d-afd2-a932f743" data-base-url="https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="74743814" data-linked-resource-container-version="1" data-media-id="7214dd76-254a-498c-97ee-438c63dd6df0" data-media-type="file" width="250" height="365" /></span>
 
-risk management tools even during high market volatility or when trading wi=
+Image options
 
-th extreme leverage.\</p\>
+### Depositing Liquidity
 
-\<h4 local-id=3D"123ece3b-2ad9-4fa2-b17c-0ec8eb6bb78a" id=3D"ProductDocs-Tak=
+- Navigate to the desired market pool and select the Deposit tab. Enter your USDC amount, with the interface displaying:
 
-eProfitOrders"\>Take Profit Orders\</h4\>
+  - **HzLP Amount**: Calculated as `Input USDC / HzLP Price`, showing tokens you will receive
 
-\<p local-id=3D"4e3dff78-6064-4763-a98c-f92516fab2e5"\>Take profit orders aut=
+  - **HzLP Price**: Current price per token in USDC
 
-omatically close positions when price reaches a favorable level, securing g=
+  - **Remaining Deposit Cap**: Available capacity before hitting maximum AUM
 
-ains without requiring active monitoring. Long positions set TP trigger pri=
+  - **Approval Status**: Whether USDC spending is approved for the contract
 
-ces above current mark price and entry price, while short positions set TP =
+- **Deposit Limit:**
 
-triggers below these benchmarks. The platform accepts two input methods: tr=
+  - Deposit value must not exceed remaining pool capacity (Max AUM - Current AUM)
 
-aders can specify exact trigger prices or target profit percentages, with t=
+  - Post-deposit PnL factor must remain compliant with configured threshold
 
-he system automatically calculating the corresponding values.\</p\>
+### Withdrawing Liquidity
 
-\<p local-id=3D"d54cdf6a-9f75-4346-a8e1-3b95de6f389c"\>TP prices are capped a=
+- Access the Withdraw tab and specify your HzLP token amount. The interface calculates:
 
-t +2500% PnL to protect liquidity provider solvency. This boundary ensures =
+  - **USDC Amount**: Calculated as `Input HzLP × HzLP Price`, showing USDC you will receive
 
-the system can honor guaranteed execution while maintaining sustainable ris=
+  - **Remaining Withdrawal Cap**: Available liquidity considering PnL and reserve constraints
 
-k parameters. When market price reaches the trigger level, a market order e=
+  - **Current HzLP Price**: Token value in USDC at withdrawal
 
-xecutes immediately to close the position at the specified price, with no s=
+- **Withdrawal Limit:**
 
-lippage tolerance required due to the guaranteed execution mechanism.\</p\>
+  - Withdrawal value must not violate PnL factor constraint
 
-\<h4 local-id=3D"81e09436-fee5-4234-b3d7-ea628b493875" id=3D"ProductDocs-Sto=
+  - Post-withdrawal pool must maintain minimum liquidity thresholds
 
-pLossOrders"\>Stop Loss Orders\</h4\>
+3
 
-\<p local-id=3D"f7a3c9fd-50fc-404b-baa2-6b35f38af983"\>Stop loss orders prote=
+Insert a new step
 
-ct capital by automatically closing positions when price moves adversely. L=
+## Monitor Positions
 
-ong positions place SL triggers below current mark price and entry price, w=
+<span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img src="8306261616bbb0ab8950ea011846d9709e1efcc7dafcd81c9b545621943e9822" class="confluence-embedded-image image-center" loading="lazy" data-image-src="https://hertzflow.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252FVt7dc3SITbULkIX3Ehmi%25252FScreenshot%2525202026-01-21%252520at%25252020.34.26.png%253Falt%253Dmedia%2526token%253D92c52511-9724-476d-99a8-f8d769c8?version=1&amp;modificationDate=1768999481003&amp;cacheVersion=1&amp;api=v2" data-height="1005" data-width="2336" data-unresolved-comment-count="0" data-linked-resource-id="74874937" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252FVt7dc3SITbULkIX3Ehmi%252FScreenshot%25202026-01-21%2520at%252020.34.26.png%3Falt%3Dmedia%26token%3D92c52511-9724-476d-99a8-f8d769c8" data-base-url="https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="74743814" data-linked-resource-container-version="1" data-media-id="7b9f0258-ba0e-477e-8256-f14a03be747b" data-media-type="file" width="250" height="107" /></span>
 
-hile short positions place triggers above these levels. Similar to take pro=
+Image options
 
-fit functionality, stop losses accept both price and loss percentage inputs=
+- **Pool Info:** displays critical metrics for assessing pool health:
 
-with automatic conversion between formats.\</p\>
+  - **qTVL (Total Value Locked)**: Current pool AUM in USD
 
-\<p local-id=3D"54619030-dd5b-493a-89ef-5e7e51b07d4f"\>SL prices are capped a=
+  - **Total Earned Fees**: Cumulative fee income since pool inception
 
-t -80% PnL to prevent catastrophic liquidations while ensuring keeper bots =
+  - **Remaining Deposit Cap**: Available capacity for new deposits
 
-can execute orders reliably. At extreme leverage levels approaching 1000x, =
+  - **Remaining Withdrawal Cap**: Maximum liquidity available for withdrawal
 
-this boundary provides critical protection against slippage and execution d=
+  - **Your Deposits**: Value of your HzLP holdings in USDC
 
-elays. Stop loss orders trigger as market orders when price hits the specif=
+  - **Your Earned Fees**: Your proportional share of total pool fees
 
-ied level, executing with priority to ensure position closure even during h=
+- **Historical Charts:** track TVL and Fee APR over configurable time periods (30d, 90d, 180d), allowing analysis of pool growth and yield trends. Fee APR charts display annualized rate projections from trailing fee income, excluding PnL variance.
 
-igh volatility.\</p\>
+- **Liquidity History:** This section records all deposit and withdrawal events with timestamps, token amounts, USD values, and transaction hashes linking to blockchain explorers. Filter between "My Activity" to view personal transactions or "Pool Activity" to monitor overall pool flows.
 
-\<p local-id=3D"869ca4a4-11c8-4b24-b248-1270c988d697"\>The guaranteed executi=
+## **Trading Terms**
 
-on mechanism ensures stop losses execute at the requested price even if ora=
+**Market Order**: Order type that executes immediately at current mark price, prioritizing speed over price precision.
 
-cle feeds gap significantly beyond the trigger level. This protection is pa=
+**Limit Order**: Order type that executes only when market reaches specified price, guaranteeing entry price.
 
-rticularly valuable at high leverage where small price movements can genera=
+**Take Profit (TP)**: Automated order that closes positions when price reaches favorable level, securing gains. Capped at +2500% PnL.
 
-te large percentage losses.\</p\>
+**Stop Loss (SL)**: Automated order that closes positions when price moves adversely, limiting losses. Capped at -80% PnL.
 
-\<h3 local-id=3D"8d727cb9-dd4a-41a3-9f00-4c38f57d08e5" id=3D"ProductDocs-Com=
+**Collateral**: USDC deposited to back a leveraged position. Minimum 10 USDC per position.
 
-binedTP/SLStrategies"\>Combined TP/SL Strategies\</h3\>
+**Leverage**: Multiplier applied to collateral to determine position size. Range: market-specific, up to 1000x for forex.
 
-\<p local-id=3D"cb36f337-3db3-415f-9198-da7bccc6c073"\>Traders can set both t=
+**Position Size**: Notional value of position calculated as Collateral × Leverage.
 
-ake profit and stop loss orders simultaneously, creating bracketed exit str=
+**Entry Price**: Price at which position opens. Market orders use mark price; limit orders use specified price.
 
-ategies that automatically manage positions in either direction. When both =
+**Mark Price**: Current oracle-validated market price used for position valuation and liquidation calculations.
 
-orders are active, whichever trigger price is reached first executes and cl=
+**Liquidation Price**: Price threshold where position automatically closes to prevent negative balance. Calculated based on leverage, fees, and maintenance margin.
 
-oses the position, automatically canceling the remaining order.\</p\>
+**Maintenance Margin Requirement (MMR)**: Minimum collateral required to keep position open, calculated as Size / Max Leverage + Accrued Fees.
 
-\<p local-id=3D"ce3a68e2-2007-4ef2-af0f-7c6b1b5efc8b"\>These orders remain at=
+**Net Rate**: Combined hourly funding fee and borrow fee, displayed as annualized percentage. Positive = you receive; negative = you pay.
 
-tached to their positions and can be modified independently while positions=
+**Funding Fee**: Periodic payment between long and short traders based on market imbalance. Net long pays net short, or vice versa.
 
-remain open. Adding or removing collateral from positions adjusts the vali=
+**Borrow Fee**: Hourly fee paid by traders to liquidity providers for borrowed capital, based on pool utilization.
 
-d price boundaries for TP and SL orders, potentially requiring traders to u=
+**Price Impact**: Fee based on pool imbalance when opening/closing positions. Deferred model: zero at entry, settles at exit. Capped at 50 bps.
 
-pdate trigger prices to maintain compliance with the -80% to +2500% PnL ran=
+**Open Interest (OI)**: Total notional value of all open positions on each side (long and short separately).
 
-ge.\</p\>
+**Available Liquidity**: Remaining pool capacity available for new positions on each side.
 
-\<h2 local-id=3D"71fc654d-de4b-446c-bf99-26b277c5d357" id=3D"ProductDocs-Pos=
+**Slippage Tolerance**: Maximum acceptable price deviation between expected and execution price for market orders. Default 0.5%, adjustable 0.1%-5%.
 
-itionManagement"\>Position Management\</h2\>
+**Keep Leverage**: Toggle for position reduction. Off = reduces size while maintaining collateral (deleverages). On = reduces size and collateral proportionally.
 
-\<h3 local-id=3D"9a8a54ee-595c-4e41-8ce7-2419eafee78b" id=3D"ProductDocs-Pos=
+**Guaranteed Execution**: TP and SL orders execute at requested trigger price regardless of market gaps, protecting traders from slippage during volatility.
 
-itionLifecycle"\>Position Lifecycle\</h3\>
+## **Liquidity Provision Terms**
 
-\<p local-id=3D"7e8fb983-f3c0-4442-ae9a-492c5dc394e9"\>Positions display comp=
+**HzLP**: HertzFlow Liquidity Provider token representing proportional pool ownership. Minted on deposit, burned on withdrawal.
 
-rehensive metrics including notional size, net value incorporating unrealiz=
+**Pool AUM**: Assets Under Management—total value of pool including deposited USDC, accrued fees, and net unrealized trader PnL.
 
-ed PnL after fees, entry price, current mark price, liquidation price, and =
+**HzLP Price**: Token value calculated as Pool AUM / Total HzLP Supply. Increases as fees accrue and traders realize losses.
 
-any active TP/SL trigger prices. Net value calculates as collateral plus ne=
+**TVL (Total Value Locked)**: Current pool AUM in USD, representing all liquidity available for trading.
 
-t unrealized PnL minus accrued fees, providing real-time position valuation=
+**Fee APY**: Annualized yield projection from trading fees only (open, close, borrow, liquidation), excluding PnL and funding.
 
-.\</p\>
+**Total APY**: Comprehensive yield including all sources: fees, trader PnL, and funding. More volatile than Fee APY.
 
-\<p local-id=3D"d4f3570a-ad9d-45de-962e-fd76bb61dc83"\>The platform supports =
+**Max AUM**: Protocol-configured ceiling for each pool's total liquidity, preventing over-concentration and maintaining market balance.
 
-flexible position adjustments throughout the lifecycle. Traders can increas=
+**PnL Factor**: Risk parameter limiting trader unrealized profit as percentage of pool AUM. Three types:
 
-e positions by opening additional orders in the same direction, causing ent=
+- Max PnL Factor for Deposits (strictest)
 
-ry prices to recalculate as weighted averages and leverage to adjust based =
+- Max PnL Factor for Withdrawals (looser)
 
-on new collateral-to-size ratios. Existing TP/SL orders automatically check=
+- Max PnL Factor for Traders (caps trader exposure)
 
-s for validity of existing parameters.\</p\>
+**Reserve Factor**: Risk parameter ensuring sufficient liquidity remains for open positions. Calculated as Reserved USD / Pool AUM.
 
-\<h3 local-id=3D"5b14c83b-3219-4821-bbf5-03a550d30954" id=3D"ProductDocs-Pos=
+**Reserved USD**: Total notional value of open positions (OI) on each side requiring pool backing.
 
-itionReduction"\>Position Reduction\</h3\>
+**Remaining Deposit Cap**: Available capacity for new deposits, calculated as Max AUM - Current AUM.
 
-\<p local-id=3D"59535f9a-95f2-4c68-bdb9-1ea2ed914b29"\>Reducing positions pro=
+Remaining Withdrawal Cap: Maximum USDC withdrawable, constrained by PnL and reserve factors:
 
-vides two distinct modes to accommodate different trading strategies. The d=
+<div class="code panel pdl" style="border-width: 1px;">
 
-efault mode - Keep Leverage Off - reduces position size while maintaining c=
+<div class="codeContent panelContent pdl">
 
-ollateral, effectively deleveraging the position. This approach locks colla=
+``` syntaxhighlighter-pre
+​Min(
+```
 
-teral in place and returns only realized PnL to the trader's wallet, allowi=
+</div>
 
-ng profit-taking while maintaining exposure at lower leverage.\</p\>
+</div>
 
-\<p local-id=3D"250a1e10-b3d7-4405-93f5-dc4a6bb2f9f6"\>The alternative mode -=
+<div class="code panel pdl" style="border-width: 1px;">
 
-Keep Leverage On - reduces both position size and collateral proportionall=
+<div class="codeContent panelContent pdl">
 
-y, maintaining the same leverage ratio. This mode returns both realized PnL=
+``` syntaxhighlighter-pre
+​  (AUM - Max(uPnL Long, uPnL Short, 0)) / Max PnL Factor for Withdrawals,
+```
 
-and proportional collateral to the trader, similar to traditional perpetua=
+</div>
 
-l platforms. The calculation for received funds accounts for fees and reali=
+</div>
 
-zed PnL, with any shortfall deducting from remaining position collateral.\</=
+<div class="code panel pdl" style="border-width: 1px;">
 
-p\>
+<div class="codeContent panelContent pdl">
 
-\<h3 local-id=3D"a9d5989c-c9e5-469c-89bc-a245538e5175" id=3D"ProductDocs-Col=
+``` syntaxhighlighter-pre
+​  AUM - Max(Reserved USD Long, Reserved USD Short) / Reserve Factor
+```
 
-lateralAdjustment"\>Collateral Adjustment\</h3\>
+</div>
 
-\<p local-id=3D"f04674e7-6faf-4532-b2f3-4dd4aa6fdd8b"\>Traders can modify pos=
+</div>
 
-ition margin without changing size through collateral editing. Adding colla=
+<div class="code panel pdl" style="border-width: 1px;">
 
-teral improves liquidation price, increases leverage headroom, and widens t=
+<div class="codeContent panelContent pdl">
 
-he valid price boundaries for TP/SL orders. Removing collateral moves liqui=
+``` syntaxhighlighter-pre
+​)
+```
 
-dation price closer to mark price and may invalidate existing TP/SL orders =
+</div>
 
-if they fall outside the valid boundaries.\</p\>
+</div>
 
-\<p local-id=3D"23752d11-099e-4ecd-9570-29362ad7086b"\>When collateral remova=
+Utilization: Percentage of pool liquidity actively backing open positions. High utilization (\>70%) increases borrow fees but constrains withdrawals.
 
-l narrows TP/SL caps, take profit orders beyond the new maximum update auto=
+Isolated Pool: Market-specific liquidity with independent risk parameters. Each pool's performance is unaffected by other markets.
 
-matically to the new cap price. Stop loss orders that fall outside the new =
+Automatic Rebalancing: Contract-level mechanism maintaining 1:1 long-short collateral split regardless of deposit direction or OI imbalance.
 
--80% boundary are marked invalid with visual warnings, requiring traders to=
+Keeper Execution: Automated bot system executing deposits, withdrawals, and position settlements on-chain. Ensures gas efficiency and fast settlement (\<10s typically).
 
-either restore collateral or modify the orders to valid levels. The system=
+Troubleshooting
 
-prevents collateral removal that would leave positions below the 10 USDC m=
+Common Issues
 
-inimum or exceed maximum leverage limits.\</p\>
+"Insufficient Liquidity"
 
-\<div class=3D"confluence-information-macro confluence-information-macro-inf=
+Available liquidity for your direction is depleted. Solutions:
 
-ormation"\>
+Reduce position size to fit available capacity
 
-\<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+Wait for liquidity to replenish as positions close
 
-tion-macro-icon"\>\</span\>
+Trade a different market with deeper liquidity
 
-\<div class=3D"confluence-information-macro-body"\>
+Check Available Liquidity (L/S) in market info before sizing orders
 
-\<p local-id=3D"225be6e3-5550-466f-80aa-b4c158f60a4d"\>When placing orders in=
+"Above Max Position Size"
 
-a selected market, the following parameters are set:\</p\>
+Order exceeds maximum allowed position size for this market. Solutions:
 
-\<p local-id=3D"240e6c92-387a-46fd-8286-baa224c75f34"\>Side: Open Long; Open =
+Split into multiple smaller positions
 
-Short; Close Long; Close Short; Increase Long; Increase Short; Decrease Lon=
+Trade a different market with higher limits
 
-g; Decrease Short\</p\>
+Reduce leverage to lower notional size
 
-\<p local-id=3D"0e8fe207-3385-4274-9f46-dcefc4a00d1f"\>Order Type: Market/Lim=
+"Below Min Collateral"
 
-it/Trigger/Liquidated\</p\>
+Collateral must be ≥10 USDC. Solutions:
 
-\<p local-id=3D"7622eb8c-dd1c-4795-aef1-df952f2f5bd8"\>Collateral Asset &amp;=
+Increase collateral input to meet minimum
 
-Amount: Collaterals are in USDC, limited at a 10 USDC minimum, and can be =
+Reduce leverage if trying to maintain specific position size
 
-adjusted real time when managing positions.\</p\>
+"Above Deposit Limit \[Amount\]"
 
-\<p local-id=3D"5c759739-7fa7-431e-834e-7ecdc30da5ab"\>Exposure &amp; Leverag=
+Pool at maximum AUM capacity. Solutions:
 
-e: Leverage can be set between 1.1x and 1000x. Position size is calculated =
+Wait for pool capacity to increase as traders close positions
 
-automatically from the leverage set and collateral amount.\</p\>
+Deposit smaller amount within remaining cap
 
-\<p local-id=3D"d165044b-1e29-4e92-b0f3-7e958dd6ff69"\>Slippage: All market a=
+Try a different pool
 
-nd swap orders are executed against Hertzflow Liquidity Pools (HzLP). Slipp=
+Check Remaining Deposit Cap in pool info
 
-age tolerance can be set per trade =E2=80=94 orders that breach this tolera=
+"Above Withdraw Limit \[Amount\]"
 
-nce will revert to protect the trader.\</p\>
+Withdrawal exceeds available capacity due to PnL or reserve constraints. Solutions:
 
-\<p local-id=3D"0a82fdc9-86ca-4c15-827f-138f6bdfc698"\>Entry Price: Market pr=
+Withdraw smaller amount within remaining cap
 
-ice for market orders, a limit price set by traders for limit orders. Meanw=
+Wait for trader PnL to decrease or positions to close
 
-hile, liquidation price is estimated and updated automatically.\</p\>
+Check Remaining Withdrawal Cap in pool info
 
-\<p local-id=3D"f963c61c-714e-4808-809e-e7435807f1e9"\>Exit Price: For tigger=
+"TP Price Below Mark Price" (Long) / "TP Price Above Mark Price" (Short)
 
-orders, exit price can be set to stop loss or take profit. For market orde=
+Take profit price not favorable to current market. Solutions:
 
-rs, exit price is the executed price at which positions are closed.\</p\>
+Long positions: increase TP price above mark price
 
-\<p local-id=3D"17e30815-a5bb-4b19-b99b-744d0a2fd31d"\>Positions may be settl=
+Short positions: decrease TP price below mark price
 
-ed via market or TP/SL order:\</p\>
+Verify you're setting profit target in correct direction
 
-\<p local-id=3D"3e9755af-9ad8-42b5-82d1-1c27bca04bc8"\>Market: Trader manuall=
+"Above Max TP Price" / "Below Min TP Price"
 
-y initiates a full or partial settlement for market positions.\</p\>
+Take profit exceeds +2500% PnL cap. Solutions:
 
-\<p local-id=3D"c82383f3-eb06-4203-a829-596cbb5bfffa"\>TP/SL: Settles automat=
+Click tooltip to auto-fill maximum allowed TP price
 
-ically at mark price only if mark price reaches or betters limit price.\</p\>
+Manually adjust TP price to valid range
 
-\<p local-id=3D"1be1e467-8d2c-4961-b374-268cfac70cde"\>When a non-liquidated =
+Consider closing position earlier at lower profit target
 
-close is executed:\</p\>
+"SL Price Above Mark Price" (Long) / "SL Price Below Mark Price" (Short)
 
-\<p local-id=3D"bec7dd55-e9bc-4630-b23a-a63c3e41b28d"\>Positive PnL: Trader r=
+Stop loss price not unfavorable to current market. Solutions:
 
-eceives their initial collateral plus realized trading profit, transferred =
+Long positions: decrease SL price below mark price
 
-directly from the liquidity pool.\</p\>
+Short positions: increase SL price above mark price
 
-\<p local-id=3D"b751bf72-946c-4914-9dc3-6a182eec85a1"\>Negative PnL: Trader r=
+Verify you're setting stop in correct direction
 
-eceives remaining collateral after losses, with the loss amount retained by=
+"Invalid Stop Loss"
 
-the protocol=E2=80=99s liquidity pool.\</p\>
+Stop loss exceeds -80% PnL cap, often after collateral removal. Solutions:
 
-\<p local-id=3D"1ecd2966-9de1-4d8e-9002-0e5f09abd8be"\>Partial Close: Proport=
+Add collateral back to expand valid SL range
 
-ional PnL is realized based on the closed portion of the position.\</p\>
+Edit SL price to valid range within -80% cap
 
-\</div\>
+Cancel invalid order if protection no longer needed
 
-\</div\>
+"Request Rejected by User"
 
-\<h3 local-id=3D"bc965a95-00f0-4216-b8cd-4dda1f2a0ae0" id=3D"ProductDocs-Fee=
+Wallet confirmation cancelled. Solutions:
 
-Structure"\>Fee Structure\</h3\>
+Review transaction details carefully
 
-\<h4 local-id=3D"358c8642-0262-4857-9d46-7f8201ba564e" id=3D"ProductDocs-Tra=
+Approve transaction in wallet if parameters acceptable
 
-dingFees"\>\<strong\>Trading Fees\</strong\>\</h4\>
+Check wallet isn't locked or disconnected
 
-\<p local-id=3D"34dadeea-07b4-48d6-95d0-00fba86e5f0d"\>Open Fee - Charged whe=
+"Transaction Failed. Please Try Again Later"
 
-n opening positions (varies by market)\</p\>
+Transaction reverted on-chain. Common causes:
 
-\<p local-id=3D"7e89fdd1-be24-4ff1-994c-6fa0a83cbf27"\>Close Fee - Charged wh=
+Insufficient gas fees (BNB balance too low)
 
-en closing positions (varies by market)\</p\>
+Price moved beyond slippage tolerance (market orders)
 
-\<p local-id=3D"13ac3922-bd99-40ae-89b0-8928f8eddefe"\>Price Impact - Dynamic=
+Pool capacity changed between quote and execution
 
-fee based on pool imbalance (can be positive or negative)\</p\>
+Network congestion causing timeout
 
-\<h4 local-id=3D"9ac960ad-ee78-469a-b78a-7924f0b74ef6" id=3D"ProductDocs-Hol=
+Solutions:
 
-dingFees(perhour)"\>\<strong\>Holding Fees (per hour)\</strong\>\</h4\>
+Verify ≥0.01 BNB balance for gas
 
-\<ul local-id=3D"2eed04c4-19cf-44cb-9836-825af76f0186"\>
+Increase slippage tolerance if market is volatile
 
-\<li local-id=3D"ba1b9797-69ce-4f48-b082-b59ce423ce03"\>
+Refresh quote and retry
 
-\<p local-id=3D"96f608af-98d8-47eb-a436-5d68d800ab83"\>\<strong\>Funding Fee\</s=
+Wait a few minutes if network is congested
 
-trong\> - Paid between long and short traders based on market skew.\</p\>\</li\>
+"Transaction Pending. Please Check Again Later"
 
-\<li local-id=3D"cf7a61b5-0ac5-4c58-b19a-826dde889522"\>
+Transaction submitted but not confirmed within 30 seconds. Solutions:
 
-\<p local-id=3D"649c6050-6a95-43c5-9382-1cf487ed749d"\>\<strong\>Borrow Fee\</st=
+Wait for network confirmation (may take 1-5 minutes during congestion)
 
-rong\> - Paid to liquidity providers for borrowed liquidity\</p\>\</li\>
+Check transaction status on BSCScan using hash from toast
 
-\<li local-id=3D"a998734f-bcd4-4d5a-bf6e-ed915c6e0db4"\>
+Do not resubmit—this creates duplicate transactions
 
-\<p local-id=3D"a578ddc7-8a23-45a4-bb36-1096bd63e6c2"\>\<strong\>Net Funding Ra=
+Contact support if pending beyond 5 minutes
 
-te - \</strong\>The 1-hour net rate combines funding and borrow fees into a s=
+Transaction Shows Success but Balance Unchanged
 
-ingle annualized percentage. Hover over the net rate in Market Info to view=
+Interface data may be cached. Solutions:
 
-:\</p\>
+Refresh the page manually
 
-\<ul local-id=3D"fbd8e1a9-d7f0-49a2-a07c-d07550e681b3"\>
+Wait 10-30 seconds for automatic data refresh
 
-\<li local-id=3D"94c24e67-a91b-4927-933d-4881578975dd"\>
+Check wallet directly to verify balance changed
 
-\<p local-id=3D"7acc2506-4938-42d9-8861-2cbf8db0bc0b"\>\<strong\>8-hour rate\</s=
+Verify transaction on BSCScan shows success
 
-trong\> - Projected rate over 8 hours\</p\>\</li\>
+Getting Help
 
-\<li local-id=3D"fab09047-f6c5-4b36-9ee1-b7e195097f90"\>
+Contact **support@hertzflow.xyz** for account issues, bug reports, or other technical problems.
 
-\<p local-id=3D"95336beb-a69c-4687-961d-2bdd3df5e1a2"\>\<strong\>24-hour rate\</=
-
-strong\> - Projected daily rate\</p\>\</li\>
-
-\<li local-id=3D"15df0522-fc72-4428-8976-d322e818ae5e"\>
-
-\<p local-id=3D"f3fb0847-21f7-40b4-97b5-b47c3ecb537e"\>\<strong\>365-day rate\</=
-
-strong\> - Projected annual rate (APR)\</p\>\</li\>
-
-\<li local-id=3D"31d3bfe9-b319-45d7-8531-5bb634814591"\>
-
-\<p local-id=3D"275fcf6f-d70f-4cd6-a577-c09b02e65e81"\>\<strong\>Hourly breakdo=
-
-wn\</strong\> - Separate funding fee and borrow fee components\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<h4 local-id=3D"5a7c4d2a-453a-47c0-a879-a9290f178b26" id=3D"ProductDocs-Pri=
-
-ceImpact"\>Price Impact\</h4\>
-
-\<p local-id=3D"91cb32c1-36f8-49e9-9994-d056c259ab60"\>Price impact reflects =
-
-the cost of pool imbalance when your trade skews the long/short ratio:\</p\>
-
-\<ul local-id=3D"3ade5d9d-9e22-4960-8aaf-4927046adf0a"\>
-
-\<li local-id=3D"46981be3-a93e-49db-b8df-17353c9c7673"\>
-
-\<p local-id=3D"4b617d30-4660-40ac-ade7-d508bae49236"\>\<strong\>Opening positi=
-
-ons\</strong\> - Entry price equals oracle mark price (no immediate impact)\</=
-
-p\>\</li\>
-
-\<li local-id=3D"744ae744-8921-43bd-8685-c7d985e2be42"\>
-
-\<p local-id=3D"e4c46fc6-a290-44da-8877-72f231c7b7fc"\>\<strong\>During positio=
-
-n\</strong\> - Price impact accrues as OI imbalance changes (not charged imme=
-
-diately)\</p\>\</li\>
-
-\<li local-id=3D"e8076060-e5ba-4bd3-96f1-bd5e526e1ef3"\>
-
-\<p local-id=3D"2512276d-4f61-4db7-a3ea-4f4933ebb480"\>\<strong\>Closing positi=
-
-ons\</strong\> - Net price impact from open to close settles at execution\</p\>=
-
-\</li\>
-
-\<li local-id=3D"425b00b8-1847-4ef8-bd22-72fd29559e29"\>
-
-\<p local-id=3D"d0cecc1b-7362-4cb7-b95b-6bb1b2ca4ce6"\>\<strong\>Impact cap\</st=
-
-rong\> - Maximum 50 basis points (0.5%) with excess converting to rebates\</p=
-
-\>\</li\>
-
-\<li local-id=3D"9e7ba32c-c011-4276-ac11-1a1e6700d8ef"\>
-
-\<p local-id=3D"2282a5c5-336e-4ffe-9911-32168c1860d4"\>\<strong\>Positive impac=
-
-t\</strong\> - You may receive rebates if closing reduces pool imbalance\</p\>\<=
-
-/li\>
-
-\</ul\>
-
-\<h4 local-id=3D"051d923f-f2f6-4530-a2b0-cf77985c12bd" id=3D"ProductDocs-Sli=
-
-ppageTolerance"\>Slippage Tolerance\</h4\>
-
-\<p local-id=3D"ee3c7d16-0f85-4e92-9da1-56acf945d10a"\>Market orders incorpor=
-
-ate configurable slippage tolerance to accommodate price movement during ex=
-
-ecution. The acceptable price boundary for market orders combines mark pric=
-
-e, price impact, and slippage tolerance: \<code\>Mark Price =C3=97 (1 =C2=B1 =
-
-Price Impact) =C3=97 (1 =C2=B1 Slippage)\</code\>. Limit orders use only pric=
-
-e impact without slippage: \<code\>Limit Price =C3=97 (1 =C2=B1 Price Impact)=
-
-\</code\>. Take profit and stop loss orders execute at trigger prices with no=
-
-slippage component, relying on guaranteed execution mechanisms.\</p\>
-
-\<p local-id=3D"f32b997d-12c9-4d7b-8221-f2b99ad631f3"\>Higher slippage tolera=
-
-nce increases execution probability during volatility at the cost of allowi=
-
-ng larger price deviations from the expected price. The default 0.5% tolera=
-
-nce balances execution certainty with price precision for most market condi=
-
-tions.\</p\>
-
-\<h3 local-id=3D"74e51eed-3690-4c6c-b8a8-30ca7b7be486" id=3D"ProductDocs-Liq=
-
-uidationMechanics"\>Liquidation Mechanics\</h3\>
-
-\<h4 local-id=3D"27fc8d2d-8301-4e19-9474-e5ed3bc1516f" id=3D"ProductDocs-Lev=
-
-erageLimits.1"\>Leverage Limits\</h4\>
-
-\<p local-id=3D"e8a2b05f-cc12-4b52-901f-591ac91a48f1"\>Maximum leverage varie=
-
-s by asset class:\</p\>
-
-\<p local-id=3D"21bb0e8b-4693-44c9-82eb-a980ac9c2b62"\>To pick up a draggable=
-
-item, press the space bar. While dragging, use the arrow keys to move the =
-
-item. Press space again to drop the item in its new position, or press esca=
-
-pe to cancel.\</p\>
-
-\<p local-id=3D"1590c195-3baf-414a-98dd-920843b44d96"\>To pick up a draggable=
-
-item, press the space bar. While dragging, use the arrow keys to move the =
-
-item. Press space again to drop the item in its new position, or press esca=
-
-pe to cancel.\</p\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-layout=3D"default" data-local-id=3D"c5019903-2086-47b4-9a88-95f=
-
-6ff95962b" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr data-local-id=3D"92014456-41fd-46c7-9b4d-d3f339dc122d"\>
-
-\<th data-highlight-colour=3D"color-mix(in srgb, var(--sp-color-bg-muted) 10=
-
-0%, transparent)" data-local-id=3D"0f87a618-7a38-4df7-b852-71fe7e40eb71" cl=
-
-ass=3D"confluenceTh"\>
-
-\<p local-id=3D"9adc5370-e25f-4d21-bc5e-43a460ed17d6"\>Asset Class\</p\>
-
-\<p local-id=3D"f47fc3c5-8b24-409d-9b60-84c42fe80a68"\>Asset Class\</p\>\</th\>
-
-\<th data-highlight-colour=3D"color-mix(in srgb, var(--sp-color-bg-muted) 10=
-
-0%, transparent)" data-local-id=3D"7d678551-97fa-419b-96b2-5bec613cdac6" cl=
-
-ass=3D"confluenceTh"\>
-
-\<p local-id=3D"22424f08-efe0-4f0d-88e9-2308ce68b6f4"\>Max Leverage\</p\>
-
-\<p local-id=3D"84b535c7-a1e7-41af-b0bc-4d6cf05ec661"\>Max Leverage\</p\>\</th\>
-
-\</tr\>
-
-\<tr data-local-id=3D"4514e911-cda0-4721-8f40-77c80a37a7ba"\>
-
-\<td data-local-id=3D"e762d725-487f-4a41-b0ac-fe07718dfa0a" class=3D"conflue=
-
-nceTd"\>
-
-\<p local-id=3D"9af574df-f830-45dc-b0b8-308acf400577"\>Forex (FX)\</p\>\</td\>
-
-\<td data-local-id=3D"997d753c-cfde-4e5b-9501-38ceb9b09443" class=3D"conflue=
-
-nceTd"\>
-
-\<p local-id=3D"63056a84-09ee-49e9-9ae0-d9aa564fc970"\>1000x\</p\>\</td\>
-
-\</tr\>
-
-\<tr data-local-id=3D"4fa2a4ad-0c29-4a4f-9997-975388f5eac3"\>
-
-\<td data-local-id=3D"4d1723c9-4c27-4720-9d51-71310c012958" class=3D"conflue=
-
-nceTd"\>
-
-\<p local-id=3D"93353ed4-a51d-4d25-88e9-d7429b5afb96"\>ETH/BNB/SOL\</p\>\</td\>
-
-\<td data-local-id=3D"ec50f548-cd08-4977-97c4-9faf702e3298" class=3D"conflue=
-
-nceTd"\>
-
-\<p local-id=3D"2a8e5737-365c-4268-9e5c-147c2014722e"\>500x\</p\>\</td\>
-
-\</tr\>
-
-\<tr data-local-id=3D"601d00cc-a487-4ff4-b3a7-1bfa39371fd7"\>
-
-\<td data-local-id=3D"9323fc05-16fb-4c39-b0b7-7c5965a95965" class=3D"conflue=
-
-nceTd"\>
-
-\<p local-id=3D"9669fdf5-e303-4ad7-a1ca-e2f962fff012"\>Altcoins\</p\>\</td\>
-
-\<td data-local-id=3D"bfc1b050-31c7-4f69-b343-5a091b5fd397" class=3D"conflue=
-
-nceTd"\>
-
-\<p local-id=3D"08ff8131-1d55-4046-a050-73a19933b4c7"\>50x\</p\>\</td\>
-
-\</tr\>
-
-\<tr data-local-id=3D"96a80a21-71df-4456-8087-023a6a19a5ef"\>
-
-\<td data-local-id=3D"c383f070-8d5a-42af-8245-7ae915396da5" class=3D"conflue=
-
-nceTd"\>
-
-\<p local-id=3D"9a1a96fd-a55a-4c85-9215-4baf080be468"\>Commodities\</p\>\</td\>
-
-\<td data-local-id=3D"dcff6b92-6f2a-47b8-abe6-cdd619e35a3c" class=3D"conflue=
-
-nceTd"\>
-
-\<p local-id=3D"225e7ce6-5384-48c0-bab3-72af8b56138f"\>50x\</p\>\</td\>
-
-\</tr\>
-
-\<tr data-local-id=3D"497214dd-ce4e-4c01-bc5f-5ca0ae39c5b7"\>
-
-\<td data-local-id=3D"56f30c84-73c3-4cdd-bca2-b071ccf807a5" class=3D"conflue=
-
-nceTd"\>
-
-\<p local-id=3D"cb3bf982-8b7a-4394-9bc6-6e2ee430e817"\>Equities &amp; Indices=
-
-\</p\>\</td\>
-
-\<td data-local-id=3D"cafbd594-1111-4681-8583-6d6c16bf6133" class=3D"conflue=
-
-nceTd"\>
-
-\<p local-id=3D"edb69e79-76ea-4ee0-a197-b109a4795df9"\>25x\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p local-id=3D"ea4e53fa-0c13-42c0-a630-5c2a039d26a3"\>Leverage is calculated=
-
-as: \<code\>Leverage =3D Position Size / Collateral\</code\>\</p\>
-
-\<h4 local-id=3D"c336e047-9d0d-4b0c-8980-fe9a4c61bf63" id=3D"ProductDocs-Liq=
-
-uidation"\>Liquidation\</h4\>
-
-\<p local-id=3D"78a86b14-275a-44f9-b236-41b15bff507b"\>Positions liquidate au=
-
-tomatically when mark price reaches your liquidation price, preventing nega=
-
-tive account balances.\</p\>
-
-\<p local-id=3D"aae4a5c0-db96-423e-9339-0fff734f6ef5"\>\<strong\>Liquidation Pr=
-
-ice Formula:\</strong\>\</p\>
-
-\<p local-id=3D"906d1578-fe76-4fb5-bb5c-1d77f306c2c4"\>Long positions:\</p\>
-
-\<p local-id=3D"15443b48-2001-4549-9d8e-5fa6bd51c686"\>=E2=80=8B\</p\>
-
-\<p local-id=3D"23ef3480-5d11-4fd4-9974-c5b458e2cec6"\>Liq Price =3D Entry Pr=
-
-ice =C3=97 (1/Max_Leverage - 1/Leverage - Fees/Size + 1)\</p\>
-
-\<p local-id=3D"e81fc33b-804a-4521-9efd-449841868bf0"\>Plain TextCopyMore opt=
-
-ions\</p\>
-
-\<p local-id=3D"81760d1d-db85-4db1-a490-6b72a8f40354"\>Short positions:\</p\>
-
-\<p local-id=3D"7807a229-b9a4-4c70-ae9b-6869776b88f9"\>=E2=80=8B\</p\>
-
-\<p local-id=3D"c048e225-7f19-4de5-b557-cc0d7aefa9a2"\>Liq Price =3D Entry Pr=
-
-ice =C3=97 (1 - (1/Max_Leverage - 1/Leverage - Fees/Size))\</p\>
-
-\<p local-id=3D"1692fd3b-082b-4fea-a861-22dd90ccc23f"\>Plain TextCopyMore opt=
-
-ions\</p\>
-
-\<p local-id=3D"8222af89-8ddd-4e06-9016-aff6ab3a97ce"\>Where \<code\>Fees\</code=
-
-\> includes close fee, borrow fee, funding fee, price impact, and liquidatio=
-
-n fee.\</p\>
-
-\<p local-id=3D"06496e74-afb1-44f4-a2a6-d8de8e32a551"\>\<strong\>Liquidation Pr=
-
-ocess:\</strong\>\</p\>
-
-\<ol start=3D"1" local-id=3D"f03e9144-df31-4bdc-9ced-3816d1a050cc"\>
-
-\<li local-id=3D"f103eed1-3c1c-4f54-a145-81a88fdf8b41"\>
-
-\<p local-id=3D"f29590fc-e58f-45e4-b22e-3da4ae358577"\>Position automatically=
-
-closes at market price\</p\>\</li\>
-
-\<li local-id=3D"ea5c1ce9-9818-4b7c-86bb-def1940ce630"\>
-
-\<p local-id=3D"f8d97bba-96f2-4a4d-bb96-ced5edc30b80"\>Remaining collateral (=
-
-if any) returns to your wallet\</p\>\</li\>
-
-\<li local-id=3D"ba8be0c2-d2b9-400e-84bd-0e53cbdfa7eb"\>
-
-\<p local-id=3D"cc316c3d-0ac3-4dd6-b38d-fcfe843210af"\>Liquidation fee (0.5% =
-
-\- 1% of position size) is charged\</p\>\</li\>
-
-\<li local-id=3D"32d9b4ec-c279-4419-a797-b7ea26765581"\>
-
-\<p local-id=3D"0278cdcd-aba0-4b5f-ae56-2755f008666f"\>Any active TP/SL order=
-
-s on the liquidated position cancel\</p\>\</li\>
-
-\</ol\>
-
-\<p local-id=3D"c83a0121-b5c4-48f7-804d-57f1ba5a2d39"\>Monitor your liquidati=
-
-on price closely, especially during high volatility.\</p\>
-
-\<h2 local-id=3D"3aa3fcc7-9d4c-42d7-bd21-064b98e5c2fc" id=3D"ProductDocs-Ris=
-
-kManagement"\>Risk Management\</h2\>
-
-\<h3 local-id=3D"a7fc9efe-04ca-4f20-97ee-4e06fb5290e3" id=3D"ProductDocs-Bes=
-
-tPractices"\>Best Practices\</h3\>
-
-\<h4 local-id=3D"2635dbde-2981-4e10-812e-6f485aad9c35" id=3D"ProductDocs-Ris=
-
-kManagement.1"\>Risk Management\</h4\>
-
-\<ul local-id=3D"54d4ba7a-875a-4d01-a42c-afc012012451"\>
-
-\<li local-id=3D"cbb87667-a598-4be7-88a0-17b9feb45163"\>
-
-\<p local-id=3D"ad6f64ec-8848-46de-ad06-f3c30c8d5a8d"\>\<strong\>Never risk mor=
-
-e than you can afford to lose\</strong\> - Leverage magnifies both gains and =
-
-losses\</p\>\</li\>
-
-\<li local-id=3D"2b131f06-d768-4c38-942f-eb2d1e826527"\>
-
-\<p local-id=3D"3b7a268c-c2b4-45e2-af10-c9fdbacc2c85"\>\<strong\>Use stop losse=
-
-s\</strong\> - Protect capital by setting automatic exit points\</p\>\</li\>
-
-\<li local-id=3D"8387168c-ecda-4897-abb4-e44ac49500a3"\>
-
-\<p local-id=3D"8cea8702-c38b-4059-98bd-c583db2ff5f5"\>\<strong\>Monitor liquid=
-
-ation prices\</strong\> - Keep adequate margin buffer especially above 50x le=
-
-verage\</p\>\</li\>
-
-\<li local-id=3D"a87bea7b-8c2f-4d55-b95c-1f47340700b7"\>
-
-\<p local-id=3D"156b18f8-cae4-42c0-80b7-cfe474f1eb77"\>\<strong\>Start small\</s=
-
-trong\> - Test strategies with lower leverage before scaling up\</p\>\</li\>
-
-\<li local-id=3D"ef81e20c-69d1-44e1-96cc-eafa660be5f0"\>
-
-\<p local-id=3D"58cc7821-2414-4357-92a2-59921c4a1e46"\>\<strong\>Diversify\</str=
-
-ong\> - Avoid concentrating risk in a single market or position\</p\>\</li\>
-
-\</ul\>
-
-\<h4 local-id=3D"39285bed-a772-4f42-ab38-ec48c70d5bb9" id=3D"ProductDocs-Ord=
-
-erStrategy"\>Order Strategy\</h4\>
-
-\<ul local-id=3D"3955fc5f-4d8a-40a7-b2eb-7495b8f030ee"\>
-
-\<li local-id=3D"be9b2e76-21fb-4bc7-a1d4-b52fca5c5e08"\>
-
-\<p local-id=3D"0ce61d80-f739-4f9f-a61f-4d77e34b490a"\>\<strong\>Limit orders f=
-
-or entries\</strong\> - Get better prices during volatile markets\</p\>\</li\>
-
-\<li local-id=3D"d141e515-112a-404f-b69f-c8d1b859e11c"\>
-
-\<p local-id=3D"a3ea8e1d-409d-41af-8120-9c1b23b2c1f5"\>\<strong\>Market orders =
-
-for exits\</strong\> - Ensure execution when closing positions quickly\</p\>\</l=
-
-i\>
-
-\<li local-id=3D"41a70909-bd05-4f7f-84d6-da0742502a14"\>
-
-\<p local-id=3D"a243a933-1777-407b-ad56-f560a1dbeda7"\>\<strong\>Bracket orders=
-
-\</strong\> - Always set both TP and SL for automated risk management\</p\>\</li=
-
-\>
-
-\<li local-id=3D"444bed75-b8fc-4790-a2b6-2d77cd72c34b"\>
-
-\<p local-id=3D"ccf52957-8048-4d10-bf0e-cba1c0b8778e"\>\<strong\>Edit over canc=
-
-el\</strong\> - Modify existing orders instead of canceling and recreating to=
-
-save gas\</p\>\</li\>
-
-\</ul\>
-
-\<h4 local-id=3D"34f6dfcb-4acc-4e26-8892-4e6cff506749" id=3D"ProductDocs-Fee=
-
-Optimization"\>Fee Optimization\</h4\>
-
-\<ul local-id=3D"ce4fa6ed-1323-45f9-b6b4-e1fc1c4a4f7c"\>
-
-\<li local-id=3D"6fad1243-9d84-425d-b0b8-ec40f76abe2e"\>
-
-\<p local-id=3D"a58a76b2-6a1e-413e-91d8-c6624936024e"\>\<strong\>Check price im=
-
-pact\</strong\> - Large orders in low liquidity markets pay higher impact fee=
-
-s\</p\>\</li\>
-
-\<li local-id=3D"7cfbac96-2b8b-4700-b285-2c6b0e3643ca"\>
-
-\<p local-id=3D"49dbe9eb-8068-485c-89d8-941f979124c1"\>\<strong\>Monitor fundin=
-
-g rates\</strong\> - High negative rates increase position holding costs\</p\>\<=
-
-/li\>
-
-\<li local-id=3D"e898a3d4-b8ad-4c61-b442-2e990030e857"\>
-
-\<p local-id=3D"e85b40b5-cf99-4129-acd7-db5c7445b6e9"\>\<strong\>Claim fees reg=
-
-ularly\</strong\> - Don't let accrued rebates sit unclaimed\</p\>\</li\>
-
-\<li local-id=3D"6dc0c85d-3602-485b-9ef1-d6d9d6786a26"\>
-
-\<p local-id=3D"60d5c696-02ad-4a5b-870c-ca34d7d1aff1"\>\<strong\>Time your entr=
-
-ies\</strong\> - Wait for favorable funding rate flips when holding multi-day=
-
-positions\</p\>\</li\>
-
-\</ul\>
-
-\<h4 local-id=3D"13350403-106c-48e1-a195-fd280abe65c1" id=3D"ProductDocs-Liq=
-
-uidationAvoidance"\>Liquidation Avoidance\</h4\>
-
-\<ul local-id=3D"62ee607a-d20b-456f-920b-6c3ededc5064"\>
-
-\<li local-id=3D"bd0da3ed-b866-4b22-8056-748edae54ec1"\>
-
-\<p local-id=3D"358e7c77-9b46-4ce0-8d37-2c3fbab4a5e0"\>\<strong\>Maintain margi=
-
-n buffer\</strong\> - Keep liquidation price at least 5-10% away from mark pr=
-
-ice\</p\>\</li\>
-
-\<li local-id=3D"479f8c6c-0a69-4326-a7c5-42a23e90c756"\>
-
-\<p local-id=3D"d4e910e8-eb97-4e2c-96d6-e687561b74a6"\>\<strong\>Add collateral=
-
-preemptively\</strong\> - Don't wait until liquidation is imminent\</p\>\</li\>
-
-\<li local-id=3D"bad0bfcc-c76c-4f88-bd32-9d62c3b4e258"\>
-
-\<p local-id=3D"ce15ca89-3cb5-44d0-9a5c-fb6e6cc0c19f"\>\<strong\>Reduce leverag=
-
-e\</strong\> - Lower leverage =3D greater safety margin\</p\>\</li\>
-
-\<li local-id=3D"34bf0688-c79c-499f-86ca-ac8bd0e9863d"\>
-
-\<p local-id=3D"95979d62-66bb-409a-ab5d-1fddf8f6d64f"\>\<strong\>Close partials=
-
-\</strong\> - Take profits and reduce size to improve liquidation price\</p\>\</=
-
-li\>
-
-\</ul\>
-
-\<h3 local-id=3D"12c0d027-a3e3-4880-adcd-b9d49940fd31" id=3D"ProductDocs-Adv=
-
-ancedFeatures"\>Advanced Features\</h3\>
-
-\<h4 local-id=3D"3af18fb1-e42a-4f16-a7c5-2279ba5487f1" id=3D"ProductDocs-Pos=
-
-itionCompounding"\>Position Compounding\</h4\>
-
-\<p local-id=3D"bd0cd65c-585d-4077-a121-10809d3154d8"\>Compound realized gain=
-
-s back into positions for exponential growth:\</p\>
-
-\<ol start=3D"1" local-id=3D"625ece24-d022-4897-b8d8-3ab5ed9ada38"\>
-
-\<li local-id=3D"8aef86c5-ead0-437d-9ade-d72072c4903f"\>
-
-\<p local-id=3D"ef4a6533-64b6-4aef-bf2d-04a4e7c98c6f"\>Close a portion of you=
-
-r winning position\</p\>\</li\>
-
-\<li local-id=3D"a605637e-95ee-423c-ad60-acabdaebce0f"\>
-
-\<p local-id=3D"ea185a6c-52d7-47a5-9010-20cc14116151"\>Receive PnL + proporti=
-
-onal collateral (Keep Leverage On)\</p\>\</li\>
-
-\<li local-id=3D"52d3a6cc-ab58-4eb0-8d4a-d44b77108298"\>
-
-\<p local-id=3D"bff836a4-ee9a-453a-b85e-0d91325b407e"\>Immediately reopen a l=
-
-arger position with realized profits as additional collateral\</p\>\</li\>
-
-\<li local-id=3D"2361efb9-ea19-4e97-8a7b-081a4200ae7c"\>
-
-\<p local-id=3D"e48fef76-b1a9-4748-84c6-3af8c4ae40c4"\>Repeat to grow positio=
-
-n size using market gains\</p\>\</li\>
-
-\</ol\>
-
-\<p local-id=3D"760aa784-2b79-40c1-a3b7-0441d4014ff7"\>This strategy maximize=
-
-s capital efficiency but increases risk exposure - use strict stop losses.\<=
-
-/p\>
-
-\<h4 local-id=3D"a6f88c9f-1dcb-433b-9b57-d900a7a9213a" id=3D"ProductDocs-Hed=
-
-ging"\>Hedging\</h4\>
-
-\<p local-id=3D"2185209e-7879-4596-a670-6d5cb59057c6"\>Open opposing position=
-
-s across markets to manage risk:\</p\>
-
-\<ul local-id=3D"3146ccc2-7fd3-40ec-a6c8-cc68ec53510b"\>
-
-\<li local-id=3D"25f0d2de-99ec-4510-ae0e-60276cc00980"\>
-
-\<p local-id=3D"e5027cc8-b953-4bb6-8783-56fb2a161008"\>\<strong\>Cross-asset he=
-
-dging\</strong\> - Long crypto, short correlated equity indices\</p\>\</li\>
-
-\<li local-id=3D"bc7f3988-d3a3-4634-9eb6-eb6ca3c4e3f7"\>
-
-\<p local-id=3D"49c9f1e0-d4a7-4f49-9ca9-ddce42fc8ae7"\>\<strong\>Spread trading=
-
-\</strong\> - Long one commodity, short a related commodity\</p\>\</li\>
-
-\<li local-id=3D"bbefd469-ee9f-45dc-af57-787fbc86bfa1"\>
-
-\<p local-id=3D"b2d7d23c-1ad7-490e-88f7-ef1d454c326b"\>\<strong\>Basis trading\<=
-
-/strong\> - Capture funding rate differentials between markets\</p\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"ed095355-c4c2-4c9c-ba37-5be650e747ca"\>Note that each positio=
-
-n incurs independent fees and margin requirements.\</p\>
-
-\<h4 local-id=3D"a96ce5e3-ebea-4015-9f50-be7deb8ed9fb" id=3D"ProductDocs-Mul=
-
-ti-MarketStrategies"\>Multi-Market Strategies\</h4\>
-
-\<p local-id=3D"428f7372-3bf8-4178-bc96-5672580d98d6"\>Execute sophisticated =
-
-strategies across HertzFlow's diverse markets:\</p\>
-
-\<ul local-id=3D"aca5e62b-0aef-4640-8f6f-99b6b8a7fd31"\>
-
-\<li local-id=3D"b70a7975-df02-4fc1-91c9-b19537a92a02"\>
-
-\<p local-id=3D"06d001d8-289a-4843-a49d-91f096084dce"\>\<strong\>Macro plays\</s=
-
-trong\> - Trade forex pairs based on economic data and central bank policies=
-
-\</p\>\</li\>
-
-\<li local-id=3D"7f12d3fc-fffc-4c6c-8829-9ca921e3e042"\>
-
-\<p local-id=3D"f60072fa-fcac-4d7c-8d78-20d582a5ffc9"\>\<strong\>Correlation pl=
-
-ays\</strong\> - Exploit relationships between crypto and traditional markets=
-
-\</p\>\</li\>
-
-\<li local-id=3D"cfd69730-0244-4fc4-80ca-23811c168515"\>
-
-\<p local-id=3D"72b6d6df-26ff-45c3-b4b3-e9dde04fa931"\>\<strong\>Volatility tra=
-
-ding\</strong\> - Short VIX or similar indices during calm markets\</p\>\</li\>
-
-\<li local-id=3D"31ecaab9-fac3-4035-b8b2-71c14f4dba62"\>
-
-\<p local-id=3D"23808118-3472-491a-93a2-2ffd34783e1a"\>\<strong\>Commodity cycl=
-
-es\</strong\> - Position in gold, oil, or agriculture based on seasonal patte=
-
-rns\</p\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"77063da3-29fd-43a3-a412-4c85ba025db1"\>Access to traditional =
-
-markets 24/7 enables crypto traders to apply DeFi principles to TradFi asse=
-
-ts.\</p\>
-
-\<hr local-id=3D"b961530f-0568-4e9a-a81d-c0d0443f97d7"\>
-
-\<p local-id=3D"7fcf1dc2-e4fe-4586-8422-43b5f229a07a"\>\<strong\>Risk Warning\</=
-
-strong\>: Trading with leverage carries substantial risk of loss and is not =
-
-suitable for all investors. You should carefully consider whether trading i=
-
-s appropriate for you in light of your experience, objectives, financial re=
-
-sources, and other relevant circumstances. The possibility exists that you =
-
-could sustain losses in excess of your deposited funds. Only trade with cap=
-
-ital you can afford to lose.\</p\>
-
-\<h1 local-id=3D"ceafb9fc-689f-441d-bf7f-c80ce17e18b1" id=3D"ProductDocs-Liq=
-
-uidityProvision"\>Liquidity Provision\</h1\>
-
-\<h3 local-id=3D"53353e40-b478-4409-a766-1dd576006859" id=3D"ProductDocs-Pro=
-
-vidingLiquidity"\>Providing Liquidity\</h3\>
-
-\<h3 local-id=3D"e20086f0-c620-4329-a8e3-7583b4ed57ce" id=3D"ProductDocs-Ove=
-
-rview"\>Overview\</h3\>
-
-\<p local-id=3D"9e4b3152-0036-4b75-9023-3a5a16a23299"\>HertzFlow's liquidity =
-
-infrastructure operates through isolated market pools that serve as counter=
-
-parties to leveraged perpetual traders. Liquidity providers deposit USDC to=
-
-earn yield from trading fees, borrow fees, and trader losses while maintai=
-
-ning exposure to specific market dynamics. The protocol implements a single=
-
--token deposit model with automatic 1:1 long-short rebalancing, eliminating=
-
-complexity while ensuring capital efficiency.\</p\>
-
-\<p local-id=3D"62da96d8-1dbb-4fc0-b7c7-f51e65759d5b"\>Unlike traditional AMM=
-
-s that rely on continuous buyer-seller matching, HertzFlow employs pooled v=
-
-irtual liquidity capable of absorbing open interest imbalances and directio=
-
-nal exposure. This architecture ensures trade settlement remains robust eve=
-
-n during extreme market movements, while sophisticated risk controls protec=
-
-t liquidity providers from excessive drawdowns.\</p\>
-
-\<h3 local-id=3D"8430df55-485e-441b-9705-00e6a73870ce" id=3D"ProductDocs-Liq=
-
-uidityOptions"\>Liquidity Options\</h3\>
-
-\<h4 local-id=3D"57db64f1-4d0f-4b4a-ae3a-82089822b05f" id=3D"ProductDocs-HzL=
-
-P:Market-SpecificPools"\>HzLP: Market-Specific Pools\</h4\>
-
-\<p local-id=3D"9f5eccec-4181-4670-a2e7-b50136b8cbbb"\>HzLP is the liquidity =
-
-provider token minted when assets are deposited into an individual HertzFlo=
-
-w Liquidity Pool. HzLP tokens represent proportional ownership of isolated =
-
-liquidity pools, each dedicated to a single perpetual market. When depositi=
-
-ng USDC, providers receive HzLP tokens reflecting their pool share. These t=
-
-okens accrue value as the pool collects trading fees and realizes profits f=
-
-rom trader losses.\</p\>
-
-\<p local-id=3D"53b5b5c9-c9ec-4694-a343-590946a99900"\>Each market operates i=
-
-ndependently with isolated risk parameters, allowing liquidity providers to=
-
-select exposure based on their risk preferences. A BTC/USD pool's performa=
-
-nce remains unaffected by ETH/USD pool dynamics, providing granular control=
-
-over capital allocation and risk management.\</p\>
-
-\<p local-id=3D"9de11a0e-9c25-4f7b-a44d-453a18e93d09"\>Key characteristics:\</=
-
-p\>
-
-\<p local-id=3D"c552793a-97e0-4bba-b2e2-3b4a22478ce6"\>Direct exposure to a s=
-
-ingle pool / market\</p\>
-
-\<p local-id=3D"7f597ee3-d009-4037-8368-366f01411496"\>Value reflects pool pe=
-
-rformance and fee accrual\</p\>
-
-\<p local-id=3D"35fd7990-e14c-47ec-aa16-7434b8470f4e"\>Redeemable for the und=
-
-erlying pool assets\</p\>
-
-\<h4 local-id=3D"5f08e7cf-4f40-40ea-a23a-0b0a9941ec25" id=3D"ProductDocs-Vau=
-
-ltAggregation"\>Vault Aggregation\</h4\>
-
-\<p local-id=3D"7e9d9025-1f8f-4c22-8ffb-479268adefb8"\>HzV is the vault share=
-
-token issued for deposits into HertzFlow Vaults. Each vault aggregates liq=
-
-uidity across multiple markets that share the same strategy, optimizing cap=
-
-ital efficiency by shifting liquidity between markets based on utilization =
-
-rates and fee opportunities.\</p\>
-
-\<p local-id=3D"72a85ea9-caa8-4b48-9276-f231b95d1afe"\>Key characteristics:\</=
-
-p\>
-
-\<p local-id=3D"9478f776-3850-46b8-b8b6-57dbce57ac53"\>Indirect exposure acro=
-
-ss multiple markets\</p\>
-
-\<p local-id=3D"963e3dfd-0a1d-45ff-8e11-ef91f36b472a"\>Capital allocated dyna=
-
-mically based on pool utilization and risk\</p\>
-
-\<p local-id=3D"b6fe37eb-d67e-45af-ad47-8cea0565a5ad"\>Returns reflect aggreg=
-
-ate vault performance rather than individual pool fees\</p\>
-
-\<h3 local-id=3D"babe7841-d471-458e-867f-d6209594a083" id=3D"ProductDocs-Dep=
-
-osits"\>Deposits\</h3\>
-
-\<p local-id=3D"5615bc03-3263-47b3-a554-d3f9ecf9597e"\>Depositing USDC into a=
-
-market pool mints HzLP tokens representing your proportional share, and in=
-
-to a vault mints HzV tokens representing your share. The protocol automatic=
-
-ally splits deposits equally between long and short collateral reserves, ma=
-
-intaining a 1:1 balance regardless of current open interest skew.\</p\>
-
-\<p local-id=3D"bae51346-7c6b-4813-825a-e31b5bc4610a"\>\<strong\>Token Pricing:=
-
-\</strong\>\</p\>
-
-\<p local-id=3D"52f4a3c9-31a1-417b-a2d8-84a6b85dd75d"\>=E2=80=8B\</p\>
-
-\<p local-id=3D"069ed6f0-64c1-4dc5-9996-a2a03fb7101f"\>Liquidity Token Price =
-
-=3D AUM / Total Supply\</p\>
-
-\<p local-id=3D"f4dc206f-9c36-48d3-a653-d5ebb1dbf2b5"\>Plain TextCopyMore opt=
-
-ions\</p\>
-
-\<p local-id=3D"495b964e-af50-4dfb-93f5-5ea7ee8c8b13"\>Assets Under Managemen=
-
-t (AUM) includes deposited USDC, accrued fees, and net unrealized PnL from =
-
-open trader positions. As traders pay fees and realize losses, pool AUM inc=
-
-reases, raising the value of each liquidity token. Conversely, trader profi=
-
-ts decrease pool value.\</p\>
-
-\<p local-id=3D"a8fd902e-15f2-47c3-97f3-63c3372a7cf0"\>\<strong\>Deposit Capaci=
-
-ty Limits:\</strong\>\</p\>
-
-\<p local-id=3D"d83537d3-7dc9-4d5b-aeda-e4be6cb68f50"\>Maximum deposit amount=
-
-s are constrained by risk parameters designed to prevent over-concentration=
-
-:\</p\>
-
-\<p local-id=3D"986f4457-ef00-4ff3-8b81-370975e181f0"\>=E2=80=8B\</p\>
-
-\<p local-id=3D"e3401bd0-d2ab-48de-8c9d-c1098cfa80ee"\>Max USDC In =3D Max AU=
-
-M - Current AUM\</p\>
-
-\<p local-id=3D"9e7f5452-7de3-47f4-8a3a-a25d9e6ac5fa"\>Plain TextCopyMore opt=
-
-ions\</p\>
-
-\<p local-id=3D"5ad2b681-0892-47c4-9bba-7565b02adf58"\>Where \<code\>Max AUM\</c=
-
-ode\> represents the protocol-configured ceiling for each market's total liq=
-
-uidity. This hard cap maintains balance across markets by preventing unlimi=
-
-ted growth in popular pools that would drain liquidity from others. Each ma=
-
-rket's cap is calibrated based on trading volume, volatility, and oracle re=
-
-liability.\</p\>
-
-\<h3 local-id=3D"b3af666a-c509-47bc-a278-d73fd7d33294" id=3D"ProductDocs-Wit=
-
-hdrawals"\>Withdrawals\</h3\>
-
-\<p local-id=3D"c2dacfd7-3ea2-4d34-8a63-c28feb3ed67b"\>Withdrawing liquidity =
-
-burns HzLP or HzV tokens and returns USDC at the current price. Withdrawals=
-
-settle instantly on-chain without waiting periods, though maximum withdraw=
-
-al amounts are subject to real-time risk checks ensuring sufficient liquidi=
-
-ty remains for open positions.\</p\>
-
-\<p local-id=3D"bd8734ca-7b92-4578-a4d1-fb5e522bf78e"\>\<strong\>Withdrawal Cap=
-
-acity Constraints:\</strong\>\</p\>
-
-\<p local-id=3D"0f51340e-d0a4-42f2-85c3-db4fbf123978"\>Two separate limits go=
-
-vern withdrawal availability.\</p\>
-
-\<p local-id=3D"e4052c93-1c31-455b-97fb-01b6d3d9ea71"\>\<strong\>PnL Factor Con=
-
-straint:\</strong\>\</p\>
-
-\<p local-id=3D"f90c4510-6215-4921-903f-ed28aee01800"\>=E2=80=8B\</p\>
-
-\<p local-id=3D"c3addec6-dd2a-4cd2-84d9-602650df9bdc"\>Max USDC Out (PnL) =3D=
-
-(Current AUM - Max(Unrealized PnL Long, Unrealized PnL Short, 0)) / Max Pn=
-
-L Factor for Withdrawals\</p\>
-
-\<p local-id=3D"8f9e2caf-56a1-435e-bae8-74fb8e06476f"\>Plain TextCopyMore opt=
-
-ions\</p\>
-
-\<p local-id=3D"37b0fec8-0ef7-4a44-ba17-53c193f054ea"\>This constraint protec=
-
-ts remaining LPs when trader unrealized profits are high. If traders hold l=
-
-arge winning positions, withdrawals are restricted to prevent the remaining=
-
-pool from becoming undersized relative to obligations. The \<code\>Max PnL F=
-
-actor for Withdrawals\</code\> parameter determines how much pool value can b=
-
-e at risk from unrealized trader profits.\</p\>
-
-\<p local-id=3D"fc7e2bc8-2db3-4b80-8887-d77a7b22c479"\>\<strong\>Reserve Factor=
-
-Constraint:\</strong\>\</p\>
-
-\<p local-id=3D"c4b90a09-6312-4d52-9d7e-4b0b5938fbba"\>=E2=80=8B\</p\>
-
-\<p local-id=3D"7e2dc6d1-85a6-4fa5-8c7a-d0774e7a7ff0"\>Max USDC Out (Reserve)=
-
-=3D Current AUM - Max(Reserved USD Long, Reserved USD Short) / Reserve Fac=
-
-tor\</p\>
-
-\<p local-id=3D"8b90d41b-ed6f-471f-8b50-e6f65f34b1f0"\>Plain TextCopyMore opt=
-
-ions\</p\>
-
-\<p local-id=3D"c5dcb2ac-294f-451d-ad04-4fed33dff591"\>Reserved USD represent=
-
-s total open interest (notional value of all open positions) on each side. =
-
-The \<code\>Reserve Factor\</code\> ensures sufficient liquidity remains to cov=
-
-er potential position closures. This prevents LPs from withdrawing capital =
-
-currently backing active trades.\</p\>
-
-\<p local-id=3D"74fa1055-130f-43fc-9f24-ce13a30e4526"\>The effective withdraw=
-
-al limit is the minimum of these two constraints:\</p\>
-
-\<p local-id=3D"461846c4-2fa3-413b-a571-33269c09ab3d"\>=E2=80=8B\</p\>
-
-\<p local-id=3D"feca5501-170c-4d36-bef8-0c02baeb7a9d"\>Max USDC Out =3D Min(M=
-
-ax USDC Out (PnL), Max USDC Out (Reserve))\</p\>
-
-\<p local-id=3D"7ac740a9-286e-4907-83fe-87e6db3306a4"\>Plain TextCopyMore opt=
-
-ions\</p\>
-
-\<h3 local-id=3D"9c2687ff-12c6-4b43-b77c-5ab79941bf5a" id=3D"ProductDocs-Aut=
-
-omaticRebalancing"\>Automatic Rebalancing\</h3\>
-
-\<p local-id=3D"3bfa808a-f94f-4bb5-8492-3030060597c3"\>The protocol maintains=
-
-equal long and short collateral pools through automatic rebalancing during=
-
-deposits and withdrawals. When you deposit USDC, the contract allocates 50=
-
-% to long collateral reserves and 50% to short reserves, regardless of curr=
-
-ent open interest distribution. This ensures the pool can service both long=
-
-and short traders without bias.\</p\>
-
-\<p local-id=3D"d97d30df-a6f7-435e-9263-dbae0a6b775a"\>Price impact fees are =
-
-eliminated at the contract level for liquidity operations. Unlike trading a=
-
-ctions, deposits and withdrawals do not charge dynamic price impact, simpli=
-
-fying the LP experience and removing penalty mechanisms that would discoura=
-
-ge healthy liquidity flow.\</p\>
-
-\<h2 local-id=3D"c8f4aae6-ef2d-4ecb-a51c-545cd5641f0e" id=3D"ProductDocs-Yie=
-
-ld"\>Yield\</h2\>
-
-\<h3 local-id=3D"94c39355-4a4a-4024-8e7d-a3c622080c6d" id=3D"ProductDocs-Yie=
-
-ldSources"\>Yield Sources\</h3\>
-
-\<h4 local-id=3D"e987b2b8-dc88-4f1b-94e3-012ea44d5d4c" id=3D"ProductDocs-Fee=
-
-Income"\>Fee Income\</h4\>
-
-\<p local-id=3D"69df2f97-62dd-45e1-8061-c03d8f420dca"\>Liquidity providers ea=
-
-rn from multiple fee streams generated by trading activity:\</p\>
-
-\<p local-id=3D"b27fa16d-ba08-4ae7-80ab-89d456c74406"\>\<strong\>Trading Fees:\<=
-
-/strong\>\</p\>
-
-\<ul local-id=3D"588eefec-9337-43a4-90eb-0e1f24a37870"\>
-
-\<li local-id=3D"42488552-a486-4ef5-8795-922ac506c52d"\>
-
-\<p local-id=3D"a2e3ea97-9eb0-4c29-b3ea-4faad7267476"\>Open position fees cha=
-
-rged when traders establish positions\</p\>\</li\>
-
-\<li local-id=3D"b0f6e678-bee7-4e89-8ad2-eb0daeacadd9"\>
-
-\<p local-id=3D"71ee6994-6603-498f-820e-ebc403c4d9c5"\>Close position fees ch=
-
-arged when positions are exited or liquidated\</p\>\</li\>
-
-\<li local-id=3D"5460f7b9-90af-4781-80d9-c3d0c271ab7b"\>
-
-\<p local-id=3D"a36355f5-8023-4d8e-b84e-73e0bc0398da"\>Fee rates vary by mark=
-
-et based on liquidity depth and volatility\</p\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"e53c19de-69f4-4ef9-aed1-00851c519ca0"\>\<strong\>Borrowing Fees=
-
-:\</strong\>\</p\>
-
-\<ul local-id=3D"809bbf46-54bc-45f6-8524-b66d7ef17133"\>
-
-\<li local-id=3D"e9d9dc28-e2fd-447e-9f2d-41c8b54abc5a"\>
-
-\<p local-id=3D"efa6baa4-a111-4450-aa3a-07e098d1f726"\>Hourly fees paid by tr=
-
-aders for borrowing liquidity to establish leveraged positions\</p\>\</li\>
-
-\<li local-id=3D"c6f97a68-ed80-44f0-9ae8-4d1b4eaab749"\>
-
-\<p local-id=3D"50b591c7-0cdd-4c3a-8cda-507ef3773aa3"\>Calculated as a percen=
-
-tage of position size based on pool utilization\</p\>\</li\>
-
-\<li local-id=3D"82833e3b-9d72-4ac3-9ae8-cc5662feb7bd"\>
-
-\<p local-id=3D"300c1205-4c60-4f4e-b091-e691a94d9578"\>Higher utilization inc=
-
-reases borrow rates, incentivizing additional liquidity provision\</p\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"536b1546-a383-46cc-a6e6-9715401f0a95"\>\<strong\>Liquidation Fe=
-
-es:\</strong\>\</p\>
-
-\<ul local-id=3D"2b07fd51-f327-47a9-8a9a-1ce176b89df6"\>
-
-\<li local-id=3D"34e2aaf4-9d3e-4e9f-b3d5-ab1727a644ee"\>
-
-\<p local-id=3D"9228a47b-c7ce-4ad9-932f-22677ada50fd"\>Penalties charged when=
-
-trader positions are force-closed due to insufficient margin\</p\>\</li\>
-
-\<li local-id=3D"8396e7d8-89b6-4af6-bbf2-c9f4c7047613"\>
-
-\<p local-id=3D"9e55ef4a-2c81-4b78-a3b3-e37b9714a02d"\>Compensates LPs for be=
-
-aring liquidation execution risk\</p\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"ee585a0c-bf64-47a5-8152-f3d6b0d51458"\>All fees settle contin=
-
-uously into the pool, increasing AUM and raising HzLP/HzV token value. Fee =
-
-distribution occurs automatically without requiring manual claims.\</p\>
-
-\<h3 local-id=3D"5b89624d-eda1-4aa3-9721-765c5fed1000" id=3D"ProductDocs-APY=
-
-Calculation"\>APY Calculation\</h3\>
-
-\<p local-id=3D"13019e3b-5eb3-4d20-a87a-09b2233604af"\>Annual Percentage Yiel=
-
-d represents projected returns from fee income, displayed as an annualized =
-
-rate with compounding. The platform presents APY derived from trailing APR =
-
-data:\</p\>
-
-\<p local-id=3D"74738c49-3565-4e13-8024-037876ec46c3"\>\<strong\>Fee APR\</stron=
-
-g\> isolates annualized returns from trading activity fees only (open, close=
-
-, borrow, liquidation), excluding price impact, PnL, and funding. This metr=
-
-ic provides a conservative baseline yield expectation independent of market=
-
-direction.\</p\>
-
-\<p local-id=3D"8213387c-25aa-4d4a-8a55-5ba0cad055fd"\>\<strong\>Total APY\</str=
-
-ong\> incorporates all yield sources including trader PnL over the measureme=
-
-nt period. This metric is more volatile due to PnL variance but reflects co=
-
-mprehensive returns.\</p\>
-
-\<p local-id=3D"0e78b6c2-96c7-4ae1-8887-d35f75fcbfe0"\>APYtotal=3D(1+APRDay36=
-
-5)365=E2=88=921APY\_{total} =3D \left( 1 + \frac{APR\_{Day}}{365} \right)^{36=
-
-5} - 1APYtotal=E2=80=8B=3D(1+365APRDay=E2=80=8B=E2=80=8B)365=E2=88=921\</p\>
-
-\<h3 local-id=3D"5ed8402f-d0b4-4d1d-9edd-a1f2ef489941" id=3D"ProductDocs-Fee=
-
-Distribution"\>\<strong\>Fee Distribution\</strong\>\</h3\>
-
-\<p local-id=3D"4fdad89a-49a9-4c9c-9b4f-e383190d58e9"\>\<strong\>Liquidity Prov=
-
-iders \</strong\>LPs receive 60% of all protocol revenues. This compensates t=
-
-hem for supplying liquidity and bearing counterparty risk against traders.\<=
-
-/p\>
-
-\<p local-id=3D"c1e337cb-1ba9-434f-b70f-c7e257a8ef86"\>\<strong\>Protocol Treas=
-
-ury \</strong\>The remaining 40% of revenues accrue to the protocol treasury.=
-
-These funds are reinvested into protocol growth and resilience =E2=80=94 i=
-
-ncluding protocol-owned liquidity, gas subsidies, trading competitions, tra=
-
-der rebates, insurance backstops for LPs, and incentive campaigns. The over=
-
-arching objective is to ensure that treasury revenues ultimately flow back =
-
-to benefit LPs and traders directly or indirectly.\</p\>
-
-\<p local-id=3D"53019fe1-ad2f-44fc-926d-e0e25ba11b54"\>Change hint type\</p\>
-
-\<p local-id=3D"2e3e772b-74da-48f1-9583-78019f895702"\>\<strong\>Note that\</str=
-
-ong\>: APY is variable and not guaranteed.\</p\>
-
-\<h2 local-id=3D"3235d323-79a8-4f72-95da-ed9c39f2d9c9" id=3D"ProductDocs-Ris=
-
-kManagement.2"\>Risk Management\</h2\>
-
-\<h3 local-id=3D"357b22e4-fcc2-4c54-bbc5-1fb3b7c6090d" id=3D"ProductDocs-Ris=
-
-kConsiderations"\>Risk Considerations\</h3\>
-
-\<h4 local-id=3D"52fa876a-e743-4aa7-80e6-45eec05c4fee" id=3D"ProductDocs-Cou=
-
-nterpartyExposure"\>Counterparty Exposure\</h4\>
-
-\<p local-id=3D"d1fa363c-1764-422b-951a-8c73574dc41d"\>As the counterparty to=
-
-all trades, LPs bear inverse correlation to trader performance. Extended p=
-
-eriods of trader profitability decrease pool value, while trader losses inc=
-
-rease it. Over long horizons, this exposure tends toward neutrality as winn=
-
-ers and losers offset, but short-to-medium term variance can be significant=
-
-.\</p\>
-
-\<p local-id=3D"827d7e9e-361c-4e8d-981f-9e26efa6e05e"\>Highly skilled or algo=
-
-rithmic traders may generate consistent profits, creating persistent headwi=
-
-nds for pool performance. The PnL factor caps provide some protection, but =
-
-LPs should expect periods of negative returns from trader PnL.\</p\>
-
-\<h4 local-id=3D"6d42e7e8-730e-4231-a7aa-05ef2b59b6ce" id=3D"ProductDocs-Liq=
-
-uidityConstraints"\>Liquidity Constraints\</h4\>
-
-\<p local-id=3D"e624189d-23c3-474e-b3f0-8ff3b5e39795"\>During extreme market =
-
-conditions, withdrawal capacity may become limited. While deposits and with=
-
-drawals typically settle instantly, temporary restrictions can prevent exit=
-
-s when trader unrealized profits are elevated or pool utilization is high.\<=
-
-/p\>
-
-\<p local-id=3D"8ac24097-79c7-452f-92cd-f3525989ee09"\>Plan for potential ill=
-
-iquidity during stress periods. Maintain a diversified portfolio beyond LP =
-
-positions to avoid forced exits during restricted periods. Review historica=
-
-l withdrawal cap patterns to assess typical liquidity availability.\</p\>
-
-\<h3 local-id=3D"49d269d4-5bc8-450f-971d-953f3ca7f05b" id=3D"ProductDocs-Bes=
-
-tPractices.1"\>Best Practices\</h3\>
-
-\<h4 local-id=3D"2c29398c-3ae7-4357-858c-4981e609c0fc" id=3D"ProductDocs-Mar=
-
-ketSelection"\>Market Selection\</h4\>
-
-\<p local-id=3D"1467b501-2ade-4c85-b9a2-ff348cf03f21"\>Choose markets aligned=
-
-with your risk tolerance and market outlook. High-volatility assets (meme =
-
-tokens, altcoins) generate higher trading fees but expose LPs to greater Pn=
-
-L variance. Stable markets (major forex pairs, established cryptocurrencies=
-
-) offer more consistent fee income with lower directional risk.\</p\>
-
-\<p local-id=3D"f955ad67-b6ee-4818-88cb-35d00183b214"\>Review historical APY =
-
-charts and trader PnL patterns before depositing. Pools with stable, positi=
-
-ve fee APR and balanced win/loss ratios indicate healthy market dynamics. E=
-
-xtreme APY spikes often correlate with temporary PnL windfalls that may rev=
-
-erse.\</p\>
-
-\<h4 local-id=3D"094a4aa4-15d2-43bc-838a-a1a4f1a32c63" id=3D"ProductDocs-Cap=
-
-acityMonitoring"\>Capacity Monitoring\</h4\>
-
-\<p local-id=3D"7d314b36-65ae-439b-85f7-65660a524c30"\>Check remaining deposi=
-
-t and withdrawal caps before committing capital. Deposits into pools near m=
-
-aximum AUM may have limited exit liquidity if trader activity increases uti=
-
-lization. Similarly, pools with restricted withdrawal capacity signal eleva=
-
-ted trader PnL or reserve requirements.\</p\>
-
-\<p local-id=3D"e04a6ee4-151c-480b-8a59-cc6756c40b75"\>Monitor utilization ra=
-
-tes and open interest distribution. High utilization (&gt;70%) increases bo=
-
-rrow fees paid to LPs but also constrains withdrawal availability. Balanced=
-
-long-short OI reduces directional exposure risk.\</p\>
-
-\<h4 local-id=3D"f8fdfd9a-3a86-402c-88b4-a2b23cdd4e39" id=3D"ProductDocs-Tim=
-
-ingConsiderations"\>Timing Considerations\</h4\>
-
-\<p local-id=3D"f5fe1abe-88a6-4b16-80f9-4cd09e028ac7"\>Deposit during periods=
-
-of low trader PnL. Entering when traders hold large unrealized profits mea=
-
-ns buying HzLP at inflated prices that may decline when profits realize. Co=
-
-nversely, depositing after trader losses or during low volatility periods m=
-
-ay capture better entry prices.\</p\>
-
-\<p local-id=3D"8fb83017-8c74-4924-a3a7-538f27746779"\>Avoid large deposits o=
-
-r withdrawals immediately before or after major market events (economic dat=
-
-a releases, protocol updates) that may cause temporary volatility spikes af=
-
-fecting HzLP pricing.\</p\>
-
-\<h4 local-id=3D"f37bf0ee-90a2-440f-9d5e-3e5ada2354a4" id=3D"ProductDocs-Div=
-
-ersification"\>Diversification\</h4\>
-
-\<p local-id=3D"ea5829ba-c9cb-4467-889b-79110477376c"\>Even within isolated p=
-
-ools, consider diversifying across multiple markets to spread risk. Concent=
-
-rate positions in markets with:\</p\>
-
-\<ul local-id=3D"7c3c4d8a-c4fc-4b78-bbac-4fa947026ff2"\>
-
-\<li local-id=3D"ff5276b6-055a-4e25-a824-2f1c8b5fa0c8"\>
-
-\<p local-id=3D"93068409-3a33-463b-9a44-562606da7aae"\>Established trading vo=
-
-lume and liquidity depth\</p\>\</li\>
-
-\<li local-id=3D"131c2cce-f677-4c2a-b29c-3a20b662331d"\>
-
-\<p local-id=3D"b25e0f3a-f5f4-44af-889d-e8f7632cba8c"\>Stable historical fee =
-
-generation\</p\>\</li\>
-
-\<li local-id=3D"675c3a55-d886-4eaf-b169-9b987caff014"\>
-
-\<p local-id=3D"dccced90-b5ba-4b98-b3eb-e4696f9be140"\>Moderate utilization r=
-
-ates\</p\>\</li\>
-
-\<li local-id=3D"32fd4dd9-1051-4d19-a991-40c5c87e47c2"\>
-
-\<p local-id=3D"f394e6ce-8d14-4498-bfc8-a035b568c940"\>Balanced long-short op=
-
-en interest\</p\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"8b5cdabf-365d-436d-acda-671ecb139738"\>Avoid over-concentrati=
-
-ng in correlated markets (e.g., multiple altcoin pools) where directional m=
-
-oves affect all positions simultaneously.\</p\>
-
-\<hr local-id=3D"4042a6b2-2eb5-47c6-8dd4-1bd83974ac43"\>
-
-\<p local-id=3D"f9549c40-cf16-4347-b8f5-150c4f45a6e8"\>\<strong\>Risk Warning\</=
-
-strong\>: Providing liquidity involves substantial risk including potential =
-
-loss of capital from trader profits. Past performance of pool APY does not =
-
-guarantee future results. Liquidity may become restricted during periods of=
-
-high trader PnL or pool utilization. Only provide liquidity with capital y=
-
-ou can afford to lose.\</p\>
-
-\<h1 local-id=3D"184e5e6f-0e85-403e-85a1-fc87ec55f085" id=3D"ProductDocs-Tut=
-
-orials"\>Tutorials\</h1\>
-
-\<h2 local-id=3D"9afad7df-689e-43d2-b3b9-afdcad607c7c" id=3D"ProductDocs-Get=
-
-Started"\>Get Started\</h2\>
-
-\<p local-id=3D"8219e6ba-b61c-46ef-b467-64d866b9244d"\>1\</p\>
-
-\<p local-id=3D"a251bedb-261a-4cdc-b2d3-249552ec5265"\>Insert a new step\</p\>
-
-\<p local-id=3D"ee2547d7-71b0-41af-9428-b8c8ef6af3d3"\>\<strong\>What you need\<=
-
-/strong\>\</p\>\<span class=3D"confluence-embedded-file-wrapper image-center-wr=
-
-apper confluence-embedded-manual-size"\>\<img class=3D"confluence-embedded-im=
-
-age image-center" width=3D"250" loading=3D"lazy" src=3D"56b6a17a397f80bf3d3=
-
-e38be3816e880fad693973613860ca13d8fb977628c45" data-image-src=3D"https://he=
-
-rtzflow.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%25=
-
-2Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fs=
-
-paces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252FgFoHxdZA8qEbd2g09fMX%2=
-
-5252FScreenshot%2525202026-01-21%252520at%25252018.55.29.png%253Falt%253Dme=
-
-dia%2526token%253D8bf59e9d-c881-4642-9d4a-c39e548a?version=3D1&amp;modifica=
-
-tionDate=3D1768998541101&amp;cacheVersion=3D1&amp;api=3Dv2" data-height=3D"=
-
-794" data-width=3D"662" data-unresolved-comment-count=3D"0" data-linked-res=
-
-ource-id=3D"74874909" data-linked-resource-version=3D"1" data-linked-resour=
-
-ce-type=3D"attachment" data-linked-resource-default-alias=3D"https%3A%2F%2F=
-
-files.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhO=
-
-hbsStDwzyOGMriEWAP%252Fuploads%252FgFoHxdZA8qEbd2g09fMX%252FScreenshot%2520=
-
-2026-01-21%2520at%252018.55.29.png%3Falt%3Dmedia%26token%3D8bf59e9d-c881-46=
-
-42-9d4a-c39e548a" data-base-url=3D"https://hertzflow.atlassian.net/wiki" da=
-
-ta-linked-resource-content-type=3D"image/jpeg" data-linked-resource-contain=
-
-er-id=3D"74743814" data-linked-resource-container-version=3D"1" data-media-=
-
-id=3D"71bf30e9-c6d4-470d-9b11-dbf1702f2280" data-media-type=3D"file" height=
-
-=3D"300"\>\</span\>
-
-\<p local-id=3D"4a039cef-8fff-4f6c-bc5b-e2c428662b10"\>Image options\</p\>
-
-\<ul local-id=3D"381fd806-5537-4410-bc97-6d79fe8d49b4"\>
-
-\<li local-id=3D"09d7b86f-30ee-4833-ad4e-1c1109d449fa"\>
-
-\<p local-id=3D"47f8ca13-7043-44d0-9846-a4ea66bfa307"\>\<strong\>Wallet Require=
-
-ments:\</strong\>\</p\>
-
-\<ul local-id=3D"89019a99-106a-4fe5-a369-febcfa9568f6"\>
-
-\<li local-id=3D"4ff044c0-38d7-4b8f-bf00-c89ca8282756"\>
-
-\<p local-id=3D"7fc56395-4750-4ec8-8582-2214ca98c2de"\>A supported BNB Chain =
-
-wallet (Binance Wallet, MetaMask, or any WalletConnect-compatible wallet)\</=
-
-p\>\</li\>
-
-\<li local-id=3D"d466f6ac-1133-4814-a23c-264434f6766e"\>
-
-\<p local-id=3D"7582c58e-b99f-4046-ba34-f333409756b3"\>BNB for gas fees (reco=
-
-mmend =E2=89=A5 0.01 BNB buffer at all times)\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li local-id=3D"d8041ffc-7d6d-4400-ae3d-29b5a813b6f2"\>
-
-\<p local-id=3D"f1be40ae-06ff-4cce-b7ea-b11a1b6d3031"\>\<strong\>Trading Assets=
-
-: \</strong\>USDC on BNB Chain for collateral. Bridge or on-ramp assets from =
-
-other chains if needed\</p\>\</li\>
-
-\<li local-id=3D"5ac378cb-2376-4318-a895-dd9a87ca52fd"\>
-
-\<p local-id=3D"049cb63b-c0b1-4963-836d-585ae1bf0ff0"\>\<strong\>System Require=
-
-ments:\</strong\>\</p\>
-
-\<ul local-id=3D"e73c484d-e62a-44f9-a2c3-df287246945c"\>
-
-\<li local-id=3D"18753a1e-1b2d-45cb-ab96-66e8c12e448a"\>
-
-\<p local-id=3D"67423514-9ef3-46dd-abc7-3df96dfb061e"\>Modern browser (Chrome=
-
-, Brave, Edge, or Safari)\</p\>\</li\>
-
-\<li local-id=3D"de0e6d38-5556-4463-953c-d227d32f6651"\>
-
-\<p local-id=3D"5f7f0bb1-2c82-4a91-8189-b02a5ca71a2c"\>Wallet browser extensi=
-
-on or mobile in-app browser\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"9c945d74-919a-46b9-b7ce-c467ac29d481"\>2\</p\>
-
-\<p local-id=3D"fdeb6d70-648b-47c9-99e7-19778f3d411d"\>Insert a new step\</p\>
-
-\<p local-id=3D"378093b4-43e7-4544-8136-bc9072d098a9"\>\<strong\>Access &amp; c=
-
-onnect\</strong\>\</p\>\<span class=3D"confluence-embedded-file-wrapper image-ce=
-
-nter-wrapper confluence-embedded-manual-size"\>\<img class=3D"confluence-embe=
-
-dded-image image-center" width=3D"250" loading=3D"lazy" src=3D"239f45079b5a=
-
-24c1fc51045dccae3d095211f4b56d10780816f8c78e121fe049" data-image-src=3D"htt=
-
-ps://hertzflow.atlassian.net/wiki/download/attachments/74743814/https%253A%=
-
-252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252F=
-
-o%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252FaGsXbWXu5Cl2UJm=
-
-Qgqa7%25252FScreenshot%2525202026-01-21%252520at%25252018.57.52.png%253Falt=
-
-%253Dmedia%2526token%253De590f541-9e98-4dad-a1f2-8ab0c084?version=3D1&amp;m=
-
-odificationDate=3D1768998541119&amp;cacheVersion=3D1&amp;api=3Dv2" data-hei=
-
-ght=3D"72" data-width=3D"2336" data-unresolved-comment-count=3D"0" data-lin=
-
-ked-resource-id=3D"74874915" data-linked-resource-version=3D"1" data-linked=
-
--resource-type=3D"attachment" data-linked-resource-default-alias=3D"https%3=
-
-A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces=
-
-%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252FaGsXbWXu5Cl2UJmQgqa7%252FScreensh=
-
-ot%25202026-01-21%2520at%252018.57.52.png%3Falt%3Dmedia%26token%3De590f541-=
-
-9e98-4dad-a1f2-8ab0c084" data-base-url=3D"https://hertzflow.atlassian.net/w=
-
-iki" data-linked-resource-content-type=3D"image/jpeg" data-linked-resource-=
-
-container-id=3D"74743814" data-linked-resource-container-version=3D"1" data=
-
--media-id=3D"6dd8bcb3-6fbd-478a-b3d4-27479ca98be3" data-media-type=3D"file"=
-
-height=3D"7"\>\</span\>
-
-\<p local-id=3D"4b0e9c75-fd7f-4432-a49f-f88d97c7a39e"\>Image options\</p\>
-
-\<ul local-id=3D"6f5acdd8-8ce0-4d36-80f3-6ac95545a959"\>
-
-\<li local-id=3D"4b528cd4-5e04-41bf-aaf1-a83b4e0114f1"\>
-
-\<p local-id=3D"a70b154c-aaf2-4353-be35-14de9e4edbad"\>\<strong\>Open HertzFlow=
-
-dapp\</strong\> and click \<strong\>Connect\</strong\> (top right).\</p\>\</li\>
-
-\<li local-id=3D"dc7489bc-bfd0-4ede-829b-0e7e04709244"\>
-
-\<p local-id=3D"f110e3a6-7179-470c-a664-1fb6a02dc929"\>\<strong\>Select network=
-
-:\</strong\> For testing, you will be connected to\<strong\> BNB\</strong\> \<stro=
-
-ng\>Testnet\</strong\> by default.\</p\>\</li\>
-
-\<li local-id=3D"e53aa915-07b2-4079-ab4d-9546a1a63a30"\>
-
-\<p local-id=3D"8213a3d8-9b8a-45ad-bc46-4cea04f70fae"\>\<strong\>Claim Faucets:=
-
-\</strong\> For testing, you can claim faucets on the top right corner by cli=
-
-cking the Claim Faucet button.\</p\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"26853607-c064-45d1-ad04-1a7b93e2dd32"\>\<em\>Your wallet connec=
-
-tion persists across sessions. HertzFlow never requests your private keys o=
-
-r seed phrase.\</em\>\</p\>
-
-\<p local-id=3D"442e3842-e9db-4dee-902d-ef63d305bbcb"\>3\</p\>
-
-\<p local-id=3D"d89bd7f6-4689-4684-a0b3-05c77af841ae"\>Insert a new step\</p\>
-
-\<p local-id=3D"517e361d-f8ea-4dfa-b431-6dcf94a29222"\>\<strong\>Funding your a=
-
-ccount\</strong\>\</p\>
-
-\<ul local-id=3D"d07fb301-c2f9-44f0-b97c-df0658a23616"\>
-
-\<li local-id=3D"58cc6273-e422-4c14-a5a5-862607b6761a"\>
-
-\<p local-id=3D"0e8cb160-e3bd-4871-a7e3-1e2aca2cc23d"\>\<strong\>If you already=
-
-hold USDC on BNB Chain: \</strong\>You're ready to trade or provide liquidit=
-
-y\. Ensure you maintain sufficient BNB for gas fees (=E2=89=A5 0.01 BNB reco=
-
-mmended).\</p\>\</li\>
-
-\<li local-id=3D"e69e2e61-2c95-489f-b1e9-6ceaba157255"\>
-
-\<p local-id=3D"26eec12c-875e-4a29-9dd8-126ea30e262e"\>\<strong\>If transferrin=
-
-g from another chain or CEX:\</strong\>\</p\>
-
-\<ul local-id=3D"a91723a1-4490-44eb-b419-a6aeea02d5c0"\>
-
-\<li local-id=3D"87e762b0-a9c6-432a-b97a-ef469fa2816f"\>
-
-\<p local-id=3D"4ba5f29e-bb57-49b5-8c00-cbfce4875f4f"\>\<strong\>Bridge assets\<=
-
-/strong\>: Use your preferred bridge service to transfer USDC to BNB Chain\</=
-
-p\>\</li\>
-
-\<li local-id=3D"6aaf6429-b987-4866-9f39-e2c6bfe06c9b"\>
-
-\<p local-id=3D"d50555d6-040d-44f1-b36f-cb2222c1eefa"\>\<strong\>Withdraw from =
-
-CEX\</strong\>: When withdrawing, select BNB Chain (BSC) as the network\</p\>\</=
-
-li\>
-
-\<li local-id=3D"eb0d76c2-1138-4c31-b93c-b4ba5b3ba8fb"\>
-
-\<p local-id=3D"12e8828a-ce4b-4400-a0f7-a827a585baa5"\>\<strong\>Verify network=
-
-\</strong\>: Ensure you're sending to BNB Chain, not Ethereum or other networ=
-
-ks\</p\>\</li\>
-
-\<li local-id=3D"0bc23846-ef01-4d15-b045-9b18f318043a"\>
-
-\<p local-id=3D"f9a2ab13-7ac9-42dd-9bfa-930a26d973f2"\>\<strong\>Check contract=
-
-addresses\</strong\>: USDC contract addresses differ across chains=E2=80=94v=
-
-erify you're receiving the correct BNB Chain USDC\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"7a6478c9-c18f-442a-83c4-62b7487e40fb"\>\<em\>Cross-chain transf=
-
-ers require time and may involve swap fees. Always verify token symbols and=
-
-destination networks before sending.\</em\>\</p\>
-
-\<h2 local-id=3D"230dee8a-1806-4ffc-bae4-0245249ac62a" id=3D"ProductDocs-Tra=
-
-ding"\>Trading\</h2\>
-
-\<p local-id=3D"dfaa55e0-7b26-4c58-807e-79625cee2beb"\>1\</p\>
-
-\<p local-id=3D"8beaa7da-b18f-4612-b7ba-a48dedef7ab6"\>Insert a new step\</p\>
-
-\<h2 local-id=3D"99752d2a-6f85-4b2f-8386-cb92d75a0d26" id=3D"ProductDocs-Sel=
-
-ectamarket"\>\<strong\>Select a market\</strong\>\</h2\>\<span class=3D"confluence-=
-
-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"=
-
-\>\<img class=3D"confluence-embedded-image image-center" width=3D"250" loadin=
-
-g=3D"lazy" src=3D"48f8fa0a265eadb4c7aa5f98c3e945ab494bb9cceac6c52e507532803=
-
-4908eb3" data-image-src=3D"https://hertzflow.atlassian.net/wiki/download/at=
-
-tachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fg=
-
-itbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252=
-
-Fuploads%25252FxH8VRzMbtrVkK9K3qS4x%25252FScreenshot%2525202026-01-21%25252=
-
-0at%25252019.08.22.png%253Falt%253Dmedia%2526token%253D5e6be949-8438-4d32-b=
-
-b8e-c3f2b57c?version=3D1&amp;modificationDate=3D1768998424229&amp;cacheVers=
-
-ion=3D1&amp;api=3Dv2" data-height=3D"826" data-width=3D"1870" data-unresolv=
-
-ed-comment-count=3D"0" data-linked-resource-id=3D"74580022" data-linked-res=
-
-ource-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-re=
-
-source-default-alias=3D"https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-=
-
-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252FxH=
-
-8VRzMbtrVkK9K3qS4x%252FScreenshot%25202026-01-21%2520at%252019.08.22.png%3F=
-
-alt%3Dmedia%26token%3D5e6be949-8438-4d32-bb8e-c3f2b57c" data-base-url=3D"ht=
-
-tps://hertzflow.atlassian.net/wiki" data-linked-resource-content-type=3D"im=
-
-age/jpeg" data-linked-resource-container-id=3D"74743814" data-linked-resour=
-
-ce-container-version=3D"1" data-media-id=3D"25d477e5-56cf-4f11-b7b7-c7f7e83=
-
-6709d" data-media-type=3D"file" height=3D"110"\>\</span\>
-
-\<p local-id=3D"9bea8723-d449-48eb-b898-8df79fc77897"\>Image options\</p\>
-
-\<ul local-id=3D"ba7cb9af-b8b5-425a-81ab-3fe6740afc94"\>
-
-\<li local-id=3D"c0560ae1-e25e-4d6d-a8c6-ac813b2cbd0b"\>
-
-\<p local-id=3D"a333457f-ef7e-46f7-8871-d6dd61788afb"\>Click the \<strong\>Mark=
-
-et dropdown\</strong\> in the top navigation. Browse available markets or use=
-
-the search function. Filter by asset class: Crypto, Forex, Equities, Indic=
-
-es, Commodities, or Meme. Click on a market to view its market info.\</p\>\</l=
-
-i\>
-
-\</ul\>
-
-\<h3 local-id=3D"51547289-3ae1-4d50-9e1f-fee4cbd05b96" id=3D"ProductDocs-Mar=
-
-ketInformation:"\>\<strong\>Market Information:\</strong\>\</h3\>
-
-\<ul local-id=3D"df65e6f1-0aa9-41b2-8b27-af5f021d61d7"\>
-
-\<li local-id=3D"72f7179a-ced6-45b8-8414-91f309464187"\>
-
-\<p local-id=3D"e3e3b30f-d3f5-4f6d-97da-a4a9b05ccae2"\>\<strong\>Mark Price\</st=
-
-rong\>: Current oracle price with 24-hour change percentage\</p\>\</li\>
-
-\<li local-id=3D"ae050fd3-eb03-4eb2-9bad-03e6cf9a24b8"\>
-
-\<p local-id=3D"24681dec-9827-4386-8ce8-057cdbcb63b8"\>\<strong\>24h High/Low\</=
-
-strong\>: Last traded price range over the last 24 hours\</p\>\</li\>
-
-\<li local-id=3D"3fc10e89-138c-42c7-8e55-7c4a49b97d1c"\>
-
-\<p local-id=3D"4d186b73-9f73-4429-a44a-eb30b7cb4820"\>\<strong\>Available Liqu=
-
-idity (L/S)\</strong\>: Remaining capacity for long and short positions\</p\>\</=
-
-li\>
-
-\<li local-id=3D"a6b40ea9-08d7-4d64-a385-2d9f8a676f62"\>
-
-\<p local-id=3D"561f834c-014b-4784-92c4-1c127f1a9f77"\>\<strong\>Open Interest =
-
-(L/S)\</strong\>: Total notional value of active positions per side\</p\>\</li\>
-
-\<li local-id=3D"bd3a0b27-e4fb-4100-a7ff-6d8bbb9fa3f3"\>
-
-\<p local-id=3D"767b42ba-bde6-41c6-b5ad-e9fe3b0695ce"\>\<strong\>1h Net Rate (L=
-
-/S)\</strong\>: Combined funding and borrow rate per hour\</p\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"47c628ab-411c-46e5-a1dd-90eab9d70d42"\>\<em\>Markets with a red=
-
-dot label indicates \<strong\>Market\</strong\> \<strong\>Closed\</strong\>, and a=
-
-re temporarily unavailable during off-market hours (applies to certain real=
-
-world assets).\</em\>\</p\>
-
-\<p local-id=3D"3ea5a183-3b43-4209-b2e6-6f936021e1ee"\>2\</p\>
-
-\<p local-id=3D"9ad8576f-e4b8-4620-862e-c8ef49b9e895"\>Insert a new step\</p\>
-
-\<h2 local-id=3D"dfe4b28e-9ba2-4550-a511-bc9fdb609c43" id=3D"ProductDocs-Fil=
-
-linorderform"\>\<strong\>Fill in order form\</strong\>\</h2\>\<span class=3D"conflu=
-
-ence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-=
-
-size"\>\<img class=3D"confluence-embedded-image image-center" width=3D"250" l=
-
-oading=3D"lazy" src=3D"3181013df4311bd889931e750994ac36b62ae54c60d9faef3905=
-
-d1e0925719c4" data-image-src=3D"https://hertzflow.atlassian.net/wiki/downlo=
-
-ad/attachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%=
-
-252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%=
-
-25252Fuploads%25252F8HDX2RNUJvI7mIGLKrhp%25252FScreenshot%2525202026-01-21%=
-
-252520at%25252019.16.12.png%253Falt%253Dmedia%2526token%253Def104dbe-dc5b-4=
-
-fbc-9c51-20b8a11f?version=3D1&amp;modificationDate=3D1768998424248&amp;cach=
-
-eVersion=3D1&amp;api=3Dv2" data-height=3D"1040" data-width=3D"754" data-unr=
-
-esolved-comment-count=3D"0" data-linked-resource-id=3D"74580029" data-linke=
-
-d-resource-version=3D"1" data-linked-resource-type=3D"attachment" data-link=
-
-ed-resource-default-alias=3D"https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgit=
-
-book-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%2=
-
-52F8HDX2RNUJvI7mIGLKrhp%252FScreenshot%25202026-01-21%2520at%252019.16.12.p=
-
-ng%3Falt%3Dmedia%26token%3Def104dbe-dc5b-4fbc-9c51-20b8a11f" data-base-url=
-
-=3D"https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type=
-
-=3D"image/jpeg" data-linked-resource-container-id=3D"74743814" data-linked-=
-
-resource-container-version=3D"1" data-media-id=3D"3b6da6a3-0d29-4b4c-8651-7=
-
-3ca6ca2bb3f" data-media-type=3D"file" height=3D"345"\>\</span\>
-
-\<p local-id=3D"31b05deb-cdb3-4269-98c9-0239e0d0a5cd"\>Image options\</p\>
-
-\<ul local-id=3D"10098420-83ff-42ae-a7d5-1dd303f4825d"\>
-
-\<li local-id=3D"0622873f-a001-4f8f-a42d-c54a964239a7"\>
-
-\<p local-id=3D"05e888b7-6ddd-45db-9b16-5053e3e9ade7"\>\<strong\>Side\</strong\>:=
-
-\<strong\>Long\</strong\> (expect price to rise) or \<strong\>Short\</strong\> (ex=
-
-pect price to fall).\</p\>\</li\>
-
-\<li local-id=3D"41dcd759-e9da-4588-945a-9a3e8455d477"\>
-
-\<p local-id=3D"16910bc2-387f-44b2-a6f3-0541db02c2bb"\>\<strong\>Order type\</st=
-
-rong\>:\</p\>
-
-\<ul local-id=3D"e4917f3a-ff67-46f7-b05d-028eb6de4204"\>
-
-\<li local-id=3D"6b5880a2-a9d4-4e4a-b484-fff280c74f06"\>
-
-\<p local-id=3D"c6c7b952-4c31-4703-80f0-6ebe8c016ea0"\>\<strong\>Market\</strong=
-
-\>: Execute now at best available price.\</p\>\</li\>
-
-\<li local-id=3D"8fbb26f5-674f-4317-b9c0-b95dc94dcffb"\>
-
-\<p local-id=3D"470b92a2-cedc-4ced-b4b0-b1c1cac57b78"\>\<strong\>Limit\</strong\>=
-
-: Execute at your price or better.\</p\>\</li\>
-
-\<li local-id=3D"5b3fc687-3631-452a-b841-f3cf9ea74f03"\>
-
-\<p local-id=3D"2731235f-e17a-431e-9dc6-af21f3704be7"\>\<strong\>Take Profit an=
-
-d Stop Loss: \</strong\>Enter either your desired exit price, or your target =
-
-PnL%. Entry are limited such that \<strong\>PnL% is capped between\</strong\> \<=
-
-strong\>-80% and +2500%\</strong\>.\</p\>\</li\>
-
-\<li local-id=3D"04b646ac-d194-4d3f-bc8b-9849946c8408"\>
-
-\<p local-id=3D"c2d0bf17-702c-4cc9-904d-5835f01ee5b2"\>\<strong\>Collateral, Le=
-
-verage, and Size=EF=BC=9A\</strong\>\</p\>
-
-\<ul local-id=3D"79afd340-0d22-4aa5-b8a6-17c867c4805b"\>
-
-\<li local-id=3D"00884d34-bf3d-4ebc-8cca-caf53bcf0366"\>
-
-\<p local-id=3D"c5335473-992e-4cc7-8d56-d31a69ca4e92"\>\<strong\>Collateral: \</=
-
-strong\>Minimum 10 USDC\</p\>\</li\>
-
-\<li local-id=3D"03e14785-029f-403b-a40c-f09ad98c56e0"\>
-
-\<p local-id=3D"db610821-7c48-4509-a59b-607d637cbd17"\>\<strong\>Leverage: \</st=
-
-rong\>1.1x to 1000x\</p\>\</li\>
-
-\<li local-id=3D"02ac3dc4-e70e-4de4-b69c-65db0bd849cb"\>
-
-\<p local-id=3D"22d191a3-d891-41dd-ba5a-cab5ce102e7d"\>\<strong\>Size:\</strong\>=
-
-Collateral =C3=97 Leverage\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"ee170c8a-e1d3-44fc-8677-2a1ce9ba35d2"\>\<em\>Your market positi=
-
-on opens immediately. Your limit and TP/SL orders remain active in the \<str=
-
-ong\>Orders\</strong\> tab until filled or cancelled. Edit trigger prices or c=
-
-ancel orders anytime from the Orders interface. Monitor execution status vi=
-
-a the toast notification.\</em\>\</p\>
-
-\<h3 local-id=3D"df761f5f-c448-4967-951d-976bdbb4ef74" id=3D"ProductDocs-Rev=
-
-iewOrderDetails"\>\<strong\>Review Order Details\</strong\>\</h3\>
-
-\<ul local-id=3D"832b6802-829a-45c1-8af4-6f025f368816"\>
-
-\<li local-id=3D"e9ffec9f-d436-4a53-b732-d7bf997b7df7"\>
-
-\<p local-id=3D"f2309163-519a-4021-92e7-b6cd0911c25f"\>\<strong\>Entry Price\</s=
-
-trong\>: Live mark price for market orders, can be set for limit orders\</p\>\<=
-
-/li\>
-
-\<li local-id=3D"44cd83a9-6760-4e02-b731-c071769b11b1"\>
-
-\<p local-id=3D"8c05f7b6-51f3-4142-bec6-272600c150fa"\>\<strong\>Est. Liq. Pric=
-
-e:\</strong\> The estimated market price at which your position will be forci=
-
-bly closed by the protocol to prevent your collateral from falling below th=
-
-e maintenance margin requirement.\</p\>\</li\>
-
-\<li local-id=3D"18b45727-78b9-43af-a74d-7e2c549c93c2"\>
-
-\<p local-id=3D"3bc8b7e9-efa1-482b-b74c-bcc3f5eb4ca1"\>\<strong\>Fee Breakdown =
-
-(hover for details):\</strong\>\</p\>
-
-\<ul local-id=3D"73385955-4fd7-4758-a319-9f3c9c93f58b"\>
-
-\<li local-id=3D"33c8c7f2-611a-4d67-a2fe-d15a3978cb7e"\>
-
-\<p local-id=3D"b72bb1da-4470-4790-bf88-68301b537165"\>\<strong\>Open Fee\</stro=
-
-ng\>: Charged on position notional value\</p\>\</li\>
-
-\<li local-id=3D"e8eb2089-9f8e-4797-82d2-6e13b6c34f5d"\>
-
-\<p local-id=3D"253a4b36-9a93-4eab-8178-439b1039f177"\>\<strong\>Borrow Fee\</st=
-
-rong\>: Accrues hourly based on position size\</p\>\</li\>
-
-\<li local-id=3D"52176592-a09e-441f-9ec6-4575bb11b74f"\>
-
-\<p local-id=3D"82b48434-7805-4294-9072-3debf38d0876"\>\<strong\>Funding Fee\</s=
-
-trong\>: Paid/received based on market imbalance\</p\>\</li\>
-
-\<li local-id=3D"212ffc9b-a157-4d3f-b0b9-b70c7cb44828"\>
-
-\<p local-id=3D"a99f40e5-6764-41e1-9bc6-f2dfa8fb1f45"\>\<strong\>Price Impact\</=
-
-strong\>: Zero at entry, settles at position closure\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li local-id=3D"64218f54-5efc-4b3e-b146-da0552b0636e"\>
-
-\<p local-id=3D"39ad6dea-7254-47e8-a0cc-0c66f74ce79b"\>\<strong\>Slippage Toler=
-
-ance\</strong\>: Accepted price difference between execution price and entry =
-
-price\</p\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"7bc1c71c-2e7d-4860-b78f-8faed23c1ceb"\>\<em\>Higher slippage to=
-
-lerance increases execution probability during volatility but allows larger=
-
-price deviations.\</em\>\</p\>
-
-\<p local-id=3D"00bb32e0-f42a-4bda-a605-06ef5a34e6bb"\>3\</p\>
-
-\<p local-id=3D"c738b210-4d3a-4c2f-8e65-009f7ac8845a"\>Insert a new step\</p\>
-
-\<h2 local-id=3D"ee0e77b8-366b-4049-bf7c-3d940dab3b3b" id=3D"ProductDocs-Tra=
-
-ckorderstatus"\>\<strong\>Track order status\</strong\>\</h2\>\<span class=3D"confl=
-
-uence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual=
-
--size"\>\<img class=3D"confluence-embedded-image image-center" width=3D"250" =
-
-loading=3D"lazy" src=3D"6e49b6137fab1a60726bc033e6f76082c9afa83087588029e9a=
-
-767473781bea8" data-image-src=3D"https://hertzflow.atlassian.net/wiki/downl=
-
-oad/attachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb=
-
-%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP=
-
-%25252Fuploads%25252FHcfGksQ3O45euDhEBy2X%25252FScreenshot%2525202026-01-21=
-
-%252520at%25252019.43.51.png%253Falt%253Dmedia%2526token%253D161cbaf8-1b1a-=
-
-4977-8dbc-fd0e6ff5?version=3D1&amp;modificationDate=3D1768998424280&amp;cac=
-
-heVersion=3D1&amp;api=3Dv2" data-height=3D"410" data-width=3D"2336" data-un=
-
-resolved-comment-count=3D"0" data-linked-resource-id=3D"74580035" data-link=
-
-ed-resource-version=3D"1" data-linked-resource-type=3D"attachment" data-lin=
-
-ked-resource-default-alias=3D"https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgi=
-
-tbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%=
-
-252FHcfGksQ3O45euDhEBy2X%252FScreenshot%25202026-01-21%2520at%252019.43.51.=
-
-png%3Falt%3Dmedia%26token%3D161cbaf8-1b1a-4977-8dbc-fd0e6ff5" data-base-url=
-
-=3D"https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type=
-
-=3D"image/jpeg" data-linked-resource-container-id=3D"74743814" data-linked-=
-
-resource-container-version=3D"1" data-media-id=3D"49d4c15d-bce8-490a-90f8-0=
-
-fe5bf87783a" data-media-type=3D"file" height=3D"43"\>\</span\>
-
-\<p local-id=3D"f4e7a8dd-3c84-4540-8555-2f74d093d479"\>Image options\</p\>
-
-\<ul local-id=3D"6b2c44ca-48e7-4771-aa8a-a9dbd5b6379d"\>
-
-\<li local-id=3D"cc97e4c1-d686-4aef-a099-713e6faffce1"\>
-
-\<p local-id=3D"1c14a211-2e37-47cb-8838-9a42b60d5c99"\>\<strong\>Positions: \</s=
-
-trong\>View market position details, edit collaterals, close or share curren=
-
-t position details\</p\>\</li\>
-
-\</ul\>\<span class=3D"confluence-embedded-file-wrapper image-center-wrapper c=
-
-onfluence-embedded-manual-size"\>\<img class=3D"confluence-embedded-image ima=
-
-ge-center" width=3D"250" loading=3D"lazy" src=3D"31c9ff209b20bed2d1d8b25e4c=
-
-f93460c80623137a99ab88cee5149e455c34cb" data-image-src=3D"https://hertzflow=
-
-.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%252Ffiles=
-
-.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%2=
-
-5252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252F8UGCVfNiGptmcnERSNTi%25252FSc=
-
-reenshot%2525202026-01-21%252520at%25252019.45.25.png%253Falt%253Dmedia%252=
-
-6token%253D49f3b4e7-27e4-428f-a710-35fef681?version=3D1&amp;modificationDat=
-
-e=3D1768998424294&amp;cacheVersion=3D1&amp;api=3Dv2" data-height=3D"427" da=
-
-ta-width=3D"2336" data-unresolved-comment-count=3D"0" data-linked-resource-=
-
-id=3D"74580041" data-linked-resource-version=3D"1" data-linked-resource-typ=
-
-e=3D"attachment" data-linked-resource-default-alias=3D"https%3A%2F%2Ffiles.=
-
-gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStD=
-
-wzyOGMriEWAP%252Fuploads%252F8UGCVfNiGptmcnERSNTi%252FScreenshot%25202026-0=
-
-1-21%2520at%252019.45.25.png%3Falt%3Dmedia%26token%3D49f3b4e7-27e4-428f-a71=
-
-0-35fef681" data-base-url=3D"https://hertzflow.atlassian.net/wiki" data-lin=
-
-ked-resource-content-type=3D"image/jpeg" data-linked-resource-container-id=
-
-=3D"74743814" data-linked-resource-container-version=3D"1" data-media-id=3D=
-
-"0db47759-a085-4a82-8fcd-6fb28598c8a5" data-media-type=3D"file" height=3D"4=
-
-5"\>\</span\>
-
-\<p local-id=3D"0f0da8c6-77d5-4d84-986b-09b92bd1b484"\>Image options\</p\>
-
-\<ul local-id=3D"dd11535b-9e77-4b0d-b1c4-8d474a312698"\>
-
-\<li local-id=3D"2c717af8-e55d-4bb3-a575-722b6184db5e"\>
-
-\<p local-id=3D"45e9df25-96ff-4a2c-9364-c827774f93fc"\>\<strong\>Orders:\</stron=
-
-g\> Any open orders that have not yet been executed. You can also adjust lim=
-
-it/trigger price or cancel (all) orders in this tab.\</p\>\</li\>
-
-\</ul\>\<span class=3D"confluence-embedded-file-wrapper image-center-wrapper c=
-
-onfluence-embedded-manual-size"\>\<img class=3D"confluence-embedded-image ima=
-
-ge-center" width=3D"250" loading=3D"lazy" src=3D"efcee6cc32baba8731393ed0ba=
-
-d6e7e53ac486682c72c15f050e754162ae8cf9" data-image-src=3D"https://hertzflow=
-
-.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%252Ffiles=
-
-.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%2=
-
-5252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252F7RKBsYYklYR9yXzACSAl%25252FSc=
-
-reenshot%2525202026-01-21%252520at%25252019.44.28.png%253Falt%253Dmedia%252=
-
-6token%253D0198502d-7269-4a6c-9727-c9fce33b?version=3D1&amp;modificationDat=
-
-e=3D1768998424308&amp;cacheVersion=3D1&amp;api=3Dv2" data-height=3D"485" da=
-
-ta-width=3D"2336" data-unresolved-comment-count=3D"0" data-linked-resource-=
-
-id=3D"74580047" data-linked-resource-version=3D"1" data-linked-resource-typ=
-
-e=3D"attachment" data-linked-resource-default-alias=3D"https%3A%2F%2Ffiles.=
-
-gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStD=
-
-wzyOGMriEWAP%252Fuploads%252F7RKBsYYklYR9yXzACSAl%252FScreenshot%25202026-0=
-
-1-21%2520at%252019.44.28.png%3Falt%3Dmedia%26token%3D0198502d-7269-4a6c-972=
-
-7-c9fce33b" data-base-url=3D"https://hertzflow.atlassian.net/wiki" data-lin=
-
-ked-resource-content-type=3D"image/jpeg" data-linked-resource-container-id=
-
-=3D"74743814" data-linked-resource-container-version=3D"1" data-media-id=3D=
-
-"e8f1db1c-071b-4551-a3e4-6c06f2b951e5" data-media-type=3D"file" height=3D"5=
-
-1"\>\</span\>
-
-\<p local-id=3D"aaeb761e-1138-43a6-965b-8c25894cb508"\>Image options\</p\>
-
-\<ul local-id=3D"23c6eae4-ca69-467d-8aef-01fe786a2647"\>
-
-\<li local-id=3D"476fb443-19ae-49c1-b73c-3c36252ce517"\>
-
-\<p local-id=3D"89f33d59-e279-4adf-8281-a92420e7d44d"\>\<strong\>History:\</stro=
-
-ng\> Archive of all trades that have been fully executed.\</p\>\</li\>
-
-\</ul\>\<span class=3D"confluence-embedded-file-wrapper image-center-wrapper c=
-
-onfluence-embedded-manual-size"\>\<img class=3D"confluence-embedded-image ima=
-
-ge-center" width=3D"250" loading=3D"lazy" src=3D"1390b103d6d8ebf80edbae4f60=
-
-fa72099d5925d5e5aacd1195b75b121dd5bacb" data-image-src=3D"https://hertzflow=
-
-.atlassian.net/wiki/download/attachments/74743814/https%253A%252F%252Ffiles=
-
-.gitbook.com%252Fv0%252Fb%252Fgitbook-x-prod.appspot.com%252Fo%252Fspaces%2=
-
-5252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25252FXcIB5iAFo0QeZtO0Rq12%25252FSc=
-
-reenshot%2525202026-01-21%252520at%25252019.44.38.png%253Falt%253Dmedia%252=
-
-6token%253Db3b786aa-e44f-4e30-8167-a9a94a34?version=3D1&amp;modificationDat=
-
-e=3D1768998424322&amp;cacheVersion=3D1&amp;api=3Dv2" data-height=3D"326" da=
-
-ta-width=3D"2336" data-unresolved-comment-count=3D"0" data-linked-resource-=
-
-id=3D"74580053" data-linked-resource-version=3D"1" data-linked-resource-typ=
-
-e=3D"attachment" data-linked-resource-default-alias=3D"https%3A%2F%2Ffiles.=
-
-gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStD=
-
-wzyOGMriEWAP%252Fuploads%252FXcIB5iAFo0QeZtO0Rq12%252FScreenshot%25202026-0=
-
-1-21%2520at%252019.44.38.png%3Falt%3Dmedia%26token%3Db3b786aa-e44f-4e30-816=
-
-7-a9a94a34" data-base-url=3D"https://hertzflow.atlassian.net/wiki" data-lin=
-
-ked-resource-content-type=3D"image/jpeg" data-linked-resource-container-id=
-
-=3D"74743814" data-linked-resource-container-version=3D"1" data-media-id=3D=
-
-"3856a88e-012a-4850-b6e7-6288a4f70c05" data-media-type=3D"file" height=3D"3=
-
-4"\>\</span\>
-
-\<p local-id=3D"6cefd999-6165-4779-8c40-1acc56893685"\>Image options\</p\>
-
-\<ul local-id=3D"da2d29bf-acd2-4538-b058-c7f1eaf96d86"\>
-
-\<li local-id=3D"85909e9d-a007-4716-9d2b-5c31e6e62186"\>
-
-\<p local-id=3D"fdeb6a23-e293-4826-806e-0504881d6e64"\>\<strong\>Claim: \</stron=
-
-g\>Funding fees and price impact rebates accumulate during trading and becom=
-
-e claimable after position closure. Click \<strong\>Claim All\</strong\> to cla=
-
-im all fees at once, or click individual \<strong\>Claim\</strong\> buttons for=
-
-specific fee types\</p\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"9ddc965f-373c-4cfb-8875-1cdbe118ccfa"\>4\</p\>
-
-\<p local-id=3D"38b5d5cc-914c-4500-8923-ddad81bdb867"\>Insert a new step\</p\>
-
-\<h2 local-id=3D"32d195fa-2f89-4c76-8ca0-2513bb081dfe" id=3D"ProductDocs-Man=
-
-agePositions"\>\<strong\>Manage Positions\</strong\>\</h2\>
-
-\<h3 local-id=3D"ac7a14b7-25a4-4a27-b0c7-471837b6a252" id=3D"ProductDocs-Edi=
-
-tCollateral"\>\<strong\>Edit Collateral\</strong\>\</h3\>\<span class=3D"confluence=
-
--embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size=
-
-"\>\<img class=3D"confluence-embedded-image image-center" width=3D"250" loadi=
-
-ng=3D"lazy" src=3D"57efd304cb82fe8f086efd8df98d27cdd7b8f16992e6220a2d379283=
-
-c531a831" data-image-src=3D"https://hertzflow.atlassian.net/wiki/download/a=
-
-ttachments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252F=
-
-gitbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%2525=
-
-2Fuploads%25252F430UfGc2Xpd3n5HBW64x%25252FScreenshot%2525202026-01-21%2525=
-
-20at%25252019.57.43.png%253Falt%253Dmedia%2526token%253D7cefa2f3-fcbc-4f6d-=
-
-b37a-d564d9d2?version=3D1&amp;modificationDate=3D1768998424336&amp;cacheVer=
-
-sion=3D1&amp;api=3Dv2" data-height=3D"1016" data-width=3D"910" data-unresol=
-
-ved-comment-count=3D"0" data-linked-resource-id=3D"74580059" data-linked-re=
-
-source-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-r=
-
-esource-default-alias=3D"https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook=
-
--x-prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252F4=
-
-30UfGc2Xpd3n5HBW64x%252FScreenshot%25202026-01-21%2520at%252019.57.43.png%3=
-
-Falt%3Dmedia%26token%3D7cefa2f3-fcbc-4f6d-b37a-d564d9d2" data-base-url=3D"h=
-
-ttps://hertzflow.atlassian.net/wiki" data-linked-resource-content-type=3D"i=
-
-mage/jpeg" data-linked-resource-container-id=3D"74743814" data-linked-resou=
-
-rce-container-version=3D"1" data-media-id=3D"7bbf83e9-fc18-44e3-b6a6-a862f7=
-
-84d5e0" data-media-type=3D"file" height=3D"279"\>\</span\>
-
-\<p local-id=3D"ad0ebf3f-5792-4a8b-bdbf-db362166119e"\>Image options\</p\>
-
-\<ul local-id=3D"775bf466-bfa6-4485-afd5-5ec2f0f7f9c7"\>
-
-\<li local-id=3D"e6245a73-d199-49ef-9e25-3e3f2c8aef2a"\>
-
-\<p local-id=3D"bdc42888-cffe-42ed-afc6-9f8bd8e9629b"\>\<strong\>Adjust Collate=
-
-ral: \</strong\>Add or remove collateral without changing size\</p\>\</li\>
-
-\<li local-id=3D"1e394481-ebd0-4044-8aea-aac7f9458b91"\>
-
-\<p local-id=3D"17bead9f-cf8c-48ed-88f7-efb39f6b6660"\>\<strong\>Collateral Edi=
-
-t Limit: \</strong\>Collaterals are bounded\<strong\> \</strong\>such that\</p\>
-
-\<ul local-id=3D"a7ccf916-79cd-4955-b5a1-5f1701cabb66"\>
-
-\<li local-id=3D"0f9f8803-cb1f-4b2c-a50c-da95b2fd411c"\>
-
-\<p local-id=3D"91d83b30-81cb-4e1b-9fff-1610e6b4194f"\>\<strong\>Deposit:\</stro=
-
-ng\> 10 USDC =E2=89=A4 Deposit &lt; The collateral size that reduces leverag=
-
-e below \<strong\>Min Leverage 1.1x\</strong\>\</p\>\</li\>
-
-\<li local-id=3D"1f7e00d1-2bee-43c9-a6b0-3ab5258eda10"\>
-
-\<p local-id=3D"24624c9e-8a8f-46b5-b8a5-9e7e578d5060"\>\<strong\>Withdraw:\</str=
-
-ong\> Residual remains above 10 USDC, and Withdrawal &lt; The collateral siz=
-
-e that pushes leverage above \<strong\>Max Leverage 100x\</strong\>\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"cfe8796e-6bb1-48b2-9315-6f77eaf474ba"\>\<em\>Adding collateral =
-
-improves liquidation price and expands TP/SL price boundaries. Vice versa f=
-
-or remocing collateral.\</em\>\</p\>
-
-\<h3 local-id=3D"953040a2-add3-4623-b2bc-1a045256973c" id=3D"ProductDocs-Pos=
-
-itionIncrease"\>\<strong\>Position Increase\</strong\>\</h3\>
-
-\<ul local-id=3D"71b343e5-1966-4901-8805-f0648b8c12e0"\>
-
-\<li local-id=3D"2dcc458b-26a0-4a79-b94c-5b1cdd998164"\>
-
-\<p local-id=3D"8c0faa91-03c7-4fc1-91e5-63e4c5117bb1"\>Open an additional ord=
-
-er in the same direction on the same market. The system merges positions, r=
-
-ecalculating entry price as a weighted average and adjusting leverage based=
-
-on new total collateral.\</p\>\</li\>
-
-\</ul\>
-
-\<h3 local-id=3D"ba5e345b-2bd4-48c2-b472-06fa5ebf24ec" id=3D"ProductDocs-Pos=
-
-itionDecrease"\>\<strong\>Position Decrease\</strong\>\</h3\>
-
-\<p local-id=3D"f62fe579-2ba1-498f-9364-5418e3ee4303"\>Click Close on the pos=
-
-ition row. Choose Market or Trigger Price close.\</p\>
-
-\<p local-id=3D"a58db40b-5b01-45c6-be52-e4c61882c538"\>Market Close: Partial =
-
-or full exposure reduction. Fees apply only to the closed notional; funding=
-
-/borrow accrual adjusts pro-rata.\</p\>
-
-\<p local-id=3D"66adeb30-0487-4ebc-81e7-4a6b564a1915"\>Trigger Close (TP/SL):=
-
-Partial or full exposure reduction only when market price reaches or bette=
-
-rs set TP/SL price. Price is bounded by PnL% cap.\</p\>
-
-\<p local-id=3D"70190747-bb7a-418a-996b-d1777f3aca77"\>Liquidation: If trigge=
-
-red by keepers, a liquidation fee is applied and remaining collateral settl=
-
-es per protocol rules.\</p\>
-
-\<p local-id=3D"739525cb-6f5f-438f-b077-8090f1929fd4"\>Keep Leverage:\</p\>
-
-\<p local-id=3D"71abdfa6-0afe-4a09-9c79-b2ca5e3bed4b"\>Off (default): Reduces=
-
-size while maintaining collateral (deleverages)\</p\>
-
-\<p local-id=3D"610aaca3-2ad7-4086-89bf-29723ff679cb"\>On: Reduces size and c=
-
-ollateral proportionally (maintains leverage)\</p\>
-
-\<p local-id=3D"82718985-730d-4361-8c29-ad11f5b0a87e"\>Edit Orders\</p\>
-
-\<p local-id=3D"5d533a97-cc52-44bb-b7c9-dc85d4ee8877"\>Click the edit icon ne=
-
-xt to the order to modify limit order or TP/SL trigger prices without cance=
-
-lling.\</p\>
-
-\<p local-id=3D"5c539aa7-ac38-4d88-8e47-dafaa8ef82bc"\>Limit / Trigger Price =
-
-Edit Limit:\</p\>
-
-\<p local-id=3D"386f6aab-fe15-4a70-a717-9a7a82116c31"\>Limit orders: favorabl=
-
-e to current mark price\</p\>
-
-\<p local-id=3D"746eb3e3-6bb7-4ff7-8403-d29153aae463"\>TP orders: within +250=
-
-0% PnL cap\</p\>
-
-\<p local-id=3D"7dd614e4-5dab-4433-abd2-79b5e78e9197"\>SL orders: within -80%=
-
-PnL cap\</p\>
-
-\<p local-id=3D"c126d30e-1a7c-488e-8745-35b2767ec5a4"\>Cancelling Orders: Rem=
-
-ove unwanted pending orders in the Orders tab. Click the cancel icon on the=
-
-order row, or click Cancel All to remove all active orders.\</p\>
-
-\<p local-id=3D"af8e3ff3-d7a5-47ae-960c-6c355dfe75f6"\>Cancelled limit orders=
-
-return reserved collateral. Cancelled TP/SL orders simply remove triggers =
-
-without affecting positions.\</p\>
-
-\<h2 local-id=3D"565fed35-a768-4d65-a989-f0a7fbea8f37" id=3D"ProductDocs-Liq=
-
-uidity"\>Liquidity\</h2\>
-
-\<p local-id=3D"1524cb4b-ea59-47db-99e2-2673b0467589"\>1\</p\>
-
-\<p local-id=3D"732af69c-b33d-417c-abde-e806ae8e1faf"\>Insert a new step\</p\>
-
-\<h2 local-id=3D"f7bf3265-16ca-4334-85f4-c520c79b393f" id=3D"ProductDocs-Sel=
-
-ectingaPool/Vault"\>Selecting a Pool/Vault\</h2\>\<span class=3D"confluence-emb=
-
-edded-file-wrapper image-center-wrapper confluence-embedded-manual-size"\>\<i=
-
-mg class=3D"confluence-embedded-image image-center" width=3D"250" loading=
-
-=3D"lazy" src=3D"89ca7a94791c63eb5b2d163df7a558016fe7fa079baf0b85a9ab21dbd4=
-
-97a644" data-image-src=3D"https://hertzflow.atlassian.net/wiki/download/att=
-
-achments/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgi=
-
-tbook-x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252F=
-
-uploads%25252FmP0XggqMdZbAsc2AuyOh%25252FScreenshot%2525202026-01-21%252520=
-
-at%25252020.30.45.png%253Falt%253Dmedia%2526token%253D78a57f22-57f9-4233-90=
-
-54-e2930e47?version=3D1&amp;modificationDate=3D1768999480971&amp;cacheVersi=
-
-on=3D1&amp;api=3Dv2" data-height=3D"787" data-width=3D"2336" data-unresolve=
-
-d-comment-count=3D"0" data-linked-resource-id=3D"74874925" data-linked-reso=
-
-urce-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-res=
-
-ource-default-alias=3D"https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x=
-
--prod.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252FmP0=
-
-XggqMdZbAsc2AuyOh%252FScreenshot%25202026-01-21%2520at%252020.30.45.png%3Fa=
-
-lt%3Dmedia%26token%3D78a57f22-57f9-4233-9054-e2930e47" data-base-url=3D"htt=
-
-ps://hertzflow.atlassian.net/wiki" data-linked-resource-content-type=3D"ima=
-
-ge/jpeg" data-linked-resource-container-id=3D"74743814" data-linked-resourc=
-
-e-container-version=3D"1" data-media-id=3D"27e34b95-b55b-47e7-a4e3-e7c820f7=
-
-1fd1" data-media-type=3D"file" height=3D"84"\>\</span\>
-
-\<p local-id=3D"4e2a396f-f9da-436a-bdc4-f92bde5bed56"\>Image options\</p\>
-
-\<ul local-id=3D"406a3b6a-10dd-44fc-bc14-f52515a371df"\>
-
-\<li local-id=3D"015fbf63-51e4-4ec2-b90a-1b52f5eab23d"\>
-
-\<p local-id=3D"b52237c0-2216-4961-82fb-a904e4e145c5"\>Browse the pool/vault =
-
-list or use search to find specific markets\</p\>\</li\>
-
-\<li local-id=3D"5f4a903a-0747-4076-94ea-981dbaea6726"\>
-
-\<p local-id=3D"79f8d6b5-f431-4a91-ae0c-f8fc797ba4a4"\>Filter by asset class:=
-
-Crypto, Forex, Equities, Indices, Commodities, or Meme\</p\>\</li\>
-
-\<li local-id=3D"1673006e-0fd1-4e7b-b3ba-f83d86f88385"\>
-
-\<p local-id=3D"16144160-ee5b-4191-88d5-e837e1cba2dd"\>Toggle \<strong\>In Wall=
-
-et\</strong\> to show only pools where you hold HzLP tokens\</p\>\</li\>
-
-\<li local-id=3D"0c50d905-7549-4980-87eb-6ea77ec512e3"\>
-
-\<p local-id=3D"b4218680-42d7-4df0-8725-ee196b8e0f8f"\>Click on a pool row to=
-
-view its detail page\</p\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"db8e4de0-414d-4513-af66-77954f8e7134"\>2\</p\>
-
-\<p local-id=3D"be2f7885-28ce-4225-8d12-182da1da0467"\>Insert a new step\</p\>
-
-\<h2 local-id=3D"1e44cb30-8ac9-4166-9c63-d76fac5afc65" id=3D"ProductDocs-Liq=
-
-uidityOperations"\>Liquidity Operations\</h2\>\<span class=3D"confluence-embedd=
-
-ed-file-wrapper image-center-wrapper confluence-embedded-manual-size"\>\<img =
-
-class=3D"confluence-embedded-image image-center" width=3D"250" loading=3D"l=
-
-azy" src=3D"eb98910f6a511c9585e26c9b36c5c8f5f82896f10816f42a9a8ee74f40afe88=
-
-b" data-image-src=3D"https://hertzflow.atlassian.net/wiki/download/attachme=
-
-nts/74743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook=
-
--x-prod.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploa=
-
-ds%25252FlBWyNpftQIpYqeipJ0S9%25252FScreenshot%2525202026-01-21%252520at%25=
-
-252020.35.15.png%253Falt%253Dmedia%2526token%253D800050f4-a27b-413d-afd2-a9=
-
-32f743?version=3D1&amp;modificationDate=3D1768999480989&amp;cacheVersion=3D=
-
-1&amp;api=3Dv2" data-height=3D"1122" data-width=3D"768" data-unresolved-com=
-
-ment-count=3D"0" data-linked-resource-id=3D"74874931" data-linked-resource-=
-
-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource=
-
--default-alias=3D"https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod=
-
-.appspot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252FlBWyNpft=
-
-QIpYqeipJ0S9%252FScreenshot%25202026-01-21%2520at%252020.35.15.png%3Falt%3D=
-
-media%26token%3D800050f4-a27b-413d-afd2-a932f743" data-base-url=3D"https://=
-
-hertzflow.atlassian.net/wiki" data-linked-resource-content-type=3D"image/jp=
-
-eg" data-linked-resource-container-id=3D"74743814" data-linked-resource-con=
-
-tainer-version=3D"1" data-media-id=3D"7214dd76-254a-498c-97ee-438c63dd6df0"=
-
-data-media-type=3D"file" height=3D"365"\>\</span\>
-
-\<p local-id=3D"4e333144-492b-4ff6-a0fa-3f421a8e8f53"\>Image options\</p\>
-
-\<h3 local-id=3D"cec7172c-03a8-49ba-93de-5b4905a1bc14" id=3D"ProductDocs-Dep=
-
-ositingLiquidity"\>Depositing Liquidity\</h3\>
-
-\<ul local-id=3D"39cae6c0-b559-4419-bfa7-157d7e4337e4"\>
-
-\<li local-id=3D"0687b52e-9bc5-43a1-a6de-c2bb89f83bad"\>
-
-\<p local-id=3D"27d7453e-4de0-49be-b416-287f430386b4"\>Navigate to the desire=
-
-d market pool and select the Deposit tab. Enter your USDC amount, with the =
-
-interface displaying:\</p\>
-
-\<ul local-id=3D"d482a02c-3737-48fd-bfe1-72c16a4fc211"\>
-
-\<li local-id=3D"245ec421-17bc-4b04-a87d-9bddcb3761de"\>
-
-\<p local-id=3D"f736f675-f8fb-4d1a-8b32-8c19811cba1d"\>\<strong\>HzLP Amount\</s=
-
-trong\>: Calculated as \<code\>Input USDC / HzLP Price\</code\>, showing tokens =
-
-you will receive\</p\>\</li\>
-
-\<li local-id=3D"252a0331-ccb1-4dee-949d-9ee5b3ddaf54"\>
-
-\<p local-id=3D"b461005e-f8de-4d8f-838e-6c921b19083b"\>\<strong\>HzLP Price\</st=
-
-rong\>: Current price per token in USDC\</p\>\</li\>
-
-\<li local-id=3D"5c2bf582-51fb-4d71-852a-a33245a66d47"\>
-
-\<p local-id=3D"cc4681e0-b14b-4aef-94c7-f5bd8269b6e8"\>\<strong\>Remaining Depo=
-
-sit Cap\</strong\>: Available capacity before hitting maximum AUM\</p\>\</li\>
-
-\<li local-id=3D"69feea31-a5ab-4543-ae75-134829154037"\>
-
-\<p local-id=3D"cc6dcde5-9206-4c04-a995-9d330834c416"\>\<strong\>Approval Statu=
-
-s\</strong\>: Whether USDC spending is approved for the contract\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li local-id=3D"78a71732-9e1e-450b-a76f-65172059f2ce"\>
-
-\<p local-id=3D"3114c5a3-8f28-4f2e-8413-7fa5905f8d91"\>\<strong\>Deposit Limit:=
-
-\</strong\>\</p\>
-
-\<ul local-id=3D"7690a98d-cc7e-4279-91c7-fce109197d6b"\>
-
-\<li local-id=3D"087a38ff-824a-421a-829b-d93338d87daf"\>
-
-\<p local-id=3D"e9d20f59-a792-4666-be84-b127e465185e"\>Deposit value must not=
-
-exceed remaining pool capacity (Max AUM - Current AUM)\</p\>\</li\>
-
-\<li local-id=3D"8dfc5625-60f7-40bf-aa7f-797611a7c8e3"\>
-
-\<p local-id=3D"b5cfb671-4038-413b-9b15-2c3b291469d1"\>Post-deposit PnL facto=
-
-r must remain compliant with configured threshold\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<h3 local-id=3D"8a4a98fd-207f-4d4d-ba0d-8b86b54eb5b9" id=3D"ProductDocs-Wit=
-
-hdrawingLiquidity"\>Withdrawing Liquidity\</h3\>
-
-\<ul local-id=3D"f7151217-a80a-49a2-8390-b500fd95bfb5"\>
-
-\<li local-id=3D"9493417c-7e5f-46e8-bb25-5f29ede99a4c"\>
-
-\<p local-id=3D"63b0360e-fe55-47f8-a477-df1b49d87382"\>Access the Withdraw ta=
-
-b and specify your HzLP token amount. The interface calculates:\</p\>
-
-\<ul local-id=3D"b9ddd24e-fc32-410c-90ec-369d106c36a9"\>
-
-\<li local-id=3D"f4585deb-af38-40fc-9940-01c7bda448e0"\>
-
-\<p local-id=3D"32a24d0e-6ae8-4272-9bfd-3fdf0dbe2c5d"\>\<strong\>USDC Amount\</s=
-
-trong\>: Calculated as \<code\>Input HzLP =C3=97 HzLP Price\</code\>, showing US=
-
-DC you will receive\</p\>\</li\>
-
-\<li local-id=3D"f645c5a2-7fc4-4848-bfc9-2d06ea255973"\>
-
-\<p local-id=3D"c428fffc-7b06-43fc-8ebd-69f5e137647e"\>\<strong\>Remaining With=
-
-drawal Cap\</strong\>: Available liquidity considering PnL and reserve constr=
-
-aints\</p\>\</li\>
-
-\<li local-id=3D"12a18486-8516-4d63-a066-f07ca9189a93"\>
-
-\<p local-id=3D"da06aae8-4be3-4939-8f0f-35e6f4349b0b"\>\<strong\>Current HzLP P=
-
-rice\</strong\>: Token value in USDC at withdrawal\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li local-id=3D"cd185b1b-8aa1-4d26-9776-4252ae3225a1"\>
-
-\<p local-id=3D"4177d17c-3616-44c2-a4db-16b140e9995d"\>\<strong\>Withdrawal Lim=
-
-it:\</strong\>\</p\>
-
-\<ul local-id=3D"828b8b45-225b-4c4d-9f1e-919ff14f826d"\>
-
-\<li local-id=3D"d2f276d7-f7a2-4eb8-8948-4c788b59a26f"\>
-
-\<p local-id=3D"fe4690e2-3a22-4eda-94b0-4260b9df6e45"\>Withdrawal value must =
-
-not violate PnL factor constraint\</p\>\</li\>
-
-\<li local-id=3D"2cd8fde8-2d41-4e81-8f75-b55db7d09744"\>
-
-\<p local-id=3D"36c03f44-93cb-4412-8c1d-ffa92830067f"\>Post-withdrawal pool m=
-
-ust maintain minimum liquidity thresholds\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"0551aed5-830e-46d3-b405-d328556af420"\>3\</p\>
-
-\<p local-id=3D"d3fbcc5c-cb02-4cbe-8171-c4e61d70884d"\>Insert a new step\</p\>
-
-\<h2 local-id=3D"c8ee4df2-bfbf-4644-a542-2b552f0e2b50" id=3D"ProductDocs-Mon=
-
-itorPositions"\>Monitor Positions\</h2\>\<span class=3D"confluence-embedded-fil=
-
-e-wrapper image-center-wrapper confluence-embedded-manual-size"\>\<img class=
-
-=3D"confluence-embedded-image image-center" width=3D"250" loading=3D"lazy" =
-
-src=3D"8306261616bbb0ab8950ea011846d9709e1efcc7dafcd81c9b545621943e9822" da=
-
-ta-image-src=3D"https://hertzflow.atlassian.net/wiki/download/attachments/7=
-
-4743814/https%253A%252F%252Ffiles.gitbook.com%252Fv0%252Fb%252Fgitbook-x-pr=
-
-od.appspot.com%252Fo%252Fspaces%25252FhOhbsStDwzyOGMriEWAP%25252Fuploads%25=
-
-252FVt7dc3SITbULkIX3Ehmi%25252FScreenshot%2525202026-01-21%252520at%2525202=
-
-0.34.26.png%253Falt%253Dmedia%2526token%253D92c52511-9724-476d-99a8-f8d769c=
-
-8?version=3D1&amp;modificationDate=3D1768999481003&amp;cacheVersion=3D1&amp=
-
-;api=3Dv2" data-height=3D"1005" data-width=3D"2336" data-unresolved-comment=
-
--count=3D"0" data-linked-resource-id=3D"74874937" data-linked-resource-vers=
-
-ion=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-def=
-
-ault-alias=3D"https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.app=
-
-spot.com%2Fo%2Fspaces%252FhOhbsStDwzyOGMriEWAP%252Fuploads%252FVt7dc3SITbUL=
-
-kIX3Ehmi%252FScreenshot%25202026-01-21%2520at%252020.34.26.png%3Falt%3Dmedi=
-
-a%26token%3D92c52511-9724-476d-99a8-f8d769c8" data-base-url=3D"https://hert=
-
-zflow.atlassian.net/wiki" data-linked-resource-content-type=3D"image/jpeg" =
-
-data-linked-resource-container-id=3D"74743814" data-linked-resource-contain=
-
-er-version=3D"1" data-media-id=3D"7b9f0258-ba0e-477e-8256-f14a03be747b" dat=
-
-a-media-type=3D"file" height=3D"107"\>\</span\>
-
-\<p local-id=3D"0c6f1ba2-2b27-4e03-a57a-27697e57c9a3"\>Image options\</p\>
-
-\<ul local-id=3D"bee4ffb3-e319-4b0f-a445-3b4e0a7791f4"\>
-
-\<li local-id=3D"834079ae-cacc-4be4-86c8-67ce47d01c1f"\>
-
-\<p local-id=3D"1ab78b1a-79a7-45dc-a5a7-e2d339d812d1"\>\<strong\>Pool Info:\</st=
-
-rong\> displays critical metrics for assessing pool health:\</p\>
-
-\<ul local-id=3D"8a9c74e0-2845-4698-8c94-7ae8cf75ec20"\>
-
-\<li local-id=3D"861f4362-9516-49e7-a6c1-3ae337dc88d4"\>
-
-\<p local-id=3D"6c4ad6f5-7412-43d8-b48a-34d96ef9f29d"\>\<strong\>qTVL (Total Va=
-
-lue Locked)\</strong\>: Current pool AUM in USD\</p\>\</li\>
-
-\<li local-id=3D"038ae546-f7ed-4e0d-a4f3-75c77326de09"\>
-
-\<p local-id=3D"715f9efd-0d6b-4b2b-84b7-6d6ba0431f7d"\>\<strong\>Total Earned F=
-
-ees\</strong\>: Cumulative fee income since pool inception\</p\>\</li\>
-
-\<li local-id=3D"bba8e79d-69b6-4a5c-bbcb-3ac281c23443"\>
-
-\<p local-id=3D"c98a2ba4-a5d1-46e0-80e4-42a0048a4f10"\>\<strong\>Remaining Depo=
-
-sit Cap\</strong\>: Available capacity for new deposits\</p\>\</li\>
-
-\<li local-id=3D"fbbaaf63-20b2-4e34-8877-56c3ca4776dd"\>
-
-\<p local-id=3D"cc96e461-c8b8-4504-99c1-672da2a9b17d"\>\<strong\>Remaining With=
-
-drawal Cap\</strong\>: Maximum liquidity available for withdrawal\</p\>\</li\>
-
-\<li local-id=3D"1ff3ea81-1e40-4a80-afa2-624d14644000"\>
-
-\<p local-id=3D"1e7ed90a-2ba7-44fc-ae23-5feb38e98b97"\>\<strong\>Your Deposits\<=
-
-/strong\>: Value of your HzLP holdings in USDC\</p\>\</li\>
-
-\<li local-id=3D"1c251d71-0b3a-4e54-80a0-e0690d5d43f3"\>
-
-\<p local-id=3D"7eb43b38-d69d-4058-a29d-00aa40375d92"\>\<strong\>Your Earned Fe=
-
-es\</strong\>: Your proportional share of total pool fees\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li local-id=3D"aecb0c40-8d87-4e76-ab06-18759c8f6eba"\>
-
-\<p local-id=3D"fea60812-e341-4139-92bd-a09e681be442"\>\<strong\>Historical Cha=
-
-rts:\</strong\> track TVL and Fee APR over configurable time periods (30d, 90=
-
-d, 180d), allowing analysis of pool growth and yield trends. Fee APR charts=
-
-display annualized rate projections from trailing fee income, excluding Pn=
-
-L variance.\</p\>\</li\>
-
-\<li local-id=3D"0acb3d2e-6a6c-4537-8e27-8213d29ba01d"\>
-
-\<p local-id=3D"d5cd149f-7dd9-476e-9719-2fd466a4cddc"\>\<strong\>Liquidity Hist=
-
-ory:\</strong\> This section records all deposit and withdrawal events with t=
-
-imestamps, token amounts, USD values, and transaction hashes linking to blo=
-
-ckchain explorers. Filter between "My Activity" to view personal transactio=
-
-ns or "Pool Activity" to monitor overall pool flows.\</p\>\</li\>
-
-\</ul\>
-
-\<h2 local-id=3D"0c2d67e9-8247-4c5e-b35f-00e1c4715802" id=3D"ProductDocs-Tra=
-
-dingTerms"\>\<strong\>Trading Terms\</strong\>\</h2\>
-
-\<p local-id=3D"8a7f5cd6-ca25-45d3-93fd-22fe7e9ac8b8"\>\<strong\>Market Order\</=
-
-strong\>: Order type that executes immediately at current mark price, priori=
-
-tizing speed over price precision.\</p\>
-
-\<p local-id=3D"182fc2e8-6fe1-4426-a178-072c5d75c9a2"\>\<strong\>Limit Order\</s=
-
-trong\>: Order type that executes only when market reaches specified price, =
-
-guaranteeing entry price.\</p\>
-
-\<p local-id=3D"1c652230-3a2c-4fce-89fd-d0e4a7eae1e6"\>\<strong\>Take Profit (T=
-
-P)\</strong\>: Automated order that closes positions when price reaches favor=
-
-able level, securing gains. Capped at +2500% PnL.\</p\>
-
-\<p local-id=3D"60d0552f-5428-4c94-b02d-84ea3c8a5f86"\>\<strong\>Stop Loss (SL)=
-
-\</strong\>: Automated order that closes positions when price moves adversely=
-
-, limiting losses. Capped at -80% PnL.\</p\>
-
-\<p local-id=3D"f7b7fc15-6fbd-4419-af7d-68bab26f8c9d"\>\<strong\>Collateral\</st=
-
-rong\>: USDC deposited to back a leveraged position. Minimum 10 USDC per pos=
-
-ition.\</p\>
-
-\<p local-id=3D"37d70274-738e-4fb9-b54e-d7643fd9bb0f"\>\<strong\>Leverage\</stro=
-
-ng\>: Multiplier applied to collateral to determine position size. Range: ma=
-
-rket-specific, up to 1000x for forex.\</p\>
-
-\<p local-id=3D"154057a7-c8d2-4da4-b60f-31128fd04e55"\>\<strong\>Position Size\<=
-
-/strong\>: Notional value of position calculated as Collateral =C3=97 Levera=
-
-ge.\</p\>
-
-\<p local-id=3D"142c0cba-4e8a-4c3c-b9e7-732fe8d2a109"\>\<strong\>Entry Price\</s=
-
-trong\>: Price at which position opens. Market orders use mark price; limit =
-
-orders use specified price.\</p\>
-
-\<p local-id=3D"e4cb6074-60f8-4fa7-a7e5-d6688d8c879d"\>\<strong\>Mark Price\</st=
-
-rong\>: Current oracle-validated market price used for position valuation an=
-
-d liquidation calculations.\</p\>
-
-\<p local-id=3D"ae19fc79-870b-4c25-ba65-a9abd2e59138"\>\<strong\>Liquidation Pr=
-
-ice\</strong\>: Price threshold where position automatically closes to preven=
-
-t negative balance. Calculated based on leverage, fees, and maintenance mar=
-
-gin.\</p\>
-
-\<p local-id=3D"f52ca236-727b-407c-a74a-bea3b24286e1"\>\<strong\>Maintenance Ma=
-
-rgin Requirement (MMR)\</strong\>: Minimum collateral required to keep positi=
-
-on open, calculated as Size / Max Leverage + Accrued Fees.\</p\>
-
-\<p local-id=3D"f4df878a-431b-4e70-b2d1-c6c0f8e0ea7a"\>\<strong\>Net Rate\</stro=
-
-ng\>: Combined hourly funding fee and borrow fee, displayed as annualized pe=
-
-rcentage. Positive =3D you receive; negative =3D you pay.\</p\>
-
-\<p local-id=3D"8ade42a9-a490-48b1-9ffe-b21e5043a406"\>\<strong\>Funding Fee\</s=
-
-trong\>: Periodic payment between long and short traders based on market imb=
-
-alance. Net long pays net short, or vice versa.\</p\>
-
-\<p local-id=3D"ff4ffbb1-6a91-4d45-abc4-6812f0956d6a"\>\<strong\>Borrow Fee\</st=
-
-rong\>: Hourly fee paid by traders to liquidity providers for borrowed capit=
-
-al, based on pool utilization.\</p\>
-
-\<p local-id=3D"625d8cab-ba9c-48bd-891e-75880f4c4d7d"\>\<strong\>Price Impact\</=
-
-strong\>: Fee based on pool imbalance when opening/closing positions. Deferr=
-
-ed model: zero at entry, settles at exit. Capped at 50 bps.\</p\>
-
-\<p local-id=3D"85a8a3f7-2b1e-45e4-acb0-249fa5ecd7b2"\>\<strong\>Open Interest =
-
-(OI)\</strong\>: Total notional value of all open positions on each side (lon=
-
-g and short separately).\</p\>
-
-\<p local-id=3D"52d6571b-2b81-49af-846f-108bee2fb9aa"\>\<strong\>Available Liqu=
-
-idity\</strong\>: Remaining pool capacity available for new positions on each=
-
-side.\</p\>
-
-\<p local-id=3D"a043427b-278e-4aae-921e-6853c8b43a99"\>\<strong\>Slippage Toler=
-
-ance\</strong\>: Maximum acceptable price deviation between expected and exec=
-
-ution price for market orders. Default 0.5%, adjustable 0.1%-5%.\</p\>
-
-\<p local-id=3D"19d89645-4cd8-4b27-abb2-0aa6961da150"\>\<strong\>Keep Leverage\<=
-
-/strong\>: Toggle for position reduction. Off =3D reduces size while maintai=
-
-ning collateral (deleverages). On =3D reduces size and collateral proportio=
-
-nally.\</p\>
-
-\<p local-id=3D"524b9da3-0911-49c7-96f6-e92fecdf1234"\>\<strong\>Guaranteed Exe=
-
-cution\</strong\>: TP and SL orders execute at requested trigger price regard=
-
-less of market gaps, protecting traders from slippage during volatility.\</p=
-
-\>
-
-\<h2 local-id=3D"030b5d83-86b7-4dd5-ae94-58603bc65b39" id=3D"ProductDocs-Liq=
-
-uidityProvisionTerms"\>\<strong\>Liquidity Provision Terms\</strong\>\</h2\>
-
-\<p local-id=3D"1f751f88-9132-4988-a8bc-be87a2eabb65"\>\<strong\>HzLP\</strong\>:=
-
-HertzFlow Liquidity Provider token representing proportional pool ownershi=
-
-p\. Minted on deposit, burned on withdrawal.\</p\>
-
-\<p local-id=3D"8cabf669-e6e7-476f-8e56-7ec1542a83bf"\>\<strong\>Pool AUM\</stro=
-
-ng\>: Assets Under Management=E2=80=94total value of pool including deposite=
-
-d USDC, accrued fees, and net unrealized trader PnL.\</p\>
-
-\<p local-id=3D"6e8fb420-17d6-49d2-98b5-b1fdb60f4d77"\>\<strong\>HzLP Price\</st=
-
-rong\>: Token value calculated as Pool AUM / Total HzLP Supply. Increases as=
-
-fees accrue and traders realize losses.\</p\>
-
-\<p local-id=3D"7bee97ea-2f16-4d0b-8a86-16d532fc427e"\>\<strong\>TVL (Total Val=
-
-ue Locked)\</strong\>: Current pool AUM in USD, representing all liquidity av=
-
-ailable for trading.\</p\>
-
-\<p local-id=3D"66f28fbb-2dde-4604-8481-66d947f1a81b"\>\<strong\>Fee APY\</stron=
-
-g\>: Annualized yield projection from trading fees only (open, close, borrow=
-
-, liquidation), excluding PnL and funding.\</p\>
-
-\<p local-id=3D"ba77f388-4aec-4638-be41-1f5c68b696f7"\>\<strong\>Total APY\</str=
-
-ong\>: Comprehensive yield including all sources: fees, trader PnL, and fund=
-
-ing. More volatile than Fee APY.\</p\>
-
-\<p local-id=3D"0aae3c31-1cdc-4097-b5fe-7034a3d73859"\>\<strong\>Max AUM\</stron=
-
-g\>: Protocol-configured ceiling for each pool's total liquidity, preventing=
-
-over-concentration and maintaining market balance.\</p\>
-
-\<p local-id=3D"6b3d051a-c284-4802-8c07-5e2c56d2da06"\>\<strong\>PnL Factor\</st=
-
-rong\>: Risk parameter limiting trader unrealized profit as percentage of po=
-
-ol AUM. Three types:\</p\>
-
-\<ul local-id=3D"3271fa62-b6e7-4966-9f36-ace10f63abcc"\>
-
-\<li local-id=3D"b48c26dd-6716-415d-9afa-4c18b47e3414"\>
-
-\<p local-id=3D"b5ba9262-0f4d-4057-9d9f-f24105cc01fa"\>Max PnL Factor for Dep=
-
-osits (strictest)\</p\>\</li\>
-
-\<li local-id=3D"2679be29-72b8-46f6-acf1-dda50f52a04e"\>
-
-\<p local-id=3D"f9db4dd9-2bc2-4c0d-8a73-c9ec19417e07"\>Max PnL Factor for Wit=
-
-hdrawals (looser)\</p\>\</li\>
-
-\<li local-id=3D"98815f3b-4d50-4259-8577-252528ec8440"\>
-
-\<p local-id=3D"6e28d7e2-6c48-4509-9c68-8f27aac8360c"\>Max PnL Factor for Tra=
-
-ders (caps trader exposure)\</p\>\</li\>
-
-\</ul\>
-
-\<p local-id=3D"6f30eb90-7433-4523-9f69-b9aae83c8c29"\>\<strong\>Reserve Factor=
-
-\</strong\>: Risk parameter ensuring sufficient liquidity remains for open po=
-
-sitions. Calculated as Reserved USD / Pool AUM.\</p\>
-
-\<p local-id=3D"1ab1475b-d53a-439b-8d50-36fd37282278"\>\<strong\>Reserved USD\</=
-
-strong\>: Total notional value of open positions (OI) on each side requiring=
-
-pool backing.\</p\>
-
-\<p local-id=3D"39f0f138-4d86-449b-b5ff-d2449cf1a4bd"\>\<strong\>Remaining Depo=
-
-sit Cap\</strong\>: Available capacity for new deposits, calculated as Max AU=
-
-M - Current AUM.\</p\>
-
-\<p local-id=3D"11ac5563-3369-4bd5-8185-285580b0cdfd"\>Remaining Withdrawal C=
-
-ap: Maximum USDC withdrawable, constrained by PnL and reserve factors:\</p\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>=E2=80=
-
-=8BMin(\</pre\>
-
-\</div\>
-
-\</div\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>=E2=80=
-
-=8B (AUM - Max(uPnL Long, uPnL Short, 0)) / Max PnL Factor for Withdrawals=
-
-,\</pre\>
-
-\</div\>
-
-\</div\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>=E2=80=
-
-=8B AUM - Max(Reserved USD Long, Reserved USD Short) / Reserve Factor\</pre=
-
-\>
-
-\</div\>
-
-\</div\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>=E2=80=
-
-=8B)\</pre\>
-
-\</div\>
-
-\</div\>
-
-\<p local-id=3D"264fd8ec-ee78-46a2-a86f-1743be136861"\>Utilization: Percentag=
-
-e of pool liquidity actively backing open positions. High utilization (&gt;=
-
-70%) increases borrow fees but constrains withdrawals.\</p\>
-
-\<p local-id=3D"fd150fe1-69c5-46e7-a80e-c217f8b05b12"\>Isolated Pool: Market-=
-
-specific liquidity with independent risk parameters. Each pool's performanc=
-
-e is unaffected by other markets.\</p\>
-
-\<p local-id=3D"a9a1b8b8-3f42-4a52-9c34-32d084e4c87e"\>Automatic Rebalancing:=
-
-Contract-level mechanism maintaining 1:1 long-short collateral split regar=
-
-dless of deposit direction or OI imbalance.\</p\>
-
-\<p local-id=3D"4e11b15f-bba4-4df1-9028-6727f4da1410"\>Keeper Execution: Auto=
-
-mated bot system executing deposits, withdrawals, and position settlements =
-
-on-chain. Ensures gas efficiency and fast settlement (&lt;10s typically).\</=
-
-p\>
-
-\<p local-id=3D"5dcefbc9-833b-4930-bf28-a8aebc3026fb"\>Troubleshooting\</p\>
-
-\<p local-id=3D"9df1a75f-8406-464d-9fe9-54100b0a4416"\>Common Issues\</p\>
-
-\<p local-id=3D"be1d05bd-92f1-441d-a535-5919eb4cc747"\>"Insufficient Liquidit=
-
-y"\</p\>
-
-\<p local-id=3D"48e6ec00-03f4-476f-a446-758751c9db0c"\>Available liquidity fo=
-
-r your direction is depleted. Solutions:\</p\>
-
-\<p local-id=3D"06ef706f-c182-4d8d-bde7-b91ef3fc5949"\>Reduce position size t=
-
-o fit available capacity\</p\>
-
-\<p local-id=3D"d840f6e7-2943-4c13-ad86-59fb943d4f84"\>Wait for liquidity to =
-
-replenish as positions close\</p\>
-
-\<p local-id=3D"d552ac64-63ec-40cf-bc39-4f1d3bc7e1bb"\>Trade a different mark=
-
-et with deeper liquidity\</p\>
-
-\<p local-id=3D"abb78804-5173-41a5-95c9-0068d7d1ba6d"\>Check Available Liquid=
-
-ity (L/S) in market info before sizing orders\</p\>
-
-\<p local-id=3D"bda0ebe0-bf6b-4fe9-81e5-6b6572081bd1"\>"Above Max Position Si=
-
-ze"\</p\>
-
-\<p local-id=3D"044a2d23-ca32-49e5-83ee-45b6510c7237"\>Order exceeds maximum =
-
-allowed position size for this market. Solutions:\</p\>
-
-\<p local-id=3D"b77c6d6e-daf7-4266-87d0-7ded057ac4e0"\>Split into multiple sm=
-
-aller positions\</p\>
-
-\<p local-id=3D"667cd79e-4104-487a-ac16-e3e3842f3285"\>Trade a different mark=
-
-et with higher limits\</p\>
-
-\<p local-id=3D"fd3b1652-1bfb-4c7a-8761-23bac1df133e"\>Reduce leverage to low=
-
-er notional size\</p\>
-
-\<p local-id=3D"be3bb4f4-401c-4f13-86d2-a2298d65f815"\>"Below Min Collateral"=
-
-\</p\>
-
-\<p local-id=3D"5f5e46f2-72d2-4a9b-8769-d968d4b15c48"\>Collateral must be =E2=
-
-=89=A510 USDC. Solutions:\</p\>
-
-\<p local-id=3D"3c3f6459-3d79-46d7-9050-be27b55553e0"\>Increase collateral in=
-
-put to meet minimum\</p\>
-
-\<p local-id=3D"0033fe38-6b21-4f78-8492-63b18a66767e"\>Reduce leverage if try=
-
-ing to maintain specific position size\</p\>
-
-\<p local-id=3D"024a0bac-af96-42e1-be0e-8b6156be93f5"\>"Above Deposit Limit \[=
-
-Amount\]"\</p\>
-
-\<p local-id=3D"917a4b96-cce7-4c3d-80ee-c76c95f6f2fa"\>Pool at maximum AUM ca=
-
-pacity. Solutions:\</p\>
-
-\<p local-id=3D"fd89fd51-8be2-4dba-ac2a-9d0f49a71b1d"\>Wait for pool capacity=
-
-to increase as traders close positions\</p\>
-
-\<p local-id=3D"31b13758-92f5-4983-87d0-0652dc9f1a04"\>Deposit smaller amount=
-
-within remaining cap\</p\>
-
-\<p local-id=3D"09ecea9e-75cd-4174-966a-e667ebe030d1"\>Try a different pool\</=
-
-p\>
-
-\<p local-id=3D"3d8534c7-daf5-4a5a-b4ac-7c8fceab7f36"\>Check Remaining Deposi=
-
-t Cap in pool info\</p\>
-
-\<p local-id=3D"863a42b5-c076-4822-af94-b16633b57182"\>"Above Withdraw Limit =
-
-\[Amount\]"\</p\>
-
-\<p local-id=3D"63d9714c-ad84-4c31-8dd7-6eaa7971611e"\>Withdrawal exceeds ava=
-
-ilable capacity due to PnL or reserve constraints. Solutions:\</p\>
-
-\<p local-id=3D"6da505bd-1618-4987-aaaa-3e7505219346"\>Withdraw smaller amoun=
-
-t within remaining cap\</p\>
-
-\<p local-id=3D"7c903a4b-07db-4fc3-89bd-34b982cd4339"\>Wait for trader PnL to=
-
-decrease or positions to close\</p\>
-
-\<p local-id=3D"8c728dea-98d3-4195-a1c0-2d223f48b360"\>Check Remaining Withdr=
-
-awal Cap in pool info\</p\>
-
-\<p local-id=3D"f7ef7b43-5a1b-4225-a21a-341f8eb8f234"\>"TP Price Below Mark P=
-
-rice" (Long) / "TP Price Above Mark Price" (Short)\</p\>
-
-\<p local-id=3D"2d2c0ddc-7a9c-490d-b21d-a09f07d65065"\>Take profit price not =
-
-favorable to current market. Solutions:\</p\>
-
-\<p local-id=3D"8ab0e0d5-9bf3-4bdd-b4ca-9521ea4f6798"\>Long positions: increa=
-
-se TP price above mark price\</p\>
-
-\<p local-id=3D"a9231754-a3c8-4dc3-beaa-b240c8417634"\>Short positions: decre=
-
-ase TP price below mark price\</p\>
-
-\<p local-id=3D"399e59c1-9307-41cf-9e9f-9af0accd8a18"\>Verify you're setting =
-
-profit target in correct direction\</p\>
-
-\<p local-id=3D"4f1fe71e-f6e4-4350-b709-4b9302caebb3"\>"Above Max TP Price" /=
-
-"Below Min TP Price"\</p\>
-
-\<p local-id=3D"f5579798-c7a1-40e1-b89e-27833a9ea604"\>Take profit exceeds +2=
-
-500% PnL cap. Solutions:\</p\>
-
-\<p local-id=3D"316fb2a1-099a-43ef-bd2e-7df7da3c966d"\>Click tooltip to auto-=
-
-fill maximum allowed TP price\</p\>
-
-\<p local-id=3D"59017949-ddea-4933-b51c-2dffe36a9566"\>Manually adjust TP pri=
-
-ce to valid range\</p\>
-
-\<p local-id=3D"1766f6a5-ce00-4070-b5f4-effb309199cb"\>Consider closing posit=
-
-ion earlier at lower profit target\</p\>
-
-\<p local-id=3D"0f40b7b4-be01-4b81-b3d5-f244c82a355b"\>"SL Price Above Mark P=
-
-rice" (Long) / "SL Price Below Mark Price" (Short)\</p\>
-
-\<p local-id=3D"d5fe3d72-04d7-443c-a695-3d95e7947f7c"\>Stop loss price not un=
-
-favorable to current market. Solutions:\</p\>
-
-\<p local-id=3D"ba146c02-2a27-404a-8210-d4aa6b2a9d11"\>Long positions: decrea=
-
-se SL price below mark price\</p\>
-
-\<p local-id=3D"18462fad-9f67-4134-85c9-f71bda64916b"\>Short positions: incre=
-
-ase SL price above mark price\</p\>
-
-\<p local-id=3D"c13fd762-d1a5-4461-9e4d-08eed459fdbb"\>Verify you're setting =
-
-stop in correct direction\</p\>
-
-\<p local-id=3D"6e06647f-0e00-4d85-aa9a-fd8d861ca9ca"\>"Invalid Stop Loss"\</p=
-
-\>
-
-\<p local-id=3D"1302079a-4512-4b26-a50e-f797e1407614"\>Stop loss exceeds -80%=
-
-PnL cap, often after collateral removal. Solutions:\</p\>
-
-\<p local-id=3D"e4d8d425-4de1-4cdb-9b14-400e9fbc48a1"\>Add collateral back to=
-
-expand valid SL range\</p\>
-
-\<p local-id=3D"08e23928-935b-43a5-a03f-e52c362d1513"\>Edit SL price to valid=
-
-range within -80% cap\</p\>
-
-\<p local-id=3D"0a7758d9-6b05-451e-84c2-8eb229994c96"\>Cancel invalid order i=
-
-f protection no longer needed\</p\>
-
-\<p local-id=3D"9b839eef-cc0d-4b7e-b258-6b3d5e057264"\>"Request Rejected by U=
-
-ser"\</p\>
-
-\<p local-id=3D"c0c705d6-e5f6-4916-94f1-a69c57a3962c"\>Wallet confirmation ca=
-
-ncelled. Solutions:\</p\>
-
-\<p local-id=3D"24696376-07e0-4744-a915-dcf343bf0373"\>Review transaction det=
-
-ails carefully\</p\>
-
-\<p local-id=3D"e5a120c2-df96-4018-8c68-adbe42e0bd23"\>Approve transaction in=
-
-wallet if parameters acceptable\</p\>
-
-\<p local-id=3D"d3e61c9d-6208-4d91-8210-9262664c3c71"\>Check wallet isn't loc=
-
-ked or disconnected\</p\>
-
-\<p local-id=3D"f94e15c9-f727-4565-aae0-8543e5911d28"\>"Transaction Failed. P=
-
-lease Try Again Later"\</p\>
-
-\<p local-id=3D"a1c54337-2fed-4003-a2e6-674748c01a94"\>Transaction reverted o=
-
-n-chain. Common causes:\</p\>
-
-\<p local-id=3D"ec05049e-ae6c-458a-b470-b1266a9864c0"\>Insufficient gas fees =
-
-(BNB balance too low)\</p\>
-
-\<p local-id=3D"bae8411d-deff-45ca-b6c2-0b3ab9c89181"\>Price moved beyond sli=
-
-ppage tolerance (market orders)\</p\>
-
-\<p local-id=3D"fec056dc-b7f3-408c-a279-dfb9d357e795"\>Pool capacity changed =
-
-between quote and execution\</p\>
-
-\<p local-id=3D"0395760b-eb7d-45a2-a413-6654e7ff9118"\>Network congestion cau=
-
-sing timeout\</p\>
-
-\<p local-id=3D"bfcea935-188d-484f-9a3e-e528739b71c1"\>Solutions:\</p\>
-
-\<p local-id=3D"78e280f0-b81e-43ad-97ac-371da9184ed5"\>Verify =E2=89=A50.01 B=
-
-NB balance for gas\</p\>
-
-\<p local-id=3D"91d8341e-87f6-47d8-a1a7-95b760500dca"\>Increase slippage tole=
-
-rance if market is volatile\</p\>
-
-\<p local-id=3D"a826c3f2-f13d-45d6-b4b6-b8e7db8530f7"\>Refresh quote and retr=
-
-y\</p\>
-
-\<p local-id=3D"243704e9-135b-46b3-932f-58ee01ee9569"\>Wait a few minutes if =
-
-network is congested\</p\>
-
-\<p local-id=3D"29b283e2-9ab1-4e04-8713-16754bcb2eac"\>"Transaction Pending. =
-
-Please Check Again Later"\</p\>
-
-\<p local-id=3D"7dd5639b-d8b4-4903-b1bb-0796650c4dd9"\>Transaction submitted =
-
-but not confirmed within 30 seconds. Solutions:\</p\>
-
-\<p local-id=3D"f6c04536-51ca-4207-be6c-07597570e9b1"\>Wait for network confi=
-
-rmation (may take 1-5 minutes during congestion)\</p\>
-
-\<p local-id=3D"99c96a19-d6c4-42c1-b469-b920f62fa4e4"\>Check transaction stat=
-
-us on BSCScan using hash from toast\</p\>
-
-\<p local-id=3D"a44aaff2-ae76-40c1-807d-88414fc375ab"\>Do not resubmit=E2=80=
-
-=94this creates duplicate transactions\</p\>
-
-\<p local-id=3D"5f4f1958-79c6-4965-8467-4780a4155269"\>Contact support if pen=
-
-ding beyond 5 minutes\</p\>
-
-\<p local-id=3D"67bacf5a-e136-4243-8153-8c32d4fb1e7e"\>Transaction Shows Succ=
-
-ess but Balance Unchanged\</p\>
-
-\<p local-id=3D"e5b823e9-6dee-40af-a481-2873af93b2d1"\>Interface data may be =
-
-cached. Solutions:\</p\>
-
-\<p local-id=3D"797f74d1-0c67-4f32-a8b8-81eb47b461be"\>Refresh the page manua=
-
-lly\</p\>
-
-\<p local-id=3D"514858b1-4ee6-406a-a8a3-6c09c75880ea"\>Wait 10-30 seconds for=
-
-automatic data refresh\</p\>
-
-\<p local-id=3D"74981ac0-d03f-4a33-af92-2b673669e6a2"\>Check wallet directly =
-
-to verify balance changed\</p\>
-
-\<p local-id=3D"52de4593-1c41-4e89-b842-25c07341b5b4"\>Verify transaction on =
-
-BSCScan shows success\</p\>
-
-\<p local-id=3D"9fa48b4a-88d5-4d23-aa59-3cc1382a7c8c"\>Getting Help\</p\>
-
-\<p local-id=3D"aaaa7992-4125-474c-a0b4-65ed2153956a"\>Contact \<strong\>suppor=
-
-t@hertzflow.xyz\</strong\> for account issues, bug reports, or other technica=
-
-l problems.\</p\>
-
-\</div\>
-
-\</body\>
-
-\</html\>
-
-------=\_Part_176_106448087.1772008360294
-
-Content-Type: application/octet-stream
-
-Content-Transfer-Encoding: base64
-
-Content-Location: file:///C:/1390b103d6d8ebf80edbae4f60fa72099d5925d5e5aacd1195b75b121dd5bacb
-
-/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAD6Bv8DAREAAhEBAxEB/9sAQwAIBgYHBgUIBwcHCQkI
-
-CgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJ
-
-CQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
-
-MjIyMjIy/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDxNRgU
-
-ALQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABg+lABg+hoAMH0NABg+hoAMH0NABg+ho
-
-AMH0NABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFADkVWcB32KTyxGcUAWPItf8An/T/
-
-AL9NQAySG3SMmO8WRh0URsP1NAEFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQBGwwaAJKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAwfQ/lQAYPoaACgAoAKACgAoAKACgAoAKACgAoAKACgAoAMUAGD6H8qADB
-
-9D+VABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAKBk4FAE6xhfc0APpgFABQAUAFABQAUA
-
-BAPUUAQSR7eV6elICOgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgByO0Tq6HDLyDQBZ/tO8/5
-
-7f8Aji/4UAMlvrmaMpJJuU9RtA/pQBXoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAGv0oAdQAUAFAEtrbv
-
-eXcNtFjzJnCLk4GScCgDTvPDV7ZW88/m2lwlucTC3nDtHzjkdcZoAx+2e1AB29vWgC4NNnle3jty
-
-lxLPEZQkRyUAzkN6HAJoAhW23WUtz50S+W6p5Zb52znkD0GOaAIfT0NABQAevoOvtQAUAWlACgCg
-
-DUsdA1LUbX7TbQo0O8puaVVyRjI5PvTAz54XgnkhkADoxVgDnn6igCpKMORQAykAUAFABQAUAFAG
-
-6nhPUWCK8lnFcSLuS1luFWVgeny9voaAMWaKS3mkhmRkkjba6sMFT6UANVdzAepAz6UAWtTsH0vV
-
-LiwkcO8DlCyg4NAFTP5UAHr7dfagAoAt20LzPHFEjPJIQqqoySTQBc1DSr3S7mO3u4CksihlUENu
-
-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
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QA5JHjOY3ZCepU4P6UAJk5Jycnqc0AJk4xk4znGe9ADmlkdtzSOzHqSxNACZOc5Oc5zmgALFmyxJ
-
-PqTmgAJJOSST6k0AKJHEZjDsIyclQTg/hQALJIisqSOqt94KxANADcnAGTgdBQA4u7fedjxjkk0A
-
-HmP5fl728vOdu44/KgBNx45PHTnpQA5ZZELbJHXdw21iMj3oAZQAqMyMGU4YUAbNl4gltFwMgdSu
-
-MincCS58QNdLtkZtn91VwKLgVf7Qh/2vyouAyTUUC/u1Jb34FFwM9mLsWY5J60gEBIIIJBHcUAAJ
-
-HQkfQ0ALuPHJ46c9PpQAryPISXdmJ67jnNAA0kjqqvI7Kv3QzEgfSgBtADnkeQgu7OR0LEnFACB2
-
-AADsADkAHofX60AAJGcE89eetAC+Y/liPe2wHhcnA/CgBCS3Uk8Y5oAV5JJMeZI74GBuYnFADaAL
-
-dpfPakYzgHII6g07gbP/AAlU3l7S3OPvbOaLgUH1OORy7l2YnJJFFwE/tCH/AGvyouBUubtp/lA2
-
-p/Oi4FakA5HaN1dGKupypHY0Abkmp6RqeJdStJ47vA3SWzDEnuQe9AFfUNVhksl0/T7c29mG3tvO
-
-Xkb1Y/0oAyaAEb7tAC0AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAD422t7GgCxTAKACgAo
-
-AKACgAoAKACgCOVgqketAEFIAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKAEb7tAC0AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA4OwGA1A
-
-B5j/AN6gA8x/71AB5j/3qADzH/vUAHmP/eoAPMf+9QAeY/8AeoAPMf8AvUANzmgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgBG+7QAtABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFAEixMeelAC+Sf7woAPJP8AeFAB5B/vCgA8k/3qADyD/eFAB5B/
-
-vCgA8k/3hQAeSfWgBrRFeetADKACgBG+7QAtABQBe0ezS/1OKGUkQKGkmYHGI1GW/QfrQBY1HTUe
-
-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
-
-AUAFADk++tMCzQBuQ3umahpVtZanJPbS2gZYbiGPzAUJztZcjoe9AE1rqmj6fqMBtYZvIiglR53X
-
-95MzKQCVBwAM0AXtK8R6fp0WmOryxC3UJcW0dup8xucv5nXoentQBWtNdsbV9NG6YrardK5EeCfM
-
-ztwM/n6UAZX26H/hGF075vPF2Zjx8u3Zt6+uaAHa3qFvqGuveRKzQHy8qwwSAoBH6GgDdvPEWmyW
-
-+o28U8vkXcBSKFbVY1tzwQuQct0xmgClqOuWd1b6kkfm7rmG1SPcmOYxhs88UAc3QBVb75+tIBKA
-
-Eb7tAC0AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAOV2jO5GZWxjKnBxQA2gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgApgSrNgYIoAXzh/dNAB5w9
-
-DQAecP7poAPOH900AHnD+6aADzh6GgA84ehoAPOH900AI02RwMUgIqACgBG+7QAtABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFACN92gBaAHCRwMBjigBfNf++aA
-
-DzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf
-
-++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5o
-
-APNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/
-
-AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aA
-
-DzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf
-
-++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5o
-
-APNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/
-
-AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aA
-
-DzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf
-
-++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5o
-
-APNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/
-
-AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aA
-
-DzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf
-
-++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5o
-
-APNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/
-
-AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aA
-
-DzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf
-
-++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5o
-
-APNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/
-
-AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aA
-
-DzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf
-
-++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5o
-
-APNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/AL5oAPNf++aADzX/
-
-AL5oAazFupzQA1vu0ALQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAjfdoAWgAoAM0BoFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAPjikmkWOJGeRjhVUZJNVGLk7R3Bu25vweDNSlTdI8MJx91jk/Tiu6
-
-GXVZK70MXWiUNR0DUNLTzJ4g0X/PRDkD6+lY1sJUpK72KjUjLQzK5TQKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoARvu0ALQAUAdPpscZ+H+sSGNS4uI8MV5H3ehrpgl7Fs8nETksfTi
-
-no0zD0zTrjVtVtdOtQDPcyrEmemSep9u9cx6x0raX4JW9bSjq2pi4VjGdRMafZt44+597Znv+lAF
-
-OTw6s3hrSZrCN7rUbzULi1HlMSJAgXbtH4k5oAik8Kalp+o6fHqFmzwXdwIVNtMj72yMoGBIDexo
-
-Akj8GaxqF3L9gsWFv9qlt4zNMi4ZDyhJIG7kfU0AQXPg/XrTTri/n0944LZsTAsu+PnGSmcgZ74o
-
-Ak8KaPYavPqTak10LeysnuiLbbvYqQMDPHegCO702xv5nHh221Erb273FyL1kyEUjLDHbmgCtZeH
-
-dV1FLJ7S0Mq3skkVvhh87oNzAfQUAS6h4X1nS7O3u7uzKwXDeWjI6v8AP/dOCcN7GgDb07wHfW5v
-
-31uyaOOHTp51CTKTHKqblDhSSv0NAGdceFr25uki0zTrjK2MFzKs0iE4cAb8g4CkkfQdaAK9z4S1
-
-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
-
-FHlpjjRd/eOJd2kdndizMcknqTXjSbk7s6hKQBQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFADo38tw2AcdmGRQBJ9oIx+6i/759sf/AF/rQAfaTgjyosH/AGfbH+fegANy
-
-Tn91Fzn+H1GKAFNyTu/dxjdnOF9f/wBVAA1yWJ/dRc5/g9SD/SgBDcnJ/dRc5/h98/8A1vpQAv2k
-
-j/llF/3x/tZ/+t9KAInfec4A+gxQA2gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoARvu0A
-
-LQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAjfdoAWgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgBG+7QAtABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFACN92gBaACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAEb7tAC0AFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAI33aAFoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoARvu0ALQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAjfdoAWgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgBG+7QAtABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFACN92gBaACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKAEb7tAC0AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAI33aAFoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoARvu
-
-0ALQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAjfdoAWgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgBG+7QB//2Q==
-
-------=\_Part_176_106448087.1772008360294
-
-Content-Type: application/octet-stream
-
-Content-Transfer-Encoding: base64
-
-Content-Location: file:///C:/57efd304cb82fe8f086efd8df98d27cdd7b8f16992e6220a2d379283c531a831
-
-/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAD6AOADAREAAhEBAxEB/9sAQwAIBgYHBgUIBwcHCQkI
-
-CgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJ
-
-CQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
-
-MjIyMjIy/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDxRUZz
-
-hRQA/wCzv7fnQAfZ39vzoAPs7+350AH2d/b86AD7O/t+dAB9nf2/OgA+zv7fnQAfZ39vzoAPs7+3
-
-50AH2d/b86AD7O/t+dAB9nf2/OgA+zv7fnQAfZ39vzoAPs7+350AAgf2/OgBfIf2/OgA8h/b86AD
-
-yH9vzoAcIW74oAeI6AAoaAIzC59PzoAb9nf2/OgBRA/t+dAh4iNMTTDZTJFt/wDV/jUmhLmgAoAM
-
-4oAOtAB0oAKACgA7Z7UAFABQAEgUAGaAEyPWgBe2e1ABQAUAFABQAUAFABQAUAFABQAUAFADHOCK
-
-aIkNt/8AVfjSLOs0nUbCLwtJY3Fz5btdl5o1Z1aSIqgwMKQx4bgkYoA149Y8OwfZIW+xyRRTkmOO
-
-GUw7C55IbkkLgn3HFAGJo9/DbWtzFDqMGm3RuQ5uPJZ0khAI2L8pOM87SMNnnpQBdsr3w7bLHcBo
-
-xKEbDCJ1l8whwxYD5AhBGAvTj0NAF06j4Ta9+3y+TNO18Jm8yKQ5QyEMGXGCNhBHuOnqAUY5vCcd
-
-jAZYIZbkbzKFMoBfD4wMfcJ8vHOR370AAu/DsGhM0DRpqMlo8bhEcZLocqc5HDYAOelADbLUYLWb
-
-SpUureO1WxaIK5YGObP7wkoCyMTyHweMD1wATz6n4aupI4LoGe3iLMs5jZZCTclsfLgYKMScAfge
-
-KAIUvvDdpcWcn2WznmFzAbkpHKYQgLFyisQSMbAc984FAEWkajBaDWEj1W2sTNNEYmWGRkZFZi21
-
-dpOMEcNjNAFx9b0hldraZLbTNk4l0owndOzM5RgQCOhTkkFdvHuAXLfXND+1QzT6gDBFdxTWluIm
-
-At4wcMjDZwQCeVY7sZPNAGJe3kc1lrLTXsVxFKYRbgSs7ecCMsNyq2Am4EkAcgc0AczQAUAFABQA
-
-UAFABQAUAFABQB1XhnVtGsNOki1NEkuGmJtZDbB/sbbMea3/AD0GcfJyPlz14IByp6nnPvQA1lzT
-
-REhlv/qvxpFktABQAUAFABQAUAFABQAUAFABQAUAFABQAZoAM0AGaADNABmgAzQAZoAM0AGaADNA
-
-BmgAoAaxwaaIkMt/9X+NIsloAKACgAoAKAJ5LK5ijjkeBwkgBQ4znjP8qAIvLf8AuN0z0PT1oAd9
-
-nmMbSeU+xeSdvQccn8xQBHQAUAFABQAUAep+FvC+nQaNb3NzbRXFxOgkZpV3BQeQAD7V7OGw0FBS
-
-krtn5/nGb4meJlTpycYxdtNDd/sXSv8AoG2f/flf8K6fY0/5V9x5P9oYv/n7L72H9i6V/wBA2z/7
-
-8r/hR7Gn/KvuD+0MX/z9l97D+xdK/wCgbZ/9+V/wo9jT/lX3B/aGL/5+y+9kU+m6JapvnsbGNcE5
-
-aFR0GT29KUqdKO6RpTxWOqu0Kkm/VjDZ+HwDm10/jg/ul/wqeWj2Rftsx/nl97JDpmiCRYzY2O9h
-
-uA8peRxz09xVezpXtZGf1vHOPNzyt6scNI0c9LCx/wC/S0eypfyoX13G/wDPyX3sd/Yulf8AQNs/
-
-+/K/4U/Y0/5V9xP9oYv/AJ+y+9h/Yulf9A2z/wC/K/4Uexp/yr7g/tDF/wDP2X3sP7F0r/oG2f8A
-
-35X/AAo9jT/lX3B/aGL/AOfsvvYh0PSWBB0yzwf+mK/4Uexp/wAqBZji07+1l97PMvGWiQaLq6La
-
-jbBOnmKmc7DnBH0rx8XRVKfu7M+8yLH1MZhm6vxRdr9znCua5kevMjt/9V+NIsloAKACgAoAKANS
-
-3165tdnkxQLtRUY7SS4UYGee2T0xQBI/iO6J+SOMLgdSxO4ADPX/AGenT1BoAiuNcurmKSJ1jCyJ
-
-sbGcnpznP+yKAMygAoAKACgAoA9m8LX0F/4eszC4LRRLHIueVYDHNe/hpqdJW6H5jnGGnQxk+daN
-
-trzTNnB9K3PLDB9DQAYPoaAK15Yx30aJMG2o4cY747H2NTOCmrM3oYidCTlDqrFNPD9oiov71tox
-
-liCWGcnPFZqhFHTLM60m3p/XzFTw/aJMsgEh2tuCnGAcj2z/AAjjtTVCKdwlmVaUXHTX18/PzIl8
-
-M2SlDunO055Yc/Xj6j/gRqfq0S3m1dpqy1/r+vRGzg+lbnmBg+hoAMH0NABg+lAHlvxBvoLvW4YY
-
-HDm3i2OVOQGJzj8K8fHzUqiS6H6Bw1h6lLCuU1bmd16HIM2DXEj35DLf/VfjSLJaACgAoAKACgAo
-
-AKACgAoAKACgAoAKAJIp5bdt0MskbHujFT+lNNrZkTpwmrTSfqTf2nf/APP9df8Af5v8ar2k+7M/
-
-qtD+Rfcg/tO//wCf66/7/N/jR7Sfdh9VofyL7kH9p3//AD/XX/f5v8aPaT7sPqtD+Rfcg/tO/wD+
-
-f66/7/N/jR7Sfdh9VofyL7kH9p3/APz/AF1/3+b/ABo9pPuw+q0P5F9yD+07/wD5/rr/AL/N/jR7
-
-Sfdh9VofyL7kH9p3/wDz/XX/AH+b/Gj2k+7D6rQ/kX3IP7Tv/wDn+uv+/wA3+NHtJ92H1Wh/IvuQ
-
-f2nf/wDP9df9/m/xo9pPuw+q0P5F9yD+07//AJ/rr/v83+NHtJ92H1Wh/IvuQjajfMCGvbkg9QZm
-
-/wAaPaT7sFhqC1UF9yK1QbjHGSKaJkNt/wDV/jSKLsKhUDYBYnv2pgS7jQINxoANxoANxoANxoAN
-
-xoANxoANxoANxoANxoANxoANxoANxoANxoANxoANxoANxoANxoANxoANxoANxoANxoANxoANx/yK
-
-AK86BSCBjcOlIZWkOCKaIkJb/wCr/GkWX4v9Sn4/zpiNGx0w3sDyLJt25XG3PzYG0fiSR+FAE50X
-
-D4NygXcV5BySA/P0+Q0ANj0SZyymaIPsDxjJ+YFgN3Tgc/X2oAbHol1KkTo0RWTodxGBxyeOmCD9
-
-KAKVzbyWsxilADgAkDtkZoAioAKACgAoAKACgAoAKACgAoAKAJ7OBbq8hgZ9iuwBbGcD1xQBoDQJ
-
-2EapIvnO7qVYYAAIAOffP8qAKU9jLbQxySFAJFDIM8sPX/PpQBffQduoRWoutwcyIT5eDvQ4KqCe
-
-cnpyM+1AEGoaNLp8AmaWOVfMZCUYHAyQpP8AvbWx9KAFsdPF4HxJHHsC8v0OT/hk/hTAll0eeJXc
-
-qhRAzE9OAcZx+I/OgDLlADDA7UgK1x0T8aAKrjJFCJkNt/8AVfjSLL8X+pT8f50xEsc0sQxHK6Dc
-
-G+ViOR0P1FADhcTgECaTB6jceev+J/M0AKLu5VNguJQn90Ocf54FAB9quAgQTy7QCoG84AxjH5UA
-
-RySPK5eR2d25LMck0ANoAKACgAoAKACgAoAKACgAoAKAFVmRgykgjoQaAJReXKtuFxKDjGQ56YA/
-
-oPyoAa08zqytK7KxyQWJB/zgUASPf3khUvdTsVxtzITjGcY+mT+dAEbXE726W7TSGFDlYyx2qfYU
-
-AOE5AwPx5oAeb6ZhgySEehc0AQO285xigCC46J+NAFSRtpFCFJXEt/8AVfjSKL8X+pT8f50xGvpO
-
-g3GrQzTi5tbS2hdI2nupCib3ztUYBOTg/THNADIdB1CbxAdDEIW/WVomR2AClc7iT0wACc+lAFmX
-
-wvfi7sYLWS2vUvt32ee2kzG20/PksBt29TkDA5oArWukLdXtxB/amnRRQdbmWYrG/OPl43Nz6D3o
-
-AmfwzqEN/qVrc+TB/ZozdTSSfu0/ugEdS3YDk/nQAlloD3eljUZNR0+zgaV4kF1Kys7KATgBT/eF
-
-AFq18IXV1YpcrqGnIz2j3ggeVhJ5S5ySNuB9096AOeoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKAIrjon40AULg4YfSkMfb/wCq/GgC/F/qU/H+dMR0mjX2myaBdaNqd1JZo93FdxzpCZc7VZWU
-
-gEHkNkH1FAEmo+II5fEk3iXTrp7e/lvndIHhyqRYwGY8hsjIK4oA2Y/GljHqcFtERBYw2E9rHcxW
-
-iqEmlwWlEQ6LkAY64568UAVrjWtKutfgvY9Ve2urW1jj+3tpyulzKCdzNH24IAOOcc4oAuW/i/S/
-
-tmrC2u59MjuNSjvUna2E7SoFKshBJwSSSO3JFAEWleKdKt76e4a7ltdO+2zT/wBkCyWRJonx+7D9
-
-s4AIPAwCKAOctNTtrLw5qcEO4X9/IkJGOI7cHcQD6swUfRfegDFoAKACgAoAKACgAoAKACgCzYWj
-
-Xt9FbrnLtjitsPS9rUUDKtU9nByPTF8L6fbQypEqbLJvLuHkYATSdTGpwduAG+Zupr2abjBKKjvt
-
-p07vv6HlTUpNyctt9evZdjkfFmiW1h9nv7At9kul3IGGCvJBBxxkEEcdeDXBjKCiudKzTs+3qjsw
-
-tZt8rd01df5FAaGPJ0F/tB/4mrspG3/V4l8v159e1eedxqp4PtUtLq5ur67EUV5NaiS3szMkXlnG
-
-6bBygOeMA96AK1voWjHRNOvrzWLm2kvZJYlxaB442QgEsd4O35hyBnrxQAsnhe30mOaTxDey2oW5
-
-ktYo7WETPKyY3NyygIMjnOTnpQBiajbW9pevFa3iXkGAyTKpXcCM4IPQjoR60AULjon40AZ9z95f
-
-pSGSQDEf40AX4v8AUp+P86YixDGH69SccnFAF8aNMWZQqZVip+f06n6cigCrPaG3YpIhV8ZxmmAl
-
-ta/aHSNdoZ+BubAzSAtDRpztxGCSu4AN2pgUpoREWUjDKcGgCeCwa4SRo1yExnk9+lAEzaPOqswR
-
-WUd1bPb/ACKAKLRqGUDoaQFyDS3uUDRmM5OMbuRwT0/A0wGyaZJFD5zJ+79QfegCjIoVsDpSAbQA
-
-UAFABQBa067Njfw3K9UbPFbYeqqVRSexlXp+0g4o9Rt/EWn+bJe2Txh70ln37h9nc8MTj76csQpG
-
-Qf19mMPaQWt0vTVfozyZSdOT0s3+H+aOO8X6xaXSWum6ezPbWi7fMYYLkkktjtknp2AFcONrJpxv
-
-q3d/ojtwlJp83RKy/VkOm+IdPgstOj1HTZrmbS5WktGiuBGrZbftkG05Abngg84rzjuJNH8VWmn3
-
-n9pT2N0dTW4ecyW12Yo5yx3bZVwcqDnpjIOD60ANi8QaK2j2FpfaPc3EtpNLMNt2I4naQgkFQhIX
-
-5RwD680AEnii31eOaPxDZS3Ia5kuYpLSYRPEz43JyrAqcDjqMUAYup3cF7etLa2UdnAFVI4UOcAD
-
-GST95j1J7mgDOuOifjQBn3P3l+lIZYVdoxQxLYtxf6lPx/nTAnikCDn1zyM0AXX1WaTdulX5m3HC
-
-Ac8e3sOPagCGe8a4AMshcqu0ZFMBLW7NsyvGwDgEcqD/ADpASDUJFCBZAoTO3aoGM9e3sKYEFxcG
-
-dmd23OxyTjFAEsN61vuMT7SwxnbyPoe1AEn9qTiUyCbDHHRQB37Y9zQBUaRS6nPTrSAmS8MYUKw2
-
-qxYAqCM4x0PWmA86jKySKZiVkyWGOpJyTQBTkYM2R0pAMoAKACgAoAKACgAoAKACgAoAKACgCK46
-
-J+NAGfc/eX6UhlyQYb8KbJjsSwuuzYSAQeM96RRJx/eT/voUxBx/eT/voUAHH95P++hQAcf3k/76
-
-FABx/eT/AL6FABx/eT/voUAHH95P++hQAcf3k/76FABx/eT/AL6FABx/eT/voUAHH95P++hQAcf3
-
-k/76FABx/eT/AL6FABx/eT/voUAHH95P++hQAcf3k/76FABx/eT/AL6FABx/eT/voUAHH95P++hQ
-
-Acf3k/76FABx/eT/AL6FABx/eT/voUAHH95P++hQAcf30/76FAEE7hiAvIXv60hlG5+8v0oAs7t/
-
-NNggpAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFACZHrQAuaADrQBWufvL9
-
-KAJYDmP8aANewvYILR4py+C4bai9enfPTjoR9MUATpeaQuN9v5nydfLwd2eQeefQHr+fABi0AFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAGt4avoNO1qO4uWCRBWUsYyxGR2x0PvzQBdi
-
-1i0t4rNY55SI53Zj5QDiI/wZ6AnA5X1JoArWuowJDqL3EoaS7RiYlh4DkkjHbj+vHIoAh128gv75
-
-Z4GLEp8/BCg5PCg8gYx+OccUAYVz95fpQBJB/q/xoAuRWk88TSRplASMlgMkDJAz1OPSgAjs7iVH
-
-dYm2ou8k8fLgnIz16GgBv2W4xnyJcbgv3D1PIH1oAb5MuCfKfAzn5T260AEsTwytHIMOpwRQAygA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAtHTbxVVjbvhozKP9wdSfSgBhs7lfJzC/74gR/7R4/xH50A
-
-EllcRI7vHtVCASWHpnjnnqOlAEFAF5NG1CSGCVbVvLnDGNiQMgdTyeB7mgCJNOvJFmZLaQiAlZOO
-
-VI6jHc8HgelADbqzuLKURXMRjcjIB9M47e4I+ooAz7n7y/SgCSD/AFf40AXo7sJbiGSCOUKSyFif
-
-lJAB6HnoOtAFw67Phh5MeHJLZJOSRg9+B7UAObxBO0ok8mLjoOfRgf0Y/kKAETxBcrcecY42IUqA
-
-2cD5i39cUAZtxM1xO8zABnOSBQBHQAUAFABQAUAFABQAUAFABQAUAFABQAUAah1hWFsHtQ3kwtFn
-
-zDltwI6+gBOB2oAhk1NnSPbFskQqwkVjncAFB/Jf1oAfLq8k0c6PGuJQFUA4VAAAML0zwOaAKyXk
-
-kasojgIZCnMS5wfw60AaUXiKSGxsbZbdD9lZiWdi3mKeqc9FPcfTpQBAmu3UZu3Q4kuwxkYnPztn
-
-c4HYkEjigCDUdSn1OWKSbGY4wgwOvJJJ9ySSfrQBlXP3l+lAElv/AKv8aAL0NlLcLD5Q3PNI0aoO
-
-uQAT/P8ASgCf+xb8y+X5PzYz94Yx/nn6UAA0W+MvleUvmYJC7xnAOP50AC6JfuoKxA5Xdww49Pxo
-
-Az6ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAHxRiWZIywXccZIJx+VAFtdLma8uLfegMAYs5z
-
-jgZx9TigCvLaTwuiPGdzrvUDnK9jx2oAdFZyPPDHKGhWY4V3Q4P0HegC2mj5vryzkvIY5LYtklWI
-
-YKCSeBwBt7+ooAp3VncWTolxHsZ0DqNwOVPQ8dj29RQBRmXcw+lADrf/AFf40AXIr24gjEcUpVQ2
-
-4DA4PHI/IUAOGoXY6TsBv34GMbsYzjp04oAE1G8SQutw4YjGRj1z/M5oAnuNZu7gKPkj2rtOwdR6
-
-c56Y49MmgDPoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAdHI0Ugdcbh6gEfkeKALC6lepI0iX
-
-MiO2dxU4znjnHX+lAEct1PMytJKxKrtU9MD0+lAAl1PG6OJNxTO0SAOBnrwcigB8moXUzSs8uWlB
-
-WQ7QCwJBIJx6gfy6UANury4vHV7iUyMi7VJA4HYfQfpQBEse8Zp2JbsQW/8AqvxpFGpa6f8AaLeC
-
-UBtrTMkjfwqAFxn06mgAvtLazt1mVmdSxUkpgcBeQc8g7uDQBcl02wa48uK4IKSKjD7wO4gDkgY7
-
-5xkdKAGRaEJGwbkqAgbcY+G6crg8qM8mgDHoAKACgAoAKACgAoAKACgAoAKACgDS0uwivbe+ZxJv
-
-hi3pg4UepJwfy4+tAE02lRR39tEsdy0byFGAwWI3YDDjgN1H0PWgBP7MiSAs0U7OsxjZc7CeSFAy
-
-uM9M8/hQAjaZBKkjWxlCJciHzZCPLCkHJzgdx+ooArXtksGoTQROoRNpXzJFzggHqOO9AF/Q9Fhv
-
-tX+x3LNKDbtIv2d8jdjIDEA7fy9KAC+0WO2s7eWNLhySm8rhxICoYlMD+Enb1POOlAFi48PxRHUU
-
-WG7EkDKY1kyvyFQeTswWOcDkZ96ACbw/bK92qpcoEtlmRnY4RiMlWyg/XafTPGQDN1zSxpN/5CPv
-
-jK5RiCCQCVJIIGMlSR7EcmgCva42Nn1q47GFV6lC3/1X41BuS0ALvJQJuOwEkDsCev8AIUAJQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAKCRnBIzwfegAyfU0AGSe5oATJxjPHpQAUAKCVOVJB9QaADJ4
-
-5PHSgALMc5JOevNABknOSeevPWgBCSepzQAvm+WMetUmZzjcgtv9V+NSaGtYXkcEJil27TNGxBjD
-
-fKCd3OPpQBIuo2xv5J2g2qIWRAAuWbPBPy4z26dBQA8T6ZKWLQpEzANj5tu/5sg452jKjigCG7Om
-
-/Yk+zA/aN/zHLdMnse2NuO9AGdQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAPh8r
-
-zV88OYs/MIyA2PbNACzeTlfIEgG35vMIPze2O1AFO4bDD6UAPt/9V+NAFkQStC0wicxKcF9vAP1o
-
-AjzQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQBOtjdusTJazssxIiKxkhyOu
-
-31xQAxYJnSR1ikZYv9YQpIT6+lACSwywPsmieN8A7XUqcHvzQBTufvr9KAJLf/VfjQBp2mo/Zo4I
-
-zBHIscxlO4A5yAMA446UAXG15CMfZFB8wPkEZOMcnjrx1oAy7qYXF1LMqbA7ZC5zj8aAIaACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAHwtsmR9iPtOdsn3T7GgDol163Ol21nJFIWRJI3k
-
-SUKURugTj/0LJA4zzQAyPXoo5bqcQnzJppJwvmDbudWUhuOQAwI98+tAGfrN+l/PG0auEQP99wzE
-
-s7OeR2BbA+lAGLP98fSgB9v/AKr8aAJlUscAUAP8l/b86ADyX9vzoAPJf2/OgA8l/b86ADyX9vzo
-
-APJf2/OgA8l/b86ADyX9vzoAPJf2/OgA8l/b86ADyX9vzoAPJf2/OgA8l/b86ADyX9vzoAPJf2/O
-
-gA8l/b86ADyX9vzoAPJf2/OgA8l/b86ADyX9vzoAPJf2/OgA8l/b86ADyX9vzoAPJf0H50ARkEHB
-
-60AQT/eH0oAdb/6r8aALsP8Aq/xoAkpiCgB6RPIrsq5CDLewoAc9tLHgMhyQCAOTzQAzy3xnaT34
-
-HSgBCjA4KkH6UAKUdRkowHuKADY+M7WxjPTtQAeW+M7T27dc+lACvE8ZAZSCRmgA8pwjMVIC4znj
-
-r0oATy3yBsbJGRx2oAebeUIrbchumOe2aAGBHPRWP4UAGxsZ2tjGenagBWhkWXy9p3noB3oAXyJQ
-
-jPsO1Tgn0oAUW0xCkRnDdP8APagBvkyfNlSCrBTnsTQA/wCyTZUbRljtA3DOc4/nQAfZZt2NoxjO
-
-7cNuPr0oAidGRyrDBHWgBKACgCCf7w+lIZVkXLD6UAFv/q/xoAuw/wCr/GmBJQIKAJ7e4+zlvkDB
-
-uCCcZHp+tAEj6hI4b5QCwIyD06/40AOOoybgwXB3buG69f8AGgBovTsAaPcwGAd3+ztoAbJevKrq
-
-w4bPf1bdQA5b91DDbnIUDnpgYoAd/aBGP3fQYJ3c0AIb7KgeVnAwuWJ/hxz60ANuL0zx7PLCjPr7
-
-k/1oAcb7LMTG3zcnEh65zx6DjpQAo1FtwJiXIz0P+fSgAGouJC2wYI4GenJP9aAES/ZWLFA2VVRz
-
-0wMUARNcb5lkKnjqA3+cUAPa8Vt/7n7xb+LoCQSP0oAPtg2lTEMMAH+bqAMD6UANF1+8kZ4wwdg2
-
-AcYI6UAPW+IC5j3EOH5bjOc8elADftS7PK8r9yedu7nOeuaAIHYM5IUKOwHagBtABQBBP94fSkMq
-
-ythh9KAC3/1f40AWEkKe4oAf5/8As/rQAef/ALP60AHn/wCz+tAB5/8As/rQAef/ALP60AHn/wCz
-
-+tAB5/8As/rQAef/ALP60AHn/wCz+tAB5/8As/rQAef/ALP60AHn/wCz+tAB5/8As/rQAef/ALP6
-
-0AHn/wCz+tAB5/8As/rQAef/ALP60AHn/wCz+tAB5/8As/rQAef/ALP60AHn/wCz+tAB5/8As/rQ
-
-Aef/ALP60AHn/wCz+tAETMXbJoAhkXcw+lAEEcpj9we1AEn2n/Z/WgA+0/7P60AH2n/Z/WgA+0/7
-
-P60AKLjP8P60ASLJu7UAOzQAhbHagBhmx/D+tADftP8As/rQAn2n/Z/WgA+0/wCz+tAB9p/2f1oA
-
-UXGf4f1oAmQ76Vx2JPL96XMFhpXFHMFiNn29qdxEZuMfw/rTAT7T/s/rQAfaf9n9aAD7T/s/rQAf
-
-af8AZ/WgA+0/7P60AL9p/wBn9aAFE+f4f1oAlT5jk0AUaACgAoAKACgBVoAnjoAkoAa1AELUAR0A
-
-FABQAUAOWkBbhqGUWagZG1UIrS1aEVzTEJTAKACgAoAKACgB60AWo+lAH//Z
-
-------=\_Part_176_106448087.1772008360294
-
-Content-Type: application/octet-stream
-
-Content-Transfer-Encoding: base64
-
-Content-Location: file:///C:/8306261616bbb0ab8950ea011846d9709e1efcc7dafcd81c9b545621943e9822
-
-/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAD6AkUDAREAAhEBAxEB/9sAQwAIBgYHBgUIBwcHCQkI
-
-CgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJ
-
-CQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
-
-MjIyMjIy/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDwtIFA
-
-A27jQA4wqvWMD8KADyk/uD8qAE8pP7goAPKT+4KAHBQvQAUALQAUAFABQAUAFABQAUAFABQAhVW6
-
-gGgBvlJ/cFAB5Sf3BQAeUn9wUAHlJ/cFAB5Sf3BQAeUn9wUAHlJ/cFAB5Sf3BQAeUn9wUAHlJ/cF
-
-AB5Sf3BQAeUn9wUAHlJ/cFAB5Sf3BQAeUn9wUAHlJ/cFAB5Sf3BQAeUn9wUAHlJ/cFAB5Sf3BQAe
-
-Un9wUAHlJ/cFAB5Sf3BQAeUn9wUAHlJ/cFAB5Sf3BQAeUn9wUAL5Sf3BQAeUn9wUCFEaf3RQAvlr
-
-/dFMB4RfQUCsPC47UCsiVc9jTuS0iZHcdGNO7IcI9iwk8w6St+dPmZDpw7FlLu5HSdx+NHMyHRp9
-
-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
-
-3D3EpkfGTwAOAB2AHYCm5XKhTUFZEe6lcuwbqLhYN1FwsG6i4WDdRcLBuouFg3UXCwbqLhYN1Fws
-
-G6i4WDdRcLBuouFg3UXCwbqLhYN1FwsG6i4WDdRcLBuouFg3UXCwbqLhYN1FwsG6i4WDdRcLBuou
-
-Fg3UXCwbqLhYN1FwsG6i4WDdRcLBuouFg3UXCwbqLhYN1FwsG6i4WDdRcLBuouFg3UXCwbqLhYN1
-
-FwsG6i4WF3UXCwu6i4WDdRcVhd9O4WDfRcLBuouFg3UrisG+ncdg30XCwwnJqGMRT84+tAF6KaSF
-
-iY2wSMHgHI/GmA/7bc72fz3yxBbngkdOOlADVup1ztlYEjBOecUDBru4b70rHnPPr/kUAH2u4Dh/
-
-ObcM4OfXrQAovbkAATvgdBmgCEksSScknJNACUAFABQAUAFABQAUAUZPvUgBO9AFmG7uLcEQTyRg
-
-nJCNjNNSa2InShP4lck/tO//AOfyf/vs1XPLuR9Wo/yoP7Tv/wDn8n/77NHPLuH1aj/Kg/tO/wD+
-
-fyf/AL7NHPLuH1aj/KiKa5nuSpnmeQrwN7ZxUuTe5cKcIfCrEVIsKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgBaBBQ
-
-MWgQUAFABQAUAFABmgY0csaBD9xH8RoAN5/vN+dAxN5/vNQAbz/eagA3n+81ABvP95qADef7zUAG
-
-8/3moAN5/vNQAbz/AHmoAN5/vNQAbz/eagA3n+81ABuJ43GgCJ+tACKM0AO2+5oANvuaADb7mgA2
-
-+5oAUIT0zQAeWf8AaoAPLP8AtUAHln/aoATb7mgA2+5oANvuaADb7mgA2+5oANvuaADb7mgA2+5o
-
-ANvuaADb7mgA2+5oANvuaADb7mgA2+5oANvuaADb7mgA2+5oANvuaADb7mgA2+5oANvuaADb7mgA
-
-2+5oANvuaADb7mgA2+5oANvuaADb7mgA2+5oANvuaADb7mgA2+5oANvuaADb7mgA2+5oANvuaADb
-
-7mgA2+5oAXb7mgA2+5oAMe5oAXb7mgQbfc0AGPegAx70AGPegA2+5oANvvQAifeoGWbQ2u9/tW7a
-
-Vwu3sc9f50AWDFpe84uZtuDg7eSfy/z+tAEUyWAgZoZpWlyNqlcDFAFSgAoAKACgAoAKACgAoAKA
-
-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
-
-yym3VlUg5DHOOTj9MUAQ0AFABQAUAFABQAUAFABQBPam2DP9qDlcfLs65z/hmgCF9u9thJXJxkYO
-
-KAEoAKACgAoAKACgAoAKALMRs/spWVZPP3EhlPGMcD86AFnNm4XydyEE54JyOPU9uaAH2rWCRsLl
-
-ZHYkbSvGOvv9KAGXbWbKv2VHX+9vOSeKAKtABQAUAFABQAUAFABQAUASReXuPm5244x601bqTK9t
-
-CQm17B/p69f/AK1P3SffA/ZdwwGx3/z+dGge+IPs27neFwOn60aD98B9m4/1h6Zo0D3xkvlZXyt2
-
-Mc59aTt0HHm+0V2+8aRQlABQAUAFABQAUAFABQAUAFABQAUAFABQAUAPTvQA6gAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAjb7xoASgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKADOKAF3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3Gg
-
-A3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3Gg
-
-A3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3GgA3Gg
-
-A3H1oASgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKAP//Z
-
-------=\_Part_176_106448087.1772008360294
-
-Content-Type: application/octet-stream
-
-Content-Transfer-Encoding: base64
-
-Content-Location: file:///C:/89ca7a94791c63eb5b2d163df7a558016fe7fa079baf0b85a9ab21dbd497a644
-
-/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAD6AuYDAREAAhEBAxEB/9sAQwAIBgYHBgUIBwcHCQkI
-
-CgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJ
-
-CQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
-
-MjIyMjIy/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDxALmg
-
-B2z3oANnvQAbPegA2e9ABs96ADZ70AGz3oANnvQAbPegA2e9ABs96ADZ70AGz3oANnvQAbPegA2e
-
-9ABs96ADZ70AGz3oAPL96AF8v3oAUQg/xU7CbJFtQ38f6UWJ5yZdODf8tf0p8pLqEi6Sp/5bn/vm
-
-nyk+28iVdEU/8vB/75o5Be3fYkXw+rH/AI+iP+Af/Xp8gvrHkSr4aRv+Xs/98f8A16fsyXiX2JB4
-
-VQ/8vh/79/8A16PZ+ZP1ryHjwkh/5fW/79//AF6fsvMPrfkOHg9P+f4/9+//AK9HsvMX1x9iQeCk
-
-P/L+f+/X/wBej2XmS8a/5R48Dof+Yg3/AH6/+vR7LzF9ef8AKPHgRD/zEW/79f8A16fsvMX19/yi
-
-jwEh/wCYi3/fr/69HsfMP7Qf8ov/AAgKf9BFv+/P/wBej2PmL+0H/L+If8IAn/QRb/v0P8aXsfMf
-
-9oP+X8QPgFB/zEW/79f/AF6fsfMP7Qf8pG3gVF/5iDf9+v8A69L2PmNY9/ykL+DEX/l/Y/8AbP8A
-
-+vR7LzKWNf8AKRnwkg/5fT/37/8Ar0vZ+ZX1vyIz4WQf8vh/79//AF6PZ+Y/rXkMPhlB/wAvZ/74
-
-/wDr0ez8x/WfIYfDqD/l6P8A3x/9ejkH9Z8hh0BR/wAvJ/74/wDr0uQf1jyGNoij/l4P/fNLkH7f
-
-yIzpCj/luf8AvmjlK9t5DG0xR/y2P/fNLkH7XyI2sAP+Wn6Uco/aETWwH8f6UrD5hhix3osUmN8v
-
-3pDDZ70AGz3oANnvQAbPegBuMGgQ4JQAuz3oAAnvQA7bQAoFAWFFMVhwoFYeGx2oFYeJPancXKPE
-
-2P4f1ouLlJUlyD8vI560CcBy3WP4B+dO4uQeLw/88x+dFw5B4viP+WY/Oi4chIL8/wDPMfnRcOQl
-
-W+J/5Zj86BWJo7rewG0DPTmmSL9qIOCnP1osK4ous/w/rRYOYlSXd2xT5SXOxaigEpxvx+FNRMpV
-
-2uhaTSUk/wCW5H/Af/r1Xs7mTxbXQsJ4bjf/AJe2H/AP/r1XsvMzePa+yTL4OikGft7D/tmP8aPZ
-
-eZP9oP8AlOd1nTP7G1P7PdPILZwDFchMg+uR7c1hVUobK56FCoq0OZGpong+31y3kuItTYRK21WF
-
-ucH8Wxn8Kij7So/ejZEV6/stLGn/AMKwhb/mLSf9+B/jXR7LzMVjX2I5PhdAqFzrEmB1/wBHH/xV
-
-CpXdrlfXX/KU0+G1tLIV/tSdMHALW64P/j31rSWFstxyxk4q7h+I5vhbB/0F5P8AvwP/AIqo9j5m
-
-TzNr7P4kLfDGDOP7Wk/78D/Gn9X8zN5w19j8Su/w4hT/AJijn/tiP8aPq/mNZu/5PxKU/gWOEkf2
-
-g5x/0yH+NJ4e3U1jmbl9n8TMn8MiLIW7y3bKY/rUOlbqdMMZfdGDNE8ErRuMMprFqx2xkpK6FX7o
-
-oGLnFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAC0AFAh600Jk6HmqM2WY296CGWEeq
-
-JZOj0yWixG/+c0yGiyknvTIaLCycf/XpkWJRJmmKxKslO5LRPG9BDRYRqZDRMrUEkgamTYcGoELu
-
-oAYz0DSIJH96RaKcj0jVIqu/+c0i0iBnPr+tItIgaQ+tIpIheTOeaVykiFpDnrQVYhZ6RViJn60i
-
-iJnpDsQO1IpFdjQWiE1JohtIYlABQAUAFADT94UAPoEFAxaBBQAtACimIcBQAtAhwoAcBQIcpKkE
-
-dqYEjpjDL91v09qBCCgYtADxQIepoE0TK2KozsWG/ex+YPvDhh/WmTsMDUCJY3waZDRfglxiqRjJ
-
-GtBNkA9+9Wmcs4mjDce9Wmc0omvpiSX17DbQ43yNtGe3vTbSVyYU3OSiup2F5b+FtJaGw1KeB7iZ
-
-lXZNKA3PRipPA4rmlVkz26eBpwXW5X1fTRpMsflHNu/Cg/w+1awnzI4MVh3RlvdMorJ3BqjnTCSQ
-
-OpGcHIIPuDmqjo7lKfLJMoxxlGXcFAjGxDuySoIPP5D/ACeNpTTWnUuriIuFkLJKemQBWaR50mV3
-
-lABANUZ2Kkj569KC0jIvJckmokddNHP3L5kx71izvgtDkdWO68z/ALNc89z1KHwlVfuipNjd0HW7
-
-fRrLURJarcTziNYlcDZgbt27g8cjgYz6igDQXUfCYMzNpeVE3yRhWyyZXHzb/l4D5GDnIxjsAW7T
-
-WvClpPb+XbzEWkgMUkkRbco25O3fgOxGe4HIxQBnXV/4ZF7bSWemt5KWrh0l3HdLt+TdyM4bqQec
-
-0AWvt/gyRrktp8sYZGSJURuPmk2tyx5x5efofxAJE1nwlPHBHc6bIqwzS7AinaIyXKDGc5BKk9c8
-
-jjuAZepahoNwLVbbTjGkRkUqmVODIWUs3O/5TjHBGOtAGtNdeCgjTizLRPMw8lFYSABY8bTu+UZ3
-
-8kHPPSgCP+0/CUd6s1vZtEqTo5PluxZRt+4d42dHzkHORQAsmv6BfIiXdqF8qONIh5LNGuI4w2VD
-
-gkkiTHPcGgCvY6voX9hw2V7C7SxlypaMsgJMhUsAwLfeXv8Ay5ALk154Ns726EcEzoS0W2EHBTdJ
-
-kht3O5TGP+A0AJc+IPDzWYto7VH2wSRoWtiI1Y7ypClyRyQM5zyaAKkk/hW212PNoZtP+zeYwUkn
-
-zmPmBOvRRiMn6nrQBbXXfC9u4jtbJhCjB43lhLFSHiYkfNwSFkGf92gCimraA2oXM0tiRDPAoaFF
-
-YKZQ5Ocbs4I29+uaALttrHhGKJ1bT3VJ1QTxJG2Sd6McMW4T5TxjPHXmgAa78FosUr2O6ORyTFEG
-
-8wYcck7sBdob5cZORzxQBD/aPg8zlf7LIi3bg4Vic7hjjcPkxkleD2zQBPPrHhGdVeXT3lnXy0Lb
-
-WRSFjVeBu4GVPBOec5oAxtYv9JutOgi0+zjt5UmLviIgkMiZAYseA4fAPYigRiimgZKtMzZOhpks
-
-sI1MholVqYidGIpkNFhHpktE6yYFMmxKJM0E2JVk5zTJaJ45OlO5LRYSWmQ0WkfNBm0Sq1Mmw4NQ
-
-IC1ADGagaK0r0GiRSlk60jVIqyPyRz+VSWkV2c9KRaREz0irELvSGkQs1BdiJnpDImakVYjZqQ7E
-
-LHNBRExpFIjNIsbSASgYUAFABQAh+8KAHUCFoAKAFoAWmA4UCFoEKBQA4UCHCmAooAmiYco33G6+
-
-3vQIRkKMVP8A+ugAFAxaAHA0CHq1AmiaKUxtuHI7j1FMhoklQKBInMbdPY+lMgar0xNFiKXHeqRl
-
-KJfgudpBB5qkzCUTThnDDcv4j0qkznlE3PD+rppus211JyiN8+PQ8GnLVWFSfs6il2Oo1/wBb+Kf
-
-E1r4msdZEG0RMdsYkyUOQQc8cdiO1crTR7sZKSumXvFWrQXEsVpBIrtGSzsDxn0zW9KNtWeVmFaM
-
-moR6HMzailrgPuLHoqjmnUqxp7mmXZRicfd07KK6vYdDqcdypxnK9QwwRRTqxqbEZlleIwDXtdns
-
-1sDzoe5FbnkSIGkU/wAdMzInlQdyaClFlOe4yPQUmzWEDHu5+DzWbZ104mJeS+WjE/fboPQVk2dt
-
-ONzl75t0+fasZbno0tEQr90VJobWg6ZZ6hIWvLoRKs8MQTA+feWyScjAG3kj1oA15PCenQ6TPL/a
-
-kbXH2eO4iUkBnJWQtGF3f7IOT2HGSQCAR2vhKxk06yvLjWUiE6KzxqqsyFmQD+IZHznPptNACT+F
-
-7KG3sIUv1kuLq7jjM+5QgRkySo3cgHjJxyCKALH/AAhNmJVX+2kZWuRFlUX7pTcD97k9iO1ADP8A
-
-hENMhiR5tZEryJPsjgC8ugYgZLY/hGRn+IY9aAKVp4d0+50uK4bVvLuZIt/lFF2g7ZSAWLZ/5ZYP
-
-H8a0AXbzwbY2hdf7bjZyhMYCrjcFckMd3A+Tg8/eFAFlvAFuv2hhrAaKPYBIsYIUkkMWweAuMnHQ
-
-cnrQBWk8I6VBO8cuun5WwNsKkgfu85yw5/ef+OmgAPg7TYvs/m6/GRIo3GKMHBLonGWAIG85/wB0
-
-0AY2taTDp620lpK80EkKF5GKf6wg5AAJOAQetAGRQAUAFABQAUAFABQAUALQIUUwJVNMhkqtTJJV
-
-agklVqYrEyPTJaJ1emQ0Sq9MViUOKCbEqyUyWiZJOKdyWixHJTuQ0W45PwpkNFlHzTM2h4agVgLU
-
-BYid/ekUkVJZOKDRIoySdalmqRWd6RaRA0nPakWkRM9K40iF3FK5SRCz0ikiNn4pDSImagoYWoGM
-
-JoGRk0ikhhqShKAENAwoAKACgBD94UCHUDFoEKKAFFACimIdQIUCgBwoAUUCHCmAooAcKAJ4yJVE
-
-bHBH3G/pQS9NRhUoxVhgikUhKAFzTAUGgQoagViaG48skEZRvvL600yJRuOlj2ASRndEeh9PY07E
-
-LsxqyYp3E0WI58d6dzNxLsF0VIIODVJmEoGlDdLL3Ct+hq0zCULF6G8liyod1B6gHGadzOz6FmO7
-
-96dzNxJ4b6S2v4bpGJTKiQdcqDyp+tcGIUlU5j73h+pQr4D6vf3lf/gMRbuS4vJbqeQ/MCq59M8D
-
-6CqwsZOfMZ8TVaNPBrDR+JtP7uo8y56Op/GvQPgLEbSOO1A+VELyP6UFqKKc0mPvOq/jUtmsYmVd
-
-XkaA7Pmb1NQ2dUKbe5g3U5diSeTWUnc7IRsY1yd0ufasmdcNENX7opFi0AJgelABgelABgelABge
-
-goAMD0oAXFACYHpQBPFeXUFvJbxXM0cEv+sjRyFf6joaAIMD0oAMD0oAXFABQAUAFABQAUAFABQA
-
-UALQIUUAPFMlkgNUSPDUCJA1MViVHoJaJ1emTYkD0XJsSB/85pisSLJzTJsTI/vQS0TpJ0qiWi3H
-
-Jz1/Wnchotxye9MyaJw4oJsIZAKAsV5JKZaRTlk96hmqRSkkpGiRWd/85qS7ELPQVYiZ6Q7ETvSK
-
-SImekVYiLUDGFqCrDS1IBpNBSQw0ihppAFAxKACgAoAUUANP3hQIfQAUALQAopgOFAhaBDhQA4UC
-
-FoAcKYCigBRQA6kBYVhOoRziQcKx7+xqtyNY6kLKUYqwwR1BqS7piZpgJmgAzQIM0ASQ3DQk45U/
-
-eU9DTTsRKCZK0ayKZLfkfxJ3X/EU/QjbSREsmKBOJMk2O9VchxLUdx05ouZOBoQ6gVAVvmX0NXcy
-
-lTLaXCv/AKuTB/utxTuZODQ/7W8XXKmi4KLWqD7cW5LEn3p3FKDbuxDe+9FxezGNen1p3GqRDJen
-
-1NLmLVMpz3R6HI+tS2bRgjNnnz3qGzeMShK+6oZvFFGb7/4VDN0C/dFAxaACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgBaAAUCHA0wHg0yGhwNAh4amKxIrUCJlegmw8PTFYkV6YiRXou
-
-TYlWSmJomSQ8ZpktFuOSnczaLccmKozaJxJTIsDSZFFwSK8j0i0ilLJUs1SKkklI0SK7vyaRSRCz
-
-1NyrETPQVYiZqQ0Rs1BRGWpDGk0FWG5oHYQmkOwlACUgEoGFABQAUALQIQ/eFADqAAUAOFAC0xDq
-
-BCigBRQA6gQopgOFACigB1IBaACi4E6yLMoSU4YcK/8AQ1V7ktW1RFIjRttYYNIadxmaBiZoATNA
-
-hN1AAsjRsGViCOhFANX3J/NiuPv4jk/vDofrTuZ8rWwx1eI4YcHoexphZMVZsUXJcSZbj3p3IcCR
-
-brHencnkJ01KRBgNkeh5FPmJdJEn9oRP96MqfVD/AEp8yJ9kxfPib7s+P94YouHK10GkufuyI30a
-
-i47G/oFqge3mmVWZ5BndggLn3IH5kVTXuNnXhaUZTTfc7izl0rxNPN4YvtOt1KowtrmELkEDPYkf
-
-kSOK44VHex7GNyyKoqvHqeOX+nyWV9cWs0sYaGRozz6HFbHiJ+RSP2dOrNIfQDApaGi5mUrlw8gI
-
-QKAMACpbuaxVkNX7opFC0AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAtAhaYC5
-
-oAUGgVhwNMmxIG5piaJA2aCR4agQ8NTFYkD80CsSK9MlomR6ZLRajemQ0W434/8ArVRm0Th6ZNgZ
-
-6LhYgkekUkU5HqTVIqO/WkWkV3apLSImfNIpIjLUDI2agdiNjSKsMJoKsNzSGGaQCZoAKAEoGFAB
-
-QAUAFAC0CE/iFADqAFFACimAooEOoEKKAHCgBRQIcKYC0AKKQC0ALQAUAFMCRJgV8uUbk7Huv0oE
-
-12GyRFMMDuQ9GFAXIiaBjSaAEzSAaTQMTNAEiXDxjbwyd1bkU7icUx2YpPunY391un50ybNDG3If
-
-mGKAsmIJD60Byi+aaLi5Q800XDlDzT60XDlDzTRcOU7nwZ4vhsbQ6dfXLwRqS0cnmSBef4cKf1qJ
-
-Js7MLUhD3ZL8jq18R+FvDnn68mpf2jqs6HybdMnYTxyTz+JNTGFnc6sVjpTpqitl+J43dXUl5dzX
-
-MxzJM5dj7k5NaHmJEBNIohk+9SKFX7ooAWgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgBaBC5oAKAFBxTAcGp3JaHhqCR4emKw4PQKxIr0BYkV6ZLRMj0yWizG9NENFuN6ozaJw/
-
-FMmwhfigLEEj0i0ipI3vUlpFZ2zUstIrs1BaREzUhjC1A0MJpFWGE0ikNzSGJQAUAJQMKACgAoAK
-
-ACgAoAWgQn8QoAdQAtACimA4UCFoEKKAHCgBaBCimA4UALQAUALQAZoASgBM0AOSVo845B6g9DQK
-
-w4osvMXB7oev4etAEB4pDGk0DGmgBCaBjSaBhmgVhyyugwDx6HpRcOVC70bqu0+ooFZiY9CDTATk
-
-daQBmgLBQFgzQOwUBYQmgBpNAyKTrSGOX7ooAuWenT30V1LF5YS2j8yQu+3jsB70ATx6FqEnnARK
-
-DCiu6s4B+ZSwH+9tVjj2NAElp4a1O9W2aCJGFwMp+8AOMEjI7ZCkj6UAQXmj3lhZwXVyipFP/qvm
-
-5fjkj1A4yfUigChQAUAFABQAUAFABQAUAFABQBppoOoSpaGKNXa7RpI0VsttUEkkdhgH/wDXQBHJ
-
-o95DDYyyiKOO9yYXeQAYHdvTr3oAddaJeWcM8snklYGUSBJlYruAIOAc4ORQBnUAFABQAUAFABQA
-
-UALmgAoELmmA4GgVhd1MVjTbRr2OKGQqmJYDcABxlUHOT6ZyMepOOvFArCRaXeOcLGM/ZzckFwMR
-
-gE5+uBnHXBHrQKxNBpN3NZxXQ8pYZDgNJKq4GSMnPQZUj6incViOaKW0uZbaddssTFHXOcEHBpkt
-
-EkbZpmbRajfFMhonD8UybCM9AWIZHoKSKkj1LLSKztSLSIWakWRFqQ7GnHoF/Klsy+QBcR+au6YL
-
-hcgAnPTJIA+tBSRDaaJfX4byEjLLL5ToZVDKc4yR1Azxmkx2KNzBJaXMlvLgSRttbHrSGQ0DEoAK
-
-ACgAoAKACgAoAKACgBaBCfxCgB1AC0AKKYDhQIWgQooAdQIWgBaYC0ALQAZoAM0AGaADNACZoASg
-
-BM4pAP8ANEnEoyf746/j60DI3jKjcCGT+8KAIyaBjSaBiUgEoASgAzQAZoAdu96YWDNAWDNAgzQA
-
-ZoGITQAlICN+tAxy/dFAF/Tb+609ppLWNCzIVLmPcUzxkHtxmgCabxBq04PnXbtugMBYgAshbcQT
-
-3ySefQmgAt/EOo2rR+VKgSJnZItg2KXIJwO3QY9KAIbvWL6/gENzN5kYIKgqPlIz09M55x149KAK
-
-NABQAUAFABQAUAFABQAUAFAGvBr+o2NrBBEsUcSZIBgGJOnLZ64wOfagBk+uahfQxQzeXMqNlcwq
-
-SW456dcKB9M+tAEVxrF5c2clpO0bI87TsxQBy56kn/OKAKA56UAKylDhgVOM8jFACUAFABQAUAFA
-
-BQAUALmgQo7/AEoAKYGxb+JdUsorZLaVLdYM42RAbzxy3qeF/LPXmgBY/EOqOI1d0uPJieNPNhV9
-
-qsArdvQYz6UCG2uv31qY/JkjVI5DKsfljYH27c7enTOPQknrVElZ5mmleVgAWYsdowOaCWTRtTM2
-
-i0jVSIaJQ9MmwF6QWIXekWkVXekWkV2akURFqRaQwmkNI04fEN/a28NvEIFiiz8pgUhzwQWz1Iwv
-
-PsKChq65fNALcJA6iUTnECklwByeOenOfU+tIChd3ct9dPcTsDI+M4AAAAwAB2AAAoAhGT0GfpQM
-
-GBVirAqR1BGKAEoAKACgAoAKACgAoAKAFoEJ/EKAHUAKKAFFMQ4UALQIWgBaBCg0ALTAWgAyKAFz
-
-QAZoAM0AJmgBKQCZoAQmgY2gADspypxQMs2kCXc2GG0KMkjoaipPlVy4R5nY2ksoxFwqBScDjrWC
-
-5pK7Zq1GOljI1GzWIeYi7cHDLWlObfusicLaoza1ICgQlAwoAXNABQIM0ALmgBKADNACUDGP1oAc
-
-v3RQBPBcyW+/yzgsBzn0IP8ASgB91efalUGJU2k7dpOAvHGPwoArUAFABQAUAFABQAUAFABQAUAF
-
-ABQBet9TkgSNfLRvLxtLduSf60AOOqtmAiCNRCO38XBHP50AB1VgiKlvCu0Y3YyTwf8AHNABLqrS
-
-wvGLaFAybMoMcUAOTWJFZme3gclt2WX2xigCpc3P2lkby0TagX5R196AIKACgAoAKACgAoAKAFBx
-
-QAUCL6ao6xLG8UcgVQvzDt7+/wDhQALqTCcyiJVGzYFUlQOc9vpTAn/tnKDNpBuGOi4B/CgQo1Zt
-
-uBBGvDAkdcHimSxktz9onMuxUyBwvTpTRDRIjVRm0ShqBWBnphYhdqllJFaRqRaRAxpFJEZNItIb
-
-SGXY9UkSJI3ijkVAANw/n69h+A9KAG/2iRIWEKKpiMW0emc5+tAyR9WZmBFtAoAwQF69Ov5Y/GgB
-
-JdVeQHEESZZW+UY6EH+lACrq7iMq1tAxO7LFBnk0AU7mf7TO0uxUzj5V6dKAIqACgAoAKACgAoAK
-
-AFoEJ/EKANTQru2stS8664XynWOXyhJ5LkYV9p4bB7fj2oA6SW+8KT24ubyHz5SxjlaOIxyzFUj/
-
-AHgUMFjy27qDnnoaAKep3vhWS3u47DTykjo3lSfP8rYTbjJ4Gd+cg0wJ11Dw2Zbh5S0i3EcO2M27
-
-BIpEiKncAw3Ddg8UCLM1z4Os7y48uOVhtaMLCGIwfM5DFu4ZB7bT+IIfPr3hr7KLWK2jZVjkRN1s
-
-3loT5pU7S+cgunOfXFAFC5m0Cy1nSbqyGYo3iuLiPbvxuO5k5ODsGFx3yc0Aa15r/hO9SGI2eFV5
-
-JiWtiFDyMrMCFYEgDcq84HBoAq/2j4SfTzZrBLDE7LICYmZ0YKR8x3fMSSemBgj0oESvqfgyclp7
-
-SdtpjWMbGGETbxwecjePXp+ABlaRrlnaW0qXFnF5huEeF0jyYo2YeaASc/dUAZ5GTjrTA1l1fwei
-
-bFsZgJowJywZstvRvmGRxkMeDnHFAHPeILmxvL9J7Fvk8qOMoIigUpGq5GSeCQaQGTmgAzQAmaBj
-
-c0AJQAhNAxpNAy5psypMyMcbxx9axrJtaGtJpM6BJkREwxAB5GM5rOMopLUuUW2zK1WdPKKdGc5/
-
-CnSTcnIVTSNjGx+NdBgNoGFABQAUAFABQAUAFABQAUAMfrQAqsMYNAC5HrQAZHrQAZHrQAZHrQAZ
-
-HrQAZHrQAZHrQAZHrQAZHrQAZHrQAZHrQAZHrQAZHrQAZHrQAZHrQAZHrQAZHrQAZHrQAZHrQAZH
-
-rQAZHrQAZHrQAZHrQAZHrQAZHrQAZHrQAZHrQAZHrQAZHrQAuR60AG4eooELuHqKAHrIo7j86oTR
-
-KkqD+IfnRcizJ0uIx/y0X86olxZILmL/AJ6L+dFyeVgbmL/nov50XDlZE9xGf41/OlcrlZC0qH+I
-
-fnSKSZCXX+8PzpFpDSw9RSGJkeooGGR60AJketABketABketABketABketABketABketABketABk
-
-etABketABketABketAC5HrQITdzQA4EGgBRQA4UxCigBwB9KBXF2n0NAXFCt6GgV0Ltb0NAXQu1v
-
-7poC6F2N/dP5UBdBtb+6adhXQbW/umkO6Da390/lQF0Jtb+6aAuhCrehoC6EwfQ0DuJg+lAXGnNA
-
-CGgY2kMTNAEwvrhV2iU49+ah049i1UkupC0hdizNknuTV2sS3cbuHrQINwoGJketABketABketAB
-
-ketABketABketABketABketABuHrQAxjk0AKq55NADtmexoAXy/9k0AJtFABtFABtFABtFABtFAB
-
-tFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFAB
-
-tFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFABtFAB
-
-tFABsz2NAC+X/smgA8v/AGTQAeX/ALJoAPL/ANk0AHl/7JoAPL/2TQAeX/smgA8v/ZNABs/2TQAv
-
-l/7JoEKEPoaAF2n0P5UwsKA3ofyoFZDgGHY/lQFkKN3ofyoE0hwL+h/KmKyF3Seh/KgOVC75Pf8A
-
-KgOVC+ZJ7/lRcOVC+ZJ7/lQLlQeZJ7/lRdhyoPMk9/yoDlQeZJ7/AJUXDlQnmSe/5UD5UNLyHsfy
-
-oDlQhZ/Q/lQHKhCW9D+VIfKhp3HsfyoHZDSD6H8qB2Qm0+h/KgLCbD6GlcBPLPoaAE2exoGHln0N
-
-AB5f+yaADy/9k0AHl/7JoAPL/wBk0AJtA7UAG0UAG0UAG0UAG0UAG0UAMIwaAJIxnaKANbTLEahf
-
-JbmZYUIJaRsYUAZzyR/OmBJqmm/2ZLDEZRI7xh2x/CckEfpQBjyDDnFIC7baZ9qt43SdBK7N8jDo
-
-Bjnjnv6UASnQ5/LLie3IG7OH9Ovb/P40AZdAEttD9ouoYd23zHVN3pk4zQBoHQbg5aN0K7sfMCD1
-
-xz+WevAoAVtBl2syXELBRk5JH/6/5UAZ91btaXMkDkFkOCV6GgCGgDSj0eSaKF45lBkQNiQFepI4
-
-656ZoAlbw/N5iLHPEQ3dsjBxnnjj8eTQBQu7OSzaMOyN5ibwUOeM4oAr0AXrXTjdW4kWTBL7fu/K
-
-vT7xzx144PSgCaLQp5QjedCqPtIYk9G6Hp9aAKl3ZSWYjLsp8wZG3Pt6/X+fpQBWoAu2unm6gMiu
-
-Q2/YBt4HTljngc+/Q0AT/wBhzA4NxbhuOCWBwc+3HQ8daAAaHO3KzwMPUE+v0/Tv2zQBK3h9zJsj
-
-uYickfNkdMf49OvFAGfeWUlkYxIyN5i7gUOR1xQBWoA0rHSft1o04uUj2swKsPRcjv3Jx7UAPbQZ
-
-1kMZubXfnAG8/wA8Y7GgDPubdrW5kgdlZkOCVPFAEVABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQADkigDVt7eH7K9xO0ojVxGFiAJyQTk57cfjTASayeK6ngDBmifb0xn/CgBn2WUDOBj60AJ9n
-
-bcoyPmzz6UAKLWQnHGM4zmgCN0aNsN1xmgBtABQAUAFAC0CCgBaAFoAWgApiFoAXNAhaACgAzQAZ
-
-oAM0AFABmgBM0DEzQAlAxKQCUAFACUAFAxKACgAoAKACgAoAimHAPekBNJYbNh80BW253DBGQOce
-
-g3UATnRnDgeemB9727H9QfyoAgudOa2jZzLGwGMBeSQT1oA09M0CG90xrp5yGGcAdBj1p2Azrqzj
-
-ih3oSCOxNAGc/WkA5DgA0AT+cO4NAB5y9gaYETHcSTSASgAoAKACgBcnaVydpOce9ACUAFABQAUA
-
-FABQAUAFADi7soUsxUdATQA2gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAt29/NbEmGWSJmGCUbGaAGvdtI7O7OzscsSeSfemAn2j/e/OgBPPB/vUAL9o/3
-
-vzoAQzg9dxoAPOX0NAB5y+hoAPOX0NAB5y+hoAPOX0NAC+cvoaBAJl9DQAvnL6GgA89fQ0AL56+h
-
-ouAvnr6GgQvnr6GgA89fQ0AL549DQIPPX0NAw89fQ0AHnj0NAhPPX0NAw89fQ0AJ549DQAnnr6Gi
-
-4w89fQ0AJ56+hoATzl9DQAecvoaAE85fQ0AHnL6GgYecvoaADzl9DQAecvoaADzl9DQAecvoaADz
-
-l9DQBHJJv9hSAZQAUAFAEiXE0SlUldVPUA8UAI8skgw7lh7mgCF+tADl+6KAHFGCByp2E4DY4zQA
-
-mDjOOM4zQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAD2hlQgNE6kjIBUigBlAB
-
-QAUAFABQAUAFABQAUAFABQAUAFACqrOwVVLMegAyaAEoACCACRwenvQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAqoznCKzHrgDNACUAPMUgBJjcAHBO08GgBhBBwRgigAoAKAFoEFAC0AFAC0AFAC0wDNAh
-
-aAFVWckKpYgZOBnigBuR60AL2z26ZoATNABmgYlIAoASgAoASgYUCEoGFABQAUAFABQAUAFABQAU
-
-AFACkEYyCMjIz3oAQ8daACgBj9aAHL90UAXYNSlgiWIKjRrngjrznr/ngmgBt1evdIiNGiBST8oo
-
-Aq0AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAF2LU5o/4Vb7vXPAAAx+OBn6UAUzg
-
-k4GB2GelACUAFABQAUAFABQAUAFABQAUAFABQBLbTm2nWVVDEZ4PegC9Fq/lgZtIvvAnHfFAENxq
-
-LXFuYmiQHgKw6gdT+Zx+XvQBSoAKACgAoAKACgAoAKACgAoAKACgCWGd4C5TGXQocjPB/wD1UAW5
-
-9VedQrW8AG8PwuM47fSgAfWbppFf5FIOWAX75xjmgDPJJJJJJPUmgAoAKACgBaBBQMWgQUAFAC5o
-
-AKYBmkBPbXTWrswUNuXaQ3SgC4msuAwe3iYtk7gMEHBxz7ZoAadYl4AhhCjquOD1/wAaYFW6u2ui
-
-hdQuwEAD0zn+tICvmgAoAKACgBKBhQISgYUAFABQAUAFABQAUAFABQAUAFAGiNYlGwiGIFNu0rkc
-
-DoOtADf7VkCgCGIYAGcdv/r9/WgCtc3BuZjKUVSQBhenAoArP1oAcv3RQA7cf8igA3H/ACKADcf8
-
-igA3H/IoANx/yKADcf8AIoANx/yKADcf8igA3H/IoANx/wAigA3H/IoANx/yKADcf8igA3H/ACKA
-
-Dcf8igA3H/IoANx/yKADcf8AIoANx/yKADcf8igA3H/IoANx/wAigA3H/IoANx/yKADcf8igA3H/
-
-ACKADcf8igA3H/IoANx/yKADcf8AIoANx/yKADcf8igA3H/IoANx/wAigA3H/IoANx/yKADcf8ig
-
-A3H/ACKADcf8igA3H/IoANx/yKADcf8AIoANx/yKADcf8igA3H/IoANx/wAigA3H/IoANx/yKADc
-
-f8igA3H/ACKADcf8igA3H/IoANx/yKADcf8AIoANx/yKADcf8igA3H/IoANx/wAigA3H/IoANx/y
-
-KBC7j/kUAG4/5FAC7j/kUAG4/wCRQAbj/kUAG40AG4/5FABuP+RQAbj/AJFABuP+RTANx/yKQBuP
-
-+RQAm4/5FABuP+RQAZP+RQAm4/5FAw3H/IoANx/yKADcf8igA3H/ACKADcf8igA3H/IoANx/yKAD
-
-cf8AIoANx/yKADcf8igA3H/IoANx/wAigA3H/IoANx/yKADJNAEb9aAHL90UAel/D3wdperWP2zU
-
-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
-
-bS1jkeMIzxEDGFUDbkEgZXJyT1oAoarqLapfNcmGOIdFRB0GSRk9zzQBSoAKACgAoAKACgAoAKAC
-
-gAoAKAHRsEkRioYKwJU9/agDXOrWZlnb7K/73aM4TPAxnpjPOfqBQBHd6pbXME8f2NQWYmOQAKy8
-
-g4OOtAGVQAUAFABQAUAFABQAUAFABQAUAGaADNABmgAzQBt6cu3RbmMjDXQcrnuEXIP55/Kummv3
-
-Ul3/AEPPxDvXjJfZt+P/AADNtLKW9Epix+7Tccnr7D3PP5VhGDlsddWtGnbm6ldlZGKspVh1BGDU
-
-miaeqEoGFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAXre+hihSOW384LnIY8dc5HvVqSSszCdKT
-
-k5Rdh6ahbJ832Fd/GCDjGBj0/GnzLsT7Ge3MU7iSOWYtFF5a4A2j6VDab0NoRcVZu5XfrSLHL90U
-
-ALQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA5
-
-HaN1dGKspyCO1Amk1Zln+077/n7m/wC+qrnl3Mvq9L+UP7Tvv+fub/vqjnl3D6vS/lD+077/AJ+5
-
-v++qOeXcPq9L+UP7Tvv+fub/AL6o55dw+r0v5SI3ly04nM8hlHR9xyKOaV73KVKCjypaDnv7yQoW
-
-uZSUbcvzHg+tHPLuJUaavaK1IGZnYszFmJySTkmpNEklZCUDCgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKAGP1oAFYYwaAHbh60AG4etABuHrQAbh60AG4etABuHrQAbh60AG4etABuHrQAbh
-
-60AG4etABuHrQAbh60AG4etABuHrQAbh60AG4etABuHrQAbh60AG4etABuHrQAbh60AG4etABuHr
-
-QAbh60AG4etABuHrQAbh60AG4etABuHrQAbh60AG4etABuHrQAbh60AG4etABuHrQAbh60AG4etA
-
-BuHrQAbh60AG4etABuHrQAbh60AG4etABuHrQAbh60AG4etABuHrQAbh60AG4etABuHrQAbh60AG
-
-4etABuHrQAbh60AG4etABuHrQAbh60AG4etABuHrQAbh60AG4etABuHrQAbh60AG4etABuHrQAbh
-
-60AG4etABuHrQAbh60AG4etABuHrQAbh60AG4etABuHrQAbh60AG4etABuHrQAbh60AG4etABuHr
-
-QAbh60AG4etABuHrQAbh60AG4etABuHrQAbh60AG4etABuHrQAbh60AMJyaAEoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgD//2Q==
-
-------=\_Part_176_106448087.1772008360294
-
-Content-Type: application/octet-stream
-
-Content-Transfer-Encoding: base64
-
-Content-Location: file:///C:/56b6a17a397f80bf3d3e38be3816e880fad693973613860ca13d8fb977628c45
-
-/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAD6ANADAREAAhEBAxEB/9sAQwAIBgYHBgUIBwcHCQkI
-
-CgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJ
-
-CQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
-
-MjIyMjIy/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDwatiA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKANK
-
-bR5IfDlprJlQxXNzLbLGAdylFUkn2O8flQMT/hH9Y/sj+1v7Mu/7O6/afKOzGcZz6Z4z0ougJJvD
-
-OuW+ni/m0i9jszGJvOaEhdhIAbPpyPzouAtv4fvL7T7Wewtru6mnaUGKO3JAWPbkhv4vvcjHHHrR
-
-cCpqOl3+kXZtNRs5rW42hvLlQqcHoR6igC5P4V8QW0lrHPo19G92223VoWBkbGcD3xzjrRcCu+ia
-
-pHqiaW+n3Iv327bbyz5hyMj5evTmgCzJ4cv7SG/+3Wl5bXNqkTCJrYkMHbaCW/hHoecnilcB03hH
-
-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
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAf/9k=
-
-------=\_Part_176_106448087.1772008360294
-
-Content-Type: application/octet-stream
-
-Content-Transfer-Encoding: base64
-
-Content-Location: file:///C:/3181013df4311bd889931e750994ac36b62ae54c60d9faef3905d1e0925719c4
-
-/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAD6ALUDAREAAhEBAxEB/9sAQwAIBgYHBgUIBwcHCQkI
-
-CgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJ
-
-CQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
-
-MjIyMjIy/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDz65uh
-
-bgDGXPQVZzJXJoLLXbmJZYdLneNuVYRHBq1SqNXSMJ4vCwfLKok/Uk/svxF/0CLj/v0afsav8rI+
-
-vYP/AJ+L7w/svxF/0CLj/v0aPY1f5WH17B/8/F94h0vxF/0CLj/v0afsan8rD69g/wDn4vvG/wBl
-
-+If+gTcf9+jR7Gr/ACh9ewf/AD8X3jTpXiH/AKBNx/36NHsav8rF9ewf/PxfeMOkeID/AMwm5/79
-
-Gj2NX+Vh9ewf/P1feMOj6+f+YTc/9+jR7Gr/ACsPr+D/AOfq+8YdF14/8wq5/wC/Rpexq/ysf1/B
-
-f8/V95Qvbe/sGUXlpLAW+75iEZ+lRKEo/ErHRRq0ayvTkn6MpmVj6VFzblQwuaCuUYWouOw00gsN
-
-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
-
-------=\_Part_176_106448087.1772008360294
-
-Content-Type: application/octet-stream
-
-Content-Transfer-Encoding: base64
-
-Content-Location: file:///C:/6e49b6137fab1a60726bc033e6f76082c9afa83087588029e9a767473781bea8
-
-/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAD6BZADAREAAhEBAxEB/9sAQwAIBgYHBgUIBwcHCQkI
-
-CgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJ
-
-CQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
-
-MjIyMjIy/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDw+gAo
-
-AXafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oA
-
-Np9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2
-
-n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADaf
-
-SgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9K
-
-ADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oA
-
-Np9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2
-
-n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADaf
-
-SgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9K
-
-ADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oA
-
-Np9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2
-
-n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADaf
-
-SgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9KADafSgA2n0oANp9K
-
-ADafSgA2n0oANp9KAExQAUAFAEgGBQA4AnoM0AL5bf3TQAeW3oaADy29DQAeW3oaADy29DQAeW3o
-
-aADy29DQAeW3oaADy29DQAeW3oaADy29DQAFGHagBtABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAEscDSrkPEvOMPIFP6
-
-0AOa1ZVJ82A4GcCVTQBBQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAGM0ARkYN
-
-ACr1oAkVdzAUAWQAowKYC0AFABQAUAFABQAUAFADgjHoKADy3/umgBCCvUEUAJQBDKgHzCkBFQAU
-
-AFABQAUAFABQAUAAGenWgB3lv/dNAB5b/wB00ANoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-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
-
-vb+8aAEJJ6nNACUAQSuDwO1AEdIAoAKACgAoAKACgAoAOlADt7f3jQAb2/vGgBtABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAYoAMUAGKACgAoAKACgA
-
-oAKACgAoAKACgAoAKADFABigAoAKACgAxQAUANfpQAidaAH0AKCR0OKAF8xv7xoAPMb+8aADzG/v
-
-GgA8xv7xoAPMb+8aADzG/vGgA8xv7xoAPMb+8aADzG/vGgA8xv7xoAPMb+8aAELMepoASgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAGv0oAROtAD
-
-6AFRGkdURSzscBQMkn0FAE91Y3diyrdW8kJYZXeuM/SgCvQAUASTwSW07wzLskQ4ZSehoAbFG80y
-
-RRjc7sFVfUngUAI6sjsjDDKSCPQigBKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAs22nXt5G8lt
-
-aTTIn3mRCQKAIGidER2QhXBKkj72Dg/rQA2gAoAKACgAoAKACgAoAKACgAoAKACgAoAKAJYrWeeO
-
-WSGF5EhXdIyrkIPU+lADWidER2RgkgJQkcNg4OKAGAEgkDgdaAHiKRonlCMY0IDMBwCemfyNAA0U
-
-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
-
-AoAOtABigAxQAYHpQAYHpQAYoAMD0oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoATA9
-
-BQAtABigCUXEotTbBv3RcSFcdWAwOfxNAEVABQAYFABigAoAKACgAoAKACgAoAKACgAoAKADFABi
-
-gAxQAqM0bq6EqynKkcEH2oAQ/NnPOeuaADAHagCQTyC2a2BHks4kK4/iAxn8iaAI6ACgAwPSgAxQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA5ndlVWYlU+6CeB9KAG4oATA9BQAtABQAUAGKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAHxvs+lMCTzk9DQAeanofyoAPNT0P5UAHnJ6Gg
-
-AEqDoDQAeanofyoAPOT0NAEcj7z7UgGUANfpQAidaAJACTgUAL5be35igA8tvb8xQAeW3t+YoAPL
-
-b2/MUAHlt7fmKADy29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be3
-
-5igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MU
-
-AHlt7fmKADy29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35igA8
-
-tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7
-
-fmKADy29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35igA8tvb8x
-
-QAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKAD
-
-y29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35igA8tvb8xQAeW3
-
-t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vz
-
-FAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35igA8tvb8xQAeW3t+YoA
-
-PLb2/MUAHlt7fmKADy29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5b
-
-e35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/
-
-MUAHlt7fmKADy29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35ig
-
-A8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHl
-
-t7fmKADy29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35igA8tvb
-
-8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmK
-
-ADy29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35igA8tvb8xQAe
-
-W3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29
-
-vzFAB5be35igA8tvb8xQAeW3t+YoAPLb2/MUAHlt7fmKADy29vzFAB5be35igA8tvb8xQAeW3t+Y
-
-oAPLb2/MUAHlt7fmKADy29vzFACFSOv86AGP0oAROtAD6ACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgBr
-
-9KAETrQA+gDb8J6Tba1ri2l3v8ry2c7Gwcjpz+Nb4empzszzs0xU8Nh3UhuZUkAW+e3VgAJTGGc4
-
-A5xkntWMlZtHdTk5QUn1Rs6n4O1bSobiSY2cotmVbhbe6SRotxwpZRyASRz70ixt94Q1jTtTbT7i
-
-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
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgBr9KAETrQA+gBVVnbaqliewGaNhqLk7ISgQUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFADX6UAInWgB9AG/4N/wCRgT/rk/8ASsqvwnrZMk8T8jHmKLqEpdNyCY7lBxkbume1aR2P
-
-NrfxJerOx1Pw/oMut6nomnW97a3tpC80MslwJUl2R+YVYbQV4zgg9RTMyrNpvhzSb+30bUYL+a7d
-
-Y/tF5DMFWF3UMAke35goYZyRnnFADz4as9FKRana3Gp31xezWttbW0whUiJtpYtgnJJ4H50AW7Tw
-
-fa/2pq8culai6QWcdzbWs86QSHc6qcvypAycHjOKAMmw0qzk8R6gbqyeDT9Ogknnt2uPMPyqAqeY
-
-uM7nKjI9aAFh0Gzk1rwpaN5nlapDA9xh+cvIynae3AFAF7S/DmlXWktKlnd6jcCWZZ0tbpFltQp+
-
-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
-
-S5ovqSw6jJvAuWaSHy2iIGAQpGOPfpScS6eIafv6q1hLi4t5Y0iQS7IYysZOMli2SW9ue1NJ7hUq
-
-U5JRV7LYfcXNo9okMAuECYO0hcM3ck9fp6Ukne5VSrScFGF1YLm9je1aKJrhi8gkJmbO3APT8+vs
-
-KFGzCpXi4csb731Hx6mFbaTNsCABwcvuyCSfrjH0pco1iVs9iC4nja2CJjMkrSso6L2A/nTS1uZ1
-
-aicLLq7lSqOcKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgDes/Ez2WiyWMOn2i3DfKLtVIcLtdTkZwWw5G7GcfgaAI5PEc8mntB9ktxcvbLaPeDd5jQrjC
-
-4zt6AAnGSBigA0/X4tOv5ruPRrJmkUoqFpQsalCrAYfuCeuetAEdlrUNjOZk0exZ1mE0BfzCYWHQ
-
-A7vmAwDhs80AV/7UuPsN5anaTeTLLPL/ABNtJO36ZOfqB6UAWrXXIrbRptNOk2kqzlTJK7yhmZd2
-
-08MAMbj2oAkHi3WTp11ZS3fmxXESwsXRSVVSMAHHoMc9qAMOgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAkS4mjheJJpVjf7yK5Ct9R0NABNcT3BBnmllKjAMjlsD2zQBHQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUANfpQAidaAH0A
-
-AJByDg0DTa1QUCCgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAa/SgBE60APoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KAGv0oAROtAD6ALml6bLqt8trE6IxUtlunFTKSirnThcNLEVPZx3KrRskrR4yysVwPXOKpaq5hKP
-
-LJx7Dnt549vmQypuOBuQjJ9qCRXtbiNSz28yKOpaMgD8xQA1oZVjWRonWNvusVIB+h70AOS3nkiM
-
-scMjxhghZUJAY5IGfXg8e1AEe0lSwB2jqccCgB7QTKyK0Mil+UBQgt9PWgBJIpYSBLG8ZPQOpH86
-
-AGUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA5EaR
-
-wiKzMeiqMk0ANyPWgAoAKACgAoAfJFJFjzEZNwyMjqKAGUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA1+lACJ1oAfQBv+Df8AkYF/65P/AErKt8J6
-
-+S/7z8jIl8z+0pPJ3eb552bPvbt3GMd81pHY8yt/El6s9Y8YyXosvEpkOrxeUbeVJL7/AI99wZeI
-
-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
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAGv0oAROtAD6AC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgBr9KAP//Z
-
-------=\_Part_176_106448087.1772008360294
-
-Content-Type: application/octet-stream
-
-Content-Transfer-Encoding: base64
-
-Content-Location: file:///C:/eb98910f6a511c9585e26c9b36c5c8f5f82896f10816f42a9a8ee74f40afe88b
-
-/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAD6AKsDAREAAhEBAxEB/9sAQwAIBgYHBgUIBwcHCQkI
-
-CgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJ
-
-CQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
-
-MjIyMjIy/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDhenWr
-
-OUhN7Apxvz9BRcfKxPt1v/eP5Gi4crA30H98/wDfJoDlY030H94/lRcOVjDewf3j+VFw5WMN5D/e
-
-P5UXFysja7i/vfpRcfKyJrqM9/0ouHKyJp0Pf9KQ+VkTTKe9A+VkTSA0FcrI2bNIdmMJoKsMINAx
-
-u00gE2mgYbTQAm00AG00AJjFAET/AHjQB1txKxsIznlsZqjBbl2K10G4giLXkltIVUybudrHggcc
-
-jj/x7vikWQm10eK4VHvZJE8hmd41ziTsqjjP40wLbWHh3dLt1JiCxMYJxwD0zjj05z0z3oAlh0bQ
-
-b/UWhttRdV5YAcDGDwC3fp+fbrQBg6lBa200a2lx56GNWc/3X7jigCkTQA0mgBpNIYwmgBCaBjSa
-
-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
-
-------=\_Part_176_106448087.1772008360294
-
-Content-Type: application/octet-stream
-
-Content-Transfer-Encoding: base64
-
-Content-Location: file:///C:/239f45079b5a24c1fc51045dccae3d095211f4b56d10780816f8c78e121fe049
-
-/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCABICSADAREAAhEBAxEB/9sAQwAIBgYHBgUIBwcHCQkI
-
-CgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJ
-
-CQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
-
-MjIyMjIy/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/oAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgBaAJPIlIyIn/75NVyvsR7SPcBBN/zyf/vk0uWX
-
-YftIdw8ib/nk/wD3yaLMXtIdw8iX/nk//fJp8suw/aQ7kZ4qShKACgAoAKACgBaACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAEoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-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
-
-E8t/7rUDGkEdRQAUAJQB/9k=
-
-------=\_Part_176_106448087.1772008360294
-
-Content-Type: application/octet-stream
-
-Content-Transfer-Encoding: base64
-
-Content-Location: file:///C:/31c9ff209b20bed2d1d8b25e4cf93460c80623137a99ab88cee5149e455c34cb
-
-/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAD6BVgDAREAAhEBAxEB/9sAQwAIBgYHBgUIBwcHCQkI
-
-CgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJ
-
-CQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
-
-MjIyMjIy/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDxJR3o
-
-AdQAUAFABQAUAFABQAUAFABQAUAFABQAUAFADlRm6CgB3kv7fnQAeS/t+dAB5L+350AHkv7fnQAe
-
-S/t+dAB5L+350AHkv7fnQAeS/t+dAB5L+350AIYnHagBlABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFAFgW0ZAP2qMf8AAH/woAZLEsYBWZZM+gIx+YoAioAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-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
-
-LG0UqA4JU9ce9AFyKPRbSdbr7ZNdKh3pb+SUJI6BieMfSgDLubiS6upbiU5klcu31NAEVABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAKGKnIoAsLIrd8UALkeopgGR6igAyPUUAGR6igAyPUUAGR6igA
-
-yPUUgDI9RQAZHqKYAWA6kUAQSPvPtSAZQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQBpT6UlvboXu1Fw8ayrCY2AYNjAV+hPPT680AVUsbqSV4kt5GkjcI6heVYnAB988UAT/2
-
-LqfH+gz8rvHy9R7f4daAHPo119kguYIpJo5IfNYqv3cMwI9+FzQBX/s+8NmbsWsv2cAt5m3jHr9P
-
-fpQAahafYb+a237/ACyBuxjOQD/WgCtQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAF/TLCDUJGjk
-
-vPIkCswHlFwQqljyD6A0AQyWT/aUitxJMJV3RN5ZUyLzyB+B/KgBW0y+S3Nw1pKIQoYuV42nofpy
-
-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
-
-JQAUAOyno350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQA
-
-Zj9G/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo35
-
-0AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgAzH6
-
-N+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAM
-
-x+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86
-
-ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQAZj9G
-
-/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350AGY
-
-/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dA
-
-BmP0b86ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAMx+jf
-
-nQAZj9G/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMf
-
-o350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgA
-
-zH6N+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350AGY/Rvz
-
-oAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0
-
-b86ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQAZ
-
-j9G/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350
-
-AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N
-
-+dABmP0b86ADMfo350AGY/RvzoAMx+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350AGY/RvzoAMx
-
-+jfnQAZj9G/OgAzH6N+dABmP0b86ADMfo350AISuOAfxNACUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAKoywHqcU
-
-DjHmaRf1nSzpF8LYyiXKB92Mdf8A9VTCXMrnVjMK8NUUG76XM+qOQKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAdH/AKxP94Un
-
-sXT+Nepv+NP+Q4v/AFwX+ZrOj8J6mc/7wvRFCPw/rEunDUE0y6ayKl/PER2bRwTn0rU8gkuPC+vW
-
-lq9zcaPexQINzSPCQoHrmgCk2n3iT3EDWsoltlLToVOYwOpYdsZFAD4NKv7q3SeC1kljeRokKjO5
-
-1XcQB1OF5NAEMdnczQrLFbyPG0ghVlUkFyMhfqR2oAvSeG9bhvobKTSbxbqcExQmE7nA64HfFAFe
-
-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
-
-TioqWtp3NcNGftLy7fqY1ZHcFADo/wDWJ/vCk9i6fxr1N/xp/wAhxf8Argv8zWdH4T1M5/3heiOe
-
-xWp5AUAFADnd5HLuzM55LMck/jQA3GKADA9KADFABQAUAFABQAUAFABQAUAFABQAUAFABQAYBoAK
-
-ACgAxQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFACglSCpII5BHagLXExQKyDFAWQUDDFA
-
-BigLBQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABjFACliyqpJIXhQTwPpQA3aB2H5UASRyyQiQR
-
-uUEi7H2nG5fT9BQAzHtQAYFAD4ZZLdi0LlGKlSVODgjBH5cUAMwPSgAoAfDLJbyrLC5jkX7rLwRQ
-
-AzAoAMUAJgelABgelAC4FACq7IcqxU+oOKAF8x/77fnQA2gAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKAD+vWgAxQA6SR5pDJK7O56sxyTQA2gAwPSgBMD0oAXHOaACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAxQAUAFABQAoOCCOoOaBp8rTLuq6nL
-
-q14LmVFRggTC9OP/ANdTGPKrHRisTLET55LpYo1RzBQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA5
-
-43jbbIjI3owwaCpRcXZjaCQoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgByf6xP94UnsXT+NG/4z/5Di/8AXBf5ms6Pwnp5z/vC
-
-9Ec9Wp5IUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQA6P8A1if7wpPYun8a9ToPGn/IcX/rgv8AM1nR+E9TOf8AeF6Iv3Wlafae
-
-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
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgByLukVfUgU1qyZO0W0bX
-
-ivR7fRNYFras7RmFX+c5OTkH+VbV6apysjgyzFzxVFznum0YdYHohQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAD4v9fH/vj+dV
-
-HdEVPgZ1PxE/5GVP+vZP5tXTjPjXoeNkH+7S/wATMs+G7tdKh1GS5sIop4jNFHJdKsjqCRwnXqDX
-
-Ie4S3fhO9s9MXUHvNLaBt2wx3qMZCuMhR3IyOKAKkug38N/qVk6J5+nRvJcAOMKqkA4PfqKAJLHw
-
-7fahaW08Hlf6TNJFEjNhmMab3PpgDj60AQ2OiX+owRTWkPmLLdLaIAwyZGG4DHpgdaALo8Jai+oW
-
-VnDPYTNeM0cMkV2jRl16qWHQ9OvXNAFbUtAvtLtkuZfs81sz+WJ7adZUD4ztJU8HHY0AZdABQAUA
-
-FABQAUAFABQAUAFABQAUAFAE6Wc0lhNeqo8iGRI3OeQzhiOP+ANQA1rdxHC42v5oJCockYOOR2oA
-
-aYpBklGADbSSCAD6fWgCefTrq3jeZoy8CSmHzk5QsOSAfxFAFWgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAs2NhcahciC3QF+5Y4CjOMknpVRi5OyMqtaFKPNIfHpV5JNJCIlDx4DbpFUZPTBJ
-
-wc9sUKDvYmWIpxipPqJDpd5Pv2Q8o5jIZgpLD+EAnk+wpqnJhLEU42u9yK3tZbqbyYVBfBOCwUAA
-
-ZOSeBSUW3ZF1KkaceaWxKmm3Mk8kKiItGu9j5ybQM4+9nHcd6fJK9iHiIKKk+vkyvLE0MrRvt3Kc
-
-HawYfmODUtWdjWMlJXQykUFABQAUAFABQAUAFABQAUAFABQAUAFABQBPPZXVtBDPPbSxRTZ8p3Qq
-
-Hx1xnr1oA0Lzwzq1ja21xNanbcEKqKwZ1YnAVlBypPYGgCtqGj32lLG13EqrIWVWSRZF3L95SVJA
-
-IyMg80APXQtRfTDqC2/+j7DJnzF3FAcFwmdxUHvjFABNoWpW+nC/lt9sBVXP7xSyq33WZAdyg9iR
-
-g0AZ1AE5s5RB5pAAxu25+bbnGcelAEFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFAGlp+g3+p2stxbRoY0O1d8ioZW4yqAn5mAOcDtQBWWwu
-
-20+S/ED/AGWORY2lIwAxzgfoaAGQWk90JmhjLLDGZZD0CqMDJ/EgfjQBat9D1K7sTeQ2xaEBiDvU
-
-MwX7xVScsB3wDigDPoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgBURpHVEUs7
-
-EBVHUn0osJtRV2XZtKuIIpH3wSGP/WpHKGZO3I+vpVuDSMY14yaWuuxSKMMZVhu6cdamzNlJdwKM
-
-CAVYE9BjrRZhzLuL5b79mxt/93HP5UWYuaNr3JDbOLMXJxsMhjx3yAD/AFp8ulxKonPk62uQ1JYU
-
-APi/18f++P51Ud0RU+BnU/ET/kZE/wCvZP5tXTjPjXoeNkH+7S/xMmu9Ssbvwfptomo6ak1vZNFL
-
-FNZM8+/zHbCSbCBkEd65D3DGur62l8L6PZK+bi2uLh5VwflVim3nv900AdJqfjK1vdS8ToEsha3d
-
-rNHazR2YSWRiV2gsBu5wetAFZtXs9G8UaLbNJ5ljpdt5Erw4bLyqTK49cM+PfbQBBDd6ZpFhY6dB
-
-rbyt/aQvJL2zgYfZ1VNq4DgFmyckdMetAGnHquhx+INBvLi/sHu7e8aa6vrOzeGNohgqGQKMvnPI
-
-XvyaAMO6uNM0zw/fadZ6gNQuL+eKR3jiZI4kj3EY3AEsS3pgAUAc3QAUAFABQAUAFABQAUAFABQA
-
-UAFABQBt6U1nNoGo2Fxfw2cstxBLG0yOVYIJAfuKefnFAGhDrNrYaQba3vf9JjsZ4FkiVhl2uFYE
-
-EgEZUE57e1AD7vxKt4LqO4vpZYpdLijKsCQ1yuwliP73DfN39aAG63rkN/p2qW9vqTojanJcxwne
-
-FmjYAAAYxwRnBxQBydABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAEttJHDcI8sQlQHlSxH8qqL
-
-s7szqxcoNRZvWd/BN4nlmt3gt4ZZeRNkrKN+ec/dPQ1rCS57nFWpSjQSldvyK0a2Saq01tJZCNNm
-
-UuN2wnA3FD7HpnmlpzXRT9p7FRknfy/UktdTtkvpWm2zW0Nw1zC0pPmMc9BjrnA69OtOM1d32JqU
-
-JuCS0bVmUrOQpdef59orXCSBhLkquezccZ7dqiO9+5vVjeHLZ6W2LZmgW8kW2ksEL26rLvU+Szgg
-
-nb27D261bavpYx5ZuCc09Hp3sZ2pG2OoS/ZAoh4xsztzgZxntnOKyna+h1UOf2a59ypUmwUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAX9FujZaza3KzW8JifcJLiEyxrx/EoBz+VAGj4ouLC9uIbq3vBcXU
-
-mftBR5WQdMEeaAw78ZP4UAbGuy2F/omntc6jp8uouwEd3BvQ4Mh3NMuMDjBzjdn1oAztYt7UR2Wk
-
-2Oqae1hFI7ef5xLPIQN0jgD5QdoAHOO/JoAnhvLDyLbU2voB5OjvYtaEnzTKUdBgY+6dwbOfWgBb
-
-+9sDDqmopfQOL+whtorVSfNRx5e7cMcBfLPOecigDm7GFZC8hCMyY2q7AAk9z7CgCxdPM9tsSZWj
-
-5Z3aQbn/AA6gegoAzKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKAOm8Oy2X2ExajfWZsY5fMns7mFi+04BaFl53npjI6AnIoAZBNav4TvbWX
-
-WYxI8kb29rIJSUVDJleF2gncOhx60ATaNe6BYk6bqDT3NrLcJLNcQDaroF4RlI3YDE9Opwe1AEWn
-
-6/bWdhIzQxvc2avFprOG8xBITktj5SFBYjjOW9KAObHAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgCzp9yLPUbe5ZSyxuGIHXHtVRdpXMq1NzpuK6k0lvYRJK4vvOzxGkaEN1/iy
-
-MDj681TUVrczU6srR5bf10N1tX08TQk3AYRXSSox3sQgBBzngHpwBitXOKONUKvVdGihaaqjW0Qu
-
-LlxdDzkSdgWMW4LtOeuOGHHTNSpq2u5rPDyUrxWmmnclttQhieZJr4TztEircMXUDDEldwG49Rzj
-
-tihSS0b1FOlN2lGNl2Kmq38N3Ayxspf7SX+VSARsVd3PqQamck0a4ejKE7va36mRWR2BQA+L/Xx/
-
-74/nVR3RFT4GdT8RP+RlT/r2T+bV04z416HjZB/u0v8AEzk65D3AoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgABIII6jkUXswd
-
-ralvUdTu9WuvtN5L5ku0JnAHA+lXObm7yMMPhqeHjyU1ZblSoNwoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAP/Z
-
-------=\_Part_176_106448087.1772008360294
-
-Content-Type: application/octet-stream
-
-Content-Transfer-Encoding: base64
-
-Content-Location: file:///C:/48f8fa0a265eadb4c7aa5f98c3e945ab494bb9cceac6c52e5075328034908eb3
-
-/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAD6AjYDAREAAhEBAxEB/9sAQwAIBgYHBgUIBwcHCQkI
-
-CgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJ
-
-CQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
-
-MjIyMjIy/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDwwCgB
-
-4jcjOw/lQAeU/wDcP5UAHlP/AHD+VAB5T/3D+VAB5T/3D+VAB5T/ANw/lQAeU/8AcP5UAHlP/cP5
-
-UAHlP/cP5UAHlP8A3D+VAB5T/wBw/lQAhUr1GKAEoAMUAFAARjGR16UAHFABQAnFABxQAtABxQAU
-
-AFAABnoM0AGOM449aAF2n+6fyoATHGccHvQAUAFABQAUALtJONpz6YoATHGccUAHFABQAUAFABji
-
-gAoAXacZwcdelACAZ6DNAClSAGKkA9DjrQABCVLBSQO+KAFEbkZCMRjOQKAGlSpIIwRwQRQAUAFA
-
-BQAUAKUIUMVIU9CRwaAG8UAOKEKGKkKehxwaAEoAOKAF2Hbu2nb644oAUROQCI2IOOi+vSgBuMdq
-
-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
-
-/wA8/wDx40AHlxf88/8Ax40AHlxf88//AB40AHlxf88//HjQAeXF/wA8/wDx40AHlxf88/8Ax40A
-
-Hlxf88//AB40AHlxf88//HjQAeXF/wA8/wDx40AHlxf88/8Ax40AHlxf88//AB40AHlxf88//HjQ
-
-AeXF/wA8/wDx40AI8Csp2Ahh2znNAzNvFygbv0pAUsGgAwaADBoAMGgAwaADBoAMGgAwaADBoAMG
-
-gAwaADBoAMGgAwaADBoAMGgAwaALFn/rfwoA2h/q4/8AdFMRswyjS9FtrqGCCS5upJAZpohII1TA
-
-2qrAjJzknGcYoAi1Dy7rTLXUfJjhmklkhkWJQqPtCkMFHAPzYOOOKAM6FFd8McDGc0ATGycd1GSe
-
-CeQOef0oARrRkJDOgx16nvigBslvs2kNkHaD6gkZoAlayxvw5+9hcjqPU0AILJtxUsu7GQAfcf40
-
-ANNoVQszqPl3Y6+n+NAFegAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAdH/rF+tAGVd/6ofWkMpUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFAE1p/rj9KANmI+ZGoH3lGCKYi/Z6jcWcLweTFPbu25obiLeu7+8O4Pu
-
-CKAH3+rXOpW0EE0Fuq25Pk+VCE2KeqjHGM885Oc80AUF3ocruB9RxQA4NKP4n4Oep60AIGlDbgXz
-
-65NACfOf71AC7pRjl+OnWgAJkJyS+fxoAN0pxy/AwOtADdrf3T+VABtb+6fyoANrf3T+VABtb+6f
-
-yoANrf3T+VABtb+6fyoANrf3T+VABtb+6fyoANrf3T+VABtb+6fyoANrf3T+VABtb+6fyoANrf3T
-
-+VABtb+6fyoANrf3T+VABtb+6fyoANrf3T+VABtb+6fyoANrf3T+VABtb+6fyoANrf3T+VABtb+6
-
-fyoANrf3T+VABtb+6fyoANrf3T+VABtb+6fyoANrf3T+VABtb+6fyoANrf3T+VABtb+6fyoANrf3
-
-T+VABtb+6fyoANrf3T+VABtb+6fyoANrf3T+VABtb+6fyoANrf3T+VABtb+6fyoANrf3T+VABtb+
-
-6fyoANrf3T+VAAT5Q3txjoD3NAGXd/6ofWkMpUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-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
-
-------=\_Part_176_106448087.1772008360294
-
-Content-Type: application/octet-stream
-
-Content-Transfer-Encoding: base64
-
-Content-Location: file:///C:/efcee6cc32baba8731393ed0bad6e7e53ac486682c72c15f050e754162ae8cf9
-
-/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAD6BLQDAREAAhEBAxEB/9sAQwAIBgYHBgUIBwcHCQkI
-
-CgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJ
-
-CQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
-
-MjIyMjIy/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDxMDFA
-
-C0AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAoBPQZoAd5T+lAB5T+lF
-
-gDyn9KLAHlP6UWAPKf0osAeW/pQA0gg4IxQAlABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQBYt7cTKxO/g/whf6kUAOm
-
-tViiLjzcj+8Fx+jGgCrQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-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
-
-HLMf19aAM2gAoAKACgAoAKACgAoAKACgAoAKANFJ7K4tLaK7aeNrcMoMSBg6li2OSMHJPPNAFqDV
-
-rWKKLb9ojWFZVW2X5klDE43HI9QDwc4FAEw1u0Z13LMuFcBtucEpGvIDDI+RuM9x9KAEm123knaU
-
-LNt+0xXAiIG19qgMrc8ZxnPNABca+mJBbvLuaKRVcJtZWcqepYnov59qAJINesobeBCkx2GFsbcl
-
-Sh55Lc55xwMdKAOboAKACgAoAKACgAoAKACgAoAKACgDSGqlLGytlRWWEsZFeNTuy+7AOMigDUfx
-
-FbG53BGaN/NJJi5jLjHHznPvgrQBi6pdre3vmpyoRUBK7SQBjpk/zNAFOgAoAKACgAoAKACgC3pl
-
-2tjqMNy6llj3cYznKkdD9aAJ11if7HcxFzG7oiReSoRUAbceBjGaAJ7+/sdQjfc9xE/nyzKBEGDb
-
-gvU7hjlT69aAMagAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgC4l2i6fFb4belz5xPbG0D8+KANKTXwZy0TTohS5G0HHMjMVPXtkflQBJba/AkaLIJBIqxEy7dz
-
-MyKRj7w9sE5+lAGZZ3UcU95dsQsxjfyVA/jfjj0wCx/KgBunX/2CO72/6yWIIh2hgDvU8g+wNAGp
-
-Br8AdJZhJ5ywxJlUGCVZiRgEDnIwe2DxQAyTWLRra4jBuMPK7RxhQoUM+7qG5GOxB56EUAVNR1T7
-
-dFOrGVi9408e852qR09u35UAZlADG60APoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgBjdaAJAcHoD9aAF3/7K/lQAb/9lfyoAN/+yv5UAG//AGV/KgA3/wCyv5UAG/8A2V/KgA3/AOyv
-
-5UAG/wD2V/KgA3/7K/lQAb/9lfyoAN/+yv5UAG//AGV/KgA3/wCyv5UAG/8A2V/KgA3/AOyv5UAG
-
-/wD2V/KgA3/7K/lQAb/9lfyoAN/+yv5UAG//AGV/KgA3/wCyv5UAG/8A2V/KgA3/AOyv5UAG/wD2
-
-V/KgA3/7K/lQAb/9lfyoAN/+yv5UAG//AGV/KgA3/wCyv5UAG/8A2V/KgA3/AOyv5UAG/wD2V/Kg
-
-A3/7K/lQAb/9lfyoAN/+yv5UAG//AGV/KgA3/wCyv5UAG/8A2V/KgA3/AOyv5UAG/wD2V/KgA3/7
-
-K/lQAb/9lfyoAN/+yv5UAG//AGV/KgA3/wCyv5UAG/8A2V/KgA3/AOyv5UAG/wD2V/KgA3/7K/lQ
-
-Ab/9lfyoAN/+yv5UAG//AGV/KgA3/wCyv5UAG/8A2V/KgA3/AOyv5UAG/wD2V/KgA3/7K/lQAb/9
-
-lfyoAN/+yv5UAG//AGV/KgA3/wCyv5UAG/8A2V/KgA3/AOyv5UAG/wD2V/KgA3/7K/lQAb/9lfyo
-
-AN/+yv5UAG//AGV/KgA3/wCyv5UAG/8A2V/KgA3/AOyv5UAG/wD2V/KgA3/7K/lQAb/9lfyoAN/+
-
-yv5UAG//AGV/KgA3/wCyv5UAG/8A2V/KgA3/AOyv5UAG/wD2V/KgA3/7K/lQAb/9lfyoAN/+yv5U
-
-AG//AGV/KgA3/wCyv5UAG/8A2V/KgA3/AOyv5UAG/wD2V/KgA3/7K/lQAb/9lfyoAN/+yv5UAG//
-
-AGV/KgA3/wCyv5UAG/8A2V/KgA3/AOyv5UAG/wD2V/KgA3/7K/lQAb/9lfyoAN/+yv5UAG//AGV/
-
-KgA3/wCyv5UAG/8A2V/KgA3/AOyv5UAG/wD2V/KgA3/7K/lQAb/9lfyoAN/+yv5UAG//AGV/KgA3
-
-/wCyv5UAG/8A2V/KgA3/AOyv5UAG/wD2V/KgA3/7K/lQAb/9lfyoAN/+yv5UAG//AGV/KgA3/wCy
-
-v5UAG/8A2V/KgA3/AOyv5UAG/wD2V/KgA3/7K/lQAb/9lfyoAN/+yv5UAG//AGV/KgA3/wCyv5UA
-
-G/8A2V/KgA3/AOyv5UAG/wD2V/KgA3/7K/lQAb/9lfyoAN/+yv5UAG//AGV/KgA3/wCyv5UAG/8A
-
-2V/KgA3/AOyv5UAG/wD2V/KgA3/7K/lQAb/9lfyoAN/+yv5UAG//AGV/KgA3/wCyv5UAG/8A2V/K
-
-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
-
-3E7tg6YBUe+M0AVYpY7aISId1y3TjiMevuf5UARTTmZYgRzGu3OevJOf1oAioAY3WgB9AHT+GZY4
-
-9C8RB5FVmtRtBOM/e6fnXVQaUJ37Hj5lCUsTh2lfU5iuU9gKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAY3WgB9ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAMbrQA+gAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAGN1oAfQBtaNbQT6Xq7yxK7xQAoSPunnkflWU200e
-
-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
-
-9xZdrBs9QRkY9zQBRvtRlvzDvSGKOFPLiihTaiLkk4HuSTzQBCbhvswgUBUzlsdXPvQBGSTjJJwM
-
-D2oASgBjdaAH0AaWnakllY6hA8bM1zEEUjoDz1/OolG7TO3C4lUqVSDXxIzas4goAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgBjdaAH0AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AxutAD6AJobWeeOaSKJnSFd0hH8IpNpGkKU5pyirpbkNMzCgAoAKACgAoAKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-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
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAIQD1FABgelABgZzgZoAekjxJIiOVWQbXAONwyDg
-
-/iAfwoAbigB0cjw7/KYpvUo23jcp6g+1ADMDOcDNABgDsKADAznAzQAuKACgAwKAEwPSgBaAFJJx
-
-k9OlACUAFADG60APoAngvJ7aKaKKQqk67ZAP4hSaTZrTr1KcXGDsnuQUzIKACgAoAKACgAoAKACg
-
-AoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAC
-
-gAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAY3WgB9ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAF
-
-ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
-
-FABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAMbrQ
-
-A+gDX0nR01LTtUummZGsoRIqgZ3Hng/lW1OlzRlLscOKxboVadNL43YyKxO4KACgAoAKACgAoAKA
-
-CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-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
-
-UAFABQAUAFADG60APoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
-
-ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA
-
-KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
-
-AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA
-
-oAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgBjdaAH0AFABQAU
-
-AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA
-
-UAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQ
-
-AUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
-
-QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
-
-BQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAxutAH/2Q==
-
-------=\_Part_176_106448087.1772008360294--
+</div>

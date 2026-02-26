@@ -1,12227 +1,2449 @@
-Date: Wed, 25 Feb 2026 08:29:22 +0000 (UTC)
+# 草稿草稿草稿 PRD_Hertzflow V2版本_2025.10.15
 
-Message-ID: \<1938619854.1.1772008162546@fb91e15db2ee\>
+<div class="Section1">
 
-Subject: Exported From Confluence
+<style>[data-colorid=sb6qbn1x7d]{color:#ff5630} html[data-color-mode=dark] [data-colorid=sb6qbn1x7d]{color:#cf2600}</style>版本号：V.2.0.0
 
-MIME-Version: 1.0
+需求人：cen
 
-Content-Type: multipart/related;
-
-boundary="----=\_Part_0_1454788400.1772008162528"
-
-------=\_Part_0_1454788400.1772008162528
-
-Content-Type: text/html; charset=UTF-8
-
-Content-Transfer-Encoding: quoted-printable
-
-Content-Location: file:///C:/exported.html
-
-\<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
-
-xmlns:w=3D'urn:schemas-microsoft-com:office:word'
-
-xmlns:v=3D'urn:schemas-microsoft-com:vml'
-
-xmlns=3D'urn:w3-org-ns:HTML'\>
-
-\<head\>
-
-\<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
-
-"\>
-
-\<title\>=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF PRD_Hertz=
-
-flow V2=E7=89=88=E6=9C=AC_2025.10.15\</title\>
-
-\<!--\[if gte mso 9\]\>
-
-\<xml\>
-
-\<o:OfficeDocumentSettings\>
-
-\<o:TargetScreenSize\>1024x640\</o:TargetScreenSize\>
-
-\<o:PixelsPerInch\>72\</o:PixelsPerInch\>
-
-\<o:AllowPNG/\>
-
-\</o:OfficeDocumentSettings\>
-
-\<w:WordDocument\>
-
-\<w:View\>Print\</w:View\>
-
-\<w:Zoom\>90\</w:Zoom\>
-
-\<w:DoNotOptimizeForBrowser/\>
-
-\</w:WordDocument\>
-
-\</xml\>
-
-\<\![endif\]--\>
-
-\<style\>
-
-\<!--
-
-@page Section1 {
-
-size: 8.5in 11.0in;
-
-margin: 1.0in;
-
-mso-header-margin: .5in;
-
-mso-footer-margin: .5in;
-
-mso-paper-source: 0;
-
-}
-
-table {
-
-border: solid 1px;
-
-border-collapse: collapse;
-
-}
-
-table td, table th {
-
-border: solid 1px;
-
-padding: 5px;
-
-}
-
-td {
-
-page-break-inside: avoid;
-
-}
-
-tr {
-
-page-break-after: avoid;
-
-}
-
-div.Section1 {
-
-page: Section1;
-
-}
-
-/\* Confluence print stylesheet. Common to all themes for print medi=
-
-a \*/
-
-/\* Full of !important until we improve batching for print CSS \*/
-
-@media print {
-
-\#main {
-
-padding-bottom: 1em !important; /\* The default padding of 6em is to=
-
-o much for printouts \*/
-
-}
-
-body {
-
-font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
-
-rif);
-
-}
-
-body, \#full-height-container, \#main, \#page, \#content, .has-personal-sid=
-
-ebar \#content {
-
-background: var(--ds-surface, \#fff) !important;
-
-color: var(--ds-text, \#000) !important;
-
-border: 0 !important;
-
-width: 100% !important;
-
-height: auto !important;
-
-min-height: auto !important;
-
-margin: 0 !important;
-
-padding: 0 !important;
-
-display: block !important;
-
-}
-
-a, a:link, a:visited, a:focus, a:hover, a:active {
-
-color: var(--ds-text, \#000);
-
-}
-
-\#content h1,
-
-\#content h2,
-
-\#content h3,
-
-\#content h4,
-
-\#content h5,
-
-\#content h6 {
-
-page-break-after: avoid;
-
-}
-
-pre {
-
-font: var(--ds-font-code, Monaco, "Courier New", monospace);
-
-}
-
-\#header,
-
-.aui-header-inner,
-
-\#navigation,
-
-\#sidebar,
-
-.sidebar,
-
-\#personal-info-sidebar,
-
-.ia-fixed-sidebar,
-
-.page-actions,
-
-.navmenu,
-
-.ajs-menu-bar,
-
-.noprint,
-
-.inline-control-link,
-
-.inline-control-link a,
-
-a.show-labels-editor,
-
-.global-comment-actions,
-
-.comment-actions,
-
-.quick-comment-container,
-
-\#addcomment {
-
-display: none !important;
-
-}
-
-/\* CONF-28544 cannot print multiple pages in IE \*/
-
-\#splitter-content {
-
-position: relative !important;
-
-}
-
-.comment .date::before {
-
-content: none !important; /\* remove middot for print view \*/
-
-}
-
-h1.pagetitle img {
-
-height: auto;
-
-width: auto;
-
-}
-
-.print-only {
-
-display: block;
-
-}
-
-\#footer {
-
-position: relative !important; /\* CONF-17506 Place the footer at en=
-
-d of the content \*/
-
-margin: 0;
-
-padding: 0;
-
-background: none;
-
-clear: both;
-
-}
-
-\#poweredby {
-
-border-top: none;
-
-background: none;
-
-}
-
-\#poweredby li.print-only {
-
-display: list-item;
-
-font-style: italic;
-
-}
-
-\#poweredby li.noprint {
-
-display: none;
-
-}
-
-/\* no width controls in print \*/
-
-.wiki-content .table-wrap,
-
-.wiki-content p,
-
-.panel .codeContent,
-
-.panel .codeContent pre,
-
-.image-wrap {
-
-overflow: visible !important;
-
-}
-
-/\* TODO - should this work? \*/
-
-\#children-section,
-
-\#comments-section .comment,
-
-\#comments-section .comment .comment-body,
-
-\#comments-section .comment .comment-content,
-
-\#comments-section .comment p {
-
-page-break-inside: avoid;
-
-}
-
-\#page-children a {
-
-text-decoration: none;
-
-}
-
-/\*\*
-
-hide twixies
-
-the specificity here is a hack because print styles
-
-are getting loaded before the base styles. \*/
-
-\#comments-section.pageSection .section-header,
-
-\#comments-section.pageSection .section-title,
-
-\#children-section.pageSection .section-header,
-
-\#children-section.pageSection .section-title,
-
-.children-show-hide {
-
-padding-left: 0;
-
-margin-left: 0;
-
-}
-
-.children-show-hide.icon {
-
-display: none;
-
-}
-
-/\* personal sidebar \*/
-
-.has-personal-sidebar \#content {
-
-margin-right: 0px;
-
-}
-
-.has-personal-sidebar \#content .pageSection {
-
-margin-right: 0px;
-
-}
-
-.no-print, .no-print \* {
-
-display: none !important;
-
-}
-
-}
-
---\>
-
-\</style\>
-
-\</head\>
-
-\<body\>
-
-\<h1\>=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF PRD_Hertzflo=
-
-w V2=E7=89=88=E6=9C=AC_2025.10.15\</h1\>
-
-\<div class=3D"Section1"\>
-
-\<p\>
-
-\<style\>\[data-colorid=3Dsb6qbn1x7d\]{color:#ff5630} html\[data-color-mode=3Dda=
-
-rk\] \[data-colorid=3Dsb6qbn1x7d\]{color:#cf2600}\</style\>=E7=89=88=E6=9C=AC=E5=
-
-=8F=B7=EF=BC=9AV.2.0.0\</p\>
-
-\<p\>=E9=9C=80=E6=B1=82=E4=BA=BA=EF=BC=9Acen\</p\>
-
-\<p\>\</p\>
-
-\<style type=3D"text/css"\>/\*\<\![CDATA\[\*/
-
+<style type="text/css">/**/
 div.rbtoc1772008161896 {padding: 0px;}
-
 div.rbtoc1772008161896 ul {list-style: none;margin-left: 0px;}
-
 div.rbtoc1772008161896 li {margin-left: 0px;padding-left: 0px;}
 
-/\*\]\]\>\*/\</style\>
+/**/</style>
+
+<div class="toc-macro rbtoc1772008161896">
+
+- [一、需求概述](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-一、需求概述)
+  - [1.1 交付产出](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-1.1交付产出)
+- [二、竞品架构调研](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-二、竞品架构调研)
+  - [2.1 模块分层(tech spec)](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-2.1模块分层(techspec))
+  - [2.2 多隔离 LP 池（Multi-Isolated Liquidity Pools)](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-2.2多隔离LP池（Multi-IsolatedLiquidityPools))
+    - [1. 资金流](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-1.资金流)
+    - [2. GLV Router 分配逻辑](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-2.GLVRouter分配逻辑)
+    - [3. GLV 的收益机制 & APR 说明](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-3.GLV的收益机制&APR说明)
+    - [建池参数列表TODO：](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-建池参数列表TODO：)
+    - [PnL 限制公式及取值](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-PnL限制公式及取值)
+      - [逻辑：](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-逻辑：)
+      - [公式：](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-公式：)
+      - [实现：](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-实现：)
+    - [风险管理（以avantis为例）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-风险管理（以avantis为例）)
+      - [核心参数规律（按风险梯度）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-核心参数规律（按风险梯度）)
+      - [风险层级](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-风险层级)
+  - [2.3 RWA 资产市场逻辑](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-2.3RWA资产市场逻辑)
+    - [RWA Oracle 数据来源](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-RWAOracle数据来源)
+    - [市场开放与冻结规则](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-市场开放与冻结规则)
+    - [收费明细](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-收费明细)
+    - [风险管理（以avantis为例）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-风险管理（以avantis为例）.1)
+  - [2.4 Curator / Market Creation 机制（参考 Morpho Curate）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-2.4Curator/MarketCreation机制（参考MorphoCurate）)
+  - [2.5 Fee Structure / Key Params](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-2.5FeeStructure/KeyParams)
+- [三、产品需求 (按协议+vault的情况来分类)](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-三、产品需求(按协议+vault的情况来分类))
+  - [3.1 LP Pool](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-3.1LPPool)
+    - [收益指标体系](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-收益指标体系)
+    - [反映 LP Token 相对于基准（Uniswap V2 模式再平衡的 backing tokens）的收益差异。](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-反映LPToken相对于基准（UniswapV2模式再平衡的backingtokens）的收益差异。)
+    - [每个 LP Vault 独立记录资产净值、未实现收益、PnLCap 限制：](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-每个LPVault独立记录资产净值、未实现收益、PnLCap限制：)
+  - [3.2 自主建池（Curated Market Creation）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-3.2自主建池（CuratedMarketCreation）)
+  - [3.3 Referral / 交易挖矿 / Leaderboard](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-3.3Referral/交易挖矿/Leaderboard)
+  - [3.4 风险与边界处理](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-3.4风险与边界处理)
+- [二、竞品架构调研](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-二、竞品架构调研.1)
+  - [2.1 模块分层](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-2.1模块分层)
+  - [2.2 多隔离 LP 池（Multi-Isolated Vaults）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-2.2多隔离LP池（Multi-IsolatedVaults）)
+    - [数据结构](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-数据结构)
+    - [PnL 限制公式](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-PnL限制公式)
+    - [风险管理](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-风险管理)
+  - [2.3 RWA 资产市场逻辑](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-2.3RWA资产市场逻辑.1)
+    - [RWA Oracle 数据来源](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-RWAOracle数据来源.1)
+    - [市场开放与冻结规则](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-市场开放与冻结规则.1)
+    - [收费明细](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-收费明细.1)
+  - [2.4 Curator / Market Creation 机制（参考 Morpho Curate）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-2.4Curator/MarketCreation机制（参考MorphoCurate）.1)
+    - [流程](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-流程)
+    - [Curator 权限](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-Curator权限)
+    - [质押与惩罚](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-质押与惩罚)
+  - [2.5 激励与费用系统](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-2.5激励与费用系统)
+- [三、产品需求](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-三、产品需求)
+  - [LP Pool](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-LPPool)
+    - [三、收益指标体系](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-三、收益指标体系)
+    - [四、📐 Ann. Performance 计算公式（年化表现）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-四、📐Ann.Performance计算公式（年化表现）)
+    - [五、结算与风险机制](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-五、结算与风险机制)
+  - [五、后端数据需求](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-五、后端数据需求)
+    - [5.1 Indexer 事件监听](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-5.1Indexer事件监听)
+    - [5.2 指标与统计字段](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-5.2指标与统计字段)
+    - [5.3 API (GraphQL / REST)](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-5.3API(GraphQL/REST))
+  - [六、前端功能与交互](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-六、前端功能与交互)
+    - [三、核心模块设计](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-三、核心模块设计)
+      - [1. 多隔离 LP 池架构](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-1.多隔离LP池架构)
+      - [2. RWA 市场机制（参考 Avantis）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-2.RWA市场机制（参考Avantis）)
+      - [3. 自主建池（Curated Market Creation）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-3.自主建池（CuratedMarketCreation）)
+      - [4. Curator 权限与治理层级](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-4.Curator权限与治理层级)
+      - [5. Referral / 交易挖矿 / Leaderboard](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-5.Referral/交易挖矿/Leaderboard)
+      - [6. 费用模型（Fee Mechanics）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-6.费用模型（FeeMechanics）)
+    - [四、关键公式举例](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-四、关键公式举例)
+  - [6. LP & Funding Mechanism（流动性与资金费率机制）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-6.LP&FundingMechanism（流动性与资金费率机制）)
+    - [6.1 LP 流动性管理](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-6.1LP流动性管理)
+      - [资金流向](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-资金流向)
+    - [6.2 Funding 费率机制](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-6.2Funding费率机制)
+      - [Funding Fee 分配逻辑](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-FundingFee分配逻辑)
+    - [6.3 LP 风险敞口与监控](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-6.3LP风险敞口与监控)
+  - [7. Liquidation Mechanism（清算机制）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-7.LiquidationMechanism（清算机制）)
+    - [7.1 清算条件](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-7.1清算条件)
+  - [9. Referral & Incentive（推荐与激励体系）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-9.Referral&Incentive（推荐与激励体系）)
+    - [9.1 Referral 系统](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-9.1Referral系统)
+    - [9.2 交易挖矿积分公式](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-9.2交易挖矿积分公式)
+    - [9.3 奖励池来源](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-9.3奖励池来源)
+  - [风险与边界处理](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-风险与边界处理)
+- [一、统一前提与命名约定](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-一、统一前提与命名约定)
+- [Deposit（用户入金） — Trace Diagram（文本版）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-Deposit（用户入金）—TraceDiagram（文本版）)
+  - [各方职责（按步骤）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-各方职责（按步骤）)
+  - [关键失败场景与处理](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-关键失败场景与处理)
+  - [主要接口与事件（建议）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-主要接口与事件（建议）)
+- [三、Withdraw（用户赎回） — Trace Diagram（文本版）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-三、Withdraw（用户赎回）—TraceDiagram（文本版）)
+  - [各方职责（按步骤）](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-各方职责（按步骤）.1)
+  - [关键失败场景与处理](#id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-关键失败场景与处理.1)
+
+</div>
+
+V2 Draft<a href="https://hertzflow.slack.com/team/U09837G5FB3" class="external-link" rel="nofollow">@cen</a> Todo：
+
+- GLV机制（V2）
+
+- RWA市场休市时间，以及休市跳空处理方式 验证avnt的k线图 （V2）
+
+- Referral 积分系统机制 & Leaderboard梳理 （V2）
+
+- 自主建池 产品层面参数自定义；协议层面 LP池，usdc - vault；GLV 关系梳理以及聚合/收入分配机制 （V3）
+
+- Morpho Curate竞品调研 （V3）
+
+- 其他细节填充
+
+<a href="https://hertzflow.slack.com/team/U08H180TJ1J" class="external-link" rel="nofollow">@kayce</a> Todo：
+
+- 2.1 部分的tech spec
+
+- 2.2 部分跑代码刷风控参数 给出表格
+
+# 一、需求概述
+
+<div class="panel" style="background-color: #DEEBFF;border-width: 1px;">
+
+<div class="panelContent" style="background-color: #DEEBFF;">
+
+**版本目标：**V2 是基于 GMX V2 架构演化的多资产衍生品交易协议，目标是打造一个既能承载链上 DeFi 高杠杆衍生品，又能容纳链下 RWA（如美债、黄金、ETF）做市的混合型 DEX 平台。融合：
+
+- **GMX V2 的多隔离池机制**（风险隔离 + 流动性聚合）
+
+- **Avantis 的 RWA 交易**
+
+- **GMX的动态费用调节**
+
+- **Morpho Curate 的自主市场创建与治理体系（自主建池）**
+
+- **结合 Jupiter/GMX/Avantis的 Referral、交易挖矿激励**
+
+</div>
+
+</div>
+
+## 1.1 交付产出
+
+<div class="table-wrap">
+
+<table class="confluenceTable" data-table-width="760" data-layout="default" data-local-id="642657ff-6389-4c13-9c42-c2a42d7e5314">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<tbody>
+<tr>
+<td class="confluenceTd"><p>模块</p></td>
+<td class="confluenceTd"><p>核心功能</p></td>
+<td class="confluenceTd"><p>关键参考</p></td>
+<td class="confluenceTd"><p>是否包含</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><a href="https://hertzflow.atlassian.net/wiki/spaces/H/pages/18710556/PRD_Hertzflow+V2+_2025.10.15#2.2-%E5%A4%9A%E9%9A%94%E7%A6%BB-LP-%E6%B1%A0%EF%BC%88Multi-Isolated-Vaults%EF%BC%89" rel="nofollow">多隔离池 LP</a></p></td>
+<td class="confluenceTd"><p>每个市场单独池、风险隔离、个别清算，USDC池子支持。</p></td>
+<td class="confluenceTd"><p>GMX V2</p></td>
+<td class="confluenceTd"><p>✅</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p>RWA 市场</p></td>
+<td class="confluenceTd"><p>绑定真实资产 Oracle、开市时间与PnL约束、RWA-backed markets 链下收益同步与断层清算逻辑、</p></td>
+<td class="confluenceTd"><p>Avantis</p></td>
+<td class="confluenceTd"><p>✅</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p>费用模型梳理</p></td>
+<td class="confluenceTd"><p>Funding、Impact、Borrow、Swap<br />
+<a href="https://hertzflow.slack.com/team/U08H180TJ1J" class="external-link" rel="nofollow">@kayce</a></p></td>
+<td class="confluenceTd"><p>GMX / Jupiter</p></td>
+<td class="confluenceTd"><p>✅ 合约主导，基于当前优化/新增<br />
+修改：开单时前端权重偏差相关限制<br />
+新增：funding fee新增；OI Imbalance相关的指数 Price Impact 奖惩</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p>激励系统</p></td>
+<td class="confluenceTd"><p>Referral ← 积分系统 ← 交易竞赛（leaderboard）等</p></td>
+<td class="confluenceTd"><p>Jupiter / GMX Leaderboard</p></td>
+<td class="confluenceTd"><p>✅ V2 出机制<br />
+❌ V3出原型</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p>自主建池 （V3）</p></td>
+<td class="confluenceTd"><p>USDC 第三方策略LP池 - <strong>合作方</strong>自主创建市场 + Curator 白名单治理（合作方）</p></td>
+<td class="confluenceTd"><p>Morpho Curate</p></td>
+<td class="confluenceTd"><p>❌ V3再交付</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p>Curator 管理 （V3）</p></td>
+<td class="confluenceTd"><p>多层权限：提案、审核、协议费用抽水分配</p></td>
+<td class="confluenceTd"><p>Morpho Governance</p></td>
+<td class="confluenceTd"><p>❌ V3再交付</p></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+# 二、竞品架构调研
+
+## 2.1 模块分层(tech spec)
+
+<div class="table-wrap">
+
+|  |  |  |
+|----|----|----|
+| 模块 | 功能 | 参考机制 |
+| **VaultManager** | LP 池与资产管理 | GMX V2 |
+| **MarketManager** | 市场参数与撮合控制 | GMX V2 |
+| **RWAOracle （Offchain？）** | 真实资产价格与收益同步，与RWA托管方（Ondo, Maple等）对接 | Avantis |
+| **CuratorRegistry** | 市场白名单与投票治理 | Morpho Curate |
+| **RewardDistributor** | Referral 与挖矿奖励分发 | Jupiter |
+| **RiskEngine** | PnL Cap 限制与资金费率计算 | GMX + Avantis |
+
+</div>
+
+## 2.2 多隔离 LP 池（Multi-Isolated Liquidity Pools)
+
+<div class="code panel pdl" style="border-width: 1px;">
+
+<div class="codeContent panelContent pdl">
+
+``` syntaxhighlighter-pre
+                ┌─────────────────────────┐
+                │        User Wallet      │
+                │ (BTC / USDC / GM token) │
+                └────────────┬────────────┘
+                             │ deposit/Withdraw
+                             │ mint/Burn GLV （ERC-4626)
+                             ▼
+                     ┌───────────────────────┐
+                     │   GLV Vault           │
+                     │ Long Collateral BTC   │
+                     │ Short Collateral USDC │
+                     └──────┬────────────────┘
+                            │
+            ┌───────────────┴──────────────────────────┐
+            │                                          │
+      ┌──────────────────────┐                  ┌────────────┐
+      │ GM Router            │                  │ GLV Keeper │
+      │ swap BTC/USDC <-> GM │◄──────trigger────│ (执行SHIFT)│
+      └────┬─────────────────┘                  └────┬───────┘
+           │                                         │
+   ┌───────┴───────────────┐                ┌────────┴──────────────┐
+   │ GM Pool A - Market A  │                │ GM Pool B - Market B  │
+   │  Long Collateral BTC  │                │ Long Collateral BTC   │
+   │ Short Collateral USDC │                │ Short Collateral USDC │
+   └───────────────────────┘                └───────────────────────┘
+  
+```
+
+</div>
+
+</div>
+
+<div class="table-wrap">
+
+<table class="confluenceTable" data-table-width="760" data-layout="default" data-local-id="4a4772e0-b1f9-40ef-81d4-5beb446bad17">
+<tbody>
+<tr>
+<th class="confluenceTh"><p>名称</p></th>
+<th class="confluenceTh"><p>说明</p></th>
+</tr>
+&#10;<tr>
+<td class="confluenceTd"><p><strong>GM Pool</strong></p></td>
+<td class="confluenceTd"><p>针对某个市场的单池（比如 BTC/USD Pool)。用户质押 BTC（多头资产）+ USDC（空头资产），为交易者提供杠杆交易流动性, 获得 <strong>GM token</strong>。</p>
+<ul>
+<li><p>比如，GM Pool 1的token为：GM_BTC[BTC-USDC]，代表为BTC市场提供<strong>reserve token long = BTC；reserve token short = USDC</strong>的流动性池</p></li>
+<li><p>比如，GM Pool 2的token为：GM_BTC[BTC-BTC]，代表为BTC市场提供<strong>reserve token long = BTC；reserve token short = BTC</strong>的流动性池</p></li>
+<li><p>比如，GM Pool 3的token为：GM_BTC[tBTC-tBTC]，代表为BTC市场提供<strong>reserve token long = tBTC；reserve token short = tBTC</strong>的流动性池</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>GLV (GM Liquidity Vault)</strong></p></td>
+<td class="confluenceTd"><p>由同样reserve token long（比如，ETH） 与short （USDC）的 <strong>GM Pool LP Token</strong>组成的聚合池，GLV 自动在这些 GM Pools 之间分配流动性。</p>
+<ul>
+<li><p><strong>GLV[BTC-USDC] = α × GM_BTC[BTC-USDC] + β GM_SOL[BTC-USDC] × GM_ETH[BTC-USDC] + γ × GM_SUI[BTC-USDC] + ...</strong><br />
+其中 α、β、γ 是权重，由第三方动态调整。</p></li>
+<li><p>权重调整逻辑：</p>
+<ul>
+<li><p>根据 <strong>各池收益率（APR）</strong>、<strong>利用率（utilization）</strong>、<strong>风险暴露（long/short imbalance）</strong> 等指标；</p></li>
+<li><p>借助 GMX 的新功能 <strong>SHIFT()</strong>，GLV 可以在池子之间<strong>自动移动流动性</strong>（即卖掉部分 GM_BTC，买入 GM_ETH）。</p></li>
+</ul></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+</div>
 
-\<div class=3D"toc-macro rbtoc1772008161896"\>
+<div class="code panel pdl" style="border-width: 1px;">
 
-\<ul class=3D"toc-indentation"\>
+<div class="codeContent panelContent pdl">
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+``` syntaxhighlighter-pre
+用户（LP） 
+   ├── 提供流动性到 GM Pool （Single market）  
+   │       └─> GM Pool [long token A – short token B]  
+   ├── 或 提供流动性到 GLV 池  
+   │       └─> GLV Vault (long token A – short token B)  
+   │             ├─> 底层 GM Pool 1  (market1, long A – short B)  
+   │             ├─> 底层 GM Pool 2  (market2, long A – short B)  
+   │             └─> 底层 GM Pool 3  (market3, long A – short B)  
+   │             └─> 自动 Shift 机制：在 Pool1／Pool2／Pool3 之间再分配流动性  
+   │  
+   └── 第三方 USDC 本位 LP 池（Curator 管理）  
+           └─> 池子向 GLV 或某 GM Pool 提供 USDC 流动性  
+                   └─> 铸造 GLV Token 或 GM Token  
+                         └─> Curator 管理、参与 收益／风险分配  
+                         └─> 用户通过 Earn 参与该 策略池  
+交易者 (Trader)
+   ├── 在 某市场（GM Pool）开仓／平仓／Swap → 用此 GM Pool 的流动性  
+   └── 交易产生的手续费、资金费、清算费等 
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=80=E3=80=81=E9=9C=80=E6=
+流动性池（GM Pool / GLV）  
+   └─> 收益分配给 GM Token 持有人或 GLV Token 持有人  
+  
+协议／后台  
+   ├── 定价机制（Token Price = 池子价值 ÷ 总供应）  
+   ├── 再平衡机制（Shift）  
+   └── 风险参数（如 maxPnlFactorForDeposits、glvMaxMarketTokenBalanceUsd）   
+```
 
-=B1=82=E6=A6=82=E8=BF=B0"\>=E4=B8=80=E3=80=81=E9=9C=80=E6=B1=82=E6=A6=82=E8=
+</div>
 
-=BF=B0\</a\>
+</div>
 
-\<ul class=3D"toc-indentation"\>
+### 1. 资金流
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+- **入金（deposit）**：
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-1.1=E4=BA=A4=E4=BB=98=E4=BA=A7=
+  - 支持两种入金路径：直接 marketToken (直接计入目标 market 份额) 或 用基础 token（long/short）并在执行时通过 swap 路径兑换成 market token / 按策略分配。
 
-=E5=87=BA"\>1.1 =E4=BA=A4=E4=BB=98=E4=BA=A7=E5=87=BA\</a\>\</li\>
+  - Router：一个“分配模块”决定将 deposit 分配到 GLV 管理的哪些 market（按权重/策略/容量/实时深度）。分配逻辑通常基于：
 
-\</ul\>\</li\>
+    - 市场权重 (target allocation)
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+    - 当前市场利用率 / liquidity
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=BA=8C=E3=80=81=E7=AB=9E=E5=
+    - 风险预算（每 market max exposure）
 
-=93=81=E6=9E=B6=E6=9E=84=E8=B0=83=E7=A0=94"\>=E4=BA=8C=E3=80=81=E7=AB=9E=E5=
+    - 资本效率（收益率、收益预测）
 
-=93=81=E6=9E=B6=E6=9E=84=E8=B0=83=E7=A0=94\</a\>
+- **执行（executeGlvDeposit）**：
 
-\<ul class=3D"toc-indentation"\>
+  - Keeper 读取 Deposit 请求并执行：可能包含多个 swap（根据 long/short path），或直接 mint marketToken -\> GLV份额给 receiver。
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+  - Router 会把实际收到的资金在多个 market 之间做拆分并调用各 market 的 deposit/mint 接口。
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.1=E6=A8=A1=E5=9D=97=E5=88=86=
+  - 执行延迟 & 异步：因为 deposit 是 “存储为请求，off-chain keeper 执行” 模式，UI 必须明确显示状态（Pending -\> Executed -\> Completed / Cancelled）。
 
-=E5=B1=82(techspec)"\>2.1 =E6=A8=A1=E5=9D=97=E5=88=86=E5=B1=82(tech spec)\</a=
+  - Fee 透明度：executionFee 及任何 protocol fee（如 GLV mint fee、withdraw fee）需要在 UI 显示，并在事件中可追踪。
 
-\>\</li\>
+  - 风控展示：market exposure、maxPnlFactor、withdraw cooldown、队列长度、当前 oracle staleness 信息。
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+- **收益/再平衡（shift）**：
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.2=E5=A4=9A=E9=9A=94=E7=A6=BBLP=
+  - GLV 会定期或触发式对市场权重进行 shift（reallocate）以优化收益或降低风险（例如把过多暴露从高波动市场挪到稳健市场）。
 
-=E6=B1=A0=EF=BC=88Multi-IsolatedLiquidityPools)"\>2.2 =E5=A4=9A=E9=9A=94=E7=
+- **赎回（withdraw）**：
 
-=A6=BB LP =E6=B1=A0=EF=BC=88Multi-Isolated Liquidity Pools)\</a\>
+  - 用户赎回 GLV -\> GLV 按比例从 underlying markets 收回资产，可能要跨多个市场 unwind 并执行 swap；使用 queue/epoch 模式可以缓解瞬时流动性冲击。
 
-\<ul class=3D"toc-indentation"\>
+### 2. GLV Router 分配逻辑
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+> <a href="https://gov.gmx.io/t/implementation-of-gmx-liquidity-vaults-glv-for-enhancing-liquidity/3860?utm_source=chatgpt.com" class="external-link" rel="nofollow">GMX</a>官方文档与提案（事实可查但没有全部公式细节）
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-1.=E8=B5=84=E9=87=91=E6=B5=81"\>1=
+- 根据不同池子的：剩余可借；费用贡献；OI 自动调整:
 
-. =E8=B5=84=E9=87=91=E6=B5=81\</a\>\</li\>
+  - 若某个 GM Pool 在该 GLV 组合中表现（例如交易量／手续费／借贷率／利用率）较低，则 GLV 可以将一部分流动性 “Shift” 到另一个表现更佳的 GM Pool（long/short token 相同前提下）。
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+  - Shift 时成本包括价格冲击（price impact）、手续费、滑点等。官方也提示存在攻击面（利用 Shift 机制、低利用率市场等）需通过配置 fees 和 price impact 等防范。 <a href="https://github.com/gmx-io/gmx-synthetics?utm_source=chatgpt.com" class="external-link" rel="nofollow">GitHub</a>
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.GLVRouter=E5=88=86=E9=85=8D=E9=
+- 用户在 GLV 中存入 long 或 short token（或Long/Short Pair）后，其代币会被 GLV 用来铸造底层 GM Token（对应某个 GM Pool）或将其流动性提供给底层 GM Pools。用户收到 GLV 代币，代表其在 GLV 整体中的份额。
 
-=80=BB=E8=BE=91"\>2. GLV Router =E5=88=86=E9=85=8D=E9=80=BB=E8=BE=91\</a\>\</li=
+- 撤回时，用户选择GM池并赎回 GLV 代币， GLV 协议会从底层 GM Pools 移出相对应流动性并返回 long/short token 或 Token Pair。
 
-\>
+- 存入/撤回收到max tvl cap，max buyable/sellable影响，同时sellable时的退回pair比例遵循池子long short token的pool size比例
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+- **Target weights + Dynamic caps**：
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-3.GLV=E7=9A=84=E6=94=B6=E7=9B=8A=
+  - 每 market 定义 `targetWeight` 和 `maxCap`（以美元计）。
 
-=E6=9C=BA=E5=88=B6&amp;APR=E8=AF=B4=E6=98=8E"\>3. GLV =E7=9A=84=E6=94=B6=E7=
+  - 新 deposit 按 targetWeight 尝试分配，若某个 market 达到 maxCap，则按剩余权重重分配。
 
-=9B=8A=E6=9C=BA=E5=88=B6 &amp; APR =E8=AF=B4=E6=98=8E\</a\>\</li\>
+- **Liquidity-aware routing**：
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+  - 在分配时查询 market depth & expected price impact（调用 on-chain 或 off-chain price feed），避免把大额 deposit 直接推向深度不足市场。
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=BB=BA=E6=B1=A0=E5=8F=82=E6=
+- **Emergency mode**：
 
-=95=B0=E5=88=97=E8=A1=A8TODO=EF=BC=9A"\>=E5=BB=BA=E6=B1=A0=E5=8F=82=E6=95=B0=
+  - 若 oracle staleness或某 market 被标记异常 -\> 暂停对该 market 分配（glv market disabled），并进入保护模式（freeze shift/withdraw 限制）。
 
-=E5=88=97=E8=A1=A8TODO=EF=BC=9A\</a\>\</li\>
+### 3. GLV 的收益机制 & APR 说明
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+关于 GLV 收益（APR）的公开资料并不提供一个完整数学公式，但我们可以通过文档得出以下可查事实：
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-PnL=E9=99=90=E5=88=B6=E5=85=AC=
+- GLV Virtual Price：GLV 代币价值随着其底层资产，以及其所持有的 GM Token（底层市场流动性份额）的总价值变化而变化。
 
-=E5=BC=8F=E5=8F=8A=E5=8F=96=E5=80=BC"\>PnL =E9=99=90=E5=88=B6=E5=85=AC=E5=BC=
+  - GLV Token Price = GLV Pool Value / GLV Total Supply
 
-=8F=E5=8F=8A=E5=8F=96=E5=80=BC\</a\>
+  - GLV Pool Value = Sum of (USD Value of each Market Token owned by GLV)
 
-\<ul class=3D"toc-indentation"\>
+- 衡量参数
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+  - `APR`: APR_pool ​= (Fees_pool_PeriodT/AvgTVL_PeriodT)×365/T​\
+    其中，`AvgTVL_PeriodT` 为**加权平均**TVL
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E9=80=BB=E8=BE=91=EF=BC=9A"\>=E9=
+  - `APY`: APY_pool​ = (1+APR_pool_PeriodT)<sup>365/T</sup>​−1
 
-=80=BB=E8=BE=91=EF=BC=9A\</a\>\</li\>
+  - `Ann. Perf`: Ann. Perf = (1 + APR_Pool) / (1 + APR_Bench) -1
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+    - 相比于一个 **Uniswap V2 风格的 LP（50/50，恒定乘积）,** 在价格从 p_0​ 变到 p_T​ 的过程中，**其资产总价值（以 quote token 计）** 会随价格变化的平方根增长, APR_bench_PeriodT = √(p_0​/p_T) - 1, APY_bench​=(1+R_bench_PeriodT)<sup>365/T​</sup>−1
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=85=AC=E5=BC=8F=EF=BC=9A"\>=E5=
+### <span colorid="sb6qbn1x7d">建池参数列表TODO：</span>
 
-=85=AC=E5=BC=8F=EF=BC=9A\</a\>\</li\>
+任何人都能创建新市场，只要提供 **oracle feed、Base/Quote**，并设定 fee/leverage/funding 等参数。LP 也可 permissionless 提供流动性。
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+- 市场基础参数：base/quote、oracle、payoff provider
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=AE=9E=E7=8E=B0=EF=BC=9A"\>=E5=
+- 交易行为参数：可设 **fees、fundingInterval、settlementFee** 等，协议设 max 上限。
 
-=AE=9E=E7=8E=B0=EF=BC=9A\</a\>\</li\>
+- 流动性启动：**virtualTaker** 缓冲，市场 operator 可自带初始 LP
 
-\</ul\>\</li\>
+- 费用参数：可设多类 fee（fundingFee、interestFee、positionFee、settlementFee, liquidation fee），但受 maxFee 限制。
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+- 风控参数：risk coordinator/operator 有权限管控，协议 enforce **maxFee、skew limits**。
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E9=A3=8E=E9=99=A9=E7=AE=A1=E7=
+- 权限：每个市场有独立 **operator** 以及**risk coordinator**( multisig+timelock)
 
-=90=86=EF=BC=88=E4=BB=A5avantis=E4=B8=BA=E4=BE=8B=EF=BC=89"\>=E9=A3=8E=E9=99=
+新市场必须通过 **治理提案 (Proposal)**，需提供 **Base/Quote、oracle、IMR/MMR、funding params**。市场由 LP 提供流动性，但创建权不对用户开放。
 
-=A9=E7=AE=A1=E7=90=86=EF=BC=88=E4=BB=A5avantis=E4=B8=BA=E4=BE=8B=EF=BC=89\</=
+- 市场基础参数：base/quote、oracle、reference price（oracle要求通过特定校验）
 
-a\>
+- 交易行为参数：可设**IMR**、**max lev**、**fees、impact notional**等，协议设 max 上限。
 
-\<ul class=3D"toc-indentation"\>
+- 流动性启动：**预设模版，可选liquidity tier**
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+- 费用参数：funding fee、funding interval可通过proposal提议，其余走预设模版。
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E6=A0=B8=E5=BF=83=E5=8F=82=E6=
+- 风控参数：根据liquidity tier自动计算，不可更改
 
-=95=B0=E8=A7=84=E5=BE=8B=EF=BC=88=E6=8C=89=E9=A3=8E=E9=99=A9=E6=A2=AF=E5=BA=
+- 权限：需lock治理代币 & 等批准
 
-=A6=EF=BC=89"\>=E6=A0=B8=E5=BF=83=E5=8F=82=E6=95=B0=E8=A7=84=E5=BE=8B=EF=BC=
+<span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img src="a33ffca298d819a27ddee5493dd715e8e2f7be46fe998b7b8d5566f544d98e28" class="confluence-embedded-image image-center" loading="lazy" data-image-src="https://hertzflow.atlassian.net/wiki/download/attachments/18710556/Screenshot%202025-09-12%20at%2014.28.31.png?version=2&amp;modificationDate=1761028723481&amp;cacheVersion=1&amp;api=v2" data-height="1690" data-width="842" data-unresolved-comment-count="0" data-linked-resource-id="21430324" data-linked-resource-version="2" data-linked-resource-type="attachment" data-linked-resource-default-alias="Screenshot 2025-09-12 at 14.28.31.png" data-base-url="https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="18710556" data-linked-resource-container-version="4" data-media-id="c3e5cae8-ee3e-4a67-ac13-d3b75ccd18c2" data-media-type="file" width="468" height="936" alt="Screenshot 2025-09-12 at 14.28.31.png" /></span><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img src="a33ffca298d819a27ddee5493dd715e8e2f7be46fe998b7b8d5566f544d98e28" class="confluence-embedded-image image-center" loading="lazy" data-image-src="https://hertzflow.atlassian.net/wiki/download/attachments/18710556/Screenshot%202025-09-12%20at%2014.28.31.png?version=2&amp;modificationDate=1761028723481&amp;cacheVersion=1&amp;api=v2" data-height="1690" data-width="842" data-unresolved-comment-count="0" data-linked-resource-id="21430324" data-linked-resource-version="2" data-linked-resource-type="attachment" data-linked-resource-default-alias="Screenshot 2025-09-12 at 14.28.31.png" data-base-url="https://hertzflow.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="18710556" data-linked-resource-container-version="4" data-media-id="c3e5cae8-ee3e-4a67-ac13-d3b75ccd18c2" data-media-type="file" width="468" height="936" alt="Screenshot 2025-09-12 at 14.28.31.png" /></span>
 
-=88=E6=8C=89=E9=A3=8E=E9=99=A9=E6=A2=AF=E5=BA=A6=EF=BC=89\</a\>\</li\>
+### PnL 限制公式及取值
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+> 本质上是使Trader 的兑现能力受限，LP质押/移除流动性时LP token价格动态调整，给出时间窗口让市场恢复或给池子留缓冲。详解见 <a href="https://hertzflow.atlassian.net/wiki/spaces/H/pages/6324231/Research_#GMX-maxPnlFactor%E8%AF%A6%E8%A7%A3" data-linked-resource-id="6324231" data-linked-resource-version="38" data-linked-resource-type="page">Research_竞品功能 &amp; 关键参数</a>
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E9=A3=8E=E9=99=A9=E5=B1=82=E7=
+#### 逻辑：
 
-=BA=A7"\>=E9=A3=8E=E9=99=A9=E5=B1=82=E7=BA=A7\</a\>\</li\>
+以下三个操作时对应的参数，在实现上常对正向（盈利）与负向（亏损）采取不同策略：为了保护 LP，常对盈利更严格 cap，而对亏损允许更快释放（以保障亏损能真正补偿池子）。\
 
-\</ul\>\</li\>
+- `maxPnlFactorForTraders`：
 
-\</ul\>\</li\>
+  - 定义：限制单个 Trader 在仓位上“能从未实现收益里立刻兑现/影响池子估值”的**比例上限**。\
+    eg：你赚了 100%，合约只允许把其中的一部分（比如 50%）算到可兑现价值里，让系统更稳健。
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+  - 保护市场GM代币估值免受仓位波动的瞬时冲击。
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.3RWA=E8=B5=84=E4=BA=A7=E5=B8=
+  - 防止某些极端未实现盈利在交易者平仓时造成池中代币短期暴涨暴跌（会伤害 LP）。
 
-=82=E5=9C=BA=E9=80=BB=E8=BE=91"\>2.3 RWA =E8=B5=84=E4=BA=A7=E5=B8=82=E5=9C=
+- `maxPnlFactorForDeposits`：（≤`maxPnlFactorForTraders` ）
 
-=BA=E9=80=BB=E8=BE=91\</a\>
+  - 定义：限制在 deposit 时，LP/GLV 能把“未实现的价格波动带来的账面利润”以多大比例计入池子价值。目的是避免 deposit 时因为短期极端 PnL 导致 LP 把价格定得太高／低。
 
-\<ul class=3D"toc-indentation"\>
+  - 更保守（常小于等于 traders）以避免进场资金在恶劣短期波动下被高估。
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+  - 能被用作激励参数（比如把 deposit 更严格设置，短期吸引人以更低价格进入或抑制不合理入金）。
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-RWAOracle=E6=95=B0=E6=8D=AE=E6=
+- `maxPnlFactorForWithdrawals`：
 
-=9D=A5=E6=BA=90"\>RWA Oracle =E6=95=B0=E6=8D=AE=E6=9D=A5=E6=BA=90\</a\>\</li\>
+  - 定义：限制在 withdrawal 时，LP/GLV 能兑现多少未实现利润，防止暴跌/暴涨时大规模提款导致不公平结算或被操纵。
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+  - 用来在极端波动下防止挤兑或短期套利。通常设置比 deposits 更宽松或相近，取决治理偏好（保护退出者还是保护池子长期健康）。
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=B8=82=E5=9C=BA=E5=BC=80=E6=
+> 如果 `maxPnlFactorForDeposits > maxPnlFactorForTraders` 会发生的结构性套利：
+>
+> 1.  Trader 实际 pendingPnl = +1000。`maxPnlFactorForTraders = 0.5` → Trader 只能兑现 500
+>
+> 2.  假设 `maxPnlFactorForDeposits = 1.0`（即没有 cap）。
+>
+> 3.  GLV 在 deposit 时把全部 1000 计入池价值。于是 GLV 存款人账面上获得 1000，而实际能兑现的对手（Trader）只能兑现 500。差额 500 出自 Trader 的“受限兑现”——可能导致套利机会或不对称损益转移。
 
-=94=BE=E4=B8=8E=E5=86=BB=E7=BB=93=E8=A7=84=E5=88=99"\>=E5=B8=82=E5=9C=BA=E5=
+#### **公式：**\
 
-=BC=80=E6=94=BE=E4=B8=8E=E5=86=BB=E7=BB=93=E8=A7=84=E5=88=99\</a\>\</li\>
+<div class="code panel pdl" style="border-width: 1px;">
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+<div class="codeContent panelContent pdl">
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E6=94=B6=E8=B4=B9=E6=98=8E=E7=
+``` syntaxhighlighter-pre
+maxPnlFactorForTraders        // 交易者限制
+maxPnlFactorForDeposits       // 存入流动性限制
+maxPnlFactorForWithdrawals。  // 移除流动性限制
+ 
+ （下面只是举例）
+ 
+                              // 1. 读取当前 positionNotional 与 pendingPnl（按仓位/aggregated）。
+                              // 2. 根据操作类型选择相应 factor（trader/deposit/withdraw）。
+                              // 3. recognizedPnl = sign(pendingPnl) * min(|pendingPnl|, factor * positionNotional)（或依据合约对负向 PnL 的特殊规则）。
+                              // 4. 把 recognizedPnl 计入 poolWorth（或用于计算 mint/burn / token price）。
+                              // 5. 执行剩余的结算逻辑（transfer、mint/burn GLV 等）。
+```
 
-=BB=86"\>=E6=94=B6=E8=B4=B9=E6=98=8E=E7=BB=86\</a\>\</li\>
+</div>
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+</div>
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E9=A3=8E=E9=99=A9=E7=AE=A1=E7=
+#### 实现：\
 
-=90=86=EF=BC=88=E4=BB=A5avantis=E4=B8=BA=E4=BE=8B=EF=BC=89.1"\>=E9=A3=8E=E9=
+- Trader 盈利出现 → 该盈利最初是` uPnL`（未实现盈亏）。
 
-=99=A9=E7=AE=A1=E7=90=86=EF=BC=88=E4=BB=A5avantis=E4=B8=BA=E4=BE=8B=EF=BC=
+- 如果 Trader 选择平仓 → 合约会按 `maxPnlFactorForTraders` 的机制影响价格/池值（即会被 cap）。
 
-=89\</a\>\</li\>
+- 若在 Trader 尚未平仓时出现外部操作（deposit/withdraw）：池子价值不把 Trader 的全部uPnl 直接当成可用资金。→ deposit/withdraw 时分别用 `maxPnlFactorForDeposits` / `maxPnlFactorForWithdrawals` 去衡量该 uPnl 在该操作场景下的“可被计入/兑现”比例。
 
-\</ul\>\</li\>
+<!-- -->
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+- GMX配置初始值（需 <a href="https://hertzflow.slack.com/team/U08H180TJ1J" class="external-link" rel="nofollow">@kayce</a> 辅助补充）：
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.4Curator/MarketCreation=E6=9C=
+  - `maxPnlFactorForTraders`：0.4 ~ 0.6（中性偏保守）
 
-=BA=E5=88=B6=EF=BC=88=E5=8F=82=E8=80=83MorphoCurate=EF=BC=89"\>2.4 Curator /=
+  - `maxPnlFactorForDeposits`：0.2 ~ 0.5（通常 ≤ traders）
 
-Market Creation =E6=9C=BA=E5=88=B6=EF=BC=88=E5=8F=82=E8=80=83 Morpho Curat=
+  - `maxPnlFactorForWithdrawals`：0.4 ~ 0.8（根据要不要保护出金者）
 
-e=EF=BC=89\</a\>\</li\>
+- 动态调优建议：
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+  - 在波动性高时临时降低 depositFactor（减少新入资金承受的短期 PnL 风险）。
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.5FeeStructure/KeyParams"\>2.5 F=
+  - 在市场平稳时提高，改善流动性效率。
 
-ee Structure / Key Params\</a\>\</li\>
+- 关键监控指标：（需 <a href="https://hertzflow.slack.com/team/U08FT22ST3M" class="external-link" rel="nofollow">@Easton 0x</a> 确认）
 
-\</ul\>\</li\>
+1.  `recognizedPnl / pendingPnl` 比例（按时间窗口、按 token）。
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+2.  deposit/withdraw 历史时序与对应 poolWorth 变动（看是否有套利痕迹）。
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=89=E3=80=81=E4=BA=A7=E5=
+3.  平均持仓时间与平仓时的 recognizedPnl 与 pendingPnl 差距（衡量 cap 对 trader 的影响）。
 
-=93=81=E9=9C=80=E6=B1=82(=E6=8C=89=E5=8D=8F=E8=AE=AE+vault=E7=9A=84=E6=83=
+4.  大额 deposit/withdraw 与市场波动的相关性（检测操纵）。
 
-=85=E5=86=B5=E6=9D=A5=E5=88=86=E7=B1=BB)"\>=E4=B8=89=E3=80=81=E4=BA=A7=E5=93=
+5.  GLV net inflow/outflow 在高 pendingPnl 时的行为。
 
-=81=E9=9C=80=E6=B1=82 (=E6=8C=89=E5=8D=8F=E8=AE=AE+vault=E7=9A=84=E6=83=85=
+### 风险管理（以avantis为例）
 
-=E5=86=B5=E6=9D=A5=E5=88=86=E7=B1=BB)\</a\>
+> <a href="https://docs.google.com/spreadsheets/d/12l9DbHXYjSQa0KJcDymeHG2VPni29eOCCmG8lpQF9Gc/edit?gid=240279765#gid=240279765" class="external-link" data-card-appearance="inline" rel="nofollow">https://docs.google.com/spreadsheets/d/12l9DbHXYjSQa0KJcDymeHG2VPni29eOCCmG8lpQF9Gc/edit?gid=240279765#gid=240279765</a>
 
-\<ul class=3D"toc-indentation"\>
+#### **核心参数规律（按风险梯度）**
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+<div class="table-wrap">
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-3.1LPPool"\>3.1 LP Pool\</a\>
+<table class="confluenceTable" data-table-width="760" data-layout="default" data-local-id="3c7f12fc-a05f-49b2-a662-761484d27ad9">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<tbody>
+<tr>
+<td class="confluenceTd"><p>参数</p></td>
+<td class="confluenceTd"><p>高风险端</p></td>
+<td class="confluenceTd"><p>低风险端</p></td>
+<td class="confluenceTd"><p>备注</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>max_gain_percentage</strong></p></td>
+<td class="confluenceTd"><p>2500（BTC/ETH/Meme）</p></td>
+<td class="confluenceTd"><p>500（主流、山寨、RWA）</p></td>
+<td class="confluenceTd"><p>止盈限制与市场信任度正相关。BTC/ETH/Meme 获高收益上限用于吸引活跃交易。</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>max_sl_percentage</strong></p></td>
+<td class="confluenceTd"><p>固定 80</p></td>
+<td class="confluenceTd"><p>固定 80</p></td>
+<td class="confluenceTd"><p>止损不能小于-80%</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>max_long/short_oi_percentage</strong></p></td>
+<td class="confluenceTd"><p>多为 50，少数 75–100</p></td>
+<td class="confluenceTd"><p>多为 50，少数 75–100</p></td>
+<td class="confluenceTd"><p>OI 统一口径设计，避免单边积聚；极个别FET、USD/TRY 等特例允许更高OI（100%）。</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>group_open_interest_percentage</strong></p></td>
+<td colspan="2" class="confluenceTd"><p>1–5（山寨） → 10–15（主流） → 30–100（RWA、大资产）<br />
+-</p></td>
+<td class="confluenceTd"><p>越高说明资产越被允许集中配置；体现对高流动性市场更高容忍度。</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>max_wallet_oi_percentage</strong></p></td>
+<td colspan="2" class="confluenceTd"><p>15（常规限制） → 50（高信任资产 / meme）<br />
+-</p></td>
+<td class="confluenceTd"><p>max positin size 低市值资产限制更严格</p></td>
+</tr>
+</tbody>
+</table>
 
-\<ul class=3D"toc-indentation"\>
+</div>
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+- **风险参数呈现单调规律：**
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E6=94=B6=E7=9B=8A=E6=8C=87=E6=
+  - 从 “BTC/ETH → 主流 → 山寨 → RWA” 风险逐层下降，
 
-=A0=87=E4=BD=93=E7=B3=BB"\>=E6=94=B6=E7=9B=8A=E6=8C=87=E6=A0=87=E4=BD=93=E7=
+  - 而 `max_gain_percentage`、`groupOI` 呈对应递减或分段。
 
-=B3=BB\</a\>\</li\>
+- **特殊资产：**
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+  - **FET/USD**、**DELISTED_32/47**：设定为 `max_gain 500, OI 100%` → 内部特殊用途或测试市场。
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=8F=8D=E6=98=A0LPToken=E7=9B=
+  - **TRUMP/USD**、**BERA/USD** 等新兴政治/新链代币：保持 moderate 参数（max_gain 1000，groupOI 2–5）。
 
-=B8=E5=AF=B9=E4=BA=8E=E5=9F=BA=E5=87=86=EF=BC=88UniswapV2=E6=A8=A1=E5=BC=8F=
+#### **风险层级**
 
-=E5=86=8D=E5=B9=B3=E8=A1=A1=E7=9A=84backingtokens=EF=BC=89=E7=9A=84=E6=94=
+<div class="table-wrap">
 
-=B6=E7=9B=8A=E5=B7=AE=E5=BC=82=E3=80=82"\>=E5=8F=8D=E6=98=A0 LP Token =E7=9B=
+<table class="confluenceTable" data-table-width="760" data-layout="default" data-local-id="3957324c-e5de-4ed5-97f6-3daaa39076d0">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<tbody>
+<tr>
+<td class="confluenceTd"><p>风险层级</p></td>
+<td class="confluenceTd"><p>包含资产</p></td>
+<td class="confluenceTd"><p>参数特征</p></td>
+<td class="confluenceTd"><p>层级逻辑</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>L1：高流动性资产层</strong></p></td>
+<td class="confluenceTd"><p>BTC, ETH</p></td>
+<td class="confluenceTd"><p><code>max_gain 2500</code>, <code>groupOI 100</code>, <code>walletOI 50</code></p></td>
+<td class="confluenceTd"><p>风险容忍高，高杠杆 + 高TP + 高敞口</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>L2：主流资产层</strong></p></td>
+<td class="confluenceTd"><p>SOL, SUI, BNB</p></td>
+<td class="confluenceTd"><p><code>max_gain 500–2500</code>, <code>groupOI 2–15</code></p></td>
+<td class="confluenceTd"><p>稳定流动性，中等风险。</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>L3：山寨资产层</strong></p></td>
+<td class="confluenceTd"><p>ATOM, LINK, AVAX, OP 等</p></td>
+<td class="confluenceTd"><p><code>max_gain 500</code>, <code>groupOI ≤5</code>, <code>walletOI 15</code></p></td>
+<td class="confluenceTd"><p>风控最保守：TP与敞口都下调；适用于低流动性与波动资产。</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>L4：Meme 投机层</strong></p></td>
+<td class="confluenceTd"><p>DOGE, PEPE, BONK, WIF, PUMP 等</p></td>
+<td class="confluenceTd"><p><code>max_gain 2500</code>, <code>groupOI 5–10</code>, <code>walletOI 50</code></p></td>
+<td class="confluenceTd"><p>波动极高，但Max Position 单户头寸限制收紧；群体敞口略小，偏向短线投机类资产。</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>L5：RWA 层</strong></p></td>
+<td class="confluenceTd"><p>SPY, FX, GOLD 等</p></td>
+<td class="confluenceTd"><p><code>max_gain 500–1000</code>, <code>groupOI 30–100</code>, <code>walletOI 15–50</code></p></td>
+<td class="confluenceTd"><p>稳定收益，配置灵活；<br />
+</p>
+<ul>
+<li><p>Equities &amp; Indices TP较高，敞口中等</p></li>
+<li><p>FX 整体TP区间宽，部分USD/JPY 等高流动币对设更高groupOI。</p></li>
+<li><p>Commod 属于对冲类资产，收益限制低但容许较高总仓敞口（便于跨市场套利）。</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-=B8=E5=AF=B9=E4=BA=8E=E5=9F=BA=E5=87=86=EF=BC=88Uniswap V2 =E6=A8=A1=E5=BC=
+</div>
 
-=8F=E5=86=8D=E5=B9=B3=E8=A1=A1=E7=9A=84 backing tokens=EF=BC=89=E7=9A=84=E6=
+- `「Crypto」`**分层风险模型**
 
-=94=B6=E7=9B=8A=E5=B7=AE=E5=BC=82=E3=80=82\</a\>\</li\>
+  - BTC/ETH等蓝筹 为 **顶层流动性层**：极高收益上限与最大OI限额。
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+  - Top10这种主流币为 **中层稳定层**：低收益上限、受限组OI。
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E6=AF=8F=E4=B8=AALPVault=E7=8B=
+  - 山寨币为 **底层高风险层**：严格敞口上限，收益受限。
 
-=AC=E7=AB=8B=E8=AE=B0=E5=BD=95=E8=B5=84=E4=BA=A7=E5=87=80=E5=80=BC=E3=80=81=
+  - Meme 为 **高波动特例层**：收益上限高，但通过 groupOI 控制总体暴露。
 
-=E6=9C=AA=E5=AE=9E=E7=8E=B0=E6=94=B6=E7=9B=8A=E3=80=81PnLCap=E9=99=90=E5=88=
+- `RWA` **体系分成三组：**
 
-=B6=EF=BC=9A"\>=E6=AF=8F=E4=B8=AA LP Vault =E7=8B=AC=E7=AB=8B=E8=AE=B0=E5=BD=
+  - `Equity & Indices`（SPY, QQQ 等）：1000% 收益上限，中等 groupOI；
 
-=95=E8=B5=84=E4=BA=A7=E5=87=80=E5=80=BC=E3=80=81=E6=9C=AA=E5=AE=9E=E7=8E=B0=
+  - `FX`：分布 30–70%，说明流动性强、波动低；
 
-=E6=94=B6=E7=9B=8A=E3=80=81PnLCap =E9=99=90=E5=88=B6=EF=BC=9A\</a\>\</li\>
+  - `Commod`：groupOI 高达 100%，视作风险中性资产。
 
-\</ul\>\</li\>
+## 2.3 RWA 资产市场逻辑
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+### RWA Oracle 数据来源
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-3.2=E8=87=AA=E4=B8=BB=E5=BB=BA=
+- Chainlink + Pyth双源，\>5%偏差时合约拒绝交易。
 
-=E6=B1=A0=EF=BC=88CuratedMarketCreation=EF=BC=89"\>3.2 =E8=87=AA=E4=B8=BB=E5=
+- 更新频率：市场开放时间内，一般13:30 - 19:59 UTC （ET + 4），每60s/次。
 
-=BB=BA=E6=B1=A0=EF=BC=88Curated Market Creation=EF=BC=89\</a\>\</li\>
+- k线x轴不间断，无数据时间段隐藏。\
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+### 市场开放与冻结规则
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-3.3Referral/=E4=BA=A4=E6=98=93=
+<a href="https://docs.avantisfi.com/trading/market-hours" class="external-link" rel="nofollow">market open time跟着pyth network来</a> **（仅盘中，无盘前）**
 
-=E6=8C=96=E7=9F=BF/Leaderboard"\>3.3 Referral / =E4=BA=A4=E6=98=93=E6=8C=96=
+<div class="table-wrap">
 
-=E7=9F=BF / Leaderboard\</a\>\</li\>
+<table class="confluenceTable" data-table-width="760" data-layout="default" data-local-id="a811fa32-d71c-437d-8a09-61b048fb119b">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<tbody>
+<tr>
+<td class="confluenceTd"><p>状态</p></td>
+<td class="confluenceTd"><p>行为</p></td>
+<td class="confluenceTd"><p>描述</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p>marketOpen=true</p></td>
+<td class="confluenceTd"><p>允许交易与清算</p></td>
+<td class="confluenceTd"><p>正常交易窗口</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p>marketOpen=false</p></td>
+<td class="confluenceTd"><p>收盘后进入 “冻结结算” 状态，暂停下单与强平，PnL结算延后到下个开放窗口</p></td>
+<td class="confluenceTd"><p>对应 TradFi 休市时间<br />
+（包括盘前交易时间）</p></td>
+</tr>
+</tbody>
+</table>
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+</div>
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-3.4=E9=A3=8E=E9=99=A9=E4=B8=8E=
+### 收费明细
 
-=E8=BE=B9=E7=95=8C=E5=A4=84=E7=90=86"\>3.4 =E9=A3=8E=E9=99=A9=E4=B8=8E=E8=BE=
+> 详见: <a href="https://hertzflow.atlassian.net/wiki/spaces/H/pages/6324231/Research_#%E5%8F%82%E6%95%B0%E8%A1%A8.2" data-linked-resource-id="6324231" data-linked-resource-version="38" data-linked-resource-type="page">Research_竞品功能 &amp; 关键参数</a>
 
-=B9=E7=95=8C=E5=A4=84=E7=90=86\</a\>\</li\>
+<div class="table-wrap">
 
-\</ul\>\</li\>
+|  |  |  |  |  |  |
+|----|----|----|----|----|----|
+| 类别 | 开仓费 (Opening Fee) | 平仓费 (Closing Fee) | 动态保证金费 (Dynamic Margin Fee) | 价差 (Spread) | 说明 |
+| **Crypto (BTC/ETH)** | 4.5 bps | 4.5 bps | 基于 skew 与 utilization 动态计算 | Zero (BTC 无滑点) | 动态 Spread = 常数 + Price Impact + Skew Impact |
+| **Forex** | 1–5 bps（取决于 skew） | 无 | 基于 skew 与利用率 | 0–1 bps | EUR-USD、USD-JPY、GBP-USD 为零价差 |
+| **Metals (Gold, Silver)** | 6–8 bps | 无 | 目标 15% 年化（30% 利用率下） | 1–3 bps 固定 | 按波动率与 skew 调整 |
+| **Commodities** | 6–8 bps | 无 | 与 Metals 相同 | 1–3 bps | 固定价差模式 |
+| **Indices (SPY, QQQ)** | 6 bps | 无 | 目标 5% 年化（50% 利用率下） | 1 bp 平均 | 固定 Spread 0.01% |
+| **Equities (MAG7, COIN)** | 6 bps | 无 | 目标 10% 年化（50% 利用率下） | 2.5 bps 平均 | 固定 Spread 0.025% |
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+</div>
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=BA=8C=E3=80=81=E7=AB=9E=E5=
+### 风险管理（以avantis为例）
 
-=93=81=E6=9E=B6=E6=9E=84=E8=B0=83=E7=A0=94.1"\>=E4=BA=8C=E3=80=81=E7=AB=9E=
+1.  **核心参数规律**
 
-=E5=93=81=E6=9E=B6=E6=9E=84=E8=B0=83=E7=A0=94\</a\>
+<div class="table-wrap">
 
-\<ul class=3D"toc-indentation"\>
+<table class="confluenceTable" data-table-width="760" data-layout="default" data-local-id="37611d08-33d8-4e26-bbe3-b3ec12fa32c4">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<tbody>
+<tr>
+<td class="confluenceTd"><p>参数</p></td>
+<td class="confluenceTd"><p>高风险端</p></td>
+<td class="confluenceTd"><p>低风险端</p></td>
+<td class="confluenceTd"><p>备注</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>max_gain_percentage</strong></p></td>
+<td class="confluenceTd"><p>2500（BTC/ETH/Meme）</p></td>
+<td class="confluenceTd"><p>500（主流、山寨、RWA）</p></td>
+<td class="confluenceTd"><p>止盈限制与市场信任度正相关。BTC/ETH/Meme 获高收益上限用于吸引活跃交易。</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>max_sl_percentage</strong></p></td>
+<td class="confluenceTd"><p>固定 80</p></td>
+<td class="confluenceTd"><p>固定 80</p></td>
+<td class="confluenceTd"><p>止损不能小于-80%</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>max_long/short_oi_percentage</strong></p></td>
+<td class="confluenceTd"><p>多为 50，少数 75–100</p></td>
+<td class="confluenceTd"><p>多为 50，少数 75–100</p></td>
+<td class="confluenceTd"><p>OI 统一口径设计，避免单边积聚；极个别FET、USD/TRY 等特例允许更高OI（100%）。</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>group_open_interest_percentage</strong></p></td>
+<td colspan="2" class="confluenceTd"><p>1–5（山寨） → 10–15（主流） → 30–100（RWA、大资产）<br />
+-</p></td>
+<td class="confluenceTd"><p>越高说明资产越被允许集中配置；体现对高流动性市场更高容忍度。</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>max_wallet_oi_percentage</strong></p></td>
+<td colspan="2" class="confluenceTd"><p>15（常规限制） → 50（高信任资产 / meme）<br />
+-</p></td>
+<td class="confluenceTd"><p>max positin size 低市值资产限制更严格</p></td>
+</tr>
+</tbody>
+</table>
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+</div>
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.1=E6=A8=A1=E5=9D=97=E5=88=86=
+- **风险参数呈现单调规律：**
 
-=E5=B1=82"\>2.1 =E6=A8=A1=E5=9D=97=E5=88=86=E5=B1=82\</a\>\</li\>
+  - 从 “BTC/ETH → 主流 → 山寨 → RWA” 风险逐层下降，
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+  - 而 `max_gain_percentage`、`groupOI` 呈对应递减或分段。
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.2=E5=A4=9A=E9=9A=94=E7=A6=BBLP=
+- **特殊资产：**
 
-=E6=B1=A0=EF=BC=88Multi-IsolatedVaults=EF=BC=89"\>2.2 =E5=A4=9A=E9=9A=94=E7=
+  - **FET/USD**、**DELISTED_32/47**：设定为 `max_gain 500, OI 100%` → 内部特殊用途或测试市场。
 
-=A6=BB LP =E6=B1=A0=EF=BC=88Multi-Isolated Vaults=EF=BC=89\</a\>
+  - **TRUMP/USD**、**BERA/USD** 等新兴政治/新链代币：保持 moderate 参数（max_gain 1000，groupOI 2–5）。
 
-\<ul class=3D"toc-indentation"\>
+2.  **风险层级**
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+<div class="table-wrap">
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E6=95=B0=E6=8D=AE=E7=BB=93=E6=
+<table class="confluenceTable" data-table-width="760" data-layout="default" data-local-id="856617e8-87b2-471f-9d07-f74557b1cfa6">
+<tbody>
+<tr>
+<td class="confluenceTd"><p>风险层级</p></td>
+<td class="confluenceTd"><p>包含资产</p></td>
+<td class="confluenceTd"><p>参数特征</p></td>
+<td class="confluenceTd"><p>层级逻辑</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>L1：高流动性资产层</strong></p></td>
+<td class="confluenceTd"><p>BTC, ETH</p></td>
+<td class="confluenceTd"><p><code>max_gain 2500</code>, <code>groupOI 100</code>, <code>walletOI 50</code></p></td>
+<td class="confluenceTd"><p>风险容忍高，高杠杆 + 高TP + 高敞口</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>L2：主流资产层</strong></p></td>
+<td class="confluenceTd"><p>SOL, SUI, BNB</p></td>
+<td class="confluenceTd"><p><code>max_gain 500–2500</code>, <code>groupOI 2–15</code></p></td>
+<td class="confluenceTd"><p>稳定流动性，中等风险。</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>L3：山寨资产层</strong></p></td>
+<td class="confluenceTd"><p>ATOM, LINK, AVAX, OP 等</p></td>
+<td class="confluenceTd"><p><code>max_gain 500</code>, <code>groupOI ≤5</code>, <code>walletOI 15</code></p></td>
+<td class="confluenceTd"><p>风控最保守：TP与敞口都下调；适用于低流动性与波动资产。</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>L4：Meme 投机层</strong></p></td>
+<td class="confluenceTd"><p>DOGE, PEPE, BONK, WIF, PUMP 等</p></td>
+<td class="confluenceTd"><p><code>max_gain 2500</code>, <code>groupOI 5–10</code>, <code>walletOI 50</code></p></td>
+<td class="confluenceTd"><p>波动极高，但Max Position 单户头寸限制收紧；群体敞口略小，偏向短线投机类资产。</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>L5：RWA 层</strong></p></td>
+<td class="confluenceTd"><p>SPY, FX, GOLD 等</p></td>
+<td class="confluenceTd"><p><code>max_gain 500–1000</code>, <code>groupOI 30–100</code>, <code>walletOI 15–50</code></p></td>
+<td class="confluenceTd"><p>稳定收益，配置灵活；</p>
+<ul>
+<li><p>Equities &amp; Indices TP较高，敞口zhong deng</p></li>
+<li><p>FX 整体TP区间宽，部分USD/JPY 等高流动币对设更高groupOI。</p></li>
+<li><p>Commod 属于对冲类资产，收益限制低但容许较高总仓敞口（便于跨市场套利）。</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-=9E=84"\>=E6=95=B0=E6=8D=AE=E7=BB=93=E6=9E=84\</a\>\</li\>
+</div>
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+- `「Crypto」`**分层风险模型**
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-PnL=E9=99=90=E5=88=B6=E5=85=AC=
+  - BTC/ETH等蓝筹 为 **顶层流动性层**：极高收益上限与最大OI限额。
 
-=E5=BC=8F"\>PnL =E9=99=90=E5=88=B6=E5=85=AC=E5=BC=8F\</a\>\</li\>
+  - Top10这种主流币为 **中层稳定层**：低收益上限、受限组OI。
 
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
+  - 山寨币为 **底层高风险层**：严格敞口上限，收益受限。
 
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E9=A3=8E=E9=99=A9=E7=AE=A1=E7=
+  - Meme 为 **高波动特例层**：收益上限高，但通过 groupOI 控制总体暴露。
 
-=90=86"\>=E9=A3=8E=E9=99=A9=E7=AE=A1=E7=90=86\</a\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.3RWA=E8=B5=84=E4=BA=A7=E5=B8=
-
-=82=E5=9C=BA=E9=80=BB=E8=BE=91.1"\>2.3 RWA =E8=B5=84=E4=BA=A7=E5=B8=82=E5=9C=
-
-=BA=E9=80=BB=E8=BE=91\</a\>
-
-\<ul class=3D"toc-indentation"\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-RWAOracle=E6=95=B0=E6=8D=AE=E6=
-
-=9D=A5=E6=BA=90.1"\>RWA Oracle =E6=95=B0=E6=8D=AE=E6=9D=A5=E6=BA=90\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=B8=82=E5=9C=BA=E5=BC=80=E6=
-
-=94=BE=E4=B8=8E=E5=86=BB=E7=BB=93=E8=A7=84=E5=88=99.1"\>=E5=B8=82=E5=9C=BA=
-
-=E5=BC=80=E6=94=BE=E4=B8=8E=E5=86=BB=E7=BB=93=E8=A7=84=E5=88=99\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E6=94=B6=E8=B4=B9=E6=98=8E=E7=
-
-=BB=86.1"\>=E6=94=B6=E8=B4=B9=E6=98=8E=E7=BB=86\</a\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.4Curator/MarketCreation=E6=9C=
-
-=BA=E5=88=B6=EF=BC=88=E5=8F=82=E8=80=83MorphoCurate=EF=BC=89.1"\>2.4 Curator=
-
-/ Market Creation =E6=9C=BA=E5=88=B6=EF=BC=88=E5=8F=82=E8=80=83 Morpho Cur=
-
-ate=EF=BC=89\</a\>
-
-\<ul class=3D"toc-indentation"\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E6=B5=81=E7=A8=8B"\>=E6=B5=81=E7=
-
-=A8=8B\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-Curator=E6=9D=83=E9=99=90"\>Curat=
-
-or =E6=9D=83=E9=99=90\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E8=B4=A8=E6=8A=BC=E4=B8=8E=E6=
-
-=83=A9=E7=BD=9A"\>=E8=B4=A8=E6=8A=BC=E4=B8=8E=E6=83=A9=E7=BD=9A\</a\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.5=E6=BF=80=E5=8A=B1=E4=B8=8E=
-
-=E8=B4=B9=E7=94=A8=E7=B3=BB=E7=BB=9F"\>2.5 =E6=BF=80=E5=8A=B1=E4=B8=8E=E8=B4=
-
-=B9=E7=94=A8=E7=B3=BB=E7=BB=9F\</a\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=89=E3=80=81=E4=BA=A7=E5=
-
-=93=81=E9=9C=80=E6=B1=82"\>=E4=B8=89=E3=80=81=E4=BA=A7=E5=93=81=E9=9C=80=E6=
-
-=B1=82\</a\>
-
-\<ul class=3D"toc-indentation"\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-LPPool"\>LP Pool\</a\>
-
-\<ul class=3D"toc-indentation"\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=89=E3=80=81=E6=94=B6=E7=
-
-=9B=8A=E6=8C=87=E6=A0=87=E4=BD=93=E7=B3=BB"\>=E4=B8=89=E3=80=81=E6=94=B6=E7=
-
-=9B=8A=E6=8C=87=E6=A0=87=E4=BD=93=E7=B3=BB\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=9B=9B=E3=80=81=F0=9F=93=90An=
-
-n.Performance=E8=AE=A1=E7=AE=97=E5=85=AC=E5=BC=8F=EF=BC=88=E5=B9=B4=E5=8C=
-
-=96=E8=A1=A8=E7=8E=B0=EF=BC=89"\>=E5=9B=9B=E3=80=81=F0=9F=93=90 Ann. Perform=
-
-ance =E8=AE=A1=E7=AE=97=E5=85=AC=E5=BC=8F=EF=BC=88=E5=B9=B4=E5=8C=96=E8=A1=
-
-=A8=E7=8E=B0=EF=BC=89\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=BA=94=E3=80=81=E7=BB=93=E7=
-
-=AE=97=E4=B8=8E=E9=A3=8E=E9=99=A9=E6=9C=BA=E5=88=B6"\>=E4=BA=94=E3=80=81=E7=
-
-=BB=93=E7=AE=97=E4=B8=8E=E9=A3=8E=E9=99=A9=E6=9C=BA=E5=88=B6\</a\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=BA=94=E3=80=81=E5=90=8E=E7=
-
-=AB=AF=E6=95=B0=E6=8D=AE=E9=9C=80=E6=B1=82"\>=E4=BA=94=E3=80=81=E5=90=8E=E7=
-
-=AB=AF=E6=95=B0=E6=8D=AE=E9=9C=80=E6=B1=82\</a\>
-
-\<ul class=3D"toc-indentation"\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-5.1Indexer=E4=BA=8B=E4=BB=B6=E7=
-
-=9B=91=E5=90=AC"\>5.1 Indexer =E4=BA=8B=E4=BB=B6=E7=9B=91=E5=90=AC\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-5.2=E6=8C=87=E6=A0=87=E4=B8=8E=
-
-=E7=BB=9F=E8=AE=A1=E5=AD=97=E6=AE=B5"\>5.2 =E6=8C=87=E6=A0=87=E4=B8=8E=E7=BB=
-
-=9F=E8=AE=A1=E5=AD=97=E6=AE=B5\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-5.3API(GraphQL/REST)"\>5.3 API (G=
-
-raphQL / REST)\</a\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=85=AD=E3=80=81=E5=89=8D=E7=
-
-=AB=AF=E5=8A=9F=E8=83=BD=E4=B8=8E=E4=BA=A4=E4=BA=92"\>=E5=85=AD=E3=80=81=E5=
-
-=89=8D=E7=AB=AF=E5=8A=9F=E8=83=BD=E4=B8=8E=E4=BA=A4=E4=BA=92\</a\>
-
-\<ul class=3D"toc-indentation"\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=89=E3=80=81=E6=A0=B8=E5=
-
-=BF=83=E6=A8=A1=E5=9D=97=E8=AE=BE=E8=AE=A1"\>=E4=B8=89=E3=80=81=E6=A0=B8=E5=
-
-=BF=83=E6=A8=A1=E5=9D=97=E8=AE=BE=E8=AE=A1\</a\>
-
-\<ul class=3D"toc-indentation"\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-1.=E5=A4=9A=E9=9A=94=E7=A6=BBLP=
-
-=E6=B1=A0=E6=9E=B6=E6=9E=84"\>1. =E5=A4=9A=E9=9A=94=E7=A6=BB LP =E6=B1=A0=E6=
-
-=9E=B6=E6=9E=84\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.RWA=E5=B8=82=E5=9C=BA=E6=9C=BA=
-
-=E5=88=B6=EF=BC=88=E5=8F=82=E8=80=83Avantis=EF=BC=89"\>2. RWA =E5=B8=82=E5=
-
-=9C=BA=E6=9C=BA=E5=88=B6=EF=BC=88=E5=8F=82=E8=80=83 Avantis=EF=BC=89\</a\>\</l=
-
-i\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-3.=E8=87=AA=E4=B8=BB=E5=BB=BA=E6=
-
-=B1=A0=EF=BC=88CuratedMarketCreation=EF=BC=89"\>3. =E8=87=AA=E4=B8=BB=E5=BB=
-
-=BA=E6=B1=A0=EF=BC=88Curated Market Creation=EF=BC=89\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-4.Curator=E6=9D=83=E9=99=90=E4=
-
-=B8=8E=E6=B2=BB=E7=90=86=E5=B1=82=E7=BA=A7"\>4. Curator =E6=9D=83=E9=99=90=
-
-=E4=B8=8E=E6=B2=BB=E7=90=86=E5=B1=82=E7=BA=A7\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-5.Referral/=E4=BA=A4=E6=98=93=E6=
-
-=8C=96=E7=9F=BF/Leaderboard"\>5. Referral / =E4=BA=A4=E6=98=93=E6=8C=96=E7=
-
-=9F=BF / Leaderboard\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-6.=E8=B4=B9=E7=94=A8=E6=A8=A1=E5=
-
-=9E=8B=EF=BC=88FeeMechanics=EF=BC=89"\>6. =E8=B4=B9=E7=94=A8=E6=A8=A1=E5=9E=
-
-=8B=EF=BC=88Fee Mechanics=EF=BC=89\</a\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=9B=9B=E3=80=81=E5=85=B3=E9=
-
-=94=AE=E5=85=AC=E5=BC=8F=E4=B8=BE=E4=BE=8B"\>=E5=9B=9B=E3=80=81=E5=85=B3=E9=
-
-=94=AE=E5=85=AC=E5=BC=8F=E4=B8=BE=E4=BE=8B\</a\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-6.LP&amp;FundingMechanism=EF=BC=
-
-=88=E6=B5=81=E5=8A=A8=E6=80=A7=E4=B8=8E=E8=B5=84=E9=87=91=E8=B4=B9=E7=8E=87=
-
-=E6=9C=BA=E5=88=B6=EF=BC=89"\>6. LP &amp; Funding Mechanism=EF=BC=88=E6=B5=
-
-=81=E5=8A=A8=E6=80=A7=E4=B8=8E=E8=B5=84=E9=87=91=E8=B4=B9=E7=8E=87=E6=9C=BA=
-
-=E5=88=B6=EF=BC=89\</a\>
-
-\<ul class=3D"toc-indentation"\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-6.1LP=E6=B5=81=E5=8A=A8=E6=80=A7=
-
-=E7=AE=A1=E7=90=86"\>6.1 LP =E6=B5=81=E5=8A=A8=E6=80=A7=E7=AE=A1=E7=90=86\</a=
-
-\>
-
-\<ul class=3D"toc-indentation"\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E8=B5=84=E9=87=91=E6=B5=81=E5=
-
-=90=91"\>=E8=B5=84=E9=87=91=E6=B5=81=E5=90=91\</a\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-6.2Funding=E8=B4=B9=E7=8E=87=E6=
-
-=9C=BA=E5=88=B6"\>6.2 Funding =E8=B4=B9=E7=8E=87=E6=9C=BA=E5=88=B6\</a\>
-
-\<ul class=3D"toc-indentation"\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-FundingFee=E5=88=86=E9=85=8D=E9=
-
-=80=BB=E8=BE=91"\>Funding Fee =E5=88=86=E9=85=8D=E9=80=BB=E8=BE=91\</a\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-6.3LP=E9=A3=8E=E9=99=A9=E6=95=9E=
-
-=E5=8F=A3=E4=B8=8E=E7=9B=91=E6=8E=A7"\>6.3 LP =E9=A3=8E=E9=99=A9=E6=95=9E=E5=
-
-=8F=A3=E4=B8=8E=E7=9B=91=E6=8E=A7\</a\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-7.LiquidationMechanism=EF=BC=88=
-
-=E6=B8=85=E7=AE=97=E6=9C=BA=E5=88=B6=EF=BC=89"\>7. Liquidation Mechanism=EF=
-
-=BC=88=E6=B8=85=E7=AE=97=E6=9C=BA=E5=88=B6=EF=BC=89\</a\>
-
-\<ul class=3D"toc-indentation"\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-7.1=E6=B8=85=E7=AE=97=E6=9D=A1=
-
-=E4=BB=B6"\>7.1 =E6=B8=85=E7=AE=97=E6=9D=A1=E4=BB=B6\</a\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-9.Referral&amp;Incentive=EF=BC=
-
-=88=E6=8E=A8=E8=8D=90=E4=B8=8E=E6=BF=80=E5=8A=B1=E4=BD=93=E7=B3=BB=EF=BC=89=
-
-"\>9. Referral &amp; Incentive=EF=BC=88=E6=8E=A8=E8=8D=90=E4=B8=8E=E6=BF=80=
-
-=E5=8A=B1=E4=BD=93=E7=B3=BB=EF=BC=89\</a\>
-
-\<ul class=3D"toc-indentation"\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-9.1Referral=E7=B3=BB=E7=BB=9F"\>9=
-
-.1 Referral =E7=B3=BB=E7=BB=9F\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-9.2=E4=BA=A4=E6=98=93=E6=8C=96=
-
-=E7=9F=BF=E7=A7=AF=E5=88=86=E5=85=AC=E5=BC=8F"\>9.2 =E4=BA=A4=E6=98=93=E6=8C=
-
-=96=E7=9F=BF=E7=A7=AF=E5=88=86=E5=85=AC=E5=BC=8F\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-9.3=E5=A5=96=E5=8A=B1=E6=B1=A0=
-
-=E6=9D=A5=E6=BA=90"\>9.3 =E5=A5=96=E5=8A=B1=E6=B1=A0=E6=9D=A5=E6=BA=90\</a\>\</=
-
-li\>
-
-\</ul\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E9=A3=8E=E9=99=A9=E4=B8=8E=E8=
-
-=BE=B9=E7=95=8C=E5=A4=84=E7=90=86"\>=E9=A3=8E=E9=99=A9=E4=B8=8E=E8=BE=B9=E7=
-
-=95=8C=E5=A4=84=E7=90=86\</a\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=80=E3=80=81=E7=BB=9F=E4=
-
-=B8=80=E5=89=8D=E6=8F=90=E4=B8=8E=E5=91=BD=E5=90=8D=E7=BA=A6=E5=AE=9A"\>=E4=
-
-=B8=80=E3=80=81=E7=BB=9F=E4=B8=80=E5=89=8D=E6=8F=90=E4=B8=8E=E5=91=BD=E5=90=
-
-=8D=E7=BA=A6=E5=AE=9A\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-Deposit=EF=BC=88=E7=94=A8=E6=88=
-
-=B7=E5=85=A5=E9=87=91=EF=BC=89=E2=80=94TraceDiagram=EF=BC=88=E6=96=87=E6=9C=
-
-=AC=E7=89=88=EF=BC=89"\>Deposit=EF=BC=88=E7=94=A8=E6=88=B7=E5=85=A5=E9=87=91=
-
-=EF=BC=89 =E2=80=94 Trace Diagram=EF=BC=88=E6=96=87=E6=9C=AC=E7=89=88=EF=BC=
-
-=89\</a\>
-
-\<ul class=3D"toc-indentation"\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=90=84=E6=96=B9=E8=81=8C=E8=
-
-=B4=A3=EF=BC=88=E6=8C=89=E6=AD=A5=E9=AA=A4=EF=BC=89"\>=E5=90=84=E6=96=B9=E8=
-
-=81=8C=E8=B4=A3=EF=BC=88=E6=8C=89=E6=AD=A5=E9=AA=A4=EF=BC=89\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=85=B3=E9=94=AE=E5=A4=B1=E8=
-
-=B4=A5=E5=9C=BA=E6=99=AF=E4=B8=8E=E5=A4=84=E7=90=86"\>=E5=85=B3=E9=94=AE=E5=
-
-=A4=B1=E8=B4=A5=E5=9C=BA=E6=99=AF=E4=B8=8E=E5=A4=84=E7=90=86\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=BB=E8=A6=81=E6=8E=A5=E5=
-
-=8F=A3=E4=B8=8E=E4=BA=8B=E4=BB=B6=EF=BC=88=E5=BB=BA=E8=AE=AE=EF=BC=89"\>=E4=
-
-=B8=BB=E8=A6=81=E6=8E=A5=E5=8F=A3=E4=B8=8E=E4=BA=8B=E4=BB=B6=EF=BC=88=E5=BB=
-
-=BA=E8=AE=AE=EF=BC=89\</a\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=89=E3=80=81Withdraw=EF=BC=
-
-=88=E7=94=A8=E6=88=B7=E8=B5=8E=E5=9B=9E=EF=BC=89=E2=80=94TraceDiagram=EF=BC=
-
-=88=E6=96=87=E6=9C=AC=E7=89=88=EF=BC=89"\>=E4=B8=89=E3=80=81Withdraw=EF=BC=
-
-=88=E7=94=A8=E6=88=B7=E8=B5=8E=E5=9B=9E=EF=BC=89 =E2=80=94 Trace Diagram=EF=
-
-=BC=88=E6=96=87=E6=9C=AC=E7=89=88=EF=BC=89\</a\>
-
-\<ul class=3D"toc-indentation"\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=90=84=E6=96=B9=E8=81=8C=E8=
-
-=B4=A3=EF=BC=88=E6=8C=89=E6=AD=A5=E9=AA=A4=EF=BC=89.1"\>=E5=90=84=E6=96=B9=
-
-=E8=81=8C=E8=B4=A3=EF=BC=88=E6=8C=89=E6=AD=A5=E9=AA=A4=EF=BC=89\</a\>\</li\>
-
-\<li\>\<a href=3D"#id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPR=
-
-D_HertzflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=85=B3=E9=94=AE=E5=A4=B1=E8=
-
-=B4=A5=E5=9C=BA=E6=99=AF=E4=B8=8E=E5=A4=84=E7=90=86.1"\>=E5=85=B3=E9=94=AE=
-
-=E5=A4=B1=E8=B4=A5=E5=9C=BA=E6=99=AF=E4=B8=8E=E5=A4=84=E7=90=86\</a\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\</div\>
-
-\<p\>\</p\>
-
-\<p\>\</p\>
-
-\<p\>\</p\>
-
-\<p\>V2 Draft\<a class=3D"external-link" href=3D"https://hertzflow.slack.com/t=
-
-eam/U09837G5FB3" rel=3D"nofollow"\>@cen\</a\> Todo=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>GLV=E6=9C=BA=E5=88=B6=EF=BC=88V2=EF=BC=89\</p\>\</li\>
-
-\<li\>
-
-\<p\>RWA=E5=B8=82=E5=9C=BA=E4=BC=91=E5=B8=82=E6=97=B6=E9=97=B4=EF=BC=8C=E4=BB=
-
-=A5=E5=8F=8A=E4=BC=91=E5=B8=82=E8=B7=B3=E7=A9=BA=E5=A4=84=E7=90=86=E6=96=B9=
-
-=E5=BC=8F =E9=AA=8C=E8=AF=81avnt=E7=9A=84k=E7=BA=BF=E5=9B=BE =EF=BC=88V2=EF=
-
-=BC=89\</p\>\</li\>
-
-\<li\>
-
-\<p\>Referral =E7=A7=AF=E5=88=86=E7=B3=BB=E7=BB=9F=E6=9C=BA=E5=88=B6 &amp; Le=
-
-aderboard=E6=A2=B3=E7=90=86 =EF=BC=88V2=EF=BC=89\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=87=AA=E4=B8=BB=E5=BB=BA=E6=B1=A0 =E4=BA=A7=E5=93=81=E5=B1=82=E9=9D=
-
-=A2=E5=8F=82=E6=95=B0=E8=87=AA=E5=AE=9A=E4=B9=89=EF=BC=9B=E5=8D=8F=E8=AE=AE=
-
-=E5=B1=82=E9=9D=A2 LP=E6=B1=A0=EF=BC=8Cusdc - vault=EF=BC=9BGLV =E5=85=B3=
-
-=E7=B3=BB=E6=A2=B3=E7=90=86=E4=BB=A5=E5=8F=8A=E8=81=9A=E5=90=88/=E6=94=B6=
-
-=E5=85=A5=E5=88=86=E9=85=8D=E6=9C=BA=E5=88=B6 =EF=BC=88V3=EF=BC=89\</p\>\</li\>
-
-\<li\>
-
-\<p\>Morpho Curate=E7=AB=9E=E5=93=81=E8=B0=83=E7=A0=94 =EF=BC=88V3=EF=BC=89\</=
-
-p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=85=B6=E4=BB=96=E7=BB=86=E8=8A=82=E5=A1=AB=E5=85=85\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\</p\>
-
-\<p\>\<a class=3D"external-link" href=3D"https://hertzflow.slack.com/team/U08H=
-
-180TJ1J" rel=3D"nofollow"\>@kayce\</a\> Todo=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>2.1 =E9=83=A8=E5=88=86=E7=9A=84tech spec\</p\>\</li\>
-
-\<li\>
-
-\<p\>2.2 =E9=83=A8=E5=88=86=E8=B7=91=E4=BB=A3=E7=A0=81=E5=88=B7=E9=A3=8E=E6=
-
-=8E=A7=E5=8F=82=E6=95=B0 =E7=BB=99=E5=87=BA=E8=A1=A8=E6=A0=BC\</p\>\</li\>
-
-\</ul\>
-
-\<h1 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=80=E3=80=81=E9=9C=80=E6=B1=82=
-
-=E6=A6=82=E8=BF=B0"\>=E4=B8=80=E3=80=81=E9=9C=80=E6=B1=82=E6=A6=82=E8=BF=B0\<=
-
-/h1\>
-
-\<div class=3D"panel" style=3D"background-color: \#DEEBFF;border-width: 1px;"=
-
-\>
-
-\<div class=3D"panelContent" style=3D"background-color: \#DEEBFF;"\>
-
-\<p\>\<strong\>=E7=89=88=E6=9C=AC=E7=9B=AE=E6=A0=87=EF=BC=9A\</strong\>V2 =E6=98=
-
-=AF=E5=9F=BA=E4=BA=8E GMX V2 =E6=9E=B6=E6=9E=84=E6=BC=94=E5=8C=96=E7=9A=84=
-
-=E5=A4=9A=E8=B5=84=E4=BA=A7=E8=A1=8D=E7=94=9F=E5=93=81=E4=BA=A4=E6=98=93=E5=
-
-=8D=8F=E8=AE=AE=EF=BC=8C=E7=9B=AE=E6=A0=87=E6=98=AF=E6=89=93=E9=80=A0=E4=B8=
-
-=80=E4=B8=AA=E6=97=A2=E8=83=BD=E6=89=BF=E8=BD=BD=E9=93=BE=E4=B8=8A DeFi =E9=
-
-=AB=98=E6=9D=A0=E6=9D=86=E8=A1=8D=E7=94=9F=E5=93=81=EF=BC=8C=E5=8F=88=E8=83=
-
-=BD=E5=AE=B9=E7=BA=B3=E9=93=BE=E4=B8=8B RWA=EF=BC=88=E5=A6=82=E7=BE=8E=E5=
-
-=80=BA=E3=80=81=E9=BB=84=E9=87=91=E3=80=81ETF=EF=BC=89=E5=81=9A=E5=B8=82=E7=
-
-=9A=84=E6=B7=B7=E5=90=88=E5=9E=8B DEX =E5=B9=B3=E5=8F=B0=E3=80=82=E8=9E=8D=
-
-=E5=90=88=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>GMX V2 =E7=9A=84=E5=A4=9A=E9=9A=94=E7=A6=BB=E6=B1=A0=E6=9C=BA=E5=
-
-=88=B6\</strong\>=EF=BC=88=E9=A3=8E=E9=99=A9=E9=9A=94=E7=A6=BB + =E6=B5=81=E5=
-
-=8A=A8=E6=80=A7=E8=81=9A=E5=90=88=EF=BC=89\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Avantis =E7=9A=84 RWA =E4=BA=A4=E6=98=93\</strong\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>GMX=E7=9A=84=E5=8A=A8=E6=80=81=E8=B4=B9=E7=94=A8=E8=B0=83=E8=8A=
-
-=82\</strong\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Morpho Curate =E7=9A=84=E8=87=AA=E4=B8=BB=E5=B8=82=E5=9C=BA=E5=
-
-=88=9B=E5=BB=BA=E4=B8=8E=E6=B2=BB=E7=90=86=E4=BD=93=E7=B3=BB=EF=BC=88=E8=87=
-
-=AA=E4=B8=BB=E5=BB=BA=E6=B1=A0=EF=BC=89\</strong\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E7=BB=93=E5=90=88 Jupiter/GMX/Avantis=E7=9A=84 Referral=E3=80=
-
-=81=E4=BA=A4=E6=98=93=E6=8C=96=E7=9F=BF=E6=BF=80=E5=8A=B1\</strong\>\</p\>\</li\>
-
-\</ul\>
-
-\</div\>
-
-\</div\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-1.1=E4=BA=A4=E4=BB=98=E4=BA=A7=E5=87=
-
-=BA"\>1.1 =E4=BA=A4=E4=BB=98=E4=BA=A7=E5=87=BA\</h2\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"64=
-
-2657ff-6389-4c13-9c42-c2a42d7e5314" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=A8=A1=E5=9D=97\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=A0=B8=E5=BF=83=E5=8A=9F=E8=83=BD\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=85=B3=E9=94=AE=E5=8F=82=E8=80=83\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=98=AF=E5=90=A6=E5=8C=85=E5=90=AB\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<a href=3D"https://hertzflow.atlassian.net/wiki/spaces/H/pages/18710556/=
-
-PRD_Hertzflow+V2+\_2025.10.15#2.2-%E5%A4%9A%E9%9A%94%E7%A6%BB-LP-%E6%B1%A0%E=
-
-F%BC%88Multi-Isolated-Vaults%EF%BC%89" rel=3D"nofollow"\>=E5=A4=9A=E9=9A=94=
-
-=E7=A6=BB=E6=B1=A0 LP\</a\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=AF=8F=E4=B8=AA=E5=B8=82=E5=9C=BA=E5=8D=95=E7=8B=AC=E6=B1=A0=E3=80=81=
-
-=E9=A3=8E=E9=99=A9=E9=9A=94=E7=A6=BB=E3=80=81=E4=B8=AA=E5=88=AB=E6=B8=85=E7=
-
-=AE=97=EF=BC=8CUSDC=E6=B1=A0=E5=AD=90=E6=94=AF=E6=8C=81=E3=80=82\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GMX V2\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E2=9C=85\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>RWA =E5=B8=82=E5=9C=BA\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=BB=91=E5=AE=9A=E7=9C=9F=E5=AE=9E=E8=B5=84=E4=BA=A7 Oracle=E3=80=81=
-
-=E5=BC=80=E5=B8=82=E6=97=B6=E9=97=B4=E4=B8=8EPnL=E7=BA=A6=E6=9D=9F=E3=80=81=
-
-RWA-backed markets =E9=93=BE=E4=B8=8B=E6=94=B6=E7=9B=8A=E5=90=8C=E6=AD=A5=
-
-=E4=B8=8E=E6=96=AD=E5=B1=82=E6=B8=85=E7=AE=97=E9=80=BB=E8=BE=91=E3=80=81\</p=
-
-\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Avantis\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E2=9C=85\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=B4=B9=E7=94=A8=E6=A8=A1=E5=9E=8B=E6=A2=B3=E7=90=86\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Funding=E3=80=81Impact=E3=80=81Borrow=E3=80=81Swap\<br\>\<a class=3D"extern=
-
-al-link" href=3D"https://hertzflow.slack.com/team/U08H180TJ1J" rel=3D"nofol=
-
-low"\>@kayce\</a\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GMX / Jupiter\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E2=9C=85 =E5=90=88=E7=BA=A6=E4=B8=BB=E5=AF=BC=EF=BC=8C=E5=9F=BA=E4=BA=
-
-=8E=E5=BD=93=E5=89=8D=E4=BC=98=E5=8C=96/=E6=96=B0=E5=A2=9E \<br\>
-
-=E4=BF=AE=E6=94=B9=EF=BC=9A=E5=BC=80=E5=8D=95=E6=97=B6=E5=89=8D=E7=AB=AF=E6=
-
-=9D=83=E9=87=8D=E5=81=8F=E5=B7=AE=E7=9B=B8=E5=85=B3=E9=99=90=E5=88=B6\<br\>
-
-=E6=96=B0=E5=A2=9E=EF=BC=9Afunding fee=E6=96=B0=E5=A2=9E=EF=BC=9BOI Imbalan=
-
-ce=E7=9B=B8=E5=85=B3=E7=9A=84=E6=8C=87=E6=95=B0 Price Impact =E5=A5=96=E6=
-
-=83=A9\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=BF=80=E5=8A=B1=E7=B3=BB=E7=BB=9F\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Referral =E2=86=90 =E7=A7=AF=E5=88=86=E7=B3=BB=E7=BB=9F =E2=86=90 =E4=BA=
-
-=A4=E6=98=93=E7=AB=9E=E8=B5=9B=EF=BC=88leaderboard=EF=BC=89=E7=AD=89\</p\>\</t=
-
-d\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Jupiter / GMX Leaderboard\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E2=9C=85 V2 =E5=87=BA=E6=9C=BA=E5=88=B6\<br\>
-
-=E2=9D=8C V3=E5=87=BA=E5=8E=9F=E5=9E=8B\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=87=AA=E4=B8=BB=E5=BB=BA=E6=B1=A0 =EF=BC=88V3=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>USDC =E7=AC=AC=E4=B8=89=E6=96=B9=E7=AD=96=E7=95=A5LP=E6=B1=A0 - \<strong\>=
-
-=E5=90=88=E4=BD=9C=E6=96=B9\</strong\>=E8=87=AA=E4=B8=BB=E5=88=9B=E5=BB=BA=E5=
-
-=B8=82=E5=9C=BA + Curator =E7=99=BD=E5=90=8D=E5=8D=95=E6=B2=BB=E7=90=86=EF=
-
-=BC=88=E5=90=88=E4=BD=9C=E6=96=B9=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Morpho Curate\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E2=9D=8C V3=E5=86=8D=E4=BA=A4=E4=BB=98\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Curator =E7=AE=A1=E7=90=86 =EF=BC=88V3=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A4=9A=E5=B1=82=E6=9D=83=E9=99=90=EF=BC=9A=E6=8F=90=E6=A1=88=E3=80=81=
-
-=E5=AE=A1=E6=A0=B8=E3=80=81=E5=8D=8F=E8=AE=AE=E8=B4=B9=E7=94=A8=E6=8A=BD=E6=
-
-=B0=B4=E5=88=86=E9=85=8D\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Morpho Governance\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E2=9D=8C V3=E5=86=8D=E4=BA=A4=E4=BB=98\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h1 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=BA=8C=E3=80=81=E7=AB=9E=E5=93=81=
-
-=E6=9E=B6=E6=9E=84=E8=B0=83=E7=A0=94"\>=E4=BA=8C=E3=80=81=E7=AB=9E=E5=93=81=
-
-=E6=9E=B6=E6=9E=84=E8=B0=83=E7=A0=94\</h1\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.1=E6=A8=A1=E5=9D=97=E5=88=86=E5=B1=
-
-=82(techspec)"\>2.1 =E6=A8=A1=E5=9D=97=E5=88=86=E5=B1=82(tech spec)\</h2\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"8a=
-
-9f4a27-7b45-49e9-84c7-8a19f71f60b6" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=A8=A1=E5=9D=97\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8A=9F=E8=83=BD\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8F=82=E8=80=83=E6=9C=BA=E5=88=B6\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>VaultManager\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>LP =E6=B1=A0=E4=B8=8E=E8=B5=84=E4=BA=A7=E7=AE=A1=E7=90=86\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GMX V2\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>MarketManager\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=B8=82=E5=9C=BA=E5=8F=82=E6=95=B0=E4=B8=8E=E6=92=AE=E5=90=88=E6=8E=A7=
-
-=E5=88=B6\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GMX V2\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>RWAOracle =EF=BC=88Offchain=EF=BC=9F=EF=BC=89\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=9C=9F=E5=AE=9E=E8=B5=84=E4=BA=A7=E4=BB=B7=E6=A0=BC=E4=B8=8E=E6=94=B6=
-
-=E7=9B=8A=E5=90=8C=E6=AD=A5=EF=BC=8C=E4=B8=8ERWA=E6=89=98=E7=AE=A1=E6=96=B9=
-
-=EF=BC=88Ondo, Maple=E7=AD=89=EF=BC=89=E5=AF=B9=E6=8E=A5\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Avantis\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>CuratorRegistry\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=B8=82=E5=9C=BA=E7=99=BD=E5=90=8D=E5=8D=95=E4=B8=8E=E6=8A=95=E7=A5=A8=
-
-=E6=B2=BB=E7=90=86\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Morpho Curate\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>RewardDistributor\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Referral =E4=B8=8E=E6=8C=96=E7=9F=BF=E5=A5=96=E5=8A=B1=E5=88=86=E5=8F=91=
-
-\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Jupiter\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>RiskEngine\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>PnL Cap =E9=99=90=E5=88=B6=E4=B8=8E=E8=B5=84=E9=87=91=E8=B4=B9=E7=8E=87=
-
-=E8=AE=A1=E7=AE=97\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GMX + Avantis\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.2=E5=A4=9A=E9=9A=94=E7=A6=BBLP=E6=B1=
-
-=A0=EF=BC=88Multi-IsolatedLiquidityPools)"\>2.2 =E5=A4=9A=E9=9A=94=E7=A6=BB =
-
-LP =E6=B1=A0=EF=BC=88Multi-Isolated Liquidity Pools)\</h2\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\> =
-
-=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
-
-=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
-
-=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
-
-=E2=94=80=E2=94=80=E2=94=90
-
-=E2=94=82 User Wallet =E2=94=82
-
-=E2=94=82 (BTC / USDC / GM token) =E2=94=82
-
-=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
-
-=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=
-
-=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
-
-=E2=94=80=E2=94=80=E2=94=80=E2=94=98
-
-=E2=94=82 deposit/Withdraw
-
-=E2=94=82 mint/Burn GLV =EF=BC=88ERC-4626)
-
-=E2=96=BC
-
-=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
-
-=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
-
-=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
-
-=80=E2=94=80=E2=94=90
-
-=E2=94=82 GLV Vault =E2=94=82
-
-=E2=94=82 Long Collateral BTC =E2=94=82
-
-=E2=94=82 Short Collateral USDC =E2=94=82
-
-=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
-
-=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
-
-=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
-
-=80=E2=94=80=E2=94=98
-
-=E2=94=82
-
-=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
-
-=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
-
-=94=80=E2=94=B4=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
-
-=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
-
-=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
-
-=94=80=E2=94=80=E2=94=80=E2=94=90
-
-=E2=94=82 =E2=94=82
-
-=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
-
-=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
-
-=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90 =
-
-=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
-
-=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
-
-=E2=94=82 GM Router =E2=94=82 =E2=94=82 G=
-
-LV Keeper =E2=94=82
-
-=E2=94=82 swap BTC/USDC &lt;-&gt; GM =E2=94=82=E2=97=84=E2=94=80=E2=
-
-=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80trigger=E2=94=80=E2=94=80=E2=94=
-
-=80=E2=94=80=E2=94=82 (=E6=89=A7=E8=A1=8CSHIFT)=E2=94=82
-
-=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=
-
-=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
-
-=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98 =
-
-=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=
-
-=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
-
-=E2=94=82 =E2=94=82
-
-=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
-
-=E2=94=B4=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
-
-=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
-
-=90 =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
-
-=E2=94=80=E2=94=80=E2=94=80=E2=94=B4=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
-
-=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
-
-=80=E2=94=80=E2=94=90
-
-=E2=94=82 GM Pool A - Market A =E2=94=82 =E2=94=82 GM Po=
-
-ol B - Market B =E2=94=82
-
-=E2=94=82 Long Collateral BTC =E2=94=82 =E2=94=82 Long =
-
-Collateral BTC =E2=94=82
-
-=E2=94=82 Short Collateral USDC =E2=94=82 =E2=94=82 Short=
-
-Collateral USDC =E2=94=82
-
-=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
-
-=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
-
-=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
-
-=98 =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
-
-=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
-
-=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
-
-=80=E2=94=80=E2=94=98
-
-\</pre\>
-
-\</div\>
-
-\</div\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"4a=
-
-4772e0-b1f9-40ef-81d4-5beb446bad17" class=3D"confluenceTable"\>
-
-\<colgroup\>
-
-\<col style=3D"width: 217.0px;"\>
-
-\<col style=3D"width: 542.0px;"\>
-
-\</colgroup\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=90=8D=E7=A7=B0\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E8=AF=B4=E6=98=8E\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>GM Pool\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E9=92=88=E5=AF=B9=E6=9F=90=E4=B8=AA=E5=B8=82=E5=9C=BA=E7=9A=84=E5=8D=95=
-
-=E6=B1=A0=EF=BC=88=E6=AF=94=E5=A6=82 BTC/USD Pool)=E3=80=82=E7=94=A8=E6=88=
-
-=B7=E8=B4=A8=E6=8A=BC BTC=EF=BC=88=E5=A4=9A=E5=A4=B4=E8=B5=84=E4=BA=A7=EF=
-
-=BC=89+ USDC=EF=BC=88=E7=A9=BA=E5=A4=B4=E8=B5=84=E4=BA=A7=EF=BC=89=EF=BC=8C=
-
-=E4=B8=BA=E4=BA=A4=E6=98=93=E8=80=85=E6=8F=90=E4=BE=9B=E6=9D=A0=E6=9D=86=E4=
-
-=BA=A4=E6=98=93=E6=B5=81=E5=8A=A8=E6=80=A7, =E8=8E=B7=E5=BE=97 \<strong\>GM t=
-
-oken\</strong\>=E3=80=82\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=AF=94=E5=A6=82=EF=BC=8CGM Pool 1=E7=9A=84token=E4=B8=BA=EF=BC=9AGM_B=
-
-TC\[BTC-USDC\]=EF=BC=8C=E4=BB=A3=E8=A1=A8=E4=B8=BABTC=E5=B8=82=E5=9C=BA=E6=8F=
-
-=90=E4=BE=9B\<strong\>reserve token long =3D BTC=EF=BC=9Breserve token short =
-
-=3D USDC\</strong\>=E7=9A=84=E6=B5=81=E5=8A=A8=E6=80=A7=E6=B1=A0\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=AF=94=E5=A6=82=EF=BC=8CGM Pool 2=E7=9A=84token=E4=B8=BA=EF=BC=9AGM_B=
-
-TC\[BTC-BTC\]=EF=BC=8C=E4=BB=A3=E8=A1=A8=E4=B8=BABTC=E5=B8=82=E5=9C=BA=E6=8F=
-
-=90=E4=BE=9B\<strong\>reserve token long =3D BTC=EF=BC=9Breserve token short =
-
-=3D BTC\</strong\>=E7=9A=84=E6=B5=81=E5=8A=A8=E6=80=A7=E6=B1=A0\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=AF=94=E5=A6=82=EF=BC=8CGM Pool 3=E7=9A=84token=E4=B8=BA=EF=BC=9AGM_B=
-
-TC\[tBTC-tBTC\]=EF=BC=8C=E4=BB=A3=E8=A1=A8=E4=B8=BABTC=E5=B8=82=E5=9C=BA=E6=
-
-=8F=90=E4=BE=9B\<strong\>reserve token long =3D tBTC=EF=BC=9Breserve token sh=
-
-ort =3D tBTC\</strong\>=E7=9A=84=E6=B5=81=E5=8A=A8=E6=80=A7=E6=B1=A0\</p\>\</li\>
-
-\</ul\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>GLV (GM Liquidity Vault)\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=94=B1=E5=90=8C=E6=A0=B7reserve token long=EF=BC=88=E6=AF=94=E5=A6=82=
-
-=EF=BC=8CETH=EF=BC=89 =E4=B8=8Eshort =EF=BC=88USDC=EF=BC=89=E7=9A=84 \<stron=
-
-g\>GM Pool LP Token\</strong\>=E7=BB=84=E6=88=90=E7=9A=84=E8=81=9A=E5=90=88=E6=
-
-=B1=A0=EF=BC=8CGLV =E8=87=AA=E5=8A=A8=E5=9C=A8=E8=BF=99=E4=BA=9B GM Pools =
-
-=E4=B9=8B=E9=97=B4=E5=88=86=E9=85=8D=E6=B5=81=E5=8A=A8=E6=80=A7=E3=80=82\</p=
-
-\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>GLV\[BTC-USDC\] =3D =CE=B1 =C3=97 GM_BTC\[BTC-USDC\] + =CE=B2 GM_SOL=
-
-\[BTC-USDC\] =C3=97 GM_ETH\[BTC-USDC\] + =CE=B3 =C3=97 GM_SUI\[BTC-USDC\] + ...\</=
-
-strong\>\<br\>
-
-=E5=85=B6=E4=B8=AD =CE=B1=E3=80=81=CE=B2=E3=80=81=CE=B3 =E6=98=AF=E6=9D=83=
-
-=E9=87=8D=EF=BC=8C=E7=94=B1=E7=AC=AC=E4=B8=89=E6=96=B9=E5=8A=A8=E6=80=81=E8=
-
-=B0=83=E6=95=B4=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=9D=83=E9=87=8D=E8=B0=83=E6=95=B4=E9=80=BB=E8=BE=91=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=A0=B9=E6=8D=AE \<strong\>=E5=90=84=E6=B1=A0=E6=94=B6=E7=9B=8A=E7=8E=87=
-
-=EF=BC=88APR=EF=BC=89\</strong\>=E3=80=81\<strong\>=E5=88=A9=E7=94=A8=E7=8E=87=
-
-=EF=BC=88utilization=EF=BC=89\</strong\>=E3=80=81\<strong\>=E9=A3=8E=E9=99=A9=
-
-=E6=9A=B4=E9=9C=B2=EF=BC=88long/short imbalance=EF=BC=89\</strong\> =E7=AD=89=
-
-=E6=8C=87=E6=A0=87=EF=BC=9B\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=80=9F=E5=8A=A9 GMX =E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD \<strong\>SHIF=
-
-T()\</strong\>=EF=BC=8CGLV =E5=8F=AF=E4=BB=A5=E5=9C=A8=E6=B1=A0=E5=AD=90=E4=
-
-=B9=8B=E9=97=B4\<strong\>=E8=87=AA=E5=8A=A8=E7=A7=BB=E5=8A=A8=E6=B5=81=E5=8A=
-
-=A8=E6=80=A7\</strong\>=EF=BC=88=E5=8D=B3=E5=8D=96=E6=8E=89=E9=83=A8=E5=88=86=
-
-GM_BTC=EF=BC=8C=E4=B9=B0=E5=85=A5 GM_ETH=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>=E7=94=
-
-=A8=E6=88=B7=EF=BC=88LP=EF=BC=89=20
-
-=E2=94=9C=E2=94=80=E2=94=80 =E6=8F=90=E4=BE=9B=E6=B5=81=E5=8A=A8=E6=80=
-
-=A7=E5=88=B0 GM Pool =EF=BC=88Single market=EF=BC=89 =20
-
-=E2=94=82 =E2=94=94=E2=94=80&gt; GM Pool \[long token A =E2=80=93 s=
-
-hort token B\] =20
-
-=E2=94=9C=E2=94=80=E2=94=80 =E6=88=96 =E6=8F=90=E4=BE=9B=E6=B5=81=E5=8A=
-
-=A8=E6=80=A7=E5=88=B0 GLV =E6=B1=A0 =20
-
-=E2=94=82 =E2=94=94=E2=94=80&gt; GLV Vault (long token A =E2=80=93=
-
-short token B) =20
-
-=E2=94=82 =E2=94=9C=E2=94=80&gt; =E5=BA=95=E5=B1=82 GM Pool =
-
-1 (market1, long A =E2=80=93 short B) =20
-
-=E2=94=82 =E2=94=9C=E2=94=80&gt; =E5=BA=95=E5=B1=82 GM Pool =
-
-2 (market2, long A =E2=80=93 short B) =20
-
-=E2=94=82 =E2=94=94=E2=94=80&gt; =E5=BA=95=E5=B1=82 GM Pool =
-
-3 (market3, long A =E2=80=93 short B) =20
-
-=E2=94=82 =E2=94=94=E2=94=80&gt; =E8=87=AA=E5=8A=A8 Shift =
-
-=E6=9C=BA=E5=88=B6=EF=BC=9A=E5=9C=A8 Pool1=EF=BC=8FPool2=EF=BC=8FPool3 =E4=
-
-=B9=8B=E9=97=B4=E5=86=8D=E5=88=86=E9=85=8D=E6=B5=81=E5=8A=A8=E6=80=A7 =20
-
-=E2=94=82 =20
-
-=E2=94=94=E2=94=80=E2=94=80 =E7=AC=AC=E4=B8=89=E6=96=B9 USDC =E6=9C=AC=
-
-=E4=BD=8D LP =E6=B1=A0=EF=BC=88Curator =E7=AE=A1=E7=90=86=EF=BC=89 =20
-
-=E2=94=94=E2=94=80&gt; =E6=B1=A0=E5=AD=90=E5=90=91 GLV =E6=88=96=
-
-=E6=9F=90 GM Pool =E6=8F=90=E4=BE=9B USDC =E6=B5=81=E5=8A=A8=E6=80=A7 =20
-
-=E2=94=94=E2=94=80&gt; =E9=93=B8=E9=80=A0 GLV Token =E6=
-
-=88=96 GM Token =20
-
-=E2=94=94=E2=94=80&gt; Curator =E7=AE=A1=E7=90=86=
-
-=E3=80=81=E5=8F=82=E4=B8=8E =E6=94=B6=E7=9B=8A=EF=BC=8F=E9=A3=8E=E9=99=A9=
-
-=E5=88=86=E9=85=8D =20
-
-=E2=94=94=E2=94=80&gt; =E7=94=A8=E6=88=B7=E9=80=9A=
-
-=E8=BF=87 Earn =E5=8F=82=E4=B8=8E=E8=AF=A5 =E7=AD=96=E7=95=A5=E6=B1=A0 =20
-
-=E4=BA=A4=E6=98=93=E8=80=85 (Trader)
-
-=E2=94=9C=E2=94=80=E2=94=80 =E5=9C=A8 =E6=9F=90=E5=B8=82=E5=9C=BA=EF=BC=
-
-=88GM Pool=EF=BC=89=E5=BC=80=E4=BB=93=EF=BC=8F=E5=B9=B3=E4=BB=93=EF=BC=8FSw=
-
-ap =E2=86=92 =E7=94=A8=E6=AD=A4 GM Pool =E7=9A=84=E6=B5=81=E5=8A=A8=E6=80=
-
-=A7 =20
-
-=E2=94=94=E2=94=80=E2=94=80 =E4=BA=A4=E6=98=93=E4=BA=A7=E7=94=9F=E7=9A=
-
-=84=E6=89=8B=E7=BB=AD=E8=B4=B9=E3=80=81=E8=B5=84=E9=87=91=E8=B4=B9=E3=80=81=
-
-=E6=B8=85=E7=AE=97=E8=B4=B9=E7=AD=89=20
-
-=E6=B5=81=E5=8A=A8=E6=80=A7=E6=B1=A0=EF=BC=88GM Pool / GLV=EF=BC=89 =20
-
-=E2=94=94=E2=94=80&gt; =E6=94=B6=E7=9B=8A=E5=88=86=E9=85=8D=E7=BB=99 GM =
-
-Token =E6=8C=81=E6=9C=89=E4=BA=BA=E6=88=96 GLV Token =E6=8C=81=E6=9C=89=E4=
-
-=BA=BA =20
-
-=20
-
-=E5=8D=8F=E8=AE=AE=EF=BC=8F=E5=90=8E=E5=8F=B0 =20
-
-=E2=94=9C=E2=94=80=E2=94=80 =E5=AE=9A=E4=BB=B7=E6=9C=BA=E5=88=B6=EF=BC=
-
-=88Token Price =3D =E6=B1=A0=E5=AD=90=E4=BB=B7=E5=80=BC =C3=B7 =E6=80=BB=E4=
-
-=BE=9B=E5=BA=94=EF=BC=89 =20
-
-=E2=94=9C=E2=94=80=E2=94=80 =E5=86=8D=E5=B9=B3=E8=A1=A1=E6=9C=BA=E5=88=
-
-=B6=EF=BC=88Shift=EF=BC=89 =20
-
-=E2=94=94=E2=94=80=E2=94=80 =E9=A3=8E=E9=99=A9=E5=8F=82=E6=95=B0=EF=BC=
-
-=88=E5=A6=82 maxPnlFactorForDeposits=E3=80=81glvMaxMarketTokenBalanceUsd=EF=
-
-=BC=89 =20
-
-\</pre\>
-
-\</div\>
-
-\</div\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-1.=E8=B5=84=E9=87=91=E6=B5=81"\>1. =E8=
-
-=B5=84=E9=87=91=E6=B5=81\</h3\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>=E5=85=A5=E9=87=91=EF=BC=88deposit=EF=BC=89\</strong\>=EF=BC=9A\</p=
-
-\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=94=AF=E6=8C=81=E4=B8=A4=E7=A7=8D=E5=85=A5=E9=87=91=E8=B7=AF=E5=BE=84=
-
-=EF=BC=9A=E7=9B=B4=E6=8E=A5 marketToken (=E7=9B=B4=E6=8E=A5=E8=AE=A1=E5=85=
-
-=A5=E7=9B=AE=E6=A0=87 market =E4=BB=BD=E9=A2=9D) =E6=88=96 =E7=94=A8=E5=9F=
-
-=BA=E7=A1=80 token=EF=BC=88long/short=EF=BC=89=E5=B9=B6=E5=9C=A8=E6=89=A7=
-
-=E8=A1=8C=E6=97=B6=E9=80=9A=E8=BF=87 swap =E8=B7=AF=E5=BE=84=E5=85=91=E6=8D=
-
-=A2=E6=88=90 market token / =E6=8C=89=E7=AD=96=E7=95=A5=E5=88=86=E9=85=8D=
-
-=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>Router=EF=BC=9A=E4=B8=80=E4=B8=AA=E2=80=9C=E5=88=86=E9=85=8D=E6=A8=A1=E5=
-
-=9D=97=E2=80=9D=E5=86=B3=E5=AE=9A=E5=B0=86 deposit =E5=88=86=E9=85=8D=E5=88=
-
-=B0 GLV =E7=AE=A1=E7=90=86=E7=9A=84=E5=93=AA=E4=BA=9B market=EF=BC=88=E6=8C=
-
-=89=E6=9D=83=E9=87=8D/=E7=AD=96=E7=95=A5/=E5=AE=B9=E9=87=8F/=E5=AE=9E=E6=97=
-
-=B6=E6=B7=B1=E5=BA=A6=EF=BC=89=E3=80=82=E5=88=86=E9=85=8D=E9=80=BB=E8=BE=91=
-
-=E9=80=9A=E5=B8=B8=E5=9F=BA=E4=BA=8E=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=B8=82=E5=9C=BA=E6=9D=83=E9=87=8D (target allocation)\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=BD=93=E5=89=8D=E5=B8=82=E5=9C=BA=E5=88=A9=E7=94=A8=E7=8E=87 / liquid=
-
-ity\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E9=A3=8E=E9=99=A9=E9=A2=84=E7=AE=97=EF=BC=88=E6=AF=8F market max exposu=
-
-re=EF=BC=89\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=B5=84=E6=9C=AC=E6=95=88=E7=8E=87=EF=BC=88=E6=94=B6=E7=9B=8A=E7=8E=87=
-
-=E3=80=81=E6=94=B6=E7=9B=8A=E9=A2=84=E6=B5=8B=EF=BC=89\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E6=89=A7=E8=A1=8C=EF=BC=88executeGlvDeposit=EF=BC=89\</strong\>=
-
-=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Keeper =E8=AF=BB=E5=8F=96 Deposit =E8=AF=B7=E6=B1=82=E5=B9=B6=E6=89=A7=
-
-=E8=A1=8C=EF=BC=9A=E5=8F=AF=E8=83=BD=E5=8C=85=E5=90=AB=E5=A4=9A=E4=B8=AA sw=
-
-ap=EF=BC=88=E6=A0=B9=E6=8D=AE long/short path=EF=BC=89=EF=BC=8C=E6=88=96=E7=
-
-=9B=B4=E6=8E=A5 mint marketToken -&gt; GLV=E4=BB=BD=E9=A2=9D=E7=BB=99 recei=
-
-ver=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>Router =E4=BC=9A=E6=8A=8A=E5=AE=9E=E9=99=85=E6=94=B6=E5=88=B0=E7=9A=84=
-
-=E8=B5=84=E9=87=91=E5=9C=A8=E5=A4=9A=E4=B8=AA market =E4=B9=8B=E9=97=B4=E5=
-
-=81=9A=E6=8B=86=E5=88=86=E5=B9=B6=E8=B0=83=E7=94=A8=E5=90=84 market =E7=9A=
-
-=84 deposit/mint =E6=8E=A5=E5=8F=A3=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=89=A7=E8=A1=8C=E5=BB=B6=E8=BF=9F &amp; =E5=BC=82=E6=AD=A5=EF=BC=9A=
-
-=E5=9B=A0=E4=B8=BA deposit =E6=98=AF =E2=80=9C=E5=AD=98=E5=82=A8=E4=B8=BA=
-
-=E8=AF=B7=E6=B1=82=EF=BC=8Coff-chain keeper =E6=89=A7=E8=A1=8C=E2=80=9D =E6=
-
-=A8=A1=E5=BC=8F=EF=BC=8CUI =E5=BF=85=E9=A1=BB=E6=98=8E=E7=A1=AE=E6=98=BE=E7=
-
-=A4=BA=E7=8A=B6=E6=80=81=EF=BC=88Pending -&gt; Executed -&gt; Completed / C=
-
-ancelled=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>Fee =E9=80=8F=E6=98=8E=E5=BA=A6=EF=BC=9AexecutionFee =E5=8F=8A=E4=BB=BB=
-
-=E4=BD=95 protocol fee=EF=BC=88=E5=A6=82 GLV mint fee=E3=80=81withdraw fee=
-
-=EF=BC=89=E9=9C=80=E8=A6=81=E5=9C=A8 UI =E6=98=BE=E7=A4=BA=EF=BC=8C=E5=B9=
-
-=B6=E5=9C=A8=E4=BA=8B=E4=BB=B6=E4=B8=AD=E5=8F=AF=E8=BF=BD=E8=B8=AA=E3=80=82=
-
-\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E9=A3=8E=E6=8E=A7=E5=B1=95=E7=A4=BA=EF=BC=9Amarket exposure=E3=80=81max=
-
-PnlFactor=E3=80=81withdraw cooldown=E3=80=81=E9=98=9F=E5=88=97=E9=95=BF=E5=
-
-=BA=A6=E3=80=81=E5=BD=93=E5=89=8D oracle staleness =E4=BF=A1=E6=81=AF=E3=80=
-
-=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E6=94=B6=E7=9B=8A/=E5=86=8D=E5=B9=B3=E8=A1=A1=EF=BC=88shift=EF=
-
-=BC=89\</strong\>=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>GLV =E4=BC=9A=E5=AE=9A=E6=9C=9F=E6=88=96=E8=A7=A6=E5=8F=91=E5=BC=8F=E5=
-
-=AF=B9=E5=B8=82=E5=9C=BA=E6=9D=83=E9=87=8D=E8=BF=9B=E8=A1=8C shift=EF=BC=88=
-
-reallocate=EF=BC=89=E4=BB=A5=E4=BC=98=E5=8C=96=E6=94=B6=E7=9B=8A=E6=88=96=
-
-=E9=99=8D=E4=BD=8E=E9=A3=8E=E9=99=A9=EF=BC=88=E4=BE=8B=E5=A6=82=E6=8A=8A=E8=
-
-=BF=87=E5=A4=9A=E6=9A=B4=E9=9C=B2=E4=BB=8E=E9=AB=98=E6=B3=A2=E5=8A=A8=E5=B8=
-
-=82=E5=9C=BA=E6=8C=AA=E5=88=B0=E7=A8=B3=E5=81=A5=E5=B8=82=E5=9C=BA=EF=BC=89=
-
-=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E8=B5=8E=E5=9B=9E=EF=BC=88withdraw=EF=BC=89\</strong\>=EF=BC=9A\</=
-
-p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E7=94=A8=E6=88=B7=E8=B5=8E=E5=9B=9E GLV -&gt; GLV =E6=8C=89=E6=AF=94=E4=
-
-=BE=8B=E4=BB=8E underlying markets =E6=94=B6=E5=9B=9E=E8=B5=84=E4=BA=A7=EF=
-
-=BC=8C=E5=8F=AF=E8=83=BD=E8=A6=81=E8=B7=A8=E5=A4=9A=E4=B8=AA=E5=B8=82=E5=9C=
-
-=BA unwind =E5=B9=B6=E6=89=A7=E8=A1=8C swap=EF=BC=9B=E4=BD=BF=E7=94=A8 queu=
-
-e/epoch =E6=A8=A1=E5=BC=8F=E5=8F=AF=E4=BB=A5=E7=BC=93=E8=A7=A3=E7=9E=AC=E6=
-
-=97=B6=E6=B5=81=E5=8A=A8=E6=80=A7=E5=86=B2=E5=87=BB=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.GLVRouter=E5=88=86=E9=85=8D=E9=80=BB=
-
-=E8=BE=91"\>2. GLV Router =E5=88=86=E9=85=8D=E9=80=BB=E8=BE=91\</h3\>
-
-\<blockquote\>
-
-\<p\>\<a class=3D"external-link" href=3D"https://gov.gmx.io/t/implementation-o=
-
-f-gmx-liquidity-vaults-glv-for-enhancing-liquidity/3860?utm_source=3Dchatgp=
-
-t.com" rel=3D"nofollow"\>GMX\</a\>=E5=AE=98=E6=96=B9=E6=96=87=E6=A1=A3=E4=B8=
-
-=8E=E6=8F=90=E6=A1=88=EF=BC=88=E4=BA=8B=E5=AE=9E=E5=8F=AF=E6=9F=A5=E4=BD=86=
-
-=E6=B2=A1=E6=9C=89=E5=85=A8=E9=83=A8=E5=85=AC=E5=BC=8F=E7=BB=86=E8=8A=82=EF=
-
-=BC=89\</p\>
-
-\</blockquote\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=A0=B9=E6=8D=AE=E4=B8=8D=E5=90=8C=E6=B1=A0=E5=AD=90=E7=9A=84=EF=BC=9A=
-
-=E5=89=A9=E4=BD=99=E5=8F=AF=E5=80=9F=EF=BC=9B=E8=B4=B9=E7=94=A8=E8=B4=A1=E7=
-
-=8C=AE=EF=BC=9BOI =E8=87=AA=E5=8A=A8=E8=B0=83=E6=95=B4:\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E8=8B=A5=E6=9F=90=E4=B8=AA GM Pool =E5=9C=A8=E8=AF=A5 GLV =E7=BB=84=E5=
-
-=90=88=E4=B8=AD=E8=A1=A8=E7=8E=B0=EF=BC=88=E4=BE=8B=E5=A6=82=E4=BA=A4=E6=98=
-
-=93=E9=87=8F=EF=BC=8F=E6=89=8B=E7=BB=AD=E8=B4=B9=EF=BC=8F=E5=80=9F=E8=B4=B7=
-
-=E7=8E=87=EF=BC=8F=E5=88=A9=E7=94=A8=E7=8E=87=EF=BC=89=E8=BE=83=E4=BD=8E=EF=
-
-=BC=8C=E5=88=99 GLV =E5=8F=AF=E4=BB=A5=E5=B0=86=E4=B8=80=E9=83=A8=E5=88=86=
-
-=E6=B5=81=E5=8A=A8=E6=80=A7 =E2=80=9CShift=E2=80=9D =E5=88=B0=E5=8F=A6=E4=
-
-=B8=80=E4=B8=AA=E8=A1=A8=E7=8E=B0=E6=9B=B4=E4=BD=B3=E7=9A=84 GM Pool=EF=BC=
-
-=88long/short token =E7=9B=B8=E5=90=8C=E5=89=8D=E6=8F=90=E4=B8=8B=EF=BC=89=
-
-=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>Shift =E6=97=B6=E6=88=90=E6=9C=AC=E5=8C=85=E6=8B=AC=E4=BB=B7=E6=A0=BC=E5=
-
-=86=B2=E5=87=BB=EF=BC=88price impact=EF=BC=89=E3=80=81=E6=89=8B=E7=BB=AD=E8=
-
-=B4=B9=E3=80=81=E6=BB=91=E7=82=B9=E7=AD=89=E3=80=82=E5=AE=98=E6=96=B9=E4=B9=
-
-=9F=E6=8F=90=E7=A4=BA=E5=AD=98=E5=9C=A8=E6=94=BB=E5=87=BB=E9=9D=A2=EF=BC=88=
-
-=E5=88=A9=E7=94=A8 Shift =E6=9C=BA=E5=88=B6=E3=80=81=E4=BD=8E=E5=88=A9=E7=
-
-=94=A8=E7=8E=87=E5=B8=82=E5=9C=BA=E7=AD=89=EF=BC=89=E9=9C=80=E9=80=9A=E8=BF=
-
-=87=E9=85=8D=E7=BD=AE fees =E5=92=8C price impact =E7=AD=89=E9=98=B2=E8=8C=
-
-=83=E3=80=82 \<a class=3D"external-link" href=3D"https://github.com/gmx-io/g=
-
-mx-synthetics?utm_source=3Dchatgpt.com" rel=3D"nofollow"\>GitHub\</a\>\</p\>\</li=
-
-\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>=E7=94=A8=E6=88=B7=E5=9C=A8 GLV =E4=B8=AD=E5=AD=98=E5=85=A5 long =E6=88=
-
-=96 short token=EF=BC=88=E6=88=96Long/Short Pair=EF=BC=89=E5=90=8E=EF=BC=8C=
-
-=E5=85=B6=E4=BB=A3=E5=B8=81=E4=BC=9A=E8=A2=AB GLV =E7=94=A8=E6=9D=A5=E9=93=
-
-=B8=E9=80=A0=E5=BA=95=E5=B1=82 GM Token=EF=BC=88=E5=AF=B9=E5=BA=94=E6=9F=90=
-
-=E4=B8=AA GM Pool=EF=BC=89=E6=88=96=E5=B0=86=E5=85=B6=E6=B5=81=E5=8A=A8=E6=
-
-=80=A7=E6=8F=90=E4=BE=9B=E7=BB=99=E5=BA=95=E5=B1=82 GM Pools=E3=80=82=E7=94=
-
-=A8=E6=88=B7=E6=94=B6=E5=88=B0 GLV =E4=BB=A3=E5=B8=81=EF=BC=8C=E4=BB=A3=E8=
-
-=A1=A8=E5=85=B6=E5=9C=A8 GLV =E6=95=B4=E4=BD=93=E4=B8=AD=E7=9A=84=E4=BB=BD=
-
-=E9=A2=9D=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=92=A4=E5=9B=9E=E6=97=B6=EF=BC=8C=E7=94=A8=E6=88=B7=E9=80=89=E6=8B=A9=
-
-GM=E6=B1=A0=E5=B9=B6=E8=B5=8E=E5=9B=9E GLV =E4=BB=A3=E5=B8=81=EF=BC=8C GLV =
-
-=E5=8D=8F=E8=AE=AE=E4=BC=9A=E4=BB=8E=E5=BA=95=E5=B1=82 GM Pools =E7=A7=BB=
-
-=E5=87=BA=E7=9B=B8=E5=AF=B9=E5=BA=94=E6=B5=81=E5=8A=A8=E6=80=A7=E5=B9=B6=E8=
-
-=BF=94=E5=9B=9E long/short token =E6=88=96 Token Pair=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=AD=98=E5=85=A5/=E6=92=A4=E5=9B=9E=E6=94=B6=E5=88=B0max tvl cap=EF=BC=
-
-=8Cmax buyable/sellable=E5=BD=B1=E5=93=8D=EF=BC=8C=E5=90=8C=E6=97=B6sellabl=
-
-e=E6=97=B6=E7=9A=84=E9=80=80=E5=9B=9Epair=E6=AF=94=E4=BE=8B=E9=81=B5=E5=BE=
-
-=AA=E6=B1=A0=E5=AD=90long short token=E7=9A=84pool size=E6=AF=94=E4=BE=8B\</=
-
-p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Target weights + Dynamic caps\</strong\>=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=AF=8F market =E5=AE=9A=E4=B9=89 \<code\>targetWeight\</code\> =E5=92=8C =
-
-\<code\>maxCap\</code\>=EF=BC=88=E4=BB=A5=E7=BE=8E=E5=85=83=E8=AE=A1=EF=BC=89=
-
-=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=96=B0 deposit =E6=8C=89 targetWeight =E5=B0=9D=E8=AF=95=E5=88=86=E9=
-
-=85=8D=EF=BC=8C=E8=8B=A5=E6=9F=90=E4=B8=AA market =E8=BE=BE=E5=88=B0 maxCap=
-
-=EF=BC=8C=E5=88=99=E6=8C=89=E5=89=A9=E4=BD=99=E6=9D=83=E9=87=8D=E9=87=8D=E5=
-
-=88=86=E9=85=8D=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Liquidity-aware routing\</strong\>=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=9C=A8=E5=88=86=E9=85=8D=E6=97=B6=E6=9F=A5=E8=AF=A2 market depth &amp=
-
-; expected price impact=EF=BC=88=E8=B0=83=E7=94=A8 on-chain =E6=88=96 off-c=
-
-hain price feed=EF=BC=89=EF=BC=8C=E9=81=BF=E5=85=8D=E6=8A=8A=E5=A4=A7=E9=A2=
-
-=9D deposit =E7=9B=B4=E6=8E=A5=E6=8E=A8=E5=90=91=E6=B7=B1=E5=BA=A6=E4=B8=8D=
-
-=E8=B6=B3=E5=B8=82=E5=9C=BA=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Emergency mode\</strong\>=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E8=8B=A5 oracle staleness=E6=88=96=E6=9F=90 market =E8=A2=AB=E6=A0=87=
-
-=E8=AE=B0=E5=BC=82=E5=B8=B8 -&gt; =E6=9A=82=E5=81=9C=E5=AF=B9=E8=AF=A5 mark=
-
-et =E5=88=86=E9=85=8D=EF=BC=88glv market disabled=EF=BC=89=EF=BC=8C=E5=B9=
-
-=B6=E8=BF=9B=E5=85=A5=E4=BF=9D=E6=8A=A4=E6=A8=A1=E5=BC=8F=EF=BC=88freeze sh=
-
-ift/withdraw =E9=99=90=E5=88=B6=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-3.GLV=E7=9A=84=E6=94=B6=E7=9B=8A=E6=9C=
-
-=BA=E5=88=B6&amp;APR=E8=AF=B4=E6=98=8E"\>3. GLV =E7=9A=84=E6=94=B6=E7=9B=8A=
-
-=E6=9C=BA=E5=88=B6 &amp; APR =E8=AF=B4=E6=98=8E\</h3\>
-
-\<p\>=E5=85=B3=E4=BA=8E GLV =E6=94=B6=E7=9B=8A=EF=BC=88APR=EF=BC=89=E7=9A=84=
-
-=E5=85=AC=E5=BC=80=E8=B5=84=E6=96=99=E5=B9=B6=E4=B8=8D=E6=8F=90=E4=BE=9B=E4=
-
-=B8=80=E4=B8=AA=E5=AE=8C=E6=95=B4=E6=95=B0=E5=AD=A6=E5=85=AC=E5=BC=8F=EF=BC=
-
-=8C=E4=BD=86=E6=88=91=E4=BB=AC=E5=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87=E6=96=87=
-
-=E6=A1=A3=E5=BE=97=E5=87=BA=E4=BB=A5=E4=B8=8B=E5=8F=AF=E6=9F=A5=E4=BA=8B=E5=
-
-=AE=9E=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>GLV Virtual Price=EF=BC=9AGLV =E4=BB=A3=E5=B8=81=E4=BB=B7=E5=80=BC=E9=9A=
-
-=8F=E7=9D=80=E5=85=B6=E5=BA=95=E5=B1=82=E8=B5=84=E4=BA=A7=EF=BC=8C=E4=BB=A5=
-
-=E5=8F=8A=E5=85=B6=E6=89=80=E6=8C=81=E6=9C=89=E7=9A=84 GM Token=EF=BC=88=E5=
-
-=BA=95=E5=B1=82=E5=B8=82=E5=9C=BA=E6=B5=81=E5=8A=A8=E6=80=A7=E4=BB=BD=E9=A2=
-
-=9D=EF=BC=89=E7=9A=84=E6=80=BB=E4=BB=B7=E5=80=BC=E5=8F=98=E5=8C=96=E8=80=8C=
-
-=E5=8F=98=E5=8C=96=E3=80=82\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>GLV Token Price =3D GLV Pool Value / GLV Total Supply\</p\>\</li\>
-
-\<li\>
-
-\<p\>GLV Pool Value =3D Sum of (USD Value of each Market Token owned by GLV)\<=
-
-/p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>=E8=A1=A1=E9=87=8F=E5=8F=82=E6=95=B0\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>APR\</code\>: APR_pool =E2=80=8B=3D (Fees_pool_PeriodT/AvgTVL_Period=
-
-T)=C3=97365/T=E2=80=8B\<br\>
-
-=E5=85=B6=E4=B8=AD=EF=BC=8C\<code\>AvgTVL_PeriodT\</code\> =E4=B8=BA\<strong\>=E5=
-
-=8A=A0=E6=9D=83=E5=B9=B3=E5=9D=87\</strong\>TVL\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>APY\</code\>: APY_pool=E2=80=8B =3D (1+APR_pool_PeriodT)\<sup\>365/T\</=
-
-sup\>=E2=80=8B=E2=88=921\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>Ann. Perf\</code\>: Ann. Perf =3D (1 + APR_Pool) / (1 + APR_Bench) -=
-
-1\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E7=9B=B8=E6=AF=94=E4=BA=8E=E4=B8=80=E4=B8=AA \<strong\>Uniswap V2 =E9=A3=
-
-=8E=E6=A0=BC=E7=9A=84 LP=EF=BC=8850/50=EF=BC=8C=E6=81=92=E5=AE=9A=E4=B9=98=
-
-=E7=A7=AF=EF=BC=89, \</strong\>=E5=9C=A8=E4=BB=B7=E6=A0=BC=E4=BB=8E p_0=E2=80=
-
-=8B =E5=8F=98=E5=88=B0 p_T=E2=80=8B =E7=9A=84=E8=BF=87=E7=A8=8B=E4=B8=AD=EF=
-
-=BC=8C\<strong\>=E5=85=B6=E8=B5=84=E4=BA=A7=E6=80=BB=E4=BB=B7=E5=80=BC=EF=BC=
-
-=88=E4=BB=A5 quote token =E8=AE=A1=EF=BC=89\</strong\> =E4=BC=9A=E9=9A=8F=E4=
-
-=BB=B7=E6=A0=BC=E5=8F=98=E5=8C=96=E7=9A=84=E5=B9=B3=E6=96=B9=E6=A0=B9=E5=A2=
-
-=9E=E9=95=BF, APR_bench_PeriodT =3D =E2=88=9A(p_0=E2=80=8B/p_T) - 1, APY_be=
-
-nch=E2=80=8B=3D(1+R_bench_PeriodT)\<sup\>365/T=E2=80=8B\</sup\>=E2=88=921\</p\>\</=
-
-li\>
-
-\</ul\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=BB=BA=E6=B1=A0=E5=8F=82=E6=95=B0=
-
-=E5=88=97=E8=A1=A8TODO=EF=BC=9A"\>\<span data-colorid=3D"sb6qbn1x7d"\>=E5=BB=
-
-=BA=E6=B1=A0=E5=8F=82=E6=95=B0=E5=88=97=E8=A1=A8TODO=EF=BC=9A\</span\>\</h3\>
-
-\<p\>=E4=BB=BB=E4=BD=95=E4=BA=BA=E9=83=BD=E8=83=BD=E5=88=9B=E5=BB=BA=E6=96=B0=
-
-=E5=B8=82=E5=9C=BA=EF=BC=8C=E5=8F=AA=E8=A6=81=E6=8F=90=E4=BE=9B \<strong\>ora=
-
-cle feed=E3=80=81Base/Quote\</strong\>=EF=BC=8C=E5=B9=B6=E8=AE=BE=E5=AE=9A fe=
-
-e/leverage/funding =E7=AD=89=E5=8F=82=E6=95=B0=E3=80=82LP =E4=B9=9F=E5=8F=
-
-=AF permissionless =E6=8F=90=E4=BE=9B=E6=B5=81=E5=8A=A8=E6=80=A7=E3=80=82\</=
-
-p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=B8=82=E5=9C=BA=E5=9F=BA=E7=A1=80=E5=8F=82=E6=95=B0=EF=BC=9Abase/quot=
-
-e=E3=80=81oracle=E3=80=81payoff provider\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA=E5=8F=82=E6=95=B0=EF=BC=9A=E5=8F=AF=
-
-=E8=AE=BE \<strong\>fees=E3=80=81fundingInterval=E3=80=81settlementFee\</stron=
-
-g\> =E7=AD=89=EF=BC=8C=E5=8D=8F=E8=AE=AE=E8=AE=BE max =E4=B8=8A=E9=99=90=E3=
-
-=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=B5=81=E5=8A=A8=E6=80=A7=E5=90=AF=E5=8A=A8=EF=BC=9A\<strong\>virtualTak=
-
-er\</strong\> =E7=BC=93=E5=86=B2=EF=BC=8C=E5=B8=82=E5=9C=BA operator =E5=8F=
-
-=AF=E8=87=AA=E5=B8=A6=E5=88=9D=E5=A7=8B LP\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=B4=B9=E7=94=A8=E5=8F=82=E6=95=B0=EF=BC=9A=E5=8F=AF=E8=AE=BE=E5=A4=9A=
-
-=E7=B1=BB fee=EF=BC=88fundingFee=E3=80=81interestFee=E3=80=81positionFee=E3=
-
-=80=81settlementFee, liquidation fee=EF=BC=89=EF=BC=8C=E4=BD=86=E5=8F=97 ma=
-
-xFee =E9=99=90=E5=88=B6=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E9=A3=8E=E6=8E=A7=E5=8F=82=E6=95=B0=EF=BC=9Arisk coordinator/operator =
-
-=E6=9C=89=E6=9D=83=E9=99=90=E7=AE=A1=E6=8E=A7=EF=BC=8C=E5=8D=8F=E8=AE=AE en=
-
-force \<strong\>maxFee=E3=80=81skew limits\</strong\>=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=9D=83=E9=99=90=EF=BC=9A=E6=AF=8F=E4=B8=AA=E5=B8=82=E5=9C=BA=E6=9C=89=
-
-=E7=8B=AC=E7=AB=8B \<strong\>operator \</strong\>=E4=BB=A5=E5=8F=8A\<strong\>risk=
-
-coordinator\</strong\>( multisig+timelock)\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\</p\>
-
-\<p\>=E6=96=B0=E5=B8=82=E5=9C=BA=E5=BF=85=E9=A1=BB=E9=80=9A=E8=BF=87 \<strong\>=
-
-=E6=B2=BB=E7=90=86=E6=8F=90=E6=A1=88 (Proposal)\</strong\>=EF=BC=8C=E9=9C=80=
-
-=E6=8F=90=E4=BE=9B \<strong\>Base/Quote=E3=80=81oracle=E3=80=81IMR/MMR=E3=80=
-
-=81funding params\</strong\>=E3=80=82=E5=B8=82=E5=9C=BA=E7=94=B1 LP =E6=8F=90=
-
-=E4=BE=9B=E6=B5=81=E5=8A=A8=E6=80=A7=EF=BC=8C=E4=BD=86=E5=88=9B=E5=BB=BA=E6=
-
-=9D=83=E4=B8=8D=E5=AF=B9=E7=94=A8=E6=88=B7=E5=BC=80=E6=94=BE=E3=80=82\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=B8=82=E5=9C=BA=E5=9F=BA=E7=A1=80=E5=8F=82=E6=95=B0=EF=BC=9Abase/quot=
-
-e=E3=80=81oracle=E3=80=81reference price=EF=BC=88oracle=E8=A6=81=E6=B1=82=
-
-=E9=80=9A=E8=BF=87=E7=89=B9=E5=AE=9A=E6=A0=A1=E9=AA=8C=EF=BC=89\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E4=BA=A4=E6=98=93=E8=A1=8C=E4=B8=BA=E5=8F=82=E6=95=B0=EF=BC=9A=E5=8F=AF=
-
-=E8=AE=BE\<strong\>IMR\</strong\>=E3=80=81\<strong\>max lev\</strong\>=E3=80=81\<str=
-
-ong\>fees=E3=80=81impact notional\</strong\>=E7=AD=89=EF=BC=8C=E5=8D=8F=E8=AE=
-
-=AE=E8=AE=BE max =E4=B8=8A=E9=99=90=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=B5=81=E5=8A=A8=E6=80=A7=E5=90=AF=E5=8A=A8=EF=BC=9A\<strong\>=E9=A2=84=
-
-=E8=AE=BE=E6=A8=A1=E7=89=88=EF=BC=8C=E5=8F=AF=E9=80=89liquidity tier\</stron=
-
-g\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=B4=B9=E7=94=A8=E5=8F=82=E6=95=B0=EF=BC=9Afunding fee=E3=80=81funding=
-
-interval=E5=8F=AF=E9=80=9A=E8=BF=87proposal=E6=8F=90=E8=AE=AE=EF=BC=8C=E5=
-
-=85=B6=E4=BD=99=E8=B5=B0=E9=A2=84=E8=AE=BE=E6=A8=A1=E7=89=88=E3=80=82\</p\>\</=
-
-li\>
-
-\<li\>
-
-\<p\>=E9=A3=8E=E6=8E=A7=E5=8F=82=E6=95=B0=EF=BC=9A=E6=A0=B9=E6=8D=AEliquidity=
-
-tier=E8=87=AA=E5=8A=A8=E8=AE=A1=E7=AE=97=EF=BC=8C=E4=B8=8D=E5=8F=AF=E6=9B=
-
-=B4=E6=94=B9\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=9D=83=E9=99=90=EF=BC=9A=E9=9C=80lock=E6=B2=BB=E7=90=86=E4=BB=A3=E5=
-
-=B8=81 &amp; =E7=AD=89=E6=89=B9=E5=87=86\</p\>\</li\>
-
-\</ul\>\<span class=3D"confluence-embedded-file-wrapper image-center-wrapper c=
-
-onfluence-embedded-manual-size"\>\<img class=3D"confluence-embedded-image ima=
-
-ge-center" alt=3D"Screenshot 2025-09-12 at 14.28.31.png" width=3D"468" load=
-
-ing=3D"lazy" src=3D"a33ffca298d819a27ddee5493dd715e8e2f7be46fe998b7b8d5566f=
-
-544d98e28" data-image-src=3D"https://hertzflow.atlassian.net/wiki/download/=
-
-attachments/18710556/Screenshot%202025-09-12%20at%2014.28.31.png?version=3D=
-
-2&amp;modificationDate=3D1761028723481&amp;cacheVersion=3D1&amp;api=3Dv2" d=
-
-ata-height=3D"1690" data-width=3D"842" data-unresolved-comment-count=3D"0" =
-
-data-linked-resource-id=3D"21430324" data-linked-resource-version=3D"2" dat=
-
-a-linked-resource-type=3D"attachment" data-linked-resource-default-alias=3D=
-
-"Screenshot 2025-09-12 at 14.28.31.png" data-base-url=3D"https://hertzflow.=
-
-atlassian.net/wiki" data-linked-resource-content-type=3D"image/png" data-li=
-
-nked-resource-container-id=3D"18710556" data-linked-resource-container-vers=
-
-ion=3D"4" data-media-id=3D"c3e5cae8-ee3e-4a67-ac13-d3b75ccd18c2" data-media=
-
--type=3D"file" height=3D"936"\>\</span\>\<span class=3D"confluence-embedded-fil=
-
-e-wrapper image-center-wrapper confluence-embedded-manual-size"\>\<img class=
-
-=3D"confluence-embedded-image image-center" alt=3D"Screenshot 2025-09-12 at=
-
-14.28.31.png" width=3D"468" loading=3D"lazy" src=3D"a33ffca298d819a27ddee5=
-
-493dd715e8e2f7be46fe998b7b8d5566f544d98e28" data-image-src=3D"https://hertz=
-
-flow.atlassian.net/wiki/download/attachments/18710556/Screenshot%202025-09-=
-
-12%20at%2014.28.31.png?version=3D2&amp;modificationDate=3D1761028723481&amp=
-
-;cacheVersion=3D1&amp;api=3Dv2" data-height=3D"1690" data-width=3D"842" dat=
-
-a-unresolved-comment-count=3D"0" data-linked-resource-id=3D"21430324" data-=
-
-linked-resource-version=3D"2" data-linked-resource-type=3D"attachment" data=
-
--linked-resource-default-alias=3D"Screenshot 2025-09-12 at 14.28.31.png" da=
-
-ta-base-url=3D"https://hertzflow.atlassian.net/wiki" data-linked-resource-c=
-
-ontent-type=3D"image/png" data-linked-resource-container-id=3D"18710556" da=
-
-ta-linked-resource-container-version=3D"4" data-media-id=3D"c3e5cae8-ee3e-4=
-
-a67-ac13-d3b75ccd18c2" data-media-type=3D"file" height=3D"936"\>\</span\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-PnL=E9=99=90=E5=88=B6=E5=85=AC=E5=BC=
-
-=8F=E5=8F=8A=E5=8F=96=E5=80=BC"\>PnL =E9=99=90=E5=88=B6=E5=85=AC=E5=BC=8F=E5=
-
-=8F=8A=E5=8F=96=E5=80=BC\</h3\>
-
-\<blockquote\>
-
-\<p\>=E6=9C=AC=E8=B4=A8=E4=B8=8A=E6=98=AF=E4=BD=BFTrader =E7=9A=84=E5=85=91=
-
-=E7=8E=B0=E8=83=BD=E5=8A=9B=E5=8F=97=E9=99=90=EF=BC=8CLP=E8=B4=A8=E6=8A=BC/=
-
-=E7=A7=BB=E9=99=A4=E6=B5=81=E5=8A=A8=E6=80=A7=E6=97=B6LP token=E4=BB=B7=E6=
-
-=A0=BC=E5=8A=A8=E6=80=81=E8=B0=83=E6=95=B4=EF=BC=8C=E7=BB=99=E5=87=BA=E6=97=
-
-=B6=E9=97=B4=E7=AA=97=E5=8F=A3=E8=AE=A9=E5=B8=82=E5=9C=BA=E6=81=A2=E5=A4=8D=
-
-=E6=88=96=E7=BB=99=E6=B1=A0=E5=AD=90=E7=95=99=E7=BC=93=E5=86=B2=E3=80=82=E8=
-
-=AF=A6=E8=A7=A3=E8=A7=81 \<a href=3D"https://hertzflow.atlassian.net/wiki/sp=
-
-aces/H/pages/6324231/Research\_#GMX-maxPnlFactor%E8%AF%A6%E8%A7%A3" data-lin=
-
-ked-resource-id=3D"6324231" data-linked-resource-version=3D"38" data-linked=
-
--resource-type=3D"page"\>Research\_=E7=AB=9E=E5=93=81=E5=8A=9F=E8=83=BD &amp;=
-
-=E5=85=B3=E9=94=AE=E5=8F=82=E6=95=B0\</a\>\</p\>
-
-\</blockquote\>
-
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E9=80=BB=E8=BE=91=EF=BC=9A"\>=E9=80=BB=
-
-=E8=BE=91=EF=BC=9A\</h4\>
-
-\<p\>=E4=BB=A5=E4=B8=8B=E4=B8=89=E4=B8=AA=E6=93=8D=E4=BD=9C=E6=97=B6=E5=AF=B9=
-
-=E5=BA=94=E7=9A=84=E5=8F=82=E6=95=B0=EF=BC=8C=E5=9C=A8=E5=AE=9E=E7=8E=B0=E4=
-
-=B8=8A=E5=B8=B8=E5=AF=B9=E6=AD=A3=E5=90=91=EF=BC=88=E7=9B=88=E5=88=A9=EF=BC=
-
-=89=E4=B8=8E=E8=B4=9F=E5=90=91=EF=BC=88=E4=BA=8F=E6=8D=9F=EF=BC=89=E9=87=87=
-
-=E5=8F=96=E4=B8=8D=E5=90=8C=E7=AD=96=E7=95=A5=EF=BC=9A=E4=B8=BA=E4=BA=86=E4=
-
-=BF=9D=E6=8A=A4 LP=EF=BC=8C=E5=B8=B8=E5=AF=B9=E7=9B=88=E5=88=A9=E6=9B=B4=E4=
-
-=B8=A5=E6=A0=BC cap=EF=BC=8C=E8=80=8C=E5=AF=B9=E4=BA=8F=E6=8D=9F=E5=85=81=
-
-=E8=AE=B8=E6=9B=B4=E5=BF=AB=E9=87=8A=E6=94=BE=EF=BC=88=E4=BB=A5=E4=BF=9D=E9=
-
-=9A=9C=E4=BA=8F=E6=8D=9F=E8=83=BD=E7=9C=9F=E6=AD=A3=E8=A1=A5=E5=81=BF=E6=B1=
-
-=A0=E5=AD=90=EF=BC=89=E3=80=82\<br\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>maxPnlFactorForTraders\</code\>=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=AE=9A=E4=B9=89=EF=BC=9A=E9=99=90=E5=88=B6=E5=8D=95=E4=B8=AA Trader =
-
-=E5=9C=A8=E4=BB=93=E4=BD=8D=E4=B8=8A=E2=80=9C=E8=83=BD=E4=BB=8E=E6=9C=AA=E5=
-
-=AE=9E=E7=8E=B0=E6=94=B6=E7=9B=8A=E9=87=8C=E7=AB=8B=E5=88=BB=E5=85=91=E7=8E=
-
-=B0/=E5=BD=B1=E5=93=8D=E6=B1=A0=E5=AD=90=E4=BC=B0=E5=80=BC=E2=80=9D=E7=9A=
-
-=84\<strong\>=E6=AF=94=E4=BE=8B=E4=B8=8A=E9=99=90\</strong\>=E3=80=82\<br\>
-
-eg=EF=BC=9A=E4=BD=A0=E8=B5=9A=E4=BA=86 100%=EF=BC=8C=E5=90=88=E7=BA=A6=E5=
-
-=8F=AA=E5=85=81=E8=AE=B8=E6=8A=8A=E5=85=B6=E4=B8=AD=E7=9A=84=E4=B8=80=E9=83=
-
-=A8=E5=88=86=EF=BC=88=E6=AF=94=E5=A6=82 50%=EF=BC=89=E7=AE=97=E5=88=B0=E5=
-
-=8F=AF=E5=85=91=E7=8E=B0=E4=BB=B7=E5=80=BC=E9=87=8C=EF=BC=8C=E8=AE=A9=E7=B3=
-
-=BB=E7=BB=9F=E6=9B=B4=E7=A8=B3=E5=81=A5=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E4=BF=9D=E6=8A=A4=E5=B8=82=E5=9C=BAGM=E4=BB=A3=E5=B8=81=E4=BC=B0=E5=80=
-
-=BC=E5=85=8D=E5=8F=97=E4=BB=93=E4=BD=8D=E6=B3=A2=E5=8A=A8=E7=9A=84=E7=9E=AC=
-
-=E6=97=B6=E5=86=B2=E5=87=BB=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E9=98=B2=E6=AD=A2=E6=9F=90=E4=BA=9B=E6=9E=81=E7=AB=AF=E6=9C=AA=E5=AE=9E=
-
-=E7=8E=B0=E7=9B=88=E5=88=A9=E5=9C=A8=E4=BA=A4=E6=98=93=E8=80=85=E5=B9=B3=E4=
-
-=BB=93=E6=97=B6=E9=80=A0=E6=88=90=E6=B1=A0=E4=B8=AD=E4=BB=A3=E5=B8=81=E7=9F=
-
-=AD=E6=9C=9F=E6=9A=B4=E6=B6=A8=E6=9A=B4=E8=B7=8C=EF=BC=88=E4=BC=9A=E4=BC=A4=
-
-=E5=AE=B3 LP=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>maxPnlFactorForDeposits\</code\>=EF=BC=9A=EF=BC=88=E2=89=A4\<code\>max=
-
-PnlFactorForTraders\</code\> =EF=BC=89\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=AE=9A=E4=B9=89=EF=BC=9A=E9=99=90=E5=88=B6=E5=9C=A8 deposit =E6=97=B6=
-
-=EF=BC=8CLP/GLV =E8=83=BD=E6=8A=8A=E2=80=9C=E6=9C=AA=E5=AE=9E=E7=8E=B0=E7=
-
-=9A=84=E4=BB=B7=E6=A0=BC=E6=B3=A2=E5=8A=A8=E5=B8=A6=E6=9D=A5=E7=9A=84=E8=B4=
-
-=A6=E9=9D=A2=E5=88=A9=E6=B6=A6=E2=80=9D=E4=BB=A5=E5=A4=9A=E5=A4=A7=E6=AF=94=
-
-=E4=BE=8B=E8=AE=A1=E5=85=A5=E6=B1=A0=E5=AD=90=E4=BB=B7=E5=80=BC=E3=80=82=E7=
-
-=9B=AE=E7=9A=84=E6=98=AF=E9=81=BF=E5=85=8D deposit =E6=97=B6=E5=9B=A0=E4=B8=
-
-=BA=E7=9F=AD=E6=9C=9F=E6=9E=81=E7=AB=AF PnL =E5=AF=BC=E8=87=B4 LP =E6=8A=8A=
-
-=E4=BB=B7=E6=A0=BC=E5=AE=9A=E5=BE=97=E5=A4=AA=E9=AB=98=EF=BC=8F=E4=BD=8E=E3=
-
-=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=9B=B4=E4=BF=9D=E5=AE=88=EF=BC=88=E5=B8=B8=E5=B0=8F=E4=BA=8E=E7=AD=89=
-
-=E4=BA=8E traders=EF=BC=89=E4=BB=A5=E9=81=BF=E5=85=8D=E8=BF=9B=E5=9C=BA=E8=
-
-=B5=84=E9=87=91=E5=9C=A8=E6=81=B6=E5=8A=A3=E7=9F=AD=E6=9C=9F=E6=B3=A2=E5=8A=
-
-=A8=E4=B8=8B=E8=A2=AB=E9=AB=98=E4=BC=B0=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=83=BD=E8=A2=AB=E7=94=A8=E4=BD=9C=E6=BF=80=E5=8A=B1=E5=8F=82=E6=95=B0=
-
-=EF=BC=88=E6=AF=94=E5=A6=82=E6=8A=8A deposit =E6=9B=B4=E4=B8=A5=E6=A0=BC=E8=
-
-=AE=BE=E7=BD=AE=EF=BC=8C=E7=9F=AD=E6=9C=9F=E5=90=B8=E5=BC=95=E4=BA=BA=E4=BB=
-
-=A5=E6=9B=B4=E4=BD=8E=E4=BB=B7=E6=A0=BC=E8=BF=9B=E5=85=A5=E6=88=96=E6=8A=91=
-
-=E5=88=B6=E4=B8=8D=E5=90=88=E7=90=86=E5=85=A5=E9=87=91=EF=BC=89=E3=80=82\</p=
-
-\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>maxPnlFactorForWithdrawals\</code\>=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=AE=9A=E4=B9=89=EF=BC=9A=E9=99=90=E5=88=B6=E5=9C=A8 withdrawal =E6=97=
-
-=B6=EF=BC=8CLP/GLV =E8=83=BD=E5=85=91=E7=8E=B0=E5=A4=9A=E5=B0=91=E6=9C=AA=
-
-=E5=AE=9E=E7=8E=B0=E5=88=A9=E6=B6=A6=EF=BC=8C=E9=98=B2=E6=AD=A2=E6=9A=B4=E8=
-
-=B7=8C/=E6=9A=B4=E6=B6=A8=E6=97=B6=E5=A4=A7=E8=A7=84=E6=A8=A1=E6=8F=90=E6=
-
-=AC=BE=E5=AF=BC=E8=87=B4=E4=B8=8D=E5=85=AC=E5=B9=B3=E7=BB=93=E7=AE=97=E6=88=
-
-=96=E8=A2=AB=E6=93=8D=E7=BA=B5=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E7=94=A8=E6=9D=A5=E5=9C=A8=E6=9E=81=E7=AB=AF=E6=B3=A2=E5=8A=A8=E4=B8=8B=
-
-=E9=98=B2=E6=AD=A2=E6=8C=A4=E5=85=91=E6=88=96=E7=9F=AD=E6=9C=9F=E5=A5=97=E5=
-
-=88=A9=E3=80=82=E9=80=9A=E5=B8=B8=E8=AE=BE=E7=BD=AE=E6=AF=94 deposits =E6=
-
-=9B=B4=E5=AE=BD=E6=9D=BE=E6=88=96=E7=9B=B8=E8=BF=91=EF=BC=8C=E5=8F=96=E5=86=
-
-=B3=E6=B2=BB=E7=90=86=E5=81=8F=E5=A5=BD=EF=BC=88=E4=BF=9D=E6=8A=A4=E9=80=80=
-
-=E5=87=BA=E8=80=85=E8=BF=98=E6=98=AF=E4=BF=9D=E6=8A=A4=E6=B1=A0=E5=AD=90=E9=
-
-=95=BF=E6=9C=9F=E5=81=A5=E5=BA=B7=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<blockquote\>
-
-\<p\>=E5=A6=82=E6=9E=9C \<code\>maxPnlFactorForDeposits &gt; maxPnlFactorForTra=
-
-ders\</code\> =E4=BC=9A=E5=8F=91=E7=94=9F=E7=9A=84=E7=BB=93=E6=9E=84=E6=80=A7=
-
-=E5=A5=97=E5=88=A9=EF=BC=9A\</p\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>Trader =E5=AE=9E=E9=99=85 pendingPnl =3D +1000=E3=80=82\<code\>maxPnlFacto=
-
-rForTraders =3D 0.5\</code\> =E2=86=92 Trader =E5=8F=AA=E8=83=BD=E5=85=91=E7=
-
-=8E=B0 500\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=81=87=E8=AE=BE \<code\>maxPnlFactorForDeposits =3D 1.0\</code\>=EF=BC=88=
-
-=E5=8D=B3=E6=B2=A1=E6=9C=89 cap=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>GLV =E5=9C=A8 deposit =E6=97=B6=E6=8A=8A=E5=85=A8=E9=83=A8 1000 =E8=AE=
-
-=A1=E5=85=A5=E6=B1=A0=E4=BB=B7=E5=80=BC=E3=80=82=E4=BA=8E=E6=98=AF GLV =E5=
-
-=AD=98=E6=AC=BE=E4=BA=BA=E8=B4=A6=E9=9D=A2=E4=B8=8A=E8=8E=B7=E5=BE=97 1000=
-
-=EF=BC=8C=E8=80=8C=E5=AE=9E=E9=99=85=E8=83=BD=E5=85=91=E7=8E=B0=E7=9A=84=E5=
-
-=AF=B9=E6=89=8B=EF=BC=88Trader=EF=BC=89=E5=8F=AA=E8=83=BD=E5=85=91=E7=8E=B0=
-
-500=E3=80=82=E5=B7=AE=E9=A2=9D 500 =E5=87=BA=E8=87=AA Trader =E7=9A=84=E2=
-
-=80=9C=E5=8F=97=E9=99=90=E5=85=91=E7=8E=B0=E2=80=9D=E2=80=94=E2=80=94=E5=8F=
-
-=AF=E8=83=BD=E5=AF=BC=E8=87=B4=E5=A5=97=E5=88=A9=E6=9C=BA=E4=BC=9A=E6=88=96=
-
-=E4=B8=8D=E5=AF=B9=E7=A7=B0=E6=8D=9F=E7=9B=8A=E8=BD=AC=E7=A7=BB=E3=80=82\</p=
-
-\>\</li\>
-
-\</ol\>
-
-\</blockquote\>
-
-\<p\>\</p\>
-
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=85=AC=E5=BC=8F=EF=BC=9A"\>\<strong\>=
-
-=E5=85=AC=E5=BC=8F=EF=BC=9A\</strong\>\<br\>\</h4\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>maxPnlF=
-
-actorForTraders // =E4=BA=A4=E6=98=93=E8=80=85=E9=99=90=E5=88=B6
-
-maxPnlFactorForDeposits // =E5=AD=98=E5=85=A5=E6=B5=81=E5=8A=A8=E6=80=
-
-=A7=E9=99=90=E5=88=B6
-
-maxPnlFactorForWithdrawals=E3=80=82 // =E7=A7=BB=E9=99=A4=E6=B5=81=E5=8A=
-
-=A8=E6=80=A7=E9=99=90=E5=88=B6
-
-=20
-
-=EF=BC=88=E4=B8=8B=E9=9D=A2=E5=8F=AA=E6=98=AF=E4=B8=BE=E4=BE=8B=EF=BC=89
-
-=20
-
-// 1. =E8=AF=BB=E5=8F=96=E5=BD=93=E5=89=8D po=
-
-sitionNotional =E4=B8=8E pendingPnl=EF=BC=88=E6=8C=89=E4=BB=93=E4=BD=8D/agg=
-
-regated=EF=BC=89=E3=80=82
-
-// 2. =E6=A0=B9=E6=8D=AE=E6=93=8D=E4=BD=9C=E7=
-
-=B1=BB=E5=9E=8B=E9=80=89=E6=8B=A9=E7=9B=B8=E5=BA=94 factor=EF=BC=88trader/d=
-
-eposit/withdraw=EF=BC=89=E3=80=82
-
-// 3. recognizedPnl =3D sign(pendingPnl) \* mi=
-
-n(\|pendingPnl\|, factor \* positionNotional)=EF=BC=88=E6=88=96=E4=BE=9D=E6=8D=
-
-=AE=E5=90=88=E7=BA=A6=E5=AF=B9=E8=B4=9F=E5=90=91 PnL =E7=9A=84=E7=89=B9=E6=
-
-=AE=8A=E8=A7=84=E5=88=99=EF=BC=89=E3=80=82
-
-// 4. =E6=8A=8A recognizedPnl =E8=AE=A1=E5=85=
-
-=A5 poolWorth=EF=BC=88=E6=88=96=E7=94=A8=E4=BA=8E=E8=AE=A1=E7=AE=97 mint/bu=
-
-rn / token price=EF=BC=89=E3=80=82
-
-// 5. =E6=89=A7=E8=A1=8C=E5=89=A9=E4=BD=99=E7=
-
-=9A=84=E7=BB=93=E7=AE=97=E9=80=BB=E8=BE=91=EF=BC=88transfer=E3=80=81mint/bu=
-
-rn GLV =E7=AD=89=EF=BC=89=E3=80=82\</pre\>
-
-\</div\>
-
-\</div\>
-
-\<p\>\</p\>
-
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=AE=9E=E7=8E=B0=EF=BC=9A"\>=E5=AE=9E=
-
-=E7=8E=B0=EF=BC=9A\<br\>\</h4\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Trader =E7=9B=88=E5=88=A9=E5=87=BA=E7=8E=B0 =E2=86=92 =E8=AF=A5=E7=9B=88=
-
-=E5=88=A9=E6=9C=80=E5=88=9D=E6=98=AF\<code\> uPnL\</code\>=EF=BC=88=E6=9C=AA=E5=
-
-=AE=9E=E7=8E=B0=E7=9B=88=E4=BA=8F=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=A6=82=E6=9E=9C Trader =E9=80=89=E6=8B=A9=E5=B9=B3=E4=BB=93 =E2=86=92=
-
-=E5=90=88=E7=BA=A6=E4=BC=9A=E6=8C=89 \<code\>maxPnlFactorForTraders\</code\> =
-
-=E7=9A=84=E6=9C=BA=E5=88=B6=E5=BD=B1=E5=93=8D=E4=BB=B7=E6=A0=BC/=E6=B1=A0=
-
-=E5=80=BC=EF=BC=88=E5=8D=B3=E4=BC=9A=E8=A2=AB cap=EF=BC=89=E3=80=82\</p\>\</li=
-
-\>
-
-\<li\>
-
-\<p\>=E8=8B=A5=E5=9C=A8 Trader =E5=B0=9A=E6=9C=AA=E5=B9=B3=E4=BB=93=E6=97=B6=
-
-=E5=87=BA=E7=8E=B0=E5=A4=96=E9=83=A8=E6=93=8D=E4=BD=9C=EF=BC=88deposit/with=
-
-draw=EF=BC=89=EF=BC=9A=E6=B1=A0=E5=AD=90=E4=BB=B7=E5=80=BC=E4=B8=8D=E6=8A=
-
-=8A Trader =E7=9A=84=E5=85=A8=E9=83=A8uPnl =E7=9B=B4=E6=8E=A5=E5=BD=93=E6=
-
-=88=90=E5=8F=AF=E7=94=A8=E8=B5=84=E9=87=91=E3=80=82=E2=86=92 deposit/withdr=
-
-aw =E6=97=B6=E5=88=86=E5=88=AB=E7=94=A8 \<code\>maxPnlFactorForDeposits\</code=
-
-\> / \<code\>maxPnlFactorForWithdrawals\</code\> =E5=8E=BB=E8=A1=A1=E9=87=8F=E8=
-
-=AF=A5 uPnl =E5=9C=A8=E8=AF=A5=E6=93=8D=E4=BD=9C=E5=9C=BA=E6=99=AF=E4=B8=8B=
-
-=E7=9A=84=E2=80=9C=E5=8F=AF=E8=A2=AB=E8=AE=A1=E5=85=A5/=E5=85=91=E7=8E=B0=
-
-=E2=80=9D=E6=AF=94=E4=BE=8B=E3=80=82\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>GMX=E9=85=8D=E7=BD=AE=E5=88=9D=E5=A7=8B=E5=80=BC=EF=BC=88=E9=9C=80 \<a cl=
-
-ass=3D"external-link" href=3D"https://hertzflow.slack.com/team/U08H180TJ1J"=
-
-rel=3D"nofollow"\>@kayce\</a\> =E8=BE=85=E5=8A=A9=E8=A1=A5=E5=85=85=EF=BC=89=
-
-=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>maxPnlFactorForTraders\</code\>=EF=BC=9A0.4 ~ 0.6=EF=BC=88=E4=B8=AD=
-
-=E6=80=A7=E5=81=8F=E4=BF=9D=E5=AE=88=EF=BC=89\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>maxPnlFactorForDeposits\</code\>=EF=BC=9A0.2 ~ 0.5=EF=BC=88=E9=80=9A=
-
-=E5=B8=B8 =E2=89=A4 traders=EF=BC=89\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>maxPnlFactorForWithdrawals\</code\>=EF=BC=9A0.4 ~ 0.8=EF=BC=88=E6=A0=
-
-=B9=E6=8D=AE=E8=A6=81=E4=B8=8D=E8=A6=81=E4=BF=9D=E6=8A=A4=E5=87=BA=E9=87=91=
-
-=E8=80=85=EF=BC=89\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>=E5=8A=A8=E6=80=81=E8=B0=83=E4=BC=98=E5=BB=BA=E8=AE=AE=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=9C=A8=E6=B3=A2=E5=8A=A8=E6=80=A7=E9=AB=98=E6=97=B6=E4=B8=B4=E6=97=B6=
-
-=E9=99=8D=E4=BD=8E depositFactor=EF=BC=88=E5=87=8F=E5=B0=91=E6=96=B0=E5=85=
-
-=A5=E8=B5=84=E9=87=91=E6=89=BF=E5=8F=97=E7=9A=84=E7=9F=AD=E6=9C=9F PnL =E9=
-
-=A3=8E=E9=99=A9=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=9C=A8=E5=B8=82=E5=9C=BA=E5=B9=B3=E7=A8=B3=E6=97=B6=E6=8F=90=E9=AB=98=
-
-=EF=BC=8C=E6=94=B9=E5=96=84=E6=B5=81=E5=8A=A8=E6=80=A7=E6=95=88=E7=8E=87=E3=
-
-=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>=E5=85=B3=E9=94=AE=E7=9B=91=E6=8E=A7=E6=8C=87=E6=A0=87=EF=BC=9A=EF=BC=88=
-
-=E9=9C=80 \<a class=3D"external-link" href=3D"https://hertzflow.slack.com/te=
-
-am/U08FT22ST3M" rel=3D"nofollow"\>@Easton 0x\</a\> =E7=A1=AE=E8=AE=A4=EF=BC=89=
-
-\</p\>\</li\>
-
-\</ul\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>\<code\>recognizedPnl / pendingPnl\</code\> =E6=AF=94=E4=BE=8B=EF=BC=88=E6=
-
-=8C=89=E6=97=B6=E9=97=B4=E7=AA=97=E5=8F=A3=E3=80=81=E6=8C=89 token=EF=BC=89=
-
-=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>deposit/withdraw =E5=8E=86=E5=8F=B2=E6=97=B6=E5=BA=8F=E4=B8=8E=E5=AF=B9=
-
-=E5=BA=94 poolWorth =E5=8F=98=E5=8A=A8=EF=BC=88=E7=9C=8B=E6=98=AF=E5=90=A6=
-
-=E6=9C=89=E5=A5=97=E5=88=A9=E7=97=95=E8=BF=B9=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=B9=B3=E5=9D=87=E6=8C=81=E4=BB=93=E6=97=B6=E9=97=B4=E4=B8=8E=E5=B9=B3=
-
-=E4=BB=93=E6=97=B6=E7=9A=84 recognizedPnl =E4=B8=8E pendingPnl =E5=B7=AE=E8=
-
-=B7=9D=EF=BC=88=E8=A1=A1=E9=87=8F cap =E5=AF=B9 trader =E7=9A=84=E5=BD=B1=
-
-=E5=93=8D=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=A4=A7=E9=A2=9D deposit/withdraw =E4=B8=8E=E5=B8=82=E5=9C=BA=E6=B3=A2=
-
-=E5=8A=A8=E7=9A=84=E7=9B=B8=E5=85=B3=E6=80=A7=EF=BC=88=E6=A3=80=E6=B5=8B=E6=
-
-=93=8D=E7=BA=B5=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>GLV net inflow/outflow =E5=9C=A8=E9=AB=98 pendingPnl =E6=97=B6=E7=9A=84=
-
-=E8=A1=8C=E4=B8=BA=E3=80=82\</p\>\</li\>
-
-\</ol\>
-
-\<p\>\</p\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E9=A3=8E=E9=99=A9=E7=AE=A1=E7=90=86=
-
-=EF=BC=88=E4=BB=A5avantis=E4=B8=BA=E4=BE=8B=EF=BC=89"\>=E9=A3=8E=E9=99=A9=E7=
-
-=AE=A1=E7=90=86=EF=BC=88=E4=BB=A5avantis=E4=B8=BA=E4=BE=8B=EF=BC=89\</h3\>
-
-\<blockquote\>
-
-\<p\>\<a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
-
-://docs.google.com/spreadsheets/d/12l9DbHXYjSQa0KJcDymeHG2VPni29eOCCmG8lpQF=
-
-9Gc/edit?gid=3D240279765#gid=3D240279765" rel=3D"nofollow"\>https://docs.goo=
-
-gle.com/spreadsheets/d/12l9DbHXYjSQa0KJcDymeHG2VPni29eOCCmG8lpQF9Gc/edit?gi=
-
-d=3D240279765#gid=3D240279765\</a\>\</p\>
-
-\</blockquote\>
-
-\<p\>\</p\>
-
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E6=A0=B8=E5=BF=83=E5=8F=82=E6=95=B0=
-
-=E8=A7=84=E5=BE=8B=EF=BC=88=E6=8C=89=E9=A3=8E=E9=99=A9=E6=A2=AF=E5=BA=A6=EF=
-
-=BC=89"\>\<strong\>=E6=A0=B8=E5=BF=83=E5=8F=82=E6=95=B0=E8=A7=84=E5=BE=8B=EF=
-
-=BC=88=E6=8C=89=E9=A3=8E=E9=99=A9=E6=A2=AF=E5=BA=A6=EF=BC=89\</strong\>\</h4\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"3c=
-
-7f12fc-a05f-49b2-a662-761484d27ad9" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8F=82=E6=95=B0\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E9=AB=98=E9=A3=8E=E9=99=A9=E7=AB=AF\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E4=BD=8E=E9=A3=8E=E9=99=A9=E7=AB=AF\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A4=87=E6=B3=A8\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>max_gain_percentage\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>2500=EF=BC=88BTC/ETH/Meme=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500=EF=BC=88=E4=B8=BB=E6=B5=81=E3=80=81=E5=B1=B1=E5=AF=A8=E3=80=81RWA=EF=
-
-=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=AD=A2=E7=9B=88=E9=99=90=E5=88=B6=E4=B8=8E=E5=B8=82=E5=9C=BA=E4=BF=A1=
-
-=E4=BB=BB=E5=BA=A6=E6=AD=A3=E7=9B=B8=E5=85=B3=E3=80=82BTC/ETH/Meme =E8=8E=
-
-=B7=E9=AB=98=E6=94=B6=E7=9B=8A=E4=B8=8A=E9=99=90=E7=94=A8=E4=BA=8E=E5=90=B8=
-
-=E5=BC=95=E6=B4=BB=E8=B7=83=E4=BA=A4=E6=98=93=E3=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>max_sl_percentage\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9B=BA=E5=AE=9A 80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9B=BA=E5=AE=9A 80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=AD=A2=E6=8D=9F=E4=B8=8D=E8=83=BD=E5=B0=8F=E4=BA=8E-80%\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>max_long/short_oi_percentage\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A4=9A=E4=B8=BA 50=EF=BC=8C=E5=B0=91=E6=95=B0 75=E2=80=93100\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A4=9A=E4=B8=BA 50=EF=BC=8C=E5=B0=91=E6=95=B0 75=E2=80=93100\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>OI =E7=BB=9F=E4=B8=80=E5=8F=A3=E5=BE=84=E8=AE=BE=E8=AE=A1=EF=BC=8C=E9=81=
-
-=BF=E5=85=8D=E5=8D=95=E8=BE=B9=E7=A7=AF=E8=81=9A=EF=BC=9B=E6=9E=81=E4=B8=AA=
-
-=E5=88=ABFET=E3=80=81USD/TRY =E7=AD=89=E7=89=B9=E4=BE=8B=E5=85=81=E8=AE=B8=
-
-=E6=9B=B4=E9=AB=98OI=EF=BC=88100%=EF=BC=89=E3=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>group_open_interest_percentage\</strong\>\</p\>\</td\>
-
-\<td colspan=3D"2" class=3D"confluenceTd"\>
-
-\<p\>1=E2=80=935=EF=BC=88=E5=B1=B1=E5=AF=A8=EF=BC=89 =E2=86=92 10=E2=80=9315=
-
-=EF=BC=88=E4=B8=BB=E6=B5=81=EF=BC=89 =E2=86=92 30=E2=80=93100=EF=BC=88RWA=
-
-=E3=80=81=E5=A4=A7=E8=B5=84=E4=BA=A7=EF=BC=89\<br\>
-
--\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=B6=8A=E9=AB=98=E8=AF=B4=E6=98=8E=E8=B5=84=E4=BA=A7=E8=B6=8A=E8=A2=AB=
-
-=E5=85=81=E8=AE=B8=E9=9B=86=E4=B8=AD=E9=85=8D=E7=BD=AE=EF=BC=9B=E4=BD=93=E7=
-
-=8E=B0=E5=AF=B9=E9=AB=98=E6=B5=81=E5=8A=A8=E6=80=A7=E5=B8=82=E5=9C=BA=E6=9B=
-
-=B4=E9=AB=98=E5=AE=B9=E5=BF=8D=E5=BA=A6=E3=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>max_wallet_oi_percentage\</strong\>\</p\>\</td\>
-
-\<td colspan=3D"2" class=3D"confluenceTd"\>
-
-\<p\>15=EF=BC=88=E5=B8=B8=E8=A7=84=E9=99=90=E5=88=B6=EF=BC=89 =E2=86=92 50=EF=
-
-=BC=88=E9=AB=98=E4=BF=A1=E4=BB=BB=E8=B5=84=E4=BA=A7 / meme=EF=BC=89\<br\>
-
--\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>max positin size =E4=BD=8E=E5=B8=82=E5=80=BC=E8=B5=84=E4=BA=A7=E9=99=90=
-
-=E5=88=B6=E6=9B=B4=E4=B8=A5=E6=A0=BC\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>=E9=A3=8E=E9=99=A9=E5=8F=82=E6=95=B0=E5=91=88=E7=8E=B0=E5=8D=95=
-
-=E8=B0=83=E8=A7=84=E5=BE=8B=EF=BC=9A\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E4=BB=8E =E2=80=9CBTC/ETH =E2=86=92 =E4=B8=BB=E6=B5=81 =E2=86=92 =E5=B1=
-
-=B1=E5=AF=A8 =E2=86=92 RWA=E2=80=9D =E9=A3=8E=E9=99=A9=E9=80=90=E5=B1=82=E4=
-
-=B8=8B=E9=99=8D=EF=BC=8C\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=80=8C \<code\>max_gain_percentage\</code\>=E3=80=81\<code\>groupOI\</code\> =
-
-=E5=91=88=E5=AF=B9=E5=BA=94=E9=80=92=E5=87=8F=E6=88=96=E5=88=86=E6=AE=B5=E3=
-
-=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E7=89=B9=E6=AE=8A=E8=B5=84=E4=BA=A7=EF=BC=9A\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>FET/USD\</strong\>=E3=80=81\<strong\>DELISTED_32/47\</strong\>=EF=BC=
-
-=9A=E8=AE=BE=E5=AE=9A=E4=B8=BA \<code\>max_gain 500, OI 100%\</code\> =E2=86=92=
-
-=E5=86=85=E9=83=A8=E7=89=B9=E6=AE=8A=E7=94=A8=E9=80=94=E6=88=96=E6=B5=8B=
-
-=E8=AF=95=E5=B8=82=E5=9C=BA=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>TRUMP/USD\</strong\>=E3=80=81\<strong\>BERA/USD\</strong\> =E7=AD=89=
-
-=E6=96=B0=E5=85=B4=E6=94=BF=E6=B2=BB/=E6=96=B0=E9=93=BE=E4=BB=A3=E5=B8=81=
-
-=EF=BC=9A=E4=BF=9D=E6=8C=81 moderate =E5=8F=82=E6=95=B0=EF=BC=88max_gain 10=
-
-00=EF=BC=8CgroupOI 2=E2=80=935=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<p\>\</p\>
-
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E9=A3=8E=E9=99=A9=E5=B1=82=E7=BA=A7"\>=
-
-\<strong\>=E9=A3=8E=E9=99=A9=E5=B1=82=E7=BA=A7\</strong\>\</h4\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"39=
-
-57324c-e5de-4ed5-97f6-3daaa39076d0" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E9=A3=8E=E9=99=A9=E5=B1=82=E7=BA=A7\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8C=85=E5=90=AB=E8=B5=84=E4=BA=A7\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8F=82=E6=95=B0=E7=89=B9=E5=BE=81\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=B1=82=E7=BA=A7=E9=80=BB=E8=BE=91\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>L1=EF=BC=9A=E9=AB=98=E6=B5=81=E5=8A=A8=E6=80=A7=E8=B5=84=E4=BA=
-
-=A7=E5=B1=82\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>BTC, ETH\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>max_gain 2500\</code\>, \<code\>groupOI 100\</code\>, \<code\>walletOI 50\<=
-
-/code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E9=A3=8E=E9=99=A9=E5=AE=B9=E5=BF=8D=E9=AB=98=EF=BC=8C=E9=AB=98=E6=9D=A0=
-
-=E6=9D=86 + =E9=AB=98TP + =E9=AB=98=E6=95=9E=E5=8F=A3\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>L2=EF=BC=9A=E4=B8=BB=E6=B5=81=E8=B5=84=E4=BA=A7=E5=B1=82\</strong=
-
-\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>SOL, SUI, BNB\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>max_gain 500=E2=80=932500\</code\>, \<code\>groupOI 2=E2=80=9315\</code=
-
-\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=A8=B3=E5=AE=9A=E6=B5=81=E5=8A=A8=E6=80=A7=EF=BC=8C=E4=B8=AD=E7=AD=89=
-
-=E9=A3=8E=E9=99=A9=E3=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>L3=EF=BC=9A=E5=B1=B1=E5=AF=A8=E8=B5=84=E4=BA=A7=E5=B1=82\</strong=
-
-\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>ATOM, LINK, AVAX, OP =E7=AD=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>max_gain 500\</code\>, \<code\>groupOI =E2=89=A45\</code\>, \<code\>wallet=
-
-OI 15\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E9=A3=8E=E6=8E=A7=E6=9C=80=E4=BF=9D=E5=AE=88=EF=BC=9ATP=E4=B8=8E=E6=95=
-
-=9E=E5=8F=A3=E9=83=BD=E4=B8=8B=E8=B0=83=EF=BC=9B=E9=80=82=E7=94=A8=E4=BA=8E=
-
-=E4=BD=8E=E6=B5=81=E5=8A=A8=E6=80=A7=E4=B8=8E=E6=B3=A2=E5=8A=A8=E8=B5=84=E4=
-
-=BA=A7=E3=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>L4=EF=BC=9AMeme =E6=8A=95=E6=9C=BA=E5=B1=82\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>DOGE, PEPE, BONK, WIF, PUMP =E7=AD=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>max_gain 2500\</code\>, \<code\>groupOI 5=E2=80=9310\</code\>, \<code\>wal=
-
-letOI 50\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=B3=A2=E5=8A=A8=E6=9E=81=E9=AB=98=EF=BC=8C=E4=BD=86Max Position =E5=
-
-=8D=95=E6=88=B7=E5=A4=B4=E5=AF=B8=E9=99=90=E5=88=B6=E6=94=B6=E7=B4=A7=EF=BC=
-
-=9B=E7=BE=A4=E4=BD=93=E6=95=9E=E5=8F=A3=E7=95=A5=E5=B0=8F=EF=BC=8C=E5=81=8F=
-
-=E5=90=91=E7=9F=AD=E7=BA=BF=E6=8A=95=E6=9C=BA=E7=B1=BB=E8=B5=84=E4=BA=A7=E3=
-
-=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>L5=EF=BC=9ARWA =E5=B1=82\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>SPY, FX, GOLD =E7=AD=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>max_gain 500=E2=80=931000\</code\>, \<code\>groupOI 30=E2=80=93100\</co=
-
-de\>, \<code\>walletOI 15=E2=80=9350\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=A8=B3=E5=AE=9A=E6=94=B6=E7=9B=8A=EF=BC=8C=E9=85=8D=E7=BD=AE=E7=81=B5=
-
-=E6=B4=BB=EF=BC=9B\<br\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Equities &amp; Indices TP=E8=BE=83=E9=AB=98=EF=BC=8C=E6=95=9E=E5=8F=A3=
-
-=E4=B8=AD=E7=AD=89\</p\>\</li\>
-
-\<li\>
-
-\<p\>FX =E6=95=B4=E4=BD=93TP=E5=8C=BA=E9=97=B4=E5=AE=BD=EF=BC=8C=E9=83=A8=E5=
-
-=88=86USD/JPY =E7=AD=89=E9=AB=98=E6=B5=81=E5=8A=A8=E5=B8=81=E5=AF=B9=E8=AE=
-
-=BE=E6=9B=B4=E9=AB=98groupOI=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>Commod =E5=B1=9E=E4=BA=8E=E5=AF=B9=E5=86=B2=E7=B1=BB=E8=B5=84=E4=BA=A7=
-
-=EF=BC=8C=E6=94=B6=E7=9B=8A=E9=99=90=E5=88=B6=E4=BD=8E=E4=BD=86=E5=AE=B9=E8=
-
-=AE=B8=E8=BE=83=E9=AB=98=E6=80=BB=E4=BB=93=E6=95=9E=E5=8F=A3=EF=BC=88=E4=BE=
-
-=BF=E4=BA=8E=E8=B7=A8=E5=B8=82=E5=9C=BA=E5=A5=97=E5=88=A9=EF=BC=89=E3=80=82=
-
-\</p\>\</li\>
-
-\</ul\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>=E3=80=8CCrypto=E3=80=8D\</code\>\<strong\>=E5=88=86=E5=B1=82=E9=A3=8E=
-
-=E9=99=A9=E6=A8=A1=E5=9E=8B\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>BTC/ETH=E7=AD=89=E8=93=9D=E7=AD=B9 =E4=B8=BA \<strong\>=E9=A1=B6=E5=B1=82=
-
-=E6=B5=81=E5=8A=A8=E6=80=A7=E5=B1=82\</strong\>=EF=BC=9A=E6=9E=81=E9=AB=98=E6=
-
-=94=B6=E7=9B=8A=E4=B8=8A=E9=99=90=E4=B8=8E=E6=9C=80=E5=A4=A7OI=E9=99=90=E9=
-
-=A2=9D=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>Top10=E8=BF=99=E7=A7=8D=E4=B8=BB=E6=B5=81=E5=B8=81=E4=B8=BA \<strong\>=E4=
-
-=B8=AD=E5=B1=82=E7=A8=B3=E5=AE=9A=E5=B1=82\</strong\>=EF=BC=9A=E4=BD=8E=E6=94=
-
-=B6=E7=9B=8A=E4=B8=8A=E9=99=90=E3=80=81=E5=8F=97=E9=99=90=E7=BB=84OI=E3=80=
-
-=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=B1=B1=E5=AF=A8=E5=B8=81=E4=B8=BA \<strong\>=E5=BA=95=E5=B1=82=E9=AB=98=
-
-=E9=A3=8E=E9=99=A9=E5=B1=82\</strong\>=EF=BC=9A=E4=B8=A5=E6=A0=BC=E6=95=9E=E5=
-
-=8F=A3=E4=B8=8A=E9=99=90=EF=BC=8C=E6=94=B6=E7=9B=8A=E5=8F=97=E9=99=90=E3=80=
-
-=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>Meme =E4=B8=BA \<strong\>=E9=AB=98=E6=B3=A2=E5=8A=A8=E7=89=B9=E4=BE=8B=E5=
-
-=B1=82\</strong\>=EF=BC=9A=E6=94=B6=E7=9B=8A=E4=B8=8A=E9=99=90=E9=AB=98=EF=BC=
-
-=8C=E4=BD=86=E9=80=9A=E8=BF=87 groupOI =E6=8E=A7=E5=88=B6=E6=80=BB=E4=BD=93=
-
-=E6=9A=B4=E9=9C=B2=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>RWA\</code\>\<strong\> =E4=BD=93=E7=B3=BB=E5=88=86=E6=88=90=E4=B8=89=
-
-=E7=BB=84=EF=BC=9A\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>Equity &amp; Indices\</code\>=EF=BC=88SPY, QQQ =E7=AD=89=EF=BC=89=EF=
-
-=BC=9A1000% =E6=94=B6=E7=9B=8A=E4=B8=8A=E9=99=90=EF=BC=8C=E4=B8=AD=E7=AD=89=
-
-groupOI=EF=BC=9B\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>FX\</code\>=EF=BC=9A=E5=88=86=E5=B8=83 30=E2=80=9370%=EF=BC=8C=E8=AF=
-
-=B4=E6=98=8E=E6=B5=81=E5=8A=A8=E6=80=A7=E5=BC=BA=E3=80=81=E6=B3=A2=E5=8A=A8=
-
-=E4=BD=8E=EF=BC=9B\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>Commod\</code\>=EF=BC=9AgroupOI =E9=AB=98=E8=BE=BE 100%=EF=BC=8C=E8=
-
-=A7=86=E4=BD=9C=E9=A3=8E=E9=99=A9=E4=B8=AD=E6=80=A7=E8=B5=84=E4=BA=A7=E3=80=
-
-=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.3RWA=E8=B5=84=E4=BA=A7=E5=B8=82=E5=
-
-=9C=BA=E9=80=BB=E8=BE=91"\>2.3 RWA =E8=B5=84=E4=BA=A7=E5=B8=82=E5=9C=BA=E9=
-
-=80=BB=E8=BE=91\</h2\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-RWAOracle=E6=95=B0=E6=8D=AE=E6=9D=A5=
-
-=E6=BA=90"\>RWA Oracle =E6=95=B0=E6=8D=AE=E6=9D=A5=E6=BA=90\</h3\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Chainlink + Pyth=E5=8F=8C=E6=BA=90=EF=BC=8C&gt;5%=E5=81=8F=E5=B7=AE=E6=
-
-=97=B6=E5=90=88=E7=BA=A6=E6=8B=92=E7=BB=9D=E4=BA=A4=E6=98=93=E3=80=82\</p\>\</=
-
-li\>
-
-\<li\>
-
-\<p\>=E6=9B=B4=E6=96=B0=E9=A2=91=E7=8E=87=EF=BC=9A=E5=B8=82=E5=9C=BA=E5=BC=80=
-
-=E6=94=BE=E6=97=B6=E9=97=B4=E5=86=85=EF=BC=8C=E4=B8=80=E8=88=AC13:30 - 19:5=
-
-9 UTC =EF=BC=88ET + 4=EF=BC=89=EF=BC=8C=E6=AF=8F60s/=E6=AC=A1=E3=80=82\</p\>\<=
-
-/li\>
-
-\<li\>
-
-\<p\>k=E7=BA=BFx=E8=BD=B4=E4=B8=8D=E9=97=B4=E6=96=AD=EF=BC=8C=E6=97=A0=E6=95=
-
-=B0=E6=8D=AE=E6=97=B6=E9=97=B4=E6=AE=B5=E9=9A=90=E8=97=8F=E3=80=82\<br\>\</p\>\<=
-
-/li\>
-
-\</ul\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=B8=82=E5=9C=BA=E5=BC=80=E6=94=BE=
-
-=E4=B8=8E=E5=86=BB=E7=BB=93=E8=A7=84=E5=88=99"\>=E5=B8=82=E5=9C=BA=E5=BC=80=
-
-=E6=94=BE=E4=B8=8E=E5=86=BB=E7=BB=93=E8=A7=84=E5=88=99\</h3\>
-
-\<p\>\<a class=3D"external-link" href=3D"https://docs.avantisfi.com/trading/ma=
-
-rket-hours" rel=3D"nofollow"\>market open time=E8=B7=9F=E7=9D=80pyth network=
-
-=E6=9D=A5\</a\> \<strong\>=EF=BC=88=E4=BB=85=E7=9B=98=E4=B8=AD=EF=BC=8C=E6=97=
-
-=A0=E7=9B=98=E5=89=8D=EF=BC=89\</strong\>\</p\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a8=
-
-11fa32-d71c-437d-8a09-61b048fb119b" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=8A=B6=E6=80=81\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=A1=8C=E4=B8=BA\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=8F=8F=E8=BF=B0\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>marketOpen=3Dtrue\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=85=81=E8=AE=B8=E4=BA=A4=E6=98=93=E4=B8=8E=E6=B8=85=E7=AE=97\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=AD=A3=E5=B8=B8=E4=BA=A4=E6=98=93=E7=AA=97=E5=8F=A3\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>marketOpen=3Dfalse\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=94=B6=E7=9B=98=E5=90=8E=E8=BF=9B=E5=85=A5 =E2=80=9C=E5=86=BB=E7=BB=
-
-=93=E7=BB=93=E7=AE=97=E2=80=9D =E7=8A=B6=E6=80=81=EF=BC=8C=E6=9A=82=E5=81=
-
-=9C=E4=B8=8B=E5=8D=95=E4=B8=8E=E5=BC=BA=E5=B9=B3=EF=BC=8CPnL=E7=BB=93=E7=AE=
-
-=97=E5=BB=B6=E5=90=8E=E5=88=B0=E4=B8=8B=E4=B8=AA=E5=BC=80=E6=94=BE=E7=AA=97=
-
-=E5=8F=A3\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AF=B9=E5=BA=94 TradFi =E4=BC=91=E5=B8=82=E6=97=B6=E9=97=B4\<br\>
-
-=EF=BC=88=E5=8C=85=E6=8B=AC=E7=9B=98=E5=89=8D=E4=BA=A4=E6=98=93=E6=97=B6=E9=
-
-=97=B4=EF=BC=89\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E6=94=B6=E8=B4=B9=E6=98=8E=E7=BB=86"\>=
-
-=E6=94=B6=E8=B4=B9=E6=98=8E=E7=BB=86\</h3\>
-
-\<blockquote\>
-
-\<p\>=E8=AF=A6=E8=A7=81: \<a href=3D"https://hertzflow.atlassian.net/wiki/spac=
-
-es/H/pages/6324231/Research\_#%E5%8F%82%E6%95%B0%E8%A1%A8.2" data-linked-res=
-
-ource-id=3D"6324231" data-linked-resource-version=3D"38" data-linked-resour=
-
-ce-type=3D"page"\>Research\_=E7=AB=9E=E5=93=81=E5=8A=9F=E8=83=BD &amp; =E5=85=
-
-=B3=E9=94=AE=E5=8F=82=E6=95=B0\</a\>\</p\>
-
-\</blockquote\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d6=
-
-8cbaf7-a507-4839-a4ae-f79d2f88a10d" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=B1=BB=E5=88=AB\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=BC=80=E4=BB=93=E8=B4=B9 (Opening Fee)\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=B9=B3=E4=BB=93=E8=B4=B9 (Closing Fee)\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8A=A8=E6=80=81=E4=BF=9D=E8=AF=81=E9=87=91=E8=B4=B9 (Dynamic Margin F=
-
-ee)\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E4=BB=B7=E5=B7=AE (Spread)\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=AF=B4=E6=98=8E\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Crypto (BTC/ETH)\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>4.5 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>4.5 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9F=BA=E4=BA=8E skew =E4=B8=8E utilization =E5=8A=A8=E6=80=81=E8=AE=
-
-=A1=E7=AE=97\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Zero (BTC =E6=97=A0=E6=BB=91=E7=82=B9)\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8A=A8=E6=80=81 Spread =3D =E5=B8=B8=E6=95=B0 + Price Impact + Skew I=
-
-mpact\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Forex\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>1=E2=80=935 bps=EF=BC=88=E5=8F=96=E5=86=B3=E4=BA=8E skew=EF=BC=89\</p\>\</t=
-
-d\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=97=A0\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9F=BA=E4=BA=8E skew =E4=B8=8E=E5=88=A9=E7=94=A8=E7=8E=87\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>0=E2=80=931 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>EUR-USD=E3=80=81USD-JPY=E3=80=81GBP-USD =E4=B8=BA=E9=9B=B6=E4=BB=B7=E5=
-
-=B7=AE\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Metals (Gold, Silver)\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>6=E2=80=938 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=97=A0\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=9B=AE=E6=A0=87 15% =E5=B9=B4=E5=8C=96=EF=BC=8830% =E5=88=A9=E7=94=A8=
-
-=E7=8E=87=E4=B8=8B=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>1=E2=80=933 bps =E5=9B=BA=E5=AE=9A\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=8C=89=E6=B3=A2=E5=8A=A8=E7=8E=87=E4=B8=8E skew =E8=B0=83=E6=95=B4\</p=
-
-\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Commodities\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>6=E2=80=938 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=97=A0\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E4=B8=8E Metals =E7=9B=B8=E5=90=8C\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>1=E2=80=933 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9B=BA=E5=AE=9A=E4=BB=B7=E5=B7=AE=E6=A8=A1=E5=BC=8F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Indices (SPY, QQQ)\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>6 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=97=A0\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=9B=AE=E6=A0=87 5% =E5=B9=B4=E5=8C=96=EF=BC=8850% =E5=88=A9=E7=94=A8=
-
-=E7=8E=87=E4=B8=8B=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>1 bp =E5=B9=B3=E5=9D=87\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9B=BA=E5=AE=9A Spread 0.01%\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Equities (MAG7, COIN)\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>6 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=97=A0\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=9B=AE=E6=A0=87 10% =E5=B9=B4=E5=8C=96=EF=BC=8850% =E5=88=A9=E7=94=A8=
-
-=E7=8E=87=E4=B8=8B=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>2.5 bps =E5=B9=B3=E5=9D=87\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9B=BA=E5=AE=9A Spread 0.025%\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E9=A3=8E=E9=99=A9=E7=AE=A1=E7=90=86=
-
-=EF=BC=88=E4=BB=A5avantis=E4=B8=BA=E4=BE=8B=EF=BC=89.1"\>=E9=A3=8E=E9=99=A9=
-
-=E7=AE=A1=E7=90=86=EF=BC=88=E4=BB=A5avantis=E4=B8=BA=E4=BE=8B=EF=BC=89\</h3\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>\<strong\>=E6=A0=B8=E5=BF=83=E5=8F=82=E6=95=B0=E8=A7=84=E5=BE=8B\</strong\>\<=
-
-/p\>\</li\>
-
-\</ol\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"37=
-
-611d08-33d8-4e26-bbe3-b3ec12fa32c4" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8F=82=E6=95=B0\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E9=AB=98=E9=A3=8E=E9=99=A9=E7=AB=AF\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E4=BD=8E=E9=A3=8E=E9=99=A9=E7=AB=AF\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A4=87=E6=B3=A8\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>max_gain_percentage\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>2500=EF=BC=88BTC/ETH/Meme=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500=EF=BC=88=E4=B8=BB=E6=B5=81=E3=80=81=E5=B1=B1=E5=AF=A8=E3=80=81RWA=EF=
-
-=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=AD=A2=E7=9B=88=E9=99=90=E5=88=B6=E4=B8=8E=E5=B8=82=E5=9C=BA=E4=BF=A1=
-
-=E4=BB=BB=E5=BA=A6=E6=AD=A3=E7=9B=B8=E5=85=B3=E3=80=82BTC/ETH/Meme =E8=8E=
-
-=B7=E9=AB=98=E6=94=B6=E7=9B=8A=E4=B8=8A=E9=99=90=E7=94=A8=E4=BA=8E=E5=90=B8=
-
-=E5=BC=95=E6=B4=BB=E8=B7=83=E4=BA=A4=E6=98=93=E3=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>max_sl_percentage\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9B=BA=E5=AE=9A 80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9B=BA=E5=AE=9A 80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=AD=A2=E6=8D=9F=E4=B8=8D=E8=83=BD=E5=B0=8F=E4=BA=8E-80%\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>max_long/short_oi_percentage\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A4=9A=E4=B8=BA 50=EF=BC=8C=E5=B0=91=E6=95=B0 75=E2=80=93100\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A4=9A=E4=B8=BA 50=EF=BC=8C=E5=B0=91=E6=95=B0 75=E2=80=93100\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>OI =E7=BB=9F=E4=B8=80=E5=8F=A3=E5=BE=84=E8=AE=BE=E8=AE=A1=EF=BC=8C=E9=81=
-
-=BF=E5=85=8D=E5=8D=95=E8=BE=B9=E7=A7=AF=E8=81=9A=EF=BC=9B=E6=9E=81=E4=B8=AA=
-
-=E5=88=ABFET=E3=80=81USD/TRY =E7=AD=89=E7=89=B9=E4=BE=8B=E5=85=81=E8=AE=B8=
-
-=E6=9B=B4=E9=AB=98OI=EF=BC=88100%=EF=BC=89=E3=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>group_open_interest_percentage\</strong\>\</p\>\</td\>
-
-\<td colspan=3D"2" class=3D"confluenceTd"\>
-
-\<p\>1=E2=80=935=EF=BC=88=E5=B1=B1=E5=AF=A8=EF=BC=89 =E2=86=92 10=E2=80=9315=
-
-=EF=BC=88=E4=B8=BB=E6=B5=81=EF=BC=89 =E2=86=92 30=E2=80=93100=EF=BC=88RWA=
-
-=E3=80=81=E5=A4=A7=E8=B5=84=E4=BA=A7=EF=BC=89\<br\>
-
--\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=B6=8A=E9=AB=98=E8=AF=B4=E6=98=8E=E8=B5=84=E4=BA=A7=E8=B6=8A=E8=A2=AB=
-
-=E5=85=81=E8=AE=B8=E9=9B=86=E4=B8=AD=E9=85=8D=E7=BD=AE=EF=BC=9B=E4=BD=93=E7=
-
-=8E=B0=E5=AF=B9=E9=AB=98=E6=B5=81=E5=8A=A8=E6=80=A7=E5=B8=82=E5=9C=BA=E6=9B=
-
-=B4=E9=AB=98=E5=AE=B9=E5=BF=8D=E5=BA=A6=E3=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>max_wallet_oi_percentage\</strong\>\</p\>\</td\>
-
-\<td colspan=3D"2" class=3D"confluenceTd"\>
-
-\<p\>15=EF=BC=88=E5=B8=B8=E8=A7=84=E9=99=90=E5=88=B6=EF=BC=89 =E2=86=92 50=EF=
-
-=BC=88=E9=AB=98=E4=BF=A1=E4=BB=BB=E8=B5=84=E4=BA=A7 / meme=EF=BC=89\<br\>
-
--\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>max positin size =E4=BD=8E=E5=B8=82=E5=80=BC=E8=B5=84=E4=BA=A7=E9=99=90=
-
-=E5=88=B6=E6=9B=B4=E4=B8=A5=E6=A0=BC\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>=E9=A3=8E=E9=99=A9=E5=8F=82=E6=95=B0=E5=91=88=E7=8E=B0=E5=8D=95=
-
-=E8=B0=83=E8=A7=84=E5=BE=8B=EF=BC=9A\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E4=BB=8E =E2=80=9CBTC/ETH =E2=86=92 =E4=B8=BB=E6=B5=81 =E2=86=92 =E5=B1=
-
-=B1=E5=AF=A8 =E2=86=92 RWA=E2=80=9D =E9=A3=8E=E9=99=A9=E9=80=90=E5=B1=82=E4=
-
-=B8=8B=E9=99=8D=EF=BC=8C\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=80=8C \<code\>max_gain_percentage\</code\>=E3=80=81\<code\>groupOI\</code\> =
-
-=E5=91=88=E5=AF=B9=E5=BA=94=E9=80=92=E5=87=8F=E6=88=96=E5=88=86=E6=AE=B5=E3=
-
-=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E7=89=B9=E6=AE=8A=E8=B5=84=E4=BA=A7=EF=BC=9A\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>FET/USD\</strong\>=E3=80=81\<strong\>DELISTED_32/47\</strong\>=EF=BC=
-
-=9A=E8=AE=BE=E5=AE=9A=E4=B8=BA \<code\>max_gain 500, OI 100%\</code\> =E2=86=92=
-
-=E5=86=85=E9=83=A8=E7=89=B9=E6=AE=8A=E7=94=A8=E9=80=94=E6=88=96=E6=B5=8B=
-
-=E8=AF=95=E5=B8=82=E5=9C=BA=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>TRUMP/USD\</strong\>=E3=80=81\<strong\>BERA/USD\</strong\> =E7=AD=89=
-
-=E6=96=B0=E5=85=B4=E6=94=BF=E6=B2=BB/=E6=96=B0=E9=93=BE=E4=BB=A3=E5=B8=81=
-
-=EF=BC=9A=E4=BF=9D=E6=8C=81 moderate =E5=8F=82=E6=95=B0=EF=BC=88max_gain 10=
-
-00=EF=BC=8CgroupOI 2=E2=80=935=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<ol start=3D"2"\>
-
-\<li\>
-
-\<p\>\<strong\>=E9=A3=8E=E9=99=A9=E5=B1=82=E7=BA=A7\</strong\>\</p\>\</li\>
-
-\</ol\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"85=
-
-6617e8-87b2-471f-9d07-f74557b1cfa6" class=3D"confluenceTable"\>
-
-\<colgroup\>
-
-\<col style=3D"width: 190.0px;"\>
-
-\<col style=3D"width: 91.0px;"\>
-
-\<col style=3D"width: 172.0px;"\>
-
-\<col style=3D"width: 305.0px;"\>
-
-\</colgroup\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E9=A3=8E=E9=99=A9=E5=B1=82=E7=BA=A7\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8C=85=E5=90=AB=E8=B5=84=E4=BA=A7\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8F=82=E6=95=B0=E7=89=B9=E5=BE=81\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=B1=82=E7=BA=A7=E9=80=BB=E8=BE=91\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>L1=EF=BC=9A=E9=AB=98=E6=B5=81=E5=8A=A8=E6=80=A7=E8=B5=84=E4=BA=
-
-=A7=E5=B1=82\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>BTC, ETH\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>max_gain 2500\</code\>, \<code\>groupOI 100\</code\>, \<code\>walletOI 50\<=
-
-/code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E9=A3=8E=E9=99=A9=E5=AE=B9=E5=BF=8D=E9=AB=98=EF=BC=8C=E9=AB=98=E6=9D=A0=
-
-=E6=9D=86 + =E9=AB=98TP + =E9=AB=98=E6=95=9E=E5=8F=A3\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>L2=EF=BC=9A=E4=B8=BB=E6=B5=81=E8=B5=84=E4=BA=A7=E5=B1=82\</strong=
-
-\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>SOL, SUI, BNB\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>max_gain 500=E2=80=932500\</code\>, \<code\>groupOI 2=E2=80=9315\</code=
-
-\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=A8=B3=E5=AE=9A=E6=B5=81=E5=8A=A8=E6=80=A7=EF=BC=8C=E4=B8=AD=E7=AD=89=
-
-=E9=A3=8E=E9=99=A9=E3=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>L3=EF=BC=9A=E5=B1=B1=E5=AF=A8=E8=B5=84=E4=BA=A7=E5=B1=82\</strong=
-
-\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>ATOM, LINK, AVAX, OP =E7=AD=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>max_gain 500\</code\>, \<code\>groupOI =E2=89=A45\</code\>, \<code\>wallet=
-
-OI 15\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E9=A3=8E=E6=8E=A7=E6=9C=80=E4=BF=9D=E5=AE=88=EF=BC=9ATP=E4=B8=8E=E6=95=
-
-=9E=E5=8F=A3=E9=83=BD=E4=B8=8B=E8=B0=83=EF=BC=9B=E9=80=82=E7=94=A8=E4=BA=8E=
-
-=E4=BD=8E=E6=B5=81=E5=8A=A8=E6=80=A7=E4=B8=8E=E6=B3=A2=E5=8A=A8=E8=B5=84=E4=
-
-=BA=A7=E3=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>L4=EF=BC=9AMeme =E6=8A=95=E6=9C=BA=E5=B1=82\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>DOGE, PEPE, BONK, WIF, PUMP =E7=AD=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>max_gain 2500\</code\>, \<code\>groupOI 5=E2=80=9310\</code\>, \<code\>wal=
-
-letOI 50\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=B3=A2=E5=8A=A8=E6=9E=81=E9=AB=98=EF=BC=8C=E4=BD=86Max Position =E5=
-
-=8D=95=E6=88=B7=E5=A4=B4=E5=AF=B8=E9=99=90=E5=88=B6=E6=94=B6=E7=B4=A7=EF=BC=
-
-=9B=E7=BE=A4=E4=BD=93=E6=95=9E=E5=8F=A3=E7=95=A5=E5=B0=8F=EF=BC=8C=E5=81=8F=
-
-=E5=90=91=E7=9F=AD=E7=BA=BF=E6=8A=95=E6=9C=BA=E7=B1=BB=E8=B5=84=E4=BA=A7=E3=
-
-=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>L5=EF=BC=9ARWA =E5=B1=82\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>SPY, FX, GOLD =E7=AD=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>max_gain 500=E2=80=931000\</code\>, \<code\>groupOI 30=E2=80=93100\</co=
-
-de\>, \<code\>walletOI 15=E2=80=9350\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=A8=B3=E5=AE=9A=E6=94=B6=E7=9B=8A=EF=BC=8C=E9=85=8D=E7=BD=AE=E7=81=B5=
-
-=E6=B4=BB=EF=BC=9B\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Equities &amp; Indices TP=E8=BE=83=E9=AB=98=EF=BC=8C=E6=95=9E=E5=8F=A3zh=
-
-ong deng\</p\>\</li\>
-
-\<li\>
-
-\<p\>FX =E6=95=B4=E4=BD=93TP=E5=8C=BA=E9=97=B4=E5=AE=BD=EF=BC=8C=E9=83=A8=E5=
-
-=88=86USD/JPY =E7=AD=89=E9=AB=98=E6=B5=81=E5=8A=A8=E5=B8=81=E5=AF=B9=E8=AE=
-
-=BE=E6=9B=B4=E9=AB=98groupOI=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>Commod =E5=B1=9E=E4=BA=8E=E5=AF=B9=E5=86=B2=E7=B1=BB=E8=B5=84=E4=BA=A7=
-
-=EF=BC=8C=E6=94=B6=E7=9B=8A=E9=99=90=E5=88=B6=E4=BD=8E=E4=BD=86=E5=AE=B9=E8=
-
-=AE=B8=E8=BE=83=E9=AB=98=E6=80=BB=E4=BB=93=E6=95=9E=E5=8F=A3=EF=BC=88=E4=BE=
-
-=BF=E4=BA=8E=E8=B7=A8=E5=B8=82=E5=9C=BA=E5=A5=97=E5=88=A9=EF=BC=89=E3=80=82=
-
-\</p\>\</li\>
-
-\</ul\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>=E3=80=8CCrypto=E3=80=8D\</code\>\<strong\>=E5=88=86=E5=B1=82=E9=A3=8E=
-
-=E9=99=A9=E6=A8=A1=E5=9E=8B\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>BTC/ETH=E7=AD=89=E8=93=9D=E7=AD=B9 =E4=B8=BA \<strong\>=E9=A1=B6=E5=B1=82=
-
-=E6=B5=81=E5=8A=A8=E6=80=A7=E5=B1=82\</strong\>=EF=BC=9A=E6=9E=81=E9=AB=98=E6=
-
-=94=B6=E7=9B=8A=E4=B8=8A=E9=99=90=E4=B8=8E=E6=9C=80=E5=A4=A7OI=E9=99=90=E9=
-
-=A2=9D=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>Top10=E8=BF=99=E7=A7=8D=E4=B8=BB=E6=B5=81=E5=B8=81=E4=B8=BA \<strong\>=E4=
-
-=B8=AD=E5=B1=82=E7=A8=B3=E5=AE=9A=E5=B1=82\</strong\>=EF=BC=9A=E4=BD=8E=E6=94=
-
-=B6=E7=9B=8A=E4=B8=8A=E9=99=90=E3=80=81=E5=8F=97=E9=99=90=E7=BB=84OI=E3=80=
-
-=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=B1=B1=E5=AF=A8=E5=B8=81=E4=B8=BA \<strong\>=E5=BA=95=E5=B1=82=E9=AB=98=
-
-=E9=A3=8E=E9=99=A9=E5=B1=82\</strong\>=EF=BC=9A=E4=B8=A5=E6=A0=BC=E6=95=9E=E5=
-
-=8F=A3=E4=B8=8A=E9=99=90=EF=BC=8C=E6=94=B6=E7=9B=8A=E5=8F=97=E9=99=90=E3=80=
-
-=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>Meme =E4=B8=BA \<strong\>=E9=AB=98=E6=B3=A2=E5=8A=A8=E7=89=B9=E4=BE=8B=E5=
-
-=B1=82\</strong\>=EF=BC=9A=E6=94=B6=E7=9B=8A=E4=B8=8A=E9=99=90=E9=AB=98=EF=BC=
-
-=8C=E4=BD=86=E9=80=9A=E8=BF=87 groupOI =E6=8E=A7=E5=88=B6=E6=80=BB=E4=BD=93=
-
-=E6=9A=B4=E9=9C=B2=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>RWA\</code\>\<strong\> =E4=BD=93=E7=B3=BB=E5=88=86=E6=88=90=E4=B8=89=
-
-=E7=BB=84=EF=BC=9A\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>Equity &amp; Indices\</code\>=EF=BC=88SPY, QQQ =E7=AD=89=EF=BC=89=EF=
-
-=BC=9A1000% =E6=94=B6=E7=9B=8A=E4=B8=8A=E9=99=90=EF=BC=8C=E4=B8=AD=E7=AD=89=
-
-groupOI=EF=BC=9B\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>FX\</code\>=EF=BC=9A=E5=88=86=E5=B8=83 30=E2=80=9370%=EF=BC=8C=E8=AF=
-
-=B4=E6=98=8E=E6=B5=81=E5=8A=A8=E6=80=A7=E5=BC=BA=E3=80=81=E6=B3=A2=E5=8A=A8=
-
-=E4=BD=8E=EF=BC=9B\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>Commod\</code\>=EF=BC=9AgroupOI =E9=AB=98=E8=BE=BE 100%=EF=BC=8C=E8=
-
-=A7=86=E4=BD=9C=E9=A3=8E=E9=99=A9=E4=B8=AD=E6=80=A7=E8=B5=84=E4=BA=A7=E3=80=
-
-=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.4Curator/MarketCreation=E6=9C=BA=E5=
-
-=88=B6=EF=BC=88=E5=8F=82=E8=80=83MorphoCurate=EF=BC=89"\>2.4 Curator / Marke=
-
-t Creation =E6=9C=BA=E5=88=B6=EF=BC=88=E5=8F=82=E8=80=83 Morpho Curate=EF=
-
-=BC=89\</h2\>
-
-\<p\>=E6=B5=81=E7=A8=8B\</p\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>=E7=94=A8=E6=88=B7=E6=8F=90=E4=BA=A4 createMarketProposal\</p\>\</li\>
-
-\<li\>
-
-\<p\>Curator=E8=8A=82=E7=82=B9=E6=8A=95=E7=A5=A8=EF=BC=88&gt;=E2=85=94=E5=90=
-
-=8C=E6=84=8F=EF=BC=89 =E2=86=92 =E8=B0=83=E7=94=A8 approveMarket()\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E7=B3=BB=E7=BB=9F=E9=83=A8=E7=BD=B2=E6=96=B0Vault &amp; Market=E5=90=88=
-
-=E7=BA=A6\</p\>\</li\>
-
-\</ol\>
-
-\<p\>Curator =E6=9D=83=E9=99=90\<br\>\</p\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"6d=
-
-86452d-2e7f-4520-8b4d-c9e68a97a9f9" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=9D=83=E9=99=90=E7=AD=89=E7=BA=A7\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=83=BD=E5=8A=9B\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Admin Curator\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=89=B9=E5=87=86/=E5=86=BB=E7=BB=93=E5=B8=82=E5=9C=BA=EF=BC=8C=E4=BF=
-
-=AE=E6=94=B9=E5=85=A8=E5=B1=80=E5=8F=82=E6=95=B0\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Senior Curator\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AE=A1=E6=A0=B8=E6=8F=90=E6=A1=88=EF=BC=8C=E8=B0=83=E6=95=B4PnL Cap=
-
-=E6=88=96Funding=E5=8F=82=E6=95=B0\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Junior Curator\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=8F=90=E4=BE=9BOracle=E8=AF=84=E5=AE=A1=E4=B8=8E=E6=95=B0=E6=8D=AE=E7=
-
-=AD=BE=E5=90=8D\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>=E8=B4=A8=E6=8A=BC=E4=B8=8E=E6=83=A9=E7=BD=9A\<br\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=88=9B=E5=BB=BA=E8=80=85=E9=9C=80=E8=B4=A8=E6=8A=BC \$CURATE token\$\</p=
-
-\>\</li\>
-
-\<li\>
-
-\<p\>=E8=8B=A5=E5=B8=82=E5=9C=BA=E5=87=BA=E7=8E=B0Oracle=E6=93=8D=E7=BA=B5=E3=
-
-=80=81=E5=BC=82=E5=B8=B8PnL=E8=B6=85=E9=99=90=EF=BC=8C=E5=88=99=E6=89=A3=E9=
-
-=99=A4=E8=B4=A8=E6=8A=BC\</p\>\</li\>
-
-\</ul\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.5FeeStructure/KeyParams"\>2.5 Fee Str=
-
-ucture / Key Params\</h2\>
-
-\<blockquote\>
-
-\<p\>=E8=AF=A6=E8=A7=81=EF=BC=9A\<a href=3D"https://hertzflow.atlassian.net/wi=
-
-ki/spaces/H/pages/6324231/Research\_#Table2---%E7%AB%9E%E5%93%81%E5%8F%82%E6=
-
-%95%B0%E9%85%8D%E7%BD%AE%E8%A1%A8%E6%A0%BC" data-linked-resource-id=3D"6324=
-
-231" data-linked-resource-version=3D"38" data-linked-resource-type=3D"page"=
-
-\>Research\_=E7=AB=9E=E5=93=81=E5=8A=9F=E8=83=BD &amp; =E5=85=B3=E9=94=AE=E5=
-
-=8F=82=E6=95=B0\</a\>\</p\>
-
-\</blockquote\>
-
-\<p\>=E5=8D=8F=E8=AE=AE=E5=B1=82=EF=BC=88Gmx V2=EF=BC=89 + Vault=E5=B1=82=EF=
-
-=BC=88Morpho=EF=BC=89\<br\>\</p\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"bf=
-
-593943-bc54-45da-8fb2-dd86627ae23f" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8F=82=E6=95=B0=E7=B1=BB=E5=9E=8B\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=AE=A1=E7=AE=97=E6=96=B9=E5=BC=8F\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=B0=83=E6=95=B4=E9=80=BB=E8=BE=91\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Open/Close Fee Rate\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>4 bps / 6bps\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>=E5=A4=9A=E7=A9=BA=E5=A4=B4=E5=AF=B8=E5=81=8F=E5=B7=AE =EF=BD=9C=
-
-OI_diff=EF=BD=9C=E5=8A=A8=E6=80=81=E8=B0=83=E8=8A=82=E6=88=96=E9=80=89=E5=
-
-=8F=96\</strong\>\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Swap Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9F=BA=E7=A1=80=E8=B4=B9=E7=8E=87 + =E5=8A=A8=E6=80=81=E6=BB=91=E7=82=
-
-=B9\<br\>\<strong\>GMX\</strong\>\<br\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>nst=EF=BC=9A5 / 7bps\</strong\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>st=EF=BC=9A0.5 / 2bps \</strong\>\<br\>\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\<strong\>JUP\</strong\>\<br\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>nst_swap=EF=BC=9A10 bps; st_swap=EF=BC=9A2 bps\</strong\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>nst_tax=EF=BC=9A500 bps; st_tax=EF=BC=9A50 bps\</strong\>\</p\>\</li\>
-
-\</ul\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>=E6=B1=A0=E5=AD=90=E6=9D=83=E9=87=8D=E5=81=8F=E5=B7=AE \|weight_d=
-
-iff\| =E5=8A=A8=E6=80=81=E8=B0=83=E8=8A=82=E6=88=96=E9=80=89=E5=8F=96 - \</st=
-
-rong\>\<a class=3D"external-link" href=3D"https://github.com/julianfssen/jupi=
-
-ter-perps-anchor-idl-parsing/blob/main/src/examples/calculate-swap-amount-a=
-
-nd-fee.ts?utm_source=3Dchatgpt.com" rel=3D"nofollow"\>\<strong\>=E4=BB=A3=E7=
-
-=A0=81=E5=AE=9E=E7=8E=B0\</strong\>\</a\>\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Price Impact Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=8C=87=E6=95=B0=E6=A8=A1=E5=9E=8B =EF=BC=88GMX=EF=BC=89\<br\>\<strong\>=
-
-=CE=94^exp =C3=97 factor \</strong\>=E5=BD=A2=E5=BC=8F=EF=BC=8Cexp=3D2\</p\>\</l=
-
-i\>
-
-\<li\>
-
-\<p\>=E5=88=86=E6=AE=B5=E7=BA=BF=E6=80=A7 + =E6=8C=87=E6=95=B0=E6=A8=A1=E5=9E=
-
-=8B =EF=BC=88JUP=EF=BC=89\</p\>\</li\>
-
-\<li\>
-
-\<p\>TODO=EF=BC=9A\<br\>\<strong\>=CE=94^exp =C3=97 factor \</strong\>=E5=BD=A2=E5=
-
-=BC=8F\</p\>\</li\>
-
-\<li\>
-
-\<p\>Price Impact Cap=EF=BC=9A\<strong\>50bps\</strong\>\</p\>\</li\>
-
-\</ul\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>=E6=A0=B9=E6=8D=AE=E5=A4=9A=E7=A9=BA=E5=A4=B4=E5=AF=B8=E5=81=8F=
-
-=E5=B7=AE=EF=BD=9COI_diff=EF=BD=9C=E5=8A=A8=E6=80=81=E8=B0=83=E8=8A=82 - JU=
-
-P\</strong\>\<a class=3D"external-link" href=3D"https://github.com/julianfssen=
-
-/jupiter-perps-anchor-idl-parsing/blob/main/src/examples/price-impact-fee.t=
-
-s" rel=3D"nofollow"\>\<strong\>=E4=BB=A3=E7=A0=81=E5=AE=9E=E7=8E=B0\</strong\>\</=
-
-a\>\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Funding/Borrow Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Funding/Borrow (Jup =E6=97=A0funding=EF=BC=89\</strong\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>Borrow=EF=BC=9A=E6=A0=B9=E6=8D=AE=E5=88=A9=E7=94=A8=E7=8E=87=E5=88=86=E6=
-
-=AE=B5=E7=BA=BF=E6=80=A7=E6=A8=A1=E5=9E=8B\</p\>\</li\>
-
-\<li\>
-
-\<p\>Funding=EF=BC=9A=E6=8C=87=E6=95=B0=E6=A8=A1=E5=9E=8B \<strong\>=CE=94^exp =
-
-=C3=97 factor \</strong\>=E5=BD=A2=E5=BC=8F\<strong\>=EF=BC=88=E6=A0=B9=E6=8D=
-
-=AE=E5=A4=9A=E7=A9=BA=E5=A4=B4=E5=AF=B8=E5=81=8F=E5=B7=AE=EF=BD=9COI_diff=
-
-=EF=BD=9C=E5=8A=A8=E6=80=81=E8=B0=83=E8=8A=82 - GMX=EF=BC=89\</strong\>\</p\>\</=
-
-li\>
-
-\<li\>
-
-\<p\>Funding=EF=BC=9A=E4=B8=8D=E6=94=B6=E8=B4=B9=EF=BC=8C=E9=92=88=E5=AF=B9\<c=
-
-ode\>OI Skew &gt;=3D 55%\</code\>=E6=97=B6=E8=BF=94=E8=BF=98 \<a class=3D"exter=
-
-nal-link" href=3D"https://docs.avantisfi.com/rewards/loss-rebates" rel=3D"n=
-
-ofollow"\>0%~20% Loss Rebate\</a\> =EF=BC=88Avnt=EF=BC=89\</p\>\</li\>
-
-\</ul\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A4=9A=E7=A9=BA=E4=B8=8D=E5=B9=B3=E8=A1=A1=E5=BA=A6 =C3=97 funding_ra=
-
-te_window=EF=BC=9B=E6=A0=B9=E6=8D=AE pool imbalance =E5=AE=9E=E6=97=B6=E8=
-
-=B0=83=E8=8A=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Liquidation Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9B=BA=E5=AE=9A + =E5=8A=A8=E6=80=81=EF=BC=88=E9=9A=8F=E6=9D=A0=E6=9D=
-
-=86=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=90=91LP=E6=B1=A0=E8=BF=94=E8=BF=98\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>RWA Carry Fee=EF=BC=88=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=8B=A5LP=E8=B5=84=E4=BA=A7=E9=85=8D=E7=BD=AERWA=EF=BC=8C=E6=94=B6=E7=
-
-=9B=8A=E5=88=86=E6=88=90x%\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=87=AA=E5=8A=A8=E5=A4=8D=E6=8A=95=E6=88=96=E5=9B=9E=E8=B4=AD=E4=BB=A3=
-
-=E5=B8=81\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Max Lev\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>100=C3=97 \</strong\>(SOL)\<br\>\<strong\>150=C3=97 \</strong\>(ETH &amp=
-
-; wBTC)\<br\>\<strong\>5-500x \</strong\>(Crypto)\<br\>\<strong\>25x \</strong\>(Equiti=
-
-es)\<br\>\<strong\>100x \</strong\>(Indices)\<br\>\<strong\>50-1000x\</strong\> (FX)\<br=
-
-\>\<strong\>50-100x\</strong\> (Commod)\</p\>\</li\>
-
-\</ul\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=B8=85=E7=AE=97=E6=9C=BA=E5=88=B6\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GMX\<br\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=B8=85=E7=AE=97=E4=BB=B7=E6=A0=BC=EF=BC=9A=E9=80=9A=E8=BF=87=E4=BF=9D=
-
-=E8=AF=81=E9=87=91=E7=8E=87=E8=AE=A1=E7=AE=97 \<code\>(C + PnL - F) / S &lt; =
-
-MMR=EF=BC=9B\</code\>\<strong\>MMR: 0.4%-1% \</strong\>=E6=A0=B9=E6=8D=AE=E5=B8=
-
-=82=E5=9C=BA=E4=B8=8D=E5=90=8C=E9=85=8D=E7=BD=AE\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E6=B8=85=E7=AE=97=E5=90=8E=EF=BC=9A\</strong\>=E5=89=A9=E4=BD=99\<=
-
-strong\>=E8=BF=94=E8=BF=98\</strong\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E6=B8=85=E7=AE=97=E8=B4=B9=EF=BC=9A\</strong\>\<br\>
-
-=E9=9D=9E=E5=90=88=E6=88=90=EF=BC=88=E5=A4=9A=E4=BB=93=E5=82=A8=E5=A4=87=E5=
-
-=8D=B3=E6=A0=87=E7=9A=84=E8=B5=84=E4=BA=A7=EF=BC=89=EF=BC=9A\<strong\>0.2%\</s=
-
-trong\>\<br\>
-
-=E5=90=88=E6=88=90=EF=BC=88=E5=A4=9A=E4=BB=93=E5=82=A8=E5=A4=87=E9=9D=9E=E6=
-
-=A0=87=E7=9A=84=E8=B5=84=E4=BA=A7=EF=BC=89=EF=BC=9A\<strong\>0.3%\</strong\>\<br=
-
-\>
-
-=E9=AB=98=E6=B3=A2=E5=8A=A8 / =E6=96=B0=E4=B8=8A=E5=B8=82=EF=BC=9A\<strong\>0=
-
-.45%\</strong\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>ADL=EF=BC=9A\</strong\>\<br\>\<strong\>=E5=85=A8=E9=A2=9D=E5=82=A8=E5=
-
-=A4=87=EF=BC=9A=E6=97=A0ADL\</strong\>=E3=80=82=E5=9B=A0=E4=B8=BA=E6=9C=89\<co=
-
-de\>Max OI =3D 90% Avlb Liq\</code\>=E7=9A=84hard cap\<br\>\<strong\>=E9=9D=9E=E5=
-
-=85=A8=E9=A2=9D=E5=82=A8=E5=A4=87=EF=BC=9A\</strong\>\<code\>Total PnL / TVL &g=
-
-t; maxPnlFactor\</code\>=E6=97=B6=E9=92=88=E5=AF=B9=E7=9B=88=E5=88=A9=E4=BB=
-
-=93=E4=BD=8D\</p\>\</li\>
-
-\</ul\>
-
-\<p\>AVNT\<br\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=B8=85=E7=AE=97=E4=BB=B7=E6=A0=BC=EF=BC=9A=E9=80=9A=E8=BF=87=E4=BF=9D=
-
-=E8=AF=81=E9=87=91=E5=8F=98=E5=8C=96=E6=AF=94=E4=BE=8B (Collateral Health R=
-
-atio) =E8=AE=A1=E7=AE=97 \<code\>(C + PnL - F) / C =E2=89=A4 80%\</code\>\</p\>\</=
-
-li\>
-
-\<li\>
-
-\<p\>\<strong\>MMR: =E5=8A=A8=E6=80=81\</strong\> \<code\>80% / L\</code\>=E3=80=82L=
-
-=E4=B8=BA=E5=BD=93=E5=89=8D=E4=BB=93=E4=BD=8Dlev=EF=BC=8C=E8=80=8C=E9=9D=9E=
-
-max lev\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E6=B8=85=E7=AE=97=E5=90=8E=EF=BC=9A\</strong\>=E5=89=A9=E4=BD=99\<=
-
-strong\>=E5=85=A8=E9=83=A8\</strong\>=E6=B7=BB=E5=8A=A0=E8=87=B3Insurance Vaul=
-
-t=EF=BC=8C=E7=94=A8=E4=BA=8E=E6=94=AF=E4=BB=98=E4=BA=A4=E6=98=93=E8=80=85=
-
-=E7=9B=88=E5=88=A9=E3=80=82=E4=B8=8D=E7=AE=97=E5=81=9ALP=E6=94=B6=E7=9B=8A=
-
-=EF=BC=8C=E5=90=8C=E6=97=B6=E9=A3=8E=E9=99=A9LP=E4=B8=8D=E5=BF=85=E6=89=BF=
-
-=E6=8B=85=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E6=B8=85=E7=AE=97=E8=B4=B9=EF=BC=9A15%=E7=BB=99keeper\</strong\>\<=
-
-br\>\</p\>\</li\>
-
-\</ul\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E9=A3=8E=E6=8E=A7=E5=8F=82=E6=95=B0\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>\</p\>
-
-\<p\>Zokyo\</p\>
-
-\<p\>\</p\>
-
-\<h1 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=89=E3=80=81=E4=BA=A7=E5=93=81=
-
-=E9=9C=80=E6=B1=82(=E6=8C=89=E5=8D=8F=E8=AE=AE+vault=E7=9A=84=E6=83=85=E5=
-
-=86=B5=E6=9D=A5=E5=88=86=E7=B1=BB)"\>=E4=B8=89=E3=80=81=E4=BA=A7=E5=93=81=E9=
-
-=9C=80=E6=B1=82 (=E6=8C=89=E5=8D=8F=E8=AE=AE+vault=E7=9A=84=E6=83=85=E5=86=
-
-=B5=E6=9D=A5=E5=88=86=E7=B1=BB)\</h1\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"ae=
-
-0f8d59-9453-4319-9a85-d0a306593f43" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=A8=A1=E5=9D=97\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8A=9F=E8=83=BD\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AF=B9=E5=BA=94=E6=9C=BA=E5=88=B6\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=94=B6=E7=9B=8A=E6=9D=A5=E6=BA=90\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Isolated Pool=EF=BC=88=E9=9A=94=E7=A6=BB=E6=B1=A0=EF=BC=89\</stro=
-
-ng\>\<br\>
-
-GMX v2\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8D=95=E4=B8=80=E5=B8=82=E5=9C=BA=E5=AF=B9=E5=BA=94=E7=9A=84 GM Pool=
-
-=EF=BC=88=E5=A6=82 ETH/USD=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=8B=AC=E7=AB=8B Vault=EF=BC=8C=E7=8B=AC=E7=AB=8B=E9=A3=8E=E9=99=A9=E4=
-
-=B8=8E=E8=B5=84=E9=87=91=E5=88=A9=E7=94=A8=E7=8E=87\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Funding=E3=80=81Borrow=E3=80=81Trading Fee\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Aggregated Pool=EF=BC=88=E8=81=9A=E5=90=88=E6=B1=A0 / GLV=EF=BC=
-
-=89\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=87=AA=E5=8A=A8=E8=81=9A=E5=90=88=E5=A4=9A=E4=B8=AA GM Pool=EF=BC=8C=
-
-=E6=8C=89=E9=A3=8E=E9=99=A9=E6=9D=83=E9=87=8D=E5=8A=A8=E6=80=81=E5=B9=B3=E8=
-
-=A1=A1\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GLV Vault=EF=BC=88GMX v2 =E5=8E=9F=E7=94=9F=E7=BB=93=E6=9E=84=EF=BC=89\</=
-
-p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=90=84 GM Pool =E7=9A=84=E5=B9=B3=E5=9D=87=E5=B9=B4=E5=8C=96\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Curator Whitelist Pool\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=94=B1=E7=AC=AC=E4=B8=89=E6=96=B9=E7=AD=96=E7=95=A5=E7=AE=A1=E7=90=86=
-
-=EF=BC=88=E9=9C=80=E7=99=BD=E5=90=8D=E5=8D=95=E8=AE=B8=E5=8F=AF=EF=BC=89\</p=
-
-\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=8B=AC=E7=AB=8B USDC Vault=EF=BC=8C=E6=89=A7=E8=A1=8C RWA/DeFi =E7=AD=
-
-=96=E7=95=A5\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>RWA Coupon + GMX LP=E6=94=B6=E7=9B=8A\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>RWA-backed Reserve Vault\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E4=BD=8E=E9=A3=8E=E9=99=A9=E5=9B=BD=E5=80=BA=E7=AD=89=E5=AE=9E=E7=89=A9=
-
-=E8=B5=84=E4=BA=A7=E6=8A=B5=E6=8A=BC\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8F=AF=E6=8A=B5=E6=8A=BC=E7=A8=B3=E5=AE=9A=E5=B8=81 (USDC / tBill / s=
-
-DAI)\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A4=96=E9=83=A8=E5=9B=BA=E5=AE=9A=E6=94=B6=E7=9B=8A\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-3.1LPPool"\>3.1 LP Pool\</h2\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E6=94=B6=E7=9B=8A=E6=8C=87=E6=A0=87=
-
-=E4=BD=93=E7=B3=BB"\>=E6=94=B6=E7=9B=8A=E6=8C=87=E6=A0=87=E4=BD=93=E7=B3=BB\<=
-
-/h3\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"4c=
-
-856011-634f-44b1-998c-9909eb81c96d" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=8C=87=E6=A0=87\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=90=AB=E4=B9=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=AE=A1=E7=AE=97=E9=80=BB=E8=BE=91\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Fee APY\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AE=9E=E9=99=85=E5=9F=BA=E4=BA=8E=E5=8D=8F=E8=AE=AE=E8=B4=B9=E7=94=A8=
-
-=EF=BC=88swap + funding + borrow=EF=BC=89=E7=9A=84=E5=B9=B4=E5=8C=96=E6=94=
-
-=B6=E7=9B=8A\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=9D=A5=E8=87=AA=E9=93=BE=E4=B8=8A fee accruals\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Ann. Performance\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=8F=8D=E6=98=A0LPToken=E7=9B=B8=E5=
-
-=AF=B9=E4=BA=8E=E5=9F=BA=E5=87=86=EF=BC=88UniswapV2=E6=A8=A1=E5=BC=8F=E5=86=
-
-=8D=E5=B9=B3=E8=A1=A1=E7=9A=84backingtokens=EF=BC=89=E7=9A=84=E6=94=B6=E7=
-
-=9B=8A=E5=B7=AE=E5=BC=82=E3=80=82"\>=E5=8F=8D=E6=98=A0 LP Token =E7=9B=B8=E5=
-
-=AF=B9=E4=BA=8E=E5=9F=BA=E5=87=86=EF=BC=88Uniswap V2 =E6=A8=A1=E5=BC=8F=E5=
-
-=86=8D=E5=B9=B3=E8=A1=A1=E7=9A=84 backing tokens=EF=BC=89=E7=9A=84=E6=94=B6=
-
-=E7=9B=8A=E5=B7=AE=E5=BC=82=E3=80=82\</h3\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>?\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>LP Price\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Pool =E4=BB=BD=E9=A2=9D=E5=8D=95=E4=BB=B7=EF=BC=8C=E5=8F=8D=E6=98=A0=E8=
-
-=B5=84=E4=BA=A7=E4=B8=8E=E8=B4=9F=E5=80=BA=E5=8F=98=E5=8C=96\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>LP Price =3D (Total Assets - Liabilities) / Supply\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E6=AF=8F=E4=B8=AALPVault=E7=8B=AC=E7=
-
-=AB=8B=E8=AE=B0=E5=BD=95=E8=B5=84=E4=BA=A7=E5=87=80=E5=80=BC=E3=80=81=E6=9C=
-
-=AA=E5=AE=9E=E7=8E=B0=E6=94=B6=E7=9B=8A=E3=80=81PnLCap=E9=99=90=E5=88=B6=EF=
-
-=BC=9A"\>=E6=AF=8F=E4=B8=AA LP Vault =E7=8B=AC=E7=AB=8B=E8=AE=B0=E5=BD=95=E8=
-
-=B5=84=E4=BA=A7=E5=87=80=E5=80=BC=E3=80=81=E6=9C=AA=E5=AE=9E=E7=8E=B0=E6=94=
-
-=B6=E7=9B=8A=E3=80=81PnLCap =E9=99=90=E5=88=B6=EF=BC=9A\</h3\>
-
-\<p\>=E8=B5=84=E9=87=91=E6=B5=81=E5=90=91\<br\>\</p\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"87=
-
-c80f0f-6269-4565-89a7-4ae81ce9c13c" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E4=BA=8B=E4=BB=B6\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>LP =E8=A1=8C=E4=B8=BA\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=B5=84=E4=BA=A7=E5=8F=98=E5=8C=96\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Deposit\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A2=9E=E5=8A=A0=E6=B5=81=E5=8A=A8=E6=80=A7\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>totalLiquidity +=3D amount\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Withdraw\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=87=8F=E5=B0=91=E6=B5=81=E5=8A=A8=E6=80=A7\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=A7=A6=E5=8F=91=E7=BB=93=E7=AE=97=EF=BC=88=E8=8B=A5=E6=9C=89=E6=9C=AA=
-
-=E5=AE=9E=E7=8E=B0PnL=EF=BC=89\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Swap/Borrow\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>RWA Yield\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>RWA =E6=94=B6=E7=9B=8A=E5=88=86=E9=85=8D\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>vault.totalLiquidity +=3D vault.rwaExposure \* yield\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-3.2=E8=87=AA=E4=B8=BB=E5=BB=BA=E6=B1=
-
-=A0=EF=BC=88CuratedMarketCreation=EF=BC=89"\>3.2 =E8=87=AA=E4=B8=BB=E5=BB=BA=
-
-=E6=B1=A0=EF=BC=88Curated Market Creation=EF=BC=89\</h2\>
-
-\<p\>\</p\>
-
-\<p\>\<strong\>=E6=B5=81=E7=A8=8B=EF=BC=88=E7=B1=BB=E4=BC=BC Morpho Curate=EF=
-
-=BC=89\</strong\>=EF=BC=9A\<br\>\</p\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>=E7=94=A8=E6=88=B7=E7=94=B3=E8=AF=B7=E6=96=B0=E5=B8=82=E5=9C=BA=EF=BC=88=
-
-=E6=8C=87=E5=AE=9A=E6=A0=87=E7=9A=84=E3=80=81=E6=8A=B5=E6=8A=BC=E3=80=81=E6=
-
-=9D=A0=E6=9D=86=E3=80=81Oracle=E6=BA=90=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E7=B3=BB=E7=BB=9F=E8=BF=9B=E5=85=A5 =E2=80=9CProposal=E2=80=9D =E7=8A=
-
-=B6=E6=80=81=EF=BC=8CCurator =E8=8A=82=E7=82=B9=E6=8A=95=E7=A5=A8=E6=88=96=
-
-=E7=99=BD=E5=90=8D=E5=8D=95=E6=89=B9=E5=87=86=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=8B=A5=E6=89=B9=E5=87=86=EF=BC=8C=E8=87=AA=E5=8A=A8=E9=83=A8=E7=BD=B2=
-
-=E5=AF=B9=E5=BA=94 Vault + MarketConfig =E5=90=88=E7=BA=A6=E3=80=82\</p\>\</li=
-
-\>
-
-\<li\>
-
-\<p\>Pool =E5=88=9D=E5=A7=8B=E5=8C=96=E6=97=B6=E9=9C=80=EF=BC=9A\</p\>\</li\>
-
-\</ol\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E8=AE=BE=E7=BD=AE=E5=88=9D=E5=A7=8B Target Weight\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E9=85=8D=E7=BD=AE Oracle =E6=95=B0=E6=8D=AE=E6=BA=90\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E7=BB=91=E5=AE=9A Fee =E6=A8=A1=E5=9E=8B=E4=B8=8E=E9=A3=8E=E9=99=A9=E5=
-
-=8F=82=E6=95=B0\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\<strong\>=E5=8F=82=E6=95=B0=E7=BA=A6=E6=9D=9F=EF=BC=9A\</strong\>\<br\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=88=9D=E5=A7=8B=E6=B1=A0=E9=9C=80 =E2=89=A5 100K USD TVL\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=A0=87=E7=9A=84=E9=9C=80=E5=9C=A8 whitelisted_oracles =E5=86=85\</p\>\</=
-
-li\>
-
-\<li\>
-
-\<p\>Creator =E9=9C=80=E6=8A=B5=E6=8A=BC Curator Token =E6=88=96=E8=B4=A8=E6=
-
-=8A=BC=E6=B2=BB=E7=90=86=E4=BB=A3=E5=B8=81\</p\>\</li\>
-
-\</ul\>
-
-\<p\>\</p\>
-
-\<p\>Curator =E6=9D=83=E9=99=90=E4=B8=8E=E6=B2=BB=E7=90=86=E5=B1=82=E7=BA=A7\<=
-
-br\>\</p\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"48=
-
-c820c4-5d75-457c-bf58-fe1c4f2086ba" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=A7=92=E8=89=B2\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=9D=83=E9=99=90\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=A4=BA=E4=BE=8B\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Admin Curator\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AE=A1=E6=89=B9/=E6=92=A4=E9=94=80=E5=B8=82=E5=9C=BA\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AE=98=E6=96=B9=E6=B2=BB=E7=90=86=E5=A7=94=E5=91=98=E4=BC=9A\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Curator Node\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=AF=84=E5=AE=A1=E5=B8=82=E5=9C=BA=E9=A3=8E=E9=99=A9=EF=BC=8C=E6=8F=90=
-
-=E8=AE=AE=E5=8F=82=E6=95=B0=E5=8F=98=E6=9B=B4\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>DAO =E8=8A=82=E7=82=B9=E6=88=96=E4=B8=93=E4=B8=9A=E5=81=9A=E5=B8=82=E6=
-
-=9C=BA=E6=9E=84\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Creator\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8F=91=E8=B5=B7=E5=B8=82=E5=9C=BA=E5=88=9B=E5=BB=BA=E6=8F=90=E6=A1=88=
-
-\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=94=A8=E6=88=B7=E6=88=96=E6=9C=BA=E6=9E=84\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Reviewer\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=8F=90=E4=BE=9B=E6=95=B0=E6=8D=AE/Oracle=E9=AA=8C=E8=AF=81\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=99=BD=E5=90=8D=E5=8D=95=E6=95=B0=E6=8D=AE=E6=8F=90=E4=BE=9B=E6=96=B9=
-
-\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>\<strong\>=E6=BF=80=E5=8A=B1=EF=BC=9A\</strong\>\<br\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=AE=A1=E6=A0=B8=E5=A5=96=E5=8A=B1=EF=BC=88=E6=8C=89=E4=BA=A4=E6=98=93=
-
-=E9=87=8F=E5=88=86=E9=85=8D=EF=BC=89\</p\>\</li\>
-
-\<li\>
-
-\<p\>Curator Token =E5=A5=96=E5=8A=B1=E4=B8=8E=E5=A3=B0=E8=AA=89=E5=80=BC=E5=
-
-=A2=9E=E9=95=BF\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=BF=9D=E8=A7=84=E6=88=96=E9=94=99=E8=AF=AF=E5=86=B3=E7=AD=96=E5=B0=86=
-
-=E6=89=A3=E9=99=A4=E8=B4=A8=E6=8A=BC\</p\>\</li\>
-
-\</ul\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-3.3Referral/=E4=BA=A4=E6=98=93=E6=8C=
-
-=96=E7=9F=BF/Leaderboard"\>3.3 Referral / =E4=BA=A4=E6=98=93=E6=8C=96=E7=9F=
-
-=BF / Leaderboard\</h2\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Referral =E7=BB=93=E6=9E=84\</strong\>=EF=BC=9A=E4=BA=8C=E7=BA=A7=
-
-=E5=88=86=E6=B6=A6=EF=BC=8C=E6=94=AF=E6=8C=81=E7=BB=91=E5=AE=9AUID=E3=80=82=
-
-\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E4=BA=A4=E6=98=93=E6=8C=96=E7=9F=BF=E6=A8=A1=E5=9E=8B\</strong\>=
-
-=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=AF=8F=E6=97=A5=E4=BA=A4=E6=98=93=E9=87=8F=E7=A7=AF=E5=88=86=E8=AE=A1=
-
-=E7=AE=97=EF=BC=9A\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>score =
-
-=3D volume_usd \* weight_asset \* fee_multiplier\</pre\>
-
-\</div\>
-
-\</div\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=AF=8F=E5=91=A8=E6=8E=92=E8=A1=8C=E6=A6=9C=E5=8F=91=E5=A5=96=EF=BC=88=
-
-=E5=8F=82=E8=80=83 Jupiter =E7=9A=84 Leaderboard=EF=BC=89\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E5=A5=96=E5=8A=B1=E5=BD=A2=E5=BC=8F\</strong\>=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=B9=B3=E5=8F=B0=E4=BB=A3=E5=B8=81\</p\>\</li\>
-
-\<li\>
-
-\<p\>Vault Fee Rebate\</p\>\</li\>
-
-\<li\>
-
-\<p\>NFT =E5=BE=BD=E7=AB=A0=E6=88=96=E6=B2=BB=E7=90=86=E6=9D=83=E6=8A=95=E7=
-
-=A5=A8=E6=9D=83\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-3.4=E9=A3=8E=E9=99=A9=E4=B8=8E=E8=BE=
-
-=B9=E7=95=8C=E5=A4=84=E7=90=86"\>\<strong\>3.4 =E9=A3=8E=E9=99=A9=E4=B8=8E=E8=
-
-=BE=B9=E7=95=8C=E5=A4=84=E7=90=86\</strong\>\</h2\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"3b=
-
-366d0c-14b3-47fb-971c-750f448daeed" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9C=BA=E6=99=AF\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A4=84=E7=90=86=E6=96=B9=E5=BC=8F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Oracle=E6=96=AD=E5=B1=82 &gt;120s\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=9A=82=E5=81=9C=E5=B8=82=E5=9C=BA=EF=BC=8C=E5=86=BB=E7=BB=93=E6=B8=85=
-
-=E7=AE=97\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>RWA =E5=B8=82=E5=9C=BA=E5=85=B3=E9=97=AD\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=BB=B6=E8=BF=9FPnL=E7=BB=93=E7=AE=97\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>PnL=E8=B6=85Cap\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=BC=BA=E5=88=B6=E8=A3=81=E5=89=AA=E5=B9=B6=E8=AE=B0=E5=BD=95=E4=BA=8B=
-
-=E4=BB=B6\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Funding=E5=BC=82=E5=B8=B8\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9B=9E=E9=80=80=E8=87=B3=E4=B8=8A=E6=AC=A1=E6=9C=89=E6=95=88=E5=80=BC=
-
-\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Curator=E6=BB=A5=E6=9D=83\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>DAO=E6=8A=95=E7=A5=A8=E5=9B=9E=E6=BB=9A=E6=8F=90=E6=A1=88\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>\</p\>
-
-\<h1 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=BA=8C=E3=80=81=E7=AB=9E=E5=93=81=
-
-=E6=9E=B6=E6=9E=84=E8=B0=83=E7=A0=94.1"\>=E4=BA=8C=E3=80=81=E7=AB=9E=E5=93=
-
-=81=E6=9E=B6=E6=9E=84=E8=B0=83=E7=A0=94\</h1\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.1=E6=A8=A1=E5=9D=97=E5=88=86=E5=B1=
-
-=82"\>2.1 =E6=A8=A1=E5=9D=97=E5=88=86=E5=B1=82\</h2\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f6=
-
-9c5247-1b95-41d4-a97d-7fd11fa07602" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=A8=A1=E5=9D=97\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=8A=9F=E8=83=BD\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=8F=82=E8=80=83=E6=9C=BA=E5=88=B6\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>VaultManager\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>LP =E6=B1=A0=E4=B8=8E=E8=B5=84=E4=BA=A7=E7=AE=A1=E7=90=86\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GMX V2\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>MarketManager\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=B8=82=E5=9C=BA=E5=8F=82=E6=95=B0=E4=B8=8E=E6=92=AE=E5=90=88=E6=8E=A7=
-
-=E5=88=B6\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GMX V2\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>RWAOracle =EF=BC=88Offchain=EF=BC=9F=EF=BC=89\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=9C=9F=E5=AE=9E=E8=B5=84=E4=BA=A7=E4=BB=B7=E6=A0=BC=E4=B8=8E=E6=94=B6=
-
-=E7=9B=8A=E5=90=8C=E6=AD=A5=EF=BC=8C=E4=B8=8ERWA=E6=89=98=E7=AE=A1=E6=96=B9=
-
-=EF=BC=88Ondo, Maple=E7=AD=89=EF=BC=89=E5=AF=B9=E6=8E=A5\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Avantis\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>CuratorRegistry\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=B8=82=E5=9C=BA=E7=99=BD=E5=90=8D=E5=8D=95=E4=B8=8E=E6=8A=95=E7=A5=A8=
-
-=E6=B2=BB=E7=90=86\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Morpho Curate\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>RewardDistributor\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Referral =E4=B8=8E=E6=8C=96=E7=9F=BF=E5=A5=96=E5=8A=B1=E5=88=86=E5=8F=91=
-
-\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Jupiter\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>RiskEngine\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>PnL Cap =E9=99=90=E5=88=B6=E4=B8=8E=E8=B5=84=E9=87=91=E8=B4=B9=E7=8E=87=
-
-=E8=AE=A1=E7=AE=97\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GMX + Avantis\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.2=E5=A4=9A=E9=9A=94=E7=A6=BBLP=E6=B1=
-
-=A0=EF=BC=88Multi-IsolatedVaults=EF=BC=89"\>2.2 =E5=A4=9A=E9=9A=94=E7=A6=BB =
-
-LP =E6=B1=A0=EF=BC=88Multi-Isolated Vaults=EF=BC=89\</h2\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E6=95=B0=E6=8D=AE=E7=BB=93=E6=9E=84"\>=
-
-=E6=95=B0=E6=8D=AE=E7=BB=93=E6=9E=84\</h3\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>struct =
-
-VaultConfig { // =E6=AF=8F=E4=B8=AA=E5=B8=82=E5=9C=BA=E5=AF=B9=E5=
-
-=BA=94=E4=B8=80=E4=B8=AA/=E5=A4=9A=E4=B8=AA=E7=8B=AC=E7=AB=8BLP Vault
-
-address baseAsset; // =E6=A0=87=E7=9A=84=E8=B5=84=E4=BA=A7=EF=
-
-=BC=8C=E5=A6=82BTC, GOLD, FX
-
-address collateralToken; // =E6=8A=B5=E6=8A=BC=E8=B5=84=E4=BA=A7, =E5=
-
-=A6=82USDC, USDT, BTC, SUI
-
-uint256 pnlCapRatio; // =E6=9C=80=E5=A4=A7=E5=8F=AF=E5=88=86=E9=
-
-=85=8DPnL=E4=B8=8A=E9=99=90=EF=BC=88=E5=A6=8220%=EF=BC=89
-
-uint256 fundingRateK; // Funding=E8=B4=B9=E7=8E=87=E5=8F=82=E6=95=
-
-=B0
-
-uint256 imbalanceThreshold;// Funding=E8=A7=A6=E5=8F=91=E9=98=88=E5=80=
-
-=BC
-
-bool isRWA; // =E6=98=AF=E5=90=A6=E4=B8=BARWA=E6=B1=A0
-
-address rwaOracle; // =E8=8B=A5=E4=B8=BARWA=EF=BC=8C=E5=85=B3=
-
-=E8=81=94=E7=9A=84Oracle
-
-uint256 rwaCarryRate; // RWA=E6=94=B6=E7=9B=8A=E5=B9=B4=E5=8C=96
-
+- `RWA` **体系分成三组：**
+
+  - `Equity & Indices`（SPY, QQQ 等）：1000% 收益上限，中等 groupOI；
+
+  - `FX`：分布 30–70%，说明流动性强、波动低；
+
+  - `Commod`：groupOI 高达 100%，视作风险中性资产。
+
+## 2.4 Curator / Market Creation 机制（参考 Morpho Curate）
+
+流程
+
+1.  用户提交 createMarketProposal
+
+2.  Curator节点投票（\>⅔同意） → 调用 approveMarket()
+
+3.  系统部署新Vault & Market合约
+
+Curator 权限\
+
+<div class="table-wrap">
+
+|                |                                    |
+|----------------|------------------------------------|
+| 权限等级       | 能力                               |
+| Admin Curator  | 批准/冻结市场，修改全局参数        |
+| Senior Curator | 审核提案，调整PnL Cap或Funding参数 |
+| Junior Curator | 提供Oracle评审与数据签名           |
+
+</div>
+
+质押与惩罚\
+
+- 创建者需质押 \$CURATE token\$
+
+- 若市场出现Oracle操纵、异常PnL超限，则扣除质押
+
+## 2.5 Fee Structure / Key Params
+
+> 详见：<a href="https://hertzflow.atlassian.net/wiki/spaces/H/pages/6324231/Research_#Table2---%E7%AB%9E%E5%93%81%E5%8F%82%E6%95%B0%E9%85%8D%E7%BD%AE%E8%A1%A8%E6%A0%BC" data-linked-resource-id="6324231" data-linked-resource-version="38" data-linked-resource-type="page">Research_竞品功能 &amp; 关键参数</a>
+
+协议层（Gmx V2） + Vault层（Morpho）\
+
+<div class="table-wrap">
+
+<table class="confluenceTable" data-table-width="760" data-layout="default" data-local-id="bf593943-bc54-45da-8fb2-dd86627ae23f">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<tbody>
+<tr>
+<td class="confluenceTd"><p>参数类型</p></td>
+<td class="confluenceTd"><p>计算方式</p></td>
+<td class="confluenceTd"><p>调整逻辑</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>Open/Close Fee Rate</strong></p></td>
+<td class="confluenceTd"><p><strong>4 bps / 6bps</strong></p></td>
+<td class="confluenceTd"><p><strong>多空头寸偏差 ｜OI_diff｜动态调节或选取</strong></p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p>Swap Fee</p></td>
+<td class="confluenceTd"><p>基础费率 + 动态滑点<br />
+<strong>GMX</strong><br />
+</p>
+<ul>
+<li><p><strong>nst：5 / 7bps</strong></p></li>
+<li><p><strong>st：0.5 / 2bps</strong><br />
+</p></li>
+</ul>
+<p><strong>JUP</strong><br />
+</p>
+<ul>
+<li><p><strong>nst_swap：10 bps; st_swap：2 bps</strong></p></li>
+<li><p><strong>nst_tax：500 bps; st_tax：50 bps</strong></p></li>
+</ul></td>
+<td class="confluenceTd"><p><strong>池子权重偏差 |weight_diff| 动态调节或选取 -</strong> <a href="https://github.com/julianfssen/jupiter-perps-anchor-idl-parsing/blob/main/src/examples/calculate-swap-amount-and-fee.ts?utm_source=chatgpt.com" class="external-link" rel="nofollow"><strong>代码实现</strong></a></p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p>Price Impact Fee</p></td>
+<td class="confluenceTd"><ul>
+<li><p>指数模型 （GMX）<br />
+<strong>Δ^exp × factor</strong> 形式，exp=2</p></li>
+<li><p>分段线性 + 指数模型 （JUP）</p></li>
+<li><p>TODO：<br />
+<strong>Δ^exp × factor</strong> 形式</p></li>
+<li><p>Price Impact Cap：<strong>50bps</strong></p></li>
+</ul></td>
+<td class="confluenceTd"><p><strong>根据多空头寸偏差｜OI_diff｜动态调节 - JUP</strong><a href="https://github.com/julianfssen/jupiter-perps-anchor-idl-parsing/blob/main/src/examples/price-impact-fee.ts" class="external-link" rel="nofollow"><strong>代码实现</strong></a></p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p>Funding/Borrow Fee</p></td>
+<td class="confluenceTd"><ul>
+<li><p><strong>Funding/Borrow (Jup 无funding）</strong></p></li>
+<li><p>Borrow：根据利用率分段线性模型</p></li>
+<li><p>Funding：指数模型 <strong>Δ^exp × factor</strong> 形式<strong>（根据多空头寸偏差｜OI_diff｜动态调节 - GMX）</strong></p></li>
+<li><p>Funding：不收费，针对<code>OI Skew &gt;= 55%</code>时返还 <a href="https://docs.avantisfi.com/rewards/loss-rebates" class="external-link" rel="nofollow">0%~20% Loss Rebate</a> （Avnt）</p></li>
+</ul></td>
+<td class="confluenceTd"><p>多空不平衡度 × funding_rate_window；根据 pool imbalance 实时调节</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p>Liquidation Fee</p></td>
+<td class="confluenceTd"><p>固定 + 动态（随杠杆）</p></td>
+<td class="confluenceTd"><p>向LP池返还</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p>RWA Carry Fee（）</p></td>
+<td class="confluenceTd"><p>若LP资产配置RWA，收益分成x%</p></td>
+<td class="confluenceTd"><p>自动复投或回购代币</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p>Max Lev</p></td>
+<td class="confluenceTd"><ul>
+<li><p><strong>100×</strong> (SOL)<br />
+<strong>150×</strong> (ETH &amp; wBTC)<br />
+<strong>5-500x</strong> (Crypto)<br />
+<strong>25x</strong> (Equities)<br />
+<strong>100x</strong> (Indices)<br />
+<strong>50-1000x</strong> (FX)<br />
+<strong>50-100x</strong> (Commod)</p></li>
+</ul></td>
+<td class="confluenceTd"></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p>清算机制</p></td>
+<td class="confluenceTd"><p>GMX<br />
+</p>
+<ul>
+<li><p>清算价格：通过保证金率计算 <code>(C + PnL - F) / S &lt; MMR；</code><strong>MMR: 0.4%-1%</strong> 根据市场不同配置</p></li>
+<li><p><strong>清算后：</strong>剩余<strong>返还</strong></p></li>
+<li><p><strong>清算费：</strong><br />
+非合成（多仓储备即标的资产）：<strong>0.2%</strong><br />
+合成（多仓储备非标的资产）：<strong>0.3%</strong><br />
+高波动 / 新上市：<strong>0.45%</strong></p></li>
+<li><p><strong>ADL：</strong><br />
+<strong>全额储备：无ADL</strong>。因为有<code>Max OI = 90% Avlb Liq</code>的hard cap<br />
+<strong>非全额储备：</strong><code>Total PnL / TVL &gt; maxPnlFactor</code>时针对盈利仓位</p></li>
+</ul>
+<p>AVNT<br />
+</p>
+<ul>
+<li><p>清算价格：通过保证金变化比例 (Collateral Health Ratio) 计算 <code>(C + PnL - F) / C ≤ 80%</code></p></li>
+<li><p><strong>MMR: 动态</strong> <code>80% / L</code>。L为当前仓位lev，而非max lev</p></li>
+<li><p><strong>清算后：</strong>剩余<strong>全部</strong>添加至Insurance Vault，用于支付交易者盈利。不算做LP收益，同时风险LP不必承担。</p></li>
+<li><p><strong>清算费：15%给keeper</strong><br />
+</p></li>
+</ul></td>
+<td class="confluenceTd"></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p>风控参数</p></td>
+<td class="confluenceTd"></td>
+<td class="confluenceTd"></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+Zokyo
+
+# 三、产品需求 (按协议+vault的情况来分类)
+
+<div class="table-wrap">
+
+<table class="confluenceTable" data-table-width="760" data-layout="default" data-local-id="ae0f8d59-9453-4319-9a85-d0a306593f43">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<tbody>
+<tr>
+<td class="confluenceTd"><p>模块</p></td>
+<td class="confluenceTd"><p>功能</p></td>
+<td class="confluenceTd"><p>对应机制</p></td>
+<td class="confluenceTd"><p>收益来源</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>Isolated Pool（隔离池）</strong><br />
+GMX v2</p></td>
+<td class="confluenceTd"><p>单一市场对应的 GM Pool（如 ETH/USD）</p></td>
+<td class="confluenceTd"><p>独立 Vault，独立风险与资金利用率</p></td>
+<td class="confluenceTd"><p>Funding、Borrow、Trading Fee</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>Aggregated Pool（聚合池 / GLV）</strong></p></td>
+<td class="confluenceTd"><p>自动聚合多个 GM Pool，按风险权重动态平衡</p></td>
+<td class="confluenceTd"><p>GLV Vault（GMX v2 原生结构）</p></td>
+<td class="confluenceTd"><p>各 GM Pool 的平均年化</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>Curator Whitelist Pool</strong></p></td>
+<td class="confluenceTd"><p>由第三方策略管理（需白名单许可）</p></td>
+<td class="confluenceTd"><p>独立 USDC Vault，执行 RWA/DeFi 策略</p></td>
+<td class="confluenceTd"><p>RWA Coupon + GMX LP收益</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>RWA-backed Reserve Vault</strong></p></td>
+<td class="confluenceTd"><p>低风险国债等实物资产抵押</p></td>
+<td class="confluenceTd"><p>可抵押稳定币 (USDC / tBill / sDAI)</p></td>
+<td class="confluenceTd"><p>外部固定收益</p></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+## 3.1 LP Pool
+
+### 收益指标体系
+
+<div class="table-wrap">
+
+<table class="confluenceTable" data-table-width="760" data-layout="default" data-local-id="4c856011-634f-44b1-998c-9909eb81c96d">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<tbody>
+<tr>
+<td class="confluenceTd"><p>指标</p></td>
+<td class="confluenceTd"><p>含义</p></td>
+<td class="confluenceTd"><p>计算逻辑</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>Fee APY</strong></p></td>
+<td class="confluenceTd"><p>实际基于协议费用（swap + funding + borrow）的年化收益</p></td>
+<td class="confluenceTd"><p>来自链上 fee accruals</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>Ann. Performance</strong></p></td>
+<td class="confluenceTd"><h3 id="id-草稿草稿草稿PRD_HertzflowV2版本_2025.10.15-反映LPToken相对于基准（UniswapV2模式再平衡的backingtokens）的收益差异。">反映 LP Token 相对于基准（Uniswap V2 模式再平衡的 backing tokens）的收益差异。</h3></td>
+<td class="confluenceTd"><p>?</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>LP Price</strong></p></td>
+<td class="confluenceTd"><p>Pool 份额单价，反映资产与负债变化</p></td>
+<td class="confluenceTd"><p>LP Price = (Total Assets - Liabilities) / Supply</p></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+### 每个 LP Vault 独立记录资产净值、未实现收益、PnLCap 限制：
+
+资金流向\
+
+<div class="table-wrap">
+
+|  |  |  |
+|----|----|----|
+| 事件 | LP 行为 | 资产变化 |
+| Deposit | 增加流动性 | totalLiquidity += amount |
+| Withdraw | 减少流动性 | 触发结算（若有未实现PnL） |
+| Swap/Borrow |  |  |
+| RWA Yield | RWA 收益分配 | vault.totalLiquidity += vault.rwaExposure \* yield |
+
+</div>
+
+## 3.2 自主建池（Curated Market Creation）
+
+**流程（类似 Morpho Curate）**：\
+
+1.  用户申请新市场（指定标的、抵押、杠杆、Oracle源）。
+
+2.  系统进入 “Proposal” 状态，Curator 节点投票或白名单批准。
+
+3.  若批准，自动部署对应 Vault + MarketConfig 合约。
+
+4.  Pool 初始化时需：
+
+- 设置初始 Target Weight
+
+- 配置 Oracle 数据源
+
+- 绑定 Fee 模型与风险参数
+
+**参数约束：**\
+
+- 初始池需 ≥ 100K USD TVL
+
+- 标的需在 whitelisted_oracles 内
+
+- Creator 需抵押 Curator Token 或质押治理代币
+
+Curator 权限与治理层级\
+
+<div class="table-wrap">
+
+|                   |                            |                        |
+|-------------------|----------------------------|------------------------|
+| 角色              | 权限                       | 示例                   |
+| **Admin Curator** | 审批/撤销市场              | 官方治理委员会         |
+| **Curator Node**  | 评审市场风险，提议参数变更 | DAO 节点或专业做市机构 |
+| **Creator**       | 发起市场创建提案           | 用户或机构             |
+| **Reviewer**      | 提供数据/Oracle验证        | 白名单数据提供方       |
+
+</div>
+
+**激励：**\
+
+- 审核奖励（按交易量分配）
+
+- Curator Token 奖励与声誉值增长
+
+- 违规或错误决策将扣除质押
+
+## 3.3 Referral / 交易挖矿 / Leaderboard
+
+- **Referral 结构**：二级分润，支持绑定UID。
+
+- **交易挖矿模型**：
+
+  - 每日交易量积分计算：
+
+<div class="code panel pdl" style="border-width: 1px;">
+
+<div class="codeContent panelContent pdl">
+
+``` syntaxhighlighter-pre
+score = volume_usd * weight_asset * fee_multiplier
+```
+
+</div>
+
+</div>
+
+- 每周排行榜发奖（参考 Jupiter 的 Leaderboard）
+
+- **奖励形式**：
+
+  - 平台代币
+
+  - Vault Fee Rebate
+
+  - NFT 徽章或治理权投票权
+
+## **3.4 风险与边界处理**
+
+<div class="table-wrap">
+
+|                   |                    |
+|-------------------|--------------------|
+| 场景              | 处理方式           |
+| Oracle断层 \>120s | 暂停市场，冻结清算 |
+| RWA 市场关闭      | 延迟PnL结算        |
+| PnL超Cap          | 强制裁剪并记录事件 |
+| Funding异常       | 回退至上次有效值   |
+| Curator滥权       | DAO投票回滚提案    |
+
+</div>
+
+# 二、竞品架构调研
+
+## 2.1 模块分层
+
+<div class="table-wrap">
+
+|  |  |  |
+|----|----|----|
+| 模块 | 功能 | 参考机制 |
+| **VaultManager** | LP 池与资产管理 | GMX V2 |
+| **MarketManager** | 市场参数与撮合控制 | GMX V2 |
+| **RWAOracle （Offchain？）** | 真实资产价格与收益同步，与RWA托管方（Ondo, Maple等）对接 | Avantis |
+| **CuratorRegistry** | 市场白名单与投票治理 | Morpho Curate |
+| **RewardDistributor** | Referral 与挖矿奖励分发 | Jupiter |
+| **RiskEngine** | PnL Cap 限制与资金费率计算 | GMX + Avantis |
+
+</div>
+
+## 2.2 多隔离 LP 池（Multi-Isolated Vaults）
+
+### 数据结构
+
+<div class="code panel pdl" style="border-width: 1px;">
+
+<div class="codeContent panelContent pdl">
+
+``` syntaxhighlighter-pre
+struct VaultConfig {           // 每个市场对应一个/多个独立LP Vault
+    address baseAsset;         // 标的资产，如BTC, GOLD, FX
+    address collateralToken;   // 抵押资产, 如USDC, USDT, BTC, SUI
+    uint256 pnlCapRatio;       // 最大可分配PnL上限（如20%）
+    uint256 fundingRateK;      // Funding费率参数
+    uint256 imbalanceThreshold;// Funding触发阈值
+    bool isRWA;                // 是否为RWA池
+    address rwaOracle;         // 若为RWA，关联的Oracle
+    uint256 rwaCarryRate;      // RWA收益年化
 }
+```
 
-\</pre\>
+</div>
 
-\</div\>
+</div>
 
-\</div\>
+### PnL 限制公式
 
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
+<div class="code panel pdl" style="border-width: 1px;">
 
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-PnL=E9=99=90=E5=88=B6=E5=85=AC=E5=BC=
+<div class="codeContent panelContent pdl">
 
-=8F"\>PnL =E9=99=90=E5=88=B6=E5=85=AC=E5=BC=8F\</h3\>
+``` syntaxhighlighter-pre
+// 最大盈利上限 = LP净值 * pnlCapRatio
+maxPnL = vault.totalValue * vault.pnlCapRatio;
+if (traderPnL > maxPnL) traderPnL = maxPnL;
+updateBalances(trader, pnl);
+```
 
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
+</div>
 
-\<div class=3D"codeContent panelContent pdl"\>
+</div>
 
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+> **Rationale**：防止Oracle延迟或极端波动下LP净值被单一交易榨干。
 
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>// =E6=
+### 风险管理
 
-=9C=80=E5=A4=A7=E7=9B=88=E5=88=A9=E4=B8=8A=E9=99=90 =3D LP=E5=87=80=E5=80=
+- 每个池的持仓方向独立计算 Funding。
 
-=BC \* pnlCapRatio
+- 若多空持仓失衡度超过 10%，动态上调 Funding 费率。
 
-maxPnL =3D vault.totalValue \* vault.pnlCapRatio;
+<div class="table-wrap">
 
-if (traderPnL &gt; maxPnL) traderPnL =3D maxPnL;
+|                    |                |         |
+|--------------------|----------------|---------|
+| 参数               | 示例值         | 来源    |
+| fundingRateK       | 0.0001 (0.01%) | GMX v2  |
+| pnlCapRatio        | 0.20 (20%)     | Avantis |
+| imbalanceThreshold | 0.10 (10%)     | GMX v2  |
 
-updateBalances(trader, pnl);\</pre\>
+</div>
 
-\</div\>
+## 2.3 RWA 资产市场逻辑
 
-\</div\>
+### RWA Oracle 数据来源
 
-\<blockquote\>
+1.  Chainlink + Pyth双源，\>5%偏差时合约拒绝交易。
 
-\<p\>\<strong\>Rationale\</strong\>=EF=BC=9A=E9=98=B2=E6=AD=A2Oracle=E5=BB=B6=E8=
+2.  仅针对盘中
 
-=BF=9F=E6=88=96=E6=9E=81=E7=AB=AF=E6=B3=A2=E5=8A=A8=E4=B8=8BLP=E5=87=80=E5=
+### 市场开放与冻结规则
 
-=80=BC=E8=A2=AB=E5=8D=95=E4=B8=80=E4=BA=A4=E6=98=93=E6=A6=A8=E5=B9=B2=E3=80=
+<a href="https://docs.avantisfi.com/trading/market-hours" class="external-link" rel="nofollow">market open time跟着pyth network来</a>
 
-=82\</p\>
+<div class="table-wrap">
 
-\</blockquote\>
+|  |  |  |
+|----|----|----|
+| 状态 | 行为 | 描述 |
+| `marketOpen=true` | 允许交易与清算 | 正常交易窗口 |
+| `marketOpen=false` | 收盘后进入 “冻结结算” 状态，暂停下单与强平，PnL结算延后到下个开放窗口 | 对应 TradFi 休市时间 |
 
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
+</div>
 
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E9=A3=8E=E9=99=A9=E7=AE=A1=E7=90=86"\>=
+### 收费明细
 
-=E9=A3=8E=E9=99=A9=E7=AE=A1=E7=90=86\</h3\>
+<div class="table-wrap">
 
-\<ul\>
+|  |  |  |  |  |  |
+|----|----|----|----|----|----|
+| 类别 | 开仓费 (Opening Fee) | 平仓费 (Closing Fee) | 动态保证金费 (Dynamic Margin Fee) | 价差 (Spread) | 说明 |
+| **Crypto (BTC/ETH)** | 4.5 bps | 4.5 bps | 基于 skew 与 utilization 动态计算 | Zero (BTC 无滑点) | 动态 Spread = 常数 + Price Impact + Skew Impact |
+| **Forex** | 1–5 bps（取决于 skew） | 无 | 基于 skew 与利用率 | 0–1 bps | EUR-USD、USD-JPY、GBP-USD 为零价差 |
+| **Metals (Gold, Silver)** | 6–8 bps | 无 | 目标 15% 年化（30% 利用率下） | 1–3 bps 固定 | 按波动率与 skew 调整 |
+| **Commodities** | 6–8 bps | 无 | 与 Metals 相同 | 1–3 bps | 固定价差模式 |
+| **Indices (SPY, QQQ)** | 6 bps | 无 | 目标 5% 年化（50% 利用率下） | 1 bp 平均 | 固定 Spread 0.01% |
+| **Equities (MAG7, COIN)** | 6 bps | 无 | 目标 10% 年化（50% 利用率下） | 2.5 bps 平均 | 固定 Spread 0.025% |
 
-\<li\>
+</div>
 
-\<p\>=E6=AF=8F=E4=B8=AA=E6=B1=A0=E7=9A=84=E6=8C=81=E4=BB=93=E6=96=B9=E5=90=91=
+## 2.4 Curator / Market Creation 机制（参考 Morpho Curate）
 
-=E7=8B=AC=E7=AB=8B=E8=AE=A1=E7=AE=97 Funding=E3=80=82\</p\>\</li\>
+#### 流程
 
-\<li\>
+1.  用户提交 `createMarketProposal`
 
-\<p\>=E8=8B=A5=E5=A4=9A=E7=A9=BA=E6=8C=81=E4=BB=93=E5=A4=B1=E8=A1=A1=E5=BA=A6=
+2.  Curator节点投票（\>⅔同意） → 调用 `approveMarket()`
 
-=E8=B6=85=E8=BF=87 10%=EF=BC=8C=E5=8A=A8=E6=80=81=E4=B8=8A=E8=B0=83 Funding=
+3.  系统部署新Vault & Market合约
 
-=E8=B4=B9=E7=8E=87=E3=80=82\</p\>\</li\>
+#### Curator 权限
 
-\</ul\>
+<div class="table-wrap">
 
-\<div class=3D"table-wrap"\>
+|                |                                    |
+|----------------|------------------------------------|
+| 权限等级       | 能力                               |
+| Admin Curator  | 批准/冻结市场，修改全局参数        |
+| Senior Curator | 审核提案，调整PnL Cap或Funding参数 |
+| Junior Curator | 提供Oracle评审与数据签名           |
 
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"71=
+</div>
 
-f18aef-692e-4f01-84c3-4a0d275f51ad" class=3D"confluenceTable"\>
+#### 质押与惩罚
 
-\<tbody\>
+- 创建者需质押 \$CURATE token\$
 
-\<tr\>
+- 若市场出现Oracle操纵、异常PnL超限，则扣除质押
 
-\<th class=3D"confluenceTh"\>
+## 2.5 激励与费用系统
 
-\<p\>=E5=8F=82=E6=95=B0\</p\>\</th\>
+<div class="table-wrap">
 
-\<th class=3D"confluenceTh"\>
+|  |  |  |
+|----|----|----|
+| 类型 | 说明 | 计算逻辑 |
+| Funding Fee | 防止多空失衡 | ( FR = k \times \frac{OI\_{long}-OI\_{short}}{OI\_{total}} ) |
+| Price Impact Fee | 大额滑点费 | ( F = base + α×(\frac{Δpos}{liq})^2 ) |
+| Liquidation Fee | 强平补偿 | 固定 + 动态（杠杆相关） |
+| Referral 奖励 | 二级结构（L1/L2） | 交易费 × rebate% |
+| RWA Carry Fee | RWA池年化收益分成 | vault配置 × rwaCarryRate |
 
-\<p\>=E7=A4=BA=E4=BE=8B=E5=80=BC\</p\>\</th\>
+</div>
 
-\<th class=3D"confluenceTh"\>
+# 三、产品需求
 
-\<p\>=E6=9D=A5=E6=BA=90\</p\>\</th\>
+<div class="table-wrap">
 
-\</tr\>
+|  |  |  |  |
+|----|----|----|----|
+| 模块 | 功能 | 对应机制 | 收益来源 |
+| **Isolated Pool（隔离池）** | 单一市场对应的 GM Pool（如 ETH/USD） | 独立 Vault，独立风险与资金利用率 | Funding、Borrow、Trading Fee |
+| **Aggregated Pool（聚合池 / GLV）** | 自动聚合多个 GM Pool，按风险权重动态平衡 | GLV Vault（GMX v2 原生结构） | 各 GM Pool 的平均年化 |
+| **Curator Whitelist Pool** | 由第三方策略管理（需白名单许可） | 独立 USDC Vault，执行 RWA/DeFi 策略 | RWA Coupon + GMX LP收益 |
+| **RWA-backed Reserve Vault** | 低风险国债等实物资产抵押 | 可抵押稳定币 (USDC / tBill / sDAI) | 外部固定收益 |
 
-\<tr\>
+</div>
 
-\<td class=3D"confluenceTd"\>
+## LP Pool
 
-\<p\>fundingRateK\</p\>\</td\>
+### 三、收益指标体系
 
-\<td class=3D"confluenceTd"\>
+<div class="table-wrap">
 
-\<p\>0.0001 (0.01%)\</p\>\</td\>
+|  |  |  |
+|----|----|----|
+| 指标 | 含义 | 计算逻辑 |
+| **Fee APY** | 实际基于协议费用（swap + funding + borrow）的年化收益 | 来自链上 fee accruals |
+| **Ann. Performance** | 池子净值变化的年化表现（含 unrealized PnL） | 见下方公式 |
+| **LP Price** | Pool 份额单价，反映资产与负债变化 | LP NAV = (Total Assets - Liabilities) / Supply |
 
-\<td class=3D"confluenceTd"\>
+</div>
 
-\<p\>GMX v2\</p\>\</td\>
+------------------------------------------------------------------------
 
-\</tr\>
+### 四、📐 Ann. Performance 计算公式（年化表现）
 
-\<tr\>
+**定义：**\
+Annualized Performance 反映 LP Token 相对于基准（Uniswap V2 模式再平衡的 backing tokens）的收益差异。
 
-\<td class=3D"confluenceTd"\>
+\[\
+AnnPerformance = \left( \frac{NAV\_{t} / NAV\_{0}}{Benchmark\_{t} / Benchmark\_{0}} - 1 \right) \times \frac{365}{Days}\
+\]
 
-\<p\>pnlCapRatio\</p\>\</td\>
+其中：
 
-\<td class=3D"confluenceTd"\>
+- ( NAV\_{t} )：当前 LP Pool 的净资产值；
 
-\<p\>0.20 (20%)\</p\>\</td\>
+- ( Benchmark\_{t} )：模拟 Uniswap V2 50/50 再平衡组合；
 
-\<td class=3D"confluenceTd"\>
+- ( Days )：所选时间周期（30/90/180D）。
 
-\<p\>Avantis\</p\>\</td\>
+该指标 ≠ Fee APY。\
+👉 Fee APY 仅计费收益（swap、funding、borrow）；\
+👉 Ann Performance 则计入 LP 的实际价格变化与交易者 PnL 暴露。
 
-\</tr\>
+------------------------------------------------------------------------
 
-\<tr\>
+### 五、结算与风险机制
 
-\<td class=3D"confluenceTd"\>
+<div class="table-wrap">
 
-\<p\>imbalanceThreshold\</p\>\</td\>
+|  |  |  |
+|----|----|----|
+| 场景 | 机制描述 | 合约逻辑 |
+| **Close Market** | 市场停盘或下架时，LP 资产按最后结算价清算并分配 | `closePosition()` & `settleMarket()` |
+| **Gap / 跳空结算** | 使用 oracle 的 TWAP 保护价，LP 先行承担 PnL，再由保险基金补偿 | 参考 GMX `PriceImpactReserve` |
+| **Liquidation** | 若交易者头寸亏损超过抵押比，LP 池获得清算溢价 | `executeLiquidation()` 自动结算 |
+| **Funding & Borrow 调整** | 定时更新长短仓平衡，计算资金费与借款费 | Keeper 每小时更新 Funding Index |
 
-\<td class=3D"confluenceTd"\>
+</div>
 
-\<p\>0.10 (10%)\</p\>\</td\>
+## 五、后端数据需求
 
-\<td class=3D"confluenceTd"\>
+### 5.1 Indexer 事件监听
 
-\<p\>GMX v2\</p\>\</td\>
+<div class="table-wrap">
 
-\</tr\>
+|                     |                                 |          |
+|---------------------|---------------------------------|----------|
+| 事件                | 字段                            | 用途     |
+| `VaultCreated`      | poolId, asset, oracle           | 新池索引 |
+| `PositionOpened`    | trader, size, entryPrice        | 交易统计 |
+| `PositionClosed`    | trader, pnl, fees, block        | 收益计算 |
+| `OracleUpdated`     | asset, price, yield, marketOpen | RWA监控  |
+| `RewardDistributed` | address, amount, reason         | 激励统计 |
 
-\</tbody\>
+</div>
 
-\</table\>
+### 5.2 指标与统计字段
 
-\</div\>
+<div class="table-wrap">
 
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
+|                        |                       |
+|------------------------|-----------------------|
+| 指标                   | 含义                  |
+| `pool_imbalance_ratio` | 多空持仓比例          |
+| `funding_fee_accrued`  | 当前Funding累积值     |
+| `rwa_yield_annualized` | LP端RWA收益年化       |
+| `trader_pnl_capped`    | 已应用PnL上限后的收益 |
+| `curator_vote_ratio`   | 市场提案投票通过率    |
 
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.3RWA=E8=B5=84=E4=BA=A7=E5=B8=82=E5=
+</div>
 
-=9C=BA=E9=80=BB=E8=BE=91.1"\>2.3 RWA =E8=B5=84=E4=BA=A7=E5=B8=82=E5=9C=BA=E9=
+### 5.3 API (GraphQL / REST)
 
-=80=BB=E8=BE=91\</h2\>
+- `GET /pools/{id}`\
+  → 返回池状态、PnLCap、FundingRate、RWA参数
 
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
+- `GET /leaderboard`\
+  → 排名、积分、奖励
 
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-RWAOracle=E6=95=B0=E6=8D=AE=E6=9D=A5=
+- `POST /proposal`\
+  → 提交自主建池提案
 
-=E6=BA=90.1"\>RWA Oracle =E6=95=B0=E6=8D=AE=E6=9D=A5=E6=BA=90\</h3\>
+- `GET /oracle/{asset}`\
+  → 实时RWA价格与收益率
 
-\<ol start=3D"1"\>
+## 六、前端功能与交互
 
-\<li\>
+<div class="table-wrap">
 
-\<p\>Chainlink + Pyth=E5=8F=8C=E6=BA=90=EF=BC=8C&gt;5%=E5=81=8F=E5=B7=AE=E6=
+|  |  |  |
+|----|----|----|
+| 模块 | 功能 | 描述 |
+| **Trading Interface** | 交易、开平仓、杠杆设定、PnL实时显示 | 动态展示Funding/Impact费率、RWA收益提示 |
+| **Liquidity Panel** | 添加/移除流动性，查看Vault净值、PnL上限 | 支持RWA池年化收益展示 |
+| **Curator Dashboard** | 审核市场提案、投票、查看声誉积分 | 拟用Table + Modal交互 |
+| **Referral / Leaderboard** | 绑定推荐关系、查看积分与排名 | 对接后端积分系统 |
+| **RWA Oracle Monitor** | 实时显示RWA资产价格与状态（open/close） | 提示清算冻结状态 |
+| **Analytics Dashboard** | 汇总资金曲线、PnL分布、Funding历史 | 可导出CSV |
 
-=97=B6=E5=90=88=E7=BA=A6=E6=8B=92=E7=BB=9D=E4=BA=A4=E6=98=93=E3=80=82\</p\>\</=
+</div>
 
-li\>
+### 三、核心模块设计
 
-\<li\>
+#### 1. 多隔离 LP 池架构
 
-\<p\>=E4=BB=85=E9=92=88=E5=AF=B9=E7=9B=98=E4=B8=AD\</p\>\</li\>
+**逻辑：**\
+每个交易市场（BTC/USD、ETH/USD、Gold/USD、USDC/T-Bill等）对应独立的 **Isolated LP Vault**。\
+LP在池内提供流动性，并独立承担该市场的PnL风险。
 
-\</ol\>
+**关键参数：**
 
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
+<div class="table-wrap">
 
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=B8=82=E5=9C=BA=E5=BC=80=E6=94=BE=
+|                       |                            |
+|-----------------------|----------------------------|
+| 参数                  | 含义                       |
+| `pool_id`             | 唯一市场ID                 |
+| `base_asset`          | 标的资产（BTC/ETH/Gold等） |
+| `collateral_token`    | 抵押资产（USDC/USDT/RWA）  |
+| `max_pnl_cap`         | 单池可分配最大PnL限制      |
+| `funding_rate_window` | Funding计算周期            |
+| `price_impact_curve`  | 动态滑点与费率模型         |
 
-=E4=B8=8E=E5=86=BB=E7=BB=93=E8=A7=84=E5=88=99.1"\>=E5=B8=82=E5=9C=BA=E5=BC=
+</div>
 
-=80=E6=94=BE=E4=B8=8E=E5=86=BB=E7=BB=93=E8=A7=84=E5=88=99\</h3\>
+**风控机制：**
 
-\<p\>\<a class=3D"external-link" href=3D"https://docs.avantisfi.com/trading/ma=
+- 每个池单独跟踪 `long_short_imbalance_ratio`
 
-rket-hours" rel=3D"nofollow"\>market open time=E8=B7=9F=E7=9D=80pyth network=
+- 超过阈值时动态上调 `funding_fee_bps`
 
-=E6=9D=A5\</a\>\</p\>
+- LP 端可查看风险敞口热力图
 
-\<div class=3D"table-wrap"\>
+------------------------------------------------------------------------
 
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"8e=
+#### 2. RWA 市场机制（参考 Avantis）
 
-8544dc-590b-4e8c-9418-dde8a0e378e5" class=3D"confluenceTable"\>
+<div class="table-wrap">
 
-\<tbody\>
+|  |  |
+|----|----|
+| 模块 | 设计细节 |
+| **Oracle 来源** | 优先使用 Chainlink / Pyth / 专有 API；对于RWA类（如T-Bills、Gold），采用带签名的 TradFi 数据源。 |
+| **价格更新频率** | 至少每分钟更新一次；价格间断时交易冻结。 |
+| **PnL 结算** | 若市场关闭时仍有持仓，采用最近可得价格进行结算；若价格断层 \>2σ，PnL 按滑点折减系数计算。 |
+| **市场开放时间** | 遵守对应标的的现实交易时间（例如美债09:30–16:00 EST）。 |
+| **清算逻辑** | 断价期间不得清算；复盘后以Oracle平滑值清算。 |
+| **RWA 托管** | 对接合规RWA协议（Maple, Backed, Ondo）；LP 池资产可部分配置至真实收益资产。 |
 
-\<tr\>
+</div>
 
-\<th class=3D"confluenceTh"\>
+------------------------------------------------------------------------
 
-\<p\>=E7=8A=B6=E6=80=81\</p\>\</th\>
+#### 3. 自主建池（Curated Market Creation）
 
-\<th class=3D"confluenceTh"\>
+**流程（类似 Morpho Curate）**：
 
-\<p\>=E8=A1=8C=E4=B8=BA\</p\>\</th\>
+1.  用户申请新市场（指定标的、抵押、杠杆、Oracle源）。
 
-\<th class=3D"confluenceTh"\>
+2.  系统进入 “Proposal” 状态，Curator 节点投票或白名单批准。
 
-\<p\>=E6=8F=8F=E8=BF=B0\</p\>\</th\>
+3.  若批准，自动部署对应 `Vault + MarketConfig` 合约。
 
-\</tr\>
+4.  Pool 初始化时需：
 
-\<tr\>
+    - 设置初始 Target Weight
 
-\<td class=3D"confluenceTd"\>
+    - 配置 Oracle 数据源
 
-\<p\>\<code\>marketOpen=3Dtrue\</code\>\</p\>\</td\>
+    - 绑定 Fee 模型与风险参数
 
-\<td class=3D"confluenceTd"\>
+**参数约束：**
 
-\<p\>=E5=85=81=E8=AE=B8=E4=BA=A4=E6=98=93=E4=B8=8E=E6=B8=85=E7=AE=97\</p\>\</td\>
+- 初始池需 ≥ 100K USD TVL
 
-\<td class=3D"confluenceTd"\>
+- 标的需在 `whitelisted_oracles` 内
 
-\<p\>=E6=AD=A3=E5=B8=B8=E4=BA=A4=E6=98=93=E7=AA=97=E5=8F=A3\</p\>\</td\>
+- Creator 需抵押 Curator Token 或质押治理代币
 
-\</tr\>
+------------------------------------------------------------------------
 
-\<tr\>
+#### 4. Curator 权限与治理层级
 
-\<td class=3D"confluenceTd"\>
+<div class="table-wrap">
 
-\<p\>\<code\>marketOpen=3Dfalse\</code\>\</p\>\</td\>
+|                   |                            |                        |
+|-------------------|----------------------------|------------------------|
+| 角色              | 权限                       | 示例                   |
+| **Admin Curator** | 审批/撤销市场              | 官方治理委员会         |
+| **Curator Node**  | 评审市场风险，提议参数变更 | DAO 节点或专业做市机构 |
+| **Creator**       | 发起市场创建提案           | 用户或机构             |
+| **Reviewer**      | 提供数据/Oracle验证        | 白名单数据提供方       |
 
-\<td class=3D"confluenceTd"\>
+</div>
 
-\<p\>=E6=94=B6=E7=9B=98=E5=90=8E=E8=BF=9B=E5=85=A5 =E2=80=9C=E5=86=BB=E7=BB=
+**激励：**
 
-=93=E7=BB=93=E7=AE=97=E2=80=9D =E7=8A=B6=E6=80=81=EF=BC=8C=E6=9A=82=E5=81=
+- 审核奖励（按交易量分配）
 
-=9C=E4=B8=8B=E5=8D=95=E4=B8=8E=E5=BC=BA=E5=B9=B3=EF=BC=8CPnL=E7=BB=93=E7=AE=
+- Curator Token 奖励与声誉值增长
 
-=97=E5=BB=B6=E5=90=8E=E5=88=B0=E4=B8=8B=E4=B8=AA=E5=BC=80=E6=94=BE=E7=AA=97=
+- 违规或错误决策将扣除质押
 
-=E5=8F=A3\</p\>\</td\>
+------------------------------------------------------------------------
 
-\<td class=3D"confluenceTd"\>
+#### 5. Referral / 交易挖矿 / Leaderboard
 
-\<p\>=E5=AF=B9=E5=BA=94 TradFi =E4=BC=91=E5=B8=82=E6=97=B6=E9=97=B4\</p\>\</td\>
+- **Referral 结构**：二级分润，支持绑定UID。
 
-\</tr\>
+- **交易挖矿模型**：
 
-\</tbody\>
+  - 每日交易量积分计算：
 
-\</table\>
+    <div class="code panel pdl" style="border-width: 1px;">
 
-\</div\>
+    <div class="codeContent panelContent pdl">
 
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
+    ``` syntaxhighlighter-pre
+    score = volume_usd * weight_asset * fee_multiplier
+    ```
 
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E6=94=B6=E8=B4=B9=E6=98=8E=E7=BB=86.1=
+    </div>
 
-"\>=E6=94=B6=E8=B4=B9=E6=98=8E=E7=BB=86\</h3\>
+    </div>
 
-\<div class=3D"table-wrap"\>
+  - 每周排行榜发奖（参考 Jupiter 的 Leaderboard）
 
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"0a=
+- **奖励形式**：
 
-be987c-163c-48f1-9fc1-15feff4f3b09" class=3D"confluenceTable"\>
+  - 平台代币
 
-\<tbody\>
+  - Vault Fee Rebate
 
-\<tr\>
+  - NFT 徽章或治理权投票权
 
-\<th class=3D"confluenceTh"\>
+------------------------------------------------------------------------
 
-\<p\>=E7=B1=BB=E5=88=AB\</p\>\</th\>
+#### 6. 费用模型（Fee Mechanics）
 
-\<th class=3D"confluenceTh"\>
+<div class="table-wrap">
 
-\<p\>=E5=BC=80=E4=BB=93=E8=B4=B9 (Opening Fee)\</p\>\</th\>
+|  |  |  |
+|----|----|----|
+| 费用类型 | 计算方式 | 调整逻辑 |
+| Funding Fee | 多空不平衡度 × funding_rate_window | 根据 pool imbalance 实时调节 |
+| Price Impact Fee | Δ仓位 × impact_curve(Δ) | 防止大额交易操纵 |
+| Liquidation Fee | 固定 + 动态（随杠杆） | 向LP池返还 |
+| Swap Fee | 基础费率 + 动态滑点 | 0.02–0.3%区间 |
+| RWA Carry Fee | 若LP资产配置RWA，收益分成x% | 自动复投或回购代币 |
 
-\<th class=3D"confluenceTh"\>
+</div>
 
-\<p\>=E5=B9=B3=E4=BB=93=E8=B4=B9 (Closing Fee)\</p\>\</th\>
+------------------------------------------------------------------------
 
-\<th class=3D"confluenceTh"\>
+### 四、关键公式举例
 
-\<p\>=E5=8A=A8=E6=80=81=E4=BF=9D=E8=AF=81=E9=87=91=E8=B4=B9 (Dynamic Margin F=
+**Funding Rate**：\
+\[\
+FR = k \times \frac{OI\_{long} - OI\_{short}}{OI\_{total}}\
+\]\
+其中 `k` 为可调系数（默认 0.01%/h）
 
-ee)\</p\>\</th\>
+**Price Impact**：\
+\[\
+ImpactFee = baseFee + \alpha \times (\Delta position / poolLiquidity)^2\
+\]
 
-\<th class=3D"confluenceTh"\>
+**PnL Cap 限制**：\
+\[\
+PnL\_{max} = min(PnL, cap \times LP\_{value})\
+\]
 
-\<p\>=E4=BB=B7=E5=B7=AE (Spread)\</p\>\</th\>
+## **6. LP & Funding Mechanism（流动性与资金费率机制）**
 
-\<th class=3D"confluenceTh"\>
+### 6.1 LP 流动性管理
 
-\<p\>=E8=AF=B4=E6=98=8E\</p\>\</th\>
+每个 LP Vault 独立记录资产净值、未实现收益、PnLCap 限制：
 
-\</tr\>
+<div class="code panel pdl" style="border-width: 1px;">
 
-\<tr\>
+<div class="codeContent panelContent pdl">
 
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Crypto (BTC/ETH)\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>4.5 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>4.5 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9F=BA=E4=BA=8E skew =E4=B8=8E utilization =E5=8A=A8=E6=80=81=E8=AE=
-
-=A1=E7=AE=97\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Zero (BTC =E6=97=A0=E6=BB=91=E7=82=B9)\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8A=A8=E6=80=81 Spread =3D =E5=B8=B8=E6=95=B0 + Price Impact + Skew I=
-
-mpact\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Forex\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>1=E2=80=935 bps=EF=BC=88=E5=8F=96=E5=86=B3=E4=BA=8E skew=EF=BC=89\</p\>\</t=
-
-d\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=97=A0\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9F=BA=E4=BA=8E skew =E4=B8=8E=E5=88=A9=E7=94=A8=E7=8E=87\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>0=E2=80=931 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>EUR-USD=E3=80=81USD-JPY=E3=80=81GBP-USD =E4=B8=BA=E9=9B=B6=E4=BB=B7=E5=
-
-=B7=AE\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Metals (Gold, Silver)\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>6=E2=80=938 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=97=A0\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=9B=AE=E6=A0=87 15% =E5=B9=B4=E5=8C=96=EF=BC=8830% =E5=88=A9=E7=94=A8=
-
-=E7=8E=87=E4=B8=8B=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>1=E2=80=933 bps =E5=9B=BA=E5=AE=9A\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=8C=89=E6=B3=A2=E5=8A=A8=E7=8E=87=E4=B8=8E skew =E8=B0=83=E6=95=B4\</p=
-
-\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Commodities\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>6=E2=80=938 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=97=A0\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E4=B8=8E Metals =E7=9B=B8=E5=90=8C\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>1=E2=80=933 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9B=BA=E5=AE=9A=E4=BB=B7=E5=B7=AE=E6=A8=A1=E5=BC=8F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Indices (SPY, QQQ)\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>6 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=97=A0\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=9B=AE=E6=A0=87 5% =E5=B9=B4=E5=8C=96=EF=BC=8850% =E5=88=A9=E7=94=A8=
-
-=E7=8E=87=E4=B8=8B=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>1 bp =E5=B9=B3=E5=9D=87\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9B=BA=E5=AE=9A Spread 0.01%\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Equities (MAG7, COIN)\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>6 bps\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=97=A0\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=9B=AE=E6=A0=87 10% =E5=B9=B4=E5=8C=96=EF=BC=8850% =E5=88=A9=E7=94=A8=
-
-=E7=8E=87=E4=B8=8B=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>2.5 bps =E5=B9=B3=E5=9D=87\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9B=BA=E5=AE=9A Spread 0.025%\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.4Curator/MarketCreation=E6=9C=BA=E5=
-
-=88=B6=EF=BC=88=E5=8F=82=E8=80=83MorphoCurate=EF=BC=89.1"\>2.4 Curator / Mar=
-
-ket Creation =E6=9C=BA=E5=88=B6=EF=BC=88=E5=8F=82=E8=80=83 Morpho Curate=EF=
-
-=BC=89\</h2\>
-
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E6=B5=81=E7=A8=8B"\>=E6=B5=81=E7=A8=8B=
-
-\</h4\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>=E7=94=A8=E6=88=B7=E6=8F=90=E4=BA=A4 \<code\>createMarketProposal\</code\>\</=
-
-p\>\</li\>
-
-\<li\>
-
-\<p\>Curator=E8=8A=82=E7=82=B9=E6=8A=95=E7=A5=A8=EF=BC=88&gt;=E2=85=94=E5=90=
-
-=8C=E6=84=8F=EF=BC=89 =E2=86=92 =E8=B0=83=E7=94=A8 \<code\>approveMarket()\</c=
-
-ode\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E7=B3=BB=E7=BB=9F=E9=83=A8=E7=BD=B2=E6=96=B0Vault &amp; Market=E5=90=88=
-
-=E7=BA=A6\</p\>\</li\>
-
-\</ol\>
-
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-Curator=E6=9D=83=E9=99=90"\>Curator =E6=
-
-=9D=83=E9=99=90\</h4\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"0a=
-
-9c88cf-b117-4471-932f-10113e4e42c5" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=9D=83=E9=99=90=E7=AD=89=E7=BA=A7\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E8=83=BD=E5=8A=9B\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Admin Curator\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=89=B9=E5=87=86/=E5=86=BB=E7=BB=93=E5=B8=82=E5=9C=BA=EF=BC=8C=E4=BF=
-
-=AE=E6=94=B9=E5=85=A8=E5=B1=80=E5=8F=82=E6=95=B0\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Senior Curator\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AE=A1=E6=A0=B8=E6=8F=90=E6=A1=88=EF=BC=8C=E8=B0=83=E6=95=B4PnL Cap=
-
-=E6=88=96Funding=E5=8F=82=E6=95=B0\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Junior Curator\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=8F=90=E4=BE=9BOracle=E8=AF=84=E5=AE=A1=E4=B8=8E=E6=95=B0=E6=8D=AE=E7=
-
-=AD=BE=E5=90=8D\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E8=B4=A8=E6=8A=BC=E4=B8=8E=E6=83=A9=
-
-=E7=BD=9A"\>=E8=B4=A8=E6=8A=BC=E4=B8=8E=E6=83=A9=E7=BD=9A\</h4\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=88=9B=E5=BB=BA=E8=80=85=E9=9C=80=E8=B4=A8=E6=8A=BC \$CURATE token\$\</p=
-
-\>\</li\>
-
-\<li\>
-
-\<p\>=E8=8B=A5=E5=B8=82=E5=9C=BA=E5=87=BA=E7=8E=B0Oracle=E6=93=8D=E7=BA=B5=E3=
-
-=80=81=E5=BC=82=E5=B8=B8PnL=E8=B6=85=E9=99=90=EF=BC=8C=E5=88=99=E6=89=A3=E9=
-
-=99=A4=E8=B4=A8=E6=8A=BC\</p\>\</li\>
-
-\</ul\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.5=E6=BF=80=E5=8A=B1=E4=B8=8E=E8=B4=
-
-=B9=E7=94=A8=E7=B3=BB=E7=BB=9F"\>2.5 =E6=BF=80=E5=8A=B1=E4=B8=8E=E8=B4=B9=E7=
-
-=94=A8=E7=B3=BB=E7=BB=9F\</h2\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"e6=
-
-7973e6-79f7-472c-b72d-e95ee41d3325" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E7=B1=BB=E5=9E=8B\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E8=AF=B4=E6=98=8E\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E8=AE=A1=E7=AE=97=E9=80=BB=E8=BE=91\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Funding Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E9=98=B2=E6=AD=A2=E5=A4=9A=E7=A9=BA=E5=A4=B1=E8=A1=A1\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>( FR =3D k \times \frac{OI\_{long}-OI\_{short}}{OI\_{total}} )\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Price Impact Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A4=A7=E9=A2=9D=E6=BB=91=E7=82=B9=E8=B4=B9\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>( F =3D base + =CE=B1=C3=97(\frac{=CE=94pos}{liq})^2 )\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Liquidation Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=BC=BA=E5=B9=B3=E8=A1=A5=E5=81=BF\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9B=BA=E5=AE=9A + =E5=8A=A8=E6=80=81=EF=BC=88=E6=9D=A0=E6=9D=86=E7=9B=
-
-=B8=E5=85=B3=EF=BC=89\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Referral =E5=A5=96=E5=8A=B1\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E4=BA=8C=E7=BA=A7=E7=BB=93=E6=9E=84=EF=BC=88L1/L2=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E4=BA=A4=E6=98=93=E8=B4=B9 =C3=97 rebate%\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>RWA Carry Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>RWA=E6=B1=A0=E5=B9=B4=E5=8C=96=E6=94=B6=E7=9B=8A=E5=88=86=E6=88=90\</p\>\</=
-
-td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>vault=E9=85=8D=E7=BD=AE =C3=97 rwaCarryRate\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h1 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=89=E3=80=81=E4=BA=A7=E5=93=81=
-
-=E9=9C=80=E6=B1=82"\>=E4=B8=89=E3=80=81=E4=BA=A7=E5=93=81=E9=9C=80=E6=B1=82\<=
-
-/h1\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a3=
-
-0b5058-888e-4940-9650-c9a81d2e8233" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=A8=A1=E5=9D=97\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=8A=9F=E8=83=BD\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=AF=B9=E5=BA=94=E6=9C=BA=E5=88=B6\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=94=B6=E7=9B=8A=E6=9D=A5=E6=BA=90\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Isolated Pool=EF=BC=88=E9=9A=94=E7=A6=BB=E6=B1=A0=EF=BC=89\</stro=
-
-ng\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8D=95=E4=B8=80=E5=B8=82=E5=9C=BA=E5=AF=B9=E5=BA=94=E7=9A=84 GM Pool=
-
-=EF=BC=88=E5=A6=82 ETH/USD=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=8B=AC=E7=AB=8B Vault=EF=BC=8C=E7=8B=AC=E7=AB=8B=E9=A3=8E=E9=99=A9=E4=
-
-=B8=8E=E8=B5=84=E9=87=91=E5=88=A9=E7=94=A8=E7=8E=87\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Funding=E3=80=81Borrow=E3=80=81Trading Fee\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Aggregated Pool=EF=BC=88=E8=81=9A=E5=90=88=E6=B1=A0 / GLV=EF=BC=
-
-=89\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=87=AA=E5=8A=A8=E8=81=9A=E5=90=88=E5=A4=9A=E4=B8=AA GM Pool=EF=BC=8C=
-
-=E6=8C=89=E9=A3=8E=E9=99=A9=E6=9D=83=E9=87=8D=E5=8A=A8=E6=80=81=E5=B9=B3=E8=
-
-=A1=A1\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GLV Vault=EF=BC=88GMX v2 =E5=8E=9F=E7=94=9F=E7=BB=93=E6=9E=84=EF=BC=89\</=
-
-p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=90=84 GM Pool =E7=9A=84=E5=B9=B3=E5=9D=87=E5=B9=B4=E5=8C=96\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Curator Whitelist Pool\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=94=B1=E7=AC=AC=E4=B8=89=E6=96=B9=E7=AD=96=E7=95=A5=E7=AE=A1=E7=90=86=
-
-=EF=BC=88=E9=9C=80=E7=99=BD=E5=90=8D=E5=8D=95=E8=AE=B8=E5=8F=AF=EF=BC=89\</p=
-
-\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=8B=AC=E7=AB=8B USDC Vault=EF=BC=8C=E6=89=A7=E8=A1=8C RWA/DeFi =E7=AD=
-
-=96=E7=95=A5\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>RWA Coupon + GMX LP=E6=94=B6=E7=9B=8A\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>RWA-backed Reserve Vault\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E4=BD=8E=E9=A3=8E=E9=99=A9=E5=9B=BD=E5=80=BA=E7=AD=89=E5=AE=9E=E7=89=A9=
-
-=E8=B5=84=E4=BA=A7=E6=8A=B5=E6=8A=BC\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8F=AF=E6=8A=B5=E6=8A=BC=E7=A8=B3=E5=AE=9A=E5=B8=81 (USDC / tBill / s=
-
-DAI)\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A4=96=E9=83=A8=E5=9B=BA=E5=AE=9A=E6=94=B6=E7=9B=8A\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-LPPool"\>LP Pool\</h2\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=89=E3=80=81=E6=94=B6=E7=9B=8A=
-
-=E6=8C=87=E6=A0=87=E4=BD=93=E7=B3=BB"\>=E4=B8=89=E3=80=81=E6=94=B6=E7=9B=8A=
-
-=E6=8C=87=E6=A0=87=E4=BD=93=E7=B3=BB\</h3\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a3=
-
-28e104-a014-453a-a03b-3b7a5c2b49e9" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=8C=87=E6=A0=87\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=90=AB=E4=B9=89\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E8=AE=A1=E7=AE=97=E9=80=BB=E8=BE=91\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Fee APY\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AE=9E=E9=99=85=E5=9F=BA=E4=BA=8E=E5=8D=8F=E8=AE=AE=E8=B4=B9=E7=94=A8=
-
-=EF=BC=88swap + funding + borrow=EF=BC=89=E7=9A=84=E5=B9=B4=E5=8C=96=E6=94=
-
-=B6=E7=9B=8A\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=9D=A5=E8=87=AA=E9=93=BE=E4=B8=8A fee accruals\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Ann. Performance\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=B1=A0=E5=AD=90=E5=87=80=E5=80=BC=E5=8F=98=E5=8C=96=E7=9A=84=E5=B9=B4=
-
-=E5=8C=96=E8=A1=A8=E7=8E=B0=EF=BC=88=E5=90=AB unrealized PnL=EF=BC=89\</p\>\</=
-
-td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=A7=81=E4=B8=8B=E6=96=B9=E5=85=AC=E5=BC=8F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>LP Price\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Pool =E4=BB=BD=E9=A2=9D=E5=8D=95=E4=BB=B7=EF=BC=8C=E5=8F=8D=E6=98=A0=E8=
-
-=B5=84=E4=BA=A7=E4=B8=8E=E8=B4=9F=E5=80=BA=E5=8F=98=E5=8C=96\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>LP NAV =3D (Total Assets - Liabilities) / Supply\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<hr\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=9B=9B=E3=80=81=F0=9F=93=90Ann.Perf=
-
-ormance=E8=AE=A1=E7=AE=97=E5=85=AC=E5=BC=8F=EF=BC=88=E5=B9=B4=E5=8C=96=E8=
-
-=A1=A8=E7=8E=B0=EF=BC=89"\>=E5=9B=9B=E3=80=81=F0=9F=93=90 Ann. Performance =
-
-=E8=AE=A1=E7=AE=97=E5=85=AC=E5=BC=8F=EF=BC=88=E5=B9=B4=E5=8C=96=E8=A1=A8=E7=
-
-=8E=B0=EF=BC=89\</h3\>
-
-\<p\>\<strong\>=E5=AE=9A=E4=B9=89=EF=BC=9A\</strong\>\<br\>
-
-Annualized Performance =E5=8F=8D=E6=98=A0 LP Token =E7=9B=B8=E5=AF=B9=E4=BA=
-
-=8E=E5=9F=BA=E5=87=86=EF=BC=88Uniswap V2 =E6=A8=A1=E5=BC=8F=E5=86=8D=E5=B9=
-
-=B3=E8=A1=A1=E7=9A=84 backing tokens=EF=BC=89=E7=9A=84=E6=94=B6=E7=9B=8A=E5=
-
-=B7=AE=E5=BC=82=E3=80=82\</p\>
-
-\<p\>\[\<br\>
-
-AnnPerformance =3D \left( \frac{NAV\_{t} / NAV\_{0}}{Benchmark\_{t} / Benchmar=
-
-k\_{0}} - 1 \right) \times \frac{365}{Days}\<br\>
-
-\]\</p\>
-
-\<p\>=E5=85=B6=E4=B8=AD=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>( NAV\_{t} )=EF=BC=9A=E5=BD=93=E5=89=8D LP Pool =E7=9A=84=E5=87=80=E8=B5=
-
-=84=E4=BA=A7=E5=80=BC=EF=BC=9B\</p\>\</li\>
-
-\<li\>
-
-\<p\>( Benchmark\_{t} )=EF=BC=9A=E6=A8=A1=E6=8B=9F Uniswap V2 50/50 =E5=86=8D=
-
-=E5=B9=B3=E8=A1=A1=E7=BB=84=E5=90=88=EF=BC=9B\</p\>\</li\>
-
-\<li\>
-
-\<p\>( Days )=EF=BC=9A=E6=89=80=E9=80=89=E6=97=B6=E9=97=B4=E5=91=A8=E6=9C=9F=
-
-=EF=BC=8830/90/180D=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\</ul\>
-
-\<p\>=E8=AF=A5=E6=8C=87=E6=A0=87 =E2=89=A0 Fee APY=E3=80=82\<br\>
-
-=F0=9F=91=89 Fee APY =E4=BB=85=E8=AE=A1=E8=B4=B9=E6=94=B6=E7=9B=8A=EF=BC=88=
-
-swap=E3=80=81funding=E3=80=81borrow=EF=BC=89=EF=BC=9B\<br\>
-
-=F0=9F=91=89 Ann Performance =E5=88=99=E8=AE=A1=E5=85=A5 LP =E7=9A=84=E5=AE=
-
-=9E=E9=99=85=E4=BB=B7=E6=A0=BC=E5=8F=98=E5=8C=96=E4=B8=8E=E4=BA=A4=E6=98=93=
-
-=E8=80=85 PnL =E6=9A=B4=E9=9C=B2=E3=80=82\</p\>
-
-\<hr\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=BA=94=E3=80=81=E7=BB=93=E7=AE=97=
-
-=E4=B8=8E=E9=A3=8E=E9=99=A9=E6=9C=BA=E5=88=B6"\>=E4=BA=94=E3=80=81=E7=BB=93=
-
-=E7=AE=97=E4=B8=8E=E9=A3=8E=E9=99=A9=E6=9C=BA=E5=88=B6\</h3\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"97=
-
-4fc428-cc0e-44f3-84ba-39b2301e7b52" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=9C=BA=E6=99=AF\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=9C=BA=E5=88=B6=E6=8F=8F=E8=BF=B0\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=90=88=E7=BA=A6=E9=80=BB=E8=BE=91\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Close Market\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=B8=82=E5=9C=BA=E5=81=9C=E7=9B=98=E6=88=96=E4=B8=8B=E6=9E=B6=E6=97=B6=
-
-=EF=BC=8CLP =E8=B5=84=E4=BA=A7=E6=8C=89=E6=9C=80=E5=90=8E=E7=BB=93=E7=AE=97=
-
-=E4=BB=B7=E6=B8=85=E7=AE=97=E5=B9=B6=E5=88=86=E9=85=8D\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>closePosition()\</code\> &amp; \<code\>settleMarket()\</code\>\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Gap / =E8=B7=B3=E7=A9=BA=E7=BB=93=E7=AE=97\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E4=BD=BF=E7=94=A8 oracle =E7=9A=84 TWAP =E4=BF=9D=E6=8A=A4=E4=BB=B7=EF=
-
-=BC=8CLP =E5=85=88=E8=A1=8C=E6=89=BF=E6=8B=85 PnL=EF=BC=8C=E5=86=8D=E7=94=
-
-=B1=E4=BF=9D=E9=99=A9=E5=9F=BA=E9=87=91=E8=A1=A5=E5=81=BF\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8F=82=E8=80=83 GMX \<code\>PriceImpactReserve\</code\>\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Liquidation\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=8B=A5=E4=BA=A4=E6=98=93=E8=80=85=E5=A4=B4=E5=AF=B8=E4=BA=8F=E6=8D=9F=
-
-=E8=B6=85=E8=BF=87=E6=8A=B5=E6=8A=BC=E6=AF=94=EF=BC=8CLP =E6=B1=A0=E8=8E=B7=
-
-=E5=BE=97=E6=B8=85=E7=AE=97=E6=BA=A2=E4=BB=B7\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>executeLiquidation()\</code\> =E8=87=AA=E5=8A=A8=E7=BB=93=E7=AE=97\</=
-
-p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Funding &amp; Borrow =E8=B0=83=E6=95=B4\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AE=9A=E6=97=B6=E6=9B=B4=E6=96=B0=E9=95=BF=E7=9F=AD=E4=BB=93=E5=B9=B3=
-
-=E8=A1=A1=EF=BC=8C=E8=AE=A1=E7=AE=97=E8=B5=84=E9=87=91=E8=B4=B9=E4=B8=8E=E5=
-
-=80=9F=E6=AC=BE=E8=B4=B9\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Keeper =E6=AF=8F=E5=B0=8F=E6=97=B6=E6=9B=B4=E6=96=B0 Funding Index\</p\>\</=
-
-td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=BA=94=E3=80=81=E5=90=8E=E7=AB=AF=
-
-=E6=95=B0=E6=8D=AE=E9=9C=80=E6=B1=82"\>=E4=BA=94=E3=80=81=E5=90=8E=E7=AB=AF=
-
-=E6=95=B0=E6=8D=AE=E9=9C=80=E6=B1=82\</h2\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-5.1Indexer=E4=BA=8B=E4=BB=B6=E7=9B=91=
-
-=E5=90=AC"\>5.1 Indexer =E4=BA=8B=E4=BB=B6=E7=9B=91=E5=90=AC\</h3\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d8=
-
-4c7f0f-b16b-4284-9379-a2630f27ca65" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E4=BA=8B=E4=BB=B6\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=AD=97=E6=AE=B5\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E7=94=A8=E9=80=94\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>VaultCreated\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>poolId, asset, oracle\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=96=B0=E6=B1=A0=E7=B4=A2=E5=BC=95\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>PositionOpened\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>trader, size, entryPrice\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E4=BA=A4=E6=98=93=E7=BB=9F=E8=AE=A1\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>PositionClosed\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>trader, pnl, fees, block\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=94=B6=E7=9B=8A=E8=AE=A1=E7=AE=97\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>OracleUpdated\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>asset, price, yield, marketOpen\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>RWA=E7=9B=91=E6=8E=A7\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>RewardDistributed\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>address, amount, reason\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=BF=80=E5=8A=B1=E7=BB=9F=E8=AE=A1\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-5.2=E6=8C=87=E6=A0=87=E4=B8=8E=E7=BB=
-
-=9F=E8=AE=A1=E5=AD=97=E6=AE=B5"\>5.2 =E6=8C=87=E6=A0=87=E4=B8=8E=E7=BB=9F=E8=
-
-=AE=A1=E5=AD=97=E6=AE=B5\</h3\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"56=
-
-e20a51-967b-44f4-b37a-6e3e5f3da64f" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=8C=87=E6=A0=87\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=90=AB=E4=B9=89\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>pool_imbalance_ratio\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A4=9A=E7=A9=BA=E6=8C=81=E4=BB=93=E6=AF=94=E4=BE=8B\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>funding_fee_accrued\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=BD=93=E5=89=8DFunding=E7=B4=AF=E7=A7=AF=E5=80=BC\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>rwa_yield_annualized\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>LP=E7=AB=AFRWA=E6=94=B6=E7=9B=8A=E5=B9=B4=E5=8C=96\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>trader_pnl_capped\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=B7=B2=E5=BA=94=E7=94=A8PnL=E4=B8=8A=E9=99=90=E5=90=8E=E7=9A=84=E6=94=
-
-=B6=E7=9B=8A\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>curator_vote_ratio\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=B8=82=E5=9C=BA=E6=8F=90=E6=A1=88=E6=8A=95=E7=A5=A8=E9=80=9A=E8=BF=87=
-
-=E7=8E=87\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-5.3API(GraphQL/REST)"\>5.3 API (GraphQL=
-
-/ REST)\</h3\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>GET /pools/{id}\</code\>\<br\>
-
-=E2=86=92 =E8=BF=94=E5=9B=9E=E6=B1=A0=E7=8A=B6=E6=80=81=E3=80=81PnLCap=E3=
-
-=80=81FundingRate=E3=80=81RWA=E5=8F=82=E6=95=B0\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>GET /leaderboard\</code\>\<br\>
-
-=E2=86=92 =E6=8E=92=E5=90=8D=E3=80=81=E7=A7=AF=E5=88=86=E3=80=81=E5=A5=96=
-
-=E5=8A=B1\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>POST /proposal\</code\>\<br\>
-
-=E2=86=92 =E6=8F=90=E4=BA=A4=E8=87=AA=E4=B8=BB=E5=BB=BA=E6=B1=A0=E6=8F=90=
-
-=E6=A1=88\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>GET /oracle/{asset}\</code\>\<br\>
-
-=E2=86=92 =E5=AE=9E=E6=97=B6RWA=E4=BB=B7=E6=A0=BC=E4=B8=8E=E6=94=B6=E7=9B=
-
-=8A=E7=8E=87\</p\>\</li\>
-
-\</ul\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=85=AD=E3=80=81=E5=89=8D=E7=AB=AF=
-
-=E5=8A=9F=E8=83=BD=E4=B8=8E=E4=BA=A4=E4=BA=92"\>=E5=85=AD=E3=80=81=E5=89=8D=
-
-=E7=AB=AF=E5=8A=9F=E8=83=BD=E4=B8=8E=E4=BA=A4=E4=BA=92\</h2\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"65=
-
-916d17-e597-4173-864e-bb796030054a" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=A8=A1=E5=9D=97\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=8A=9F=E8=83=BD\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=8F=8F=E8=BF=B0\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Trading Interface\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E4=BA=A4=E6=98=93=E3=80=81=E5=BC=80=E5=B9=B3=E4=BB=93=E3=80=81=E6=9D=A0=
-
-=E6=9D=86=E8=AE=BE=E5=AE=9A=E3=80=81PnL=E5=AE=9E=E6=97=B6=E6=98=BE=E7=A4=BA=
-
-\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8A=A8=E6=80=81=E5=B1=95=E7=A4=BAFunding/Impact=E8=B4=B9=E7=8E=87=E3=
-
-=80=81RWA=E6=94=B6=E7=9B=8A=E6=8F=90=E7=A4=BA\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Liquidity Panel\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=B7=BB=E5=8A=A0/=E7=A7=BB=E9=99=A4=E6=B5=81=E5=8A=A8=E6=80=A7=EF=BC=
-
-=8C=E6=9F=A5=E7=9C=8BVault=E5=87=80=E5=80=BC=E3=80=81PnL=E4=B8=8A=E9=99=90\<=
-
-/p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=94=AF=E6=8C=81RWA=E6=B1=A0=E5=B9=B4=E5=8C=96=E6=94=B6=E7=9B=8A=E5=B1=
-
-=95=E7=A4=BA\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Curator Dashboard\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AE=A1=E6=A0=B8=E5=B8=82=E5=9C=BA=E6=8F=90=E6=A1=88=E3=80=81=E6=8A=95=
-
-=E7=A5=A8=E3=80=81=E6=9F=A5=E7=9C=8B=E5=A3=B0=E8=AA=89=E7=A7=AF=E5=88=86\</p=
-
-\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=8B=9F=E7=94=A8Table + Modal=E4=BA=A4=E4=BA=92\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Referral / Leaderboard\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=BB=91=E5=AE=9A=E6=8E=A8=E8=8D=90=E5=85=B3=E7=B3=BB=E3=80=81=E6=9F=A5=
-
-=E7=9C=8B=E7=A7=AF=E5=88=86=E4=B8=8E=E6=8E=92=E5=90=8D\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AF=B9=E6=8E=A5=E5=90=8E=E7=AB=AF=E7=A7=AF=E5=88=86=E7=B3=BB=E7=BB=9F=
-
-\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>RWA Oracle Monitor\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AE=9E=E6=97=B6=E6=98=BE=E7=A4=BARWA=E8=B5=84=E4=BA=A7=E4=BB=B7=E6=A0=
-
-=BC=E4=B8=8E=E7=8A=B6=E6=80=81=EF=BC=88open/close=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=8F=90=E7=A4=BA=E6=B8=85=E7=AE=97=E5=86=BB=E7=BB=93=E7=8A=B6=E6=80=81=
-
-\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Analytics Dashboard\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=B1=87=E6=80=BB=E8=B5=84=E9=87=91=E6=9B=B2=E7=BA=BF=E3=80=81PnL=E5=88=
-
-=86=E5=B8=83=E3=80=81Funding=E5=8E=86=E5=8F=B2\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8F=AF=E5=AF=BC=E5=87=BACSV\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=89=E3=80=81=E6=A0=B8=E5=BF=83=
-
-=E6=A8=A1=E5=9D=97=E8=AE=BE=E8=AE=A1"\>=E4=B8=89=E3=80=81=E6=A0=B8=E5=BF=83=
-
-=E6=A8=A1=E5=9D=97=E8=AE=BE=E8=AE=A1\</h3\>
-
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-1.=E5=A4=9A=E9=9A=94=E7=A6=BBLP=E6=B1=
-
-=A0=E6=9E=B6=E6=9E=84"\>1. =E5=A4=9A=E9=9A=94=E7=A6=BB LP =E6=B1=A0=E6=9E=B6=
-
-=E6=9E=84\</h4\>
-
-\<p\>\<strong\>=E9=80=BB=E8=BE=91=EF=BC=9A\</strong\>\<br\>
-
-=E6=AF=8F=E4=B8=AA=E4=BA=A4=E6=98=93=E5=B8=82=E5=9C=BA=EF=BC=88BTC/USD=E3=
-
-=80=81ETH/USD=E3=80=81Gold/USD=E3=80=81USDC/T-Bill=E7=AD=89=EF=BC=89=E5=AF=
-
-=B9=E5=BA=94=E7=8B=AC=E7=AB=8B=E7=9A=84 \<strong\>Isolated LP Vault\</strong\>=
-
-=E3=80=82\<br\>
-
-LP=E5=9C=A8=E6=B1=A0=E5=86=85=E6=8F=90=E4=BE=9B=E6=B5=81=E5=8A=A8=E6=80=A7=
-
-=EF=BC=8C=E5=B9=B6=E7=8B=AC=E7=AB=8B=E6=89=BF=E6=8B=85=E8=AF=A5=E5=B8=82=E5=
-
-=9C=BA=E7=9A=84PnL=E9=A3=8E=E9=99=A9=E3=80=82\</p\>
-
-\<p\>\<strong\>=E5=85=B3=E9=94=AE=E5=8F=82=E6=95=B0=EF=BC=9A\</strong\>\</p\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"51=
-
-1f1cce-89a1-40a7-83e7-ce93333595fe" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=8F=82=E6=95=B0\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=90=AB=E4=B9=89\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>pool_id\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=94=AF=E4=B8=80=E5=B8=82=E5=9C=BAID\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>base_asset\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=A0=87=E7=9A=84=E8=B5=84=E4=BA=A7=EF=BC=88BTC/ETH/Gold=E7=AD=89=EF=BC=
-
-=89\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>collateral_token\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=8A=B5=E6=8A=BC=E8=B5=84=E4=BA=A7=EF=BC=88USDC/USDT/RWA=EF=BC=89\</p\>\<=
-
-/td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>max_pnl_cap\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8D=95=E6=B1=A0=E5=8F=AF=E5=88=86=E9=85=8D=E6=9C=80=E5=A4=A7PnL=E9=99=
-
-=90=E5=88=B6\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>funding_rate_window\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Funding=E8=AE=A1=E7=AE=97=E5=91=A8=E6=9C=9F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>price_impact_curve\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8A=A8=E6=80=81=E6=BB=91=E7=82=B9=E4=B8=8E=E8=B4=B9=E7=8E=87=E6=A8=A1=
-
-=E5=9E=8B\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>\<strong\>=E9=A3=8E=E6=8E=A7=E6=9C=BA=E5=88=B6=EF=BC=9A\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=AF=8F=E4=B8=AA=E6=B1=A0=E5=8D=95=E7=8B=AC=E8=B7=9F=E8=B8=AA \<code\>lo=
-
-ng_short_imbalance_ratio\</code\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=B6=85=E8=BF=87=E9=98=88=E5=80=BC=E6=97=B6=E5=8A=A8=E6=80=81=E4=B8=8A=
-
-=E8=B0=83 \<code\>funding_fee_bps\</code\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>LP =E7=AB=AF=E5=8F=AF=E6=9F=A5=E7=9C=8B=E9=A3=8E=E9=99=A9=E6=95=9E=E5=8F=
-
-=A3=E7=83=AD=E5=8A=9B=E5=9B=BE\</p\>\</li\>
-
-\</ul\>
-
-\<hr\>
-
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-2.RWA=E5=B8=82=E5=9C=BA=E6=9C=BA=E5=88=
-
-=B6=EF=BC=88=E5=8F=82=E8=80=83Avantis=EF=BC=89"\>2. RWA =E5=B8=82=E5=9C=BA=
-
-=E6=9C=BA=E5=88=B6=EF=BC=88=E5=8F=82=E8=80=83 Avantis=EF=BC=89\</h4\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"5a=
-
-164e24-26a5-49ef-bcf9-39f573750ee1" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=A8=A1=E5=9D=97\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E8=AE=BE=E8=AE=A1=E7=BB=86=E8=8A=82\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Oracle =E6=9D=A5=E6=BA=90\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E4=BC=98=E5=85=88=E4=BD=BF=E7=94=A8 Chainlink / Pyth / =E4=B8=93=E6=9C=
-
-=89 API=EF=BC=9B=E5=AF=B9=E4=BA=8ERWA=E7=B1=BB=EF=BC=88=E5=A6=82T-Bills=E3=
-
-=80=81Gold=EF=BC=89=EF=BC=8C=E9=87=87=E7=94=A8=E5=B8=A6=E7=AD=BE=E5=90=8D=
-
-=E7=9A=84 TradFi =E6=95=B0=E6=8D=AE=E6=BA=90=E3=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>=E4=BB=B7=E6=A0=BC=E6=9B=B4=E6=96=B0=E9=A2=91=E7=8E=87\</strong\>\<=
-
-/p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=87=B3=E5=B0=91=E6=AF=8F=E5=88=86=E9=92=9F=E6=9B=B4=E6=96=B0=E4=B8=80=
-
-=E6=AC=A1=EF=BC=9B=E4=BB=B7=E6=A0=BC=E9=97=B4=E6=96=AD=E6=97=B6=E4=BA=A4=E6=
-
-=98=93=E5=86=BB=E7=BB=93=E3=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>PnL =E7=BB=93=E7=AE=97\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=8B=A5=E5=B8=82=E5=9C=BA=E5=85=B3=E9=97=AD=E6=97=B6=E4=BB=8D=E6=9C=89=
-
-=E6=8C=81=E4=BB=93=EF=BC=8C=E9=87=87=E7=94=A8=E6=9C=80=E8=BF=91=E5=8F=AF=E5=
-
-=BE=97=E4=BB=B7=E6=A0=BC=E8=BF=9B=E8=A1=8C=E7=BB=93=E7=AE=97=EF=BC=9B=E8=8B=
-
-=A5=E4=BB=B7=E6=A0=BC=E6=96=AD=E5=B1=82 &gt;2=CF=83=EF=BC=8CPnL =E6=8C=89=
-
-=E6=BB=91=E7=82=B9=E6=8A=98=E5=87=8F=E7=B3=BB=E6=95=B0=E8=AE=A1=E7=AE=97=E3=
-
-=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>=E5=B8=82=E5=9C=BA=E5=BC=80=E6=94=BE=E6=97=B6=E9=97=B4\</strong\>\<=
-
-/p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E9=81=B5=E5=AE=88=E5=AF=B9=E5=BA=94=E6=A0=87=E7=9A=84=E7=9A=84=E7=8E=B0=
-
-=E5=AE=9E=E4=BA=A4=E6=98=93=E6=97=B6=E9=97=B4=EF=BC=88=E4=BE=8B=E5=A6=82=E7=
-
-=BE=8E=E5=80=BA09:30=E2=80=9316:00 EST=EF=BC=89=E3=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>=E6=B8=85=E7=AE=97=E9=80=BB=E8=BE=91\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=96=AD=E4=BB=B7=E6=9C=9F=E9=97=B4=E4=B8=8D=E5=BE=97=E6=B8=85=E7=AE=97=
-
-=EF=BC=9B=E5=A4=8D=E7=9B=98=E5=90=8E=E4=BB=A5Oracle=E5=B9=B3=E6=BB=91=E5=80=
-
-=BC=E6=B8=85=E7=AE=97=E3=80=82\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>RWA =E6=89=98=E7=AE=A1\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AF=B9=E6=8E=A5=E5=90=88=E8=A7=84RWA=E5=8D=8F=E8=AE=AE=EF=BC=88Maple,=
-
-Backed, Ondo=EF=BC=89=EF=BC=9BLP =E6=B1=A0=E8=B5=84=E4=BA=A7=E5=8F=AF=E9=
-
-=83=A8=E5=88=86=E9=85=8D=E7=BD=AE=E8=87=B3=E7=9C=9F=E5=AE=9E=E6=94=B6=E7=9B=
-
-=8A=E8=B5=84=E4=BA=A7=E3=80=82\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<hr\>
-
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-3.=E8=87=AA=E4=B8=BB=E5=BB=BA=E6=B1=A0=
-
-=EF=BC=88CuratedMarketCreation=EF=BC=89"\>3. =E8=87=AA=E4=B8=BB=E5=BB=BA=E6=
-
-=B1=A0=EF=BC=88Curated Market Creation=EF=BC=89\</h4\>
-
-\<p\>\<strong\>=E6=B5=81=E7=A8=8B=EF=BC=88=E7=B1=BB=E4=BC=BC Morpho Curate=EF=
-
-=BC=89\</strong\>=EF=BC=9A\</p\>
-
-\<ol start=3D"1"\>
-
-\<li\>
-
-\<p\>=E7=94=A8=E6=88=B7=E7=94=B3=E8=AF=B7=E6=96=B0=E5=B8=82=E5=9C=BA=EF=BC=88=
-
-=E6=8C=87=E5=AE=9A=E6=A0=87=E7=9A=84=E3=80=81=E6=8A=B5=E6=8A=BC=E3=80=81=E6=
-
-=9D=A0=E6=9D=86=E3=80=81Oracle=E6=BA=90=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E7=B3=BB=E7=BB=9F=E8=BF=9B=E5=85=A5 =E2=80=9CProposal=E2=80=9D =E7=8A=
-
-=B6=E6=80=81=EF=BC=8CCurator =E8=8A=82=E7=82=B9=E6=8A=95=E7=A5=A8=E6=88=96=
-
-=E7=99=BD=E5=90=8D=E5=8D=95=E6=89=B9=E5=87=86=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=8B=A5=E6=89=B9=E5=87=86=EF=BC=8C=E8=87=AA=E5=8A=A8=E9=83=A8=E7=BD=B2=
-
-=E5=AF=B9=E5=BA=94 \<code\>Vault + MarketConfig\</code\> =E5=90=88=E7=BA=A6=E3=
-
-=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>Pool =E5=88=9D=E5=A7=8B=E5=8C=96=E6=97=B6=E9=9C=80=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E8=AE=BE=E7=BD=AE=E5=88=9D=E5=A7=8B Target Weight\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E9=85=8D=E7=BD=AE Oracle =E6=95=B0=E6=8D=AE=E6=BA=90\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E7=BB=91=E5=AE=9A Fee =E6=A8=A1=E5=9E=8B=E4=B8=8E=E9=A3=8E=E9=99=A9=E5=
-
-=8F=82=E6=95=B0\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ol\>
-
-\<p\>\<strong\>=E5=8F=82=E6=95=B0=E7=BA=A6=E6=9D=9F=EF=BC=9A\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=88=9D=E5=A7=8B=E6=B1=A0=E9=9C=80 =E2=89=A5 100K USD TVL\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=A0=87=E7=9A=84=E9=9C=80=E5=9C=A8 \<code\>whitelisted_oracles\</code\> =
-
-=E5=86=85\</p\>\</li\>
-
-\<li\>
-
-\<p\>Creator =E9=9C=80=E6=8A=B5=E6=8A=BC Curator Token =E6=88=96=E8=B4=A8=E6=
-
-=8A=BC=E6=B2=BB=E7=90=86=E4=BB=A3=E5=B8=81\</p\>\</li\>
-
-\</ul\>
-
-\<hr\>
-
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-4.Curator=E6=9D=83=E9=99=90=E4=B8=8E=
-
-=E6=B2=BB=E7=90=86=E5=B1=82=E7=BA=A7"\>4. Curator =E6=9D=83=E9=99=90=E4=B8=
-
-=8E=E6=B2=BB=E7=90=86=E5=B1=82=E7=BA=A7\</h4\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"20=
-
-cff480-964a-442d-bc7b-1fc9fea07788" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E8=A7=92=E8=89=B2\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=9D=83=E9=99=90\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E7=A4=BA=E4=BE=8B\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Admin Curator\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AE=A1=E6=89=B9/=E6=92=A4=E9=94=80=E5=B8=82=E5=9C=BA\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AE=98=E6=96=B9=E6=B2=BB=E7=90=86=E5=A7=94=E5=91=98=E4=BC=9A\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Curator Node\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=AF=84=E5=AE=A1=E5=B8=82=E5=9C=BA=E9=A3=8E=E9=99=A9=EF=BC=8C=E6=8F=90=
-
-=E8=AE=AE=E5=8F=82=E6=95=B0=E5=8F=98=E6=9B=B4\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>DAO =E8=8A=82=E7=82=B9=E6=88=96=E4=B8=93=E4=B8=9A=E5=81=9A=E5=B8=82=E6=
-
-=9C=BA=E6=9E=84\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Creator\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8F=91=E8=B5=B7=E5=B8=82=E5=9C=BA=E5=88=9B=E5=BB=BA=E6=8F=90=E6=A1=88=
-
-\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=94=A8=E6=88=B7=E6=88=96=E6=9C=BA=E6=9E=84\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Reviewer\</strong\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=8F=90=E4=BE=9B=E6=95=B0=E6=8D=AE/Oracle=E9=AA=8C=E8=AF=81\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=99=BD=E5=90=8D=E5=8D=95=E6=95=B0=E6=8D=AE=E6=8F=90=E4=BE=9B=E6=96=B9=
-
-\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>\<strong\>=E6=BF=80=E5=8A=B1=EF=BC=9A\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=AE=A1=E6=A0=B8=E5=A5=96=E5=8A=B1=EF=BC=88=E6=8C=89=E4=BA=A4=E6=98=93=
-
-=E9=87=8F=E5=88=86=E9=85=8D=EF=BC=89\</p\>\</li\>
-
-\<li\>
-
-\<p\>Curator Token =E5=A5=96=E5=8A=B1=E4=B8=8E=E5=A3=B0=E8=AA=89=E5=80=BC=E5=
-
-=A2=9E=E9=95=BF\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=BF=9D=E8=A7=84=E6=88=96=E9=94=99=E8=AF=AF=E5=86=B3=E7=AD=96=E5=B0=86=
-
-=E6=89=A3=E9=99=A4=E8=B4=A8=E6=8A=BC\</p\>\</li\>
-
-\</ul\>
-
-\<hr\>
-
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-5.Referral/=E4=BA=A4=E6=98=93=E6=8C=96=
-
-=E7=9F=BF/Leaderboard"\>5. Referral / =E4=BA=A4=E6=98=93=E6=8C=96=E7=9F=BF /=
-
-Leaderboard\</h4\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<strong\>Referral =E7=BB=93=E6=9E=84\</strong\>=EF=BC=9A=E4=BA=8C=E7=BA=A7=
-
-=E5=88=86=E6=B6=A6=EF=BC=8C=E6=94=AF=E6=8C=81=E7=BB=91=E5=AE=9AUID=E3=80=82=
-
-\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E4=BA=A4=E6=98=93=E6=8C=96=E7=9F=BF=E6=A8=A1=E5=9E=8B\</strong\>=
-
-=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=AF=8F=E6=97=A5=E4=BA=A4=E6=98=93=E9=87=8F=E7=A7=AF=E5=88=86=E8=AE=A1=
-
-=E7=AE=97=EF=BC=9A\</p\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>score =
-
-=3D volume_usd \* weight_asset \* fee_multiplier
-
-\</pre\>
-
-\</div\>
-
-\</div\>\</li\>
-
-\<li\>
-
-\<p\>=E6=AF=8F=E5=91=A8=E6=8E=92=E8=A1=8C=E6=A6=9C=E5=8F=91=E5=A5=96=EF=BC=88=
-
-=E5=8F=82=E8=80=83 Jupiter =E7=9A=84 Leaderboard=EF=BC=89\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>=E5=A5=96=E5=8A=B1=E5=BD=A2=E5=BC=8F\</strong\>=EF=BC=9A\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=B9=B3=E5=8F=B0=E4=BB=A3=E5=B8=81\</p\>\</li\>
-
-\<li\>
-
-\<p\>Vault Fee Rebate\</p\>\</li\>
-
-\<li\>
-
-\<p\>NFT =E5=BE=BD=E7=AB=A0=E6=88=96=E6=B2=BB=E7=90=86=E6=9D=83=E6=8A=95=E7=
-
-=A5=A8=E6=9D=83\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ul\>
-
-\<hr\>
-
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-6.=E8=B4=B9=E7=94=A8=E6=A8=A1=E5=9E=8B=
-
-=EF=BC=88FeeMechanics=EF=BC=89"\>6. =E8=B4=B9=E7=94=A8=E6=A8=A1=E5=9E=8B=EF=
-
-=BC=88Fee Mechanics=EF=BC=89\</h4\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"3a=
-
-3b8c5c-3723-4ad0-bcb8-2f5d2fbf8c7f" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E8=B4=B9=E7=94=A8=E7=B1=BB=E5=9E=8B\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E8=AE=A1=E7=AE=97=E6=96=B9=E5=BC=8F\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E8=B0=83=E6=95=B4=E9=80=BB=E8=BE=91\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Funding Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A4=9A=E7=A9=BA=E4=B8=8D=E5=B9=B3=E8=A1=A1=E5=BA=A6 =C3=97 funding_ra=
-
-te_window\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=A0=B9=E6=8D=AE pool imbalance =E5=AE=9E=E6=97=B6=E8=B0=83=E8=8A=82\</=
-
-p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Price Impact Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=CE=94=E4=BB=93=E4=BD=8D =C3=97 impact_curve(=CE=94)\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E9=98=B2=E6=AD=A2=E5=A4=A7=E9=A2=9D=E4=BA=A4=E6=98=93=E6=93=8D=E7=BA=B5=
-
-\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Liquidation Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9B=BA=E5=AE=9A + =E5=8A=A8=E6=80=81=EF=BC=88=E9=9A=8F=E6=9D=A0=E6=9D=
-
-=86=EF=BC=89\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=90=91LP=E6=B1=A0=E8=BF=94=E8=BF=98\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Swap Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9F=BA=E7=A1=80=E8=B4=B9=E7=8E=87 + =E5=8A=A8=E6=80=81=E6=BB=91=E7=82=
-
-=B9\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>0.02=E2=80=930.3%=E5=8C=BA=E9=97=B4\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>RWA Carry Fee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=8B=A5LP=E8=B5=84=E4=BA=A7=E9=85=8D=E7=BD=AERWA=EF=BC=8C=E6=94=B6=E7=
-
-=9B=8A=E5=88=86=E6=88=90x%\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=87=AA=E5=8A=A8=E5=A4=8D=E6=8A=95=E6=88=96=E5=9B=9E=E8=B4=AD=E4=BB=A3=
-
-=E5=B8=81\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<hr\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=9B=9B=E3=80=81=E5=85=B3=E9=94=AE=
-
-=E5=85=AC=E5=BC=8F=E4=B8=BE=E4=BE=8B"\>=E5=9B=9B=E3=80=81=E5=85=B3=E9=94=AE=
-
-=E5=85=AC=E5=BC=8F=E4=B8=BE=E4=BE=8B\</h3\>
-
-\<p\>\<strong\>Funding Rate\</strong\>=EF=BC=9A\<br\>
-
-\[\<br\>
-
-FR =3D k \times \frac{OI\_{long} - OI\_{short}}{OI\_{total}}\<br\>
-
-\]\<br\>
-
-=E5=85=B6=E4=B8=AD \<code\>k\</code\> =E4=B8=BA=E5=8F=AF=E8=B0=83=E7=B3=BB=E6=
-
-=95=B0=EF=BC=88=E9=BB=98=E8=AE=A4 0.01%/h=EF=BC=89\</p\>
-
-\<p\>\<strong\>Price Impact\</strong\>=EF=BC=9A\<br\>
-
-\[\<br\>
-
-ImpactFee =3D baseFee + \alpha \times (\Delta position / poolLiquidity)^2\<b=
-
-r\>
-
-\]\</p\>
-
-\<p\>\<strong\>PnL Cap =E9=99=90=E5=88=B6\</strong\>=EF=BC=9A\<br\>
-
-\[\<br\>
-
-PnL\_{max} =3D min(PnL, cap \times LP\_{value})\<br\>
-
-\]\</p\>
-
-\<p\>\</p\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-6.LP&amp;FundingMechanism=EF=BC=88=E6=
-
-=B5=81=E5=8A=A8=E6=80=A7=E4=B8=8E=E8=B5=84=E9=87=91=E8=B4=B9=E7=8E=87=E6=9C=
-
-=BA=E5=88=B6=EF=BC=89"\>\<strong\>6. LP &amp; Funding Mechanism=EF=BC=88=E6=B5=
-
-=81=E5=8A=A8=E6=80=A7=E4=B8=8E=E8=B5=84=E9=87=91=E8=B4=B9=E7=8E=87=E6=9C=BA=
-
-=E5=88=B6=EF=BC=89\</strong\>\</h2\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-6.1LP=E6=B5=81=E5=8A=A8=E6=80=A7=E7=AE=
-
-=A1=E7=90=86"\>6.1 LP =E6=B5=81=E5=8A=A8=E6=80=A7=E7=AE=A1=E7=90=86\</h3\>
-
-\<p\>=E6=AF=8F=E4=B8=AA LP Vault =E7=8B=AC=E7=AB=8B=E8=AE=B0=E5=BD=95=E8=B5=
-
-=84=E4=BA=A7=E5=87=80=E5=80=BC=E3=80=81=E6=9C=AA=E5=AE=9E=E7=8E=B0=E6=94=B6=
-
-=E7=9B=8A=E3=80=81PnLCap =E9=99=90=E5=88=B6=EF=BC=9A\</p\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>struct =
-
-VaultState {
-
-uint256 totalLiquidity;
-
-uint256 totalPnL;
-
-uint256 totalFeeAccrued;
-
-uint256 rwaExposure;
-
-uint256 pnlCapRatio;
-
+``` syntaxhighlighter-pre
+struct VaultState {
+    uint256 totalLiquidity;
+    uint256 totalPnL;
+    uint256 totalFeeAccrued;
+    uint256 rwaExposure;
+    uint256 pnlCapRatio;
 }
+```
 
-\</pre\>
+</div>
 
-\</div\>
+</div>
 
-\</div\>
+#### 资金流向
 
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
+<div class="table-wrap">
 
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E8=B5=84=E9=87=91=E6=B5=81=E5=90=91"\>=
+|           |              |                                                     |
+|-----------|--------------|-----------------------------------------------------|
+| 事件      | LP 行为      | 资产变化                                            |
+| Deposit   | 增加流动性   | `totalLiquidity += amount`                          |
+| Withdraw  | 减少流动性   | 触发结算（若有未实现PnL）                           |
+| RWA Yield | RWA 收益分配 | `vault.totalLiquidity += vault.rwaExposure * yield` |
 
-=E8=B5=84=E9=87=91=E6=B5=81=E5=90=91\</h4\>
+</div>
 
-\<div class=3D"table-wrap"\>
+> \[Quote: GMX V2 Docs – Liquidity Provider Flows\]
 
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"86=
+------------------------------------------------------------------------
 
-15dea9-f083-4c40-8430-805b998875c8" class=3D"confluenceTable"\>
+### 6.2 Funding 费率机制
 
-\<tbody\>
+Funding Rate 用于调节多空不平衡。\
+基础模型：\
+\[\
+FR = k × \frac{OI\_{long} - OI\_{short}}{OI\_{total}}\
+\]\
+其中：
 
-\<tr\>
+<div class="table-wrap">
 
-\<th class=3D"confluenceTh"\>
+|            |              |              |
+|------------|--------------|--------------|
+| 参数       | 含义         | 示例值       |
+| `k`        | Funding 系数 | 0.01%/hour   |
+| `OI_long`  | 多头未平仓量 | 来自持仓索引 |
+| `OI_short` | 空头未平仓量 | 同上         |
 
-\<p\>=E4=BA=8B=E4=BB=B6\</p\>\</th\>
+</div>
 
-\<th class=3D"confluenceTh"\>
+Funding 计算与分配：
 
-\<p\>LP =E8=A1=8C=E4=B8=BA\</p\>\</th\>
+<div class="code panel pdl" style="border-width: 1px;">
 
-\<th class=3D"confluenceTh"\>
+<div class="codeContent panelContent pdl">
 
-\<p\>=E8=B5=84=E4=BA=A7=E5=8F=98=E5=8C=96\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Deposit\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A2=9E=E5=8A=A0=E6=B5=81=E5=8A=A8=E6=80=A7\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>totalLiquidity +=3D amount\</code\>\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Withdraw\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=87=8F=E5=B0=91=E6=B5=81=E5=8A=A8=E6=80=A7\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=A7=A6=E5=8F=91=E7=BB=93=E7=AE=97=EF=BC=88=E8=8B=A5=E6=9C=89=E6=9C=AA=
-
-=E5=AE=9E=E7=8E=B0PnL=EF=BC=89\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>RWA Yield\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>RWA =E6=94=B6=E7=9B=8A=E5=88=86=E9=85=8D\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>vault.totalLiquidity +=3D vault.rwaExposure \* yield\</code\>\</p\>\</td=
-
-\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<blockquote\>
-
-\<p\>\[Quote: GMX V2 Docs =E2=80=93 Liquidity Provider Flows\]\</p\>
-
-\</blockquote\>
-
-\<hr\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-6.2Funding=E8=B4=B9=E7=8E=87=E6=9C=BA=
-
-=E5=88=B6"\>6.2 Funding =E8=B4=B9=E7=8E=87=E6=9C=BA=E5=88=B6\</h3\>
-
-\<p\>Funding Rate =E7=94=A8=E4=BA=8E=E8=B0=83=E8=8A=82=E5=A4=9A=E7=A9=BA=E4=
-
-=B8=8D=E5=B9=B3=E8=A1=A1=E3=80=82\<br\>
-
-=E5=9F=BA=E7=A1=80=E6=A8=A1=E5=9E=8B=EF=BC=9A\<br\>
-
-\[\<br\>
-
-FR =3D k =C3=97 \frac{OI\_{long} - OI\_{short}}{OI\_{total}}\<br\>
-
-\]\<br\>
-
-=E5=85=B6=E4=B8=AD=EF=BC=9A\</p\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"ec=
-
-aeb1f0-40af-419d-8a87-c44bdd1f5751" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=8F=82=E6=95=B0\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=90=AB=E4=B9=89\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E7=A4=BA=E4=BE=8B=E5=80=BC\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>k\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Funding =E7=B3=BB=E6=95=B0\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>0.01%/hour\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>OI_long\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=A4=9A=E5=A4=B4=E6=9C=AA=E5=B9=B3=E4=BB=93=E9=87=8F\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=9D=A5=E8=87=AA=E6=8C=81=E4=BB=93=E7=B4=A2=E5=BC=95\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>OI_short\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=A9=BA=E5=A4=B4=E6=9C=AA=E5=B9=B3=E4=BB=93=E9=87=8F\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=90=8C=E4=B8=8A\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>Funding =E8=AE=A1=E7=AE=97=E4=B8=8E=E5=88=86=E9=85=8D=EF=BC=9A\</p\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>functio=
-
-n updateFundingRate() external {
-
-int256 imbalance =3D OI_long - OI_short;
-
-int256 fr =3D fundingRateK \* imbalance / OI_total;
-
-fundingRate =3D clamp(fr, -maxFR, +maxFR);
-
+``` syntaxhighlighter-pre
+function updateFundingRate() external {
+    int256 imbalance = OI_long - OI_short;
+    int256 fr = fundingRateK * imbalance / OI_total;
+    fundingRate = clamp(fr, -maxFR, +maxFR);
 }
+```
 
-\</pre\>
+</div>
 
-\</div\>
+</div>
 
-\</div\>
+#### Funding Fee 分配逻辑
 
-\<h4 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
+- 多空差额的资金费用在周期末清算；
 
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-FundingFee=E5=88=86=E9=85=8D=E9=80=BB=
+- 多头支付空头；
 
-=E8=BE=91"\>Funding Fee =E5=88=86=E9=85=8D=E9=80=BB=E8=BE=91\</h4\>
+- RWA 市场在休市期间冻结 Funding。
 
-\<ul\>
+<div class="table-wrap">
 
-\<li\>
+|              |                |                 |
+|--------------|----------------|-----------------|
+| 参数         | 值             | 来源            |
+| fundingRateK | 0.0001         | GMX v2          |
+| maxFR        | ±0.005 (±0.5%) | GMX v2          |
+| interval     | 1h             | GMX Funding周期 |
 
-\<p\>=E5=A4=9A=E7=A9=BA=E5=B7=AE=E9=A2=9D=E7=9A=84=E8=B5=84=E9=87=91=E8=B4=B9=
+</div>
 
-=E7=94=A8=E5=9C=A8=E5=91=A8=E6=9C=9F=E6=9C=AB=E6=B8=85=E7=AE=97=EF=BC=9B\</p=
+> \[Quote: GMX V2 – Funding Rate Specification\]
 
-\>\</li\>
+------------------------------------------------------------------------
 
-\<li\>
+### 6.3 LP 风险敞口与监控
 
-\<p\>=E5=A4=9A=E5=A4=B4=E6=94=AF=E4=BB=98=E7=A9=BA=E5=A4=B4=EF=BC=9B\</p\>\</li\>
+系统需实时计算：
 
-\<li\>
+- `open_interest_ratio = OI_long / (OI_long + OI_short)`
 
-\<p\>RWA =E5=B8=82=E5=9C=BA=E5=9C=A8=E4=BC=91=E5=B8=82=E6=9C=9F=E9=97=B4=E5=
+- `delta_exposure = |OI_long - OI_short| / liquidity`
 
-=86=BB=E7=BB=93 Funding=E3=80=82\</p\>\</li\>
+当 `delta_exposure > 20%` 时，触发告警。
 
-\</ul\>
+Backend 指标：
 
-\<div class=3D"table-wrap"\>
+<div class="code panel pdl" style="border-width: 1px;">
 
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"7d=
+<div class="codeContent panelContent pdl">
 
-4779b2-a7db-4394-a4c8-7d65f29e105d" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=8F=82=E6=95=B0\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=80=BC\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=9D=A5=E6=BA=90\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>fundingRateK\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>0.0001\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GMX v2\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>maxFR\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=C2=B10.005 (=C2=B10.5%)\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GMX v2\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>interval\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>1h\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GMX Funding=E5=91=A8=E6=9C=9F\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<blockquote\>
-
-\<p\>\[Quote: GMX V2 =E2=80=93 Funding Rate Specification\]\</p\>
-
-\</blockquote\>
-
-\<hr\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-6.3LP=E9=A3=8E=E9=99=A9=E6=95=9E=E5=8F=
-
-=A3=E4=B8=8E=E7=9B=91=E6=8E=A7"\>6.3 LP =E9=A3=8E=E9=99=A9=E6=95=9E=E5=8F=A3=
-
-=E4=B8=8E=E7=9B=91=E6=8E=A7\</h3\>
-
-\<p\>=E7=B3=BB=E7=BB=9F=E9=9C=80=E5=AE=9E=E6=97=B6=E8=AE=A1=E7=AE=97=EF=BC=9A=
-
-\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>open_interest_ratio =3D OI_long / (OI_long + OI_short)\</code\>\</p\>\<=
-
-/li\>
-
-\<li\>
-
-\<p\>\<code\>delta_exposure =3D \|OI_long - OI_short\| / liquidity\</code\>\</p\>\</li=
-
-\>
-
-\</ul\>
-
-\<p\>=E5=BD=93 \<code\>delta_exposure &gt; 20%\</code\> =E6=97=B6=EF=BC=8C=E8=A7=
-
-=A6=E5=8F=91=E5=91=8A=E8=AD=A6=E3=80=82\</p\>
-
-\<p\>Backend =E6=8C=87=E6=A0=87=EF=BC=9A\</p\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>{
-
-"pool_id": "BTC-USD",
-
-"oi_long": 1250000,
-
-"oi_short": 950000,
-
-"funding_rate": 0.00012,
-
-"delta_exposure": 0.18
-
+``` syntaxhighlighter-pre
+{
+  "pool_id": "BTC-USD",
+  "oi_long": 1250000,
+  "oi_short": 950000,
+  "funding_rate": 0.00012,
+  "delta_exposure": 0.18
 }
+```
 
-\</pre\>
+</div>
 
-\</div\>
+</div>
 
-\</div\>
+前端展示：资金费率动态条 + LP风控图表。
 
-\<p\>=E5=89=8D=E7=AB=AF=E5=B1=95=E7=A4=BA=EF=BC=9A=E8=B5=84=E9=87=91=E8=B4=B9=
+------------------------------------------------------------------------
 
-=E7=8E=87=E5=8A=A8=E6=80=81=E6=9D=A1 + LP=E9=A3=8E=E6=8E=A7=E5=9B=BE=E8=A1=
+## **7. Liquidation Mechanism（清算机制）**
 
-=A8=E3=80=82\</p\>
+### 7.1 清算条件
 
-\<hr\>
+清算触发条件与 GMX V2 保持一致：\
+\[\
+Collateral + PnL \< (PositionSize × MaintenanceMargin)\
+\]\
+当满足该条件时，触发强平。
 
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
+<div class="code panel pdl" style="border-width: 1px;">
 
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-7.LiquidationMechanism=EF=BC=88=E6=B8=
+<div class="codeContent panelContent pdl">
 
-=85=E7=AE=97=E6=9C=BA=E5=88=B6=EF=BC=89"\>\<strong\>7. Liquidation Mechanism=
-
-=EF=BC=88=E6=B8=85=E7=AE=97=E6=9C=BA=E5=88=B6=EF=BC=89\</strong\>\</h2\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-7.1=E6=B8=85=E7=AE=97=E6=9D=A1=E4=BB=
-
-=B6"\>7.1 =E6=B8=85=E7=AE=97=E6=9D=A1=E4=BB=B6\</h3\>
-
-\<p\>=E6=B8=85=E7=AE=97=E8=A7=A6=E5=8F=91=E6=9D=A1=E4=BB=B6=E4=B8=8E GMX V2 =
-
-=E4=BF=9D=E6=8C=81=E4=B8=80=E8=87=B4=EF=BC=9A\<br\>
-
-\[\<br\>
-
-Collateral + PnL &lt; (PositionSize =C3=97 MaintenanceMargin)\<br\>
-
-\]\<br\>
-
-=E5=BD=93=E6=BB=A1=E8=B6=B3=E8=AF=A5=E6=9D=A1=E4=BB=B6=E6=97=B6=EF=BC=8C=E8=
-
-=A7=A6=E5=8F=91=E5=BC=BA=E5=B9=B3=E3=80=82\</p\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>functio=
-
-n checkLiquidation(address trader) public view returns (bool) {
-
-uint256 equity =3D collateral + unrealizedPnL;
-
-uint256 threshold =3D positionSize \* maintenanceMargin;
-
-return equity &lt; threshold;
-
+``` syntaxhighlighter-pre
+function checkLiquidation(address trader) public view returns (bool) {
+    uint256 equity = collateral + unrealizedPnL;
+    uint256 threshold = positionSize * maintenanceMargin;
+    return equity < threshold;
 }
+```
 
-\</pre\>
+</div>
 
-\</div\>
+</div>
 
-\</div\>
+<div class="table-wrap">
 
-\<div class=3D"table-wrap"\>
+|                   |              |        |
+|-------------------|--------------|--------|
+| 参数              | 示例值       | 来源   |
+| maintenanceMargin | 0.005 (0.5%) | GMX V2 |
+| liquidationFee    | 0.10%–0.30%  | GMX V2 |
 
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"2e=
+</div>
 
-6071fc-b535-49bf-8cba-4f8fe7020363" class=3D"confluenceTable"\>
+## **9. Referral & Incentive（推荐与激励体系）**
 
-\<tbody\>
+### 9.1 Referral 系统
 
-\<tr\>
+二级邀请结构：
 
-\<th class=3D"confluenceTh"\>
+<div class="table-wrap">
 
-\<p\>=E5=8F=82=E6=95=B0\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E7=A4=BA=E4=BE=8B=E5=80=BC\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=9D=A5=E6=BA=90\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>maintenanceMargin\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>0.005 (0.5%)\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GMX V2\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>liquidationFee\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>0.10%=E2=80=930.30%\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>GMX V2\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-9.Referral&amp;Incentive=EF=BC=88=E6=
-
-=8E=A8=E8=8D=90=E4=B8=8E=E6=BF=80=E5=8A=B1=E4=BD=93=E7=B3=BB=EF=BC=89"\>\<str=
-
-ong\>9. Referral &amp; Incentive=EF=BC=88=E6=8E=A8=E8=8D=90=E4=B8=8E=E6=BF=
-
-=80=E5=8A=B1=E4=BD=93=E7=B3=BB=EF=BC=89\</strong\>\</h2\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-9.1Referral=E7=B3=BB=E7=BB=9F"\>9.1 Ref=
-
-erral =E7=B3=BB=E7=BB=9F\</h3\>
-
-\<p\>=E4=BA=8C=E7=BA=A7=E9=82=80=E8=AF=B7=E7=BB=93=E6=9E=84=EF=BC=9A\</p\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f3=
-
-72f58e-4830-4716-b825-7bbb3afa6310" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E7=BA=A7=E5=88=AB\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=88=86=E6=B6=A6=E6=AF=94=E4=BE=8B\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Level 1\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>10%\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Level 2\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>3%\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=EF=BC=9A\</p\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>event R=
-
-eferralReward(address indexed referrer, address indexed trader, uint256 amo=
-
-unt);
-
-\</pre\>
-
-\</div\>
-
-\</div\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-9.2=E4=BA=A4=E6=98=93=E6=8C=96=E7=9F=
-
-=BF=E7=A7=AF=E5=88=86=E5=85=AC=E5=BC=8F"\>9.2 =E4=BA=A4=E6=98=93=E6=8C=96=E7=
-
-=9F=BF=E7=A7=AF=E5=88=86=E5=85=AC=E5=BC=8F\</h3\>
-
-\<p\>\[\<br\>
-
-score =3D volume\_{usd} =C3=97 assetWeight =C3=97 feeMultiplier\<br\>
-
-\]\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=AF=8F=E5=91=A8=E9=87=8D=E7=BD=AE=E7=A7=AF=E5=88=86=EF=BC=9B\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=89=8D100=E7=94=A8=E6=88=B7=E5=8F=91=E6=94=BE=E5=A5=96=E5=8A=B1=EF=BC=
-
-=88=E4=BB=A3=E5=B8=81=E6=88=96 fee rebate=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\</ul\>
-
-\<blockquote\>
-
-\<p\>\[Quote: Jupiter Leaderboard =E2=80=93 Rewards Model\]\</p\>
-
-\</blockquote\>
-
-\<hr\>
-
-\<h3 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-9.3=E5=A5=96=E5=8A=B1=E6=B1=A0=E6=9D=
-
-=A5=E6=BA=90"\>9.3 =E5=A5=96=E5=8A=B1=E6=B1=A0=E6=9D=A5=E6=BA=90\</h3\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"ad=
-
-20d208-36a7-4714-acfa-c31434a00a59" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E6=9D=A5=E6=BA=90\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=88=86=E9=85=8D\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Protocol Fee 20%\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=8C=96=E7=9F=BF=E5=A5=96=E5=8A=B1\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>DAO Treasury 10%\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Referral =E5=9B=9E=E6=89=A3\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>LP Fee 70%\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>LP =E6=8C=81=E6=9C=89=E4=BA=BA\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<hr\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E9=A3=8E=E9=99=A9=E4=B8=8E=E8=BE=B9=
-
-=E7=95=8C=E5=A4=84=E7=90=86"\>\<strong\>=E9=A3=8E=E9=99=A9=E4=B8=8E=E8=BE=B9=
-
-=E7=95=8C=E5=A4=84=E7=90=86\</strong\>\</h2\>
-
-\<p\>\</p\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"53=
-
-a89bd5-7458-4714-908a-f5c1ea219d34" class=3D"confluenceTable"\>
-
-\<colgroup\>
-
-\<col style=3D"width: 105.0px;"\>
-
-\<col style=3D"width: 95.0px;"\>
-
-\<col style=3D"width: 83.0px;"\>
-
-\<col style=3D"width: 95.0px;"\>
-
-\<col style=3D"width: 95.0px;"\>
-
-\<col style=3D"width: 95.0px;"\>
-
-\<col style=3D"width: 95.0px;"\>
-
-\<col style=3D"width: 95.0px;"\>
-
-\</colgroup\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>\<strong\>=E6=A0=87=E7=9A=84=E8=B5=84=E4=BA=A7\</strong\>\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>maxGainP\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>maxSlP\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>maxLongOiP\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>maxShortOiP\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>groupOpenInterestPecentage\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>maxWalletOI\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>isUSDCAligned\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Crypto\</strong\>\</p\>
-
-\<p\>BTC/SOL/\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>2500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>100\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Defi\</strong\>\</p\>
-
-\<p\>HYPE\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>2500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>8\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Defi\</strong\>\</p\>
-
-\<p\>BERA\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>1000\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>8\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>15\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Crypto\</strong\>\</p\>
-
-\<p\>BNB\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>15\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>15\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>MEME\</strong\>\</p\>
-
-\<p\>PENGU\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>20\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>15\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>MEME\</strong\>\</p\>
-
-\<p\>FARTCOIN\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>2500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>20\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>MEME\</strong\>\</p\>
-
-\<p\>TRUMP\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>1000\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>20\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>L1\</strong\>\<br\>
-
-XRP\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>2500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>15\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>15\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>AI?\</strong\>\</p\>
-
-\<p\>VIRTUAL/EIGEN/TAO\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>5\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>15\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>MEME\</strong\>\</p\>
-
-\<p\>CHILLGUY\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>2\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Defi/L1/L2\</strong\>\</p\>
-
-\<p\>ARB/AVNT/PUMP\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>10\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>15\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Defi/L1/L2\</strong\>\</p\>
-
-\<p\>XPL/ASTER/ZORA\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>8\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Crypto/NFT\</strong\>\</p\>
-
-\<p\>KAITO/APE/GOAT/BRETT\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>2\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>L1\</strong\>\</p\>
-
-\<p\>APT\</p\>
-
-\<p\>\<strong\>MEME\</strong\>\</p\>
-
-\<p\>POPCAT\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>10\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Equity\</strong\>\</p\>
-
-\<p\>GOOG/TSLA/META/MSFT/AMZN/APPL/NVDA/COIN/\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>1000\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>5\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Indicies\</strong\>\</p\>
-
-\<p\>QQQ/SPY\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>1000\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>30\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>FX\</strong\>\</p\>
-
-\<p\>TRY\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>100\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>100\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>10\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>FX\</strong\>\</p\>
-
-\<p\>TWD/IDR/BRL\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>10\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>T\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>FX\</strong\>\</p\>
-
-\<p\>ZAR/MXN\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>10\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>15\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>FX\</strong\>\</p\>
-
-\<p\>KRW\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>20\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>15\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>FX\</strong\>\</p\>
-
-\<p\>INR\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>75\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>75\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>30\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>15\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>FX\</strong\>\</p\>
-
-\<p\>CNH\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>30\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>15\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<strong\>Commodities\</strong\>\<br\>
-
-WTI(\<strong\>USOILSPOT\</strong\>)\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>500\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>80\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>50\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>15\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>F\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"9c=
-
-4b6f09-bbf3-45f9-83e0-3803a185e4d7" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=9C=BA=E6=99=AF\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=A4=84=E7=90=86=E6=96=B9=E5=BC=8F\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Oracle=E6=96=AD=E5=B1=82 &gt;120s\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=9A=82=E5=81=9C=E5=B8=82=E5=9C=BA=EF=BC=8C=E5=86=BB=E7=BB=93=E6=B8=85=
-
-=E7=AE=97\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>RWA =E5=B8=82=E5=9C=BA=E5=85=B3=E9=97=AD\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=BB=B6=E8=BF=9FPnL=E7=BB=93=E7=AE=97\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>PnL=E8=B6=85Cap\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=BC=BA=E5=88=B6=E8=A3=81=E5=89=AA=E5=B9=B6=E8=AE=B0=E5=BD=95=E4=BA=8B=
-
-=E4=BB=B6\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Funding=E5=BC=82=E5=B8=B8\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9B=9E=E9=80=80=E8=87=B3=E4=B8=8A=E6=AC=A1=E6=9C=89=E6=95=88=E5=80=BC=
-
-\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Curator=E6=BB=A5=E6=9D=83\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>DAO=E6=8A=95=E7=A5=A8=E5=9B=9E=E6=BB=9A=E6=8F=90=E6=A1=88\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<h1 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=80=E3=80=81=E7=BB=9F=E4=B8=80=
-
-=E5=89=8D=E6=8F=90=E4=B8=8E=E5=91=BD=E5=90=8D=E7=BA=A6=E5=AE=9A"\>=E4=B8=80=
-
-=E3=80=81=E7=BB=9F=E4=B8=80=E5=89=8D=E6=8F=90=E4=B8=8E=E5=91=BD=E5=90=8D=E7=
-
-=BA=A6=E5=AE=9A\</h1\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>User\</code\>=EF=BC=9A=E9=92=B1=E5=8C=85=E6=8C=81=E6=9C=89=E4=BA=BA=
-
-=EF=BC=88LP =E6=88=96 Trader=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>GLV Vault\</code\>=EF=BC=9A=E8=81=9A=E5=90=88 vault=EF=BC=88ERC-4626=
-
-=E9=A3=8E=E6=A0=BC=EF=BC=89=EF=BC=8C=E5=AF=B9=E5=A4=96=E5=8F=91=E8=A1=8C G=
-
-LV Token / VaultShare=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>GM Pool\</code\>=EF=BC=9A=E5=8D=95=E5=B8=82=E5=9C=BA=E6=B5=81=E5=8A=
-
-=A8=E6=80=A7=E6=B1=A0=EF=BC=88long token / short token=EF=BC=89=E3=80=82\</p=
-
-\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>GM Router\</code\>=EF=BC=9A=E8=B7=AF=E7=94=B1=E5=B1=82=EF=BC=8C=E8=
-
-=B4=9F=E8=B4=A3=E5=9C=A8 pools / tokens =E9=97=B4 swap =E4=B8=8E=E6=9C=80=
-
-=E4=BC=98=E5=88=86=E9=85=8D=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>Keeper\</code\>=EF=BC=9A=E7=A6=BB=E7=BA=BF/=E5=AE=88=E6=8A=A4=E8=BF=
-
-=9B=E7=A8=8B=EF=BC=8C=E6=89=A7=E8=A1=8C=E5=BC=82=E6=AD=A5=E4=BB=BB=E5=8A=A1=
-
-=EF=BC=88execute deposits, shifts, rebalance, liquidations=EF=BC=89=E3=80=
-
-=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>\<code\>Oracle\</code\>=EF=BC=9A=E4=BB=B7=E6=A0=BC=E4=B8=8E RWA =E5=87=80=E5=
-
-=80=BC=E6=9D=A5=E6=BA=90=EF=BC=88Pyth / Chainlink / Custodian feed=EF=BC=89=
-
-=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E4=BA=8B=E4=BB=B6=EF=BC=88On-chain=EF=BC=89=EF=BC=9A\<code\>DepositEvent\<=
-
-/code\>, \<code\>WithdrawEvent\</code\>, \<code\>ShiftEvent\</code\>, \<code\>MintEven=
-
-t\</code\>, \<code\>BurnEvent\</code\>=E3=80=82\</p\>\</li\>
-
-\</ul\>
-
-\<h1 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-Deposit=EF=BC=88=E7=94=A8=E6=88=B7=E5=
-
-=85=A5=E9=87=91=EF=BC=89=E2=80=94TraceDiagram=EF=BC=88=E6=96=87=E6=9C=AC=E7=
-
-=89=88=EF=BC=89"\>Deposit=EF=BC=88=E7=94=A8=E6=88=B7=E5=85=A5=E9=87=91=EF=BC=
-
-=89 =E2=80=94 Trace Diagram=EF=BC=88=E6=96=87=E6=9C=AC=E7=89=88=EF=BC=89\</h=
-
-1\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>User Wa=
-
-llet (=E7=AD=BE=E5=90=8D)
-
-=E2=86=93 =EF=BC=881=EF=BC=89=E8=B0=83=E7=94=A8=E5=89=8D=E7=AB=AF UI=EF=
-
-=BC=9A=E9=80=89=E6=8B=A9 vault / asset / amount
-
+|         |          |
+|---------|----------|
+| 级别    | 分润比例 |
+| Level 1 | 10%      |
+| Level 2 | 3%       |
+
+</div>
+
+合约事件：
+
+<div class="code panel pdl" style="border-width: 1px;">
+
+<div class="codeContent panelContent pdl">
+
+``` syntaxhighlighter-pre
+event ReferralReward(address indexed referrer, address indexed trader, uint256 amount);
+```
+
+</div>
+
+</div>
+
+### 9.2 交易挖矿积分公式
+
+\[\
+score = volume\_{usd} × assetWeight × feeMultiplier\
+\]
+
+- 每周重置积分；
+
+- 前100用户发放奖励（代币或 fee rebate）。
+
+> \[Quote: Jupiter Leaderboard – Rewards Model\]
+
+------------------------------------------------------------------------
+
+### 9.3 奖励池来源
+
+<div class="table-wrap">
+
+|                  |               |
+|------------------|---------------|
+| 来源             | 分配          |
+| Protocol Fee 20% | 挖矿奖励      |
+| DAO Treasury 10% | Referral 回扣 |
+| LP Fee 70%       | LP 持有人     |
+
+</div>
+
+------------------------------------------------------------------------
+
+## **风险与边界处理**
+
+<div class="table-wrap">
+
+<table class="confluenceTable" data-table-width="760" data-layout="default" data-local-id="53a89bd5-7458-4714-908a-f5c1ea219d34">
+<tbody>
+<tr>
+<th class="confluenceTh"><p><strong>标的资产</strong></p></th>
+<th class="confluenceTh"><p>maxGainP</p></th>
+<th class="confluenceTh"><p>maxSlP</p></th>
+<th class="confluenceTh"><p>maxLongOiP</p></th>
+<th class="confluenceTh"><p>maxShortOiP</p></th>
+<th class="confluenceTh"><p>groupOpenInterestPecentage</p></th>
+<th class="confluenceTh"><p>maxWalletOI</p></th>
+<th class="confluenceTh"><p>isUSDCAligned</p></th>
+</tr>
+&#10;<tr>
+<td class="confluenceTd"><p><strong>Crypto</strong></p>
+<p>BTC/SOL/</p></td>
+<td class="confluenceTd"><p>2500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>100</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>Defi</strong></p>
+<p>HYPE</p></td>
+<td class="confluenceTd"><p>2500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>8</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>Defi</strong></p>
+<p>BERA</p></td>
+<td class="confluenceTd"><p>1000</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>8</p></td>
+<td class="confluenceTd"><p>15</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>Crypto</strong></p>
+<p>BNB</p></td>
+<td class="confluenceTd"><p>500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>15</p></td>
+<td class="confluenceTd"><p>15</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>MEME</strong></p>
+<p>PENGU</p></td>
+<td class="confluenceTd"><p>500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>20</p></td>
+<td class="confluenceTd"><p>15</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>MEME</strong></p>
+<p>FARTCOIN</p></td>
+<td class="confluenceTd"><p>2500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>20</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>MEME</strong></p>
+<p>TRUMP</p></td>
+<td class="confluenceTd"><p>1000</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>20</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>L1</strong><br />
+XRP</p></td>
+<td class="confluenceTd"><p>2500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>15</p></td>
+<td class="confluenceTd"><p>15</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>AI?</strong></p>
+<p>VIRTUAL/EIGEN/TAO</p></td>
+<td class="confluenceTd"><p>500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>5</p></td>
+<td class="confluenceTd"><p>15</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>MEME</strong></p>
+<p>CHILLGUY</p></td>
+<td class="confluenceTd"><p>500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>2</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>Defi/L1/L2</strong></p>
+<p>ARB/AVNT/PUMP</p></td>
+<td class="confluenceTd"><p>500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>10</p></td>
+<td class="confluenceTd"><p>15</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>Defi/L1/L2</strong></p>
+<p>XPL/ASTER/ZORA</p></td>
+<td class="confluenceTd"><p>500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>8</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>Crypto/NFT</strong></p>
+<p>KAITO/APE/GOAT/BRETT</p></td>
+<td class="confluenceTd"><p>500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>2</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>L1</strong></p>
+<p>APT</p>
+<p><strong>MEME</strong></p>
+<p>POPCAT</p></td>
+<td class="confluenceTd"><p>500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>10</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>Equity</strong></p>
+<p>GOOG/TSLA/META/MSFT/AMZN/APPL/NVDA/COIN/</p></td>
+<td class="confluenceTd"><p>1000</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>5</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>Indicies</strong></p>
+<p>QQQ/SPY</p></td>
+<td class="confluenceTd"><p>1000</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>30</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>FX</strong></p>
+<p>TRY</p></td>
+<td class="confluenceTd"><p>500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>100</p></td>
+<td class="confluenceTd"><p>100</p></td>
+<td class="confluenceTd"><p>10</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>FX</strong></p>
+<p>TWD/IDR/BRL</p></td>
+<td class="confluenceTd"><p>500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>10</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>T</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>FX</strong></p>
+<p>ZAR/MXN</p></td>
+<td class="confluenceTd"><p>500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>10</p></td>
+<td class="confluenceTd"><p>15</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>FX</strong></p>
+<p>KRW</p></td>
+<td class="confluenceTd"><p>500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>20</p></td>
+<td class="confluenceTd"><p>15</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>FX</strong></p>
+<p>INR</p></td>
+<td class="confluenceTd"><p>500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>75</p></td>
+<td class="confluenceTd"><p>75</p></td>
+<td class="confluenceTd"><p>30</p></td>
+<td class="confluenceTd"><p>15</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>FX</strong></p>
+<p>CNH</p></td>
+<td class="confluenceTd"><p>500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>30</p></td>
+<td class="confluenceTd"><p>15</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+<tr>
+<td class="confluenceTd"><p><strong>Commodities</strong><br />
+WTI(<strong>USOILSPOT</strong>)</p></td>
+<td class="confluenceTd"><p>500</p></td>
+<td class="confluenceTd"><p>80</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>50</p></td>
+<td class="confluenceTd"><p>15</p></td>
+<td class="confluenceTd"><p>F</p></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<div class="table-wrap">
+
+|                   |                    |
+|-------------------|--------------------|
+| 场景              | 处理方式           |
+| Oracle断层 \>120s | 暂停市场，冻结清算 |
+| RWA 市场关闭      | 延迟PnL结算        |
+| PnL超Cap          | 强制裁剪并记录事件 |
+| Funding异常       | 回退至上次有效值   |
+| Curator滥权       | DAO投票回滚提案    |
+
+</div>
+
+# 一、统一前提与命名约定
+
+- `User`：钱包持有人（LP 或 Trader）。
+
+- `GLV Vault`：聚合 vault（ERC-4626 风格），对外发行 GLV Token / VaultShare。
+
+- `GM Pool`：单市场流动性池（long token / short token）。
+
+- `GM Router`：路由层，负责在 pools / tokens 间 swap 与最优分配。
+
+- `Keeper`：离线/守护进程，执行异步任务（execute deposits, shifts, rebalance, liquidations）。
+
+- `Oracle`：价格与 RWA 净值来源（Pyth / Chainlink / Custodian feed）。
+
+- 事件（On-chain）：`DepositEvent`, `WithdrawEvent`, `ShiftEvent`, `MintEvent`, `BurnEvent`。
+
+# Deposit（用户入金） — Trace Diagram（文本版）
+
+<div class="code panel pdl" style="border-width: 1px;">
+
+<div class="codeContent panelContent pdl">
+
+``` syntaxhighlighter-pre
+User Wallet (签名)
+  ↓ （1）调用前端 UI：选择 vault / asset / amount
 Frontend
-
-=E2=86=93 =EF=BC=882=EF=BC=89=E5=89=8D=E7=AB=AF=E6=A0=A1=E9=AA=8C=E4=B8=
-
-=8E=E9=A2=84=E4=BC=B0=EF=BC=88gas, fees, estimatedShares=EF=BC=89
-
-=E2=86=93 =EF=BC=883=EF=BC=89=E7=94=A8=E6=88=B7=E7=AD=BE=E5=90=8D approve=
-
-=EF=BC=88ERC20 approve =E6=88=96 EIP-712=EF=BC=89
-
-Backend API Server (=E5=8F=AF=E9=80=89=EF=BC=9A=E6=9E=84=E9=80=A0=E4=BA=A4=
-
-=E6=98=93 / =E6=8F=90=E4=BA=A4)
-
-=E2=86=93 =EF=BC=884=EF=BC=89=E5=A6=82=E6=9E=9C=E4=B8=BA synchronous depo=
-
-sit: =E5=89=8D=E7=AB=AF=E7=9B=B4=E6=8E=A5=E8=B0=83=E7=94=A8 GlvVault.deposi=
-
-t(amount)
-
-=E2=86=93 =EF=BC=884b=EF=BC=89=E5=A6=82=E6=9E=9C=E4=B8=BA async deposit: =
-
-=E5=89=8D=E7=AB=AF=E5=8F=91=E8=B5=B7 deposit request =E5=88=B0 Backend=EF=
-
-=BC=88=E4=BF=9D=E5=AD=98=E8=AF=B7=E6=B1=82=EF=BC=8C=E8=BF=94=E5=9B=9E txId=
-
-=EF=BC=89
-
-Keeper / Backend=EF=BC=88=E8=8B=A5 async=EF=BC=89
-
-=E2=86=93 =EF=BC=885=EF=BC=89Keeper =E8=B0=83=E7=94=A8 GlvVault.executeDe=
-
-posit(requestId)
-
+  ↓ （2）前端校验与预估（gas, fees, estimatedShares）
+  ↓ （3）用户签名 approve（ERC20 approve 或 EIP-712）
+Backend API Server (可选：构造交易 / 提交)
+  ↓ （4）如果为 synchronous deposit: 前端直接调用 GlvVault.deposit(amount)
+  ↓ （4b）如果为 async deposit: 前端发起 deposit request 到 Backend（保存请求，返回 txId）
+Keeper / Backend（若 async）
+  ↓ （5）Keeper 调用 GlvVault.executeDeposit(requestId)
 On-chain: GlvVault.deposit/executeDeposit
-
-=E2=86=B3 validateVaultState(), checkMaxTVL(), checkMaxPnlFactorForDeposi=
-
-ts()
-
-=E2=86=B3 transferFrom(user, vault, amount)
-
-=E2=86=B3 if needed -&gt; GM Router swap to underlying market tokens
-
-=E2=86=B3 calculateShares =3D amount / virtualPrice
-
-=E2=86=B3 mintVaultShares(user, shares)
-
-=E2=86=B3 emit DepositEvent(user, asset, amount, shares, vaultId)
-
+  ↳ validateVaultState(), checkMaxTVL(), checkMaxPnlFactorForDeposits()
+  ↳ transferFrom(user, vault, amount)
+  ↳ if needed -> GM Router swap to underlying market tokens
+  ↳ calculateShares = amount / virtualPrice
+  ↳ mintVaultShares(user, shares)
+  ↳ emit DepositEvent(user, asset, amount, shares, vaultId)
 Backend / Keeper
-
-=E2=86=93 =EF=BC=886=EF=BC=89=E7=9B=91=E5=90=AC DepositEvent -&gt; =E6=9B=
-
-=B4=E6=96=B0=E7=8A=B6=E6=80=81=EF=BC=88Pending=E2=86=92Executed=EF=BC=89
-
+  ↓ （6）监听 DepositEvent -> 更新状态（Pending→Executed）
 Frontend
+  ↓ （7）刷新 UI：显示新的 GLV 余额与累计收益
+```
 
-=E2=86=93 =EF=BC=887=EF=BC=89=E5=88=B7=E6=96=B0 UI=EF=BC=9A=E6=98=BE=E7=
+</div>
 
-=A4=BA=E6=96=B0=E7=9A=84 GLV =E4=BD=99=E9=A2=9D=E4=B8=8E=E7=B4=AF=E8=AE=A1=
+</div>
 
-=E6=94=B6=E7=9B=8A
+## 各方职责（按步骤）
 
-\</pre\>
+1.  **Frontend**
 
-\</div\>
+    - 提供 deposit UI（选择 vault、asset、amount、预估 shares & fees & tx cost）。
 
-\</div\>
+    - 校验输入（资产类型、最小入金、wallet balance、approval 状态）。
 
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
+    - 发起 approve（ERC20）并引导用户签名交易或向 Backend 提交异步请求。
 
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=90=84=E6=96=B9=E8=81=8C=E8=B4=A3=
+    - 显示 tx 状态（Pending / Executed / Failed）与事件（DepositEvent）。
 
-=EF=BC=88=E6=8C=89=E6=AD=A5=E9=AA=A4=EF=BC=89"\>=E5=90=84=E6=96=B9=E8=81=8C=
+    - 必须显示 `maxPnlFactorForDeposits`、`currentSharePrice`、`estimated slippage`。
 
-=E8=B4=A3=EF=BC=88=E6=8C=89=E6=AD=A5=E9=AA=A4=EF=BC=89\</h2\>
+2.  **Backend API Server**
 
-\<ol start=3D"1"\>
+    - （可选）构建并签名或转发交易（托管场景或 meta-tx）。
 
-\<li\>
+    - 持久化 deposit 请求（若采用异步模式），生成 requestId。
 
-\<p\>\<strong\>Frontend\</strong\>\</p\>
+    - 提供查询接口：`GET /deposits/:requestId/status`。
 
-\<ul\>
+    - 通知 Keeper 执行（if async）。
 
-\<li\>
+3.  **Keeper（后台守护进程）**
 
-\<p\>=E6=8F=90=E4=BE=9B deposit UI=EF=BC=88=E9=80=89=E6=8B=A9 vault=E3=80=81a=
+    - 轮询或监听新 deposit requests。
 
-sset=E3=80=81amount=E3=80=81=E9=A2=84=E4=BC=B0 shares &amp; fees &amp; tx c=
+    - 在最佳时点调用合约 `executeDeposit`（合并多笔、做 slippage 控制）。
 
-ost=EF=BC=89=E3=80=82\</p\>\</li\>
+    - 调用前检查 Oracle、Vault caps、TVL caps、maxPnlFactor。
 
-\<li\>
+    - 在失败时重试或回退：发出 `DepositFailed` 记录并通知前端/用户。
 
-\<p\>=E6=A0=A1=E9=AA=8C=E8=BE=93=E5=85=A5=EF=BC=88=E8=B5=84=E4=BA=A7=E7=B1=BB=
+4.  **GlvVault 合约（合约层）**
 
-=E5=9E=8B=E3=80=81=E6=9C=80=E5=B0=8F=E5=85=A5=E9=87=91=E3=80=81wallet balan=
+    - `deposit()` / `executeDeposit()`：校验、接收资产、计算并 mint vault shares。
 
-ce=E3=80=81approval =E7=8A=B6=E6=80=81=EF=BC=89=E3=80=82\</p\>\</li\>
+    - 计算 `shares = amount / virtualPrice`，使用 `maxPnlFactorForDeposits` 限制计入未实现 PnL。
 
-\<li\>
+    - 若需要跨 token：调用 `GM Router` 做 swap 并支付相关 swap fee。
 
-\<p\>=E5=8F=91=E8=B5=B7 approve=EF=BC=88ERC20=EF=BC=89=E5=B9=B6=E5=BC=95=E5=
+    - 触发 `DepositEvent(user, asset, amount, shares, vaultId)`。
 
-=AF=BC=E7=94=A8=E6=88=B7=E7=AD=BE=E5=90=8D=E4=BA=A4=E6=98=93=E6=88=96=E5=90=
+5.  **GM Router**
 
-=91 Backend =E6=8F=90=E4=BA=A4=E5=BC=82=E6=AD=A5=E8=AF=B7=E6=B1=82=E3=80=82=
+    - 若 deposit 需将单一资产分配到多个 GM Pool：计算最优拆分（基于 targetWeights、utilization、priceImpact）。
 
-\</p\>\</li\>
+    - 返回拆分与预估 cost 给 Keeper（用于确认）。
 
-\<li\>
+6.  **Oracle / RWA Custodian**
 
-\<p\>=E6=98=BE=E7=A4=BA tx =E7=8A=B6=E6=80=81=EF=BC=88Pending / Executed / Fa=
+    - 提供当前 price / RWA NAV，Keeper 在执行前必须确认 oracle freshness（staleness \< threshold）。
 
-iled=EF=BC=89=E4=B8=8E=E4=BA=8B=E4=BB=B6=EF=BC=88DepositEvent=EF=BC=89=E3=
+## 关键失败场景与处理
 
-=80=82\</p\>\</li\>
+- Oracle stale → Keeper 不执行，标注 `OracleStale` 并通知用户。
 
-\<li\>
+- 超出 Vault TVL cap / market max -\> 合约 revert；Keeper 需要回退 request 并提示用户。
 
-\<p\>=E5=BF=85=E9=A1=BB=E6=98=BE=E7=A4=BA \<code\>maxPnlFactorForDeposits\</code=
+- swap price impact 超限 → Keeper abort 并 reschedule。
 
-\>=E3=80=81\<code\>currentSharePrice\</code\>=E3=80=81\<code\>estimated slippage\</=
+- ERC20 approve 未完成 → 前端阻止提交并弹提示。
 
-code\>=E3=80=82\</p\>\</li\>
+## 主要接口与事件（建议）
 
-\</ul\>\</li\>
+- Backend: `POST /api/v1/deposits { user, vaultId, asset, amount }` → returns `requestId`
 
-\<li\>
+- Contract events: `DepositEvent(address user, uint256 amount, uint256 shares, bytes32 vaultId)`
 
-\<p\>\<strong\>Backend API Server\</strong\>\</p\>
+# 三、Withdraw（用户赎回） — Trace Diagram（文本版）
 
-\<ul\>
+<div class="code panel pdl" style="border-width: 1px;">
 
-\<li\>
+<div class="codeContent panelContent pdl">
 
-\<p\>=EF=BC=88=E5=8F=AF=E9=80=89=EF=BC=89=E6=9E=84=E5=BB=BA=E5=B9=B6=E7=AD=BE=
-
-=E5=90=8D=E6=88=96=E8=BD=AC=E5=8F=91=E4=BA=A4=E6=98=93=EF=BC=88=E6=89=98=E7=
-
-=AE=A1=E5=9C=BA=E6=99=AF=E6=88=96 meta-tx=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=8C=81=E4=B9=85=E5=8C=96 deposit =E8=AF=B7=E6=B1=82=EF=BC=88=E8=8B=A5=
-
-=E9=87=87=E7=94=A8=E5=BC=82=E6=AD=A5=E6=A8=A1=E5=BC=8F=EF=BC=89=EF=BC=8C=E7=
-
-=94=9F=E6=88=90 requestId=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=8F=90=E4=BE=9B=E6=9F=A5=E8=AF=A2=E6=8E=A5=E5=8F=A3=EF=BC=9A\<code\>GET=
-
-/deposits/:requestId/status\</code\>=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E9=80=9A=E7=9F=A5 Keeper =E6=89=A7=E8=A1=8C=EF=BC=88if async=EF=BC=89=
-
-=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Keeper=EF=BC=88=E5=90=8E=E5=8F=B0=E5=AE=88=E6=8A=A4=E8=BF=9B=E7=
-
-=A8=8B=EF=BC=89\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E8=BD=AE=E8=AF=A2=E6=88=96=E7=9B=91=E5=90=AC=E6=96=B0 deposit requests=
-
-=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=9C=A8=E6=9C=80=E4=BD=B3=E6=97=B6=E7=82=B9=E8=B0=83=E7=94=A8=E5=90=88=
-
-=E7=BA=A6 \<code\>executeDeposit\</code\>=EF=BC=88=E5=90=88=E5=B9=B6=E5=A4=9A=
-
-=E7=AC=94=E3=80=81=E5=81=9A slippage =E6=8E=A7=E5=88=B6=EF=BC=89=E3=80=82\</=
-
-p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=B0=83=E7=94=A8=E5=89=8D=E6=A3=80=E6=9F=A5 Oracle=E3=80=81Vault caps=
-
-=E3=80=81TVL caps=E3=80=81maxPnlFactor=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=9C=A8=E5=A4=B1=E8=B4=A5=E6=97=B6=E9=87=8D=E8=AF=95=E6=88=96=E5=9B=9E=
-
-=E9=80=80=EF=BC=9A=E5=8F=91=E5=87=BA \<code\>DepositFailed\</code\> =E8=AE=B0=
-
-=E5=BD=95=E5=B9=B6=E9=80=9A=E7=9F=A5=E5=89=8D=E7=AB=AF/=E7=94=A8=E6=88=B7=
-
-=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>GlvVault =E5=90=88=E7=BA=A6=EF=BC=88=E5=90=88=E7=BA=A6=E5=B1=82=
-
-=EF=BC=89\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>deposit()\</code\> / \<code\>executeDeposit()\</code\>=EF=BC=9A=E6=A0=A1=
-
-=E9=AA=8C=E3=80=81=E6=8E=A5=E6=94=B6=E8=B5=84=E4=BA=A7=E3=80=81=E8=AE=A1=E7=
-
-=AE=97=E5=B9=B6 mint vault shares=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=AE=A1=E7=AE=97 \<code\>shares =3D amount / virtualPrice\</code\>=EF=BC=
-
-=8C=E4=BD=BF=E7=94=A8 \<code\>maxPnlFactorForDeposits\</code\> =E9=99=90=E5=88=
-
-=B6=E8=AE=A1=E5=85=A5=E6=9C=AA=E5=AE=9E=E7=8E=B0 PnL=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=8B=A5=E9=9C=80=E8=A6=81=E8=B7=A8 token=EF=BC=9A=E8=B0=83=E7=94=A8 \<c=
-
-ode\>GM Router\</code\> =E5=81=9A swap =E5=B9=B6=E6=94=AF=E4=BB=98=E7=9B=B8=E5=
-
-=85=B3 swap fee=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=A7=A6=E5=8F=91 \<code\>DepositEvent(user, asset, amount, shares, vault=
-
-Id)\</code\>=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>GM Router\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E8=8B=A5 deposit =E9=9C=80=E5=B0=86=E5=8D=95=E4=B8=80=E8=B5=84=E4=BA=A7=
-
-=E5=88=86=E9=85=8D=E5=88=B0=E5=A4=9A=E4=B8=AA GM Pool=EF=BC=9A=E8=AE=A1=E7=
-
-=AE=97=E6=9C=80=E4=BC=98=E6=8B=86=E5=88=86=EF=BC=88=E5=9F=BA=E4=BA=8E targe=
-
-tWeights=E3=80=81utilization=E3=80=81priceImpact=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=BF=94=E5=9B=9E=E6=8B=86=E5=88=86=E4=B8=8E=E9=A2=84=E4=BC=B0 cost =E7=
-
-=BB=99 Keeper=EF=BC=88=E7=94=A8=E4=BA=8E=E7=A1=AE=E8=AE=A4=EF=BC=89=E3=80=
-
-=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Oracle / RWA Custodian\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=8F=90=E4=BE=9B=E5=BD=93=E5=89=8D price / RWA NAV=EF=BC=8CKeeper =E5=
-
-=9C=A8=E6=89=A7=E8=A1=8C=E5=89=8D=E5=BF=85=E9=A1=BB=E7=A1=AE=E8=AE=A4 oracl=
-
-e freshness=EF=BC=88staleness &lt; threshold=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ol\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=85=B3=E9=94=AE=E5=A4=B1=E8=B4=A5=
-
-=E5=9C=BA=E6=99=AF=E4=B8=8E=E5=A4=84=E7=90=86"\>=E5=85=B3=E9=94=AE=E5=A4=B1=
-
-=E8=B4=A5=E5=9C=BA=E6=99=AF=E4=B8=8E=E5=A4=84=E7=90=86\</h2\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Oracle stale =E2=86=92 Keeper =E4=B8=8D=E6=89=A7=E8=A1=8C=EF=BC=8C=E6=A0=
-
-=87=E6=B3=A8 \<code\>OracleStale\</code\> =E5=B9=B6=E9=80=9A=E7=9F=A5=E7=94=A8=
-
-=E6=88=B7=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=B6=85=E5=87=BA Vault TVL cap / market max -&gt; =E5=90=88=E7=BA=A6 r=
-
-evert=EF=BC=9BKeeper =E9=9C=80=E8=A6=81=E5=9B=9E=E9=80=80 request =E5=B9=B6=
-
-=E6=8F=90=E7=A4=BA=E7=94=A8=E6=88=B7=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>swap price impact =E8=B6=85=E9=99=90 =E2=86=92 Keeper abort =E5=B9=B6 re=
-
-schedule=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>ERC20 approve =E6=9C=AA=E5=AE=8C=E6=88=90 =E2=86=92 =E5=89=8D=E7=AB=AF=
-
-=E9=98=BB=E6=AD=A2=E6=8F=90=E4=BA=A4=E5=B9=B6=E5=BC=B9=E6=8F=90=E7=A4=BA=E3=
-
-=80=82\</p\>\</li\>
-
-\</ul\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=BB=E8=A6=81=E6=8E=A5=E5=8F=A3=
-
-=E4=B8=8E=E4=BA=8B=E4=BB=B6=EF=BC=88=E5=BB=BA=E8=AE=AE=EF=BC=89"\>=E4=B8=BB=
-
-=E8=A6=81=E6=8E=A5=E5=8F=A3=E4=B8=8E=E4=BA=8B=E4=BB=B6=EF=BC=88=E5=BB=BA=E8=
-
-=AE=AE=EF=BC=89\</h2\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>Backend: \<code\>POST /api/v1/deposits { user, vaultId, asset, amount }\</c=
-
-ode\> =E2=86=92 returns \<code\>requestId\</code\>\</p\>\</li\>
-
-\<li\>
-
-\<p\>Contract events: \<code\>DepositEvent(address user, uint256 amount, uint25=
-
-6 shares, bytes32 vaultId)\</code\>\</p\>\</li\>
-
-\</ul\>
-
-\<h1 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E4=B8=89=E3=80=81Withdraw=EF=BC=88=E7=
-
-=94=A8=E6=88=B7=E8=B5=8E=E5=9B=9E=EF=BC=89=E2=80=94TraceDiagram=EF=BC=88=E6=
-
-=96=87=E6=9C=AC=E7=89=88=EF=BC=89"\>=E4=B8=89=E3=80=81Withdraw=EF=BC=88=E7=
-
-=94=A8=E6=88=B7=E8=B5=8E=E5=9B=9E=EF=BC=89 =E2=80=94 Trace Diagram=EF=BC=88=
-
-=E6=96=87=E6=9C=AC=E7=89=88=EF=BC=89\</h1\>
-
-\<div class=3D"code panel pdl" style=3D"border-width: 1px;"\>
-
-\<div class=3D"codeContent panelContent pdl"\>
-
-\<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
-
-: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"\>User Wa=
-
-llet
-
-=E2=86=93 (1) =E5=89=8D=E7=AB=AF=EF=BC=9A=E9=80=89=E6=8B=A9 vault, redeem=
-
-shares / desiredAsset
-
+``` syntaxhighlighter-pre
+User Wallet
+  ↓ (1) 前端：选择 vault, redeem shares / desiredAsset
 Frontend
-
-=E2=86=93 (2) =E6=9F=A5=E8=AF=A2=E5=8F=AF=E8=B5=8E=E5=9B=9E=E8=B5=84=E4=
-
-=BA=A7=EF=BC=88onchain sharePrice, withdrawCooldown, pendingPnl=EF=BC=89
-
-=E2=86=93 (3) =E7=94=A8=E6=88=B7=E7=AD=BE=E5=90=8D withdraw tx =E6=88=96=
-
-=E6=8F=90=E4=BA=A4 withdraw request
-
+  ↓ (2) 查询可赎回资产（onchain sharePrice, withdrawCooldown, pendingPnl）
+  ↓ (3) 用户签名 withdraw tx 或提交 withdraw request
 Backend / Keeper
-
-=E2=86=93 (4) buildWithdrawTx -&gt; optionally queue (if async exit / epo=
-
-ch)
-
+  ↓ (4) buildWithdrawTx -> optionally queue (if async exit / epoch)
 GlvVault.withdraw/executeWithdraw
-
-=E2=86=B3 validateWithdrawalAllowed(), apply maxPnlFactorForWithdrawals
-
-=E2=86=B3 burnVaultShares(user, shares)
-
-=E2=86=B3 calculate underlying amounts (=E5=8F=AF=E8=83=BD=E8=B7=A8=E5=A4=
-
-=9A=E4=B8=AA GM Pools)
-
-=E2=86=B3 if need -&gt; GM Router unwind swaps -&gt; transfer underlying =
-
-asset to user
-
-=E2=86=B3 emit WithdrawEvent(user, underlyingAmounts, shares, vaultId)
-
+  ↳ validateWithdrawalAllowed(), apply maxPnlFactorForWithdrawals
+  ↳ burnVaultShares(user, shares)
+  ↳ calculate underlying amounts (可能跨多个 GM Pools)
+  ↳ if need -> GM Router unwind swaps -> transfer underlying asset to user
+  ↳ emit WithdrawEvent(user, underlyingAmounts, shares, vaultId)
 Backend / Keeper
-
-=E2=86=93 (5) listen WithdrawEvent, update status, notify frontend
-
+  ↓ (5) listen WithdrawEvent, update status, notify frontend
 Frontend
+  ↓ (6) show final balances & fees
+```
 
-=E2=86=93 (6) show final balances &amp; fees
+</div>
 
-\</pre\>
+</div>
 
-\</div\>
+## 各方职责（按步骤）
 
-\</div\>
+1.  **Frontend**
 
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
+    - 提供 Withdraw UI（输入份额或金额，选择目标兑付资产，如 long/short/USDC）。
 
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=90=84=E6=96=B9=E8=81=8C=E8=B4=A3=
+    - 显示 `withdrawCooldown`、`maxWithdrawable`、`estimated fees` 与 `estimated pro-rata slippage`。
 
-=EF=BC=88=E6=8C=89=E6=AD=A5=E9=AA=A4=EF=BC=89.1"\>=E5=90=84=E6=96=B9=E8=81=
+    - 提交签名或 withdraw request。
 
-=8C=E8=B4=A3=EF=BC=88=E6=8C=89=E6=AD=A5=E9=AA=A4=EF=BC=89\</h2\>
+2.  **Backend / Keeper**
 
-\<ol start=3D"1"\>
+    - 校验用户持有份额（onchain）。
 
-\<li\>
+    - 若采用异步退出（epoch / queue）模式，加入队列并在 epoch 执行时调用 `executeWithdraw`。
 
-\<p\>\<strong\>Frontend\</strong\>\</p\>
+    - 若部分底层市场流动性不足，Keeper 可选择分批提现或触发回退/partial fill，并通知用户。
 
-\<ul\>
+3.  **GlvVault 合约**
 
-\<li\>
+    - `withdraw()` / `executeWithdraw()`：Burn shares、计算用户应得资产并转账。
 
-\<p\>=E6=8F=90=E4=BE=9B Withdraw UI=EF=BC=88=E8=BE=93=E5=85=A5=E4=BB=BD=E9=A2=
+    - 在计算时使用 `maxPnlFactorForWithdrawals` 去限定可兑现的未实现 PnL。
 
-=9D=E6=88=96=E9=87=91=E9=A2=9D=EF=BC=8C=E9=80=89=E6=8B=A9=E7=9B=AE=E6=A0=87=
+    - 可能会调用 `GM Router` 在底层 Pools 间卸载流动性（产生 price impact cost）。
 
-=E5=85=91=E4=BB=98=E8=B5=84=E4=BA=A7=EF=BC=8C=E5=A6=82 long/short/USDC=EF=
+    - 触发 `WithdrawEvent`.
 
-=BC=89=E3=80=82\</p\>\</li\>
+4.  **GM Router**
 
-\<li\>
+    - 配合 unwind：检查目标 market liquidity，计算 swap 路径与 price impact。
 
-\<p\>=E6=98=BE=E7=A4=BA \<code\>withdrawCooldown\</code\>=E3=80=81\<code\>maxWithdr=
+    - 提供 `maxSellable` / `maxBuyable` 量校验（用来拒绝过大 withdraw 引发池子异常）。
 
-awable\</code\>=E3=80=81\<code\>estimated fees\</code\> =E4=B8=8E \<code\>estimated=
+5.  **Oracle**
 
-pro-rata slippage\</code\>=E3=80=82\</p\>\</li\>
+    - 提供用于计算 sharePrice 的最新 price（同 deposit 场景）。
 
-\<li\>
+<div class="table-wrap">
 
-\<p\>=E6=8F=90=E4=BA=A4=E7=AD=BE=E5=90=8D=E6=88=96 withdraw request=E3=80=82\<=
+|  |  |  |
+|----|----|----|
+| 合约 | 功能类别 | 职责说明 |
+| `GlvRouter.sol` | Interface Layer | 统一入口，路由用户请求至 Vault/Market 模块 |
+| `GlvVault.sol` | Liquidity Layer | 管理 LP 资产、计算净值、铸造 GLV token |
+| `MarketPool.sol` | Market Layer | 单一市场做市资金与持仓追踪 |
+| `ShiftController.sol` | Risk & Balancing | 执行跨池再平衡（Shift）逻辑 |
+| `FeeCalculator.sol` | Dynamic Pricing | 动态费率计算（Maker/Taker/Funding） |
+| `RwaOracleAdapter.sol` | Integration | 获取链下 RWA 资产价格 |
+| `CurateFactory.sol` | Governance | 策略 LP 市场创建与参数治理 |
+| `ReferralManager.sol` | Incentive | 推荐人返佣逻辑 |
+| `TradingIncentive.sol` | Incentive | 基于交易量的挖矿奖励计算 |
+| `Keeper.sol` | Automation | 定期触发 Shift、NAV 更新、清算操作 |
 
-/p\>\</li\>
+</div>
 
-\</ul\>\</li\>
+## 关键失败场景与处理
 
-\<li\>
+- 底层流动性不足（liquidity shortfall）：Keeper 返回 partial fill，并生成 `WithdrawPartialEvent`；前端告知用户等待或接受滑点。
 
-\<p\>\<strong\>Backend / Keeper\</strong\>\</p\>
+- 用户请求与合约状态冲突（例如已被清算/冻结）：合约 revert 并 emit `WithdrawFailed`。
 
-\<ul\>
+- 大额赎回导致 TVL 突变 → 触发 Protocol Safety（pause withdraw 或 raise fees）。
 
-\<li\>
-
-\<p\>=E6=A0=A1=E9=AA=8C=E7=94=A8=E6=88=B7=E6=8C=81=E6=9C=89=E4=BB=BD=E9=A2=9D=
-
-=EF=BC=88onchain=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=8B=A5=E9=87=87=E7=94=A8=E5=BC=82=E6=AD=A5=E9=80=80=E5=87=BA=EF=BC=88=
-
-epoch / queue=EF=BC=89=E6=A8=A1=E5=BC=8F=EF=BC=8C=E5=8A=A0=E5=85=A5=E9=98=
-
-=9F=E5=88=97=E5=B9=B6=E5=9C=A8 epoch =E6=89=A7=E8=A1=8C=E6=97=B6=E8=B0=83=
-
-=E7=94=A8 \<code\>executeWithdraw\</code\>=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=8B=A5=E9=83=A8=E5=88=86=E5=BA=95=E5=B1=82=E5=B8=82=E5=9C=BA=E6=B5=81=
-
-=E5=8A=A8=E6=80=A7=E4=B8=8D=E8=B6=B3=EF=BC=8CKeeper =E5=8F=AF=E9=80=89=E6=
-
-=8B=A9=E5=88=86=E6=89=B9=E6=8F=90=E7=8E=B0=E6=88=96=E8=A7=A6=E5=8F=91=E5=9B=
-
-=9E=E9=80=80/partial fill=EF=BC=8C=E5=B9=B6=E9=80=9A=E7=9F=A5=E7=94=A8=E6=
-
-=88=B7=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>GlvVault =E5=90=88=E7=BA=A6\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>\<code\>withdraw()\</code\> / \<code\>executeWithdraw()\</code\>=EF=BC=9ABurn sh=
-
-ares=E3=80=81=E8=AE=A1=E7=AE=97=E7=94=A8=E6=88=B7=E5=BA=94=E5=BE=97=E8=B5=
-
-=84=E4=BA=A7=E5=B9=B6=E8=BD=AC=E8=B4=A6=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=9C=A8=E8=AE=A1=E7=AE=97=E6=97=B6=E4=BD=BF=E7=94=A8 \<code\>maxPnlFacto=
-
-rForWithdrawals\</code\> =E5=8E=BB=E9=99=90=E5=AE=9A=E5=8F=AF=E5=85=91=E7=8E=
-
-=B0=E7=9A=84=E6=9C=AA=E5=AE=9E=E7=8E=B0 PnL=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=8F=AF=E8=83=BD=E4=BC=9A=E8=B0=83=E7=94=A8 \<code\>GM Router\</code\> =E5=
-
-=9C=A8=E5=BA=95=E5=B1=82 Pools =E9=97=B4=E5=8D=B8=E8=BD=BD=E6=B5=81=E5=8A=
-
-=A8=E6=80=A7=EF=BC=88=E4=BA=A7=E7=94=9F price impact cost=EF=BC=89=E3=80=82=
-
-\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E8=A7=A6=E5=8F=91 \<code\>WithdrawEvent\</code\>.\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>GM Router\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E9=85=8D=E5=90=88 unwind=EF=BC=9A=E6=A3=80=E6=9F=A5=E7=9B=AE=E6=A0=87 m=
-
-arket liquidity=EF=BC=8C=E8=AE=A1=E7=AE=97 swap =E8=B7=AF=E5=BE=84=E4=B8=8E=
-
-price impact=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E6=8F=90=E4=BE=9B \<code\>maxSellable\</code\> / \<code\>maxBuyable\</code\> =
-
-=E9=87=8F=E6=A0=A1=E9=AA=8C=EF=BC=88=E7=94=A8=E6=9D=A5=E6=8B=92=E7=BB=9D=E8=
-
-=BF=87=E5=A4=A7 withdraw =E5=BC=95=E5=8F=91=E6=B1=A0=E5=AD=90=E5=BC=82=E5=
-
-=B8=B8=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\<li\>
-
-\<p\>\<strong\>Oracle\</strong\>\</p\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E6=8F=90=E4=BE=9B=E7=94=A8=E4=BA=8E=E8=AE=A1=E7=AE=97 sharePrice =E7=9A=
-
-=84=E6=9C=80=E6=96=B0 price=EF=BC=88=E5=90=8C deposit =E5=9C=BA=E6=99=AF=EF=
-
-=BC=89=E3=80=82\</p\>\</li\>
-
-\</ul\>\</li\>
-
-\</ol\>
-
-\<div class=3D"table-wrap"\>
-
-\<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"40=
-
-cadbc7-598d-4805-bd4b-c52193bc16fd" class=3D"confluenceTable"\>
-
-\<tbody\>
-
-\<tr\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=90=88=E7=BA=A6\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E5=8A=9F=E8=83=BD=E7=B1=BB=E5=88=AB\</p\>\</th\>
-
-\<th class=3D"confluenceTh"\>
-
-\<p\>=E8=81=8C=E8=B4=A3=E8=AF=B4=E6=98=8E\</p\>\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>GlvRouter.sol\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Interface Layer\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=BB=9F=E4=B8=80=E5=85=A5=E5=8F=A3=EF=BC=8C=E8=B7=AF=E7=94=B1=E7=94=A8=
-
-=E6=88=B7=E8=AF=B7=E6=B1=82=E8=87=B3 Vault/Market =E6=A8=A1=E5=9D=97\</p\>\</t=
-
-d\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>GlvVault.sol\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Liquidity Layer\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=AE=A1=E7=90=86 LP =E8=B5=84=E4=BA=A7=E3=80=81=E8=AE=A1=E7=AE=97=E5=
-
-=87=80=E5=80=BC=E3=80=81=E9=93=B8=E9=80=A0 GLV token\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>MarketPool.sol\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Market Layer\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8D=95=E4=B8=80=E5=B8=82=E5=9C=BA=E5=81=9A=E5=B8=82=E8=B5=84=E9=87=91=
-
-=E4=B8=8E=E6=8C=81=E4=BB=93=E8=BF=BD=E8=B8=AA\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>ShiftController.sol\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Risk &amp; Balancing\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=89=A7=E8=A1=8C=E8=B7=A8=E6=B1=A0=E5=86=8D=E5=B9=B3=E8=A1=A1=EF=BC=88=
-
-Shift=EF=BC=89=E9=80=BB=E8=BE=91\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>FeeCalculator.sol\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Dynamic Pricing\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=8A=A8=E6=80=81=E8=B4=B9=E7=8E=87=E8=AE=A1=E7=AE=97=EF=BC=88Maker/Tak=
-
-er/Funding=EF=BC=89\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>RwaOracleAdapter.sol\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Integration\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E8=8E=B7=E5=8F=96=E9=93=BE=E4=B8=8B RWA =E8=B5=84=E4=BA=A7=E4=BB=B7=E6=
-
-=A0=BC\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>CurateFactory.sol\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Governance\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E7=AD=96=E7=95=A5 LP =E5=B8=82=E5=9C=BA=E5=88=9B=E5=BB=BA=E4=B8=8E=E5=
-
-=8F=82=E6=95=B0=E6=B2=BB=E7=90=86\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>ReferralManager.sol\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Incentive\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E6=8E=A8=E8=8D=90=E4=BA=BA=E8=BF=94=E4=BD=A3=E9=80=BB=E8=BE=91\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>TradingIncentive.sol\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Incentive\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=9F=BA=E4=BA=8E=E4=BA=A4=E6=98=93=E9=87=8F=E7=9A=84=E6=8C=96=E7=9F=BF=
-
-=E5=A5=96=E5=8A=B1=E8=AE=A1=E7=AE=97\</p\>\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>\<code\>Keeper.sol\</code\>\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>Automation\</p\>\</td\>
-
-\<td class=3D"confluenceTd"\>
-
-\<p\>=E5=AE=9A=E6=9C=9F=E8=A7=A6=E5=8F=91 Shift=E3=80=81NAV =E6=9B=B4=E6=96=
-
-=B0=E3=80=81=E6=B8=85=E7=AE=97=E6=93=8D=E4=BD=9C\</p\>\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
-
-\</div\>
-
-\<p\>\</p\>
-
-\<h2 id=3D"id-=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BF=E8=8D=89=E7=A8=BFPRD_Hert=
-
-zflowV2=E7=89=88=E6=9C=AC_2025.10.15-=E5=85=B3=E9=94=AE=E5=A4=B1=E8=B4=A5=
-
-=E5=9C=BA=E6=99=AF=E4=B8=8E=E5=A4=84=E7=90=86.1"\>=E5=85=B3=E9=94=AE=E5=A4=
-
-=B1=E8=B4=A5=E5=9C=BA=E6=99=AF=E4=B8=8E=E5=A4=84=E7=90=86\</h2\>
-
-\<ul\>
-
-\<li\>
-
-\<p\>=E5=BA=95=E5=B1=82=E6=B5=81=E5=8A=A8=E6=80=A7=E4=B8=8D=E8=B6=B3=EF=BC=88=
-
-liquidity shortfall=EF=BC=89=EF=BC=9AKeeper =E8=BF=94=E5=9B=9E partial fill=
-
-=EF=BC=8C=E5=B9=B6=E7=94=9F=E6=88=90 \<code\>WithdrawPartialEvent\</code\>=EF=
-
-=BC=9B=E5=89=8D=E7=AB=AF=E5=91=8A=E7=9F=A5=E7=94=A8=E6=88=B7=E7=AD=89=E5=BE=
-
-=85=E6=88=96=E6=8E=A5=E5=8F=97=E6=BB=91=E7=82=B9=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E7=94=A8=E6=88=B7=E8=AF=B7=E6=B1=82=E4=B8=8E=E5=90=88=E7=BA=A6=E7=8A=B6=
-
-=E6=80=81=E5=86=B2=E7=AA=81=EF=BC=88=E4=BE=8B=E5=A6=82=E5=B7=B2=E8=A2=AB=E6=
-
-=B8=85=E7=AE=97/=E5=86=BB=E7=BB=93=EF=BC=89=EF=BC=9A=E5=90=88=E7=BA=A6 reve=
-
-rt =E5=B9=B6 emit \<code\>WithdrawFailed\</code\>=E3=80=82\</p\>\</li\>
-
-\<li\>
-
-\<p\>=E5=A4=A7=E9=A2=9D=E8=B5=8E=E5=9B=9E=E5=AF=BC=E8=87=B4 TVL =E7=AA=81=E5=
-
-=8F=98 =E2=86=92 =E8=A7=A6=E5=8F=91 Protocol Safety=EF=BC=88pause withdraw =
-
-=E6=88=96 raise fees=EF=BC=89=E3=80=82\</p\>\</li\>
-
-\</ul\>
-
-\</div\>
-
-\</body\>
-
-\</html\>
-
-------=\_Part_0_1454788400.1772008162528
-
-Content-Type: application/octet-stream
-
-Content-Transfer-Encoding: base64
-
-Content-Location: file:///C:/a33ffca298d819a27ddee5493dd715e8e2f7be46fe998b7b8d5566f544d98e28
-
-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
-
-------=\_Part_0_1454788400.1772008162528--
+</div>
