@@ -1,0 +1,339 @@
+Date: Sat, 28 Feb 2026 09:27:27 +0000 (UTC)
+Message-ID: <365586945.31.1772270847663@8fce659c308c>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_30_1609928068.1772270847662"
+
+------=_Part_30_1609928068.1772270847662
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>GLV Deposit Mint =E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>GLV Deposit Mint =E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"GLVDepositMint=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-Create=
+Deposit">Create Deposit</h2>
+<p><a class=3D"external-link" href=3D"https://github.com/gmx-io/gmx-synthet=
+ics/blob/ee721b7e2d1891312dde52964d774144208cd1a0/contracts/router/GlvRoute=
+r.sol#L42C1-L48C6" rel=3D"nofollow">GlvRouter.createGlvDeposit</a></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">1. Send=
+ tokens to deposit GLV vault
+2. Send execution fee to GLV vault
+3. Create deposit order
+
+GlvRouter.createGlvDeposit
+=E2=94=94 GlvDepositHandler.createGlvDeposit
+    =E2=94=94 GlvDepositUtils.createGlvDeposit
+        =E2=94=9C GlvVault.recordTransferIn
+        =E2=94=9C GlvVault.recordTransferIn
+        =E2=94=9C GlvVault.recordTransferIn
+        =E2=94=94 GlvDepositStoreUtils.set</pre>
+</div>
+</div>
+<p></p>
+<h2 id=3D"GLVDepositMint=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-ExecuteDeposit=
+">Execute Deposit</h2>
+<p><a class=3D"external-link" href=3D"https://github.com/gmx-io/gmx-synthet=
+ics/blob/ee721b7e2d1891312dde52964d774144208cd1a0/contracts/exchange/GlvDep=
+ositHandler.sol#L48C2-L70C6" rel=3D"nofollow">GlvDepositHandler.executeGlvD=
+eposit</a></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">GlvDepo=
+sitHandler
+=E2=94=94 executeGlvDeposit
+    =E2=94=9C GlvDepositStoreUtils.get
+    =E2=94=94 _executeGlvDeposit
+        =E2=94=94 ExecuteGlvDepositUtils.executeGlvDeposit
+            =E2=94=9C GlvDepositStoreUtils.remove
+            =E2=94=9C _processMarketDeposit
+            =E2=94=82  =E2=94=94 ExecuteDepositUtils.executeDeposit
+            =E2=94=9C _getMintAmount
+            =E2=94=94 GlvToken.mint</pre>
+</div>
+</div>
+<p></p>
+<p>Deposit =E5=A4=A7=E8=87=B4=E5=8F=AF=E4=BB=A5=E5=88=86=E4=B8=BA=E4=B8=A4=
+=E7=B1=BB=EF=BC=8C=E4=B8=80=E7=B1=BB=E6=98=AF=E7=94=A8 WETH / USDC =E4=B9=
+=8B=E7=B1=BB=E7=9A=84=E5=B8=81=E5=85=A5=E9=87=91=EF=BC=8C=E5=8F=A6=E4=B8=80=
+=E7=B1=BB=E6=98=AF=E7=94=A8 GM Tokens =E5=85=A5=E9=87=91=E3=80=82</p>
+<p>=E6=9C=AC=E8=B4=A8=E4=B8=8A=E6=9D=A5=E8=AF=B4=EF=BC=8C=E6=9C=80=E5=90=8E=
+=E9=83=BD=E8=A6=81=E8=90=BD=E5=88=B0 GM Tokens =E4=B8=8A=EF=BC=8C=E5=BD=93=
+=E4=BD=A0=E7=94=A8 WETH / USDC =E5=85=A5=E9=87=91=E6=97=B6=EF=BC=8CGLV =E4=
+=BC=9A=E5=B8=AE=E4=BD=A0=E5=8E=BB=E5=BA=95=E5=B1=82 market =E5=81=9A=E4=B8=
+=80=E6=AC=A1 deposit=EF=BC=8C=E8=8E=B7=E5=BE=97 market token=EF=BC=88GM Tok=
+en=EF=BC=89=E3=80=82</p>
+<p>=E5=9B=A0=E4=B8=BA GLV =E6=9C=AC=E8=B4=A8=E4=B8=8A=E6=8C=81=E6=9C=89=E7=
+=9A=84=E6=98=AF market tokens=EF=BC=8C=E5=AE=83=E5=B9=B6=E4=B8=8D=E7=9B=B4=
+=E6=8E=A5=E6=8C=81=E6=9C=89 WETH / USDC=E3=80=82</p>
+<p>=E7=BB=8F=E8=BF=87=E4=BA=86=E5=89=8D=E9=9D=A2=E7=9A=84=E8=BD=AC=E6=8D=A2=
+=EF=BC=88=E6=88=96=E8=80=85=E6=B2=A1=E8=BD=AC=E6=8D=A2=E7=9B=B4=E6=8E=A5=E6=
+=8A=95=E8=B5=84 GM Token=EF=BC=89=EF=BC=8C=E5=B0=B1=E8=B5=B0=E5=A6=82=E4=B8=
+=8B=E7=9A=84=E7=AE=97=E6=B3=95=E8=AE=A1=E7=AE=97 mint amount:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: c; gutter: false; theme: Confluence" data-theme=3D"Confluence">function g=
+etMintAmount(
+    DataStore dataStore,
+    IOracle oracle,
+    GlvDeposit.Props memory glvDeposit,
+    uint256 receivedMarketTokens,
+    uint256 glvValue,
+    uint256 glvSupply
+) external view returns (uint256) {
+    Market.Props memory market =3D MarketUtils.getEnabledMarket(dataStore, =
+glvDeposit.market());
+    MarketPoolValueInfo.Props memory poolValueInfo =3D MarketUtils.getPoolV=
+alueInfo(
+        dataStore,
+        market,
+        oracle.getPrimaryPrice(market.indexToken),
+        oracle.getPrimaryPrice(market.longToken),
+        oracle.getPrimaryPrice(market.shortToken),
+        Keys.MAX_PNL_FACTOR_FOR_DEPOSITS,
+        false // maximize
+    );
+    // =E8=BF=99=E9=87=8C=E8=AE=A1=E7=AE=97=E4=BA=86 marketToken =E7=9A=84 =
+USD =E5=B8=82=E5=80=BC
+    uint256 marketTokenSupply =3D MarketUtils.getMarketTokenSupply(MarketTo=
+ken(payable(market.marketToken)));
+    uint256 receivedMarketTokensUsd =3D MarketUtils.marketTokenAmountToUsd(
+        receivedMarketTokens,
+        poolValueInfo.poolValue.toUint256(),
+        marketTokenSupply
+    );
+    // =E7=94=A8 USD =E4=BB=B7=E5=80=BC=E8=AE=A1=E7=AE=97 mint amount
+    return GlvUtils.usdToGlvTokenAmount(receivedMarketTokensUsd, glvValue, =
+glvSupply);
+}</pre>
+</div>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_30_1609928068.1772270847662--

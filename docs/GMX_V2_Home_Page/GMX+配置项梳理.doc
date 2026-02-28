@@ -1,0 +1,2834 @@
+Date: Sat, 28 Feb 2026 09:28:36 +0000 (UTC)
+Message-ID: <1950853502.29.1772270916003@6ebb4c93163f>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_28_1942584812.1772270916003"
+
+------=_Part_28_1942584812.1772270916003
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>GMX =E9=85=8D=E7=BD=AE=E9=A1=B9=E6=A2=B3=E7=90=86</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>GMX =E9=85=8D=E7=BD=AE=E9=A1=B9=E6=A2=B3=E7=90=86</h1>
+    <div class=3D"Section1">
+        <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1772270915954 {padding: 0px;}
+div.rbtoc1772270915954 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1772270915954 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1772270915954">
+<style>[data-colorid=3Df8daqtt6hm]{color:#ff5630} html[data-color-mode=3Dda=
+rk] [data-colorid=3Df8daqtt6hm]{color:#cf2600}</style>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#GMX=E9=85=8D=E7=BD=AE=E9=A1=B9=E6=A2=B3=E7=90=86-1.Market=
+=E6=A0=B8=E5=BF=83=E9=85=8D=E7=BD=AE">1. Market =E6=A0=B8=E5=BF=83=E9=85=8D=
+=E7=BD=AE</a></li>
+<li><a href=3D"#GMX=E9=85=8D=E7=BD=AE=E9=A1=B9=E6=A2=B3=E7=90=86-2.General=
+=E9=85=8D=E7=BD=AE">2. General =E9=85=8D=E7=BD=AE</a></li>
+</ul>
+</div>
+<h2 local-id=3D"b076ad44-cb50-4ff9-8b0b-2ad4fb7d0388" id=3D"GMX=E9=85=8D=E7=
+=BD=AE=E9=A1=B9=E6=A2=B3=E7=90=86-1.Market=E6=A0=B8=E5=BF=83=E9=85=8D=E7=BD=
+=AE">1. Market =E6=A0=B8=E5=BF=83=E9=85=8D=E7=BD=AE</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"b0=
+4b6103-6e06-49a4-ba2f-2fb94c90f3ad" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"b8e10b23-dd9e-406f-b23d-b66c348ded25">
+<th data-local-id=3D"fee6f58a-3cbc-46f7-b422-1dc44a3e0e02" class=3D"conflue=
+nceTh">
+<p local-id=3D"aaa2b49e-921f-4482-ae41-a0150ce4eb27">Key</p></th>
+<th data-local-id=3D"abb103b4-4409-4d5f-9771-0baa67d1f5a6" class=3D"conflue=
+nceTh">
+<p local-id=3D"cf1023d0-81cd-4821-8f57-08afea3f6a5e">=E7=B2=BE=E5=BA=A6</p>=
+</th>
+<th data-local-id=3D"3e1c9ed0-abf2-4fbd-b141-c4f0f579ef0c" class=3D"conflue=
+nceTh">
+<p local-id=3D"f0c0da66-3cf6-4f6c-b695-aa6f29dd55e7">Example</p></th>
+<th data-local-id=3D"2019aed2-c6ac-4f7c-9b31-8f0e557f2285" class=3D"conflue=
+nceTh">
+<p local-id=3D"3826a102-406c-4b38-844e-d18fb3d89fac">Desc</p></th>
+</tr>
+<tr data-local-id=3D"beff6f3d-5d13-4a43-aad5-1346fa79efb2">
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"08687e90-ed15-4ac8-9=
+245-82730809b179" class=3D"confluenceTd">
+<p local-id=3D"7c7d2ac5-23b2-491f-9ea0-589b8c997f7b">tokens.indexToken</p><=
+/td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"f3f45135-5f57-425a-a=
+041-d928a12aaeda" class=3D"confluenceTd">
+<p local-id=3D"0821be75-1ffc-4639-bb79-176f4a732a63">-</p></td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"b6a00a18-cfbf-4d44-8=
+2f9-8d798fbedbca" class=3D"confluenceTd">
+<p local-id=3D"7215a742-af47-4962-a4a2-a266e24cd78b">BTC</p></td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"7f7b9662-509f-48e3-8=
+b2e-c76f59bb6ffd" class=3D"confluenceTd">
+<p local-id=3D"50f8fee4-a137-4b21-86bf-aa3e4692f3c0">-</p></td>
+</tr>
+<tr data-local-id=3D"2e5a13b3-94bd-4bf4-8eea-b312bd1b9516">
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"ee71b0ef-63a7-4a36-a=
+1f1-3c325ca095bb" class=3D"confluenceTd">
+<p local-id=3D"0b8d5484-9ce5-4fe5-9889-a8d4ba1f8a1d">tokens.longToken</p></=
+td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"7a070634-ab29-41d9-8=
+f60-206f60c7427f" class=3D"confluenceTd">
+<p local-id=3D"51354aa7-bd7e-480a-9c48-252663151296">-</p></td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"54496f72-2268-40e1-a=
+ea6-10a5035b0a8b" class=3D"confluenceTd">
+<p local-id=3D"88b98f41-0c4c-4455-98bf-4756a82242f2">BTC</p></td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"2f57beb3-c23e-4bf7-b=
+ca2-877ad67b20af" class=3D"confluenceTd">
+<p local-id=3D"207be66d-4f46-4da5-9213-68929204142c">-</p></td>
+</tr>
+<tr data-local-id=3D"3b921ee1-5d80-4198-aa88-d38f68e1fe17">
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"ba86b9e5-2ba1-4f9f-9=
+139-071f9884ab99" class=3D"confluenceTd">
+<p local-id=3D"983ac427-34aa-4839-be2e-7ee1c04aefa5">tokens.shortToken</p><=
+/td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"0bb497c9-7603-45ab-a=
+f16-d8ffcce496cd" class=3D"confluenceTd">
+<p local-id=3D"0ba788bc-4fdd-4271-a747-e8df799aef6d">-</p></td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"f3b80d79-08ee-48e0-8=
+f09-1b4032f61dad" class=3D"confluenceTd">
+<p local-id=3D"25e0df46-40b8-4394-910a-5ac801f01981">USDC</p></td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"80116938-e736-4231-9=
+7d1-8ef6414e213b" class=3D"confluenceTd">
+<p local-id=3D"1c6914ff-dcb4-42ce-b8fd-02d30149f399">-</p></td>
+</tr>
+<tr data-local-id=3D"733aeccf-43c6-418c-b7cf-9340d99bd7dd">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"429143f8-8459-46c0-b=
+d50-b5c97680f2d5" class=3D"confluenceTd">
+<p local-id=3D"4e3c8445-0383-4e94-a5e9-cb97b834294d">swapOnly</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"b89f738e-f20e-405c-9=
+b49-65020d157199" class=3D"confluenceTd">
+<p local-id=3D"10a90009-5b85-4712-944a-3415295f1437">bool</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"43d4a6eb-387f-4e7a-a=
+ee7-38c4edc4fd0a" class=3D"confluenceTd">
+<p local-id=3D"8427ed2e-b330-4875-8e87-874628f6ec1d">true</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"abad42cd-b5be-464d-b=
+860-5ac8232ae69b" class=3D"confluenceTd">
+<p local-id=3D"cf9f47df-aed7-45cc-8ea5-aa0cfea861e8">=E6=98=AF=E5=90=A6=E4=
+=BB=85=E6=94=AF=E6=8C=81=E4=BB=A3=E5=B8=81=E5=85=91=E6=8D=A2=EF=BC=88=E4=B8=
+=8D=E6=94=AF=E6=8C=81=E6=B0=B8=E7=BB=AD=E4=BB=93=E4=BD=8D=EF=BC=89=E3=80=82=
+</p></td>
+</tr>
+<tr data-local-id=3D"e43c5e39-8f13-4b57-8a56-1e0a6a023e1e">
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"9314c354-86ed-4688-a=
+a95-93e403ae1f12" class=3D"confluenceTd">
+<p local-id=3D"873521d4-9892-4c38-a551-d0b2daab6f75">virtualMarketId</p></t=
+d>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"82bfb8de-9480-46f7-9=
+518-748aea722367" class=3D"confluenceTd">
+<p local-id=3D"89f18170-9d45-4dd2-a8a6-ba8f01039452">bytes32</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"3226e2a4-851d-45cd-9=
+b35-bf315917d2a6" class=3D"confluenceTd">
+<p local-id=3D"d2b8e81d-15bd-42a8-a440-840e8f596204">hashString("SPOT:APE/U=
+SD")</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"dea7c9fc-5799-4bf1-9=
+c0a-f143c01970a9" class=3D"confluenceTd">
+<p local-id=3D"089d42c2-1641-43dc-acb0-9a3753b79b15">swap =E7=9A=84=E8=99=
+=9A=E6=8B=9F=E5=B8=82=E5=9C=BA=E6=A0=87=E8=AF=86=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"e0b75f32-35bf-4941-9e92-ab165014fdcf">
+<td data-highlight-colour=3D"#ffbdad" data-local-id=3D"ecca7545-c4e8-4463-8=
+aa0-3318cec7750c" class=3D"confluenceTd">
+<p local-id=3D"4edbb0a5-9908-41a3-b73b-b01766a3959d">virtualTokenIdForIndex=
+Token</p></td>
+<td data-highlight-colour=3D"#ffbdad" data-local-id=3D"7059e437-d5de-416e-9=
+25e-28bb114262d4" class=3D"confluenceTd">
+<p local-id=3D"971974a6-3eb2-40bb-82b6-ef50e591e3c4">bytes32</p></td>
+<td data-highlight-colour=3D"#ffbdad" data-local-id=3D"a2b0a363-e0f4-4df9-8=
+d0c-9fb0f2c5492e" class=3D"confluenceTd">
+<p local-id=3D"f3f82d12-e777-4023-9f1f-2c0ec7e43a8f">hashString("PERP:APE/U=
+SD")</p></td>
+<td data-highlight-colour=3D"#ffbdad" data-local-id=3D"47f222bc-0633-404c-b=
+50e-b732bf476d55" class=3D"confluenceTd">
+<p local-id=3D"e64bb064-da76-4925-99c1-3b2dc72c5c51">=E5=90=88=E7=BA=A6=E7=
+=9A=84 index token =E7=9A=84=E8=99=9A=E6=8B=9F=E5=BA=93=E5=AD=98</p></td>
+</tr>
+<tr data-local-id=3D"4c68bced-b0cb-4f2d-bd36-202b4a2d5040">
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"7fc710f3-0e3f-4faa-a=
+35d-87cc14bdbd57" class=3D"confluenceTd">
+<p local-id=3D"2ccf8171-af43-4960-a491-d5aae5db27cb">isDisabled</p></td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"6c4b53b0-6df6-4f35-9=
+d02-cc86567dfc24" class=3D"confluenceTd">
+<p local-id=3D"a86e3c42-f0c9-4ee9-b280-75e4922193f9">bool</p></td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"d0d23e85-41bf-4023-9=
+564-2d2d31ff0ece" class=3D"confluenceTd">
+<p local-id=3D"23af662d-7484-4c5b-9499-eaa412ea5e9f">false</p></td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"4faf1bc8-36a7-40b4-a=
+03e-8ae93df597e3" class=3D"confluenceTd">
+<p local-id=3D"cfc6274d-e7d3-4306-96ce-440890e1d712">=E6=98=AF=E5=90=A6=E7=
+=A6=81=E7=94=A8=E6=AD=A4=E5=B8=82=E5=9C=BA=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"e9347c84-c7b5-42f7-9566-b29c0343964a">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"693609ac-ca15-42e4-8=
+3e8-b01a563ea35f" class=3D"confluenceTd">
+<p local-id=3D"82b730c9-344f-4cd4-a18a-eb5071b8d7cc">reserveFactor</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"ae3e0893-8014-476d-b=
+949-78e98a6aa484" class=3D"confluenceTd">
+<p local-id=3D"87fd9818-74fb-4cf6-8cd9-227e90545140">uint256, 30</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"217f52d6-be93-482d-8=
+e7a-503df4668ae1" class=3D"confluenceTd">
+<p local-id=3D"c59756d1-9253-4c89-8840-d98ebbee5ab5">100%=3D1E30</p>
+<p local-id=3D"c7b47bf6-00bb-4d7e-9770-17d3cb23d1a3">60%=3D6E29</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"9137772d-0957-4dba-a=
+d0c-171b52cdd963" class=3D"confluenceTd">
+<p local-id=3D"a02f6293-7082-4b7f-86a8-cf2d3f612166">OI =E5=8F=AF=E4=BB=A5=
+=E5=8D=A0=E7=94=A8=E7=9A=84 poolUSD =E6=AF=94=E4=BE=8B</p>
+<p local-id=3D"1dee02af-309f-4149-8ecd-ad1837b0f438">swap/increase/withdraw=
+</p></td>
+</tr>
+<tr data-local-id=3D"62b9955d-a557-4f79-a1ec-90212e325900">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"a51b28eb-2f2c-473d-b=
+4c8-6d7af0aad37f" class=3D"confluenceTd">
+<p local-id=3D"8e8b75a1-03ac-41bf-90d1-7e330494d3e0">reserveFactorLongs</p>=
+</td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"195676e0-5368-4738-a=
+dbf-75116f8fbd9b" class=3D"confluenceTd">
+<p local-id=3D"7e57db22-648c-4962-916f-cea351e4c5db">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"febc6b44-8674-4d5b-8=
+724-15755717af02" class=3D"confluenceTd">
+<p local-id=3D"3416ff75-e423-4396-9fdf-0fb7f8047ee2">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"102d042b-cfb8-4fa2-a=
+ae8-be03e5b988fd" class=3D"confluenceTd">
+<p local-id=3D"c69b945a-5272-41fe-9a78-8d42e689f49e">=E5=A4=9A=E5=A4=B4=E4=
+=BE=A7=E7=9A=84=E5=82=A8=E5=A4=87=E7=B3=BB=E6=95=B0=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"eb918857-0524-4ccf-818a-7a3777c8ebfe">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"cd5454ae-c31d-435d-b=
+d13-22c174a08c9d" class=3D"confluenceTd">
+<p local-id=3D"5cd0ee1c-36e7-4369-9cc8-09cac9eaffe8">reserveFactorShorts</p=
+></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"86923b4c-0afc-4da1-8=
+978-63aa290d8799" class=3D"confluenceTd">
+<p local-id=3D"17ebb9db-685d-4f7e-a163-cd1c7fe0b6ba">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"640ed296-7d1f-466e-b=
+cf8-4fcf87e892d5" class=3D"confluenceTd">
+<p local-id=3D"19761fda-06e9-421f-b8f1-7aaa5c769847">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"f4fb6a05-4ca9-454d-8=
+0c6-18d74f3a52bf" class=3D"confluenceTd">
+<p local-id=3D"15e16b45-85e3-4035-88b5-a94773c67c6d">=E7=A9=BA=E5=A4=B4=E4=
+=BE=A7=E7=9A=84=E5=82=A8=E5=A4=87=E7=B3=BB=E6=95=B0=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"74721d06-4b27-41e4-aeeb-5c8e64de1bae">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"1959403a-45d5-4043-8=
+f54-256406160935" class=3D"confluenceTd">
+<p local-id=3D"16037350-53eb-4b2c-91ef-9141d5bb773c">openInterestReserveFac=
+tor</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"6862edfb-eae6-4f93-8=
+55f-650dcc9b183b" class=3D"confluenceTd">
+<p local-id=3D"7ddaccb3-4ee0-4293-9920-e9d5b3289fa4">uint256, 30</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"911daed1-4ebe-42aa-9=
+a73-f2b8039294c4" class=3D"confluenceTd">
+<p local-id=3D"50560d74-f338-4bbb-9ffe-d48528bbbffd">100%=3D1E30</p>
+<p local-id=3D"1e0b7658-aa8e-4999-a5bc-ffc5b2dfde2c">60%=3D6E29</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9501e196-96a5-4c4a-9=
+5fb-15ff95640961" class=3D"confluenceTd">
+<p local-id=3D"e0208ce8-d9ed-4da3-bc27-dec3b540e700">OI =E5=8F=AF=E4=BB=A5=
+=E5=8D=A0=E7=94=A8=E7=9A=84 poolUSD =E6=AF=94=E4=BE=8B=EF=BC=8C=E5=85=B6=E5=
+=AE=9E=E5=92=8C=E4=B8=8A=E9=9D=A2=E7=9A=84 reserveFactor =E7=AE=97=E6=B3=95=
+=E4=B8=80=E6=A8=A1=E4=B8=80=E6=A0=B7=E3=80=82</p>
+<p local-id=3D"803c22d5-3360-4b23-9d4b-3a13b30dcd35">increase</p></td>
+</tr>
+<tr data-local-id=3D"a310629f-4af3-40fd-b7d0-bf758ad3dc3a">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"2baf09c9-407e-4c81-8=
+3db-9df5ea2e7f36" class=3D"confluenceTd">
+<p local-id=3D"980f920a-7066-4a15-b73a-f5cfb06d8cae">openInterestReserveFac=
+torLongs</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"1fce63fa-652d-4a3c-9=
+f06-789a40df740d" class=3D"confluenceTd">
+<p local-id=3D"ae573406-a79a-48c6-a4d5-91da40d22626">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"3ab3fbe3-5255-4da4-9=
+53d-7f2230fb3d19" class=3D"confluenceTd">
+<p local-id=3D"a59b8f12-4783-4a15-a556-320efeb9a8d3">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"809f65d4-8bf0-4d90-a=
+e6f-6c14be120937" class=3D"confluenceTd">
+<p local-id=3D"3cf06c0e-2072-422b-b482-4f2e877842d9">=E5=A4=9A=E5=A4=B4 OI =
+=E5=82=A8=E5=A4=87=E7=B3=BB=E6=95=B0=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"9c1e26e7-7c15-4064-a932-8dfe693510ae">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"378c7204-434f-4250-9=
+a4e-51ab9e316bd8" class=3D"confluenceTd">
+<p local-id=3D"cd6cf9d0-602b-4bd4-9be4-fe1b2cf9a578">openInterestReserveFac=
+torShorts</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"2d2b09d8-8796-4e84-9=
+b35-69b209485a4c" class=3D"confluenceTd">
+<p local-id=3D"6cf7b49a-90f0-4bf3-bfbf-aef934d4a9c3">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"5383fc01-c0cd-47d6-b=
+9e2-6234a6d97b35" class=3D"confluenceTd">
+<p local-id=3D"3dfbf59d-29eb-4c1f-9b43-87bb89818da9">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"5fe1dc2e-990c-4ce2-8=
+a0e-3d8447c0fe6a" class=3D"confluenceTd">
+<p local-id=3D"caeb38b3-83e2-47a9-b86b-7f38adf7f281">=E7=A9=BA=E5=A4=B4 OI =
+=E5=82=A8=E5=A4=87=E7=B3=BB=E6=95=B0=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"2ebd665a-3eb5-4318-81c7-fe2257320940">
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"da58db8e-be68-4971-a=
+3bf-3c695cd34ebf" class=3D"confluenceTd">
+<p local-id=3D"8ffd7c52-5592-4b2c-8f2e-9d991255cb47">minCollateralFactor</p=
+></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"dc75a94b-03c4-481a-a=
+477-2e51537411f4" class=3D"confluenceTd">
+<p local-id=3D"b04cc5e2-0613-4e80-ab27-8d3734333f2c">uint256, 30</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"a53fd0a4-ebdf-4e10-b=
+728-6608a96e1ccc" class=3D"confluenceTd">
+<p local-id=3D"356142e6-d59f-4dcb-9d2f-f8edf43a1351">100%=3D1E30</p>
+<p local-id=3D"81ef1b05-c9fb-4b04-996a-87e6e5990713">60%=3D6E29</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"b8973ad5-ceb5-4fa3-9=
+cdf-0469ac404546" class=3D"confluenceTd">
+<p local-id=3D"23d8fe9e-ec0a-4459-b56a-62c933e1294d">=E6=9C=80=E5=B0=8F=E6=
+=8A=B5=E6=8A=BC=E7=8E=87=EF=BC=88=E5=BD=B1=E5=93=8D=E6=9C=80=E5=A4=A7=E6=9D=
+=A0=E6=9D=86=EF=BC=89=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"16998606-17b6-48ec-9e33-52b359cc8b61">
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"eb2f5243-a854-430a-8=
+edd-3ffc9c6b1c48" class=3D"confluenceTd">
+<p local-id=3D"d84b84fe-1069-45eb-bee9-c5d6db355666">minCollateralFactorFor=
+Liquidation</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"6a6920f0-51a0-4970-9=
+b38-0cf83f6195b0" class=3D"confluenceTd">
+<p local-id=3D"5b404d88-f435-4312-871f-65dcf2bb9e0c">uint256, 30</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"067b91e5-2d8b-4fc9-a=
+258-8f8b3afca667" class=3D"confluenceTd">
+<p local-id=3D"0397fe3f-b32a-422d-b344-cca819d0e8b0">100%=3D1E30</p>
+<p local-id=3D"448efb74-44d2-45c1-9e4b-757fda73ed45">60%=3D6E29</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"cd46e2cf-5976-4c68-8=
+9ce-31b478240305" class=3D"confluenceTd">
+<p local-id=3D"1a15e264-0c50-408e-80a2-03045260b5e1">=E6=B8=85=E7=AE=97=E6=
+=9C=80=E5=B0=8F=E6=8A=B5=E6=8A=BC=E7=8E=87=EF=BC=88=E4=BD=8E=E4=BA=8E=E5=88=
+=99=E5=8F=AF=E8=A2=AB=E6=B8=85=E7=AE=97=EF=BC=89=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"0171daa5-0ffc-40d4-96c7-6b41dbdb29ca">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"9e975fd9-9ead-499c-b=
+713-d5532f7a34c6" class=3D"confluenceTd">
+<p local-id=3D"a2dfecce-d77b-4e84-a033-156a9fc4e580">minCollateralFactorFor=
+OpenInterestMultiplier</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"b41ac50b-8950-4331-8=
+bba-416f861e56a0" class=3D"confluenceTd">
+<p local-id=3D"39feca3d-1cf6-4e49-b3bf-16f577ce31d3">uint256, 30</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"f2d9da51-d67e-4279-a=
+391-b40199819fe4" class=3D"confluenceTd">
+<p local-id=3D"867b723a-9ed9-45dd-9e54-6198df5d3e42">1.0=3D1E30</p>
+<p local-id=3D"6e88e6ca-fba3-4808-83dd-8e2fba76703e">0.6=3D6E29</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"e45322e8-8a8b-447e-a=
+a1d-404e8dddb497" class=3D"confluenceTd">
+<p local-id=3D"fcdcd111-fbdb-4d90-b59c-142927d401e9">=E8=BE=85=E5=8A=A9=E4=
+=B8=8A=E9=9D=A2=E7=9A=84 minCollateralFactor =E4=BD=BF=E7=94=A8=EF=BC=8C=E8=
+=BF=99=E4=B8=AAfactor=E7=9A=84=E7=AE=97=E6=B3=95=E6=98=AF OI * =E8=AF=A5=E9=
+=85=8D=E7=BD=AE=E9=A1=B9=EF=BC=8C=E4=B9=9F=E5=B0=B1=E6=98=AF=E8=AF=B4=EF=BC=
+=8COI=E8=B6=8A=E5=A4=A7=EF=BC=8C=E5=85=81=E8=AE=B8=E7=9A=84=E6=9C=80=E5=A4=
+=A7=E6=9D=A0=E6=9D=A0=E5=B0=B1=E8=B6=8A=E5=B0=8F=EF=BC=8C=E6=98=AF=E4=B8=80=
+=E7=A7=8D=E6=9E=81=E7=AB=AF=E4=BF=9D=E5=AE=88=E7=AD=96=E7=95=A5=E3=80=82</p=
+></td>
+</tr>
+<tr data-local-id=3D"d4bfbbe3-8d2e-419e-a859-1808e327961c">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"7290c649-0904-4c6a-b=
+fbf-b4e9e08e81a0" class=3D"confluenceTd">
+<p local-id=3D"e785a723-5e45-4c4c-bd1b-71cb45e4ec94">minCollateralFactorFor=
+OpenInterestMultiplierLong</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"eefa3cf2-df64-4aa0-b=
+0d1-243b335177cc" class=3D"confluenceTd">
+<p local-id=3D"3d617aa4-778d-4e5c-ba74-1b22c1afe464">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"62031af0-460a-4f03-b=
+f10-0e02408f3556" class=3D"confluenceTd">
+<p local-id=3D"7b2a3ce5-4660-4327-ba79-7ace714a67ea">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"9f94c60d-bb32-4003-a=
+43c-0807698d3c4d" class=3D"confluenceTd">
+<p local-id=3D"5beab0c9-2f7d-4731-bb42-b36ac66b9f3e">=E5=A4=9A=E5=A4=B4=E9=
+=9A=8F OI =E5=8F=98=E5=8C=96=E7=9A=84=E6=8A=B5=E6=8A=BC=E7=8E=87=E5=A2=9E=
+=E9=87=8F=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"0e4e4db8-1ae8-4c7b-bd1c-472683362052">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"b7d1660e-31b7-4088-b=
+c4d-ee390d10517e" class=3D"confluenceTd">
+<p local-id=3D"3ccd02ee-9cd3-4f0d-a453-eb2fc2e8a85e">minCollateralFactorFor=
+OpenInterestMultiplierShort</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"7cf4c238-8ff7-4190-b=
+879-9d9a50c6f2f1" class=3D"confluenceTd">
+<p local-id=3D"fd9901e2-78a9-4eef-bc67-6e03fdee2e89">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"6853a3ec-9e78-4b67-9=
+ea1-aa4afd31eee1" class=3D"confluenceTd">
+<p local-id=3D"dff3e8b1-76b1-456e-847f-9fc3314f6252">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"309447ee-4919-4bff-a=
+a2b-fd94b363a96a" class=3D"confluenceTd">
+<p local-id=3D"1b2eb8e7-7c71-4972-8c32-900562680e37">=E7=A9=BA=E5=A4=B4=E9=
+=9A=8F OI =E5=8F=98=E5=8C=96=E7=9A=84=E6=8A=B5=E6=8A=BC=E7=8E=87=E5=A2=9E=
+=E9=87=8F=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"2836ebbf-e8d4-4574-868d-05ebd76f92e2">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"eca4434a-d8a6-48a3-9=
+43b-a598d9cd3b9c" class=3D"confluenceTd">
+<p local-id=3D"ab597d12-f8f8-4c75-80d0-f6ed6db0b002">maxPoolAmount</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"787b7181-c8d2-4d19-b=
+9ac-99d8a0fe6521" class=3D"confluenceTd">
+<p local-id=3D"8cb4af46-88c5-4da2-a44a-c9192006817e">token =E7=B2=BE=E5=BA=
+=A6=EF=BC=8C=E6=AF=94=E5=A6=82 ETH =3D 18</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"5267077f-3279-45fc-9=
+cf3-6bb10d9a7cca" class=3D"confluenceTd">
+<p local-id=3D"b5535cb4-52d2-4eba-a990-22a6f9582877">3 ETH =3D 3E18</p>
+<p local-id=3D"3eea98b9-5191-4028-9629-719c7361edee">5 DOGE =3D 5E8</p></td=
+>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"e2b439dc-f298-4a23-a=
+a42-f274917edceb" class=3D"confluenceTd">
+<p local-id=3D"bdda34a4-3b48-4a42-a34b-38f100bc2b22">=E6=9C=80=E5=A4=A7=E4=
+=BB=A3=E5=B8=81=E6=95=B0=E9=87=8F</p>
+<p local-id=3D"7b976c46-a654-4211-9294-9d13109b75e0">swap</p></td>
+</tr>
+<tr data-local-id=3D"d4eb56b3-d814-4012-9678-152e3060bbf0">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"6f36b245-1c8c-4054-8=
+0a7-f7c14915c828" class=3D"confluenceTd">
+<p local-id=3D"b32274ec-7e4c-4b6a-9631-77cb64da2803">maxLongTokenPoolAmount=
+</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"e0839ac8-f220-43ef-8=
+13a-a3cb47ab7af1" class=3D"confluenceTd">
+<p local-id=3D"eec95e5c-b64f-4c49-b65d-667b00729ce1">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"0ff8c59b-aa57-44cc-9=
+b3d-bb9e02d912f8" class=3D"confluenceTd">
+<p local-id=3D"45078ac4-35ca-4a54-a68a-ae0df1e6f88d">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9baafc0b-a7a3-49b4-8=
+2f7-ef60573059b4" class=3D"confluenceTd">
+<p local-id=3D"9c5d7dbb-0632-4715-89c1-506bdb4a725b">=E5=A4=9A=E5=A4=B4=E4=
+=BE=A7=E6=B1=A0=E5=AD=90=E7=9A=84=E6=9C=80=E5=A4=A7=E4=BB=A3=E5=B8=81=E6=95=
+=B0=E9=87=8F=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"637e6998-c3c5-4baf-bf11-dd67f8d9047e">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"37121dca-6883-400d-a=
+19f-dde79ffe6338" class=3D"confluenceTd">
+<p local-id=3D"079686d6-b87c-407d-8cc2-8b100a51739d">maxShortTokenPoolAmoun=
+t</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"c7f9fac3-05ab-489f-b=
+9d1-810dc414beb8" class=3D"confluenceTd">
+<p local-id=3D"479d4c55-57b6-429c-8a55-08fb624995b7">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"913e53da-f378-49fc-b=
+eb4-a74ca42e0995" class=3D"confluenceTd">
+<p local-id=3D"ca7e4c1e-a9b4-4fb7-89e6-d3d0540cbee0">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"51a83aba-d379-4014-a=
+c9b-0322abb7f364" class=3D"confluenceTd">
+<p local-id=3D"e1119ec0-2662-4d73-85e2-83094961f616">=E7=A9=BA=E5=A4=B4=E4=
+=BE=A7=E6=B1=A0=E5=AD=90=E7=9A=84=E6=9C=80=E5=A4=A7=E4=BB=A3=E5=B8=81=E6=95=
+=B0=E9=87=8F=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"39ec7711-e70b-4a11-91ed-7d2c559d1654">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"8d68aaeb-a45a-4495-b=
+2b6-789daf952512" class=3D"confluenceTd">
+<p local-id=3D"158d20a4-caff-4d21-96eb-a896c688309d">maxPoolUsdForDeposit</=
+p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"29c75e84-fc6f-48d8-b=
+99e-77c97d36d889" class=3D"confluenceTd">
+<p local-id=3D"ccfbff78-3c6e-4d1f-b090-835581315f19">30</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"dd47127a-f876-4f46-8=
+7ca-fc53bdee5daf" class=3D"confluenceTd">
+<p local-id=3D"c546fb46-f969-4228-af81-711398f90b05">5 USD =3D 5E30</p></td=
+>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"f0867c40-0997-44eb-b=
+95e-1570ec8d7e64" class=3D"confluenceTd">
+<p local-id=3D"535678c4-551c-494a-8694-310ae6aa5e94">=E5=B8=82=E5=9C=BA=E5=
+=8F=AF=E6=8E=A5=E5=8F=97=E7=9A=84=E6=9C=80=E5=A4=A7=E7=BE=8E=E5=85=83=E5=AD=
+=98=E5=85=A5=E4=B8=8A=E9=99=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"034d923c-ccf9-4973-87b7-615e99a52dad">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"c7350ac7-d1b5-41f3-8=
+a76-9a0be2d8c016" class=3D"confluenceTd">
+<p local-id=3D"37421556-a2c6-4be2-86a0-81c4f46579af">maxLongTokenPoolUsdFor=
+Deposit</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"33154be2-653a-4c3a-b=
+9cd-e1894156d17d" class=3D"confluenceTd">
+<p local-id=3D"584cebe2-d26f-464e-a443-40fbafdbbf75">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"60ee04d5-37f4-4aac-b=
+5d9-79a5b17d6a0e" class=3D"confluenceTd">
+<p local-id=3D"58d268f0-a98c-4295-a574-126addb91856">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"b38928f9-07f8-47f5-a=
+0ed-a4a138d41548" class=3D"confluenceTd">
+<p local-id=3D"7e33e2e6-5030-472c-b428-6e2847be810c">=E5=A4=9A=E5=A4=B4=E4=
+=BE=A7=E6=9C=80=E5=A4=A7=E7=BE=8E=E5=85=83=E5=AD=98=E5=85=A5=E4=B8=8A=E9=99=
+=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"4862eb08-0bee-43ba-8277-c7fa6917f247">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"ed25b931-ea6e-4709-8=
+75c-bbc72c68a544" class=3D"confluenceTd">
+<p local-id=3D"a7012580-331e-4edc-9afd-ba5ff9a61abf">maxShortTokenPoolUsdFo=
+rDeposit</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"d01b0aa7-7181-4fdd-a=
+2ec-fee805e832a3" class=3D"confluenceTd">
+<p local-id=3D"3bd14ee8-edf8-472d-b709-70681ad263cb">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"6d9bbbdc-28b0-4daf-a=
+99a-fe1a0e50bebe" class=3D"confluenceTd">
+<p local-id=3D"453d4558-a401-44c2-958b-f0939ca362c5">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"4a0e6f0b-1906-4c44-b=
+312-3322124d7ab3" class=3D"confluenceTd">
+<p local-id=3D"cbc5648b-db63-46a5-b6a6-e67c6d8738ac">=E7=A9=BA=E5=A4=B4=E4=
+=BE=A7=E6=9C=80=E5=A4=A7=E7=BE=8E=E5=85=83=E5=AD=98=E5=85=A5=E4=B8=8A=E9=99=
+=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"401be404-d516-4133-8e35-a9d21b19c987">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"18ad2dc0-9a7e-4626-b=
+d7f-eb96cb4431ed" class=3D"confluenceTd">
+<p local-id=3D"f64a2706-a191-45c7-a321-672ad4985040">maxOpenInterest</p></t=
+d>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"63a66c98-b760-4568-b=
+66f-ce1037fb7a67" class=3D"confluenceTd">
+<p local-id=3D"238d24bc-61da-4d37-b391-524666a7ed5d">30</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"b0df6487-1ddf-4b8d-8=
+bd7-24f1af940020" class=3D"confluenceTd">
+<p local-id=3D"9a6120cd-17e5-4b2d-a608-5474731801b3">5 USD =3D 5E30</p></td=
+>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"0373e142-aa26-4928-9=
+773-d459900d02b2" class=3D"confluenceTd">
+<p local-id=3D"69c6954c-63e0-490f-9277-42e7c3445208">=E5=B8=82=E5=9C=BA=E5=
+=85=81=E8=AE=B8=E7=9A=84=E6=9C=80=E5=A4=A7=E6=80=BB=E6=8C=81=E4=BB=93=EF=BC=
+=88=E7=BE=8E=E5=85=83=EF=BC=89=E3=80=82</p>
+<p local-id=3D"bc55808e-1fba-401d-a772-a631a9218c6e">Increase / Decrease</p=
+></td>
+</tr>
+<tr data-local-id=3D"5cf64fd3-e116-48c5-8ec1-94d946005fbc">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"042662df-f95f-4090-a=
+f70-5d5546992dc1" class=3D"confluenceTd">
+<p local-id=3D"93602a9e-c3fc-4648-a6d6-2d4bcf038c8d">maxOpenInterestForLong=
+s</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"71d8d7fd-f666-401b-b=
+21b-5ae2d30206c2" class=3D"confluenceTd">
+<p local-id=3D"e0c85a15-475f-4da3-b5cc-2fdadf0f1940">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"e2b1c5ff-726a-43c3-8=
+b7e-6a7e1c33dd78" class=3D"confluenceTd">
+<p local-id=3D"651253b1-9ac3-4fc1-8c8c-47c96566c44c">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"eac9a9d6-4dd8-414f-a=
+f5e-dae1d7a2b8f2" class=3D"confluenceTd">
+<p local-id=3D"38c744de-396b-4226-9bfd-9a51588beefe">=E5=A4=9A=E5=A4=B4=E6=
+=9C=80=E5=A4=A7=E6=8C=81=E4=BB=93=EF=BC=88=E7=BE=8E=E5=85=83=EF=BC=89=E3=80=
+=82</p></td>
+</tr>
+<tr data-local-id=3D"08271538-d0a9-4e8f-8649-9a455201421f">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"cd0bb69a-ae0e-4685-9=
+e4e-16d52a01887e" class=3D"confluenceTd">
+<p local-id=3D"398fba7a-5f31-4d6d-9309-053543538ef5">maxOpenInterestForShor=
+ts</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"d87cc3d1-5686-485a-8=
+018-11b362bf0734" class=3D"confluenceTd">
+<p local-id=3D"03caf84a-0a74-4527-a02a-11083810ec4d">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"6d1b72ae-8e3e-4628-b=
+328-7669413e0fa9" class=3D"confluenceTd">
+<p local-id=3D"d08fb868-ba0d-4291-95cf-894ef3c5dfc5">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"ac2a5c42-2e41-4669-9=
+770-6a238447f96f" class=3D"confluenceTd">
+<p local-id=3D"6c4f7253-96fd-44d7-86af-d873273b4774">=E7=A9=BA=E5=A4=B4=E6=
+=9C=80=E5=A4=A7=E6=8C=81=E4=BB=93=EF=BC=88=E7=BE=8E=E5=85=83=EF=BC=89=E3=80=
+=82</p></td>
+</tr>
+<tr data-local-id=3D"b22761ee-c66a-4178-9aa6-5d392a0a3e07">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"ba346abc-4efd-4d4b-b=
+f21-5adf8c087e0b" class=3D"confluenceTd">
+<p local-id=3D"27e163e2-257e-465a-9e40-384ba11489da">maxPnlFactorForTraders=
+</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"fb53cc81-13ce-40eb-9=
+230-d0cf80e674ba" class=3D"confluenceTd">
+<p local-id=3D"1b26e417-c090-4d17-a78b-87b6f9fa8c21">30</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"167d0c35-b5ea-446b-b=
+362-1fa312463f6a" class=3D"confluenceTd">
+<p local-id=3D"3e4b7f47-7d0e-4673-b153-a7567bf0bae5">10%=3D1E29</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"6fa0594f-fd9e-452e-a=
+898-7d6c3559a868" class=3D"confluenceTd">
+<p local-id=3D"497ea21c-792d-4364-b0b7-2da2767dd73e">=E4=BA=A4=E6=98=93=E8=
+=80=85=E5=8F=AF=E5=AE=9E=E7=8E=B0=E7=9A=84=E6=9C=80=E5=A4=A7=E5=88=A9=E6=B6=
+=A6=E5=9B=A0=E5=AD=90=EF=BC=88=E7=9B=B8=E5=AF=B9=E6=B1=A0=E5=AD=90USD=EF=BC=
+=89=E3=80=82</p>
+<p local-id=3D"6bac3717-aa44-427c-a323-8364ea98f73f">Decrease =E8=AE=A1=E7=
+=AE=97=E4=BB=93=E4=BD=8D PnL =E6=97=B6=E4=BD=BF=E7=94=A8=E8=BF=99=E4=B8=AA=
+=E5=81=9A cap=E3=80=82</p>
+<p local-id=3D"a6cd78db-6e4c-4152-bcd5-639a96bf11bb">=E8=BF=99=E9=87=8C=E5=
+=BA=94=E8=AF=A5=E8=B4=B4=E8=BF=91=E4=BA=8E 100%=EF=BC=8C=E4=BB=A3=E7=A0=81=
+=E9=80=BB=E8=BE=91=E7=9C=8B=E6=9D=A5=E6=98=AF=E5=BC=BA=E5=88=B6=E7=BC=A9=E6=
+=94=BE=EF=BC=8C=E5=B0=B1=E6=98=AF=E7=9B=B4=E6=8E=A5=E6=8A=8A PnL =E6=89=93=
+=E6=8A=98=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"049fad5b-b21e-49b2-9646-9f8412427ca1">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"e2e219fe-8875-4af9-9=
+a27-e54444fa52ee" class=3D"confluenceTd">
+<p local-id=3D"2a15d48e-a2e1-48b4-b412-63bc5a8cde72">maxPnlFactorForTraders=
+Longs</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"4ea96e6f-fe14-4fbe-b=
+6c6-b26bba981dfd" class=3D"confluenceTd">
+<p local-id=3D"0491271d-0da7-456d-ac3d-e3930657c7b4">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"4f4eb75a-2d88-48c1-a=
+23a-3be497b8c034" class=3D"confluenceTd">
+<p local-id=3D"61422a53-2e8e-4f5c-8869-8ae0c552a29a">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"36c1eda0-85f9-48f3-a=
+969-4e6569ba9aaf" class=3D"confluenceTd">
+<p local-id=3D"e802138b-7d90-4189-9ebd-53debeb048c5">=E5=A4=9A=E5=A4=B4=E4=
+=BA=A4=E6=98=93=E8=80=85=E7=9A=84=E6=9C=80=E5=A4=A7 PnL =E5=9B=A0=E5=AD=90=
+=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"7dd9630c-f967-45d0-93b2-343419edaa2c">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"c0647623-d246-4a5b-a=
+6b8-b44f97c14d0d" class=3D"confluenceTd">
+<p local-id=3D"a0354007-5495-4879-b05b-18534bbd34e4">maxPnlFactorForTraders=
+Shorts</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"00def394-f78f-41c4-8=
+a7b-123725a08833" class=3D"confluenceTd">
+<p local-id=3D"d973e96e-4113-41bc-809d-04c8d169e8f7">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"c61675b3-1e12-4188-a=
+f0d-f004d398f6b2" class=3D"confluenceTd">
+<p local-id=3D"539a2725-b166-4c9b-a49f-539060d149c1">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"e21f278f-653c-4ecb-8=
+974-cc0b10461b21" class=3D"confluenceTd">
+<p local-id=3D"e9b02905-5da9-4537-9b15-13dfaa5ec8ee">=E7=A9=BA=E5=A4=B4=E4=
+=BA=A4=E6=98=93=E8=80=85=E7=9A=84=E6=9C=80=E5=A4=A7 PnL =E5=9B=A0=E5=AD=90=
+=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"a41dfe86-55d9-4fa9-a054-996e883c30bd">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"0944ff61-5c72-490b-9=
+0f9-e17b6b068cd1" class=3D"confluenceTd">
+<p local-id=3D"775ff62d-e00e-4db0-85fa-5dcd37d58c7b">maxPnlFactorForAdl</p>=
+</td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"fab9e440-c81a-44ad-a=
+0e5-796df669f4cb" class=3D"confluenceTd">
+<p local-id=3D"283c04fd-7728-4af2-8f55-0c6d60881ac1">30</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"63cdc742-62fa-4765-8=
+4fb-de95b8cc3cf3" class=3D"confluenceTd">
+<p local-id=3D"7536b972-e5e2-4680-ae61-276fe6f1ab6b">80%=3D8E29</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"93536e8e-14f8-4f85-a=
+fd6-4cafc8a6018c" class=3D"confluenceTd">
+<p local-id=3D"ae643d3b-92b6-4636-9664-72c1c89ea14e">ADL=EF=BC=88=E8=87=AA=
+=E5=8A=A8=E5=87=8F=E4=BB=93=EF=BC=89=E8=A7=A6=E5=8F=91=E7=9A=84=E6=9C=80=E5=
+=A4=A7 PnL =E5=9B=A0=E5=AD=90=E9=98=88=E5=80=BC=E3=80=82</p>
+<p local-id=3D"9bf1fb0c-f375-418c-b174-01573e100cd9">=E7=94=A8=E4=BA=8E=E7=
+=BB=99 ADL =E5=8D=95=E5=81=9A=E6=A0=A1=E9=AA=8C=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"0fe64863-31c4-4d67-ad27-91a8395459cf">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"bed3de31-d91f-4217-8=
+08c-f89e46e52ab1" class=3D"confluenceTd">
+<p local-id=3D"f1854738-9f6e-4c7b-8b01-7bdf03ab4a1c">maxPnlFactorForAdlLong=
+s</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"1b319aaa-625e-4b41-b=
+68e-dad678240298" class=3D"confluenceTd">
+<p local-id=3D"66b992d9-49da-4502-877c-20263061836c">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9cf2dfad-43d4-4460-9=
+86b-cace1860a1b1" class=3D"confluenceTd">
+<p local-id=3D"24dd5599-d58a-492b-834f-f8626b810993">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"2f8c830e-f2bb-46e6-b=
+a63-0f2c883b2453" class=3D"confluenceTd">
+<p local-id=3D"5d4cdc46-a0a2-4e31-8643-f5c49c8f14d6">=E5=A4=9A=E5=A4=B4=E4=
+=BE=A7 ADL =E6=9C=80=E5=A4=A7 PnL =E5=9B=A0=E5=AD=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"7be5546c-963a-4b19-b377-e41a76b2bcc2">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"c33ea1c0-c44a-4a7d-8=
+aa2-1ff5e359f7ba" class=3D"confluenceTd">
+<p local-id=3D"e6f44d03-8d2c-4113-be9d-549b43863338">maxPnlFactorForAdlShor=
+ts</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"3de39e45-2402-4e0f-8=
+984-595af9ad6ada" class=3D"confluenceTd">
+<p local-id=3D"787993d8-68fe-441b-af08-acaeb62fe963">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"f43b3ad1-6ea4-4219-a=
+7bf-a931e7cf690e" class=3D"confluenceTd">
+<p local-id=3D"585023f3-018c-4e63-ac69-aa9e6bca0479">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"d43b075d-70da-42e4-8=
+c24-2865ea0a5e7d" class=3D"confluenceTd">
+<p local-id=3D"6f6a58f2-5262-4986-b79b-2c9bf42a12e5">=E7=A9=BA=E5=A4=B4=E4=
+=BE=A7 ADL =E6=9C=80=E5=A4=A7 PnL =E5=9B=A0=E5=AD=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"e7f240c3-7d56-4f0c-b5b1-db13f6c03c32">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"dbf65079-a571-4258-9=
+380-81a447f9d8e5" class=3D"confluenceTd">
+<p local-id=3D"6950c7a1-0dd0-44be-90f7-9679cd773849">minPnlFactorAfterAdl</=
+p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"d6700da8-7785-41fb-9=
+fbb-719cd0dd828a" class=3D"confluenceTd">
+<p local-id=3D"7707b045-6747-4045-b51c-d944da71bc3f">30</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"62204d30-6dfe-4a83-8=
+399-eb178d03c38f" class=3D"confluenceTd">
+<p local-id=3D"2328a44b-3b13-4c2f-9dee-c8db0df9276f">75%=3D75E28</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"a3c43d26-cd2a-4c41-8=
+86d-d99f2dc1fb94" class=3D"confluenceTd">
+<p local-id=3D"e16cbc4a-73ef-41c8-bd2e-1f654d282bce">ADL =E5=90=8E=E4=BF=9D=
+=E7=95=99=E7=9A=84=E6=9C=80=E5=B0=8F PnL =E5=9B=A0=E5=AD=90=E3=80=82</p>
+<p local-id=3D"0512db5e-b115-49c4-925e-542bb34e5589">=E6=89=A7=E8=A1=8C ADL=
+ =E4=B9=8B=E5=90=8E=EF=BC=8C=E4=B8=8D=E8=83=BD=E5=B0=8F=E4=BA=8E=E8=BF=99=
+=E4=B8=AA=E5=80=BC=EF=BC=8C=E5=90=A6=E5=88=99=E8=AE=A4=E4=B8=BA ADL =E8=BF=
+=87=E5=BA=A6=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"8f843495-931a-46ae-b514-ac74300696d7">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"688a92b4-46ff-4c86-8=
+532-439378ba075d" class=3D"confluenceTd">
+<p local-id=3D"52f9789f-e343-49e6-9759-9ed8ad24f25f">minPnlFactorAfterAdlLo=
+ngs</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"d0d82e1d-c4a1-44fe-b=
+05a-796571f8ceef" class=3D"confluenceTd">
+<p local-id=3D"ce316cdd-f880-4f3f-9035-68dbcb4ed928">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"70706f8c-2796-4311-a=
+06c-0e3329a87930" class=3D"confluenceTd">
+<p local-id=3D"1dc25e46-72e1-4b4b-bfb8-f8cc37d74de1">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"da93594c-f6e9-4684-8=
+cdc-499f90cbe875" class=3D"confluenceTd">
+<p local-id=3D"ded40825-226e-44b6-b49f-159e846c5d91">=E5=A4=9A=E5=A4=B4 ADL=
+ =E5=90=8E=E6=9C=80=E5=B0=8F PnL =E5=9B=A0=E5=AD=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"436b724e-365f-490e-b375-6b5f82df7a99">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"5177adf6-44db-4177-b=
+fe2-5743cdf1c8a0" class=3D"confluenceTd">
+<p local-id=3D"41df1336-6647-410d-a40f-54c1783ab1f5">minPnlFactorAfterAdlSh=
+orts</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"39fe0d60-008c-4f87-9=
+20a-d9160408efd9" class=3D"confluenceTd">
+<p local-id=3D"79cd7241-2141-4980-9d73-49e83349e28e">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"3ef6aee7-55e0-4c5a-a=
+665-3b3f901f7647" class=3D"confluenceTd">
+<p local-id=3D"0de98cd9-8573-4f27-9f44-92281119374f">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"f7b17688-55af-471c-b=
+3bc-acfb04738f31" class=3D"confluenceTd">
+<p local-id=3D"36fc09c0-61cd-4c3c-8f1f-413ef125d2b2">=E7=A9=BA=E5=A4=B4 ADL=
+ =E5=90=8E=E6=9C=80=E5=B0=8F PnL =E5=9B=A0=E5=AD=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"dea07adc-bf64-49ee-8dab-ba34ad1f721c">
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"2e3b9f0a-56e4-4c57-8=
+fe5-8b71afd1f9c9" class=3D"confluenceTd">
+<p local-id=3D"10cee7fd-39df-4b24-9416-ab9ac94d059e">maxPnlFactorForDeposit=
+s</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"ef59f8b4-8ec0-44b8-b=
+9ea-d8918def2ab9" class=3D"confluenceTd">
+<p local-id=3D"debfe7c8-49c9-4eca-9265-4bda6538ff80">30</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"4f4a7d64-4108-4e0a-9=
+d36-6dfe42c56b9e" class=3D"confluenceTd">
+<p local-id=3D"d5bc9ce4-9d4f-4cc5-81d5-63285b93be6e">80%=3D8E29</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"29b1342b-5e4c-4748-9=
+330-0b10b1a06fd1" class=3D"confluenceTd">
+<p local-id=3D"6bdb0a98-12db-4d65-a0f4-dc2e63a50ad0">=E5=85=A5=E9=87=91=E4=
+=BC=B0=E5=80=BC=E6=97=B6=E4=BD=BF=E7=94=A8=E7=9A=84=E6=9C=80=E5=A4=A7 PnL =
+=E5=9B=A0=E5=AD=90=EF=BC=88=E9=98=B2=E5=AD=98=E5=85=A5=E5=8D=9A=E5=BC=88=EF=
+=BC=89=E3=80=82</p>
+<p local-id=3D"530a30fb-f7e3-4e84-8ccf-2f22aa968f7d">=E4=B9=9F=E7=94=A8=E6=
+=9D=A5=E6=A0=A1=E9=AA=8C swap =E4=B9=8B=E5=90=8E=E6=98=AF=E5=90=A6=E4=BC=9A=
+=E5=AF=BC=E8=87=B4=E8=B6=85=E5=87=BA=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"9659437e-3f0d-44bc-848f-60fa61891532">
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"44890714-ffa1-4717-a=
+658-333dba6712a8" class=3D"confluenceTd">
+<p local-id=3D"c9c347a5-14c1-4347-8a6c-b7ccff764da4">maxPnlFactorForDeposit=
+sLongs</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"bd6fc17a-dd1f-49c3-a=
+a6a-059439989090" class=3D"confluenceTd">
+<p local-id=3D"caceff3f-fa18-4264-9db1-e75af1b6fd6e">-</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"c4dd1baf-e8b5-48df-a=
+9f6-5601a31f0ee7" class=3D"confluenceTd">
+<p local-id=3D"8d761812-0e06-4607-abb4-e65e293f273c">-</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"24c954b3-074f-493f-b=
+da0-9bd2ac236dd6" class=3D"confluenceTd">
+<p local-id=3D"f123e3fa-a27a-4d3c-86ff-a5bb029785a6">=E5=A4=9A=E5=A4=B4=E5=
+=85=A5=E9=87=91=E6=9C=80=E5=A4=A7 PnL =E5=9B=A0=E5=AD=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"6866eed5-b96c-47f4-adcf-13195d03cfb2">
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"0ee7aa8e-e26f-4253-a=
+0a2-57acf84891c0" class=3D"confluenceTd">
+<p local-id=3D"bbee2c16-3fef-496c-8fe9-a7270835a3c6">maxPnlFactorForDeposit=
+sShorts</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"6e594081-ea3c-4489-8=
+d6f-4b15caf8e84b" class=3D"confluenceTd">
+<p local-id=3D"43981362-fdd3-4d9a-8c3e-99b50df13ca8">-</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"69b8d0cb-1125-40ae-b=
+377-93aa96071cc3" class=3D"confluenceTd">
+<p local-id=3D"8026d952-ea5a-4495-b169-caedc05a9ced">-</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"f71e79c9-b061-4eea-b=
+e64-04216ff93ff7" class=3D"confluenceTd">
+<p local-id=3D"5c4979a9-20a3-4025-98eb-db8e0f63879f">=E7=A9=BA=E5=A4=B4=E5=
+=85=A5=E9=87=91=E6=9C=80=E5=A4=A7 PnL =E5=9B=A0=E5=AD=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"22f7d7a4-0ac0-4ba1-a8da-d746bd0a438b">
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"c50c12ec-70f7-40a7-9=
+a75-99053f7be226" class=3D"confluenceTd">
+<p local-id=3D"373ede51-d24d-4daa-8471-5200509a409b">maxPnlFactorForWithdra=
+wals</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"2ab1f538-de62-46e8-8=
+4a2-7871b51b91d3" class=3D"confluenceTd">
+<p local-id=3D"397237f2-32ba-446c-92c9-c5f61ccb4df3">-</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"21f86c39-d1a0-4773-9=
+2a9-9f66fc4d7dc8" class=3D"confluenceTd">
+<p local-id=3D"7443fa8b-4f99-4646-908a-ba3ffc8874f5">-</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"c7108afd-1df9-4e07-8=
+4e5-448919550dff" class=3D"confluenceTd">
+<p local-id=3D"e1078555-012b-416a-8102-09df57225fe9">=E5=87=BA=E9=87=91=E4=
+=BC=B0=E5=80=BC=E4=BD=BF=E7=94=A8=E7=9A=84=E6=9C=80=E5=A4=A7 PnL =E5=9B=A0=
+=E5=AD=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"1bd075cc-26c4-4eae-86f9-2cbc23e70b31">
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"f2c30b40-2d62-41d1-a=
+ab0-03db4023b72c" class=3D"confluenceTd">
+<p local-id=3D"e8dcb71d-78f7-4b66-a0ed-140bcdaea3d1">maxPnlFactorForWithdra=
+walsLongs</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"dc24bb73-0ad4-4ac3-b=
+ecb-327d6ab77298" class=3D"confluenceTd">
+<p local-id=3D"87eb1dc3-6fd1-4fa8-b84f-a6721e01c129">-</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"b19f2355-3de0-4b2c-8=
+59d-64e2be00a974" class=3D"confluenceTd">
+<p local-id=3D"e2775eff-70dc-4e3c-bd4d-04a82eefd0c5">-</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"24c31afe-d4a3-43b5-b=
+a77-3f44c4c4531b" class=3D"confluenceTd">
+<p local-id=3D"079122d0-95c3-4b00-836b-676acf6771d1">=E5=A4=9A=E5=A4=B4=E5=
+=87=BA=E9=87=91=E6=9C=80=E5=A4=A7 PnL =E5=9B=A0=E5=AD=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"71740509-76a0-4864-b6b4-4412a931ea21">
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"7bf3e64f-18d5-4690-b=
+569-aca5dac80a58" class=3D"confluenceTd">
+<p local-id=3D"60f9e694-8da4-4104-8947-6ca9e05a64f6">maxPnlFactorForWithdra=
+walsShorts</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"f0054655-60b6-4af9-b=
+15c-b97a83df655c" class=3D"confluenceTd">
+<p local-id=3D"a5a7f918-a35c-4644-94ce-c778ef1f3cfc">-</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"6be00f34-99b8-4b89-8=
+80b-54dbd7ab058d" class=3D"confluenceTd">
+<p local-id=3D"cb8b3b69-b4f8-4415-ace3-6ca35fe19501">-</p></td>
+<td data-highlight-colour=3D"#abf5d1" data-local-id=3D"d8b813da-e759-4b82-b=
+b32-9d0913edf5b0" class=3D"confluenceTd">
+<p local-id=3D"970c0324-26e8-408e-adab-d378fa48e2d6">=E7=A9=BA=E5=A4=B4=E5=
+=87=BA=E9=87=91=E6=9C=80=E5=A4=A7 PnL =E5=9B=A0=E5=AD=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"9cca266d-ec58-4910-8f9a-2d0706f49824">
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"635ddf18-4938-4deb-8=
+34f-33303586c365" class=3D"confluenceTd">
+<p local-id=3D"2e42483d-d11e-40bf-a89a-3cb1d9da4557">positionFeeFactorForPo=
+sitiveImpact</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"beee35a4-3b77-41e1-9=
+3df-aaea79c6976f" class=3D"confluenceTd">
+<p local-id=3D"bcee40d9-e270-4ff0-b219-d38d726210b2">30</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"8df04605-b7cf-49ed-b=
+873-ee62e9050ec9" class=3D"confluenceTd">
+<p local-id=3D"9dfa2dc5-0a80-4139-b22f-0c37685f7dcb">1% =3D 1E28</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"337580a8-2ac0-4e0d-9=
+c94-2c9d3b9522f9" class=3D"confluenceTd">
+<p local-id=3D"4376e544-3ad4-4e92-87b8-705c806c9859">=E5=BB=BA=E4=BB=93/=E5=
+=B9=B3=E4=BB=93 fee =E5=9C=A8=E6=AD=A3=E5=90=91=E5=BD=B1=E5=93=8D=E6=97=B6=
+=E7=9A=84=E8=B4=B9=E7=94=A8=E5=9B=A0=E5=AD=90=E3=80=82</p>
+<p local-id=3D"4c939ff9-07cb-4dde-865d-12fac5b47f36">Increase / Decrease</p=
+></td>
+</tr>
+<tr data-local-id=3D"45bddbed-31f2-43cf-a7b4-8389a3d10cd8">
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"7e09269b-7322-41d6-9=
+38b-297106b8abd1" class=3D"confluenceTd">
+<p local-id=3D"c0a9cc33-df5f-4c29-ac7a-25525e354014">positionFeeFactorForNe=
+gativeImpact</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"ed8178bb-6c24-4a1f-9=
+ce7-44d79bd213ca" class=3D"confluenceTd">
+<p local-id=3D"7482ecc5-2570-4673-8ae5-422329293d42">-</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"b77b9560-238a-4768-b=
+d55-03c73b203f20" class=3D"confluenceTd">
+<p local-id=3D"5dc58c67-9348-40d1-b684-dcffbbd63bfa">-</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"82e67baf-8700-4005-9=
+758-905df359a562" class=3D"confluenceTd">
+<p local-id=3D"5252821a-5bf3-40e7-b2dc-d15c7dbc7954">=E5=BB=BA=E4=BB=93/=E5=
+=B9=B3=E4=BB=93=E5=9C=A8=E8=B4=9F=E5=90=91=E5=BD=B1=E5=93=8D=E6=97=B6=E7=9A=
+=84=E8=B4=B9=E7=94=A8=E5=9B=A0=E5=AD=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"e44b5399-6889-427c-af1e-f30f575f6091">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"7fbc50c5-1a33-476e-8=
+dc3-e7e1f28a470e" class=3D"confluenceTd">
+<p local-id=3D"0f6dd140-00aa-4bc1-b9f2-5b47a99fa071">negativePositionImpact=
+Factor</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"05691a19-12c7-4677-9=
+1e4-689b9b3084bb" class=3D"confluenceTd">
+<p local-id=3D"cf41758b-401c-4119-8b6e-4f986540f981">30</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"d6ba2d68-8ad7-4314-b=
+943-5953d1bd4fcc" class=3D"confluenceTd">
+<p local-id=3D"7a04adbd-1bcf-4496-86ad-bd15bd888667">1.1 =3D 11E29</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"59eb14cd-fc0e-4bf5-b=
+6aa-01990e45c23c" class=3D"confluenceTd">
+<p local-id=3D"bcb8a31a-8af6-4697-a0cc-1e27d23cd3a4">=E4=BB=93=E4=BD=8D=E8=
+=B4=9F=E9=9D=A2=E4=BB=B7=E6=A0=BC=E5=86=B2=E5=87=BB=E7=9A=84=E5=BC=BA=E5=BA=
+=A6=E7=B3=BB=E6=95=B0=E3=80=82</p>
+<p local-id=3D"b787aa72-44d7-48d0-a7ea-1376827b3bef"><code>d0 ^ e * f - d1 =
+^ e * f</code></p>
+<p local-id=3D"df442b18-60f4-4472-adde-193e90ee3f64">=E8=BF=99=E4=B8=AA=E6=
+=8C=87=E4=BB=A3 f</p></td>
+</tr>
+<tr data-local-id=3D"9ce7f40c-7226-4672-8c44-5cb049079819">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"458776cb-28fe-41ca-8=
+eea-0f435ba2685e" class=3D"confluenceTd">
+<p local-id=3D"1468bd7f-cdf0-4b29-8f73-a25bfd3e3ac6">positivePositionImpact=
+Factor</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"c2163353-eed5-4843-a=
+a6a-f1b0b75983c8" class=3D"confluenceTd">
+<p local-id=3D"ce706afa-b4a4-48a2-be7e-baa5503b01ce">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"1d64ed27-e5b3-410d-9=
+30f-8ae500e0d6ba" class=3D"confluenceTd">
+<p local-id=3D"225bcd00-bf67-48c3-b137-9e3e3679aac4">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"63505bbe-5824-4174-9=
+cd2-2d8e56d58f8a" class=3D"confluenceTd">
+<p local-id=3D"70c504fc-5253-4dc4-9f35-62cfcdbf85c9">=E4=BB=93=E4=BD=8D=E6=
+=AD=A3=E9=9D=A2=E4=BB=B7=E6=A0=BC=E5=86=B2=E5=87=BB=E7=9A=84=E5=BC=BA=E5=BA=
+=A6=E7=B3=BB=E6=95=B0=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"d7d7ff70-3587-45bd-b2d4-e35be2d8b127">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"224ded05-1c97-4509-a=
+c0a-3a4adbb87645" class=3D"confluenceTd">
+<p local-id=3D"13bcf62b-573b-4116-a74f-2256ae2e3799">positionImpactExponent=
+Factor</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"6e786aff-c42c-49c5-a=
+78c-7808a1905a88" class=3D"confluenceTd">
+<p local-id=3D"f4e0734d-bea4-4a3d-a537-305afa5b2a99">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"cf1300f1-ed97-4b1b-a=
+8e2-d006570386da" class=3D"confluenceTd">
+<p local-id=3D"bb0dc820-4826-4975-b8ca-42b03944da79">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"92d41438-bbaf-4e07-9=
+d1f-8786704e831e" class=3D"confluenceTd">
+<p local-id=3D"cf2c16fa-d8ba-4405-bd54-2867cb6219fe">=E4=BB=93=E4=BD=8D=E5=
+=BD=B1=E5=93=8D=E7=9A=84=E6=8C=87=E6=95=B0=EF=BC=88=E6=9B=B2=E7=BA=BF=E9=99=
+=A1=E5=B3=AD=E5=BA=A6=EF=BC=89=E3=80=82</p>
+<p local-id=3D"0d3fe27d-c2c2-4067-afff-d3a90564799e"><code>d0 ^ e * f - d1 =
+^ e * f</code></p>
+<p local-id=3D"d0a0941a-f805-416d-bf2e-887c9dba77ab">=E8=BF=99=E4=B8=AA=E6=
+=8C=87=E4=BB=A3 e</p></td>
+</tr>
+<tr data-local-id=3D"3be4b9e6-7884-4c8d-8884-020801a61209">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"e2b226a6-c4f0-4040-9=
+754-d14fdc0fb6e2" class=3D"confluenceTd">
+<p local-id=3D"8a39a99c-032c-411a-9b8a-4f44fcec72e9">negativeSwapImpactFact=
+or</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"cfc0ba25-abde-4f9d-9=
+6e7-a0302f54f108" class=3D"confluenceTd">
+<p local-id=3D"f7573896-74ef-4f8c-996c-19868eb68db9">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"8a08bb92-5125-489c-9=
+496-4f1fb1becb96" class=3D"confluenceTd">
+<p local-id=3D"b7bb859b-8c41-45ae-993f-47054b8b2155">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"6334c037-bab5-4710-9=
+a49-866d634a599d" class=3D"confluenceTd">
+<p local-id=3D"2d6c9fec-2d2d-42d7-8d65-6962adbcb8ab">=E5=85=91=E6=8D=A2=E8=
+=B4=9F=E9=9D=A2=E4=BB=B7=E6=A0=BC=E5=86=B2=E5=87=BB=E5=BC=BA=E5=BA=A6=E7=B3=
+=BB=E6=95=B0=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"3a1b2af4-ebfb-4a0c-abd0-03d7388ed9aa">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9636292b-afad-481b-9=
+4cd-99204cf49fc5" class=3D"confluenceTd">
+<p local-id=3D"36e7dbf4-8a33-44a6-8616-d78067ca7f48">positiveSwapImpactFact=
+or</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"4a9f4dc7-d68d-4f0b-8=
+3b9-feff6f53e510" class=3D"confluenceTd">
+<p local-id=3D"21c12299-eeb4-405a-990e-d51960d7de65">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"93993e13-0fae-4141-a=
+90a-d4fb45d5b2bc" class=3D"confluenceTd">
+<p local-id=3D"bdb01c37-14d6-41ce-af68-b492353bb3c5">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"d37b5f06-7e80-48c9-8=
+eb6-7cfa3350dfb1" class=3D"confluenceTd">
+<p local-id=3D"3bdbd026-3dde-4ef8-8acf-0200c76d3f79">=E5=85=91=E6=8D=A2=E6=
+=AD=A3=E9=9D=A2=E4=BB=B7=E6=A0=BC=E5=86=B2=E5=87=BB=E5=BC=BA=E5=BA=A6=E7=B3=
+=BB=E6=95=B0=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"7d01a1fe-265c-424f-971a-0d3e9c797368">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"95edd983-3783-4805-8=
+e3e-e46d85989d72" class=3D"confluenceTd">
+<p local-id=3D"2896b5be-6435-4f96-a7b1-db81884f0896">swapImpactExponentFact=
+or</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9e2f5c9c-b6e0-4974-a=
+743-cdbf1d4ab0c4" class=3D"confluenceTd">
+<p local-id=3D"4922a501-775e-403e-911d-7169adae3854">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"4dbf77b7-41e7-44c2-a=
+fc2-8f72d57df3ea" class=3D"confluenceTd">
+<p local-id=3D"84f9273b-70a8-4938-84ac-a0d573055f89">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9e8f3978-b4fe-447d-a=
+c45-61a2d74483fc" class=3D"confluenceTd">
+<p local-id=3D"72e0e4e1-e48f-4da1-b836-840958dc33ea">=E5=85=91=E6=8D=A2=E5=
+=BD=B1=E5=93=8D=E7=9A=84=E6=8C=87=E6=95=B0=EF=BC=88=E6=9B=B2=E7=BA=BF=E9=99=
+=A1=E5=B3=AD=E5=BA=A6=EF=BC=89=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"afa13354-2872-4e1c-b97f-05d5001cf9b9">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"545aa905-7800-4bfb-a=
+ff5-d9d6c7a21d63" class=3D"confluenceTd">
+<p local-id=3D"c1666945-3624-4e09-9e3c-36a8c854c04c">negativeMaxPositionImp=
+actFactor</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"f77a1f23-7fdd-4ea0-8=
+ce3-5e0e845d8cd7" class=3D"confluenceTd">
+<p local-id=3D"e082ad27-9640-4d70-a5cc-8a99d068c78e">30</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"c6609207-5071-4438-a=
+62c-c5a296892d66" class=3D"confluenceTd">
+<p local-id=3D"83243f8f-a3c9-4b9e-806c-077088d7aef5">2%=3D2E28</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"b726452a-b03f-4963-a=
+6fa-b776812b2a06" class=3D"confluenceTd">
+<p local-id=3D"fa08d091-1a59-4aba-8b29-616109cc4134">=E4=BB=93=E4=BD=8D=E8=
+=B4=9F=E9=9D=A2=E4=BB=B7=E6=A0=BC=E5=86=B2=E5=87=BB=E7=9A=84=E6=9C=80=E5=A4=
+=A7=E4=B8=8A=E9=99=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"90342978-6b6f-4122-bd08-ed88f8f39c04">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"f01cc7e6-e9be-4788-a=
+8cb-a01671fe1809" class=3D"confluenceTd">
+<p local-id=3D"d8cb119e-88f5-43eb-8a50-59d9d5abe605">positiveMaxPositionImp=
+actFactor</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"ca47342f-e1bc-4284-a=
+ade-c3c0f516e8e0" class=3D"confluenceTd">
+<p local-id=3D"1ab7292b-ee2b-42ea-8d7a-5645fd727394">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"50ef2fd8-f42b-4f4e-a=
+254-fe6cf4b6d756" class=3D"confluenceTd">
+<p local-id=3D"228cd4a5-6bda-4466-bde4-bb6aa9319ce6">-</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"82611cca-eefa-4fda-a=
+69e-29b7b81fa95d" class=3D"confluenceTd">
+<p local-id=3D"f82e3322-ac35-4e9a-ac7e-ed0ad1996f17">=E4=BB=93=E4=BD=8D=E6=
+=AD=A3=E9=9D=A2=E4=BB=B7=E6=A0=BC=E5=86=B2=E5=87=BB=E7=9A=84=E6=9C=80=E5=A4=
+=A7=E4=B8=8A=E9=99=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"0b21ffaa-8406-4ac0-ae2b-bf8e5830ae72">
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"c9adad71-de4c-433b-a=
+8be-c6f8d36745f9" class=3D"confluenceTd">
+<p local-id=3D"f95bee50-0d13-45ab-ab8e-b9328d58625b">maxPositionImpactFacto=
+rForLiquidations</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"a6498071-cb48-47de-9=
+e65-cb71f62fb56b" class=3D"confluenceTd">
+<p local-id=3D"f5d7c4b0-48b4-418b-be91-7e87c6c9fe02">30</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"232ee7b1-ac94-4251-9=
+0f2-a23483eb1f1d" class=3D"confluenceTd">
+<p local-id=3D"df2876aa-6c52-46a1-871f-e7344b18c3fa">2%=3D2E28</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"7e38cafe-f038-41ab-b=
+939-2bf8908b04d8" class=3D"confluenceTd">
+<p local-id=3D"f82725aa-e7c7-4d73-b827-863246eab3a0">=E6=B8=85=E7=AE=97=E6=
+=A0=A1=E9=AA=8C=E6=97=B6=E5=8F=AF=E5=BA=94=E7=94=A8=E7=9A=84=E6=9C=80=E5=A4=
+=A7=E4=BB=B7=E6=A0=BC=E5=86=B2=E5=87=BB=E4=B8=8A=E9=99=90=E3=80=82</p>
+<p local-id=3D"525bbdc6-4a9c-4b3f-8dca-f8136fc3aac6">// if there is a large=
+ build up of open interest and a sudden large price movement, it may result=
+ in a large imbalance between longs and shorts, this could result in very l=
+arge price impact temporarily, cap the max negative price impact to prevent=
+ cascading liquidations</p>
+<p local-id=3D"e4097217-d729-44b2-9bd1-512e0ea4986b">=E8=BF=99=E9=87=8C=E5=
+=8F=AA=E6=98=AF=E5=88=A4=E6=96=AD isLiquidatable =E7=9A=84=E6=97=B6=E5=80=
+=99=E4=BC=9A=E5=B0=9D=E8=AF=95=E5=B0=91=E6=89=A3=E4=B8=80=E4=BA=9B impact f=
+ee=E4=B9=8B=E5=90=8E=EF=BC=8C=E7=9C=8B=E7=9C=8B=E4=BF=9D=E8=AF=81=E9=87=91=
+=E6=98=AF=E4=B8=8D=E6=98=AF=E8=BF=98=E6=98=AF=E5=A4=9F=E7=9A=84=E3=80=82</p=
+></td>
+</tr>
+<tr data-local-id=3D"39704a6b-3dd4-4944-8626-a36297098b03">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"a81f43b6-0588-42b1-9=
+885-fa71347c4e8f" class=3D"confluenceTd">
+<p local-id=3D"8e4b6f36-4375-4f7e-b28b-d0bf1fa23374">liquidationFeeFactor</=
+p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"d355af62-57d2-449f-9=
+ea0-4ea8e6e01897" class=3D"confluenceTd">
+<p local-id=3D"a19ae3e7-0b92-43b4-9eed-95cf673986ca">30</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"cb9f0b07-2278-42db-9=
+c2f-91635dc28bd4" class=3D"confluenceTd">
+<p local-id=3D"d9460336-6835-45f5-9758-faceaaa20178">1% =3D 1E28</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"edfdca0b-7a5f-450d-8=
+ee9-b525363b8094" class=3D"confluenceTd">
+<p local-id=3D"d8917cef-4343-4d73-8da5-28b88527f2fd">=E6=B8=85=E7=AE=97=E8=
+=B4=B9=E7=94=A8=E5=9B=A0=E5=AD=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"663039a4-576a-4196-acf7-8fdfb3a763b8">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"ccef8d08-8c08-44d1-a=
+899-6dddd3438f77" class=3D"confluenceTd">
+<p local-id=3D"191bbdca-884d-4cdb-894f-1ec4d9d05cd6">swapFeeFactorForPositi=
+veImpact</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"6d5102c8-db41-429b-9=
+81f-c9c480d9d853" class=3D"confluenceTd">
+<p local-id=3D"750936d4-ce7f-494d-89a2-b97922471d1c">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"ac47f5fc-c2fc-46e2-b=
+fed-a3e134557150" class=3D"confluenceTd">
+<p local-id=3D"72d38112-66b2-49df-9f8a-49c7142ea639">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"52c9b029-c7d7-4502-8=
+497-b7cbeb93c0e0" class=3D"confluenceTd">
+<p local-id=3D"492f2851-1553-46c8-a3f2-ca7a67969a26">=E5=85=91=E6=8D=A2=E5=
+=9C=A8=E6=AD=A3=E5=90=91=E5=BD=B1=E5=93=8D=E6=97=B6=E7=9A=84=E8=B4=B9=E7=94=
+=A8=E5=9B=A0=E5=AD=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"d105db9e-3146-4c81-9804-426e9b44649f">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"f457575d-b833-4712-8=
+8ce-c315b06d29c3" class=3D"confluenceTd">
+<p local-id=3D"06a27a33-1bdb-47df-b3e8-4be8f2e3503c">swapFeeFactorForNegati=
+veImpact</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"e20e47fd-5a7c-4272-9=
+2cb-a61e7a702b56" class=3D"confluenceTd">
+<p local-id=3D"e30a3912-1301-4391-a75c-ac4e8ab51034">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"f5421615-6d85-48c6-9=
+3b5-0dd3f712e5e1" class=3D"confluenceTd">
+<p local-id=3D"f2943dcb-f41e-4de0-877c-bc5f7a237e53">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"73a460ec-2419-4e98-9=
+2f3-e9252b248358" class=3D"confluenceTd">
+<p local-id=3D"d9c7690a-132a-467e-8442-ef446cd156aa">=E5=85=91=E6=8D=A2=E5=
+=9C=A8=E8=B4=9F=E5=90=91=E5=BD=B1=E5=93=8D=E6=97=B6=E7=9A=84=E8=B4=B9=E7=94=
+=A8=E5=9B=A0=E5=AD=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"24e98b1f-f0cf-4c02-81df-81d4c50d0109">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"99d10ef3-cbd9-4b99-8=
+06f-7140d2593fdb" class=3D"confluenceTd">
+<p local-id=3D"390d63eb-10a8-4748-8dba-cc0d24499d55">atomicSwapFeeFactor</p=
+></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"7127145a-b029-4670-9=
+e25-2ea47b790aea" class=3D"confluenceTd">
+<p local-id=3D"43c4caef-46c0-4dc8-aa2d-c32aadb0f7b8">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9cf082d2-e775-4927-8=
+12e-37986708bb1b" class=3D"confluenceTd">
+<p local-id=3D"18f8042c-264b-4c0f-8cba-7229aac896f5">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"76b13801-e2a9-426c-b=
+e27-00c8102fc680" class=3D"confluenceTd">
+<p local-id=3D"9adc19e4-124c-43be-9410-34142230bf1b">=E5=8E=9F=E5=AD=90=E5=
+=85=91=E6=8D=A2=EF=BC=88=E5=90=8C=E5=9D=97=E5=86=85=E5=8D=B3=E6=97=B6=EF=BC=
+=89=E8=B4=B9=E7=94=A8=E5=9B=A0=E5=AD=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"b2f9a1cf-c6db-4676-afb7-42c4fc9cd595">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"0f4ba309-d445-448d-a=
+eb3-ec180812b32d" class=3D"confluenceTd">
+<p local-id=3D"a831d617-2383-4316-b335-875693d7fddf">atomicWithdrawalFeeFac=
+tor</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"b7922518-3de3-4c19-b=
+dca-28286e629152" class=3D"confluenceTd">
+<p local-id=3D"ebbb5b3e-90b0-4813-8955-ee1f5fed9df5">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"21ba228d-9da9-42b6-9=
+102-d57c332a5888" class=3D"confluenceTd">
+<p local-id=3D"c572ce6b-9445-4201-a298-90dce110e1c6">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"18b0d3cb-a2ae-456f-a=
+0da-e57dee5915f4" class=3D"confluenceTd">
+<p local-id=3D"2e197528-c310-4c23-a25f-b44e707f8900">=E5=8E=9F=E5=AD=90=E6=
+=8F=90=E5=8F=96=E8=B4=B9=E7=94=A8=E5=9B=A0=E5=AD=90=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"ac8e2ff5-7a7a-4c50-beea-7f7b4b89f7d2">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"25a3ccd3-80bc-4e4d-8=
+51b-3f13f96938a1" class=3D"confluenceTd">
+<p local-id=3D"47eab05e-d2c2-4791-bd2f-90c98dc3ab59">minCollateralUsd</p></=
+td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"21fb2fe2-4c9a-49bf-9=
+c90-d6522d060f50" class=3D"confluenceTd">
+<p local-id=3D"2f72c5eb-e522-42b4-99d0-26d1d34799db">30</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"e4b40630-73f5-44e2-a=
+109-11cb95921439" class=3D"confluenceTd">
+<p local-id=3D"94824758-69dd-4424-b014-02cd3670b7e0">100 USD =3D 1E32</p></=
+td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"097f9742-fcbe-4dd3-9=
+e83-553bbaeffd4c" class=3D"confluenceTd">
+<p local-id=3D"69ba3703-cd0d-433c-9dbf-f4b93f0f63a9">=E5=BC=80=E4=BB=93=E6=
+=89=80=E9=9C=80=E7=9A=84=E6=9C=80=E5=B0=8F=E7=BE=8E=E5=85=83=E6=8A=B5=E6=8A=
+=BC=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"f5b1bb46-8488-4e7d-a287-f6e0e1e98964">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"da175041-65ac-44ad-b=
+32e-dced54edbd0c" class=3D"confluenceTd">
+<p local-id=3D"248305c9-e80f-491d-880c-3c207406281f">aboveOptimalUsageBorro=
+wingFactor</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"25b0ac78-4712-45c3-a=
+d94-22a83e527c98" class=3D"confluenceTd">
+<p local-id=3D"47d46a2a-ea61-480f-82a8-544b77e114d6">30</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"ee1de613-3a74-40aa-b=
+860-6275dc348291" class=3D"confluenceTd">
+<p local-id=3D"3a37a99b-9476-4aa8-8200-c3fe84c715e5">1.1 =3D 11E29</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"c930663d-dda5-4f6a-8=
+b00-a06237f92867" class=3D"confluenceTd">
+<p local-id=3D"e1e37ffd-119c-4e79-b5a0-a8638add8973">=E8=B6=85=E8=BF=87=E6=
+=9C=80=E4=BC=98=E5=88=A9=E7=94=A8=E7=8E=87=E5=90=8E=E7=9A=84=E5=80=9F=E6=AC=
+=BE=E8=B4=B9=E7=8E=87=E5=A2=9E=E9=87=8F=E3=80=82</p>
+<p local-id=3D"17ef4526-7ef9-45da-a469-2c35396064e1">kink =E6=A8=A1=E5=9E=
+=8B=E5=A4=A7=E6=96=9C=E7=8E=87</p></td>
+</tr>
+<tr data-local-id=3D"d5c6fc7c-2277-42d7-8d6e-27e6123aeee9">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"4b055b04-c786-4d7b-8=
+9b1-fa7bc37d2d7c" class=3D"confluenceTd">
+<p local-id=3D"0f141890-e2f0-4002-b461-44e3b417aefc">aboveOptimalUsageBorro=
+wingFactorForLongs</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"934c9ae4-a604-4153-8=
+396-356feadf3f67" class=3D"confluenceTd">
+<p local-id=3D"481a679a-f8ea-4c17-801b-cfbe4858fdc9">-</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"b695e3af-ff2a-438d-a=
+d71-bbc4a8a1a1da" class=3D"confluenceTd">
+<p local-id=3D"b563622f-9f4d-49ab-8dd9-5e61f175ab3a">-</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"236b85d7-d071-460a-a=
+e70-568a887822ba" class=3D"confluenceTd">
+<p local-id=3D"f29aebc5-d966-4572-a390-a882c10ee746">=E5=A4=9A=E5=A4=B4=E4=
+=BE=A7=E8=B6=85=E9=A2=9D=E5=88=A9=E7=94=A8=E7=8E=87=E7=9A=84=E5=80=9F=E6=AC=
+=BE=E5=A2=9E=E9=87=8F=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"3ea1fd34-32f0-475f-90e9-163b01c33d58">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"3d7c7e65-fa3e-4881-9=
+e3d-b726f23cd964" class=3D"confluenceTd">
+<p local-id=3D"fd64db19-9255-430e-97a3-ebfd9ebdd600">aboveOptimalUsageBorro=
+wingFactorForShorts</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"85e26150-ffa6-4a6e-a=
+8fa-8b42e04e6d02" class=3D"confluenceTd">
+<p local-id=3D"31477a47-9720-40e9-94c6-a3c280f942ad">-</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"a68debc1-90f3-49f2-8=
+fad-33bfd4e98f64" class=3D"confluenceTd">
+<p local-id=3D"489c6b2a-c701-44bd-8a13-afcf4cb1ef8b">-</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"00b94917-5ae3-4058-a=
+0b7-89e713749c9b" class=3D"confluenceTd">
+<p local-id=3D"b065a635-b57e-43fc-88c3-b95f9fc58848">=E7=A9=BA=E5=A4=B4=E4=
+=BE=A7=E8=B6=85=E9=A2=9D=E5=88=A9=E7=94=A8=E7=8E=87=E7=9A=84=E5=80=9F=E6=AC=
+=BE=E5=A2=9E=E9=87=8F=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"2ad1f99d-1835-469e-9e0a-f820aa49553e">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"66c058e7-79d8-4492-a=
+9f1-63f6e157c85d" class=3D"confluenceTd">
+<p local-id=3D"3e4a3fb7-8d3d-41ed-81b1-f98a7b40b5c5">baseBorrowingFactor</p=
+></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"a69c9e55-6f46-49fc-8=
+9a2-1c13d1bfcd3c" class=3D"confluenceTd">
+<p local-id=3D"b2d852f7-816b-46a0-9dc3-f1421577c96a">30</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"16369156-a3a8-4213-8=
+d78-c707da0079ad" class=3D"confluenceTd">
+<p local-id=3D"adcd26e4-ede2-4f64-a414-bb8dcfe732af">1.1 =3D 11E29</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"1af1e490-2da0-4d56-8=
+991-4242b9261eec" class=3D"confluenceTd">
+<p local-id=3D"98626d01-d7b2-4102-b8a3-cd095519fc9a">=E5=9F=BA=E7=A1=80=E5=
+=80=9F=E6=AC=BE=E8=B4=B9=E7=8E=87=E3=80=82</p>
+<p local-id=3D"3760e853-e085-4d2d-b600-9bc0a30b54fc">kink =E6=A8=A1=E5=9E=
+=8B=E5=B0=8F=E6=96=9C=E7=8E=87</p></td>
+</tr>
+<tr data-local-id=3D"88059695-fc72-4012-b125-5823bee5f9a9">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"4e580cd2-e4e3-4bda-9=
+644-d55157553839" class=3D"confluenceTd">
+<p local-id=3D"ee2a33d6-d8b9-47d3-b3e0-5a631dba72eb">baseBorrowingFactorFor=
+Longs</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"97110ceb-2024-4bbe-b=
+414-1e94598bcdbc" class=3D"confluenceTd">
+<p local-id=3D"18f2f73d-032b-4181-8aa1-e24b6fa5a452">-</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"bd815769-6cc8-4611-a=
+dc4-3bd1dc0532f8" class=3D"confluenceTd">
+<p local-id=3D"16eae9d2-9551-4511-bc53-abcadeb55886">-</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"f0ac48b6-2d6f-4ae8-8=
+e3f-7db824396870" class=3D"confluenceTd">
+<p local-id=3D"de312a41-7e42-4fc5-be7c-a18338ea66c3">=E5=A4=9A=E5=A4=B4=E5=
+=9F=BA=E7=A1=80=E5=80=9F=E6=AC=BE=E8=B4=B9=E7=8E=87=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"fd4876f7-0d78-4145-b3c2-334b57f5a2f4">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"6b766789-ec0b-44d0-9=
+e7a-cedf073c0fd1" class=3D"confluenceTd">
+<p local-id=3D"e883a5ae-c5ab-486b-b426-ba65e70fb82d">baseBorrowingFactorFor=
+Shorts</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"c701607e-af28-4bd1-9=
+ce9-2dc1730c0bf9" class=3D"confluenceTd">
+<p local-id=3D"df1b7aa9-8ee0-40cb-b189-d8236b642aa4">-</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"b8357f0d-443f-43b5-b=
+c3c-82add0531afe" class=3D"confluenceTd">
+<p local-id=3D"238dd339-b15e-4b80-be0a-c71b63f12e8b">-</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"b705a735-7adc-4c03-9=
+a88-a3fbf7bb991d" class=3D"confluenceTd">
+<p local-id=3D"4b1739ba-7a9c-4467-9dbd-2bf7c8b049b2">=E7=A9=BA=E5=A4=B4=E5=
+=9F=BA=E7=A1=80=E5=80=9F=E6=AC=BE=E8=B4=B9=E7=8E=87=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"97a75b02-4168-423f-8040-e44a25fe48c7">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"30450c00-ac9e-471f-b=
+e24-cbbad455554e" class=3D"confluenceTd">
+<p local-id=3D"180b823a-79ac-48bf-8d79-46bda02372ac">optimalUsageFactor</p>=
+</td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"a3383d7f-b612-4063-b=
+a24-c25e437d6355" class=3D"confluenceTd">
+<p local-id=3D"20f001a4-ca62-43e5-8e5a-5f9dbed5e6ab">30</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"b944f4b2-c84a-430f-9=
+fbb-5c00fdaf01eb" class=3D"confluenceTd">
+<p local-id=3D"071c042d-ff56-4241-98fa-48bdad2d273a">30%=3D3E29</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"f7f8f451-e4e7-4bfb-8=
+71b-56f8169fb38e" class=3D"confluenceTd">
+<p local-id=3D"b81f39b9-db7f-4f23-bd50-d08d8cb0db92">=E8=B5=84=E9=87=91=E6=
+=B1=A0=E7=9A=84=E6=9C=80=E4=BC=98=E5=88=A9=E7=94=A8=E7=8E=87=EF=BC=88=E6=8B=
+=90=E7=82=B9=EF=BC=89=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"a690947b-567a-4c5b-9732-c06c7bbc2ae2">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"db320f1c-726a-40de-8=
+e6a-392ded54d0fb" class=3D"confluenceTd">
+<p local-id=3D"e6d01899-04bc-49fb-b073-187e55da0000">optimalUsageFactorForL=
+ongs</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"ce76ff1f-95a5-4eb4-a=
+980-540d46d227ef" class=3D"confluenceTd">
+<p local-id=3D"bb9e1268-6d68-4638-a743-0788704f5318">-</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"512b45ac-697f-4e54-9=
+2f6-042ed6284310" class=3D"confluenceTd">
+<p local-id=3D"1e7e339a-9030-4b8f-9965-977568304403">-</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"ef25cd36-8648-4bd3-8=
+64b-c450083f642a" class=3D"confluenceTd">
+<p local-id=3D"2b826548-602c-4fba-bbc8-2dbdf72b1f18">=E5=A4=9A=E5=A4=B4=E4=
+=BE=A7=E6=9C=80=E4=BC=98=E5=88=A9=E7=94=A8=E7=8E=87=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"116b554c-9d08-4ef9-bece-11278c41f58c">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"87d7f2de-335b-45a9-a=
+214-ac8a16746f2f" class=3D"confluenceTd">
+<p local-id=3D"2f710c49-6301-4a3e-8810-6b7996a96563">optimalUsageFactorForS=
+horts</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"ea2df1b3-5f52-4617-b=
+514-d76124cb53b9" class=3D"confluenceTd">
+<p local-id=3D"6be552cb-7c63-48f2-aa0f-9d043216920a">-</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"a8933e2e-5087-48f7-8=
+604-37b5e88ab92d" class=3D"confluenceTd">
+<p local-id=3D"f06033f5-f068-4749-bd7f-965d743e2466">-</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"9f3e2bb4-fca1-4460-8=
+f5f-f358705df997" class=3D"confluenceTd">
+<p local-id=3D"3d4a974f-7cf5-4e0e-a025-0c4c5fc3069b">=E7=A9=BA=E5=A4=B4=E4=
+=BE=A7=E6=9C=80=E4=BC=98=E5=88=A9=E7=94=A8=E7=8E=87=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"ede9c8f9-cc28-47fb-b6db-9016063cf9ad">
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"cf3aee38-a43f-4691-b=
+550-5db0be07548a" class=3D"confluenceTd">
+<p local-id=3D"9fc76580-9812-4753-afc8-c9b0ec1845a7">borrowingFactor</p></t=
+d>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"cf878b02-90f7-44e4-8=
+49a-4f36bafec0e8" class=3D"confluenceTd">
+<p local-id=3D"5c761d3b-16a7-4c70-af26-7d95009bb3dd">30</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"1b55b03d-af25-4109-a=
+399-0e1feec84f1f" class=3D"confluenceTd">
+<p local-id=3D"bb736def-cd44-43a6-aa2f-2d3b5330fc53">1.1 =3D 1.1E30</p></td=
+>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"9f004597-bec3-4d63-9=
+eaf-93f2a3d37d4b" class=3D"confluenceTd">
+<p local-id=3D"e05b8085-77fe-462b-ae7b-f4a285f41ae6">=E5=80=9F=E6=AC=BE=E8=
+=B4=B9=E7=8E=87=EF=BC=88=E9=9A=8F=E5=88=A9=E7=94=A8=E7=8E=87=E5=8F=98=E5=8A=
+=A8=E7=9A=84=E7=B3=BB=E6=95=B0=EF=BC=89=E3=80=82</p>
+<p local-id=3D"bf32a69f-c0e5-4d0d-984f-8ae7487f4e72">curve =E6=A8=A1=E5=9E=
+=8B=E4=B9=98=E6=95=B0=E3=80=82</p>
+<p local-id=3D"1bcd9b02-6c82-4ec1-a1b3-bb43437fe68d">r^e / P * b =E7=9A=84 =
+b</p></td>
+</tr>
+<tr data-local-id=3D"e54c35fc-9b7c-46e5-8c37-a879cb7f0e62">
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"e416cf83-5d92-4765-b=
+c59-3cb0d16edaf4" class=3D"confluenceTd">
+<p local-id=3D"329a97d1-7f5d-4d05-aa42-c4de59e9b5aa">borrowingFactorForLong=
+s</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"fc2a6aa0-a098-40aa-8=
+a06-8b56c735363a" class=3D"confluenceTd">
+<p local-id=3D"f9c6a06d-f70e-4b21-be60-4979a95eefd1">-</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"15970cbe-e566-4186-9=
+268-45dbff9c0e92" class=3D"confluenceTd">
+<p local-id=3D"6a53e2fe-4537-4f7b-8cb1-b9b57286a2d9">-</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"e8b45208-0bff-4cf8-a=
+fdd-24255ec623da" class=3D"confluenceTd">
+<p local-id=3D"57250f50-4ee6-450d-9f56-e54d72c3b7a6">=E5=A4=9A=E5=A4=B4=E5=
+=80=9F=E6=AC=BE=E8=B4=B9=E7=8E=87=E7=B3=BB=E6=95=B0=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"a96dfc81-da2f-416c-b586-97c103386684">
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"10713139-5bfd-4022-b=
+f9d-f02fc4d0cb91" class=3D"confluenceTd">
+<p local-id=3D"5c1a620a-ffee-4d6a-aaf1-aaa2edfd6673">borrowingFactorForShor=
+ts</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"9ad128b4-81d6-46e3-9=
+1c0-e02e42c9a665" class=3D"confluenceTd">
+<p local-id=3D"2b4d3798-66b5-4282-ae6f-043ae08bf750">-</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"8c1828fb-bb72-443e-9=
+04e-ded3b011d939" class=3D"confluenceTd">
+<p local-id=3D"fa563488-91a4-4845-9912-4e3a62ffcff1">-</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"42b9364c-780c-49f7-a=
+2f0-63b2344b05cb" class=3D"confluenceTd">
+<p local-id=3D"c4e59927-9701-4521-bde8-1467f3ebfdea">=E7=A9=BA=E5=A4=B4=E5=
+=80=9F=E6=AC=BE=E8=B4=B9=E7=8E=87=E7=B3=BB=E6=95=B0=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"0c45d097-f55b-44f8-af9a-167ae0606c32">
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"7364a9c2-8f74-4a59-9=
+603-464f8cbdd4d6" class=3D"confluenceTd">
+<p local-id=3D"2eefa441-e2d4-4244-b55a-281518d471ed">borrowingExponentFacto=
+r</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"307229b7-1efe-4403-b=
+541-64976d56f2b1" class=3D"confluenceTd">
+<p local-id=3D"f4923ad8-0dc9-4c76-9096-ded61bd88cec">30</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"292b0855-1282-4690-9=
+c53-9ae8f230a623" class=3D"confluenceTd">
+<p local-id=3D"2cdde251-0300-4314-a0bc-552200cc2f51">2 =3D 2E30</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"71283cca-a9e2-47d9-9=
+ac9-746e2acd7b9f" class=3D"confluenceTd">
+<p local-id=3D"c75f0b32-c978-4560-9dff-b597cfe988e3">=E5=80=9F=E6=AC=BE=E8=
+=B4=B9=E7=8E=87=E6=9B=B2=E7=BA=BF=E7=9A=84=E6=8C=87=E6=95=B0=E5=8F=82=E6=95=
+=B0=E3=80=82</p>
+<p local-id=3D"a05eb768-74fa-48d7-8f44-568b9566d76a">r^e / P * b =E7=9A=84 =
+e</p></td>
+</tr>
+<tr data-local-id=3D"43e28ebc-0085-435d-98fa-e272e012c205">
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"5c67fb09-7473-4107-8=
+742-d7ce4bb1a16c" class=3D"confluenceTd">
+<p local-id=3D"00a922b7-0db9-43b4-865f-cce27369debd">borrowingExponentFacto=
+rForLongs</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"18789050-6a3a-4684-9=
+c79-d65b1e717d08" class=3D"confluenceTd">
+<p local-id=3D"2d263356-69ba-4c1b-9489-f250dcaa7bbe">-</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"24d77c38-015b-429c-b=
+892-bd6788a28e4d" class=3D"confluenceTd">
+<p local-id=3D"d937a80f-bdba-4a4e-9269-ab49a5f4595e">-</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"9db4223a-9881-43ca-a=
+dc3-a1f32ec7a857" class=3D"confluenceTd">
+<p local-id=3D"dcdad11e-7d6b-4021-abc0-92436fb2877b">=E5=A4=9A=E5=A4=B4=E5=
+=80=9F=E6=AC=BE=E6=9B=B2=E7=BA=BF=E6=8C=87=E6=95=B0=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"eb403407-4cfd-4291-96fc-2889bce026f9">
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"84ae3c6c-4622-41aa-9=
+900-c41c06cab51c" class=3D"confluenceTd">
+<p local-id=3D"42cb1c80-b699-492f-a11d-41197b065683">borrowingExponentFacto=
+rForShorts</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"df995beb-85f5-4cc6-b=
+2d1-97b5a71cb2b6" class=3D"confluenceTd">
+<p local-id=3D"eab94c47-9cca-4913-a980-09aa52cf2b73">-</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"113e5e39-ad55-4370-9=
+3ad-1746e029e099" class=3D"confluenceTd">
+<p local-id=3D"f0a526cd-a8f2-43a1-99b1-0fd103496453">-</p></td>
+<td data-highlight-colour=3D"#c0b6f2" data-local-id=3D"0e006ff2-dcd2-426e-a=
+1ef-6099a7f468ff" class=3D"confluenceTd">
+<p local-id=3D"674d983a-3e26-4c8a-ad69-54dcc155ad05">=E7=A9=BA=E5=A4=B4=E5=
+=80=9F=E6=AC=BE=E6=9B=B2=E7=BA=BF=E6=8C=87=E6=95=B0=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"46aa809f-6e55-4fcf-94df-c10f9bddc788">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"cecd4404-3390-4545-8=
+0af-4d51462a91a8" class=3D"confluenceTd">
+<p local-id=3D"f2743d3c-acae-4526-87e3-6126544951cc">fundingFactor</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"dc847313-8ffe-4462-9=
+95a-c9dcc86fc8c7" class=3D"confluenceTd">
+<p local-id=3D"9fd7ae92-58ff-4df8-922c-045650505066">30</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"b65b716a-f402-489c-9=
+516-327d167b6089" class=3D"confluenceTd">
+<p local-id=3D"c885be14-b8f0-4c42-a9a9-9565395c487b">1.1 =3D 11E29</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"d856d01f-d666-4c11-a=
+7f7-3f16f3b2ca10" class=3D"confluenceTd">
+<p local-id=3D"32460400-c4fb-4119-8c80-e9fbf2e57bc2">=E8=B5=84=E9=87=91=E8=
+=B4=B9=E7=8E=87=E5=9F=BA=E6=95=B0=EF=BC=88=E4=B8=8E=E4=BB=93=E4=BD=8D=E5=81=
+=8F=E6=96=9C=E7=9B=B8=E5=85=B3=EF=BC=89=E3=80=82</p>
+<p local-id=3D"c906ab4a-90e1-4ca7-9b88-5ea47692f0f0">=E9=9D=99=E6=80=81=E7=
+=AE=97=E6=B3=95=E7=9A=84=E4=B9=98=E6=95=B0=EF=BC=9A</p>
+<p local-id=3D"e914a521-afa3-48fd-b0a5-415e03328556"><code>=E8=AE=A1=E7=AE=
+=97=E5=A4=B1=E8=A1=A1=E7=A8=8B=E5=BA=A6 f =3D |L - S| ^ e / (L + S)</code><=
+/p>
+<p local-id=3D"4d55f85e-e125-435d-ae23-20d07e7a8485"><code>F =3D min(f * F_=
+market, F_max)</code></p>
+<p local-id=3D"3cc09a38-9181-4053-8bfb-c88aa30df917">=E8=BF=99=E9=87=8C=E7=
+=9A=84 F_market</p></td>
+</tr>
+<tr data-local-id=3D"ac7d2b45-9607-420d-8db5-1d57413ae65d">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"647af0de-6f36-4f96-a=
+680-8d3166406d50" class=3D"confluenceTd">
+<p local-id=3D"2638c2ed-d039-4534-9d75-038d86e53e92">fundingExponentFactor<=
+/p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"f52ae913-09aa-4a4a-9=
+e7e-8340f247684a" class=3D"confluenceTd">
+<p local-id=3D"4a1a500f-88d9-4f2f-b508-37138aac061a">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9f4e8724-7566-4b77-b=
+42d-ee2c9d1dcf95" class=3D"confluenceTd">
+<p local-id=3D"e19dc841-e350-4bd3-90de-91f7f357e531">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"ff6b8125-c97b-41fe-b=
+73b-e7a163d907ce" class=3D"confluenceTd">
+<p local-id=3D"a34b3163-c384-442d-a283-fb9829674ede">=E8=B5=84=E9=87=91=E8=
+=B4=B9=E7=8E=87=E6=9B=B2=E7=BA=BF=E7=9A=84=E6=8C=87=E6=95=B0=E5=8F=82=E6=95=
+=B0=E3=80=82</p>
+<p local-id=3D"ddf6ac92-c553-46eb-be5d-05d7a8e6c8dc">=E4=B8=8A=E9=9D=A2=E7=
+=9A=84 e</p></td>
+</tr>
+<tr data-local-id=3D"1ac6a327-c475-48ed-ba32-a488cb55f79d">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"b2c17044-56a8-4cb1-9=
+f4c-dc014dc32adb" class=3D"confluenceTd">
+<p local-id=3D"c90dfefc-58cd-4f86-a4aa-9eb365d90439">fundingIncreaseFactorP=
+erSecond</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"1dcba046-c7eb-48da-b=
+555-13bd7c595bff" class=3D"confluenceTd">
+<p local-id=3D"048e87f7-89b5-4aa1-838f-04fa6e970d3c">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"1f60da27-8c83-4c1a-b=
+399-36a13903f2b4" class=3D"confluenceTd">
+<p local-id=3D"5c568e4e-2915-4940-a2da-9221afdc3939">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"45905551-7145-4a18-b=
+5b9-cd7c7f05b052" class=3D"confluenceTd">
+<p local-id=3D"5c8467e7-97dd-4be7-aac5-cbad51d765db">=E8=B5=84=E9=87=91=E8=
+=B4=B9=E7=8E=87=E6=AF=8F=E7=A7=92=E4=B8=8A=E8=B0=83=E9=80=9F=E5=BA=A6=EF=BC=
+=88=E5=81=8F=E6=96=9C=E6=89=A9=E5=A4=A7=E6=97=B6=EF=BC=89=E3=80=82</p>
+<p local-id=3D"8ca6859a-761e-489a-a8d3-743e416f94fd">=E5=8A=A8=E6=80=81=E7=
+=AE=97=E6=B3=95=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"2720c2fb-b32b-4efb-bb99-2ad310d0c520">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"8c5afedd-f068-4497-a=
+e54-3c9578f5633f" class=3D"confluenceTd">
+<p local-id=3D"ee6eda13-58f0-40bb-a49e-a1e5a6de9e4c">fundingDecreaseFactorP=
+erSecond</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"630cd377-5158-446d-b=
+cf0-eef0953226a1" class=3D"confluenceTd">
+<p local-id=3D"8bf96b6f-995a-4b93-97fd-5af414c64640">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"24dcef90-5235-47d1-a=
+33a-20d846a17a0b" class=3D"confluenceTd">
+<p local-id=3D"8947a227-aaec-4eaa-8940-9a2564e46cd4">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"4ca01ce7-6105-45bc-b=
+ca5-cb6fdfeddcb1" class=3D"confluenceTd">
+<p local-id=3D"7974140b-829f-405f-b737-dab19815f65a">=E8=B5=84=E9=87=91=E8=
+=B4=B9=E7=8E=87=E6=AF=8F=E7=A7=92=E4=B8=8B=E8=B0=83=E9=80=9F=E5=BA=A6=EF=BC=
+=88=E5=9B=9E=E5=BD=92=E5=B9=B3=E8=A1=A1=E6=97=B6=EF=BC=89=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"accb820d-3a05-49d0-b076-e27361a9cce5">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"73ff7968-3e8a-4b47-b=
+966-10dcd13df687" class=3D"confluenceTd">
+<p local-id=3D"2c9153ad-1ba5-4ee8-bab7-553f230d4d50">thresholdForStableFund=
+ing</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"4b384c6d-ddf7-446f-9=
+9b9-553b13138fdf" class=3D"confluenceTd">
+<p local-id=3D"75953d66-415c-40ec-9ef2-6e148ac23cd2">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"72067941-f890-4677-8=
+e25-084d7598fc14" class=3D"confluenceTd">
+<p local-id=3D"80aaf8b6-959c-4895-b750-285220bd0323">50% =3D 5E29</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"5533b37e-9bdc-449c-b=
+385-cb306d961179" class=3D"confluenceTd">
+<p local-id=3D"526faa01-e471-4469-9c3c-61c4e98890f3">=E8=A7=86=E4=B8=BA=E7=
+=A8=B3=E5=AE=9A=EF=BC=88=E4=BD=8E=E5=81=8F=E6=96=9C=EF=BC=89=E6=97=B6=E7=9A=
+=84=E9=98=88=E5=80=BC=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"5bcb878e-4cc9-46e5-875c-5332c3b8d93d">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"6edd7fda-0adf-413a-8=
+4f5-90bbf457ce83" class=3D"confluenceTd">
+<p local-id=3D"c0d72894-d39f-47ca-ac75-ae9affd20def">thresholdForDecreaseFu=
+nding</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"75d63e56-c026-4feb-8=
+f77-55b73fe3c0d5" class=3D"confluenceTd">
+<p local-id=3D"4e43d1b2-8d45-4403-9e73-0f7b20948727">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"25e6cc25-cf34-44ef-a=
+50c-ed04e3bcb725" class=3D"confluenceTd">
+<p local-id=3D"41eb0107-734f-47e5-9ad5-1d4a118be803">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"e1375dc3-2e33-40e0-b=
+007-050033b0118e" class=3D"confluenceTd">
+<p local-id=3D"e9d69017-508c-40f9-a3c4-d9cac1034505">=E5=85=81=E8=AE=B8=E8=
+=B5=84=E9=87=91=E8=B4=B9=E7=8E=87=E4=B8=8B=E9=99=8D=E7=9A=84=E5=81=8F=E6=96=
+=9C=E9=98=88=E5=80=BC=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"ecbeefce-b154-40eb-8930-69360efca4e6">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9d14c990-7697-4393-a=
+807-1ea9c6246080" class=3D"confluenceTd">
+<p local-id=3D"73676b5a-04ec-4dcc-a6d4-0527b3fa403b">minFundingFactorPerSec=
+ond</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"03c1d88b-6f6f-4d9c-b=
+4d6-eadbd315a1d0" class=3D"confluenceTd">
+<p local-id=3D"01bfab64-b409-41e7-8dd8-7360743a14a4">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"fea17496-7535-4f84-a=
+977-e8b2c86811e5" class=3D"confluenceTd">
+<p local-id=3D"26cfb1be-9e20-41e6-87dd-723853fb487c">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"bfc99726-b818-4923-9=
+875-e9cb9f58cda2" class=3D"confluenceTd">
+<p local-id=3D"482a0356-4510-43e4-aadb-8bf17fbbe032">=E6=AF=8F=E7=A7=92=E8=
+=B5=84=E9=87=91=E8=B4=B9=E7=8E=87=E7=9A=84=E4=B8=8B=E7=95=8C=E3=80=82</p>
+<p local-id=3D"052f5df2-92be-428f-b62a-b5df479f74ff">cap</p></td>
+</tr>
+<tr data-local-id=3D"101c994d-d26f-4879-a333-66831f3c5a2f">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"58041fc3-7318-4c22-a=
+d3b-f43bce0b4541" class=3D"confluenceTd">
+<p local-id=3D"573ba787-e979-4d98-8a12-7b8e8679e22a">maxFundingFactorPerSec=
+ond</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"f5168427-2b0a-4109-9=
+494-91b54dab2377" class=3D"confluenceTd">
+<p local-id=3D"d2baeda6-41dd-4e13-9642-7b20edc7d0e2">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"83833517-b5ca-45e9-a=
+882-ea8085ddb27f" class=3D"confluenceTd">
+<p local-id=3D"5d4de698-b75e-42d9-a0d9-25ca318f7885">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"f69e2a53-2a3d-4022-9=
+1e6-3261be4ccc1e" class=3D"confluenceTd">
+<p local-id=3D"0bf63535-e9cf-4e5e-aff9-220598150a26">=E6=AF=8F=E7=A7=92=E8=
+=B5=84=E9=87=91=E8=B4=B9=E7=8E=87=E7=9A=84=E4=B8=8A=E7=95=8C=E3=80=82</p></=
+td>
+</tr>
+<tr data-local-id=3D"9c08dc79-59a0-4c2a-8671-fce9a6aeb7e2">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"63affe10-00f0-4bda-8=
+4ff-b7fa595f10a0" class=3D"confluenceTd">
+<p local-id=3D"2d24f31e-26a2-4df1-b515-d19581cdf180">positionImpactPoolDist=
+ributionRate</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"3ec8f481-57e0-4a1c-a=
+4be-b62b6bbaac57" class=3D"confluenceTd">
+<p local-id=3D"a1c5a83e-9e1e-4622-b8c4-16e7fe77bbbd">token =E7=B2=BE=E5=BA=
+=A6</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"ff5c068e-401a-4213-8=
+de9-57b5674666cf" class=3D"confluenceTd">
+<p local-id=3D"3c5f882f-d5ab-46ee-8551-70407dd3ff15">=E6=AF=8F=E7=A7=92 dis=
+tribute =E7=9A=84 token amount</p>
+<p local-id=3D"f8e63979-ce7e-4895-a49b-d5ee950781af">1 ETH =3D 1E18</p></td=
+>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"e0a4598f-fd73-4400-a=
+d35-90e2521f0728" class=3D"confluenceTd">
+<p local-id=3D"b0b6d73c-49f5-44d6-8f92-718cc09e10e9">=E4=BB=93=E4=BD=8D=E5=
+=BD=B1=E5=93=8D=E6=B1=A0=E7=9A=84=E5=88=86=E9=85=8D=E9=80=9F=E7=8E=87=EF=BC=
+=88=E6=8C=89=E6=A0=87=E7=9A=84=E4=BB=A3=E5=B8=81=E8=AE=A1=EF=BC=89=E3=80=82=
+</p></td>
+</tr>
+<tr data-local-id=3D"71c743b0-4f6f-4acd-bdde-65689068b102">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"e2a0b09a-fb04-461d-8=
+f9b-9c79fee9fa2b" class=3D"confluenceTd">
+<p local-id=3D"75da8a47-6cd3-443d-832f-e51b612323f3">minPositionImpactPoolA=
+mount</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"dfab5e0b-77b8-4ad4-8=
+95a-de51f486bf6f" class=3D"confluenceTd">
+<p local-id=3D"0ac2a795-fb13-4312-bbe8-aeb35f88654c">token =E7=B2=BE=E5=BA=
+=A6</p></td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"c7af1066-d850-44dc-b=
+8fb-73923a9a4be2" class=3D"confluenceTd">
+<p local-id=3D"4a46f210-a56d-4f14-baec-e2a72097de1d">1 USDC =3D 1E18</p></t=
+d>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"92f6e812-a271-4a28-b=
+5a7-0bb01ba1829b" class=3D"confluenceTd">
+<p local-id=3D"bde49873-9058-4d69-ba14-d6a9848c8005">=E4=BB=93=E4=BD=8D=E5=
+=BD=B1=E5=93=8D=E6=B1=A0=E7=9A=84=E6=9C=80=E5=B0=8F=E4=BD=99=E9=A2=9D=E3=80=
+=82=E5=A4=9A=E7=9A=84=E9=83=A8=E5=88=86=E4=B8=8D distribute =E4=BA=86=EF=BC=
+=8C=E4=B9=9F=E5=B0=B1=E6=98=AF=E8=AF=B4=E6=94=B6=E4=BA=86 impact fee=EF=BC=
+=8C=E8=BF=99=E9=83=A8=E5=88=86=E9=80=BB=E8=BE=91=E4=B8=8A=E4=B8=8D=E4=BC=9A=
+=E5=85=A5=E6=B1=A0=E5=AD=90=EF=BC=8C=E4=B9=9F=E5=B0=B1=E6=97=A0=E6=B3=95=E5=
+=A2=9E=E5=8A=A0 pool value=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"62f6da74-122c-45e1-be7e-40a3fe8f343c">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"3ec59334-0003-4328-a=
+355-afa5ed8bd41e" class=3D"confluenceTd">
+<p local-id=3D"fd8f0939-60bf-4d23-a6ba-8a536b58ecb9">maxLendableImpactFacto=
+r</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"e65f3d8a-008a-4b4c-9=
+646-5cc8e8562060" class=3D"confluenceTd">
+<p local-id=3D"77352f89-26da-4d04-9e55-1e6ebc56954f">30</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"1d621be0-217b-454a-a=
+426-6cbcd31230f9" class=3D"confluenceTd">
+<p local-id=3D"503a0042-fc78-4907-b400-0c131031ad47">10% =3D 1E29</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"5add1bdc-f253-4ebf-b=
+f5c-094b9e0429f0" class=3D"confluenceTd">
+<p local-id=3D"fb6dfc03-93c9-491b-bfd3-ce28e4aa5d99">=E5=8F=AF=E5=87=BA=E5=
+=80=9F=E9=A2=9D=E5=BA=A6=E7=9A=84=E5=BD=B1=E5=93=8D=E5=9B=A0=E5=AD=90=E4=B8=
+=8A=E9=99=90=E3=80=82</p>
+<p local-id=3D"fb64da18-04bb-4d48-b733-2a7d7b73daa6">impact =E9=80=BB=E8=BE=
+=91=E7=BB=B4=E6=8A=A4=E8=B4=9F=E5=80=BA=E8=A1=A8=E9=81=BF=E5=85=8D=E5=A5=96=
+=E5=8A=B1=E8=BF=87=E5=BA=A6=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"422dd7c2-3210-4917-8d41-9bc5a805ee29">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"230b8d89-dc6d-4fed-a=
+846-8737f8ae414c" class=3D"confluenceTd">
+<p local-id=3D"ed509ad1-e48a-46f9-8149-13d7a16ed841">maxLendableImpactFacto=
+rForWithdrawals</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"e069b707-97d6-4e93-a=
+c2a-d115a4d0c9cf" class=3D"confluenceTd">
+<p local-id=3D"a214e85c-fae8-4943-9dfd-b45d8a154b2b">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"7e2db58d-a912-40c9-a=
+2a1-29c47574ff7e" class=3D"confluenceTd">
+<p local-id=3D"2f86d359-6e80-4d2e-a7a2-b96a7d0fbfc5">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"dfdd3a91-57e3-4a04-9=
+aa0-f0dee4489275" class=3D"confluenceTd">
+<p local-id=3D"2487d33f-6504-46e4-9439-2bf7a93d875d">=E5=87=BA=E9=87=91=E6=
+=97=B6=E5=8F=AF=E5=87=BA=E5=80=9F=E5=BD=B1=E5=93=8D=E5=9B=A0=E5=AD=90=E4=B8=
+=8A=E9=99=90=E3=80=82</p>
+<p local-id=3D"92299c34-99ae-45c5-9f3a-6689c69a340b">=E4=BB=85=E5=BD=B1=E5=
+=93=8D withdraw</p></td>
+</tr>
+<tr data-local-id=3D"dc74623b-2970-4fbb-ae34-86bea558ee87">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"0b0bdb1b-9adf-4230-a=
+5b4-53c4014d381d" class=3D"confluenceTd">
+<p local-id=3D"1335d861-e7f3-4be8-a612-fd41ac8fa484">maxLendableImpactUsd</=
+p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"4b566355-561a-42e9-b=
+4f6-cac74fc9ee89" class=3D"confluenceTd">
+<p local-id=3D"888e72fd-c811-4aa4-8288-70ea63b6066f">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"e7f3c0a6-05f6-4ad5-a=
+a7b-c186c1fb4d61" class=3D"confluenceTd">
+<p local-id=3D"da7b3cca-df82-48a7-a53a-d3e9f23fdf8b">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"c04a82a5-f9ac-4e5c-9=
+e3b-c671a4986833" class=3D"confluenceTd">
+<p local-id=3D"0311088a-6a99-416f-8fba-ae23580e05e2">=E5=8F=AF=E5=87=BA=E5=
+=80=9F=E5=BD=B1=E5=93=8D=E7=9A=84=E7=BE=8E=E5=85=83=E4=B8=8A=E9=99=90=E3=80=
+=82</p>
+<p local-id=3D"9dcf4656-19a4-4d3d-8a8d-8dc07068d795">cap =E7=AC=AC=E4=B8=80=
+=E8=A1=8C=E3=80=82</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 local-id=3D"4fd1360e-3024-46aa-9ba7-05e1217490d5" id=3D"GMX=E9=85=8D=E7=
+=BD=AE=E9=A1=B9=E6=A2=B3=E7=90=86-2.General=E9=85=8D=E7=BD=AE">2. General =
+=E9=85=8D=E7=BD=AE</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a6=
+b7abc6-aba3-47aa-a030-47d5108a239f" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"075441ee-a8a4-41a6-865f-c3b9b50f4916">
+<td data-local-id=3D"57394515-7abb-4dba-aca1-c4b684575bb8" class=3D"conflue=
+nceTd">
+<p local-id=3D"ef6e49ad-8264-4a4c-a825-e9101224d52c">Key</p></td>
+<td data-local-id=3D"4ddc5f56-ac7f-4b5f-956f-eda2f33a50ef" class=3D"conflue=
+nceTd">
+<p local-id=3D"6527c889-9009-4343-bf78-fbb96b4a7e54">=E7=B2=BE=E5=BA=A6</p>=
+</td>
+<td data-local-id=3D"8f969850-5f20-43d3-b6ec-7634b9881931" class=3D"conflue=
+nceTd">
+<p local-id=3D"370cd95c-9370-4411-8008-0a914b3eb8a5">example</p></td>
+<td data-local-id=3D"921a0b12-4dbb-4ca1-bfe6-239f8c14d402" class=3D"conflue=
+nceTd">
+<p local-id=3D"98882c55-5dd0-40e2-b595-554ebb7b0a6d">Desc</p></td>
+</tr>
+<tr data-local-id=3D"4a4ee958-1563-413f-97f0-faa034891f9f">
+<td data-local-id=3D"3cfc5e12-af15-4c38-8468-080c135c41d8" class=3D"conflue=
+nceTd">
+<p local-id=3D"5b0f67d1-8d09-469f-8853-32fc0d41afa1">feeReceiver</p></td>
+<td data-local-id=3D"212f7a24-dc0d-4f69-b1ee-5642e39de658" class=3D"conflue=
+nceTd">
+<p local-id=3D"7f1c6615-9635-4629-8881-06b9c47242cb">&nbsp;addr</p></td>
+<td data-local-id=3D"8d27cd9c-b340-4cc6-8813-80b4d4f4cf30" class=3D"conflue=
+nceTd">
+<p local-id=3D"1800d0da-727e-450f-8e81-a4922b951755">0x123</p></td>
+<td data-local-id=3D"d3336277-cf04-4863-9b7e-5aadd26cbccc" class=3D"conflue=
+nceTd">
+<p local-id=3D"930815be-d37a-42c0-977a-df46a7d6f08a">FeeDistributorVault =
+=E5=9C=B0=E5=9D=80=EF=BC=8C=E5=92=8C=E6=8A=BD=E6=B0=B4=E5=88=86=E9=85=8D=E6=
+=9C=89=E5=85=B3</p></td>
+</tr>
+<tr data-local-id=3D"92d65aa9-517b-4f63-bf28-3ba80da0e2f0">
+<td data-local-id=3D"1155e71c-69fb-4ea6-a92d-b6a21ff41e4c" class=3D"conflue=
+nceTd">
+<p local-id=3D"923b63bc-a550-490f-acc0-1a4224a0c930">holdingAddress</p></td=
+>
+<td data-local-id=3D"32e75346-1851-4b39-9c50-e94b3dbc5246" class=3D"conflue=
+nceTd">
+<p local-id=3D"2d3c6ffd-0673-4d6b-b7e4-cb795d34fba7">&nbsp;addr</p></td>
+<td data-local-id=3D"6364db20-3736-4635-a1d0-afe90c35556c" class=3D"conflue=
+nceTd">
+<p local-id=3D"89a0c9a2-017e-4271-b737-9e8af45d669f">0x123</p></td>
+<td data-local-id=3D"4658d48a-011a-4c25-8fe4-dbb27a90cd4c" class=3D"conflue=
+nceTd">
+<p local-id=3D"2ec762da-141e-4236-934d-676fd361b4ca">=E8=B5=84=E9=87=91=E6=
+=89=98=E7=AE=A1/=E6=8C=81=E6=9C=89=E5=9C=B0=E5=9D=80=EF=BC=8C=E5=9C=A8=E8=
+=BD=AC=E8=B4=A6=E5=A4=B1=E8=B4=A5=E7=9A=84=E6=97=B6=E5=80=99=EF=BC=8C=E4=B8=
+=8D=E4=BC=9A=E7=9B=B4=E6=8E=A5 revert=EF=BC=8C=E8=80=8C=E6=98=AF=E4=BC=9A=
+=E6=89=98=E7=AE=A1=E5=88=B0=E8=BF=99=E9=87=8C=E3=80=82=E6=AF=94=E5=A6=82 GA=
+S =E4=B8=8D=E5=A4=9F=E3=80=82</p></td>
+</tr>
+<tr data-local-id=3D"a2145c8e-f6fd-4d33-94e6-84649713db4f">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"232b311d-02a9-4add-b=
+f00-b7d051961e8f" class=3D"confluenceTd">
+<p local-id=3D"3b3b3b4e-de3d-4877-a593-bf6d5db52c56">sequencerUptimeFeed</p=
+></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"75619329-547b-4401-b=
+2a0-75ebaf42cde1" class=3D"confluenceTd">
+<p local-id=3D"2789f7d7-17c0-4f71-ab86-456df951e334">&nbsp;addr</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"c0d51e3b-6a26-4f69-9=
+344-4fc23aeb8995" class=3D"confluenceTd">
+<p local-id=3D"cccd91df-686a-4d1b-bb72-613140a0d667">0x123</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"f60f27d7-87f8-404a-9=
+52c-d17e53cca266" class=3D"confluenceTd">
+<p local-id=3D"f86f6cd6-bb11-4e25-ba2f-fa526e2556fa">L2 =E5=AE=9A=E5=BA=8F=
+=E5=99=A8=E5=9C=B0=E5=9D=80=EF=BC=8CBSC =E5=BA=94=E8=AF=A5=E4=B8=8D=E9=9C=
+=80=E8=A6=81=E8=BF=99=E4=B8=AA=E4=B8=9C=E8=A5=BF</p></td>
+</tr>
+<tr data-local-id=3D"60404ee9-37c1-4b48-96be-b06946a5348e">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"0c28d5b9-a4e6-4c0a-b=
+635-8840590dcc07" class=3D"confluenceTd">
+<p local-id=3D"c3bf047a-4422-4095-898e-5609ab3c55bd">sequencerGraceDuration=
+</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"e0ca3e3b-1684-46ae-a=
+48e-ec9d58bb808d" class=3D"confluenceTd">
+<p local-id=3D"6b6a5dfd-4f77-4eb9-b7ef-2f67b4f7771a">&nbsp;seconds</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"c1430c2b-0d8f-4d0f-a=
+39f-b22db9195d0b" class=3D"confluenceTd">
+<p local-id=3D"1ed30902-8450-4c17-b02c-da6153b4feb6">300</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"7158f1bf-0f7c-4dd9-a=
+53d-b9a72a5ee2fe" class=3D"confluenceTd">
+<p local-id=3D"9a00faee-8d72-406b-b232-e600628ddb3f">=E5=BA=8F=E5=88=97=E5=
+=99=A8=E6=95=85=E9=9A=9C=E5=AE=BD=E9=99=90=E6=97=B6=E9=97=B4=EF=BC=88=E7=A7=
+=92=EF=BC=89</p></td>
+</tr>
+<tr data-local-id=3D"91204089-af9b-4ba2-9cce-41f3d69dad3a">
+<td data-local-id=3D"71ae921f-a75e-4db4-ba64-d163fcccaa4a" class=3D"conflue=
+nceTd">
+<p local-id=3D"fe7f5634-4367-4d2d-be02-99b9b1770d34">maxUiFeeFactor</p></td=
+>
+<td data-local-id=3D"c708a16e-f3d0-412c-963d-c9978303dde4" class=3D"conflue=
+nceTd">
+<p local-id=3D"3c31b75e-e11b-475a-9793-553f70c7aebc">&nbsp;30</p></td>
+<td data-local-id=3D"59ce81c5-2e4c-4baa-a7af-48c53ad12d34" class=3D"conflue=
+nceTd">
+<p local-id=3D"27204cda-a792-466f-820b-ab136e8a84eb">10%=3D1E29</p></td>
+<td data-local-id=3D"ad6dc0e9-5961-4e5a-a796-499e3747c7cf" class=3D"conflue=
+nceTd">
+<p local-id=3D"80744518-884a-4704-9f11-e58210c25aaa">=E5=89=8D=E7=AB=AF/=E7=
+=95=8C=E9=9D=A2=E6=9C=80=E5=A4=A7=E8=B4=B9=E7=94=A8=E5=9B=A0=E5=AD=90</p></=
+td>
+</tr>
+<tr data-local-id=3D"f82f1292-0562-462e-a32a-34d26d074957">
+<td data-local-id=3D"69a41a5e-d380-4072-a64e-75ddaf4ba821" class=3D"conflue=
+nceTd">
+<p local-id=3D"61b4e65f-53f2-4ff2-acff-69afc52eefba">maxAutoCancelOrders</p=
+></td>
+<td data-local-id=3D"fed6f39a-2212-4b71-8a75-4338c4e1673f" class=3D"conflue=
+nceTd">
+<p local-id=3D"2da74ee9-13a5-4e51-9148-9e4727f5ea7f">&nbsp;1</p></td>
+<td data-local-id=3D"45aef651-872b-4224-990e-d4adb019dfcd" class=3D"conflue=
+nceTd">
+<p local-id=3D"6a379351-7d12-4aec-9596-f9a929cb742f">11</p></td>
+<td data-local-id=3D"0b636e7e-0b6f-49cb-a02e-8463e76c8106" class=3D"conflue=
+nceTd">
+<p local-id=3D"311d42b6-114a-42dd-9ecf-c6d4e5c43212">=E8=87=AA=E5=8A=A8=E5=
+=8F=96=E6=B6=88=E8=AE=A2=E5=8D=95=E7=9A=84=E6=9C=80=E5=A4=A7=E6=95=B0=E9=87=
+=8F</p></td>
+</tr>
+<tr data-local-id=3D"ecb424a4-ea3a-48d2-bd5a-e09639ada681">
+<td data-local-id=3D"557dccf7-dc5b-425a-8f08-f465a1efb746" class=3D"conflue=
+nceTd">
+<p local-id=3D"58ac9b95-3563-46d4-99b2-981823b535c3">maxTotalCallbackGasLim=
+itForAutoCancelOrders</p></td>
+<td data-local-id=3D"9cfd800b-30ae-45ec-8beb-05042d79b29f" class=3D"conflue=
+nceTd">
+<p local-id=3D"02fac102-2759-4b30-81c5-2c438b0245f8">&nbsp;token =E7=B2=BE=
+=E5=BA=A6</p></td>
+<td data-local-id=3D"5c774009-70fb-4a58-9bf4-12f4b57bfef8" class=3D"conflue=
+nceTd">
+<p local-id=3D"4762b5aa-2bca-4ebd-9b6d-ff815fef3343">1 ETH =3D 1E18</p></td=
+>
+<td data-local-id=3D"dbe8b8e7-a0ac-4e85-bc94-4c366ffc379e" class=3D"conflue=
+nceTd">
+<p local-id=3D"83a75676-75fb-4eda-b82a-82fbdd49c308">=E8=87=AA=E5=8A=A8=E5=
+=8F=96=E6=B6=88=E8=AE=A2=E5=8D=95=E5=9B=9E=E8=B0=83=E7=9A=84=E6=80=BB=E6=9C=
+=80=E5=A4=A7 Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"f150515f-c00e-4db2-a3fb-6a31a3a32a5b">
+<td data-local-id=3D"8c13f59b-6768-4dc3-ad4a-5438c9eb5d48" class=3D"conflue=
+nceTd">
+<p local-id=3D"d869001e-9ea5-4327-a2ad-dbbfb971228c">minHandleExecutionErro=
+rGas</p></td>
+<td data-local-id=3D"843b8796-fbb0-4c3e-967b-2f4436cbd88d" class=3D"conflue=
+nceTd">
+<p local-id=3D"d4829553-5014-4d0e-8e2e-b660faa0ebad">&nbsp;token =E7=B2=BE=
+=E5=BA=A6</p></td>
+<td data-local-id=3D"4ab0c109-8e20-42a0-8b4e-231e3eb8758f" class=3D"conflue=
+nceTd">
+<p local-id=3D"4def3ba3-2155-446c-91df-71ba6bfaf5b7">1 ETH =3D 1E18</p></td=
+>
+<td data-local-id=3D"1f445c07-ee09-44da-a65a-04b953dae9f9" class=3D"conflue=
+nceTd">
+<p local-id=3D"f9ba06c0-6b38-4231-80df-73bbaf835c64">=E5=A4=84=E7=90=86=E6=
+=89=A7=E8=A1=8C=E9=94=99=E8=AF=AF=E7=9A=84=E6=9C=80=E5=B0=8F Gas</p></td>
+</tr>
+<tr data-local-id=3D"631809b9-f1e4-405a-b89f-e43c70192178">
+<td data-local-id=3D"3d30bb5f-e6c8-4afc-aca6-a8d7a96888cf" class=3D"conflue=
+nceTd">
+<p local-id=3D"13519d68-ff29-4817-b3f4-dfed223392ec">minHandleExecutionErro=
+rGasToForward</p></td>
+<td data-local-id=3D"42e9c376-c606-45e5-890b-f9ac714f2d7e" class=3D"conflue=
+nceTd">
+<p local-id=3D"073f3e12-fe37-4938-aaa7-d9a459488795">&nbsp;token =E7=B2=BE=
+=E5=BA=A6</p></td>
+<td data-local-id=3D"755b1ca9-da21-469e-aeb5-8bb6e858b910" class=3D"conflue=
+nceTd">
+<p local-id=3D"4614fcd4-776d-430e-a9cf-9aaca8a47a5b">1 ETH =3D 1E18</p></td=
+>
+<td data-local-id=3D"965cf35e-0378-49c9-a6b0-1250db19fc51" class=3D"conflue=
+nceTd">
+<p local-id=3D"7fef8a5f-5206-4ff7-a07b-df03f4329450">=E8=BD=AC=E5=8F=91=E6=
+=89=A7=E8=A1=8C=E9=94=99=E8=AF=AF=E6=97=B6=E7=9A=84=E6=9C=80=E5=B0=8F Gas</=
+p></td>
+</tr>
+<tr data-local-id=3D"2082f34a-0953-4266-a612-338b814c7db4">
+<td data-local-id=3D"367656ae-5a0f-42dd-8dff-e60429c86432" class=3D"conflue=
+nceTd">
+<p local-id=3D"39ce6502-b4d7-4fe8-9678-c2e3796dbe58">minAdditionalGasForExe=
+cution</p></td>
+<td data-local-id=3D"0ef8536a-7f11-4aab-9438-509f8f77bd29" class=3D"conflue=
+nceTd">
+<p local-id=3D"3545c569-d23a-4568-984c-30c1764cadad">&nbsp;&nbsp;token =E7=
+=B2=BE=E5=BA=A6</p></td>
+<td data-local-id=3D"3810bcd9-2212-4bee-bc97-bb54746f17b4" class=3D"conflue=
+nceTd">
+<p local-id=3D"5259f2f4-ca82-4771-bc41-8d5911914b0e">1 ETH =3D 1E18</p></td=
+>
+<td data-local-id=3D"1199b507-982c-4702-874d-fbd08c3642bd" class=3D"conflue=
+nceTd">
+<p local-id=3D"5b5b3036-48e8-4cd0-ad45-5ee4494a9270">=E9=A2=9D=E5=A4=96=E6=
+=89=A7=E8=A1=8C=E6=89=80=E9=9C=80=E7=9A=84=E6=9C=80=E5=B0=8F Gas</p></td>
+</tr>
+<tr data-local-id=3D"8c781b26-ae16-4934-9c12-2c4563850751">
+<td data-local-id=3D"4c7f9c9b-deef-4b0f-a74f-0de77606e0b6" class=3D"conflue=
+nceTd">
+<p local-id=3D"096214d4-1d6c-445c-bac4-c2b34c651728">refundExecutionFeeGasL=
+imit</p></td>
+<td data-local-id=3D"c44d463f-2d3c-423e-9e8b-8033f59d7bbd" class=3D"conflue=
+nceTd">
+<p local-id=3D"25e27ee1-b53c-42ff-b3b0-8be9e78c301f">&nbsp;token =E7=B2=BE=
+=E5=BA=A6</p></td>
+<td data-local-id=3D"97e6c815-f899-43eb-a27d-9aa2820e67d2" class=3D"conflue=
+nceTd">
+<p local-id=3D"db34bf92-087c-47dd-801b-7fe8973ef8a5">1 ETH =3D 1E18</p></td=
+>
+<td data-local-id=3D"55edf129-8cd0-49f4-8af3-30bba77fad3e" class=3D"conflue=
+nceTd">
+<p local-id=3D"41b52b16-4c68-4b6e-a5be-17176938dbfc">=E9=80=80=E6=AC=BE=E6=
+=89=A7=E8=A1=8C=E8=B4=B9=E7=9A=84 Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"34ba45c0-1f81-4702-be86-2cd07d3ab40a">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"49ad1384-c2bf-4279-a=
+574-1e5e499eda7a" class=3D"confluenceTd">
+<p local-id=3D"d137173b-3ce2-4ce9-8682-220c9f5125d3">depositGasLimit</p></t=
+d>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"c2169193-41c5-4c55-8=
+833-96d924c9a79f" class=3D"confluenceTd">
+<p local-id=3D"f5f45ea8-7b0e-4b1d-bf48-d4aa7a4effb9">&nbsp;&nbsp;token =E7=
+=B2=BE=E5=BA=A6</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"8d738787-8353-479f-9=
+601-ae9f1e7cf29f" class=3D"confluenceTd">
+<p local-id=3D"1dc6d65b-6ec0-4dad-a47b-d86bd2009381">1 ETH =3D 1E18</p></td=
+>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"6d5fac98-b6f5-4469-8=
+19c-b9aea016a148" class=3D"confluenceTd">
+<p local-id=3D"88a6a8fa-810e-4d78-8df9-0ed78bd5fe7c">=E5=AD=98=E6=AC=BE=E6=
+=93=8D=E4=BD=9C Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"f1560787-d754-4d23-be96-6d0186ba581d">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"0851870b-f78a-4a30-8=
+41e-0dc71f94ed62" class=3D"confluenceTd">
+<p local-id=3D"30e0d10c-148b-43c4-ac4d-4629d416d2b9">withdrawalGasLimit</p>=
+</td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"5ff0285c-a6b7-495c-a=
+f6d-28e3328594bc" class=3D"confluenceTd">
+<p local-id=3D"b1f4f2ff-1554-4599-a683-f2ee79e6122d">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"0a93829f-af9e-43bb-a=
+e1f-f79c25145840" class=3D"confluenceTd">
+<p local-id=3D"de17e897-98d2-478f-bef6-c278ff3e9b85">-</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"39466da2-92c4-4f18-a=
+b98-00b6f93173a0" class=3D"confluenceTd">
+<p local-id=3D"53c3029b-8773-45d5-bff9-5228ff5adb52">=E6=8F=90=E7=8E=B0=E6=
+=93=8D=E4=BD=9C Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"816f941f-c217-4f85-9876-682cf1d2e0a1">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"d1d80640-0bc2-4a05-b=
+448-21674a82ec3c" class=3D"confluenceTd">
+<p local-id=3D"3f77a375-b812-442e-a659-0f3f7069ad1d">shiftGasLimit</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"a17fd075-006a-463d-8=
+81c-041a15bd61cf" class=3D"confluenceTd">
+<p local-id=3D"1a7e25cf-db0f-4155-80c2-715ef53a0924">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"0277f13c-a41f-4697-9=
+c50-13375cd7a134" class=3D"confluenceTd">
+<p local-id=3D"90c2e873-2938-4aa0-bcd4-77b4ba0b54a9"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"6c709fd2-3b26-41ab-8=
+343-511e2c3bdd3d" class=3D"confluenceTd">
+<p local-id=3D"92aee1b7-3fe8-405d-88a4-00a67521f79a">=E8=B5=84=E4=BA=A7=E8=
+=BF=81=E7=A7=BB/=E8=BD=AC=E7=A7=BB=E6=93=8D=E4=BD=9C Gas =E9=99=90=E9=A2=9D=
+</p></td>
+</tr>
+<tr data-local-id=3D"b261dbfd-fd57-4dde-afb8-f7ef50b02de8">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"06146ca3-3dee-4fbc-a=
+0f3-6d0f2c0cbbd3" class=3D"confluenceTd">
+<p local-id=3D"902d9c45-3ecf-474e-93d8-01f1c2f99dae">createDepositGasLimit<=
+/p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"475b5452-90ec-4cbd-9=
+ea8-e83f2502fb18" class=3D"confluenceTd">
+<p local-id=3D"85fedd51-3571-41d2-8774-b3266b7d8ad9">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"5e0ae23a-d73a-45a3-a=
+0ff-038d664893fc" class=3D"confluenceTd">
+<p local-id=3D"327a6b61-b3d6-4c8f-b0bf-470a81385d30"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"edfec2a6-03fc-44a0-b=
+3b7-5d5c309ed2c0" class=3D"confluenceTd">
+<p local-id=3D"722d43fb-cec1-4717-b74f-229cf9245ea4">=E5=88=9B=E5=BB=BA=E5=
+=AD=98=E6=AC=BE=E8=AF=B7=E6=B1=82=E7=9A=84 Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"270b511e-3a6b-41b0-893a-fd75de259bee">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"fa43931f-185c-4bde-8=
+3a1-79e7df4fd5cd" class=3D"confluenceTd">
+<p local-id=3D"e1327593-4604-44a5-a2fa-d1e6963fbfeb">createGlvDepositGasLim=
+it</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"2fbae609-1478-4398-a=
+20c-5dda57516cb9" class=3D"confluenceTd">
+<p local-id=3D"1b2cfb97-709b-44bf-8db6-8d4d7066b0a1">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"dbb2ab4d-fcf8-47ec-8=
+230-c9c81084b356" class=3D"confluenceTd">
+<p local-id=3D"dce5fa53-3a37-4dc9-a174-822fc447d5f0"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"a2eaf9e4-ba2d-45f7-8=
+b86-ad97aeae25eb" class=3D"confluenceTd">
+<p local-id=3D"0bcf8511-2e79-4ec2-9e2e-03af2e15f23e">=E5=88=9B=E5=BB=BA GLV=
+ =E5=AD=98=E6=AC=BE=E8=AF=B7=E6=B1=82=E7=9A=84 Gas =E9=99=90=E9=A2=9D</p></=
+td>
+</tr>
+<tr data-local-id=3D"739a72eb-298e-4289-b618-5068511ba9b1">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9cfc613d-bb43-40e5-9=
+5ae-b53072c92fb5" class=3D"confluenceTd">
+<p local-id=3D"f954ce5c-de25-4e1d-a311-a8bec55560eb">createWithdrawalGasLim=
+it</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"354ac181-ffdf-43a9-9=
+b65-2d69ccf0215f" class=3D"confluenceTd">
+<p local-id=3D"badf60d1-5f93-4f7a-bfc5-aa22d90d6a1d">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"d351644b-b2ce-4206-8=
+be2-97857a56e275" class=3D"confluenceTd">
+<p local-id=3D"f5eb9ab0-cdb1-440d-9078-4bdd2d1d2989"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"7e1cbc52-f58a-448a-9=
+43c-f4e91a1ad508" class=3D"confluenceTd">
+<p local-id=3D"3df3984b-b2d2-4b0f-a580-5d9c0c9a3ca3">=E5=88=9B=E5=BB=BA=E6=
+=8F=90=E7=8E=B0=E8=AF=B7=E6=B1=82=E7=9A=84 Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"f7da22c8-adc4-435e-a946-32eeec9260b4">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"c46f36e3-9dd7-4d7e-8=
+8d4-93b41550520c" class=3D"confluenceTd">
+<p local-id=3D"c3217a55-a369-406f-9435-5febb07abc7e">createGlvWithdrawalGas=
+Limit</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9c3c1d4a-062b-4ad0-a=
+f40-1bac9cc52d8f" class=3D"confluenceTd">
+<p local-id=3D"95fe784e-b8a1-425c-8cea-bfd336242d90">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"06936a5c-ef55-41ca-9=
+5bd-bd2259a99c2e" class=3D"confluenceTd">
+<p local-id=3D"2641c166-2a76-4092-89eb-f9c55415951d"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"6045341f-7fcd-4178-8=
+09e-5a90c22194c4" class=3D"confluenceTd">
+<p local-id=3D"af915410-fc88-4d44-86cf-2a3b479914f7">=E5=88=9B=E5=BB=BA GLV=
+ =E6=8F=90=E7=8E=B0=E8=AF=B7=E6=B1=82=E7=9A=84 Gas =E9=99=90=E9=A2=9D</p></=
+td>
+</tr>
+<tr data-local-id=3D"287021a3-8091-40a3-9c8f-c33491d9dccb">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"e9cc58d5-bf8c-4db9-9=
+831-ac9eb288695c" class=3D"confluenceTd">
+<p local-id=3D"e1b76a1b-ae94-4a76-8c5e-415bb2026209">singleSwapGasLimit</p>=
+</td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"c4890834-838c-4082-a=
+356-5a3dc1a48440" class=3D"confluenceTd">
+<p local-id=3D"df026151-3805-4b7f-a071-c1c9e81abf53">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"4b470dec-8573-4a82-9=
+453-9f6868560ee4" class=3D"confluenceTd">
+<p local-id=3D"7c704a51-f6cf-400c-beef-043965834e2b"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"345d9309-dfe4-436a-b=
+8ed-864ee0b95c6d" class=3D"confluenceTd">
+<p local-id=3D"a6972ac5-00b2-4713-aebe-918b734bff8c">=E5=8D=95=E6=AC=A1=E4=
+=BA=A4=E6=8D=A2=E6=93=8D=E4=BD=9C Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"6c47997d-3a8a-48a0-a275-3fb10f6f2331">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"8317313f-1505-4c7c-8=
+d70-02ec011e1d5f" class=3D"confluenceTd">
+<p local-id=3D"c5c6fcff-eed6-43dd-8d1e-1b63e9ebcd36">increaseOrderGasLimit<=
+/p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"829e0343-2fb1-41bb-b=
+14c-26a288559b09" class=3D"confluenceTd">
+<p local-id=3D"18401482-1ac3-404c-a83a-ae88239ba648">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"8e1f8f3d-7069-498d-8=
+02b-2a9644fde564" class=3D"confluenceTd">
+<p local-id=3D"2bd5cd6d-1da1-478f-9525-2797b21d0e54"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9f15eb83-7e68-4d1a-8=
+4a9-a739eb3025fd" class=3D"confluenceTd">
+<p local-id=3D"5f43523d-6238-4a68-9ecb-c320c731a5be">=E5=A2=9E=E5=8A=A0=E4=
+=BB=93=E4=BD=8D=E8=AE=A2=E5=8D=95 Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"247a1fc2-196c-4a1e-ac4c-9d581499e571">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"298943df-d318-457c-9=
+ed8-9752b5f53638" class=3D"confluenceTd">
+<p local-id=3D"75e61107-ceb0-43ed-b436-9feffe83062c">decreaseOrderGasLimit<=
+/p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"6b13807e-9913-43e1-a=
+332-6a85f6193295" class=3D"confluenceTd">
+<p local-id=3D"4b6c25a7-8202-47de-b0df-0f19e63ec4f6">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"04fde75d-6be4-40ee-9=
+292-ce168f3648ec" class=3D"confluenceTd">
+<p local-id=3D"0d454143-8724-4162-9638-425598336a5b"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"8e87e4bf-185a-4ed5-a=
+f8c-d5466634167d" class=3D"confluenceTd">
+<p local-id=3D"7e72599b-9c5a-4d17-ae86-f79b5736a353">=E5=87=8F=E5=B0=91=E4=
+=BB=93=E4=BD=8D=E8=AE=A2=E5=8D=95 Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"b7b7f6f5-405f-4cec-bdfa-c2ab7a27fd38">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"1dd11608-a22f-4fa2-9=
+6bc-a83983c3a960" class=3D"confluenceTd">
+<p local-id=3D"599ac280-b033-460d-a3b0-003131043e38">swapOrderGasLimit</p><=
+/td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"a677ac44-36ab-4cb3-a=
+cc7-3a13cf1481e3" class=3D"confluenceTd">
+<p local-id=3D"5569955b-56e9-404c-83ce-3b5b6f3c645c">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"0d173c90-6747-47d0-8=
+b53-bd9981496953" class=3D"confluenceTd">
+<p local-id=3D"5f222e2c-4f1d-427a-91c0-5a1f4ba581ad"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"b357e35b-9ea8-4502-b=
+9c8-4919cbc30866" class=3D"confluenceTd">
+<p local-id=3D"c8c1ac1c-0b5b-49cc-b8a6-9bbd56fbcff8">=E4=BA=A4=E6=8D=A2=E8=
+=AE=A2=E5=8D=95 Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"82c74ac6-c4cc-43a0-be14-f153cadc3246">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"567c5d2f-4a64-430e-9=
+704-a05ee21a7f92" class=3D"confluenceTd">
+<p local-id=3D"7d4b5e3c-6da3-496b-8cda-92a6e0bb6db6">glvPerMarketGasLimit</=
+p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"e1878a5d-89aa-49ae-a=
+4c9-3fa028656e2b" class=3D"confluenceTd">
+<p local-id=3D"2c8e20d7-37d4-466c-bbf7-8492a646fa20">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"d2a1b29e-cd8d-4afa-a=
+96c-a953e79e7d92" class=3D"confluenceTd">
+<p local-id=3D"41e56a95-59fb-423e-9181-57634945b125"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"42c5c780-6baa-4f88-9=
+08e-e0347f4fd7f1" class=3D"confluenceTd">
+<p local-id=3D"403c43fe-9c3d-4553-a27b-13c0f64970af">=E6=AF=8F=E5=B8=82=E5=
+=9C=BA=E7=9A=84 GLV =E6=93=8D=E4=BD=9C Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"3fa86be5-fdb8-498c-9378-666ca29e8270">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"5c699316-f991-4ef0-9=
+d2b-ede5816eea05" class=3D"confluenceTd">
+<p local-id=3D"774d5161-1167-45e5-b49c-c8302ad07116">glvDepositGasLimit</p>=
+</td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"4ff9aa06-a9ce-42b7-a=
+4a6-f05a73f26f68" class=3D"confluenceTd">
+<p local-id=3D"63c9adca-2117-426d-bf1e-6472e506aa85">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"64d47c7a-4936-4269-9=
+606-bfb6f9442bbb" class=3D"confluenceTd">
+<p local-id=3D"27039e3e-5f49-4d69-9d65-1f6e51a446fc"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"7831f3db-d52b-4dca-a=
+5a7-c637e9be671a" class=3D"confluenceTd">
+<p local-id=3D"042a7bf2-a0f1-47e0-bcd4-89d0ee8da741">GLV =E5=AD=98=E6=AC=BE=
+=E6=93=8D=E4=BD=9C Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"b98e7d26-92c9-4cf8-a7f9-551ae8017ae3">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"f0e3bc53-fc49-4866-9=
+9fb-cc85c4a92727" class=3D"confluenceTd">
+<p local-id=3D"88719830-4b05-47ee-8e93-77e22caf4f9d">glvWithdrawalGasLimit<=
+/p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"e70b8fb3-7417-42c1-9=
+689-115f03dbef35" class=3D"confluenceTd">
+<p local-id=3D"5133c775-1251-41c0-bb53-481e2e06efd0">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"bbb24f4d-d813-4471-9=
+cb7-0e2aa964bb60" class=3D"confluenceTd">
+<p local-id=3D"fb30c86d-5f54-4e57-bd93-aad9511a455a"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"fdc9f29e-912d-43ef-a=
+0fe-ea38f0b67821" class=3D"confluenceTd">
+<p local-id=3D"6e19b6a3-89e4-4b01-a693-4846aa6a98b5">GLV =E6=8F=90=E7=8E=B0=
+=E6=93=8D=E4=BD=9C Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"bf67ab52-9642-4499-a252-8ea77c80a72c">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"8d22cb19-a20e-4399-a=
+618-32dd8e23c084" class=3D"confluenceTd">
+<p local-id=3D"b2913588-fcae-438a-9c40-0572720c5c96">glvShiftGasLimit</p></=
+td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"c66b4d0b-f3d1-4307-9=
+923-c36762b83f32" class=3D"confluenceTd">
+<p local-id=3D"8d430b5b-469a-42e5-aa81-088a132c46fb">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9d8fc94b-7c8d-44d5-a=
+20e-bbd310073e37" class=3D"confluenceTd">
+<p local-id=3D"a954645f-de0e-400c-a00f-cf70a1b83a7f"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"0a16c0c6-24b3-4bd0-9=
+c66-03e8717c3a79" class=3D"confluenceTd">
+<p local-id=3D"0bce5d3d-526b-4b90-9162-627a4c4b2519">GLV =E8=BD=AC=E7=A7=BB=
+=E6=93=8D=E4=BD=9C Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"432d4e5f-fcdc-42ac-8537-fbd2d07d59bc">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"7ca2e98b-b55d-4f26-9=
+554-5efd00ac00cb" class=3D"confluenceTd">
+<p local-id=3D"0df45ec6-c7e7-4f37-9b90-fae4c03d3696">tokenTransferGasLimit<=
+/p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"e9b67fd3-d5dd-49c6-a=
+164-12e42e3c8dd5" class=3D"confluenceTd">
+<p local-id=3D"8a714553-a5c0-457b-800f-c135aa5ed500">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"f23b4dda-5ca5-4bb5-9=
+7ed-fd5da795285c" class=3D"confluenceTd">
+<p local-id=3D"51448594-8cf1-43e2-a579-2a77f36b61ff"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9f0874cb-5708-46d5-8=
+a6e-4342762f8a80" class=3D"confluenceTd">
+<p local-id=3D"0e266fa2-7cb0-463f-839d-d9bf6236458a">=E4=BB=A3=E5=B8=81=E8=
+=BD=AC=E8=B4=A6 Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"dacfe96b-7783-4eb3-8108-5850882efd16">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"94a8a931-923f-4cb6-9=
+9f5-a5c5791d9370" class=3D"confluenceTd">
+<p local-id=3D"269e1c03-bc00-4aae-9665-2a47c79b8120">nativeTokenTransferGas=
+Limit</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"4bdde4ea-9f1d-4cea-9=
+814-6dc3c9b1bc54" class=3D"confluenceTd">
+<p local-id=3D"607f4659-9356-44a2-b08b-0a13f14f9715">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"cca82e71-ab43-4642-8=
+5f4-6c4e1a55cb35" class=3D"confluenceTd">
+<p local-id=3D"dd24e790-04d0-46b3-bd5a-9ef8200226ff"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9b0eb1f7-5278-4f93-9=
+41a-f0e5a99e7d58" class=3D"confluenceTd">
+<p local-id=3D"f2710192-3574-4fbc-8a81-4f6c41f20e31">=E5=8E=9F=E7=94=9F=E4=
+=BB=A3=E5=B8=81=E8=BD=AC=E8=B4=A6 Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"12478812-6fe2-4047-8f2e-7d43014a9127">
+<td data-local-id=3D"55188faa-a5d1-4704-82b9-fdaaa98cafb9" class=3D"conflue=
+nceTd">
+<p local-id=3D"26adf6c7-0eca-4314-a90a-7b3cccdb44f0">estimatedGasFeeBaseAmo=
+unt</p></td>
+<td data-local-id=3D"e4e683ef-98bd-4a7f-828d-8dad0d1d10c7" class=3D"conflue=
+nceTd">
+<p local-id=3D"76dd4374-4705-49bd-afcd-b3a3b491d20b">&nbsp;token =E7=B2=BE=
+=E5=BA=A6</p></td>
+<td data-local-id=3D"0e0aee9c-2ac3-44a0-a742-14fd1e82ec7a" class=3D"conflue=
+nceTd">
+<p local-id=3D"2c13b74a-c1e5-4956-83f4-aa96c6b6d915">1 ETH =3D 1E18</p></td=
+>
+<td data-local-id=3D"9b404b52-d024-41d5-b0fe-68645b225cba" class=3D"conflue=
+nceTd">
+<p local-id=3D"b173a594-1a14-472b-bf73-7486c883fa96">=E4=BC=B0=E7=AE=97=E8=
+=B4=B9=E7=94=A8=E7=9A=84=E5=9F=BA=E7=A1=80 Gas =E9=87=8F</p></td>
+</tr>
+<tr data-local-id=3D"5c90ab09-127a-4685-bf06-d9f49117bc02">
+<td data-local-id=3D"286eeabb-60e7-4db5-8405-067eb314c095" class=3D"conflue=
+nceTd">
+<p local-id=3D"2b162c71-9e88-4eb2-a868-3d1e6f01375b">estimatedGasPerOracleP=
+rice</p></td>
+<td data-local-id=3D"1d4d014d-d6fe-4825-a5e8-1a1c55227428" class=3D"conflue=
+nceTd">
+<p local-id=3D"abfbf017-1117-4bf4-b9dd-82ae9202ca18">&nbsp;token =E7=B2=BE=
+=E5=BA=A6</p></td>
+<td data-local-id=3D"da33d673-44c3-4dc0-acc5-d8324a800f4c" class=3D"conflue=
+nceTd">
+<p local-id=3D"0b4400b1-c907-49fa-8d7c-1d79013d2135">1 ETH =3D 1E18</p></td=
+>
+<td data-local-id=3D"f0b88aa6-a875-4681-8010-99c2645bbd34" class=3D"conflue=
+nceTd">
+<p local-id=3D"5fc19a8f-df71-4b80-9d34-07d780548919">=E6=AF=8F=E6=9D=A1=E9=
+=A2=84=E8=A8=80=E6=9C=BA=E4=BB=B7=E6=A0=BC=E7=9A=84=E4=BC=B0=E7=AE=97 Gas</=
+p></td>
+</tr>
+<tr data-local-id=3D"e26197a5-71c8-44c2-9e82-cc462e4d2bfb">
+<td data-local-id=3D"0859497e-9826-4afb-b5b8-b090834fa815" class=3D"conflue=
+nceTd">
+<p local-id=3D"dd6967c0-0abe-4d5c-8c99-85edc485c2e3">estimatedGasFeeMultipl=
+ierFactor</p></td>
+<td data-local-id=3D"e370022c-3cc7-437d-b256-5fadb89b5b6c" class=3D"conflue=
+nceTd">
+<p local-id=3D"b67812a2-4a49-4399-aa12-c0e4c21b4292">&nbsp;30</p></td>
+<td data-local-id=3D"ccdcaf41-e0a5-4e05-a3a0-78c2f474fbeb" class=3D"conflue=
+nceTd">
+<p local-id=3D"a41fd9a0-9bec-49ad-9da4-1d0a857e6217">1 =3D 1E30</p></td>
+<td data-local-id=3D"46223d6c-5de3-494a-97f2-8ba9666a6b46" class=3D"conflue=
+nceTd">
+<p local-id=3D"c2c7e128-9d6f-43c8-9e53-88475e84720e">=E4=BC=B0=E7=AE=97=E8=
+=B4=B9=E7=94=A8=E7=9A=84=E4=B9=98=E6=95=B0=E5=9B=A0=E5=AD=90</p></td>
+</tr>
+<tr data-local-id=3D"94c652a0-129a-471a-8cf5-d76ce289031b">
+<td data-local-id=3D"70f815ad-64da-4e19-b6de-58ff1ebc3938" class=3D"conflue=
+nceTd">
+<p local-id=3D"0bef7cd7-c30a-4413-8b1d-1f9006583d26">executionGasFeeBaseAmo=
+unt</p></td>
+<td data-local-id=3D"b92fdc54-ccb8-40f1-97b5-ca20bce3719d" class=3D"conflue=
+nceTd">
+<p local-id=3D"d831aeb1-ca86-4d75-844a-b4e824ddc8a4">&nbsp;token =E7=B2=BE=
+=E5=BA=A6</p></td>
+<td data-local-id=3D"0c460a46-4134-4678-9580-32bad8cd9f89" class=3D"conflue=
+nceTd">
+<p local-id=3D"5bf9b286-85b5-4d29-9319-44ae10e24883">1 ETH =3D 1E18</p></td=
+>
+<td data-local-id=3D"dec27ee2-0713-41ae-bbcb-9ced8b12551f" class=3D"conflue=
+nceTd">
+<p local-id=3D"8f93a019-a735-4a8e-b903-e3ba7da3caf7">=E5=AE=9E=E9=99=85=E6=
+=89=A7=E8=A1=8C=E8=B4=B9=E7=94=A8=E7=9A=84=E5=9F=BA=E7=A1=80 Gas =E9=87=8F<=
+/p></td>
+</tr>
+<tr data-local-id=3D"dcec3ec5-7978-4c4f-8e34-6f0a48987b81">
+<td data-local-id=3D"c823197e-1f7a-40d8-bb66-df75d699e276" class=3D"conflue=
+nceTd">
+<p local-id=3D"6833fe0d-f39b-4716-88a2-8e7fc94a2508">executionGasPerOracleP=
+rice</p></td>
+<td data-local-id=3D"691df308-08e9-4dd6-b4cd-3a3732e213df" class=3D"conflue=
+nceTd">
+<p local-id=3D"524f0a17-5a29-4357-b785-0d1d20c79e2a">&nbsp;token =E7=B2=BE=
+=E5=BA=A6</p></td>
+<td data-local-id=3D"cf99cd40-3806-4348-88fb-1e37716291d4" class=3D"conflue=
+nceTd">
+<p local-id=3D"960efd60-0d05-481a-85b0-1c7360e85474">1 ETH =3D 1E18</p></td=
+>
+<td data-local-id=3D"d8a51c7b-0dad-41fb-95ac-f02a6cd7992e" class=3D"conflue=
+nceTd">
+<p local-id=3D"41411f42-eaf7-4758-b1c3-5fe89008b2ec">=E6=AF=8F=E6=9D=A1=E9=
+=A2=84=E8=A8=80=E6=9C=BA=E4=BB=B7=E6=A0=BC=E7=9A=84=E6=89=A7=E8=A1=8C Gas</=
+p></td>
+</tr>
+<tr data-local-id=3D"eacd3b93-7715-499a-bcd2-8d843a19379b">
+<td data-local-id=3D"e7248083-d9f3-47d7-9a40-850d1753c585" class=3D"conflue=
+nceTd">
+<p local-id=3D"a7a4828a-2e62-4508-bbbb-ddbfa8d06c35">executionGasFeeMultipl=
+ierFactor</p></td>
+<td data-local-id=3D"48e3db3d-c055-4838-a795-5e3f976e38c4" class=3D"conflue=
+nceTd">
+<p local-id=3D"e022e87c-f158-4056-8109-d14d20d9b8a5">&nbsp;30</p></td>
+<td data-local-id=3D"36aa287a-533f-404d-b5e9-182180386816" class=3D"conflue=
+nceTd">
+<p local-id=3D"929563b1-64de-4266-b9b2-96eeb4d6eb30">1 =3D 1E30</p></td>
+<td data-local-id=3D"98445c71-436f-4ee9-ada7-91cb98ca958d" class=3D"conflue=
+nceTd">
+<p local-id=3D"f41b0fb1-3c5a-4b6a-8f9f-4fa477a8ed84">=E6=89=A7=E8=A1=8C=E8=
+=B4=B9=E7=94=A8=E7=9A=84=E4=B9=98=E6=95=B0=E5=9B=A0=E5=AD=90</p></td>
+</tr>
+<tr data-local-id=3D"ce6e773e-0d15-4250-b2dc-1eea8dcade97">
+<td data-local-id=3D"4eaea3a9-c997-45de-8f89-8d8c3d3e5e48" class=3D"conflue=
+nceTd">
+<p local-id=3D"aa1046fb-a875-4013-a32f-feda6be64f6d">requestExpirationTime<=
+/p></td>
+<td data-local-id=3D"90f86e33-9df5-4800-a9ca-4501a9aad183" class=3D"conflue=
+nceTd">
+<p local-id=3D"43458f86-caba-4470-ab0c-5bcf560f7030">&nbsp;1</p></td>
+<td data-local-id=3D"80e66e94-dd5b-4959-97ae-94cbde931396" class=3D"conflue=
+nceTd">
+<p local-id=3D"48628e19-5b18-4d08-bf1b-a609c34049fd">100s =3D 100</p></td>
+<td data-local-id=3D"f431e369-9097-4691-9d33-c98c9d0343a7" class=3D"conflue=
+nceTd">
+<p local-id=3D"13846746-c061-41ec-9c36-fbf090f92fc5">=E8=AF=B7=E6=B1=82=E8=
+=BF=87=E6=9C=9F=E6=97=B6=E9=97=B4=EF=BC=88=E7=A7=92=EF=BC=89</p></td>
+</tr>
+<tr data-local-id=3D"dc4aa71b-3880-4ed8-a1a3-20ef8a7d8981">
+<td data-local-id=3D"f6be68af-ded8-47c9-a277-74578b2fea76" class=3D"conflue=
+nceTd">
+<p local-id=3D"d270c835-a6b1-403e-96b2-d338d098b85e">maxSwapPathLength</p><=
+/td>
+<td data-local-id=3D"be52442e-8d4f-43f3-9902-7e5d804e46dd" class=3D"conflue=
+nceTd">
+<p local-id=3D"a1f19916-68bc-4afd-a1df-d94bc0fa8f07">&nbsp;1</p></td>
+<td data-local-id=3D"162dae90-33f1-4bc4-9510-7d49408df216" class=3D"conflue=
+nceTd">
+<p local-id=3D"987e0ca5-1c25-461b-84a5-7ae10cd79b90">11</p></td>
+<td data-local-id=3D"b4ea3ccf-1e95-4d96-8468-5c220749b027" class=3D"conflue=
+nceTd">
+<p local-id=3D"3a819656-6be4-4edf-a6fb-a6f40d1bb0ff">=E6=9C=80=E5=A4=A7=E4=
+=BA=A4=E6=8D=A2=E8=B7=AF=E5=BE=84=E9=95=BF=E5=BA=A6</p></td>
+</tr>
+<tr data-local-id=3D"201c02bd-f889-415e-8762-1ad7ab0356e6">
+<td data-local-id=3D"eaf0e88e-c7da-425a-bde3-1993f01ed307" class=3D"conflue=
+nceTd">
+<p local-id=3D"50fb3f73-83b4-4042-b1b4-42c9494717c4">maxCallbackGasLimit</p=
+></td>
+<td data-local-id=3D"49d1fed9-98ca-4f46-9f39-8d2cd7643a4a" class=3D"conflue=
+nceTd">
+<p local-id=3D"e04dcf12-f03f-4198-9ef2-ed42e46d37c2">&nbsp;token =E7=B2=BE=
+=E5=BA=A6</p></td>
+<td data-local-id=3D"8ce1b8e8-d313-4115-b7b4-477e17588171" class=3D"conflue=
+nceTd">
+<p local-id=3D"af5bd034-959a-464d-ac0a-9525bb58bc87">1 ETH =3D 1E18</p></td=
+>
+<td data-local-id=3D"a4ced885-d34f-4609-99b2-85e3b5365e2d" class=3D"conflue=
+nceTd">
+<p local-id=3D"77ec0d6a-b1ed-495f-9d7e-795713d96407">=E5=9B=9E=E8=B0=83=E6=
+=9C=80=E5=A4=A7 Gas =E9=99=90=E9=A2=9D</p></td>
+</tr>
+<tr data-local-id=3D"ecd6b83d-93f3-40a4-b7a9-57780be3c535">
+<td data-local-id=3D"ef3e4a85-06fb-4263-b4b9-8c7d32937019" class=3D"conflue=
+nceTd">
+<p local-id=3D"76f9b32f-a682-4013-b9cd-4e82f7e39c2a">minCollateralUsd</p></=
+td>
+<td data-local-id=3D"76d780c9-164d-41fc-a58a-734a1531e2d1" class=3D"conflue=
+nceTd">
+<p local-id=3D"26c23d4e-db5b-4a7c-9fe4-7c58969f4e12">&nbsp;30</p></td>
+<td data-local-id=3D"5e7cf2b3-78ea-4d1e-baef-461261375f39" class=3D"conflue=
+nceTd">
+<p local-id=3D"df4250de-7763-421b-a12f-4b3cdfdb87f4">1 USD =3D 1E30</p></td=
+>
+<td data-local-id=3D"e9d4f1c2-a6c2-40f1-a0fd-695c8d8321fd" class=3D"conflue=
+nceTd">
+<p local-id=3D"1c6230e3-4b9a-4805-8063-12d1d59c08d9">=E6=9C=80=E5=B0=8F=E6=
+=8A=B5=E6=8A=BC=E9=87=91=E9=A2=9D=EF=BC=88USD=EF=BC=89</p></td>
+</tr>
+<tr data-local-id=3D"a641a630-a7b0-427b-a98c-e8c856ee852e">
+<td data-local-id=3D"b2683354-5a5d-4660-a88d-23832aa29624" class=3D"conflue=
+nceTd">
+<p local-id=3D"b691d42e-aec1-41c6-9375-a44f5beeb11a">minPositionSizeUsd</p>=
+</td>
+<td data-local-id=3D"4bec02f2-8bb6-4d9e-a9ea-0e4e9e150ce2" class=3D"conflue=
+nceTd">
+<p local-id=3D"856af5c6-ddce-44b7-862e-d50a95f174a5">&nbsp;30</p></td>
+<td data-local-id=3D"d1a42a50-e0ad-4fee-aab0-f34cf30ce9c9" class=3D"conflue=
+nceTd">
+<p local-id=3D"08fc9972-0b97-4a18-9caf-4ba79f602c78">1 USD =3D 1E30</p></td=
+>
+<td data-local-id=3D"018cd229-2e1f-489b-86f0-a02128500b70" class=3D"conflue=
+nceTd">
+<p local-id=3D"8b0089d4-ee4d-45ba-8ea1-58a1086d4c79">=E6=9C=80=E5=B0=8F=E4=
+=BB=93=E4=BD=8D=E8=A7=84=E6=A8=A1=EF=BC=88USD=EF=BC=89</p></td>
+</tr>
+<tr data-local-id=3D"5ce01478-9791-4829-8713-039d4e263d22">
+<td data-local-id=3D"f7b2c0c1-ac71-41d9-9eb2-5843c40e9a5d" class=3D"conflue=
+nceTd">
+<p local-id=3D"939be638-3430-405b-a5c8-b5ffa779dcdc">claimableCollateralTim=
+eDivisor</p></td>
+<td data-local-id=3D"81545245-7c11-4db3-8339-9c811a919e24" class=3D"conflue=
+nceTd">
+<p local-id=3D"db216411-70dd-45af-abdd-82c9a8e41f40">&nbsp;second</p></td>
+<td data-local-id=3D"a51fc7ea-a2b3-40bd-ba19-7b886433df9f" class=3D"conflue=
+nceTd">
+<p local-id=3D"7b8dc2ea-867b-4afc-a64a-f829560d3d34">1s =3D 1</p></td>
+<td data-local-id=3D"14c5988a-7afb-4c84-957c-9a9218943707" class=3D"conflue=
+nceTd">
+<p local-id=3D"b6fba7d4-32c1-4e86-b8dd-f1fc38847b74">=E5=8F=AF=E9=A2=86=E5=
+=8F=96=E6=8A=B5=E6=8A=BC=E7=9A=84=E6=97=B6=E9=97=B4=E9=99=A4=E6=95=B0</p>
+<p local-id=3D"19acc8fb-4aef-461f-96d2-d85aea793a7d">=E6=AF=8F=E4=B8=AA ran=
+ge =E5=8F=AF=E4=BB=A5=E7=8B=AC=E7=AB=8B=E9=99=90=E5=88=B6=E5=8F=AF=E6=8F=90=
+=E5=8F=96=E7=9A=84=E6=95=B0=E9=87=8F</p></td>
+</tr>
+<tr data-local-id=3D"cb268cec-e160-4c0d-a944-4f5e0c964042">
+<td data-local-id=3D"f2228534-a719-4f88-8350-365983364130" class=3D"conflue=
+nceTd">
+<p local-id=3D"515e4601-8033-4593-8d24-514ea341851b">claimableCollateralDel=
+ay</p></td>
+<td data-local-id=3D"85814f31-8812-4ff1-a1fb-046537fbcf88" class=3D"conflue=
+nceTd">
+<p local-id=3D"5ec98cfc-a75a-44c9-aef0-13348ea5cb6d">&nbsp;second</p></td>
+<td data-local-id=3D"cb6e4d9a-6acf-43c4-9bc5-d2006ed21819" class=3D"conflue=
+nceTd">
+<p local-id=3D"bf7807d1-eff1-4efe-b593-b534a555fd32">60s =3D 60</p></td>
+<td data-local-id=3D"1478b2c3-4954-4be1-847a-53f8cc337e0a" class=3D"conflue=
+nceTd">
+<p local-id=3D"621b8498-7799-4f3d-b128-4464c6242228">=E6=8A=B5=E6=8A=BC=E5=
+=8F=AF=E9=A2=86=E5=8F=96=E7=9A=84=E5=BB=B6=E8=BF=9F=E6=97=B6=E9=97=B4=EF=BC=
+=88=E7=A7=92=EF=BC=89=EF=BC=8C=E8=B6=85=E8=BF=87=E8=BF=99=E4=B8=AA delay =
+=E5=B0=B1=E8=AE=A4=E4=B8=BA 100%=E5=8F=AF=E6=8F=90=E5=8F=96</p></td>
+</tr>
+<tr data-local-id=3D"0a990208-b394-4e5c-8f07-6550c752124c">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"d15b2f3b-0317-405f-9=
+2f9-bf777888c05a" class=3D"confluenceTd">
+<p local-id=3D"cc37f61b-628c-4e03-9926-5190a62a1988">positionFeeReceiverFac=
+tor</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"7394c7aa-d3d1-4d6f-8=
+221-16d8528e8fab" class=3D"confluenceTd">
+<p local-id=3D"2e3b6e65-3d90-4262-bf80-dacba6afeac5">&nbsp;30</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"33d728a4-d14d-41c7-8=
+e41-606dec6e02ea" class=3D"confluenceTd">
+<p local-id=3D"38193673-bda1-458c-b1ec-d787f17b326a">10%=3D1E29</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"58cd3e9f-2fac-4e26-a=
+388-6f0ca9817224" class=3D"confluenceTd">
+<p local-id=3D"6835ce95-4a88-47cf-9ecf-53ee2e30a130">=E6=8C=81=E4=BB=93=E8=
+=B4=B9=E7=94=A8=E5=88=86=E9=85=8D=E6=AF=94=E4=BE=8B</p></td>
+</tr>
+<tr data-local-id=3D"c0624355-b187-4c26-9adc-e3a5f53b905e">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"571bb9bb-6c17-4d77-9=
+d0d-9fbdb35598fc" class=3D"confluenceTd">
+<p local-id=3D"c9706593-7137-44bc-ad0d-e6a6c43a94fe">swapFeeReceiverFactor<=
+/p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"968aba18-d1bc-41ad-a=
+b80-b0f5996a787c" class=3D"confluenceTd">
+<p local-id=3D"f8708456-4b7f-4dc4-8177-d03b9b0af165">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"96e04253-6b39-4c1f-b=
+3f1-6dd5c78cdf46" class=3D"confluenceTd">
+<p local-id=3D"a1739bef-7e78-4260-82bb-1a236e89c6fc"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"710296b3-be0d-4429-a=
+346-cbe6c41c04b2" class=3D"confluenceTd">
+<p local-id=3D"01577152-cf5a-496b-9632-e7f56cfddc4f">=E4=BA=A4=E6=8D=A2=E8=
+=B4=B9=E7=94=A8=E5=88=86=E9=85=8D=E6=AF=94=E4=BE=8B</p></td>
+</tr>
+<tr data-local-id=3D"65514769-c749-4aea-aaaf-221c5fb61a3c">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"03a725ad-9c0d-4aae-9=
+6fe-8942702979a2" class=3D"confluenceTd">
+<p local-id=3D"3b6cdf5f-09fc-434a-b080-e39160425c34">borrowingFeeReceiverFa=
+ctor</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"cb8764e0-a090-4bed-b=
+c7b-905090b877e5" class=3D"confluenceTd">
+<p local-id=3D"0f8bd77e-9902-40cd-85c5-3c421555e2a2">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"d15942d2-f5bf-493e-b=
+4c2-5d59d571a147" class=3D"confluenceTd">
+<p local-id=3D"5adc47f0-1784-4126-8da2-75c7b092654b"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"34409186-5b15-4047-9=
+cef-4337ecf946fc" class=3D"confluenceTd">
+<p local-id=3D"5b663262-8aba-4086-8bd3-22ff5cc44553">=E5=80=9F=E8=B4=B7=E8=
+=B4=B9=E7=94=A8=E5=88=86=E9=85=8D=E6=AF=94=E4=BE=8B</p></td>
+</tr>
+<tr data-local-id=3D"de5af0ae-c677-460a-9eda-4c6a65412d0c">
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"3308cfe5-bc83-4074-8=
+c97-b43aa434c9e9" class=3D"confluenceTd">
+<p local-id=3D"65797e21-df2a-4b35-8f25-096fee5335a4">liquidationFeeReceiver=
+Factor</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"df54d65f-ba38-4a7d-8=
+b91-00ad0d8fa1f1" class=3D"confluenceTd">
+<p local-id=3D"738842ce-0752-4ab2-b1ce-3fd8f397a96a">&nbsp;</p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"9163162e-b5b4-4ffc-a=
+c0b-14c129bc295d" class=3D"confluenceTd">
+<p local-id=3D"839f0fe9-b300-49fd-bc9f-e0f5b3e1b1cd"></p></td>
+<td data-highlight-colour=3D"#b3f5ff" data-local-id=3D"cb287a86-4bfd-4a24-b=
+5b7-3d92fb4bfa33" class=3D"confluenceTd">
+<p local-id=3D"b319beae-d4fd-429c-9c69-4a2c12fc9efa">=E6=B8=85=E7=AE=97=E8=
+=B4=B9=E7=94=A8=E5=88=86=E9=85=8D=E6=AF=94=E4=BE=8B</p></td>
+</tr>
+<tr data-local-id=3D"c53b821a-5a0d-43df-9db2-a3c9f9260fb0">
+<td data-local-id=3D"2a6c7201-98eb-4d34-991b-edf2ee4e34c7" class=3D"conflue=
+nceTd">
+<p local-id=3D"e9f7314f-f475-4007-8b65-4d82dd424000">skipBorrowingFeeForSma=
+llerSide</p></td>
+<td data-local-id=3D"f345e208-518c-493e-a03f-bdade30dcf46" class=3D"conflue=
+nceTd">
+<p local-id=3D"6014d1ee-2670-4399-803b-93c71173f84f">&nbsp;bool</p></td>
+<td data-local-id=3D"8411b977-24a9-4f4b-a210-80f0a555afea" class=3D"conflue=
+nceTd">
+<p local-id=3D"3dd00327-b2bc-481a-9923-7f5847527711">true</p></td>
+<td data-local-id=3D"0e9119c2-11b0-4a07-b080-af5ce23c907e" class=3D"conflue=
+nceTd">
+<p local-id=3D"28828ad1-0d86-476f-bb03-814546a4b679">=E5=AF=B9=E8=BE=83=E5=
+=B0=8F=E4=BE=A7=E5=85=8D=E6=94=B6=E5=80=9F=E8=B4=B7=E8=B4=B9=E5=BC=80=E5=85=
+=B3</p></td>
+</tr>
+<tr data-local-id=3D"edc92a8c-0df7-4ad8-b27f-30ce042bd301">
+<td data-local-id=3D"f19afacc-eaef-45e0-a2f7-951191a5d40d" class=3D"conflue=
+nceTd">
+<p local-id=3D"78927ba3-fb0f-4606-9ee1-1bac2ca814f7">maxExecutionFeeMultipl=
+ierFactor</p></td>
+<td data-local-id=3D"2a20f358-12e2-4ea0-909e-46787ba92564" class=3D"conflue=
+nceTd">
+<p local-id=3D"3b694553-21b0-476d-9568-d3fc39fe8b46">&nbsp;30</p></td>
+<td data-local-id=3D"d8d4f780-087d-41d3-b5e8-50f3310b6f76" class=3D"conflue=
+nceTd">
+<p local-id=3D"cacc7e0d-fac1-4ef0-9518-b7cc7f7703d8">1 =3D 1E30</p></td>
+<td data-local-id=3D"5bac2ae3-2ebb-4f18-94bf-9d0595c5964c" class=3D"conflue=
+nceTd">
+<p local-id=3D"85c16193-a672-4337-9de6-099fc4be14b0">=E6=9C=80=E5=A4=A7=E6=
+=89=A7=E8=A1=8C=E8=B4=B9=E4=B9=98=E6=95=B0=E5=9B=A0=E5=AD=90=EF=BC=8C=E4=B8=
+=80=E8=88=AC=E5=B0=B1=E6=98=AF 1</p></td>
+</tr>
+<tr data-local-id=3D"bcada193-0b1d-46f8-9ca1-2fb3d4daa35f">
+<td data-local-id=3D"1dc9c784-46ad-4168-bde2-d819dfbc7cb0" class=3D"conflue=
+nceTd">
+<p local-id=3D"0830f023-d694-4304-8fec-3f89b1b7d0e2">oracleProviderMinChang=
+eDelay</p></td>
+<td data-local-id=3D"c96d9155-24f8-4a22-bed7-848652fee6fb" class=3D"conflue=
+nceTd">
+<p local-id=3D"c151e14e-d3d7-48e5-b143-adb919fbcc47">&nbsp;seconds</p></td>
+<td data-local-id=3D"fd95db29-a6f0-4ef4-ade8-f99d20f2fd09" class=3D"conflue=
+nceTd">
+<p local-id=3D"bf4f03a0-8eb3-430c-848d-b7853894ae85">1s =3D 1</p></td>
+<td data-local-id=3D"fa24b2ac-73eb-4345-b417-d78697662823" class=3D"conflue=
+nceTd">
+<p local-id=3D"c007d408-8874-4bbd-8285-63d581f4ce59">=E9=A2=84=E8=A8=80=E6=
+=9C=BA=E4=BE=9B=E5=BA=94=E5=95=86=E6=9C=80=E5=B0=8F=E5=8F=98=E6=9B=B4=E5=BB=
+=B6=E8=BF=9F=EF=BC=88=E7=A7=92=EF=BC=89=EF=BC=8C=E6=AF=8F=E6=AC=A1=E5=8F=98=
+=E6=9B=B4 token =E7=9A=84 provider =E7=9A=84=E9=97=B4=E9=9A=94=E4=B8=8D=E8=
+=83=BD=E4=BD=8E=E4=BA=8E=E8=BF=99=E4=B8=AA</p></td>
+</tr>
+<tr data-local-id=3D"ee5ed24c-01c7-42bc-b16f-3903679768bc">
+<td data-local-id=3D"fcaf94fe-518b-455f-b808-f70b34e47920" class=3D"conflue=
+nceTd">
+<p local-id=3D"0f6ce903-230c-4966-825d-9c33a377bb02">configMaxPriceAge</p><=
+/td>
+<td data-local-id=3D"87264616-9ca2-4f79-b368-3aef75c6f7f3" class=3D"conflue=
+nceTd">
+<p local-id=3D"566ed932-1e15-4df7-a67f-98bcd41f95d3">&nbsp;second</p></td>
+<td data-local-id=3D"83cdecc3-4b93-42b0-bfbc-e14676bdb281" class=3D"conflue=
+nceTd">
+<p local-id=3D"b203fbc8-3de1-4d95-aba9-4c2640fc7ed2">1s =3D 1</p></td>
+<td data-local-id=3D"d6b0152c-c32e-4ce5-bf55-d514635c1301" class=3D"conflue=
+nceTd">
+<p local-id=3D"55d6a3a9-8b02-41cc-ae73-5189e72aa241">=E9=85=8D=E7=BD=AE=E5=
+=85=81=E8=AE=B8=E7=9A=84=E6=9C=80=E5=A4=A7=E4=BB=B7=E6=A0=BC=E5=B9=B4=E9=BE=
+=84=EF=BC=88=E7=A7=92=EF=BC=89</p></td>
+</tr>
+<tr data-local-id=3D"4543dccf-2a65-477f-a38a-37f450aaf568">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"ca1308bc-6f49-4a70-9=
+18e-4c869d89bb7e" class=3D"confluenceTd">
+<p local-id=3D"129ecc90-d040-40b1-a585-ef00623162fd">gelatoRelayFeeMultipli=
+erFactor</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"751b1837-7dcb-4a25-8=
+f3d-1e406bd7f66a" class=3D"confluenceTd">
+<p local-id=3D"a48f4bca-9edc-41ac-bb88-4978eb82404d">&nbsp;30</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"b30ca8b8-29ab-41e8-8=
+93b-40c0e9cbfc20" class=3D"confluenceTd">
+<p local-id=3D"b1295fc8-d676-4386-8d4f-2acd2ea2987a"></p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"72bfe80b-beba-428d-a=
+d68-47d52415e7fa" class=3D"confluenceTd">
+<p local-id=3D"cc2287ba-f4d2-4602-9a5f-a22b998d4635">Gelato =E4=B8=AD=E7=BB=
+=A7=E8=B4=B9=E7=94=A8=E4=B9=98=E6=95=B0=E5=9B=A0=E5=AD=90=EF=BC=8C<span dat=
+a-colorid=3D"f8daqtt6hm">=E8=BF=99=E4=B8=AA=E6=84=9F=E8=A7=89=E5=85=88=E4=
+=B8=8D=E9=9C=80=E8=A6=81=E8=80=83=E8=99=91=EF=BC=8C=E6=98=AF=E5=9F=BA=E4=BA=
+=8E gelato =E4=BB=A3=E4=BB=98=E7=94=A8=E6=88=B7=E7=9A=84 gas fee =E7=9A=84=
+=E4=BC=98=E6=83=A0=E5=8A=9F=E8=83=BD</span></p></td>
+</tr>
+<tr data-local-id=3D"3b44acb4-1a15-4c5c-bdb9-65a830cd07b0">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"732e10be-5194-4a8e-b=
+438-556d1545fd6b" class=3D"confluenceTd">
+<p local-id=3D"c67e2f01-b011-40ac-90cd-d6db8488e12c">gelatoRelayFeeBaseAmou=
+nt</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"6a43047c-41c1-40ac-9=
+2d9-3b6ab1dcf69f" class=3D"confluenceTd">
+<p local-id=3D"ef154cb3-18d5-4b36-ab4b-0d758b9c0c25">&nbsp;</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"69ecf95d-77fc-419c-8=
+e7f-75d2d19bb1c0" class=3D"confluenceTd">
+<p local-id=3D"796630a2-434f-4f25-8736-d6cd4d7088bb"></p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"68ea6381-c3d3-416e-8=
+517-b9d668ce2d79" class=3D"confluenceTd">
+<p local-id=3D"d451d7ff-f248-4c7c-bfcc-64161cb47f31">Gelato =E4=B8=AD=E7=BB=
+=A7=E5=9F=BA=E7=A1=80 Gas =E9=87=8F</p></td>
+</tr>
+<tr data-local-id=3D"1ee0a45b-418e-4330-8e53-629d79064ddb">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"0c91ba5a-4de4-4231-b=
+b01-fc929d9dc934" class=3D"confluenceTd">
+<p local-id=3D"6d4f55f5-7d80-4122-93a1-eddc43d3c059">relayFeeAddress</p></t=
+d>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"8080fb47-237b-45ce-b=
+ecc-47c1bb8492a1" class=3D"confluenceTd">
+<p local-id=3D"02df61ac-96cd-4d8f-81bb-0a27f58c3c73">&nbsp;</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"1e4493be-8968-4b70-8=
+fe3-d7f3f2332ddd" class=3D"confluenceTd">
+<p local-id=3D"17b09a17-48e3-4f99-90c2-3a2dafc5d7a7"></p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"e7685917-c971-4405-a=
+908-635ffaee930d" class=3D"confluenceTd">
+<p local-id=3D"54b2f2bc-5b3e-4811-ae16-67738c3fa191">=E4=B8=AD=E7=BB=A7=E8=
+=B4=B9=E7=94=A8=E6=8E=A5=E6=94=B6=E5=9C=B0=E5=9D=80</p></td>
+</tr>
+<tr data-local-id=3D"21726662-606b-430a-9a5c-bc7b1ed5ed16">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"493e2ec7-bbeb-4d2a-9=
+2cc-46c35d0d1cb3" class=3D"confluenceTd">
+<p local-id=3D"0efc9392-1dc9-4617-bf9f-0bce910b3bdd">maxRelayFeeUsdForSubac=
+count</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"26192374-8cea-4a6d-b=
+eba-a5f26d08272b" class=3D"confluenceTd">
+<p local-id=3D"635b0b0f-84bf-4578-bd8c-f6e50775caca">&nbsp;</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"e7737513-bbda-41d3-a=
+be6-68e9e0046541" class=3D"confluenceTd">
+<p local-id=3D"5563386d-3fbf-40a3-bd46-7231e7a9e176"></p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"81f17429-dbf3-450e-9=
+974-98a9e8e8224e" class=3D"confluenceTd">
+<p local-id=3D"844d8e61-47c4-459a-9c62-df8f6cca29fa">=E5=AD=90=E8=B4=A6=E6=
+=88=B7=E5=8F=AF=E7=94=A8=E7=9A=84=E4=B8=AD=E7=BB=A7=E8=B4=B9=E4=B8=8A=E9=99=
+=90=EF=BC=88USD=EF=BC=89</p></td>
+</tr>
+<tr data-local-id=3D"6ab0f6ea-8449-4280-9f5c-0376b0b7a03c">
+<td data-local-id=3D"def00ec1-be3d-4c6f-9b1f-1e1c508e72ac" class=3D"conflue=
+nceTd">
+<p local-id=3D"a30a4dd7-1dde-46c3-b273-bfd994357023">maxDataLength</p></td>
+<td data-local-id=3D"b392abdf-9fd4-46c4-9fee-757c8c6e44f7" class=3D"conflue=
+nceTd">
+<p local-id=3D"d0c4c356-dd69-44bf-8c13-5555192c37b6">&nbsp;1</p></td>
+<td data-local-id=3D"2b4276dc-ce10-483c-adac-26e113c811fc" class=3D"conflue=
+nceTd">
+<p local-id=3D"88da05f9-3b41-4105-a7a0-1f6c2b5527f0">10</p></td>
+<td data-local-id=3D"f659e375-0357-45f4-bb05-f8cba3b88780" class=3D"conflue=
+nceTd">
+<p local-id=3D"90e40aba-8481-4d21-9fba-4e9128f325d5">=E6=9C=80=E5=A4=A7=E6=
+=95=B0=E6=8D=AE=E9=95=BF=E5=BA=A6</p></td>
+</tr>
+<tr data-local-id=3D"b8a823e8-d798-432b-9edf-3f3c31c25807">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"4b01116b-9515-4baf-b=
+088-4dbccc0e91ab" class=3D"confluenceTd">
+<p local-id=3D"3e866864-6b09-4728-b55b-6569939fa690">multichainProviders</p=
+></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"e95e1cbe-38df-4bf2-a=
+b91-d283de3b208b" class=3D"confluenceTd">
+<p local-id=3D"5ef7fb29-9a47-4597-82db-dfba944c9649">&nbsp;</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"a734c1b0-5cd0-4d22-b=
+2c5-50d5de25b4cd" class=3D"confluenceTd">
+<p local-id=3D"4c486973-e7ef-4730-88d8-b66cf490620d"></p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"e49ac25c-d7eb-4a14-8=
+1fa-d8b23395647e" class=3D"confluenceTd">
+<p local-id=3D"5d4d2123-ab9e-44e0-898a-7f7d9a9cebf5">=E8=B7=A8=E9=93=BE=E6=
+=8F=90=E4=BE=9B=E8=80=85=E7=99=BD=E5=90=8D=E5=8D=95=EF=BC=88=E5=9C=B0=E5=9D=
+=80=E2=86=92=E6=98=AF=E5=90=A6=E5=90=AF=E7=94=A8=EF=BC=89</p></td>
+</tr>
+<tr data-local-id=3D"672f1466-5ab1-4909-bda8-ede6fe62cb52">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"913f5135-229c-4261-a=
+1a7-658bd2997add" class=3D"confluenceTd">
+<p local-id=3D"0af78a6c-40e0-4294-8847-1f02f503d564">multichainEndpoints</p=
+></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"c0d4358a-0cfa-497d-9=
+2b7-03f75ed77f0b" class=3D"confluenceTd">
+<p local-id=3D"eb10be6b-8f46-40ff-8f9d-6eaa72ddd26a">&nbsp;</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"7dcd74c6-1df0-4562-a=
+fb0-7709ef5d5165" class=3D"confluenceTd">
+<p local-id=3D"6f76b476-0563-40a2-aaff-eba4755695e7"></p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"03a548a4-92f4-4db3-b=
+974-7cfc73cf3ebd" class=3D"confluenceTd">
+<p local-id=3D"0481ee84-9d10-462d-9a3f-385bfcecc579">=E8=B7=A8=E9=93=BE=E7=
+=AB=AF=E7=82=B9=E7=99=BD=E5=90=8D=E5=8D=95=EF=BC=88=E5=9C=B0=E5=9D=80=E2=86=
+=92=E6=98=AF=E5=90=A6=E5=90=AF=E7=94=A8=EF=BC=89</p></td>
+</tr>
+<tr data-local-id=3D"158046c8-7e80-4a32-8adf-de21870e0bd5">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"eb719f1b-16a0-4b3f-9=
+a0f-14a004331d9b" class=3D"confluenceTd">
+<p local-id=3D"bc982e16-6d35-4771-8c95-df56ac0fc341">srcChainIds</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"e124b1f3-0e04-4e57-9=
+ce2-0482e897fefb" class=3D"confluenceTd">
+<p local-id=3D"352aff19-fca6-4b36-8b76-bbb686f1ebf0">&nbsp;</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"84b26537-b504-4f86-a=
+5e0-4b31c081aecf" class=3D"confluenceTd">
+<p local-id=3D"afe88af2-a3d3-4f3c-b827-9d49958cf62c"></p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"400a3811-c7a3-4250-9=
+234-989dd255390e" class=3D"confluenceTd">
+<p local-id=3D"a41d9f1d-3a26-4935-af29-c356069bcd7c">=E6=BA=90=E9=93=BE ID =
+=E7=99=BD=E5=90=8D=E5=8D=95=EF=BC=88=E9=93=BE ID=E2=86=92=E6=98=AF=E5=90=A6=
+=E5=90=AF=E7=94=A8=EF=BC=89</p></td>
+</tr>
+<tr data-local-id=3D"4663d31b-13f9-43d2-9f67-0b15e924c4c3">
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"e0872319-1145-41b2-a=
+ed8-638f041d13ab" class=3D"confluenceTd">
+<p local-id=3D"b35f752c-19cd-41ab-a0bb-725574f6d7cf">eids</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"d4c506be-3a59-4cc8-8=
+d5c-18b61b41d604" class=3D"confluenceTd">
+<p local-id=3D"c6821434-e0c3-44d0-895f-793af6b404ea">&nbsp;</p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"16c223ad-be91-48f2-a=
+911-83f89d30b851" class=3D"confluenceTd">
+<p local-id=3D"68cfd2da-bfa5-42c1-8b13-167cb162fa9e"></p></td>
+<td data-highlight-colour=3D"#fff0b3" data-local-id=3D"c522ccc6-0a7b-471e-a=
+e2c-04f8b0308d0e" class=3D"confluenceTd">
+<p local-id=3D"73224c4a-fae9-4602-b6dd-73925ba9cca4">=E8=B7=A8=E9=93=BE=E7=
+=AB=AF=E7=82=B9=E7=BC=96=E5=8F=B7=E6=98=A0=E5=B0=84=EF=BC=88=E9=93=BE ID=E2=
+=86=92=E7=AB=AF=E7=82=B9 ID=EF=BC=89</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_28_1942584812.1772270916003--

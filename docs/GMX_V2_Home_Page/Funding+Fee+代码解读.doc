@@ -1,0 +1,599 @@
+Date: Sat, 28 Feb 2026 09:26:36 +0000 (UTC)
+Message-ID: <1820906290.19.1772270796856@6ebb4c93163f>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_18_101028654.1772270796855"
+
+------=_Part_18_101028654.1772270796855
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Funding Fee =E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Funding Fee =E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB</h1>
+    <div class=3D"Section1">
+        <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1772270796844 {padding: 0px;}
+div.rbtoc1772270796844 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1772270796844 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1772270796844">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#FundingFee=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-1.FundingFee=
+=E5=A6=82=E4=BD=95=E8=AE=A1=E7=AE=97=EF=BC=9F">1. Funding Fee =E5=A6=82=E4=
+=BD=95=E8=AE=A1=E7=AE=97=EF=BC=9F</a></li>
+<li><a href=3D"#FundingFee=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-2.FundingFee=
+Rate=E5=A6=82=E4=BD=95=E8=AE=A1=E7=AE=97=EF=BC=9F">2. Funding Fee Rate =E5=
+=A6=82=E4=BD=95=E8=AE=A1=E7=AE=97=EF=BC=9F</a></li>
+<li><a href=3D"#FundingFee=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-3.FundingFee=
+=E4=BD=95=E6=97=B6=E6=9B=B4=E6=96=B0=EF=BC=9F">3. Funding Fee =E4=BD=95=E6=
+=97=B6=E6=9B=B4=E6=96=B0=EF=BC=9F</a></li>
+<li><a href=3D"#FundingFee=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-4.FundingFee=
+=E5=A6=82=E4=BD=95=E6=8F=90=E5=8F=96=EF=BC=9F">4. Funding Fee =E5=A6=82=E4=
+=BD=95=E6=8F=90=E5=8F=96=EF=BC=9F</a></li>
+</ul>
+</div>
+<h2 id=3D"FundingFee=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-1.FundingFee=E5=A6=
+=82=E4=BD=95=E8=AE=A1=E7=AE=97=EF=BC=9F">1. Funding Fee =E5=A6=82=E4=BD=95=
+=E8=AE=A1=E7=AE=97=EF=BC=9F</h2>
+<p><a class=3D"external-link" href=3D"https://github.com/gmx-io/gmx-synthet=
+ics/blob/ee721b7e2d1891312dde52964d774144208cd1a0/contracts/market/MarketUt=
+ils.sol#L1916C5-L1941C6" rel=3D"nofollow">MarketUtils.getFundingAmount</a><=
+/p>
+<p>=E7=AE=97=E6=B3=95=E6=AF=94=E8=BE=83=E7=AE=80=E5=8D=95=EF=BC=8C=E5=9C=A8=
+=E8=AE=A1=E7=AE=97=E6=97=B6=E7=9B=B4=E6=8E=A5=E6=B1=82=E4=B8=A4=E6=AC=A1 cu=
+mulativeFundingFactor =E5=B7=AE=E5=80=BC=E4=B9=98=E4=BB=A5 position size =
+=E5=8D=B3=E5=8F=AF=E3=80=82</p>
+<p>=E5=9B=A0=E4=B8=BA=E8=BF=99=E9=87=8C=E7=9A=84 factor =E5=B7=B2=E7=BB=8F=
+=E6=8A=BD=E8=B1=A1=E6=88=90=E4=BA=86 per size =E7=9A=84=E6=A6=82=E5=BF=B5=
+=E3=80=82</p>
+<hr>
+<h2 id=3D"FundingFee=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-2.FundingFeeRate=
+=E5=A6=82=E4=BD=95=E8=AE=A1=E7=AE=97=EF=BC=9F">2. Funding Fee Rate =E5=A6=
+=82=E4=BD=95=E8=AE=A1=E7=AE=97=EF=BC=9F</h2>
+<p><a class=3D"external-link" href=3D"https://github.com/gmx-io/gmx-synthet=
+ics/blob/caf3dd8b51ad9ad27b0a399f668e3016fd2c14df/contracts/market/MarketUt=
+ils.sol#L1261-L1385" rel=3D"nofollow">MarketUtils.getNextFundingFactorPerSe=
+cond</a></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">F =3D f=
+unding factor per second
+L =3D Long open interest
+S =3D Short open interest
+e =3D Funding exponent factor
+
+Fi =3D Funding increase factor per sec
+Fd =3D Funding decrease factor per sec
+F_min =3D min funding factor per sec
+F_max =3D max funding factor per sec
+F_market =3D Funding factor for this market
+
+f =3D |L - S| ^ e / (L + S)
+
+if Fi =3D 0
+   F =3D min(f * F_market, F_max)
+
+F0 =3D Saved funding factor per second
+F0 &gt; 0 =3D longs pay shorts
+F0 &lt; 0 =3D shorts pay longs
+
+Ts =3D Threshold for stable funding
+Td =3D Threshold for decrease funding
+
+if (F0 &gt; 0 and L &gt; S) or (F0 &lt; 0 and L &lt; S)
+   if f &gt; Ts
+      increase funding rate
+   else if f &lt; Td
+      decrease funding rate
+else
+   increase funding rate
+
+if funding rate increase
+   F =3D F0 +/- f * Fi * dt (sign depends on direction of next funding)
+
+if funding rate decrease
+   if |F0| &lt;=3D Fd * dt
+      F =3D F0 / |F0|
+   else
+      F =3D (|F0| - Fd * dt) * F0 / |F0|
+
+s =3D F / |F|
+F =3D s * min(|F|, F_max)
+F =3D s * max(|F|, F_min)</pre>
+</div>
+</div>
+<p>=E8=BF=99=E4=B8=AA=E7=AE=97=E6=B3=95=E7=9C=8B=E8=B5=B7=E6=9D=A5=E6=9E=81=
+=E5=85=B6=E5=A4=8D=E6=9D=82=EF=BC=8C=E4=B8=8B=E9=9D=A2=E5=88=86=E6=AD=A5=E8=
+=BF=9B=E8=A1=8C=E8=A7=A3=E9=87=8A=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">=E6=8F=
+=90=E7=A4=BA=EF=BC=9A=E5=B0=8F=E5=86=99=E7=9A=84 f =E7=90=86=E8=A7=A3=E4=B8=
+=BA=E5=A4=B1=E8=A1=A1=E6=AF=94=E4=BE=8B factor=EF=BC=8C=E5=8A=A8=E6=80=81=
+=E8=AE=A1=E7=AE=97=E5=BE=97=E5=88=B0=E7=9A=84=EF=BC=9B=E5=A4=A7=E5=86=99=E7=
+=9A=84 F_? =E9=83=BD=E6=98=AF=E9=85=8D=E7=BD=AE=E3=80=82
+
+-----------------------------------------------------
+
+1. =E8=AE=A1=E7=AE=97=E5=A4=B1=E8=A1=A1=E7=A8=8B=E5=BA=A6
+f =3D |L - S| ^ e / (L + S)
+=E8=BF=99=E9=87=8C=E7=94=A8=E6=8C=87=E6=95=B0=E6=94=BE=E5=A4=A7=E4=BA=86=E5=
+=A4=B1=E8=A1=A1=E6=AF=94=E4=BE=8B=E3=80=82=E5=A6=82=E6=9E=9C=E5=AE=8C=E5=85=
+=A8=E5=B9=B3=E8=A1=A1=EF=BC=8C=E5=88=99 L =3D=3D S=EF=BC=8Cf =3D 0=E3=80=82
+
+-----------------------------------------------------
+
+2. =E6=83=85=E5=86=B5 1=EF=BC=88=E9=9D=99=E6=80=81=E7=AE=97=E6=B3=95=EF=BC=
+=89
+if Fi =3D 0
+   F =3D min(f * F_market, F_max)
+=E8=BF=99=E9=87=8C=E7=9A=84=E5=90=AB=E4=B9=89=E6=98=AF=EF=BC=8C=E8=B5=84=E9=
+=87=91=E8=B4=B9=E7=8E=87=E4=B8=8D=E8=BF=9B=E8=A1=8C=E5=8A=A8=E6=80=81=E8=B0=
+=83=E6=95=B4=EF=BC=8C=E7=9B=B4=E6=8E=A5=E8=AE=A9=E8=B5=84=E9=87=91=E8=B4=B9=
+=E7=8E=87 =3D =E5=A4=B1=E8=A1=A1=E7=A8=8B=E5=BA=A6 x =E5=9F=BA=E5=87=86=E8=
+=B4=B9=E7=8E=87=E5=8E=BB=E8=AE=A1=E7=AE=97=EF=BC=88=E4=B8=8D=E8=B6=85=E8=BF=
+=87=E4=B8=8A=E9=99=90=EF=BC=89=E3=80=82
+=E8=BF=99=E9=87=8C=E5=8F=AF=E4=BB=A5=E6=8F=90=E5=89=8D=E8=BF=94=E5=9B=9E=EF=
+=BC=8C=E4=BD=9C=E4=B8=BA=E8=AE=A1=E7=AE=97=E7=9A=84=E4=B8=80=E4=B8=AA=E5=88=
+=86=E6=94=AF=EF=BC=88=E9=9D=99=E6=80=81=E7=AE=97=E6=B3=95=EF=BC=89=E3=80=82
+
+-----------------------------------------------------
+
+// =E6=8E=A5=E4=B8=8B=E6=9D=A5=E8=BF=9B=E5=85=A5=E6=83=85=E5=86=B5 2 =E5=8A=
+=A8=E6=80=81=E7=AE=97=E6=B3=95=EF=BC=8C=E5=8A=A8=E6=80=81=E7=9A=84=E8=B0=83=
+=E6=95=B4=E8=B5=84=E9=87=91=E8=B4=B9=E7=8E=87
+
+-----------------------------------------------------
+
+3. =E5=88=A4=E6=96=AD=E8=B4=B9=E7=94=A8=E6=96=B9=E5=90=91
+F0 &gt; 0  =E2=86=92 =E5=A4=9A=E5=A4=B4=E6=94=AF=E4=BB=98=E7=A9=BA=E5=A4=B4
+F0 &lt; 0  =E2=86=92 =E7=A9=BA=E5=A4=B4=E6=94=AF=E4=BB=98=E5=A4=9A=E5=A4=B4
+F0 =E6=98=AF=E4=B8=8A=E6=AC=A1=E8=AE=B0=E5=BD=95=E7=9A=84 F=EF=BC=8C=E9=80=
+=9A=E8=BF=87=E6=AD=A3=E8=B4=9F=E5=88=A4=E6=96=AD=E6=B5=81=E5=90=91=EF=BC=8C=
+=E5=92=8C CEX =E4=B8=80=E8=87=B4=E3=80=82
+
+-----------------------------------------------------
+
+4. =E5=88=A4=E6=96=AD=E6=98=AF=E5=90=A6=E9=9C=80=E8=A6=81=E4=B8=8A=E8=B0=83=
+=E6=88=96=E4=B8=8B=E8=B0=83=E8=B5=84=E9=87=91=E8=B4=B9=E7=8E=87=EF=BC=8C=E8=
+=BF=99=E9=87=8C=E6=98=AF=E5=8A=A8=E6=80=81=E7=AE=97=E6=B3=95=E7=9A=84=E4=B8=
+=80=E4=B8=AA=E5=85=B3=E9=94=AE=E7=82=B9
+if (F0 &gt; 0 and L &gt; S) or (F0 &lt; 0 and L &lt; S)
+   if f &gt; Ts
+      increase funding rate
+   else if f &lt; Td
+      decrease funding rate
+else
+   increase funding rate
+- =E5=BD=93=E8=B5=84=E9=87=91=E8=B4=B9=E7=8E=87=E6=96=B9=E5=90=91=EF=BC=88F=
+0 =E6=AD=A3=E8=B4=9F=EF=BC=89=E4=B8=8E=E5=B8=82=E5=9C=BA=E5=A4=B1=E8=A1=A1=
+=E6=96=B9=E5=90=91=E4=B8=80=E8=87=B4=E6=97=B6=EF=BC=9A
+  - =E5=A6=82=E6=9E=9C=E5=A4=B1=E8=A1=A1=E8=BF=98=E5=9C=A8=E6=89=A9=E5=A4=
+=A7=EF=BC=88f &gt; Ts=EF=BC=89=EF=BC=8C=E5=B0=B1=E7=BB=A7=E7=BB=AD=E5=A2=9E=
+=E5=8A=A0=E8=B5=84=E9=87=91=E8=B4=B9=E7=8E=87=EF=BC=9B
+  - =E5=A6=82=E6=9E=9C=E5=B8=82=E5=9C=BA=E5=9B=9E=E5=BD=92=E5=B9=B3=E8=A1=
+=A1=EF=BC=88f &lt; Td=EF=BC=89=EF=BC=8C=E5=B0=B1=E9=99=8D=E4=BD=8E=E8=B5=84=
+=E9=87=91=E8=B4=B9=E7=8E=87=E3=80=82
+- =E5=90=A6=E5=88=99=EF=BC=88=E6=96=B9=E5=90=91=E5=8F=8D=E4=BA=86=EF=BC=8C=
+=E6=AF=94=E5=A6=82=E5=A4=9A=E5=A4=B4=E5=A4=9A=E4=BD=86=E5=BD=93=E5=89=8D=E6=
+=98=AF=E7=A9=BA=E5=A4=B4=E4=BB=98=E8=B4=B9=EF=BC=89=EF=BC=8C=E5=B0=B1=E7=AB=
+=8B=E5=8D=B3=E5=A2=9E=E5=8A=A0=E8=B5=84=E9=87=91=E8=B4=B9=E7=8E=87=EF=BC=88=
+=E5=8F=8D=E8=BD=AC=EF=BC=89=E3=80=82
+
+-----------------------------------------------------
+
+5. =E5=BC=80=E5=A7=8B=E8=B0=83=E6=95=B4=E8=B5=84=E9=87=91=E8=B4=B9=E7=8E=87
+
+=E5=A6=82=E6=9E=9C=E6=98=AF=E4=B8=8A=E8=B0=83=EF=BC=9A
+F =3D F0 =C2=B1 f * Fi * dt
+- =E7=AC=A6=E5=8F=B7=E5=8F=96=E5=86=B3=E4=BA=8E=E8=B0=81=E5=9C=A8=E4=BB=98=
+=E8=B4=B9=EF=BC=88=E6=96=B9=E5=90=91=E4=B8=8E=E4=B8=8B=E4=B8=80=E8=BD=AE=E4=
+=B8=80=E8=87=B4=EF=BC=89=E3=80=82
+- Fi * dt =E6=8E=A7=E5=88=B6=E4=B8=8A=E8=B0=83=E9=80=9F=E7=8E=87=E3=80=82
+- f =E6=8E=A7=E5=88=B6=E8=B0=83=E6=95=B4=E5=B9=85=E5=BA=A6=E2=80=94=E2=80=
+=94=E5=A4=B1=E8=A1=A1=E8=B6=8A=E5=A4=A7=EF=BC=8C=E5=8F=98=E5=8C=96=E8=B6=8A=
+=E5=BF=AB=E3=80=82
+
+=E5=8F=8D=E4=B9=8B=E5=88=99=E4=B8=8B=E8=B0=83=EF=BC=9A
+if |F0| &lt;=3D Fd * dt=E3=80=82   // =E4=B8=8B=E8=B0=83=E7=9A=84=E5=B9=85=
+=E5=BA=A6=EF=BC=8C=E8=B6=85=E5=87=BA=E4=BA=86=E5=BD=93=E5=89=8D=E5=AD=98=E5=
+=9C=A8=E7=9A=84=E8=B4=B9=E7=8E=87=EF=BC=8C=E8=B5=84=E9=87=91=E8=B4=B9=E8=BF=
+=98=E6=98=AF=E8=A6=81=E6=94=B6=EF=BC=8C=E4=B8=8D=E8=83=BD=E5=85=8D=E6=8E=89
+   F =3D F0 / |F0|       // =E5=9B=A0=E6=AD=A4=E6=96=B9=E5=90=91=E4=B8=8D=
+=E5=8F=98=E7=9A=84=E5=90=8C=E6=97=B6=EF=BC=8C=E5=BD=92=E4=B8=80=EF=BC=8C=E5=
+=90=8E=E7=BB=AD=E6=9C=89=E5=8C=BA=E9=97=B4=E8=B0=83=E6=95=B4
+else
+   F =3D (|F0| - Fd * dt) * F0 / |F0| =E5=90=8E=E9=9D=A2=E8=BF=99=E4=B8=AA =
+'F0 / |F0|' =E4=B9=9F=E6=98=AF=E8=AE=A1=E7=AE=97=E6=96=B9=E5=90=91=E8=80=8C=
+=E5=B7=B2
+
+-----------------------------------------------------
+
+6. =E5=8C=BA=E9=97=B4 cap
+s =3D F / |F|
+F =3D s * min(|F|, F_max)
+F =3D s * max(|F|, F_min)
+=E9=99=90=E5=88=B6=E7=BB=93=E6=9E=9C=E5=9C=A8=E5=8C=BA=E9=97=B4=E5=86=85=EF=
+=BC=8C=E5=90=8C=E6=97=B6=E4=BF=9D=E7=95=99=E7=AC=A6=E5=8F=B7=E3=80=82</pre>
+</div>
+</div>
+<p></p>
+<p>=E6=B3=A8=E6=84=8F=EF=BC=8C=E4=B8=8A=E9=9D=A2=E8=AE=A1=E7=AE=97=E7=9A=84=
+ F =E6=98=AF funding rate per second=E3=80=82</p>
+<ul>
+<li>
+<p>=E6=8B=BF=E8=BF=99=E4=B8=AA F * duration =E8=AE=A1=E7=AE=97=E5=87=BA fun=
+ding USD=EF=BC=8C=E4=B9=9F=E5=B0=B1=E6=98=AF=E8=B5=84=E9=87=91=E8=B4=B9=E6=
+=80=BB=E9=A2=9D</p></li>
+<li>
+<p>=E5=86=8D=E7=94=A8 funding USD / OI=EF=BC=8C=E5=B0=B1=E8=AE=A1=E7=AE=97=
+=E5=87=BA=E4=BA=86 funding factor per size=E3=80=82=EF=BC=88=E5=9B=A0=E4=B8=
+=BA=E8=B5=84=E9=87=91=E8=B4=B9=E6=98=AF=E6=96=B9=E5=90=91=E4=B8=8A=E6=89=80=
+=E6=9C=89=E4=BB=93=E4=BD=8D=E5=85=B1=E4=BA=AB=EF=BC=8C=E5=9B=A0=E6=AD=A4=E8=
+=BD=AC=E5=8C=96=E4=B8=BA factor per size =E6=89=8D=E8=83=BD=E8=AE=A1=E7=AE=
+=97=E6=AF=8F=E4=B8=AA=E4=BB=93=E4=BD=8D=E5=88=86=E5=88=AB=E5=BA=94=E8=AF=A5=
+=E6=94=AF=E4=BB=98=E5=A4=9A=E5=B0=91=E8=B4=B9=E7=94=A8=EF=BC=89=E3=80=82</p=
+></li>
+</ul>
+<p>=E5=9F=BA=E4=BA=8E=E4=B8=8A=E9=9D=A2=E7=9A=84=E8=80=83=E8=99=91=EF=BC=8C=
+=E7=BB=93=E5=90=88=E5=AE=9E=E9=99=85=E6=83=85=E5=86=B5=EF=BC=8C=E5=85=B6=E5=
+=AE=9E=E6=88=91=E4=BB=AC=E4=BC=9A=E5=BE=97=E5=88=B0 4 =E4=B8=AA=E5=80=BC=EF=
+=BC=8C=E5=9B=A0=E4=B8=BA GMX =E5=81=9A=E5=A4=9A=EF=BC=8C=E5=8F=AF=E4=BB=A5=
+=E7=94=A8 market.LongToken =E6=9D=A5=E5=81=9A=EF=BC=8C=E4=B9=9F=E5=8F=AF=E4=
+=BB=A5=E7=94=A8 ShortToken =E6=9D=A5=E5=81=9A=EF=BC=8C=E5=9B=A0=E6=AD=A4=E6=
+=88=91=E4=BB=AC=E6=9C=89 2 =E6=96=B9=E5=90=91 * 2 token =3D 4=E4=B8=AA fact=
+or_per_size =E5=80=BC=E3=80=82=E5=85=B7=E4=BD=93=E4=BB=A3=E7=A0=81=E7=9C=8B=
+=E8=BF=99=E9=87=8C=EF=BC=9A<a class=3D"external-link" href=3D"https://githu=
+b.com/gmx-io/gmx-synthetics/blob/ee721b7e2d1891312dde52964d774144208cd1a0/c=
+ontracts/market/MarketUtils.sol#L1323C5-L1483C6" rel=3D"nofollow">MarketUti=
+ls.getNextFundingAmountPerSize</a>=E3=80=82</p>
+<p>=E5=90=8C=E6=A0=B7=E7=9A=84=EF=BC=8C=E8=AE=A1=E7=AE=97=E4=BA=86=E5=BA=94=
+=E8=AF=A5 pay =E5=A4=9A=E5=B0=91 funding fee=EF=BC=8C=E8=BF=98=E4=BC=9A=E5=
+=AF=B9=E5=BA=94=E7=9A=84=E8=AE=B0=E5=BD=95=E5=AF=B9=E6=89=8B=E6=96=B9=E5=8F=
+=AF=E4=BB=A5 claim =E5=A4=9A=E5=B0=91 funding fee=E3=80=82=E5=9B=A0=E6=AD=
+=A4=E5=9C=A8=E4=B8=8A=E9=9D=A2=E7=9A=84=E4=BB=A3=E7=A0=81=E4=B8=AD=EF=BC=8C=
+=E6=9C=89 8 =E4=B8=AA factor per size (4 pay + 4 claim)=E3=80=82=E5=BD=93=
+=E7=84=B6=EF=BC=8C=E6=AF=8F=E6=AC=A1=E8=AE=A1=E7=AE=97=EF=BC=8C=E6=96=B9=E5=
+=90=91=E6=98=AF=E7=A1=AE=E5=AE=9A=E7=9A=84=EF=BC=8C=E8=A6=81=E4=B9=88=E5=A4=
+=9A=E5=A4=B4=E6=94=AF=E4=BB=98=EF=BC=8C=E8=A6=81=E4=B9=88=E7=A9=BA=E5=A4=B4=
+=E6=94=AF=E4=BB=98=EF=BC=8C=E5=9B=A0=E6=AD=A4=E6=AF=8F=E6=AC=A1=E4=BC=9A=E6=
+=9B=B4=E6=96=B0 4 =E4=B8=AA factor per size ( pay long =E2=86=92 claim long=
+, pay short =E2=86=92 claim short)=E3=80=82</p>
+<p>=E4=B9=9F=E5=B0=B1=E6=98=AF=E8=AF=B4=EF=BC=8C=E5=9C=A8=E5=A4=9Apay=E7=A9=
+=BA=E7=9A=84=E6=83=85=E5=86=B5=E4=B8=8B=EF=BC=8C=E7=94=A8 long token =E5=81=
+=9A=E5=A4=9A=E7=9A=84=E4=BA=BA=EF=BC=8C=E9=9C=80=E8=A6=81=E6=94=AF=E4=BB=98=
+ long token=EF=BC=8C=E5=90=A6=E5=88=99=E6=94=AF=E4=BB=98 short token=EF=BC=
+=9B=E5=AF=B9=E4=BA=8E=E7=A9=BA=E5=A4=B4=E6=9D=A5=E8=AF=B4=EF=BC=8C=E4=BB=96=
+=E4=BB=AC=E6=8C=89=E7=85=A7=E8=87=AA=E5=B7=B1=E4=BB=93=E4=BD=8D=E6=89=80=E5=
+=8D=A0=E7=9A=84=E4=BB=BD=E9=A2=9D=EF=BC=8C=E5=8F=AF=E4=BB=A5=E5=90=8C=E6=97=
+=B6 claim long &amp;&amp; short token=E3=80=82</p>
+<hr>
+<h2 id=3D"FundingFee=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-3.FundingFee=E4=BD=
+=95=E6=97=B6=E6=9B=B4=E6=96=B0=EF=BC=9F">3. Funding Fee =E4=BD=95=E6=97=B6=
+=E6=9B=B4=E6=96=B0=EF=BC=9F</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Execute=
+OrderUtils.executeOrder
+=E2=94=9C=E2=94=80 PositionUtils.updateFundingAndBorrowingState (update fun=
+ding fee)
+=E2=94=82  =E2=94=94=E2=94=80 MarketUtils.updateFundingState
+=E2=94=94=E2=94=80 processOrder
+   =E2=94=94=E2=94=80 IncreaseOrderUtils.processOrder
+      =E2=94=94=E2=94=80 IncreasePositionUtils.increasePosition
+         =E2=94=9C=E2=94=80 if position.sizeInUsd =3D 0 (set funding fee to=
+ latest for new position)
+         =E2=94=82   =E2=94=9C=E2=94=80 position.setFundingFeeAmountPerSize
+         =E2=94=82   =E2=94=9C=E2=94=80 position.setLongTokenClaimableFundi=
+ngAmountPerSize
+         =E2=94=82   =E2=94=94=E2=94=80 position.setShortTokenClaimableFund=
+ingAmountPerSize
+         =E2=94=9C=E2=94=80 processCollateral
+         =E2=94=82   =E2=94=94=E2=94=80 PositionPricingUtils.getPositionFee=
+s
+         =E2=94=82      =E2=94=9C=E2=94=80 MarketUtils.getFundingFeeAmountP=
+erSize (get latest funding fees for position)
+         =E2=94=82      =E2=94=9C=E2=94=80 MarketUtils.getClaimableFundingA=
+mountPerSize
+         =E2=94=82      =E2=94=9C=E2=94=80 MarketUtils.getClaimableFundingA=
+mountPerSize
+         =E2=94=82      =E2=94=94=E2=94=80 getFundingFees (calculate fundin=
+g fees and claimable fees)
+         =E2=94=82         =E2=94=9C=E2=94=80 MarketUtils.getFundingAmount
+         =E2=94=82         =E2=94=9C=E2=94=80 MarketUtils.getFundingAmount
+         =E2=94=82         =E2=94=94=E2=94=80 MarketUtils.getFundingAmount
+         =E2=94=9C=E2=94=80 position.setCollateralAmount
+         =E2=94=9C=E2=94=80 PositionUtils.incrementClaimableFundingAmount (=
+store claimable funding fees)
+         =E2=94=82   =E2=94=94=E2=94=80 MarketUtils.incrementClaimableFundi=
+ngAmount
+         =E2=94=9C=E2=94=80 position.setFundingFeeAmountPerSize (update fun=
+ding fees to latest)
+         =E2=94=9C=E2=94=80 position.setLongTokenClaimableFundingAmountPerS=
+ize
+         =E2=94=94=E2=94=80 position.setShortTokenClaimableFundingAmountPer=
+Size
+
+ExecuteOrderUtils.executeOrder
+=E2=94=9C=E2=94=80 PositionUtils.updateFundingAndBorrowingState (update fun=
+ding fee)
+=E2=94=82  =E2=94=94=E2=94=80 MarketUtils.updateFundingState
+=E2=94=94=E2=94=80 processOrder
+   =E2=94=94=E2=94=80 DecreaseOrderUtils.processOrder
+      =E2=94=94=E2=94=80 DecreasePositionUtils.decreasePosition
+         =E2=94=9C=E2=94=80 DecreasePositionCollateralUtils.processCollater=
+al
+         =E2=94=82   =E2=94=94=E2=94=80 PositionPricingUtils.getPositionFee=
+s
+         =E2=94=9C=E2=94=80 position.setCollateralAmount
+         =E2=94=9C=E2=94=80 PositionUtils.incrementClaimableFundingAmount
+         =E2=94=9C=E2=94=80 position.setFundingFeeAmountPerSize
+         =E2=94=9C=E2=94=80 position.setLongTokenClaimableFundingAmountPerS=
+ize
+         =E2=94=94=E2=94=80 position.setShortTokenClaimableFundingAmountPer=
+Size
+
+MarketUtils.updateFundingState
+=E2=94=9C=E2=94=80 getNextFundingAmountPerSize
+=E2=94=82  =E2=94=9C=E2=94=80 getOpenInterest
+=E2=94=82  =E2=94=9C=E2=94=80 getOpenInterest
+=E2=94=82  =E2=94=9C=E2=94=80 getOpenInterest
+=E2=94=82  =E2=94=9C=E2=94=80 getOpenInterest
+=E2=94=82  =E2=94=9C=E2=94=80 getSecondsSinceFundingUpdated
+=E2=94=82  =E2=94=9C=E2=94=80 getNextFundingFactorPerSecond
+=E2=94=82  =E2=94=9C=E2=94=80 getFundingAmountPerSizeDelta
+=E2=94=82  =E2=94=9C=E2=94=80 getFundingAmountPerSizeDelta
+=E2=94=82  =E2=94=9C=E2=94=80 getFundingAmountPerSizeDelta
+=E2=94=82  =E2=94=94=E2=94=80 getFundingAmountPerSizeDelta
+=E2=94=9C=E2=94=80 applyDeltaToFundingFeeAmountPerSize
+=E2=94=9C=E2=94=80 applyDeltaToClaimableFundingAmountPerSize
+=E2=94=94=E2=94=80 setSavedFundingFactorPerSecond
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"FundingFee=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-4.FundingFee=E5=A6=
+=82=E4=BD=95=E6=8F=90=E5=8F=96=EF=BC=9F">4. Funding Fee =E5=A6=82=E4=BD=95=
+=E6=8F=90=E5=8F=96=EF=BC=9F</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Exchang=
+eRouter.claimFundingFees
+=E2=94=94=E2=94=80 for loop for each market
+   =E2=94=94=E2=94=80 MarketUtils.claimFundingFees
+      =E2=94=9C=E2=94=80 Keys.claimableFundingAmountKey(market, token, acco=
+unt);
+      =E2=94=9C=E2=94=80 DataStore.getUint(key)
+      =E2=94=9C=E2=94=80 DataStore.setUint(key, 0)
+      =E2=94=9C=E2=94=80 DataStore.decrementUint
+      =E2=94=94=E2=94=80 MarketToken.transferOut</pre>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_18_101028654.1772270796855--

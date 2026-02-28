@@ -1,0 +1,781 @@
+Date: Sat, 28 Feb 2026 09:26:33 +0000 (UTC)
+Message-ID: <97909403.21.1772270793243@f70bc076af75>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_20_999469965.1772270793242"
+
+------=_Part_20_999469965.1772270793242
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Borrow Fee =E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Borrow Fee =E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB</h1>
+    <div class=3D"Section1">
+        <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1772270793229 {padding: 0px;}
+div.rbtoc1772270793229 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1772270793229 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1772270793229">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#BorrowFee=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-1.BorrowFee=
+=E5=A6=82=E4=BD=95=E8=AE=A1=E7=AE=97=EF=BC=9F">1. Borrow Fee =E5=A6=82=E4=
+=BD=95=E8=AE=A1=E7=AE=97=EF=BC=9F</a></li>
+<li><a href=3D"#BorrowFee=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-2.BorrowFee=
+=E4=BD=95=E6=97=B6=E6=9B=B4=E6=96=B0=EF=BC=9F">2. Borrow Fee =E4=BD=95=E6=
+=97=B6=E6=9B=B4=E6=96=B0=EF=BC=9F</a></li>
+<li><a href=3D"#BorrowFee=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-3.BorrowFeeFa=
+ctor=E5=A6=82=E4=BD=95=E8=AE=A1=E7=AE=97=EF=BC=9F">3. Borrow Fee Factor =E5=
+=A6=82=E4=BD=95=E8=AE=A1=E7=AE=97=EF=BC=9F</a></li>
+<li><a href=3D"#BorrowFee=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-4.PendingBorr=
+owingFee">4. Pending Borrowing Fee</a></li>
+</ul>
+</div>
+<h2 local-id=3D"147ac70a-e816-41fb-9676-00505215cf16" id=3D"BorrowFee=E4=BB=
+=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-1.BorrowFee=E5=A6=82=E4=BD=95=E8=AE=A1=E7=AE=
+=97=EF=BC=9F">1. Borrow Fee =E5=A6=82=E4=BD=95=E8=AE=A1=E7=AE=97=EF=BC=9F</=
+h2>
+<p local-id=3D"8aead662-6cf7-47c1-a751-a90de03415ce"><a class=3D"external-l=
+ink" href=3D"https://github.com/gmx-io/gmx-synthetics/blob/caf3dd8b51ad9ad2=
+7b0a399f668e3016fd2c14df/contracts/market/MarketUtils.sol#L1708-L1715" rel=
+=3D"nofollow">MarketUtils.getBorrowingFees</a></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: c; gutter: false; theme: Confluence" data-theme=3D"Confluence">function g=
+etBorrowingFees(DataStore dataStore, Position.Props memory position) intern=
+al view returns (uint256) {
+    uint256 cumulativeBorrowingFactor =3D getCumulativeBorrowingFactor(data=
+Store, position.market(), position.isLong());
+    if (position.borrowingFactor() &gt; cumulativeBorrowingFactor) {
+        revert Errors.UnexpectedBorrowingFactor(position.borrowingFactor(),=
+ cumulativeBorrowingFactor);
+    }
+    uint256 diffFactor =3D cumulativeBorrowingFactor - position.borrowingFa=
+ctor();
+    return Precision.applyFactor(position.sizeInUsd(), diffFactor);
+}</pre>
+</div>
+</div>
+<p local-id=3D"e435a708-39be-4271-b64a-ebe1d96433dc">=E7=AE=97=E6=B3=95=E5=
+=8D=81=E5=88=86=E7=AE=80=E5=8D=95=EF=BC=9A=E6=9F=A5=E7=9C=8B=E5=80=9F=E8=B4=
+=B7=E8=B4=B9=E7=8E=87=E7=9A=84=E7=B4=AF=E7=A7=AF=E5=80=BC=EF=BC=8C=E8=B7=9D=
+=E7=A6=BB=E4=B8=8A=E6=AC=A1=E5=A2=9E=E9=95=BF=E4=BA=86=E5=A4=9A=E5=B0=91=EF=
+=BC=8C=E7=84=B6=E5=90=8E=E7=94=A8=E5=A2=9E=E9=95=BF=E7=9A=84=E9=83=A8=E5=88=
+=86 * position_size =E5=8D=B3=E5=8F=AF=E3=80=82</p>
+<p local-id=3D"933d5368-7dba-4aa3-a739-12aa208d27ae"></p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"fde707c6-bfcf-44df-918e-12d9a0759b1e"><strong>CumulativeBorr=
+owingFactor</strong></p>
+<p local-id=3D"471d7f63-1fc4-4f84-9a63-e89e8e79aff9">=E6=A0=B9=E6=8D=AE<a h=
+ref=3D"https://hertzflow.atlassian.net/wiki/spaces/~712020911aa4676af94faca=
+ccba78eea495f59/pages/32571463/Part+2.+GMX+V2#1.1.5-Borrowing-Fee-%E5%80%9F=
+%E8%B4%B7%E8%B4%B9" data-linked-resource-id=3D"32571463" data-linked-resour=
+ce-version=3D"48" data-linked-resource-type=3D"page">=E4=B8=9A=E5=8A=A1=E6=
+=96=87=E6=A1=A3</a>=E9=87=8C=E9=9D=A2=E7=9A=84=E8=A7=A3=E9=87=8A:=EF=BC=8C=
+=E4=B8=8D=E9=9A=BE=E7=90=86=E8=A7=A3=E8=BF=99=E4=B8=AA=E5=8F=98=E9=87=8F=E6=
+=8C=87=E4=BB=A3=E7=9A=84=E6=98=AF=EF=BC=9A=E5=80=9F=E8=B4=B7=E8=B4=B9=E7=8E=
+=87 R per second =E5=9C=A8=E8=BF=87=E5=8E=BB=E6=AF=8F=E4=B8=80=E7=A7=92=E7=
+=9A=84=E7=B4=AF=E5=8A=A0=E3=80=82</p>
+<p local-id=3D"30975687-e1fe-493d-b300-1cbfce00d887">=E6=9B=B4=E9=80=9A=E4=
+=BF=97=E7=9A=84=E7=90=86=E8=A7=A3=E6=98=AF=EF=BC=8C=E8=BF=99=E9=87=8C=E5=8F=
+=AF=E4=BB=A5=E8=AE=A4=E4=B8=BA=E6=98=AF=E6=88=91=E7=9A=84=E4=BB=93=E4=BD=8D=
+=E7=94=B1=E4=BA=8E=E5=80=9F=E8=B4=B7=E8=B4=B9=E8=80=8C=E6=89=A3=E9=99=A4=E7=
+=9A=84=E7=99=BE=E5=88=86=E6=AF=94=E4=B9=8B=E5=92=8C=E3=80=82</p>
+<p local-id=3D"b67b4422-675b-4c8b-b47f-493d45b74ba4">=E6=AF=94=E5=A6=82=EF=
+=BC=9A</p>
+<ol start=3D"1" local-id=3D"41745091-fb1b-4bc6-959b-ce4e5f91a542">
+<li local-id=3D"af939332-6a58-4dff-9cb5-33696c2bb7f8">
+<p local-id=3D"1bba30ab-90a6-40e3-b06e-c54a6d3dad39">=E5=9C=A8=E4=B8=8A=E5=
+=91=A8=E4=B8=80=EF=BC=8C=E6=88=91=E8=BF=9B=E8=A1=8C=E5=BC=80=E4=BB=93(100 U=
+SD)=EF=BC=8C=E6=AD=A4=E6=97=B6=E8=BF=98=E6=B2=A1=E6=94=B6=E5=8F=96=E4=BB=BB=
+=E4=BD=95=E6=AF=94=E4=BE=8B=EF=BC=8C=E5=8D=B30%;</p></li>
+<li local-id=3D"4e723005-ccef-4901-9e9b-a0ef9303a294">
+<p local-id=3D"6570286a-6256-49ab-8956-c43b348a79cb">=E5=9C=A8=E6=9C=AC=E5=
+=91=A8=E4=B8=80=EF=BC=8C=E8=BF=87=E5=8E=BB=E4=B8=80=E5=91=A8=EF=BC=8C=E5=80=
+=9F=E8=B4=B7=E8=B4=B9=E9=9C=80=E8=A6=81=E6=89=A3=E9=99=A4=E6=88=91=E7=9A=84=
+=E4=BB=93=E4=BD=8D 10% =E7=9A=84=E8=B4=B9=E7=94=A8=EF=BC=8C=E6=AD=A4=E6=97=
+=B6=E7=B4=AF=E7=A7=AF=E5=87=BA=E6=9D=A5=E6=98=AF 10 %=EF=BC=8Cdiff =E4=B8=
+=BA 10 %=EF=BC=8C=E5=9B=A0=E6=AD=A4=E7=BB=93=E7=AE=97=E7=9A=84=E6=97=B6=E5=
+=80=99=EF=BC=8C=E6=88=91=E9=9C=80=E8=A6=81=E6=94=AF=E4=BB=98=E7=9A=84=E8=B4=
+=B9=E7=94=A8=E5=B0=B1=E6=98=AF 10% * position_size_usd_1 (100 USD) =3D 10U=
+=E3=80=82</p>
+<ol start=3D"1" local-id=3D"5360d20c-ab53-4fb7-bca7-81cf2f708302">
+<li local-id=3D"892c7fa8-3575-4e38-a42b-76050deaf7d9">
+<p local-id=3D"99f23c52-1900-42a6-9f4f-bcb5824bcb60">=E6=94=AF=E4=BB=98=E4=
+=BA=86 10U fee</p></li>
+<li local-id=3D"7bce8524-48b0-4036-875f-df7cbac575aa">
+<p local-id=3D"646c46f3-d7c0-484b-976f-426be583eb19">=E4=BB=93=E4=BD=8D=E4=
+=BB=8E 100U =E5=87=8F=E5=B0=91=E5=88=B0 90U</p></li>
+<li local-id=3D"f564da7c-b146-4359-9cb4-5083c6e2c1ac">
+<p local-id=3D"84d557ac-cbf7-4d78-8cdf-258066cb9f01">=E6=9C=80=E5=90=8E=E4=
+=B8=80=E6=AC=A1=E6=94=B6=E8=B4=B9=E7=9A=84 factor =E8=AE=B0=E5=BD=95=E4=B8=
+=8B=E6=9D=A5=E4=B8=BA 10%</p></li>
+</ol></li>
+<li local-id=3D"1492f4e3-f3bd-486c-8908-2e93c567ed5d">
+<p local-id=3D"20e27de1-9074-4723-b402-b794c14e13e8">=E5=9C=A8=E4=B8=8B=E5=
+=91=A8=E4=B8=89=E7=9A=84=E6=97=B6=E5=80=99=EF=BC=8C=E5=8F=88=E8=BF=87=E5=8E=
+=BB=E4=B8=80=E5=91=A8=EF=BC=8C=E5=80=9F=E8=B4=B7=E8=B4=B9=E5=8F=88=E9=9C=80=
+=E8=A6=81=E6=89=A3=E9=99=A4=E6=88=91 15%=E7=9A=84=E6=AF=94=E4=BE=8B=EF=BC=
+=8C=E6=AD=A4=E6=97=B6 cumulative =E5=A2=9E=E9=95=BF=E5=88=B0=E4=BA=86 25%=
+=EF=BC=8C=E4=BD=86=E6=88=91=E4=BB=AC=E4=B8=8D=E4=BC=9A=E7=94=A8 25%=E7=9B=
+=B4=E6=8E=A5=E5=8F=82=E4=B8=8E=E8=AE=A1=E7=AE=97=EF=BC=8C=E5=9B=A0=E4=B8=BA=
+ 2 =E4=B8=AD=E5=B7=B2=E7=BB=8F=E6=89=A3=E8=BF=87=E4=B8=80=E6=AC=A1=E3=80=82=
+=E6=AD=A4=E6=97=B6=E8=AE=A1=E7=AE=97 diff =3D 25 - 10(2.c=E4=B8=AD=E8=AE=B0=
+=E5=BD=95=E4=BA=86) =3D 15%=E3=80=82=E6=AD=A4=E6=97=B6=E6=94=B6=E5=8F=96 15=
+% * position_size_usd_2 (90U) =3D 13.5U=E3=80=82</p>
+<ol start=3D"1" local-id=3D"dd751701-1ecd-4b9e-8f8e-df942a160304">
+<li local-id=3D"76651432-4d2d-4c62-adb4-9f3f8e4f2391">
+<p local-id=3D"47ef7faa-0dd9-4870-90f6-01b9069a1e9d">=E6=94=AF=E4=BB=98=E4=
+=BA=86 13.5 U fee</p></li>
+<li local-id=3D"93b34812-f3ba-4701-b57c-e9a25aff733d">
+<p local-id=3D"ef810ef6-0c14-47ab-a4e5-e92d6d66f93b">=E4=BB=93=E4=BD=8D=E4=
+=BB=8E 90 U =E5=87=8F=E5=B0=91=E5=88=B0 76.5 U</p></li>
+<li local-id=3D"cc9c9e7f-ec6c-47ca-b9f8-b130b763c06e">
+<p local-id=3D"200103ad-0f40-44ed-9f13-1160f651d825">=E6=9C=80=E5=90=8E=E4=
+=B8=80=E6=AC=A1=E6=94=B6=E8=B4=B9=E7=9A=84 factor =E8=AE=B0=E5=BD=95=E4=B8=
+=8B=E6=9D=A5=E4=B8=BA 25%</p></li>
+</ol></li>
+</ol>
+</div>
+</div>
+<hr local-id=3D"a63744db-0f01-4a06-8ed6-2e8c7c7ed9f0">
+<h2 local-id=3D"8239a6a3-5bc6-48a4-b6e8-58af6f63f1bd" id=3D"BorrowFee=E4=BB=
+=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-2.BorrowFee=E4=BD=95=E6=97=B6=E6=9B=B4=E6=96=
+=B0=EF=BC=9F">2. Borrow Fee =E4=BD=95=E6=97=B6=E6=9B=B4=E6=96=B0=EF=BC=9F</=
+h2>
+<p local-id=3D"6ca9f250-fdc4-49c7-b338-70c61fc3063c"><a class=3D"external-l=
+ink" href=3D"https://github.com/gmx-io/gmx-synthetics/blob/caf3dd8b51ad9ad2=
+7b0a399f668e3016fd2c14df/contracts/market/MarketUtils.sol#L1417-L1440" rel=
+=3D"nofollow">MarketUtils.updateCumulativeBorrowingFactor</a></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: plain; gutter: false; theme: Confluence" data-theme=3D"Confluence">Execut=
+eOrderUtils.executeOrder
+=E2=94=9C PositionUtils.updateFundingAndBorrowingState
+=E2=94=94 processOrder
+    =E2=94=94 IncreaseOrderUtils.processOrder
+        =E2=94=94 IncreasePositionUtils.increasePosition
+            =E2=94=9C processCollateral
+            =E2=94=82   =E2=94=9C PositionPricingUtils.getPositionFees
+            =E2=94=82   =E2=94=82  =E2=94=94 MarketUtils.getBorrowingFees
+            =E2=94=82   =E2=94=94 MarketUtils.applyDeltaToPoolAmount
+            =E2=94=9C params.position.setCollateralAmount
+            =E2=94=9C MarketUtils.getCumulativeBorrowingFactor
+            =E2=94=9C PositionUtils.updateTotalBorrowing
+            =E2=94=94 params.position.setBorrowingFactor</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: plain; gutter: false; theme: Confluence" data-theme=3D"Confluence">Execut=
+eOrderUtils.executeOrder
+=E2=94=9C PositionUtils.updateFundingAndBorrowingState
+=E2=94=94 processOrder
+    =E2=94=94 DecreaseOrderUtils.processOrder
+        =E2=94=94 DecreasePositionUtils.decreasePosition
+            =E2=94=9C DecreasePositionCollateralUtils.processCollateral
+            =E2=94=82   =E2=94=9C PositionPricingUtils.getPositionFees
+            =E2=94=82   =E2=94=82  =E2=94=94 MarketUtils.getBorrowingFees
+            =E2=94=82   =E2=94=94 MarketUtils.applyDeltaToPoolAmount
+            =E2=94=9C MarketUtils.getCumulativeBorrowingFactor
+            =E2=94=9C PositionUtils.updateTotalBorrowing
+            =E2=94=9C params.position.setBorrowingFactor
+            =E2=94=94 params.position.setCollateralAmount</pre>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"604cb5ed-6b9e-4460-8fbe-d07394216370">=E5=8A=A0=E5=87=8F=E4=
+=BB=93=E7=9A=84=E6=97=B6=E5=80=99=E4=BC=9A=E8=A7=A6=E5=8F=91=E6=9B=B4=E6=96=
+=B0=E3=80=82=E5=9B=A0=E4=B8=BA=E5=8A=A0=E5=87=8F=E4=BB=93=E6=93=8D=E4=BD=9C=
+=EF=BC=8C=E5=90=8C=E6=97=B6=E5=8F=98=E6=9B=B4=E4=BA=86=E4=B8=A4=E4=B8=AA bo=
+rrow fee =E7=9A=84=E8=AE=A1=E7=AE=97=E5=8F=82=E6=95=B0=E3=80=82</p>
+<ul local-id=3D"e55b28e8-d76e-45ac-9406-22aa1be98052">
+<li local-id=3D"79c55e74-b612-4ecd-9b3c-0e8551b5812a">
+<p local-id=3D"f5e37824-f3ab-4362-8e42-b76b7298ebdb">position_size =E5=9C=
+=A8=E5=8A=A0=E5=87=8F=E4=BB=93=E5=90=8E=E4=BC=9A=E5=8F=91=E7=94=9F=E6=94=B9=
+=E5=8F=98=EF=BC=8C=E8=BF=99=E9=87=8C=E5=BE=88=E5=A5=BD=E7=90=86=E8=A7=A3=E3=
+=80=82</p></li>
+<li local-id=3D"9ea5a968-1b5d-483c-87c0-15373d18cc91">
+<p local-id=3D"bac5d1b0-dcfb-4566-8eb6-ae181c5c1649">borrow_fee_rate =E6=9C=
+=AC=E8=BA=AB=E6=98=AF=E6=A0=B9=E6=8D=AE=E8=B5=84=E9=87=91=E5=88=A9=E7=94=A8=
+=E7=8E=87=E5=8F=98=E5=8C=96=E7=9A=84=EF=BC=8C=E5=8A=A0=E5=87=8F=E4=BB=93=E6=
+=93=8D=E4=BD=9C=E4=B8=8D=E5=8F=AF=E9=81=BF=E5=85=8D=E7=9A=84=E4=BC=9A=E5=BD=
+=B1=E5=93=8D=E6=B1=A0=E5=AD=90=E7=9A=84=E8=B5=84=E9=87=91=E7=8A=B6=E6=80=81=
+=EF=BC=8C=E7=94=B1=E6=AD=A4=E9=97=B4=E6=8E=A5=E5=BD=B1=E5=93=8D rate=E3=80=
+=82</p></li>
+<li local-id=3D"a84b9faa-dc5a-49c7-8a85-e04124daf250">
+<p local-id=3D"fe4dff04-3aa9-43b7-82ec-c2a6b7bd93fd">=E5=9B=A0=E6=AD=A4=E5=
+=9C=A8=E5=8A=A0=E5=87=8F=E4=BB=93=E6=97=B6=EF=BC=8C=E9=A6=96=E5=85=88=E6=9B=
+=B4=E6=96=B0 borrow fee factor=EF=BC=8C=E7=84=B6=E5=90=8E=E5=9C=A8=E8=AE=A1=
+=E7=AE=97=E5=AE=8C borrow fee =E5=90=8E=EF=BC=8C=E5=86=8D=E8=B0=83=E6=95=B4=
+=E4=BB=93=E4=BD=8D size=E3=80=82</p></li>
+</ul>
+</div>
+</div>
+<hr local-id=3D"8bff75fe-4f0b-4c1a-a929-7ae5b72f2243">
+<h2 local-id=3D"1fdf51ad-e276-49e4-babd-1bba364876ee" id=3D"BorrowFee=E4=BB=
+=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-3.BorrowFeeFactor=E5=A6=82=E4=BD=95=E8=AE=A1=
+=E7=AE=97=EF=BC=9F">3. Borrow Fee Factor =E5=A6=82=E4=BD=95=E8=AE=A1=E7=AE=
+=97=EF=BC=9F</h2>
+<p local-id=3D"0eb55b0f-307b-43f8-b22e-9499acef1f0d"><a class=3D"external-l=
+ink" href=3D"https://github.com/gmx-io/gmx-synthetics/blob/caf3dd8b51ad9ad2=
+7b0a399f668e3016fd2c14df/contracts/market/MarketUtils.sol#L1417-L1440" rel=
+=3D"nofollow">MarketUtils.updateCumulativeBorrowingFactor</a></p>
+<p local-id=3D"1e0fedfd-5fba-4009-9275-ef554ba7f1c7"><a class=3D"external-l=
+ink" href=3D"https://github.com/gmx-io/gmx-synthetics/blob/caf3dd8b51ad9ad2=
+7b0a399f668e3016fd2c14df/contracts/market/MarketUtils.sol#L2368-L2430" rel=
+=3D"nofollow">MarketUtils.getBorrowingFactorPerSecond</a></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Positio=
+nUtils.updateFundingAndBorrowingState
+=E2=94=94 MarketUtils.updateCumulativeBorrowingFactor
+    =E2=94=9C getNextCumulativeBorrowingFactor
+    =E2=94=82    =E2=94=9C getSecondsSinceCumulativeBorrowingFactorUpdated
+    =E2=94=82    =E2=94=9C getBorrowingFactorPerSecond
+    =E2=94=82    =E2=94=82  =E2=94=9C getOptimalUsageFactor
+    =E2=94=82    =E2=94=82  =E2=94=9C if optimal usage factor !=3D 0
+    =E2=94=82    =E2=94=82  =E2=94=82  =E2=94=94 getKinkBorrowingFactor
+    =E2=94=82    =E2=94=82  =E2=94=82      =E2=94=94 getUsageFactor
+    =E2=94=82    =E2=94=82  =E2=94=9C getBorrowingExponentFactor
+    =E2=94=82    =E2=94=82  =E2=94=94 getBorrowingFactor
+    =E2=94=82    =E2=94=94 getCumulativeBorrowingFactor
+    =E2=94=94 incrementCumulativeBorrowingFactor</pre>
+</div>
+</div>
+<p local-id=3D"e7b66ace-f05b-4e75-97f5-8a3f753d5ebf"><strong>Breakdown:</st=
+rong></p>
+<ol start=3D"1" local-id=3D"5ac7bd50-145a-4913-b629-9ea604690a87">
+<li local-id=3D"9aa300e3-8e86-4604-8dfd-dd439bb70959">
+<p local-id=3D"11aebe33-653e-4062-8bfe-3a3582810ae0">=E6=9B=B4=E6=96=B0=E7=
+=B4=AF=E7=A7=AF=E5=80=BC</p></li>
+</ol>
+<blockquote local-id=3D"d88b383a-c935-42af-bbeb-f68169d357fb">
+<p local-id=3D"3da27d23-c5b2-4c89-983b-94843f14b7a3">=E8=BF=99=E9=87=8C=E6=
+=AF=94=E8=BE=83=E7=AE=80=E5=8D=95=EF=BC=8Cnew_cumulative_factor =3D old_cum=
+ulative_factor + delta=E3=80=82</p>
+<p local-id=3D"45d127cf-7a82-484a-8a95-ffb5bc385f09">delta =3D time_gap * f=
+actor_per_sec</p>
+</blockquote>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: c; gutter: false; theme: Confluence" data-theme=3D"Confluence">function g=
+etNextCumulativeBorrowingFactor(
+    DataStore dataStore,
+    Market.Props memory market,
+    MarketPrices memory prices,
+    bool isLong
+) internal view returns (uint256, uint256, uint256) {
+    // =E8=8E=B7=E5=8F=96 time_gap
+    uint256 durationInSeconds =3D getSecondsSinceCumulativeBorrowingFactorU=
+pdated(dataStore, market.marketToken, isLong);
+
+    // =E8=8E=B7=E5=8F=96 factor_per_sec
+    uint256 borrowingFactorPerSecond =3D getBorrowingFactorPerSecond(
+        dataStore,
+        market,
+        prices,
+        isLong
+    );
+
+    // =E8=8E=B7=E5=8F=96 old
+    uint256 cumulativeBorrowingFactor =3D getCumulativeBorrowingFactor(data=
+Store, market.marketToken, isLong);
+
+    // =E5=A6=82=E4=B8=8A=E5=85=AC=E5=BC=8F=E6=89=80=E8=BF=B0
+    uint256 delta =3D durationInSeconds * borrowingFactorPerSecond;
+    uint256 nextCumulativeBorrowingFactor =3D cumulativeBorrowingFactor + d=
+elta;
+    return (nextCumulativeBorrowingFactor, delta, borrowingFactorPerSecond)=
+;
+}</pre>
+</div>
+</div>
+<p local-id=3D"dff90560-c1d7-4e80-a581-2ae13c97aaac"></p>
+<ol start=3D"2" local-id=3D"ef579852-bb42-43df-960f-629a0c03a646">
+<li local-id=3D"2ee408a8-ca24-49c1-a49d-8aa30a9eb63d">
+<p local-id=3D"5cc3d05d-8dee-420f-bc30-de166127d6b8">=E8=8E=B7=E5=8F=96 bor=
+rowingFactorPerSecond</p></li>
+</ol>
+<p local-id=3D"ec5d8775-00ce-4a50-897f-f2dff9df2ed1">=E8=BF=99=E9=87=8C=E6=
+=AF=94=E8=BE=83=E5=A4=8D=E6=9D=82=EF=BC=8C=E6=80=BB=E7=9A=84=E6=9D=A5=E8=AF=
+=B4=EF=BC=8CGMX =E5=80=9F=E8=B4=B7=E8=B4=B9=E6=94=AF=E6=8C=81=E4=B8=A4=E7=
+=A7=8D=E7=AE=97=E6=B3=95=EF=BC=9A</p>
+<ul local-id=3D"d9ed6c35-2d7d-49bf-83e6-106fce79ce42">
+<li local-id=3D"6e02015e-da12-44b9-8bcc-20438ca3ce42">
+<p local-id=3D"d46de1f9-32e6-426a-9185-6369c00b370d">=E4=B8=80=E7=A7=8D=E6=
+=98=AF=E6=9B=B2=E7=BA=BF=E7=AE=97=E6=B3=95=EF=BC=8C=E4=B9=9F=E5=B0=B1=E6=98=
+=AF=E5=88=A9=E7=94=A8=E6=8C=87=E6=95=B0=E5=87=BD=E6=95=B0=E6=94=BE=E5=A4=A7=
+=E5=80=9F=E8=B4=B7=E8=B4=B9=EF=BC=8C=E8=B5=84=E9=87=91=E5=88=A9=E7=94=A8=E7=
+=8E=87=E8=B6=8A=E9=AB=98=EF=BC=8C=E6=8C=87=E6=95=B0=E8=86=A8=E8=83=80=E8=B6=
+=8A=E5=BF=AB=E3=80=82</p></li>
+<li local-id=3D"6f654578-7fc4-41ec-9334-1b22706aff25">
+<p local-id=3D"5a0551e5-1304-4622-aaad-776a816a9790">=E5=8F=A6=E4=B8=80=E7=
+=A7=8D=E6=98=AF=E5=8F=8C=E6=96=9C=E7=8E=87=E7=AE=97=E6=B3=95=EF=BC=8C=E6=8D=
+=A2=E5=8F=A5=E8=AF=9D=E6=9D=A5=E8=AF=B4=E6=98=AF=E6=8A=98=E7=BA=BF=E5=88=86=
+=E6=AE=B5=E5=87=BD=E6=95=B0=EF=BC=8C=E5=BD=93=E8=B5=84=E9=87=91=E5=88=A9=E7=
+=94=A8=E7=8E=87=E4=BD=8E=E4=BA=8E=E6=9F=90=E4=B8=AA=E9=98=88=E5=80=BC=EF=BC=
+=8C=E6=8C=89=E7=85=A7=E5=B9=B3=E7=BC=93=E6=96=9C=E7=8E=87=E6=94=B6=E8=B4=B9=
+=EF=BC=8C=E8=B6=85=E5=87=BA=E9=83=A8=E5=88=86=E6=8C=89=E7=85=A7=E9=99=A1=E5=
+=B3=AD=E6=96=9C=E7=8E=87=E6=94=B6=E8=B4=B9=E3=80=82=E8=BF=99=E4=B8=AA=E7=AE=
+=97=E6=B3=95=E6=AF=94=E8=BE=83=E5=B8=B8=E8=A7=81=E3=80=82</p></li>
+</ul>
+<p local-id=3D"d31c9e09-cb0b-4e17-abea-17cbac8e8db7"></p>
+<p local-id=3D"5224329a-17ba-4330-bd69-3e27e638d86d">=E9=A6=96=E5=85=88=E7=
+=9C=8B=E6=8C=87=E6=95=B0=E7=AE=97=E6=B3=95=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: c; gutter: false; theme: Confluence" data-theme=3D"Confluence">// e
+uint256 borrowingExponentFactor =3D getBorrowingExponentFactor(dataStore, m=
+arket.marketToken, isLong);
+
+// r^e
+uint256 reservedUsdAfterExponent =3D Precision.applyExponentFactor(reserved=
+Usd, borrowingExponentFactor);
+
+// r^e / P
+uint256 reservedUsdToPoolFactor =3D Precision.toFactor(reservedUsdAfterExpo=
+nent, poolUsd);
+
+// b
+uint256 borrowingFactor =3D getBorrowingFactor(dataStore, market.marketToke=
+n, isLong);
+
+// r^e / P * b
+return Precision.applyFactor(reservedUsdToPoolFactor, borrowingFactor);</pr=
+e>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">e =3D b=
+orrowing exponent factor=EF=BC=8C=E8=B5=B0=E9=85=8D=E7=BD=AE
+r =3D reserved USD, =E5=85=B6=E5=AE=9E=E5=B0=B1=E6=98=AF long/short OI USD
+P =3D pool USD, =E6=B1=A0=E4=B8=AD=E5=85=A8=E9=83=A8 token =E7=9A=84 USD =
+=E4=BB=B7=E5=80=BC
+b =3D borrowing factor=EF=BC=8C=E9=85=8D=E7=BD=AE=E5=80=BC
+r^e / P * b
+
+=E8=BF=99=E4=B8=AA=E5=85=AC=E5=BC=8F=E5=B0=B1=E6=98=AF=E5=B8=B8=E8=A7=81=E7=
+=9A=84=E6=8C=87=E6=95=B0=E5=87=BD=E6=95=B0=EF=BC=9Af(x) =3D a*x^e
+=E6=9C=AC=E8=BA=AB r/P =E8=A1=A8=E8=BE=BE=E4=BA=86=E8=B5=84=E9=87=91=E7=9A=
+=84=E5=88=A9=E7=94=A8=E7=8E=87=EF=BC=8C=E4=BD=86=E6=98=AF=E4=BD=BF=E7=94=A8=
+=E6=8C=87=E6=95=B0=E6=94=BE=E5=A4=A7=E4=BA=86 r</pre>
+</div>
+</div>
+<p local-id=3D"4a9f77a1-8660-460d-999b-9682bfdc8d61"></p>
+<p local-id=3D"8b4c185b-0291-4088-9687-d31f1b03ff1a">=E5=8F=8C=E6=96=9C=E7=
+=8E=87=E7=AE=97=E6=B3=95=EF=BC=88kink=EF=BC=89=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">u =3D u=
+sage factor, =E5=B0=B1=E6=98=AF OI / PoolUSD
+u_o =3D optimal usage factor=EF=BC=8C=E6=8B=90=E7=82=B9
+b0 =3D base borrowing factor=EF=BC=8C=E5=9F=BA=E7=A1=80=E6=96=9C=E7=8E=87
+b1 =3D above optimal usage borrowing factor=EF=BC=8C=E9=99=A1=E5=B3=AD=E6=
+=96=9C=E7=8E=87=E5=B7=AE
+
+kink borrowing factor per second =3D b0 * u
+
+if u &gt; u_o
+    kink borrowing factor per second +=3D max(b1 - b0, 0) * (u - u_o) / (1 =
+- u_o)</pre>
+</div>
+</div>
+<p local-id=3D"fe773771-325a-45ea-a7dc-14dc16657ffe"></p>
+<hr>
+<h2 id=3D"BorrowFee=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-4.PendingBorrowingF=
+ee">4. Pending Borrowing Fee</h2>
+<p>=E5=80=9F=E8=B4=B7=E8=B4=B9=E7=94=A8=E4=B8=8D=E6=98=AF=E5=AE=9E=E6=97=B6=
+=E7=BB=93=E7=AE=97=E7=9A=84=EF=BC=8C=E4=BD=86=E6=98=AF=E7=94=B1=E4=BA=8E=E5=
+=80=9F=E8=B4=B7=E8=B4=B9=E5=BA=94=E5=BD=93=E7=BC=B4=E7=BA=B3=E7=BB=99=E6=B1=
+=A0=E5=AD=90=EF=BC=8C=E5=9B=A0=E6=AD=A4=E6=B1=A0=E5=AD=90=E7=9A=84=E4=BB=B7=
+=E5=80=BC=E4=BC=9A=E5=9B=A0=E4=B8=BA=E5=80=9F=E8=B4=B7=E8=B4=B9=E5=A2=9E=E9=
+=95=BF=E3=80=82=E6=B1=A0=E5=AD=90=E4=BB=B7=E5=80=BC=E6=9C=AC=E8=BA=AB=E4=BC=
+=9A=E5=BD=B1=E5=93=8D LP =E7=9A=84 mint burn =E6=95=B0=E9=87=8F=EF=BC=8C=E5=
+=9B=A0=E6=AD=A4 borrow fee =E5=8D=B3=E4=BD=BF=E6=B2=A1=E6=9C=89=E7=BC=B4=E7=
+=BA=B3=EF=BC=8C=E4=B9=9F=E8=A6=81=E7=BA=B3=E5=85=A5=E8=AE=A1=E7=AE=97=E3=80=
+=82=E8=BF=99=E9=87=8C GMX =E5=90=88=E7=BA=A6=E7=BB=9F=E8=AE=A1=E4=BA=86=E6=
+=9C=AA=E7=BB=93=E7=AE=97=E7=9A=84 borrow fee =E4=BB=B7=E5=80=BC=E6=9D=A5=E5=
+=B8=AE=E5=8A=A9=E8=AE=A1=E7=AE=97 pool =E4=BB=B7=E5=80=BC=E3=80=82=E5=85=B7=
+=E4=BD=93=E5=AE=9E=E7=8E=B0=E6=96=B9=E5=BC=8F=E5=A6=82=E4=B8=8B=EF=BC=9A</p=
+>
+<p><code>MarketUtils.updateTotalBorrowing</code> =E6=96=B9=E6=B3=95=E7=BB=
+=9F=E8=AE=A1=E4=BA=86 total borrowing=EF=BC=8C=E5=85=B6=E9=80=BB=E8=BE=91=
+=E5=B0=B1=E6=98=AF=E9=87=87=E7=94=A8=E4=B8=8B=E9=9D=A2=E7=9A=84=E5=80=BC=E6=
+=9B=B4=E6=96=B0 datastore =E7=9A=84=E5=AF=B9=E5=BA=94 value=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: c; gutter: false; theme: Confluence" data-theme=3D"Confluence">function g=
+etNextTotalBorrowing(
+    DataStore dataStore,
+    address market,
+    bool isLong,
+    uint256 prevPositionSizeInUsd,
+    uint256 prevPositionBorrowingFactor,
+    uint256 nextPositionSizeInUsd,
+    uint256 nextPositionBorrowingFactor
+) internal view returns (uint256) {
+    uint256 totalBorrowing =3D getTotalBorrowing(dataStore, market, isLong)=
+;
+    // total - prev
+    totalBorrowing -=3D Precision.applyFactor(prevPositionSizeInUsd, prevPo=
+sitionBorrowingFactor);
+    // total + cur
+    totalBorrowing +=3D Precision.applyFactor(nextPositionSizeInUsd, nextPo=
+sitionBorrowingFactor);
+
+    return totalBorrowing;
+}
+
+// =E6=95=B4=E4=BD=93=E6=80=9D=E8=B7=AF=EF=BC=9AtotalBorrowing =E5=AF=B9=E5=
+=BA=94=E4=BA=86=E6=89=80=E6=9C=89=E7=9A=84=E4=BB=93=E4=BD=8D
+// =E5=BD=93=E4=B8=80=E4=B8=AA=E4=BB=93=E4=BD=8D=E7=9A=84 size =E5=8F=98=E6=
+=9B=B4=E7=9A=84=E6=97=B6=E5=80=99=EF=BC=8C=E6=88=91=E4=BB=AC=E5=BA=94=E8=AF=
+=A5=E6=8A=8A=E8=BF=99=E4=B8=AA=E4=BB=93=E4=BD=8D=E6=9C=80=E6=96=B0=E7=9A=84=
+ size =E6=9B=B4=E6=96=B0=E8=BF=9B=E5=8E=BB=E3=80=82
+// =E5=9B=A0=E6=AD=A4=E9=9C=80=E8=A6=81=E5=85=88=E5=87=8F=E5=8E=BB old size=
+ =E5=86=8D=E5=8A=A0=E4=B8=8A cur size=EF=BC=8C=E5=85=B6=E5=AE=9E=E5=B0=B1=
+=E6=98=AF=E4=B8=80=E4=B8=AA sizeDelta =E7=9A=84=E6=A6=82=E5=BF=B5=E3=80=82
+// =E8=87=B3=E4=BA=8E=E4=B8=BA=E4=BB=80=E4=B9=88 size =E5=90=8E=E9=9D=A2=E8=
+=BF=98=E9=9C=80=E8=A6=81=E4=B9=98=E4=BB=A5=E4=B8=80=E4=B8=AA=E6=9C=80=E6=96=
+=B0=E7=9A=84 cumulative borrowing factor=EF=BC=8C=E8=A7=81=E4=B8=8B=E6=96=
+=87=E3=80=82</pre>
+</div>
+</div>
+<p><code>MarketUtils.getTotalPendingBorrowingFees</code>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: c; gutter: false; theme: Confluence" data-theme=3D"Confluence">function g=
+etTotalPendingBorrowingFees(
+    DataStore dataStore,
+    Market.Props memory market,
+    MarketPrices memory prices,
+    bool isLong
+) internal view returns (uint256) {
+    // =E8=8E=B7=E5=8F=96 OI
+    uint256 openInterest =3D getOpenInterest(
+        dataStore,
+        market,
+        isLong
+    );
+
+    // =E8=8E=B7=E5=8F=96=E6=9C=80=E6=96=B0=E7=9A=84 CumulativeBorrowingFac=
+tor
+    (uint256 nextCumulativeBorrowingFactor, /* uint256 delta */, ) =3D getN=
+extCumulativeBorrowingFactor(
+        dataStore,
+        market,
+        prices,
+        isLong
+    );
+
+    // =E6=9F=A5=E7=9C=8B=E4=B8=8A=E6=96=87=E4=B8=AD=E6=8F=90=E5=88=B0=E7=
+=9A=84=EF=BC=8C=E8=AE=B0=E5=BD=95=E4=B8=8B=E6=9D=A5=E7=9A=84 total borrowin=
+g
+    uint256 totalBorrowing =3D getTotalBorrowing(dataStore, market.marketTo=
+ken, isLong);
+
+    // OI * CumulativeBorrowingFactor - totalBorrowing
+    return Precision.applyFactor(openInterest, nextCumulativeBorrowingFacto=
+r) - totalBorrowing;
+}
+
+// =E6=95=B4=E4=BD=93=E6=80=9D=E8=B7=AF=EF=BC=9A=E5=8A=A0=E5=87=8F=E4=BB=93=
+=E6=93=8D=E4=BD=9C=EF=BC=8C=E5=85=88=E7=BC=B4=E7=BA=B3 borrow fee=EF=BC=8C=
+=E5=86=8D=E6=9B=B4=E6=96=B0 totalBorrowing =E5=AD=97=E6=AE=B5=E3=80=82
+// =E4=BA=8E=E6=98=AF=EF=BC=8C=E5=9C=A8=E8=AE=A1=E7=AE=97 totalPendingBorro=
+wingFees =E7=9A=84=E6=97=B6=E5=80=99=EF=BC=8C=E9=9C=80=E8=A6=81=E6=8E=92=E6=
+=8E=89=E3=80=8C=E5=85=88=E7=BC=B4=E7=BA=B3=E4=BA=86=E3=80=8D=E7=9A=84=E9=83=
+=A8=E5=88=86=E3=80=82
+// =E5=85=88=E7=AE=80=E5=8D=95=E7=9A=84=E7=90=86=E8=A7=A3=E5=85=AC=E5=BC=8F=
+=E9=80=BB=E8=BE=91=EF=BC=9A
+// OI * curCumulativeFactor - totalBorrowing
+// =E5=85=B6=E5=AE=9E=E9=80=BB=E8=BE=91=E4=B8=8A=E8=A1=A8=E8=BE=BE=E7=9A=84=
+=E5=B0=B1=E7=B1=BB=E4=BC=BC=E4=BA=8E OI * curCumulativeFactor - OI * oldCum=
+ulativeFactor
+// =E8=BF=99=E4=B8=AA=E6=80=9D=E8=B7=AF=E5=92=8C=E5=89=8D=E9=9D=A2=E8=AE=B2=
+=E8=A7=A3=E8=BF=87=E7=9A=84 cumulative =E6=9C=BA=E5=88=B6=E4=B8=80=E8=87=B4=
+=E3=80=82
+//=20
+// totalBorrowing =E7=9A=84=E9=80=BB=E8=BE=91=E5=9C=A8=E4=B8=8A=E6=96=87=E5=
+=88=97=E5=87=BA=E4=BA=86=EF=BC=8C=E7=BB=93=E5=90=88=E8=BF=99=E9=87=8C=E4=B8=
+=8D=E9=9A=BE=E7=9C=8B=E5=87=BA=EF=BC=8C=E5=AE=9E=E9=99=85=E4=B8=8A=E8=BF=99=
+=E4=B8=AA=E5=AD=97=E6=AE=B5=E7=BB=9F=E8=AE=A1=E7=9A=84=E6=98=AF=EF=BC=9A
+// =E6=9C=80=E6=96=B0=E7=9A=84=E9=9C=80=E8=A6=81=E6=94=AF=E4=BB=98=E5=80=9F=
+=E8=B4=B7=E8=B4=B9=E7=9A=84=E9=83=A8=E5=88=86
+// =E8=BF=99=E4=B9=88=E8=AF=B4=E6=9C=89=E7=82=B9=E6=8A=BD=E8=B1=A1=EF=BC=8C=
+=E4=B8=BE=E4=B8=AA=E4=BE=8B=E5=AD=90=EF=BC=9A
+// =E4=B8=80=E4=B8=AA pos =E8=BF=9B=E8=A1=8C=E5=8A=A0=E4=BB=93=EF=BC=8C=E4=
+=BB=8E 100 =E5=8A=A0=E5=88=B0 120U=EF=BC=8C=E9=82=A3=E4=B9=88=EF=BC=9A
+// 1. =E6=94=AF=E4=BB=98=E5=8E=9F=E5=85=88 100U =E5=BA=94=E4=BB=98=E7=9A=84=
+ borrow fee
+// 2. totalBorrowing - 100*old_cumulative_fac =E8=BF=99=E9=87=8C=E5=B0=B1=
+=E6=B8=85=E7=90=86=E6=8E=89=E4=BA=86 1 =E4=B8=AD=E4=BB=98=E8=BF=87=E7=9A=84=
+=E9=92=B1=E7=9A=84=E9=83=A8=E5=88=86
+// 3. totalBorrowing + 120*new_cumulative_fac =E8=BF=99=E9=87=8C=E5=B0=B1 r=
+eset =E4=BA=86=E4=B8=80=E4=B8=8B=E8=AE=A1=E8=B4=B9
+// =E4=BA=8E=E6=98=AF=E8=AE=A1=E7=AE=97 pending =E7=9A=84=E6=97=B6=E5=80=99=
+=EF=BC=8COI*latest_cumulative_factor - totalBorrowing =E5=B0=B1=E5=AF=B9=E4=
+=B8=8A=E4=BA=86
+//
+// E.g =E5=81=87=E8=AE=BE=E5=88=9D=E5=A7=8B=E6=97=B6=E6=95=B4=E4=B8=AA=E5=
+=8D=95=E8=BE=B9=E5=B0=B1=E6=88=91=E4=BB=AC=E4=B8=80=E4=B8=AA=E4=BB=93=E4=BD=
+=8D
+// =E6=AD=A4=E6=97=B6 pos_size =3D 100U, totalBorrowing =3D 100U * 0(=E5=88=
+=9D=E5=A7=8B=E5=9B=A0=E4=B8=BA=E6=B2=A1=E6=9C=89 duration=EF=BC=8C=E6=98=BE=
+=E7=84=B6=E6=98=AF 0) =3D 0
+// =E5=8A=A0=E4=BB=93 20 U
+// 1. =E6=94=AF=E4=BB=98 100U =E6=8C=81=E7=BB=AD n =E7=A7=92=E5=8D=A0=E7=94=
+=A8=E7=9A=84 borrow fee
+// 2. =E5=87=8F=E5=8E=BB old =E9=83=A8=E5=88=86=EF=BC=9AtotalBorrowing - 10=
+0*old_fac =3D&gt; totalBorrowing - 0 =3D 0
+// 3. =E5=8A=A0=E4=B8=8A new =E9=83=A8=E5=88=86=EF=BC=9AtotalBorrowing +=3D=
+ 120*new_fac =3D&gt; 120*new_fac
+// =E8=BF=87=E4=B8=80=E6=AE=B5=E6=97=B6=E9=97=B4=EF=BC=8C=E8=AE=A1=E7=AE=97=
+ pending=EF=BC=9AOI * new_new_fac - totalBorrowing
+// =3D&gt; 120 * new_new_fac - 120*new_fac</pre>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_20_999469965.1772270793242--

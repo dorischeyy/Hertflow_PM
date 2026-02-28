@@ -1,0 +1,341 @@
+Date: Sat, 28 Feb 2026 09:27:32 +0000 (UTC)
+Message-ID: <1500103623.33.1772270852859@8fce659c308c>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_32_692304788.1772270852859"
+
+------=_Part_32_692304788.1772270852859
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>GLV Withdraw Burn =E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>GLV Withdraw Burn =E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"GLVWithdrawBurn=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-Creat=
+eWithdraw">Create Withdraw</h2>
+<p><a class=3D"external-link" href=3D"https://github.com/gmx-io/gmx-synthet=
+ics/blob/ee721b7e2d1891312dde52964d774144208cd1a0/contracts/router/GlvRoute=
+r.sol#L77C1-L83C6" rel=3D"nofollow">GlvRouter.createGlvWithdrawal</a></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">1. Send=
+ GLV token to GLV vault
+2. Send execution fee to GLV vault
+3. Create withdrawal order
+
+GlvRouter.createGlvWithdrawal
+=E2=94=94 GlvWithdrawalHandler.createGlvWithdrawal
+    =E2=94=94 GlvWithdrawalUtils.createGlvWithdrawal
+        =E2=94=9C GlvVault.recordTransferIn
+        =E2=94=94 GGlvWithdrawalStoreUtils.set</pre>
+</div>
+</div>
+<p></p>
+<h2 id=3D"GLVWithdrawBurn=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-ExecuteWithdr=
+aw">Execute Withdraw</h2>
+<p><a class=3D"external-link" href=3D"https://github.com/gmx-io/gmx-synthet=
+ics/blob/ee721b7e2d1891312dde52964d774144208cd1a0/contracts/exchange/GlvWit=
+hdrawalHandler.sol#L49C1-L75C6" rel=3D"nofollow">GlvWithdrawalHandler.execu=
+teGlvWithdrawal</a></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">GlvWith=
+drawalHandler
+=E2=94=94 executeGlvWithdrawal
+    =E2=94=9C GlvDepositStoreUtils.get
+    =E2=94=94 _executeGlvWithdrawal
+        =E2=94=94 GlvWithdrawalUtils.executeGlvWithdrawal
+            =E2=94=9C GlvWithdrawalStoreUtils.remove
+            =E2=94=94 _processMarketWithdrawal
+               =E2=94=9C Glv.transferOut
+               =E2=94=94 ExecuteWithdrawalUtils.executeWithdrawal</pre>
+</div>
+</div>
+<p></p>
+<p>Withdraw =E7=9A=84=E6=B5=81=E7=A8=8B=EF=BC=8C=E5=B0=B1=E6=98=AF=EF=BC=9A=
+</p>
+<ol start=3D"1">
+<li>
+<p>=E5=BD=92=E8=BF=98 GLV Token =E7=BB=99=E5=88=B0 GLV</p></li>
+<li>
+<p>GLV =E5=BD=92=E8=BF=98 Market Token =E7=BB=99=E5=88=B0 Market</p></li>
+<li>
+<p>=E8=B5=B0=E4=B8=80=E6=AC=A1=E6=AD=A3=E5=B8=B8=E7=9A=84=E6=99=AE=E9=80=9A=
+ Market Withdraw =E6=B5=81=E7=A8=8B=EF=BC=8C=E6=8A=8A Market Token Burn =E5=
+=BE=97=E5=88=B0=E7=9A=84=E5=8E=9F=E5=A7=8B=E5=B8=81=E7=BB=99=E5=9B=9E=E7=94=
+=A8=E6=88=B7=E3=80=82</p></li>
+</ol>
+<p></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: c; gutter: false; theme: Confluence" data-theme=3D"Confluence">function _=
+getMarketTokenAmount(
+    DataStore dataStore,
+    IOracle oracle,
+    GlvWithdrawal.Props memory glvWithdrawal
+) internal view returns (uint256) {
+    uint256 glvValue =3D GlvUtils.getGlvValue(
+        dataStore,
+        oracle,
+        glvWithdrawal.glv(),
+        false // maximize
+    );
+    uint256 glvSupply =3D GlvToken(payable(glvWithdrawal.glv())).totalSuppl=
+y();
+    // =E6=8A=8A=E5=BD=92=E8=BF=98=E7=9A=84 GLV =E8=BD=AC=E4=B8=BA USD
+    uint256 glvTokenUsd =3D GlvUtils.glvTokenAmountToUsd(glvWithdrawal.glvT=
+okenAmount(), glvValue, glvSupply);
+
+    Market.Props memory market =3D MarketUtils.getEnabledMarket(dataStore, =
+glvWithdrawal.market());
+    MarketPoolValueInfo.Props memory poolValueInfo =3D MarketUtils.getPoolV=
+alueInfo(
+        dataStore,
+        market,
+        oracle.getPrimaryPrice(market.indexToken),
+        oracle.getPrimaryPrice(market.longToken),
+        oracle.getPrimaryPrice(market.shortToken),
+        Keys.MAX_PNL_FACTOR_FOR_WITHDRAWALS,
+        true // maximize
+    );
+
+    // =E8=AE=A1=E7=AE=97=E6=9C=80=E6=96=B0=E7=9A=84 MarketToken =E6=95=B0=
+=E9=87=8F
+    // Return Glv -&gt; =E8=BD=AC=E5=8C=96=E4=B8=BA Return USD -&gt; =E8=BD=
+=AC=E5=8C=96=E4=B8=BA MarketToken Amount
+    uint256 marketTokenAmount =3D MarketUtils.usdToMarketTokenAmount(
+        glvTokenUsd,
+        poolValueInfo.poolValue.toUint256(),
+        ERC20(market.marketToken).totalSupply()
+    );
+
+    return marketTokenAmount;
+}</pre>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_32_692304788.1772270852859--

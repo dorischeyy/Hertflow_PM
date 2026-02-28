@@ -1,0 +1,463 @@
+Date: Sat, 28 Feb 2026 09:28:15 +0000 (UTC)
+Message-ID: <134579066.25.1772270895277@6ebb4c93163f>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_24_2041011175.1772270895276"
+
+------=_Part_24_2041011175.1772270895276
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>GMX V2 Oracle =E5=90=88=E7=BA=A6</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>GMX V2 Oracle =E5=90=88=E7=BA=A6</h1>
+    <div class=3D"Section1">
+        <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1772270895239 {padding: 0px;}
+div.rbtoc1772270895239 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1772270895239 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1772270895239">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#GMXV2Oracle=E5=90=88=E7=BA=A6-1.OracleModifier">1. Oracle M=
+odifier</a></li>
+<li><a href=3D"#GMXV2Oracle=E5=90=88=E7=BA=A6-2.Oracle=E5=90=88=E7=BA=A6">2=
+. Oracle =E5=90=88=E7=BA=A6</a></li>
+</ul>
+</div>
+<h2 local-id=3D"c7a1ecfc-6cd5-4e34-a59c-f18063874ba5" id=3D"GMXV2Oracle=E5=
+=90=88=E7=BA=A6-1.OracleModifier">1. Oracle Modifier</h2>
+<p local-id=3D"ea7816dc-a862-4052-bb5a-d60df29f299a">GMX =E5=90=88=E7=BA=A6=
+=E9=80=82=E7=94=A8 modifier =E8=AF=AD=E6=B3=95=E6=9D=A5=E9=85=8D=E7=BD=AE=
+=E4=BB=B7=E6=A0=BC=EF=BC=8C=E4=B9=9F=E5=B0=B1=E6=98=AF=E8=AF=B4 keeper =E9=
+=9C=80=E8=A6=81=E5=9C=A8=E6=89=A7=E8=A1=8C=E8=AE=A2=E5=8D=95=E7=9A=84=E6=97=
+=B6=E5=80=99 post price=EF=BC=8C=E7=84=B6=E5=90=8E=E4=BC=9A=E8=A7=A6=E5=8F=
+=91 modifier =E9=80=BB=E8=BE=91=EF=BC=8C=E8=AE=A9 post =E4=B8=8A=E6=9D=A5=
+=E7=9A=84=E4=BB=B7=E6=A0=BC=E5=9C=A8=E6=9C=AC=E6=AC=A1 tx =E5=86=85=E5=8F=
+=AF=E8=A7=81=EF=BC=8C=E7=BB=93=E6=9D=9F=E6=89=A7=E8=A1=8C=E5=90=8E=EF=BC=8C=
+=E4=BC=9A=E6=B8=85=E9=99=A4=E6=8E=89=E3=80=82=E5=85=B7=E4=BD=93=E8=A7=81:</=
+p>
+<p local-id=3D"7991985a-f08c-471e-86b2-aaa698d92516"><a class=3D"external-l=
+ink" href=3D"https://github.com/gmx-io/gmx-synthetics/blob/ee721b7e2d189131=
+2dde52964d774144208cd1a0/contracts/oracle/OracleModule.sol#L26C1-L32C6" rel=
+=3D"nofollow">OracleModule.withOraclePrices</a></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: c; gutter: false; theme: Confluence" data-theme=3D"Confluence">modifier w=
+ithOraclePrices(
+    OracleUtils.SetPricesParams memory params
+) {
+    oracle.setPrices(params);
+    _;
+    oracle.clearAllPrices();
+}</pre>
+</div>
+</div>
+<hr local-id=3D"24641356-1e33-4567-bf4f-fc5154405d89">
+<h2 local-id=3D"dde8452e-1913-4aef-b22d-a53b2bef6b6e" id=3D"GMXV2Oracle=E5=
+=90=88=E7=BA=A6-2.Oracle=E5=90=88=E7=BA=A6">2. Oracle =E5=90=88=E7=BA=A6</h=
+2>
+<p local-id=3D"a04969fe-49a8-454e-bc01-045320e89e3d">=E8=BF=99=E9=87=8C=E6=
+=8C=87=E7=9A=84=E6=98=AF=E4=B8=8A=E9=9D=A2 modifier =E4=B8=AD=EF=BC=8C<code=
+>oracle.setPrices(params)</code>=E4=B8=AD=E8=B0=83=E7=94=A8=E7=9A=84 oracle=
+=EF=BC=9A<a class=3D"external-link" href=3D"https://github.com/gmx-io/gmx-s=
+ynthetics/blob/v2.2/contracts/oracle/Oracle.sol" rel=3D"nofollow">Oracle.so=
+l</a></p>
+<p local-id=3D"47dfd2c8-1ce7-4ea8-aac9-f3a4f12f88bb">=E5=85=B6=E4=B8=AD <co=
+de>setPrices</code>=E9=80=BB=E8=BE=91=E5=BE=88=E7=AE=80=E5=8D=95=EF=BC=9A=
+=E5=B0=B1=E6=98=AF=E6=A0=A1=E9=AA=8C=E4=BB=B7=E6=A0=BC=E6=9C=89=E6=95=88=E5=
+=90=8E=E5=B0=B1=E8=AE=BE=E7=BD=AE=E8=BF=9B=E5=8E=BB=E8=AE=A9=E6=9C=AC=E6=AC=
+=A1=E6=89=A7=E8=A1=8C=E5=8F=AF=E8=A7=81=EF=BC=8C=E7=84=B6=E5=90=8E=E6=89=A7=
+=E8=A1=8C=E7=BB=93=E6=9D=9F=E5=AE=8C=E6=AF=95=E5=B0=B1 clear=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: c; gutter: false; theme: Confluence" data-theme=3D"Confluence">function s=
+etPrices(
+    OracleUtils.SetPricesParams memory params
+) external onlyController {
+    OracleUtils.ValidatedPrice[] memory prices =3D _validatePrices(params, =
+false);
+
+    _setPrices(prices);
+}</pre>
+</div>
+</div>
+<p local-id=3D"3198157c-3d7c-4f27-8540-72738aa97adb">=E5=85=B3=E6=B3=A8 <co=
+de>_validatePrices</code> =E9=80=BB=E8=BE=91=E5=A6=82=E4=BD=95=E6=A0=A1=E9=
+=AA=8C=E7=9A=84=E4=BB=B7=E6=A0=BC=EF=BC=9A<a class=3D"external-link" href=
+=3D"https://github.com/gmx-io/gmx-synthetics/blob/ee721b7e2d1891312dde52964=
+d774144208cd1a0/contracts/oracle/Oracle.sol#L232C5-L328C6" rel=3D"nofollow"=
+>Oracle._validatePrices</a></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: c; gutter: false; theme: Confluence" data-theme=3D"Confluence">for (uint2=
+56 i; i &lt; params.tokens.length; i++) {
+    address _provider =3D params.providers[i];
+    IOracleProvider provider =3D IOracleProvider(_provider);
+
+    // ...
+
+    bytes memory data =3D params.data[i];
+
+    // =E8=B0=83=E7=94=A8=E4=BA=86 provider =E5=8E=BB=E8=8E=B7=E5=8F=96=E4=
+=BB=B7=E6=A0=BC=EF=BC=8C=E8=8E=B7=E5=8F=96=E5=87=BA=E6=9D=A5=E7=9A=84=E5=B0=
+=B1=E5=B7=B2=E7=BB=8F=E6=98=AF validated =E4=BA=86
+    OracleUtils.ValidatedPrice memory validatedPrice =3D provider.getOracle=
+Price(
+        token,
+        data
+    );
+
+    // ...
+}</pre>
+</div>
+</div>
+<p local-id=3D"549eb623-7291-49f3-9b82-330f6ffc03b5">=E5=8F=AF=E4=BB=A5=E7=
+=9C=8B=E5=88=B0=E5=BA=95=E5=B1=82=E6=98=AF=E8=B0=83=E7=94=A8=E4=BA=86 provi=
+der =E5=8E=BB=E8=8E=B7=E5=8F=96=E4=BB=B7=E6=A0=BC=EF=BC=8C=E6=98=BE=E7=84=
+=B6 provider =E5=8F=AF=E4=BB=A5=E6=9C=89=E5=BE=88=E5=A4=9A=E7=A7=8D=EF=BC=
+=8C=E8=BF=99=E9=87=8C=E6=88=91=E4=BB=AC=E9=9A=8F=E6=9C=BA=E9=80=89=E5=8F=96=
+=E4=B8=80=E7=A7=8D <code>GmOracleProvider</code> =E6=9D=A5=E7=9C=8B=E4=BB=
+=96=E5=A6=82=E4=BD=95=E5=AE=9E=E7=8E=B0=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: c; gutter: false; theme: Confluence" data-theme=3D"Confluence">function g=
+etOraclePrice(
+    address token,
+    bytes memory data
+) external view returns (OracleUtils.ValidatedPrice memory) {
+    // =E8=BF=99=E9=87=8C=E5=81=9A=E7=9A=84=E5=8F=8D=E5=BA=8F=E5=88=97=E5=
+=8C=96
+    GmOracleUtils.Report memory report =3D abi.decode(data, (GmOracleUtils.=
+Report));
+    address[] memory signers =3D _getSigners(report.signerInfo);
+
+    // ...
+
+    bytes32 salt =3D _getSalt();
+
+    for (uint256 i =3D 0; i &lt; signers.length; i++) {
+        uint256 minPrice =3D report.minPrices[i];
+        uint256 maxPrice =3D report.maxPrices[i];
+
+        if (minPrice &gt; maxPrice) {
+            revert Errors.InvalidGmSignerMinMaxPrice(minPrice, maxPrice);
+        }
+        // =E8=BF=99=E9=87=8C=E5=81=9A=E4=BA=86=E9=AA=8C=E7=AD=BE
+        GmOracleUtils.validateSigner(
+            salt,
+            report,
+            token,
+            minPrice,
+            maxPrice,
+            tokenOracleType,
+            report.signatures[i], // =E5=B8=A6=E4=B8=8A=E6=9D=A5=E7=9A=84=
+=E4=BB=B7=E6=A0=BC=E5=BF=85=E9=A1=BB=E6=98=AF=E7=AD=BE=E5=90=8D=E4=BB=B7=E6=
+=A0=BC
+            signers[i]            // =E9=85=8D=E7=BD=AE=E7=9A=84 signer
+        );
+    }
+       =20
+    // ...
+
+    return OracleUtils.ValidatedPrice({
+        token: token,
+        min: medianMinPrice,
+        max: medianMaxPrice,
+        timestamp: report.oracleTimestamp,
+        provider: address(this)
+    });
+}</pre>
+</div>
+</div>
+<p local-id=3D"9753a109-eac9-4c04-9268-7aba842abd0f">=E5=88=B0=E8=BF=99=E9=
+=87=8C=E9=80=BB=E8=BE=91=E6=AF=94=E8=BE=83=E6=B8=85=E6=99=B0=E4=BA=86=EF=BC=
+=8C=E5=85=B6=E5=AE=9E=E5=B0=B1=E5=92=8C v1 =E7=9A=84 oracle =E9=80=BB=E8=BE=
+=91=E5=B7=AE=E4=B8=8D=E5=A4=9A=EF=BC=8C=E7=AD=BE=E5=90=8D=E4=BB=B7=E6=A0=BC=
+=E5=9C=A8=E5=90=88=E7=BA=A6=E5=86=85=E8=BF=9B=E8=A1=8C=E9=AA=8C=E7=AD=BE=E3=
+=80=82</p>
+<p>=E5=A6=82=E6=9E=9C=E4=BD=BF=E7=94=A8 Chainlink =E4=BD=9C=E4=B8=BA=E4=BB=
+=B7=E6=A0=BC=E6=9D=A5=E6=BA=90=EF=BC=8C=E5=88=99=E4=B8=8D=E9=9C=80=E8=A6=81=
+=E4=BD=A0 post price=EF=BC=8C=E8=80=8C=E6=98=AF=E5=AE=83=E4=BC=9A=E4=BB=8E=
+=E9=93=BE=E4=B8=8A=E7=9B=B4=E6=8E=A5=E8=AF=BB=E5=8F=96=EF=BC=8C=E5=9B=A0=E6=
+=AD=A4=E4=B9=9F=E5=B0=B1=E4=B8=8D=E9=9C=80=E8=A6=81=E9=AA=8C=E8=AF=81=E7=AD=
+=BE=E5=90=8D:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: c; gutter: false; theme: Confluence" data-theme=3D"Confluence">function g=
+etPriceFeedPrice(DataStore dataStore, address token) internal view returns =
+(bool, uint256) {
+    // =E5=AE=89=E5=85=A8=E6=80=A7=E6=9D=A5=E8=87=AA=E8=BF=99=E9=87=8C=EF=
+=BC=8C=E9=80=9A=E8=BF=87 datastore =E9=85=8D=E7=BD=AE=E6=AD=BB=E4=BF=A1=E4=
+=BB=BB=E7=9A=84 chainlink =E4=BB=B7=E6=A0=BC=E5=90=88=E7=BA=A6=E5=9C=B0=E5=
+=9D=80
+    // =E5=8F=AA=E8=A6=81=E5=9C=B0=E5=9D=80=E6=AD=A3=E7=A1=AE=E9=85=8D=E7=
+=BD=AE=EF=BC=8C=E4=B9=9F=E5=B0=B1=E4=B8=8D=E9=9C=80=E8=A6=81=E9=AA=8C=E7=AD=
+=BE
+    address priceFeedAddress =3D dataStore.getAddress(Keys.priceFeedKey(tok=
+en));
+    if (priceFeedAddress =3D=3D address(0)) {
+        return (false, 0);
+    }
+
+    IPriceFeed priceFeed =3D IPriceFeed(priceFeedAddress);
+
+    (
+        /* uint80 roundID */,
+        int256 _price,
+        /* uint256 startedAt */,
+        uint256 timestamp,
+        /* uint80 answeredInRound */
+    ) =3D priceFeed.latestRoundData();
+
+    // ...
+}</pre>
+</div>
+</div>
+<p local-id=3D"3e024c6d-44ea-45e7-acc9-c4fc3c4b8000"></p>
+<p local-id=3D"3e024c6d-44ea-45e7-acc9-c4fc3c4b8000">=E8=87=B3=E4=BA=8E=E5=
+=88=AB=E7=9A=84 provider =E8=BF=99=E9=87=8C=E4=B8=8D=E5=B1=95=E5=BC=80=E8=
+=AF=B4=E6=98=8E=EF=BC=8C=E4=B8=8D=E5=90=8C=E7=9A=84 provider =E4=B8=BB=E8=
+=A6=81=E5=AE=9E=E7=8E=B0=E4=BA=86=E4=B8=8D=E5=90=8C=E7=9A=84=E6=95=B0=E6=8D=
+=AE=E5=A4=84=E7=90=86=EF=BC=8C=E5=9B=A0=E4=B8=BA=E6=AF=8F=E4=B8=AA provider=
+ =E7=94=A8=E4=BA=86=E4=B8=8D=E5=90=8C=E7=9A=84=E6=95=B0=E6=8D=AE=E6=A0=BC=
+=E5=BC=8F=E6=9D=A5=E4=B8=8A=E4=BC=A0=E4=BB=B7=E6=A0=BC=EF=BC=8C=E5=B9=B6=E4=
+=B8=94=E7=94=A8=E4=BA=86=E4=B8=8D=E5=90=8C=E7=9A=84=E7=B2=BE=E5=BA=A6=E6=A0=
+=87=E5=87=86=E3=80=82=E5=BA=95=E5=B1=82=E5=AE=89=E5=85=A8=E6=80=A7=E6=9D=A5=
+=E6=BA=90=EF=BC=8C=E9=80=9A=E7=94=A8=E7=9A=84=E6=96=B9=E5=BC=8F=E4=B8=8A=E9=
+=9D=A2=E4=B9=9F=E5=88=97=E4=B8=BE=E4=BA=86=E4=B8=A4=E7=A7=8D=EF=BC=9A</p>
+<ul>
+<li>
+<p>=E7=AD=BE=E5=90=8D=E9=AA=8C=E8=AF=81</p></li>
+<li>
+<p>=E5=9C=B0=E5=9D=80=E9=85=8D=E7=BD=AE</p></li>
+</ul>
+<p local-id=3D"dc9fca45-83f1-42fd-8c17-db06be780835"></p>
+    </div>
+</body>
+</html>
+------=_Part_24_2041011175.1772270895276--

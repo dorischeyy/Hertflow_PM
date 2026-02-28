@@ -1,0 +1,681 @@
+Date: Sat, 28 Feb 2026 09:28:05 +0000 (UTC)
+Message-ID: <967991010.35.1772270885453@f70bc076af75>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_34_749795183.1772270885453"
+
+------=_Part_34_749795183.1772270885453
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>GMX V2 GLV=E6=8C=87=E6=A0=87=E6=95=B0=E6=8D=AE=E8=8E=B7=E5=8F=96=
+=E6=96=B9=E5=BC=8F</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>GMX V2 GLV=E6=8C=87=E6=A0=87=E6=95=B0=E6=8D=AE=E8=8E=B7=E5=8F=96=E6=
+=96=B9=E5=BC=8F</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"GMXV2GLV=E6=8C=87=E6=A0=87=E6=95=B0=E6=8D=AE=E8=8E=B7=E5=
+=8F=96=E6=96=B9=E5=BC=8F-1.=E6=8C=87=E6=A0=87=E4=B8=8E=E6=BA=90=E7=A0=81">1=
+. =E6=8C=87=E6=A0=87=E4=B8=8E=E6=BA=90=E7=A0=81</h1>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"197f6d70-3af5-4fc2-95e7-cef=
+82377f605" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E6=8C=87=E6=A0=87</p></th>
+<th class=3D"confluenceTh">
+<p>=E4=B8=BB=E4=BD=93</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=85=A5=E5=8F=A3=E6=BA=90=E7=A0=81</p></th>
+<th class=3D"confluenceTh">
+<p>=E4=B8=BB=E8=A6=81=E6=96=B9=E6=B3=95 / Key</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>TVL_USD</code></p></td>
+<td class=3D"confluenceTd">
+<p>GLV Vault</p></td>
+<td class=3D"confluenceTd">
+<p><code>contracts-v2/contracts/glv/GlvUtils.sol</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>getGlvValue</code>&nbsp;/&nbsp;<code>getGlvTokenPrice</code></p></=
+td>
+<td class=3D"confluenceTd">
+<p>=E8=AF=BB=E5=8F=96 GLV =E7=AE=A1=E7=90=86=E7=9A=84=E6=AF=8F=E4=B8=AA GM =
+=E5=B8=82=E5=9C=BA=E7=9A=84&nbsp;<code>poolValue</code>=EF=BC=8C=E6=8C=89=
+=E6=8C=81=E4=BB=93=E6=AF=94=E4=BE=8B=E6=8A=98=E7=AE=97 USD=E3=80=82</p></td=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>Supply_amount</code></p></td>
+<td class=3D"confluenceTd">
+<p>GLV Token</p></td>
+<td class=3D"confluenceTd">
+<p><code>contracts-v2/contracts/glv/GlvToken.sol</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>ERC20.totalSupply()</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E7=9B=B4=E6=8E=A5=E8=AF=BB=E5=8F=96 GLV ERC20 =E7=9A=84=E6=80=BB=E4=BE=
+=9B=E5=BA=94=E3=80=82</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>Price</code></p></td>
+<td class=3D"confluenceTd">
+<p>GLV Token</p></td>
+<td class=3D"confluenceTd">
+<p><code>contracts-v2/contracts/reader/GlvReader.sol</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>getGlvTokenPrice</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E8=BF=94=E5=9B=9E&nbsp;<code>(price, glvValue, supply)</code>=EF=BC=8C=
+=E7=B2=BE=E5=BA=A6 1e30=E3=80=82</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>buyableHzV_USD / amount</code></p></td>
+<td class=3D"confluenceTd">
+<p>GLV + Market Cap</p></td>
+<td class=3D"confluenceTd">
+<p><code>contracts-v2/contracts/data/Keys.sol</code>&nbsp;+&nbsp;<code>GlvU=
+tils.validateGlvMarketTokenBalance</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>glvMaxMarketTokenBalanceUsdKey</code>&nbsp;/&nbsp;<code>glvMaxMark=
+etTokenBalanceAmountKey</code>&nbsp;+ =E5=AE=9E=E6=97=B6=E4=BD=99=E9=A2=9D =
+(<code>GlvToken.tokenBalances</code>)</p></td>
+<td class=3D"confluenceTd">
+<p>=E9=99=90=E5=88=B6=E6=AF=8F=E4=B8=AA=E5=B8=82=E5=9C=BA=E5=8F=AF=E5=88=86=
+=E9=85=8D TVL=EF=BC=8C=E9=9C=80=E9=80=90=E5=B8=82=E5=9C=BA=E7=AE=97&nbsp;<c=
+ode>max - current</code>=E3=80=82</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>sellableHzV_USD / amount</code></p></td>
+<td class=3D"confluenceTd">
+<p>GLV Vault</p></td>
+<td class=3D"confluenceTd">
+<p><code>GlvUtils.glvTokenAmountToUsd</code></p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+<td class=3D"confluenceTd">
+<p>90% * TVL =E5=8D=B3=E5=8F=AF=E8=B5=8E=EF=BC=9B=E9=87=91=E9=A2=9D=E8=BD=
+=AC=E4=BE=9B=E5=BA=94=E9=87=8F=E9=9C=80=E7=94=A8=E5=AE=9E=E6=97=B6&nbsp;<co=
+de>glvValue</code>/<code>glvSupply</code>=E3=80=82</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>Market Open Interest</code>&nbsp;/&nbsp;<code>Pool Reserve</code><=
+/p></td>
+<td class=3D"confluenceTd">
+<p>GM =E5=B8=82=E5=9C=BA</p></td>
+<td class=3D"confluenceTd">
+<p><code>contracts-v2/contracts/market/MarketUtils.sol</code>+&nbsp;<code>c=
+ontracts-v2/contracts/reader/Reader.sol</code></p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;<code>collater</code></p>
+<p><code>openInterestKey</code>,&nbsp;<code>collatealSumKey</code>,&nbsp;<c=
+ode>getMarketInfoList</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E9=9C=80=E8=A6=81&nbsp;<code>MarketPrices</code>&nbsp;=E4=BB=A5 USD =E5=
+=B1=95=E7=A4=BA=EF=BC=8CLong/Short =E6=96=B9=E5=90=91=E6=8B=86=E5=88=86</p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>Total Earned Fees_usd</code></p></td>
+<td class=3D"confluenceTd">
+<p>Fee =E6=A8=A1=E5=9D=97</p></td>
+<td class=3D"confluenceTd">
+<p><code>contracts-v2/contracts/fee/FeeUtils.sol</code>&nbsp;+&nbsp;<code>K=
+eys.claimableFeeAmountKey</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>incrementClaimableFeeAmount</code>&nbsp;=E4=BA=8B=E4=BB=B6=EF=BC=
+=8C=E6=88=96=E7=9B=B4=E6=8E=A5=E8=AF=BB=E5=8F=96&nbsp;<code>DataStore.getUi=
+nt( claimableFeeAmountKey )</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E4=B8=8D=E5=90=AB=E6=9C=AA=E5=AE=9E=E7=8E=B0 PnL=EF=BC=8C=E6=94=AF=E6=
+=8C=81=E6=8C=89=E5=B8=82=E5=9C=BA=E3=80=81token =E8=81=9A=E5=90=88=E3=80=82=
+</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>Fee APR_24h</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E4=B8=9A=E5=8A=A1=E8=A1=8D=E7=94=9F</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BA=8B=E4=BB=B6 + =E5=8E=86=E5=8F=B2=E6=95=B0=E6=8D=AE</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=BF=87=E5=8E=BB 24h fee / =E5=BD=93=E5=89=8D TVL</p></td>
+<td class=3D"confluenceTd">
+<p>=E9=9C=80=E8=A6=81=E4=BA=8B=E4=BB=B6=E6=88=96 Dune=E3=80=82</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"GMXV2GLV=E6=8C=87=E6=A0=87=E6=95=B0=E6=8D=AE=E8=8E=B7=E5=8F=96=E6=
+=96=B9=E5=BC=8F-2.=E6=9F=A5=E8=AF=A2=E6=96=B9=E5=BC=8F">2. =E6=9F=A5=E8=AF=
+=A2=E6=96=B9=E5=BC=8F</h1>
+<h3 id=3D"GMXV2GLV=E6=8C=87=E6=A0=87=E6=95=B0=E6=8D=AE=E8=8E=B7=E5=8F=96=E6=
+=96=B9=E5=BC=8F-2.1TVL_USD">2.1&nbsp;<code>TVL_USD</code></h3>
+<ol start=3D"1">
+<li>
+<p>=E9=80=9A=E8=BF=87&nbsp;<code>GlvReader.getGlvInfo(DataStore, glv)</code=
+>&nbsp;=E6=8B=BF=E5=88=B0 GLV Token =E5=9C=B0=E5=9D=80=EF=BC=88<code>glv.gl=
+vToken</code>=EF=BC=89=E4=BB=A5=E5=8F=8A=E6=89=80=E8=B7=9F=E8=B8=AA=E7=9A=
+=84=E5=B8=82=E5=9C=BA&nbsp;<code>marketToken</code>&nbsp;=E5=88=97=E8=A1=A8=
+=E3=80=82</p></li>
+<li>
+<p>=E4=B8=BA=E6=AF=8F=E4=B8=AA=E5=B8=82=E5=9C=BA=E5=87=86=E5=A4=87=E4=BB=B7=
+=E6=A0=BC=E8=BE=93=E5=85=A5=EF=BC=9A</p></li>
+</ol>
+<p><code>text</code><br><code>indexTokenPrice =3D { min, max }</code><br><c=
+ode>longTokenPrice =3D { min, max }</code><br><code>shortTokenPrice =3D { m=
+in, max }</code><br><br>
+=E4=BB=B7=E6=A0=BC=E5=8F=AF=E4=BB=A5=E4=BB=8E GMX Infra API=EF=BC=88=E5=8F=
+=82=E7=85=A7&nbsp;<code>scripts/helpers.ts#getApiEndpoint</code>=EF=BC=89=
+=E6=8A=93=E5=8F=96=E3=80=82</p>
+<ol start=3D"1">
+<li>
+<p>=E8=B0=83=E7=94=A8&nbsp;<code>GlvReader.getGlvTokenPrice(dataStore, mark=
+etAddresses, indexPrices[], longTokenPrice, shortTokenPrice, glv, maximize=
+=3Dfalse)</code>=EF=BC=8C=E8=AF=A5=E5=87=BD=E6=95=B0=E5=86=85=E9=83=A8=E4=
+=BC=9A=E8=A7=A6=E5=8F=91&nbsp;<code>GlvUtils.getGlvValue</code>=EF=BC=8C=E5=
+=B0=86=E6=AF=8F=E4=B8=AA=E5=B8=82=E5=9C=BA=E7=9A=84&nbsp;<code>poolValue</c=
+ode>&nbsp;=E4=B9=98=E4=BB=A5 GLV =E7=9A=84=E6=8C=81=E4=BB=93=E6=9D=83=E9=87=
+=8D=E5=90=8E=E6=B1=82=E5=92=8C=EF=BC=8C=E8=BF=94=E5=9B=9E=E7=9A=84&nbsp;<co=
+de>glvValue</code>&nbsp;=E5=8D=B3 GLV =E5=BD=93=E5=89=8D=E7=AE=A1=E7=90=86=
+=E7=9A=84 USD =E6=80=BB=E9=A2=9D=EF=BC=88=E5=8D=95=E4=BD=8D 1e30=EF=BC=89=
+=E3=80=82</p></li>
+<li>
+<p>=E5=B1=95=E7=A4=BA=E5=B1=82=E5=B0=86&nbsp;<code>glvValue / 1e30</code>&n=
+bsp;=E5=8D=B3=E5=8F=AF=E5=BE=97=E5=88=B0&nbsp;<code>TVL_USD</code>=E3=80=82=
+</p></li>
+</ol>
+<h3 id=3D"GMXV2GLV=E6=8C=87=E6=A0=87=E6=95=B0=E6=8D=AE=E8=8E=B7=E5=8F=96=E6=
+=96=B9=E5=BC=8F-2.2Supply_amount">2.2&nbsp;<code>Supply_amount</code></h3>
+<ol start=3D"1">
+<li>
+<p>=E9=80=9A=E8=BF=87&nbsp;<code>GlvReader.getGlvInfo</code>&nbsp;=E8=BF=94=
+=E5=9B=9E=E7=9A=84&nbsp;<code>glv.glvToken</code>&nbsp;=E5=9C=B0=E5=9D=80=
+=E5=AE=9E=E4=BE=8B=E5=8C=96&nbsp;<code>GlvToken</code>=EF=BC=88<code>contra=
+cts-v2/contracts/glv/GlvToken.sol</code>=EF=BC=89=E3=80=82</p></li>
+<li>
+<p>=E4=BD=BF=E7=94=A8=E6=A0=87=E5=87=86 ERC20 =E6=8E=A5=E5=8F=A3&nbsp;<code=
+>totalSupply()</code>=EF=BC=88=E6=88=96&nbsp;<code>GlvToken.totalSupply()</=
+code>=EF=BC=89=E8=AF=BB=E5=8F=96=E6=80=BB=E6=8F=90=E4=BE=9B=E9=87=8F=EF=BC=
+=8C=E9=BB=98=E8=AE=A4=E7=B2=BE=E5=BA=A6=E4=B8=BA 1e18=E3=80=82</p></li>
+<li>
+<p>=E5=9C=A8 UI =E6=88=96 API =E7=AB=AF=E8=AE=A1=E7=AE=97&nbsp;<code>Supply=
+_amount =3D totalSupply / 1e18</code>=E3=80=82</p></li>
+</ol>
+<h3 id=3D"GMXV2GLV=E6=8C=87=E6=A0=87=E6=95=B0=E6=8D=AE=E8=8E=B7=E5=8F=96=E6=
+=96=B9=E5=BC=8F-2.3Price">2.3&nbsp;<code>Price</code></h3>
+<ol start=3D"1">
+<li>
+<p>=E4=B8=8E TVL =E7=9B=B8=E5=90=8C=E7=9A=84=E8=BE=93=E5=85=A5=EF=BC=8C=E7=
+=9B=B4=E6=8E=A5=E8=B0=83=E7=94=A8&nbsp;<code>GlvReader.getGlvTokenPrice(...=
+)</code>=E3=80=82</p></li>
+<li>
+<p>=E8=BF=94=E5=9B=9E=E5=80=BC&nbsp;<code>glvTokenPrice</code>&nbsp;=E4=B8=
+=BA 1e30 =E7=B2=BE=E5=BA=A6=E7=9A=84 GLV =E4=BB=B7=E6=A0=BC=EF=BC=8C=E5=85=
+=B6=E8=AE=A1=E7=AE=97=E8=BF=87=E7=A8=8B=E4=B8=BA&nbsp;<code>glvValue / glvS=
+upply</code>=E3=80=82</p></li>
+<li>
+<p>=E5=B1=95=E7=A4=BA=E6=97=B6=E5=B0=86&nbsp;<code>glvTokenPrice / 1e30</co=
+de>&nbsp;=E4=BD=9C=E4=B8=BA=E5=8D=95=E4=BB=B7=E8=BE=93=E5=87=BA=EF=BC=8C=E6=
+=88=96=E4=BF=9D=E7=95=99 1e30 =E7=B2=BE=E5=BA=A6=E5=9C=A8=E9=93=BE=E4=B8=8B=
+=E7=BB=A7=E7=BB=AD=E8=AE=A1=E7=AE=97=E3=80=82</p></li>
+</ol>
+<h3 id=3D"GMXV2GLV=E6=8C=87=E6=A0=87=E6=95=B0=E6=8D=AE=E8=8E=B7=E5=8F=96=E6=
+=96=B9=E5=BC=8F-2.4buyableHzV_USD/amount">2.4&nbsp;<code>buyableHzV_USD / a=
+mount</code></h3>
+<ol start=3D"1">
+<li>
+<p>=E9=80=90=E4=B8=AA=E5=B8=82=E5=9C=BA=E6=9F=A5=E8=AF=A2=E4=B8=8A=E9=99=90=
+=EF=BC=9A</p>
+<ol start=3D"1">
+<li>
+<p><code>capUsd =3D DataStore.getUint(Keys.glvMaxMarketTokenBalanceUsdKey(g=
+lv, marketToken))</code></p></li>
+<li>
+<p>=E8=8B=A5&nbsp;<code>capUsd =3D=3D 0</code>=EF=BC=8C=E5=88=99=E8=AF=BB=
+=E5=8F=96&nbsp;<code>capAmount =3D DataStore.getUint(Keys.glvMaxMarketToken=
+BalanceAmountKey(glv, marketToken))</code></p></li>
+</ol></li>
+<li>
+<p>=E8=B0=83=E7=94=A8&nbsp;<code>GlvToken.tokenBalances(marketToken)</code>=
+=EF=BC=88=E5=BA=95=E5=B1=82=E7=94=B1&nbsp;<code>StrictBank</code>&nbsp;=E6=
+=8C=81=E6=9C=89=EF=BC=89=EF=BC=8C=E8=8E=B7=E5=8F=96=E5=BD=93=E5=89=8D=E8=AF=
+=A5=E5=B8=82=E5=9C=BA=E4=B8=AD GLV =E5=B7=B2=E9=85=8D=E7=BD=AE=E7=9A=84&nbs=
+p;<code>marketToken</code>=E6=95=B0=E9=87=8F=E3=80=82</p></li>
+<li>
+<p>=E5=80=9F=E5=8A=A9&nbsp;<code>MarketUtils.getPoolValueInfo</code>&nbsp;=
+=E5=92=8C&nbsp;<code>MarketUtils.marketTokenAmountToUsd</code>&nbsp;=E5=B0=
+=86&nbsp;<code>tokenBalances</code>&nbsp;=E6=8A=98=E7=AE=97=E6=88=90 USD=EF=
+=BC=8C=E5=8D=B3&nbsp;<code>currentUsd</code>=E3=80=82</p></li>
+<li>
+<p>=E6=8C=89=E5=B8=82=E5=9C=BA=E8=AE=A1=E7=AE=97=E5=8F=AF=E6=96=B0=E5=A2=9E=
+=E9=A2=9D=E5=BA=A6&nbsp;<code>buyableUsdPerMarket =3D max(0, capUsd - curre=
+ntUsd)</code>=EF=BC=9B=E5=A6=82=E6=9E=9C=E5=8F=AA=E6=9C=89&nbsp;<code>capAm=
+ount</code>=EF=BC=8C=E5=85=88=E8=BD=AC=E6=8D=A2=E6=88=90 USD =E5=86=8D=E6=
+=AF=94=E8=BE=83=E3=80=82</p></li>
+<li>
+<p>=E6=B1=87=E6=80=BB USD=EF=BC=9A<code>buyableHzV_USD =3D =CE=A3 buyableUs=
+dPerMarket</code>=E3=80=82</p></li>
+<li>
+<p>=E5=86=8D=E5=88=A9=E7=94=A8&nbsp;<code>glvTokenPrice</code>&nbsp;=E5=B0=
+=86 USD =E8=BD=AC=E4=B8=BA=E8=83=BD=E9=93=B8=E9=80=A0=E7=9A=84 GLV =E6=95=
+=B0=E9=87=8F=EF=BC=9A<code>buyableHzV_amount =3D buyableHzV_USD / glvTokenP=
+rice</code>=E3=80=82</p></li>
+<li>
+<p>=E9=80=BB=E8=BE=91=E5=8F=AF=E5=8F=82=E8=80=83&nbsp;<code>GlvUtils.valida=
+teGlvMarketTokenBalance</code>=EF=BC=88<code>contracts-v2/contracts/glv/Glv=
+Utils.sol</code>=EF=BC=89=E3=80=82</p></li>
+</ol>
+<h3 id=3D"GMXV2GLV=E6=8C=87=E6=A0=87=E6=95=B0=E6=8D=AE=E8=8E=B7=E5=8F=96=E6=
+=96=B9=E5=BC=8F-2.5sellableHzV_USD/amount">2.5&nbsp;<code>sellableHzV_USD /=
+ amount</code></h3>
+<ol start=3D"1">
+<li>
+<p>=E4=B8=9A=E5=8A=A1=E9=99=90=E5=88=B6=EF=BC=9A=E5=85=81=E8=AE=B8=E8=B5=8E=
+=E5=9B=9E=E7=9A=84=E8=B5=84=E9=87=91=E4=B8=BA=E5=BD=93=E5=89=8D TVL =E7=9A=
+=84 90%=EF=BC=8C=E6=89=80=E4=BB=A5&nbsp;<code>sellableHzV_USD =3D TVL_USD *=
+ 0.9</code>=E3=80=82</p></li>
+<li>
+<p>=E8=B5=8E=E5=9B=9E=E6=97=B6=E6=8C=89=E7=85=A7&nbsp;<code>GlvUtils.glvTok=
+enAmountToUsd(glvAmount, glvValue, glvSupply)</code>&nbsp;=E6=8A=8A=E6=83=
+=B3=E8=B5=8E=E5=9B=9E=E7=9A=84 GLV =E6=95=B0=E9=87=8F=E8=BD=AC=E6=8D=A2=E6=
+=88=90 USD=EF=BC=8C=E6=88=96=E4=BD=BF=E7=94=A8&nbsp;<code>glvTokenPrice</co=
+de>&nbsp;=E7=B2=97=E7=95=A5=E4=BC=B0=E7=AE=97=E3=80=82</p></li>
+<li>
+<p>=E5=8F=8D=E5=90=91=E6=8D=A2=E7=AE=97=E8=B5=8E=E5=9B=9E=E9=A2=9D=E5=BA=A6=
+=EF=BC=9A<code>sellableHzV_amount =3D sellableHzV_USD / glvTokenPrice</code=
+>=E3=80=82</p></li>
+<li>
+<p>=E4=B8=8A=E8=BF=B0=E6=8E=A5=E5=8F=A3=E9=83=BD=E5=9C=A8&nbsp;<code>contra=
+cts-v2/contracts/glv/GlvUtils.sol</code>&nbsp;=E4=B8=AD=EF=BC=8C=E7=BB=93=
+=E5=90=88=E7=AC=AC 2.1 =E8=8A=82=E7=9A=84 TVL =E7=BB=93=E6=9E=9C=E5=8D=B3=
+=E5=8F=AF=E6=B1=82=E5=BE=97=E3=80=82</p></li>
+</ol>
+<h3 id=3D"GMXV2GLV=E6=8C=87=E6=A0=87=E6=95=B0=E6=8D=AE=E8=8E=B7=E5=8F=96=E6=
+=96=B9=E5=BC=8F-2.6MarketOpenInterest/PoolReserve">2.6&nbsp;<code>Market Op=
+en Interest / Pool Reserve</code></h3>
+<ol start=3D"1">
+<li>
+<p>=E9=80=9A=E8=BF=87&nbsp;<code>Reader.getMarkets(DataStore, start, end)</=
+code>&nbsp;=E6=88=96&nbsp;<code>Reader.getMarketInfoList(DataStore, marketA=
+ddresses, prices)</code>&nbsp;=E6=9E=9A=E4=B8=BE=E6=89=80=E6=9C=89 GM =E5=
+=B8=82=E5=9C=BA=EF=BC=88=E5=85=A5=E5=8F=A3=EF=BC=9A<code>contracts-v2/contr=
+acts/reader/Reader.sol</code>=EF=BC=89=E3=80=82</p>
+<ul>
+<li>
+<p>=E4=B8=BA=E6=AF=8F=E4=B8=AA=E5=B8=82=E5=9C=BA=E6=9E=84=E9=80=A0&nbsp;<co=
+de>Multicall</code>&nbsp;=E8=AF=B7=E6=B1=82=EF=BC=8C=E6=89=B9=E9=87=8F=E8=
+=AF=BB=E5=8F=96=EF=BC=9A</p>
+<ol start=3D"1">
+<li>
+<p><code>openInterestKey(market, collateralToken, isLong)</code></p></li>
+<li>
+<p><code>collateralSumKey(market, collateralToken, isLong)</code></p></li>
+<li>
+<p>=E8=BF=99=E4=BA=9B&nbsp;<code>bytes32</code>&nbsp;Key =E9=83=BD=E5=9C=A8=
+&nbsp;<code>contracts-v2/contracts/data/Keys.sol</code>&nbsp;=E6=8F=90=E4=
+=BE=9B=E3=80=82</p></li>
+</ol></li>
+<li>
+<p>=E6=A0=B9=E6=8D=AE&nbsp;<code>scripts/printMarketInfo.ts</code>=EF=BC=88=
+=E7=BA=A6 120 =E8=A1=8C=E5=90=8E=E7=9A=84&nbsp;<code>multicallReadParams</c=
+ode>=EF=BC=89=E7=A4=BA=E4=BE=8B=EF=BC=8C=E5=B0=86=E8=BF=94=E5=9B=9E=E7=9A=
+=84 1e30 =E7=B2=BE=E5=BA=A6=E6=95=B0=E5=80=BC=E6=8B=86=E6=88=90 Long/Short=
+=EF=BC=9A</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">   OI_l=
+ong =3D openInterest_longCollateral_isLong + openInterest_shortCollateral_i=
+sLong
+    OI_short =3D openInterest_longCollateral_isShort + openInterest_shortCo=
+llateral_isShort
+    Market_OI =3D OI_long + OI_short
+   =20
+    PoolReserve_Long =3D collateralSum_longCollateral_isLong + collateralSu=
+m_shortCollateral_isLong
+    PoolReserve_Short =3D collateralSum_longCollateral_isShort + collateral=
+Sum_shortCollateral_isShort
+    </pre>
+</div>
+</div>
+<p>=E8=8B=A5=E9=9C=80=E8=A6=81 USD =E5=B1=95=E7=A4=BA=EF=BC=8C=E5=8F=AF=E7=
+=94=A8&nbsp;<code>MarketUtils.marketTokenAmountToUsd</code>&nbsp;=E6=88=96=
+=E8=84=9A=E6=9C=AC=E9=87=8C=E7=9A=84&nbsp;<code>formatAmount</code>&nbsp;=
+=E8=BF=9B=E8=A1=8C=E8=BD=AC=E6=8D=A2=E3=80=82</p></li>
+</ol>
+<h3 id=3D"GMXV2GLV=E6=8C=87=E6=A0=87=E6=95=B0=E6=8D=AE=E8=8E=B7=E5=8F=96=E6=
+=96=B9=E5=BC=8F-2.7TotalEarnedFees_usd">2.7&nbsp;<code>Total Earned Fees_us=
+d</code></h3>
+<ol start=3D"1">
+<li>
+<p>=E6=AF=8F=E4=B8=AA=E5=B8=82=E5=9C=BA=E4=B8=8E fee Token =E7=BB=84=E5=90=
+=88=E9=83=BD=E6=9C=89&nbsp;<code>claimableFeeAmountKey(market, token)</code=
+>=EF=BC=88=E5=AE=9A=E4=B9=89=E4=BA=8E&nbsp;<code>Keys.sol</code>=EF=BC=89=
+=E3=80=82</p></li>
+<li>
+<p>=E4=BD=BF=E7=94=A8&nbsp;<code>DataStore.getUint(key)</code>&nbsp;=E6=8B=
+=BF=E5=88=B0=E5=B0=9A=E6=9C=AA=E8=A2=AB FeeHandler =E9=A2=86=E5=8F=96=E7=9A=
+=84=E7=B4=AF=E8=AE=A1=E6=89=8B=E7=BB=AD=E8=B4=B9=E3=80=82</p></li>
+<li>
+<p>=E7=9B=91=E5=90=AC&nbsp;<code>FeeUtils.incrementClaimableFeeAmount</code=
+>&nbsp;=E5=8F=91=E5=87=BA=E7=9A=84&nbsp;<code>ClaimableFeeAmountUpdated</co=
+de>&nbsp;=E4=BA=8B=E4=BB=B6=E5=8F=AF=E4=BB=A5=E5=9B=9E=E6=94=BE=E5=8E=86=E5=
+=8F=B2=EF=BC=8C=E6=88=96=E7=BB=9F=E8=AE=A1=E5=B7=B2=E8=A2=AB=E6=8F=90=E8=B5=
+=B0=E7=9A=84=E9=83=A8=E5=88=86=E3=80=82</p></li>
+<li>
+<p>=E9=81=8D=E5=8E=86=E6=89=80=E6=9C=89 GM =E5=B8=82=E5=9C=BA=E5=8F=8A=E5=
+=85=B6=E5=8F=AF=E5=88=86=E9=85=8D=E7=9A=84 fee Token=EF=BC=88=E5=8F=82=E8=
+=80=83=E9=83=A8=E7=BD=B2=E9=85=8D=E7=BD=AE=E6=88=96&nbsp;<code>Reader.getMa=
+rketTokenPrices</code>&nbsp;=E4=B8=AD=E7=9A=84 tokens=EF=BC=89=EF=BC=8C=E5=
+=B0=86=E5=BD=93=E5=89=8D claimable =E6=95=B0=E9=A2=9D=E4=B8=8E=E5=8E=86=E5=
+=8F=B2=E9=A2=86=E5=8F=96=E5=80=BC=E6=B1=82=E5=92=8C=EF=BC=8C=E5=8D=B3=E5=BE=
+=97=E5=88=B0&nbsp;<code>Total Earned Fees</code>=E3=80=82</p></li>
+<li>
+<p>=E4=B9=9F=E5=8F=AF=E8=BE=85=E5=8A=A9=E5=8F=82=E8=80=83Dune =E4=BB=AA=E8=
+=A1=A8=E7=9B=98=EF=BC=88<code>https://dune.com/gmx-io/gmx-analytics</code>=
+=E7=AD=89=EF=BC=89=E6=A0=A1=E9=AA=8C=E6=95=B0=E6=8D=AE=E3=80=82</p></li>
+</ol>
+<h3 id=3D"GMXV2GLV=E6=8C=87=E6=A0=87=E6=95=B0=E6=8D=AE=E8=8E=B7=E5=8F=96=E6=
+=96=B9=E5=BC=8F-2.8FeeAPR_24h">2.8&nbsp;<code>Fee APR_24h</code></h3>
+<ol start=3D"1">
+<li>
+<p>24 =E5=B0=8F=E6=97=B6=E5=86=85=E7=9A=84=E6=89=8B=E7=BB=AD=E8=B4=B9=E5=A2=
+=9E=E9=87=8F=EF=BC=9A=E5=AF=B9=E6=89=80=E6=9C=89&nbsp;<code>ClaimableFeeAmo=
+untUpdated</code>&nbsp;=E4=BA=8B=E4=BB=B6=E5=8F=96&nbsp;<code>delta</code>=
+=EF=BC=8C=E9=99=90=E5=88=B6=E6=97=B6=E9=97=B4=E7=AA=97=E5=8F=A3 24h=EF=BC=
+=88=E9=93=BE=E4=B8=8A=E6=88=96=E7=A6=BB=E7=BA=BF ETL =E5=9D=87=E5=8F=AF=EF=
+=BC=89=E3=80=82</p></li>
+<li>
+<p>=E5=B0=86=E5=A2=9E=E9=87=8F=E6=8A=98=E4=B8=BA USD=EF=BC=88=E5=A6=82=E6=
+=9E=9C=E4=BA=8B=E4=BB=B6=E4=BB=A5 token =E6=95=B0=E9=87=8F=E8=AE=A1=E9=87=
+=8F=EF=BC=8C=E9=9C=80=E9=85=8D=E5=90=88=E5=BD=93=E6=97=B6=E4=BB=B7=E6=A0=BC=
+=E6=88=96=E5=BD=93=E5=89=8D=E4=BB=B7=E6=A0=BC=E5=81=9A=E6=8A=98=E7=AE=97=EF=
+=BC=89=E3=80=82</p></li>
+<li>
+<p><code>feeApr =3D fees_24h / TVL_USD</code>=EF=BC=8C=E8=8B=A5=E8=A6=81=E5=
+=B9=B4=E5=8C=96=E5=88=99=E4=B9=98=E4=BB=A5&nbsp;<code>365</code>=E3=80=82</=
+p></li>
+<li>
+<p>=E5=BF=AB=E9=80=9F=E5=AE=9E=E7=8E=B0=E5=8F=AF=E4=BE=9D=E8=B5=96 Dune / S=
+atsuma Subgraph =E7=9A=84=E7=8E=B0=E6=88=90 SQL=EF=BC=88=E9=93=BE=E6=8E=A5=
+=E8=A7=81&nbsp;<code>ref/ref.md</code>=EF=BC=89=EF=BC=8C=E4=B9=9F=E5=8F=AF=
+=E4=BB=A5=E5=B0=86=E7=AC=AC 2.7 =E8=8A=82=E7=9A=84=E6=95=B0=E6=8D=AE=E8=90=
+=BD=E5=BA=93=E5=90=8E=E8=87=AA=E5=B7=B1=E8=AE=A1=E7=AE=97=E6=BB=91=E5=8A=A8=
+=E7=AA=97=E5=8F=A3=E3=80=82</p></li>
+</ol>
+<h2 id=3D"GMXV2GLV=E6=8C=87=E6=A0=87=E6=95=B0=E6=8D=AE=E8=8E=B7=E5=8F=96=E6=
+=96=B9=E5=BC=8F-3.Reader/DataStore=E6=9F=A5=E8=AF=A2=E6=96=B9=E6=B3=95">3. =
+Reader / DataStore =E6=9F=A5=E8=AF=A2=E6=96=B9=E6=B3=95</h2>
+<ol start=3D"1">
+<li>
+<p><strong>=E5=BF=85=E8=A6=81=E5=90=88=E7=BA=A6=E5=9C=B0=E5=9D=80</strong>=
+=EF=BC=9A<code>DataStore</code>,&nbsp;<code>Reader</code>,&nbsp;<code>GlvRe=
+ader</code>,&nbsp;<code>Multicall3</code>=EF=BC=8C=E5=9C=A8<code>contracts-=
+v2/deployments/&lt;network&gt;/</code>&nbsp;=E4=B8=AD=E6=9F=A5=E6=89=BE=E3=
+=80=82</p></li>
+<li>
+<p><strong>=E4=BB=B7=E6=A0=BC=E8=BE=93=E5=85=A5</strong>=EF=BC=9A<code>Read=
+er</code>&nbsp;=E5=A4=9A=E6=95=B0=E6=96=B9=E6=B3=95=E9=83=BD=E9=9C=80=E8=A6=
+=81&nbsp;<code>MarketUtils.MarketPrices</code>=EF=BC=8C=E5=8F=AF=E5=A4=8D=
+=E7=94=A8<code>/cripts/helpers.ts#getApiEndpoint</code>&nbsp;=E4=B8=AD=E9=
+=85=8D=E7=BD=AE=E7=9A=84 GMX Infra =E4=BB=B7=E6=A0=BC=E7=AB=AF=E7=82=B9=EF=
+=BC=88=E4=BE=8B=E5=A6=82&nbsp;<code>https://arbitrum-api.gmxinfra2.io/price=
+s/tickers</code>=EF=BC=89=E3=80=82</p></li>
+<li>
+<p><strong>=E6=89=B9=E9=87=8F=E8=AF=BB=E5=8F=96</strong>=EF=BC=9A=E6=8E=A8=
+=E8=8D=90&nbsp;<code>Multicall3.aggregate3</code>&nbsp;=E5=B0=86&nbsp;<code=
+>DataStore.getUint/getBool</code>&nbsp;=E8=AF=B7=E6=B1=82=E6=89=B9=E9=87=8F=
+=E5=8F=91=E9=80=81=EF=BC=88<code>scripts/printMarketInfo.ts</code>&nbsp;=E5=
+=8D=B3=E6=AD=A4=E5=81=9A=E6=B3=95=EF=BC=89=E3=80=82</p></li>
+<li>
+<p><strong>=E8=BE=85=E5=8A=A9 Key</strong>=EF=BC=9A<code>Keys.sol</code>&nb=
+sp;=E4=B8=AD=E7=9A=84&nbsp;<code>function xxxKey(...)</code>&nbsp;=E7=9B=B4=
+=E6=8E=A5=E8=BF=94=E5=9B=9E&nbsp;<code>bytes32</code>=EF=BC=8C=E5=90=8E=E7=
+=AB=AF=E5=8F=AF=E4=BB=A5=E7=A6=BB=E7=BA=BF=E7=BC=96=E7=A0=81=E7=BC=93=E5=AD=
+=98=EF=BC=8C=E5=87=8F=E5=B0=91=E9=93=BE=E4=B8=8A=E5=90=88=E7=BA=A6=E8=B0=83=
+=E7=94=A8=E3=80=82</p></li>
+</ol>
+<h2 id=3D"GMXV2GLV=E6=8C=87=E6=A0=87=E6=95=B0=E6=8D=AE=E8=8E=B7=E5=8F=96=E6=
+=96=B9=E5=BC=8F-4.=E8=A1=A5=E5=85=85">4. =E8=A1=A5=E5=85=85</h2>
+<p><code>scripts/printGlvPrices.ts</code>=E3=80=81<code>printMarketInfo.ts<=
+/code>&nbsp;=E5=B7=B2=E4=B8=B2=E5=A5=BD=E4=BA=86&nbsp;<code>Reader</code>=
+=E3=80=81=E4=BB=B7=E6=A0=BC=E6=BA=90=E3=80=81Multicall=EF=BC=8C=E7=9B=B4=E6=
+=8E=A5=E6=94=B9=E9=80=A0=E6=88=90 API =E6=9C=80=E5=BF=AB=E3=80=82</p>
+<ul>
+<li>
+<p></p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_34_749795183.1772270885453--

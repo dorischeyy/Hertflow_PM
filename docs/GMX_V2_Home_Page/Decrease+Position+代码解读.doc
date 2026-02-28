@@ -1,0 +1,530 @@
+Date: Sat, 28 Feb 2026 09:27:46 +0000 (UTC)
+Message-ID: <946424038.29.1772270866512@f70bc076af75>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_28_1795383118.1772270866512"
+
+------=_Part_28_1795383118.1772270866512
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Decrease Position =E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Decrease Position =E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"DecreasePosition=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-Crea=
+teDecreaseOrder">Create Decrease Order</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Exchang=
+eRouter.multicall
+=E2=94=9C ExchangeRouter.sendWnt
+=E2=94=9C ExchangeRouter.sendTokens
+=E2=94=94 ExchangeRouter.createOrder
+   =E2=94=94 OrderHandler.createOrder
+      =E2=94=94 OrderUtils.createOrder
+         =E2=94=9C OrderVault.recordTransferIn
+         =E2=94=94 OrderStoreUtils.set</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"DecreasePosition=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB-ExecuteOrder=
+">Execute Order</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">OrderHa=
+ndler.executeOrder
+=E2=94=9C=E2=94=80 OracleModule.withOraclePrices
+=E2=94=82  =E2=94=94=E2=94=80 Oracle.setPrices
+=E2=94=9C=E2=94=80 OrderStoreUtils.get
+=E2=94=9C=E2=94=80 _executeOrder
+=E2=94=82  =E2=94=94=E2=94=80 ExecuteOrderUtils.executeOrder
+=E2=94=82     =E2=94=9C=E2=94=80 OrderStoreUtils.remove
+=E2=94=82     =E2=94=9C=E2=94=80 MarketUtils.getMarketPrices
+=E2=94=82     =E2=94=9C=E2=94=80 MarketUtils.distributePositionImpactPool
+=E2=94=82     =E2=94=9C=E2=94=80 PositionUtils.updateFundingAndBorrowingSta=
+te
+=E2=94=82     =E2=94=9C=E2=94=80 processOrder
+=E2=94=82     =E2=94=82  =E2=94=94=E2=94=80 DecreaseOrderUtils.processOrder
+=E2=94=82     =E2=94=82     =E2=94=9C=E2=94=80 PositionStoreUtils.get
+=E2=94=82     =E2=94=82     =E2=94=9C=E2=94=80 DecreasePositionUtils.decrea=
+sePosition
+=E2=94=82     =E2=94=82     =E2=94=82  =E2=94=9C=E2=94=80 DecreasePositionC=
+ollateralUtils.processCollateral
+=E2=94=82     =E2=94=82     =E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 Positi=
+onUtils.getPositionPnlUsd
+=E2=94=82     =E2=94=82     =E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 Market=
+Utils.applyDeltaToPoolAmount
+=E2=94=82     =E2=94=82     =E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 Decrea=
+sePositionSwapUtils.swapProfitToCollateralToken
+=E2=94=82     =E2=94=82     =E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 Positi=
+onPricingUtils.getPositionFees
+=E2=94=82     =E2=94=82     =E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 payFor=
+Cost
+=E2=94=82     =E2=94=82     =E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 payFor=
+Cost
+=E2=94=82     =E2=94=82     =E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 payFor=
+Cost
+=E2=94=82     =E2=94=82     =E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 payFor=
+Cost
+=E2=94=82     =E2=94=82     =E2=94=82  =E2=94=82  =E2=94=94=E2=94=80 payFor=
+Cost
+=E2=94=82     =E2=94=82     =E2=94=82  =E2=94=9C=E2=94=80 PositionUtils.upd=
+ateTotalBorrowing
+=E2=94=82     =E2=94=82     =E2=94=82  =E2=94=9C=E2=94=80 PositionStoreUtil=
+s.set or remove
+=E2=94=82     =E2=94=82     =E2=94=82  =E2=94=9C=E2=94=80 MarketUtils.apply=
+DeltaToCollateralSum
+=E2=94=82     =E2=94=82     =E2=94=82  =E2=94=9C=E2=94=80 PositionUtils.upd=
+ateOpenInterest
+=E2=94=82     =E2=94=82     =E2=94=82  =E2=94=94=E2=94=80 DecreasePositionS=
+wapUtils.swapWithdrawnCollateralToPnlToken
+=E2=94=82     =E2=94=82     =E2=94=94=E2=94=80 SwapUtils.swap
+=E2=94=82     =E2=94=94=E2=94=80 GasUtils.payExecutionFee
+=E2=94=94=E2=94=80 OracleModule.withOraclePrices
+   =E2=94=94=E2=94=80 Oracle.clearAllPrices</pre>
+</div>
+</div>
+<p></p>
+<p>=E8=BF=99=E9=87=8C=E9=80=BB=E8=BE=91=E5=BE=88=E5=A4=8D=E6=9D=82=EF=BC=8C=
+=E4=B8=BB=E8=A6=81=E5=85=B3=E6=B3=A8=E6=A0=B8=E5=BF=83=E7=9A=84=E5=87=8F=E4=
+=BB=93=E9=80=BB=E8=BE=91=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Decreas=
+eOrderUtils.processOrder
+=E2=94=9C=E2=94=80 PositionStoreUtils.get
+=E2=94=9C=E2=94=80 DecreasePositionUtils.decreasePosition
+=E2=94=82  =E2=94=9C=E2=94=80 DecreasePositionCollateralUtils.processCollat=
+eral
+=E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 PositionUtils.getPositionPnlUsd
+=E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 MarketUtils.applyDeltaToPoolAmount
+=E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 DecreasePositionSwapUtils.swapProf=
+itToCollateralToken
+=E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 PositionPricingUtils.getPositionFe=
+es
+=E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 payForCost
+=E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 payForCost
+=E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 payForCost
+=E2=94=82  =E2=94=82  =E2=94=9C=E2=94=80 payForCost
+=E2=94=82  =E2=94=82  =E2=94=94=E2=94=80 payForCost
+=E2=94=82  =E2=94=9C=E2=94=80 PositionUtils.updateTotalBorrowing
+=E2=94=82  =E2=94=9C=E2=94=80 PositionStoreUtils.set or remove
+=E2=94=82  =E2=94=9C=E2=94=80 MarketUtils.applyDeltaToCollateralSum
+=E2=94=82  =E2=94=9C=E2=94=80 PositionUtils.updateOpenInterest
+=E2=94=82  =E2=94=94=E2=94=80 DecreasePositionSwapUtils.swapWithdrawnCollat=
+eralToPnlToken
+=E2=94=94=E2=94=80 SwapUtils.swap</pre>
+</div>
+</div>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>=E6=9C=80=E5=A4=96=E5=B1=82=EF=BC=8C=E4=B8=89=E6=AE=B5=E5=BC=8F=E9=80=BB=
+=E8=BE=91</p></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">=E6=9C=
+=80=E5=A4=96=E5=B1=82 DecreaseOrderUtils.processOrder =E7=9A=84=E9=80=BB=E8=
+=BE=91=E6=AF=94=E8=BE=83=E6=B8=85=E6=99=B0=EF=BC=9A
+1. =E4=BB=8E datastore =E6=89=BE=E5=88=B0=E5=AF=B9=E5=BA=94=E7=9A=84 positi=
+on
+2. =E8=B0=83=E7=94=A8 decreasePosition =E5=8E=BB=E5=AE=8C=E6=88=90=E5=87=8F=
+=E4=BB=93=E6=93=8D=E4=BD=9C=EF=BC=8C=E8=BF=99=E4=B8=AA=E5=87=BD=E6=95=B0=E4=
+=BC=9A=E8=BF=94=E5=9B=9E=E5=87=8F=E4=BB=93=E5=90=90=E5=87=BA=E6=9D=A5=E7=9A=
+=84tokens=E4=BF=A1=E6=81=AF
+3. =E8=B0=83=E7=94=A8 swap =E5=8E=BB=E5=8F=91=E9=80=81=E5=87=8F=E4=BB=93=E5=
+=90=90=E5=87=BA=E6=9D=A5=E7=9A=84 tokens=EF=BC=88=E5=8F=82=E8=80=83 swap =
+=E4=BB=A3=E7=A0=81=E8=A7=A3=E8=AF=BB=E6=96=87=E6=A1=A3=E7=BB=93=E5=B0=BE=EF=
+=BC=89</pre>
+</div>
+</div>
+<p></p>
+<ol start=3D"2">
+<li>
+<p>=E4=B8=AD=E9=97=B4=E5=B1=82=EF=BC=8C=E4=B8=A4=E6=AE=B5=E5=BC=8F=E9=80=BB=
+=E8=BE=91</p></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Decreas=
+ePositionUtils.decreasePosition =E7=9A=84=E9=80=BB=E8=BE=91=E7=95=A5=E5=A4=
+=8D=E6=9D=82=EF=BC=9A
+1. =E8=B0=83=E7=94=A8=E5=86=85=E5=B1=82=E7=9A=84 DecreasePositionCollateral=
+Utils.processCollateral =E5=8E=BB=E5=A4=84=E7=90=86=E4=BB=93=E4=BD=8D=E4=BF=
+=9D=E8=AF=81=E9=87=91=E9=80=BB=E8=BE=91=E3=80=82
+  =E8=BF=99=E9=87=8C=E4=BC=9A=E8=BF=94=E5=9B=9E=E5=87=8F=E4=BB=93=E5=87=BA=
+=E6=9D=A5=E7=9A=84=E4=BF=9D=E8=AF=81=E9=87=91=E6=95=B0=E9=87=8F=EF=BC=8C=E4=
+=BB=93=E4=BD=8D=E5=87=8F=E4=BB=93=E5=90=8E=E7=9A=84=E7=8A=B6=E6=80=81=EF=BC=
+=8C=E4=BB=A5=E5=8F=8A=E6=94=AF=E4=BB=98=E7=9A=84=E5=90=84=E7=A7=8D=E8=B4=B9=
+=E7=94=A8=E3=80=82
+2. =E6=8B=BF=E7=9D=80=E5=89=8D=E9=9D=A2=E8=BF=94=E5=9B=9E=E7=9A=84=E8=AE=A1=
+=E7=AE=97=E5=80=BC=EF=BC=8C=E5=8E=BB=E7=9C=9F=E6=AD=A3=E7=9A=84=E5=81=9A=E4=
+=B8=80=E4=BA=9Bset=E6=93=8D=E4=BD=9C=EF=BC=8C=E6=8A=8A=E8=AE=A1=E7=AE=97=E7=
+=BB=93=E6=9E=9C=E8=90=BD=E5=9C=B0=E3=80=82
+  =E5=8C=85=E6=8B=AC=E4=BB=93=E4=BD=8D=E6=9C=AC=E8=BA=AB=E7=9A=84=E7=8A=B6=
+=E6=80=81=EF=BC=9Aposition.setSizeInUsd / setSizeInTokens
+  =E5=85=A8=E5=B1=80=E9=87=8F=EF=BC=9AtotalBorrowing / collateralSum / OI
+  =E8=B4=B9=E7=94=A8=E7=9B=B8=E5=85=B3=E7=9A=84=E7=8A=B6=E6=80=81=EF=BC=9Ab=
+orrowing / funding fee =E9=83=BD=E7=94=A8=E7=9A=84=E7=B4=AF=E7=A7=AF=E7=AE=
+=97=E6=B3=95=EF=BC=8C=E8=BF=99=E9=87=8C=E9=9C=80=E8=A6=81=E6=9B=B4=E6=96=B0=
+=E4=BB=93=E4=BD=8D=E7=9A=84 last factor=EF=BC=8C=E9=81=BF=E5=85=8D=E9=87=8D=
+=E5=A4=8D=E6=94=B6=E8=B4=B9
+3. =E6=9C=80=E5=90=8E=E8=BF=98=E6=9C=89=E4=B8=80=E6=AD=A5 swap =E9=80=BB=E8=
+=BE=91=EF=BC=8C=E5=85=81=E8=AE=B8=E7=94=A8=E6=88=B7=E6=8A=8A coll =E8=BD=AC=
+=E5=8C=96=E4=B8=BA pnl token=E3=80=82</pre>
+</div>
+</div>
+<p></p>
+<ol start=3D"3">
+<li>
+<p>=E6=9C=80=E5=86=85=E5=B1=82=EF=BC=8C=E5=AE=9E=E9=99=85=E5=87=8F=E4=BB=93=
+=E7=9A=84=E9=80=BB=E8=BE=91=E6=A0=B8=E5=BF=83</p></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Decreas=
+ePositionCollateralUtils.processCollateral =E6=98=AF=E5=AE=9E=E9=99=85=E5=
+=87=8F=E4=BB=93=E7=9A=84=E6=A0=B8=E5=BF=83=E9=80=BB=E8=BE=91=EF=BC=8C=E4=B8=
+=BB=E8=A6=81=E5=85=B3=E6=B3=A8 PNL =E5=92=8C=E4=BF=9D=E8=AF=81=E9=87=91
+
+values.output.outputToken =3D params.position.collateralToken();
+values.output.secondaryOutputToken =3D cache.pnlToken;
+
+1. =E8=AE=A1=E7=AE=97 PNL=EF=BC=8C=E7=9B=88=E5=88=A9=E4=BA=86=E5=88=99=E4=
+=BB=8E market =E4=B8=AD=E7=A7=BB=E8=B5=B0=E8=B5=84=E9=87=91
+2. =E5=A4=84=E7=90=86 Price Impact=EF=BC=8C=E8=BF=99=E9=87=8C=E6=B3=A8=E6=
+=84=8F=E4=BB=B7=E6=A0=BC=E5=86=B2=E5=87=BB=E8=B4=B9=E7=94=A8=E6=98=AF lazy =
+=E7=9A=84=EF=BC=8C=E5=AF=84=E5=AD=98=E5=9C=A8 position =E7=9A=84 pending =
+=E5=AD=97=E6=AE=B5=E9=87=8C=E9=9D=A2
+  =E8=BF=99=E9=87=8C=E5=87=8F=E4=BB=93=E7=9A=84=E6=97=B6=E5=80=99=E5=B8=A6=
+=E6=9D=A5=E7=9A=84=E6=96=B0=E4=B8=80=E6=AC=A1 imapct =E8=B4=B9=E7=94=A8=E8=
+=A6=81=E5=92=8C=E4=B9=8B=E5=89=8D=E5=AF=84=E5=AD=98=E7=9A=84=E8=B4=B9=E7=94=
+=A8=E6=B1=82=E5=92=8C=E3=80=82
+  =E5=A6=82=E6=9E=9C impact usd &gt; 0=EF=BC=8C=E4=BB=8E priceImpactPool =
+=E4=B8=AD=E7=A7=BB=E8=B5=B0=E8=B5=84=E9=87=91(=E6=B3=A8=E6=84=8F=E8=BF=99=
+=E4=B8=AApool=EF=BC=8C=E8=BF=98=E4=B8=8D=E6=B8=85=E6=A5=9A=E6=9C=89=E4=BB=
+=80=E4=B9=88=E7=94=A8)
+    =E5=B9=B6=E4=B8=94=E4=BB=8E market pool =E4=B8=AD=E7=A7=BB=E8=B5=B0=E5=
+=AF=B9=E5=BA=94=E7=9A=84=E8=B5=84=E9=87=91
+3. =E5=A6=82=E6=9E=9C=E9=85=8D=E7=BD=AE=E4=BA=86 pnl token swap to collater=
+al token=EF=BC=8C=E5=81=9A=E4=B8=80=E6=AC=A1 swap=E3=80=82
+4. =E5=BC=80=E5=A7=8B=E6=94=AF=E4=BB=98=E8=B4=B9=E7=94=A8
+  - =E8=B4=B9=E7=94=A8=E6=94=AF=E4=BB=98=E9=80=BB=E8=BE=91=EF=BC=9A
+    - =E5=85=88=E4=BB=8E=E5=87=8F=E4=BB=93=E5=90=90=E5=87=BA=E7=9A=84 coll =
+=E9=83=A8=E5=88=86=E6=89=A3=E8=B4=B9=EF=BC=88=E6=B3=A8=E6=84=8F3=E5=8F=AF=
+=E8=83=BD=E6=8A=8Apnl=E4=B9=9Fswap=E6=88=90coll=E4=BA=86=EF=BC=89
+    - =E5=86=8D=E4=BB=8E=E4=BB=93=E4=BD=8D=E5=89=A9=E4=BD=99 coll =E9=83=A8=
+=E5=88=86=E6=89=A3=E8=B4=B9
+    - =E5=86=8D=E4=BB=8E pnl =E9=83=A8=E5=88=86=E6=89=A3=E8=B4=B9=EF=BC=88=
+=E6=B3=A8=E6=84=8F3=E5=8F=AF=E8=83=BD=E6=8A=8Apnl=E4=B9=9Fswap=E6=88=90=E5=
+=90=90=E5=87=BA=E7=9A=84coll=E4=BA=86=EF=BC=8C=E8=BF=99=E9=87=8C=E5=B0=B1=
+=E4=B8=8D=E5=A4=9F=E4=BA=86=EF=BC=89
+    - =E4=B8=8D=E5=A4=9F=E7=9A=84=E9=83=A8=E5=88=86=E8=AE=B0=E5=BD=95=E4=B8=
+=8B=E6=9D=A5
+    - =E5=A6=82=E6=9E=9C=E4=B8=8D=E5=A4=9F=EF=BC=8C=E5=88=99=E6=A0=B9=E6=8D=
+=AE=E6=98=AF=E5=90=A6=E6=98=AF=E7=A0=B4=E4=BA=A7=E5=BC=BA=E5=B9=B3=E6=9D=A5=
+=E7=BB=A7=E7=BB=AD=EF=BC=88=E8=BF=99=E9=87=8C=E7=9C=8B=E4=BA=A7=E5=93=81=E6=
+=96=87=E6=A1=A3=E4=B8=AD=E7=A0=B4=E4=BA=A7=E5=BC=BA=E5=B9=B3=E7=9A=84=E5=8F=
+=99=E8=BF=B0=EF=BC=89
+  =E7=84=B6=E5=90=8E=E5=88=86=E5=88=AB=E4=BD=BF=E7=94=A8=E4=B8=8A=E8=BF=B0=
+=E9=80=BB=E8=BE=91=E8=BF=9B=E8=A1=8C(=E4=B8=8B=E9=9D=A2=E9=83=BD=E6=98=AFus=
+d)=EF=BC=9A
+  - funding fee
+  - negative pnl
+  - other fees execpt funding fee(borrow/position/liq/ui)
+  - negative price impact(=E6=B3=A8=E6=84=8F=E8=BF=99=E4=B8=AA=E6=98=AF=E7=
+=8B=AC=E7=AB=8B=E6=89=A3=E7=9A=84=EF=BC=8C=E4=B8=8D=E5=9C=A8=E4=B8=8A=E9=9D=
+=A2=E8=BF=99=E4=B8=80=E8=A1=8C)
+  - price impact diff(=E8=BF=99=E9=87=8C=E9=9C=80=E8=A6=81=E6=B3=A8=E6=84=
+=8F=E4=B8=80=E4=B8=8B=EF=BC=8C=E5=B0=B1=E6=98=AFimpact fee=E4=BC=9A=E8=A2=
+=AB cap=EF=BC=8C=E5=9B=A0=E6=AD=A4=E4=B8=80=E4=B8=AA=E5=A4=A7value=E8=A2=AB=
+=E6=8B=86=E5=88=86=E4=B8=BA limit+diff=E4=BA=86)
+  </pre>
+</div>
+</div>
+<blockquote>
+<p>=E8=BF=99=E9=87=8C=E5=8F=AF=E4=BB=A5=E7=9C=8B=E5=88=B0=EF=BC=8C2+3=E9=83=
+=BD=E5=A4=84=E7=90=86=E4=BA=86=E4=B8=80=E4=BA=9Bdatastore=E8=B5=84=E9=87=91=
+=E7=9B=B8=E5=85=B3=E7=9A=84=E5=AD=97=E6=AE=B5=EF=BC=8C=E4=BD=86=E6=98=AF=E4=
+=BA=8C=E8=80=85=E7=9A=84=E7=9B=AE=E6=A0=87=E4=B8=8D=E4=B8=80=E6=A0=B7=EF=BC=
+=9A</p>
+<p>2 =E4=B8=BB=E8=A6=81=E5=A4=84=E7=90=86=E8=B4=B9=E7=94=A8(cumulative)=E5=
+=92=8C=E4=BB=93=E4=BD=8D(position)=E4=BF=A1=E6=81=AF=EF=BC=8C=E8=BF=98=E6=
+=9C=89=E4=B8=80=E4=BA=9B=E5=85=A8=E5=B1=80=E7=9A=84=E7=BB=9F=E8=AE=A1(OI, t=
+otalXXX)=E4=BF=A1=E6=81=AF=E3=80=82</p>
+<p>3 =E4=B8=BB=E8=A6=81=E5=A4=84=E7=90=86 PNL=EF=BC=88=E8=BF=99=E9=87=8C=E6=
+=B6=89=E5=8F=8A pool =E7=9A=84=E4=BD=99=E9=A2=9D=E5=8F=98=E5=8C=96=E4=BA=86=
+=EF=BC=89 =E5=92=8C=E4=BF=9D=E8=AF=81=E9=87=91=EF=BC=88=E8=BF=99=E9=87=8C=
+=E4=B8=BB=E8=A6=81=E6=98=AF=E5=86=85=E5=AD=98=E8=AE=A1=E7=AE=97=EF=BC=8C=E4=
+=B8=A2=E7=BB=99=E4=B8=8A=E5=B1=82=E7=9A=84 2 =E5=A4=84=E7=90=86=EF=BC=89</p=
+>
+<p></p>
+<p>SWAP =E9=83=A8=E5=88=86=EF=BC=8C=E6=B6=89=E5=8F=8A=E5=88=B0=E4=B8=89=E5=
+=B1=82:</p>
+<ol start=3D"1">
+<li>
+<p>=E7=AC=AC=E4=B8=80=E5=B1=82=E6=98=AF=E6=9C=80=E5=86=85=E9=83=A8=E7=9A=84=
+=EF=BC=9A=E6=98=AF=E5=90=A6=E6=8A=8A pnl =E8=BD=AC=E5=8C=96=E4=B8=BA coll t=
+oken</p></li>
+<li>
+<p>=E7=AC=AC=E4=BA=8C=E5=B1=82=E6=98=AF=E4=B8=AD=E9=97=B4=E7=9A=84=EF=BC=9A=
+=E6=98=AF=E5=90=A6=E6=8A=8A coll token =E8=BD=AC=E5=8C=96=E4=B8=BA pnl toke=
+n</p></li>
+<li>
+<p>=E7=AC=AC=E4=B8=89=E5=B1=82=E6=98=AF coll =E6=A0=B9=E6=8D=AE=E6=8E=A5=E5=
+=8F=A3=E4=BC=A0=E5=85=A5=E7=9A=84 swap path =E8=BF=9B=E8=A1=8C=E5=87=BA=E9=
+=87=91=E7=9A=84=E7=BB=9F=E4=B8=80=E5=8C=96=E3=80=82</p></li>
+</ol>
+<p>=E8=BF=99=E6=A0=B7=E8=AE=BE=E8=AE=A1=E7=9A=84=E6=84=8F=E5=9B=BE=E5=9C=A8=
+=E4=BA=8E=EF=BC=8C=E5=A6=82=E6=9E=9C=E4=BD=A0=E6=83=B3=E8=B5=B01=E6=88=96=
+=E8=80=852=EF=BC=8C=E5=87=8F=E4=BB=93=E5=87=BA=E9=87=91=E5=8F=AF=E4=BB=A5=
+=E5=9C=A8=E5=BD=93=E5=89=8D=E4=BB=93=E4=BD=8D=E7=9A=84market=E5=AE=8C=E6=88=
+=90swap=E3=80=82</p>
+<p></p>
+<p>=E4=BE=8B=E5=AD=90=EF=BC=9A ETH/USDC=E5=B8=82=E5=9C=BA=E5=86=85=E8=BF=9B=
+=E8=A1=8C=E5=87=8F=E4=BB=93</p>
+<p>=E4=BB=93=E4=BD=8D=E6=9C=AC=E8=BA=AB=E6=98=AF=E7=94=A8ETH=E5=BC=80=E5=A4=
+=9A=EF=BC=8C=E5=87=BA=E9=87=91=E8=AE=BE=E7=BD=AE=E4=B8=BA ETH=EF=BC=8C=E5=
+=8F=AA=E9=9C=80=E8=A6=81=E8=B5=B0 1=EF=BC=88pnl =E5=B0=B1=E6=98=AF ETH=EF=
+=BC=8C=E5=AE=9E=E9=99=85=E4=B8=8A=E4=B9=9F=E6=B2=A1swap=EF=BC=89</p>
+<p>=E4=BB=93=E4=BD=8D=E6=9C=AC=E8=BA=AB=E7=94=A8USDC=E5=BC=80=E5=A4=9A=EF=
+=BC=8C=E5=87=BA=E9=87=91=E8=AE=BE=E7=BD=AE=E4=B8=BA ETH=EF=BC=8C=E9=9C=80=
+=E8=A6=81=E8=B5=B0 2=EF=BC=88pnl =E6=98=AF ETH =E6=B2=A1=E9=94=99=EF=BC=8C=
+=E4=BD=86=E6=98=AF=E4=BF=9D=E8=AF=81=E9=87=91=E6=98=AF U=EF=BC=8C=E8=A6=81 =
+swap=EF=BC=89</p>
+<p>=E4=BB=93=E4=BD=8D=E6=9C=AC=E8=BA=AB=E7=94=A8 USDC =E5=BC=80=E5=A4=9A=EF=
+=BC=8C=E5=87=BA=E9=87=91=E8=AE=BE=E7=BD=AE=E4=B8=BA BTC=EF=BC=8C=E9=9C=80=
+=E8=A6=81=E8=B5=B01+3=E6=88=96=E8=80=852+3=EF=BC=8C=E5=85=B6=E4=B8=AD1+3=E6=
+=84=8F=E5=91=B3=E7=9D=803=E6=98=AF USDC-&gt;BTC=EF=BC=8C=E8=80=8C 2+3 =E6=
+=84=8F=E5=91=B3=E7=9D=80 3 =E6=98=AF ETH =E2=86=92 BTC</p>
+</blockquote>
+    </div>
+</body>
+</html>
+------=_Part_28_1795383118.1772270866512--

@@ -1,0 +1,1067 @@
+Date: Sat, 28 Feb 2026 09:27:59 +0000 (UTC)
+Message-ID: <1968239319.33.1772270879379@f70bc076af75>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_32_447824123.1772270879379"
+
+------=_Part_32_447824123.1772270879379
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>GMX V2 =E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>GMX V2 =E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E</h1>
+    <div class=3D"Section1">
+        <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1772270879363 {padding: 0px;}
+div.rbtoc1772270879363 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1772270879363 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1772270879363">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#GMXV2=E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E-1.Token=E6=95=B0=
+=E9=87=8F">1. Token =E6=95=B0=E9=87=8F</a></li>
+<li><a href=3D"#GMXV2=E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E-2.USD=E4=BB=B7=E5=
+=80=BC">2. USD =E4=BB=B7=E5=80=BC</a></li>
+<li><a href=3D"#GMXV2=E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E-3.Token=E4=BB=B7=
+=E6=A0=BC">3. Token =E4=BB=B7=E6=A0=BC</a></li>
+<li><a href=3D"#GMXV2=E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E-4.Factor">4. Fact=
+or</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#GMXV2=E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E-4.1=E5=B8=B8=E8=
+=A7=84=E5=9B=A0=E5=AD=90">4.1 =E5=B8=B8=E8=A7=84=E5=9B=A0=E5=AD=90</a></li>
+<li><a href=3D"#GMXV2=E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E-4.2=E9=80=9F=E7=
+=8E=87/per-size=E9=A1=B9">4.2 =E9=80=9F=E7=8E=87 / per-size =E9=A1=B9</a></=
+li>
+</ul></li>
+</ul>
+</div>
+<h2 id=3D"GMXV2=E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E-1.Token=E6=95=B0=E9=87=
+=8F"><strong>1. Token =E6=95=B0=E9=87=8F</strong></h2>
+<p>=E7=B2=BE=E5=BA=A6=E5=92=8C token =E6=9C=AC=E8=BA=AB=E7=9A=84=E7=B2=BE=
+=E5=BA=A6=E4=B8=80=E8=87=B4=E3=80=82=E6=AF=94=E5=A6=82 USDC =E7=9A=84 Decim=
+al =E6=98=AF 6=EF=BC=8C=E9=82=A3=E4=B9=88 GMX =E4=B8=AD 1 USDC =E4=BC=9A=E8=
+=A1=A8=E7=A4=BA=E4=B8=BA 10^6 =3D 1,000,000=EF=BC=9B</p>
+<p>WETH =E7=9A=84 Decimal =E6=98=AF 18=EF=BC=8C=E6=89=80=E4=BB=A5 1 WETH =
+=E4=BC=9A=E8=A1=A8=E7=A4=BA=E4=B8=BA 1,000,000,000,000,000,000=E3=80=82</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"center" data-local-id=3D"3cd=
+c7471-f937-4688-afce-6dfdf9f752e7" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=AD=97=E6=AE=B5 / Key</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=B2=BE=E5=BA=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=A4=BA=E4=BE=8B</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>poolAmount, MarketPoolValueInfo.longTokenAmount, MarketPoolValueInfo.sho=
+rtTokenAmount</p></td>
+<td class=3D"confluenceTd">
+<p>ERC20 =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D=EF=BC=88USDC=3D1e6=EF=BC=8CUS=
+DT=3D1e6=EF=BC=8CDAI=3D1e18=EF=BC=8CWETH=3D1e18=EF=BC=8CWBTC=3D1e8=EF=BC=8C=
+GMX=3D1e18=EF=BC=8CARB=3D1e18=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>100 USDC =E2=86=92 100 =C3=97 1e6 =3D 1e8</code>=EF=BC=9B<code>2 W=
+ETH =E2=86=92 2 =C3=97 1e18 =3D 2e18</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>maxPoolAmount</p></td>
+<td class=3D"confluenceTd">
+<p>ERC20 =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D=EF=BC=88USDC=3D1e6=EF=BC=8CWE=
+TH=3D1e18=EF=BC=8CGMX=3D1e18 =E7=AD=89=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>maxPoolAmount =3D 5,000,000 USDC</code>&nbsp;=E5=AD=98=E6=88=90&nb=
+sp;<code>5e6 =C3=97 1e6 =3D 5e12</code>=EF=BC=9B=E8=8B=A5=E4=B8=BA=E5=8D=95=
+=E5=B8=81=E5=B8=82=E5=9C=BA=E5=88=99=E5=86=8D=E9=99=A4 2 =E2=86=92&nbsp;<co=
+de>2.5e12</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>swapImpactPoolAmount</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8A=B5=E6=8A=BC=E7=89=A9 Token =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D=
+=EF=BC=88=E4=B8=8E=E6=8A=B5=E6=8A=BC=E7=89=A9 Token decimals =E7=9B=B8=E5=
+=90=8C=EF=BC=9AUSDC=3D1e6=EF=BC=8CDAI=3D1e18=EF=BC=8CWETH=3D1e18 =E7=AD=89=
+=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>+50 USD</code>&nbsp;=E7=9A=84=E6=AD=A3=E5=90=91=E5=BD=B1=E5=93=8D=
+=E5=9C=A8 USDC (1e24 =E4=BB=B7=E6=A0=BC=E7=B2=BE=E5=BA=A6) =E4=B8=8A=E6=8D=
+=A2=E7=AE=97=E6=88=90&nbsp;<code>50 =C3=97 1e30 / 1e24 =3D 5e7</code>=E6=9C=
+=80=E5=B0=8F=E5=8D=95=E4=BD=8D (=3D0.05 USDC)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>positionImpactPoolAmount / lentPositionImpactPoolAmount</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8C=87=E6=95=B0 Token =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D=EF=BC=88WE=
+TH=3D1e18=EF=BC=8CWBTC=3D1e8=EF=BC=8CARB=3D1e18 =E7=AD=89=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>=E5=A2=9E=E5=8A=A0 0.1 WETH</code>&nbsp;=E2=86=92&nbsp;<code>0.1 =
+=C3=97 1e18 =3D 1e17</code>=E5=8D=95=E4=BD=8D=EF=BC=9B<code>=E5=80=9F=E5=87=
+=BA 0.05 WETH</code>&nbsp;=E2=86=92&nbsp;<code>-5e16</code>=EF=BC=9B<code>=
+=E5=A2=9E=E5=8A=A0 0.2 WBTC</code>&nbsp;=E2=86=92&nbsp;<code>0.2 =C3=97 1e8=
+ =3D 2e7</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>claimableCollateralAmount / claimedCollateralAmount</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8A=B5=E6=8A=BC=E7=89=A9 Token =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D=
+=EF=BC=88USDC=3D1e6=EF=BC=8CDAI=3D1e18=EF=BC=8CWETH=3D1e18=EF=BC=89</p></td=
+>
+<td class=3D"confluenceTd">
+<p><code>=E7=94=A8=E6=88=B7=E5=8F=AF=E9=A2=86=E5=8F=96 250 USDC</code>&nbsp=
+;=E2=86=92&nbsp;<code>250 =C3=97 1e6 =3D 2.5e8</code>=EF=BC=9B<code>=E5=B7=
+=B2=E9=A2=86=E5=8F=96 1.5 WETH</code>&nbsp;=E2=86=92&nbsp;<code>1.5 =C3=97 =
+1e18 =3D 1.5e18</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>claimableFundingAmount</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8A=B5=E6=8A=BC=E7=89=A9 Token =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D=
+=EF=BC=88DAI=3D1e18=EF=BC=8CUSDC=3D1e6 =E7=AD=89=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>=E8=B5=84=E9=87=91=E8=B4=B9 12 DAI (18 =E4=BD=8D)</code>&nbsp;=E2=
+=86=92 =E5=86=99=E5=85=A5&nbsp;<code>12 =C3=97 1e18 =3D 1.2e19</code>=EF=BC=
+=8C=E9=A2=86=E5=8F=96=E6=97=B6=E6=8C=89=E8=AF=A5=E5=80=BC=E6=89=A3=E5=87=8F=
+</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>openInterestInTokens</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8C=87=E6=95=B0 Token =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D=EF=BC=88WE=
+TH=3D1e18=EF=BC=8CWBTC=3D1e8=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>=E5=A4=9A=E5=A4=B4 3 WETH + =E7=A9=BA=E5=A4=B4 1 WETH</code>=EF=BC=
+=88=E5=8F=8C=E5=B8=81=E5=B8=82=E5=9C=BA=EF=BC=89=E2=86=92&nbsp;<code>4 =C3=
+=97 1e18 =3D 4e18</code>=EF=BC=9B=E8=8B=A5=E6=8C=87=E6=95=B0 Token =E6=98=
+=AF WBTC=EF=BC=8C<code>1 WBTC</code>=E5=B0=B1=E6=98=AF&nbsp;<code>1 =C3=97 =
+1e8 =3D 1e8</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>virtualInventoryForSwaps</p></td>
+<td class=3D"confluenceTd">
+<p>ERC20 =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D=EF=BC=88GMX=3D1e18=EF=BC=8CUS=
+DC=3D1e6=EF=BC=8CARB=3D1e18=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>=E5=BA=93=E5=AD=98 +75 GMX (18 =E4=BD=8D)</code>&nbsp;=E2=86=92&nb=
+sp;<code>75 =C3=97 1e18 =3D 7.5e19</code>=EF=BC=9B=E5=BA=93=E5=AD=98=E5=8F=
+=98=E6=88=90 0 =E6=97=B6=E4=B8=8D=E4=BC=9A=E5=87=BA=E7=8E=B0=E8=B4=9F=E5=80=
+=BC</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>virtualInventoryForPositions</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8C=87=E6=95=B0 Token =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D=EF=BC=88=
+=E5=8F=AF=E4=B8=BA=E8=B4=9F=EF=BC=9BWETH=3D1e18=EF=BC=8CWBTC=3D1e8=EF=BC=89=
+</p></td>
+<td class=3D"confluenceTd">
+<p><code>-0.3 WBTC</code>=EF=BC=888 =E4=BD=8D=EF=BC=89=E2=86=92&nbsp;<code>=
+-0.3 =C3=97 1e8 =3D -3e7</code>=EF=BC=9B<code>+2 WBTC</code>=E2=86=92&nbsp;=
+<code>2e8</code>=EF=BC=9B<code>+1.25 WETH</code>&nbsp;=E2=86=92&nbsp;<code>=
+1.25 =C3=97 1e18 =3D 1.25e18</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>collateralSum</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8A=B5=E6=8A=BC=E7=89=A9 Token =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D=
+=EF=BC=88USDC=3D1e6=EF=BC=8CDAI=3D1e18=EF=BC=8CGMX=3D1e18=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>USDC =E6=8A=B5=E6=8A=BC 400 + 600</code>&nbsp;=E2=86=92&nbsp;<code=
+>1000 =C3=97 1e6 =3D 1e9</code>=EF=BC=9B=E5=8D=95=E5=B8=81=E5=B8=82=E5=9C=
+=BA=E6=8A=98=E5=8D=8A=E6=88=90&nbsp;<code>5e8</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>claimableFeeAmount / claimableUiFeeAmount / affiliateRewardAmount</p></t=
+d>
+<td class=3D"confluenceTd">
+<p>ERC20 =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D=EF=BC=88GMX=3D1e18=EF=BC=8CWE=
+TH=3D1e18=EF=BC=8CUSDC=3D1e6=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>claimableFeeAmount =3D 250 GMX</code>&nbsp;=E2=86=92&nbsp;<code>25=
+0 =C3=97 1e18 =3D 2.5e20</code>=EF=BC=9B<code>affiliateReward =3D 80 WETH</=
+code>&nbsp;=E2=86=92&nbsp;<code>8e19</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>totalPendingImpactAmount</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8C=87=E6=95=B0 Token =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D=EF=BC=88=
+=E5=8F=AF=E6=AD=A3=E5=8F=AF=E8=B4=9F=EF=BC=9BWETH=3D1e18=EF=BC=8CWBTC=3D1e8=
+=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>=E5=BE=85=E7=BB=93=E7=AE=97 +0.02 WETH</code>&nbsp;=E2=86=92&nbsp;=
+<code>0.02 =C3=97 1e18 =3D 2e16</code>=EF=BC=9B<code>=E5=BE=85=E7=BB=93=E7=
+=AE=97 -0.05 WETH</code>&nbsp;=E2=86=92&nbsp;<code>-5e16</code>=EF=BC=9B<co=
+de>=E5=BE=85=E7=BB=93=E7=AE=97 +0.1 WBTC</code>&nbsp;=E2=86=92&nbsp;<code>0=
+.1 =C3=97 1e8 =3D 1e7</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>impactAmount (swap/position)</p></td>
+<td class=3D"confluenceTd">
+<p>ERC20 =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D=EF=BC=88=E6=8C=89=E6=88=90=E4=
+=BA=A4 Token=EF=BC=9AWETH=3D1e18=EF=BC=8CUSDC=3D1e6=EF=BC=8CGMX=3D1e18=EF=
+=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>-120 USD</code>&nbsp;=E7=9A=84=E4=BB=B7=E6=A0=BC=E5=BD=B1=E5=93=8D=
+=E5=9C=A8 WETH (=E4=BB=B7=E6=A0=BC=E7=B2=BE=E5=BA=A6 1e12) =E4=B8=8A=E6=8D=
+=A2=E7=AE=97=E4=B8=BA&nbsp;<code>-120 =C3=97 1e30 / 1e12 =3D -1.2e20</code>=
+&nbsp;(=E2=89=88-0.12 WETH)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>initialCollateralDeltaAmount / inputTokenAmount</p></td>
+<td class=3D"confluenceTd">
+<p>ERC20 =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D=EF=BC=88=E8=B7=9F <code>initi=
+alCollateralToken.decimals()</code>=E7=9B=B8=E5=90=8C=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>Order.Numbers.initialCollateralDeltaAmount</code>=E7=9B=B4=E6=8E=
+=A5=E8=AE=B0=E5=BD=95=E5=8E=9F=E7=94=9F Token =E6=95=B0=EF=BC=9B=E5=A2=9E=
+=E4=BB=93=3D=E7=94=A8=E6=88=B7=E6=89=93=E5=85=A5=E6=8A=B5=E6=8A=BC=EF=BC=8C=
+=E5=87=8F=E4=BB=93=3D=E6=8F=90=E5=8F=96=E6=8A=B5=E6=8A=BC=EF=BC=8CSwap=3D=
+=E5=BE=85=E5=85=91=E6=8D=A2 Token=E3=80=82</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>minOutputAmount</p></td>
+<td class=3D"confluenceTd">
+<p>Swap / Withdrawal =E6=97=B6=E4=B8=BA=E7=9B=AE=E6=A0=87 Token =E6=9C=80=
+=E5=B0=8F=E5=8D=95=E4=BD=8D=EF=BC=9BDecrease Order =E6=A0=A1=E9=AA=8C=E6=97=
+=B6=E8=BD=AC=E6=88=90 USD 1e30</p></td>
+<td class=3D"confluenceTd">
+<p><code>Order.Numbers.minOutputAmount</code>=EF=BC=9AKeeper =E5=9C=A8=E5=
+=87=8F=E4=BB=93=E5=9C=BA=E6=99=AF=E6=8A=8A=E9=A2=84=E6=9C=9F=E9=A2=86=E5=8F=
+=96=E5=80=BC=E6=8D=A2=E7=AE=97=E6=88=90 USD =E6=A0=A1=E9=AA=8C=EF=BC=8C=E5=
+=85=B6=E4=BD=99=E5=9C=BA=E6=99=AF=E7=9B=B4=E6=8E=A5=E4=B8=8E Token =E6=95=
+=B0=E6=AF=94=E8=BE=83=E3=80=82</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>executionFee</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=8E=9F=E7=94=9F WNT=EF=BC=88Wrapped Native=EF=BC=89=E6=9C=80=E5=B0=8F=
+=E5=8D=95=E4=BD=8D=EF=BC=8CEVM =E4=B8=BB=E7=BD=91 1e18</p></td>
+<td class=3D"confluenceTd">
+<p><code>Order.Numbers.executionFee</code> =E4=B8=8E <code>msg.value</code>=
+=E4=B8=80=E8=87=B4=EF=BC=8C=E7=94=B1 Keeper =E9=A2=86=E5=8F=96=E6=89=A7=E8=
+=A1=8C=E8=B4=B9=E3=80=82</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>sizeInTokens / size_delta_in_tokens</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8C=87=E6=95=B0 Token =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BE=8B=E5=A6=82=E5=A2=9E=E4=BB=93 300 USDC =E2=86=92 <code>300 =C3=97=
+ 1e6 =3D 3e8</code>=EF=BC=9B=E6=8F=90=E5=8F=96 0.5 WETH =E2=86=92 <code>0.5=
+ =C3=97 1e18 =3D 5e17</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"GMXV2=E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E-2.USD=E4=BB=B7=E5=80=BC=
+">2. USD =E4=BB=B7=E5=80=BC</h2>
+<p>GMX =E4=B8=AD=EF=BC=8C=E6=89=80=E6=9C=89=E5=AF=B9 USD =E7=9A=84=E6=95=B0=
+=E5=80=BC=E7=B2=BE=E5=BA=A6=E6=98=AF 30=EF=BC=8C=E4=B9=9F=E5=B0=B1=E6=98=AF=
+ 1 USD =E4=BC=9A=E8=A1=A8=E7=A4=BA=E4=B8=BA 10^30=E3=80=82</p>
+<p>=E4=BE=8B=E5=A6=82: <code>BorrowingFeeUsd</code> =3D 10,871,208,629,470,=
+217,267,549,284,842=EF=BC=8C=E5=88=99=E5=8F=AF=E7=9F=A5=E5=AE=9E=E9=99=85=
+=E6=95=B0=E9=87=8F=E5=BA=94=E8=AF=A5=E6=98=AF</p>
+<p>0.010,871,208,629,470,217,267,549,284,842</p>
+<p></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"center" data-local-id=3D"363=
+cd74a-63dd-477b-b5a5-d4acd0934c38" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=AD=97=E6=AE=B5 / Key</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=B2=BE=E5=BA=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=A4=BA=E4=BE=8B</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>openInterest (long/short/total)</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code>=EF=BC=881 USD =3D 10^30=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>15,000 USD</code>&nbsp;=E7=9A=84=E5=A4=9A=E5=A4=B4=E6=95=9E=E5=8F=
+=A3 =E2=86=92&nbsp;<code>1.5e4 =C3=97 1e30 =3D 1.5e34</code>=EF=BC=9B=E5=8D=
+=95=E5=B8=81=E5=B8=82=E5=9C=BA=E9=99=A4 2 =E5=BE=97&nbsp;<code>7.5e33</code=
+></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>maxOpenInterest</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>maxOpenInterest =3D 50M USD</code>&nbsp;=E2=86=92&nbsp;<code>5e7 =
+=C3=97 1e30 =3D 5e37</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>poolUsdWithoutPnl</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>poolAmount =3D 2,000 WETH</code>=EF=BC=8C<code>price =3D 1,800 USD=
+</code>&nbsp;=E2=86=92&nbsp;<code>2,000 =C3=97 1,800 =C3=97 1e30 =3D 3.6e36=
+</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>MarketPoolValueInfo.longTokenUsd / shortTokenUsd / poolValue</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>longTokenUsd =3D 8M USD</code>&nbsp;=E2=86=92&nbsp;<code>8e6 =C3=
+=97 1e30 =3D 8e36</code>=EF=BC=9B<code>poolValue =3D 20M USD</code>=E2=86=
+=92&nbsp;<code>2e37</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>totalBorrowingFees / totalBorrowing</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>positionSize =3D 100k USD</code>=E3=80=81<code>cumulativeBorrowing=
+Factor =3D 0.02 =C3=97 1e30 =3D 2e28</code>&nbsp;=E2=86=92 =E8=B4=B9=E7=94=
+=A8&nbsp;<code>100k =C3=97 0.02 =C3=97 1e30 =3D 2e33</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>longPnl / shortPnl / netPnl</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>long PnL =3D +1,200 USD</code>&nbsp;=E2=86=92&nbsp;<code>1.2e3 =C3=
+=97 1e30 =3D 1.2e33</code>=EF=BC=9B<code>netPnl =3D -800 USD</code>=E2=86=
+=92&nbsp;<code>-8e32</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>impactPoolUsd / lentImpactPoolUsd</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>impactPoolUsd =3D 3,500 USD</code>&nbsp;=E2=86=92&nbsp;<code>3.5e3=
+ =C3=97 1e30 =3D 3.5e33</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>maxPoolUsdForDeposit</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>=E9=98=88=E5=80=BC =3D 10M USD</code>&nbsp;=E2=86=92&nbsp;<code>1e=
+7 =C3=97 1e30 =3D 1e37</code>=EF=BC=9B=E8=8B=A5=E5=BD=93=E5=89=8D=E5=85=A5=
+=E9=87=91 2M USD =E2=86=92&nbsp;<code>2e36</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>reservedUsd / maxReservedUsd</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>reservedUsd =3D 4M USD</code>&nbsp;=E2=86=92&nbsp;<code>4e6 =C3=97=
+ 1e30 =3D 4e36</code>=EF=BC=9B<code>maxReservedUsd =3D 10M USD</code>&nbsp;=
+=E2=86=92&nbsp;<code>1e37</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>maxLendableUsd</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>poolValue =3D 25M USD</code>=E3=80=81<code>maxLendableImpactFactor=
+ =3D 0.1 =C3=97 1e30</code>&nbsp;=E2=86=92&nbsp;<code>2.5e36</code></p></td=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>priceImpactUsd / cappedDiffUsd</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>priceImpactUsd =3D -900 USD</code>&nbsp;=E2=86=92&nbsp;<code>-9e32=
+</code>=EF=BC=9B=E8=B6=85=E9=A2=9D=E9=83=A8=E5=88=86&nbsp;<code>cappedDiffU=
+sd =3D 200 USD</code>&nbsp;=E2=86=92&nbsp;<code>2e32</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>fundingUsd / fundingUsdForLongCollateral / fundingUsdForShortCollateral<=
+/p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>duration=3D3600s</code>=E3=80=81<code>fundingFactorPerSecond=3D2e2=
+5 (=E2=89=882e-5)</code>=E3=80=81<code>openInterest=3D5M USD</code>&nbsp;=
+=E2=86=92&nbsp;<code>fundingUsd =E2=89=88 3600 =C3=97 2e25 =C3=97 5e6 =E2=
+=89=88 3.6e35</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>usdValue / totalUsd</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>usdValue =3D 12,345 USD</code>&nbsp;=E2=86=92&nbsp;<code>1.2345e4 =
+=C3=97 1e30 =3D 1.2345e34</code>=EF=BC=9B<code>totalUsd =3D 50M USD</code>&=
+nbsp;=E2=86=92&nbsp;<code>5e37</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>sizeDeltaUsd / size_delta / inputUsd</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E8=B0=83=E6=95=B4 10,000 USD =E4=BB=93=E4=BD=8D =E2=86=92 <code>1e4 =C3=
+=97 1e30 =3D 1e34</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"GMXV2=E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E-3.Token=E4=BB=B7=E6=A0=
+=BC">3. Token =E4=BB=B7=E6=A0=BC</h2>
+<p>=E6=A0=B9=E6=8D=AE=E5=85=AC=E5=BC=8F:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">price =
+=3D (usd_value) / amount
+
+=E6=88=96=E8=80=85=E8=BF=99=E6=A0=B7=E7=90=86=E8=A7=A3: price * amount =3D =
+value =E5=86=8D=E5=80=92=E6=8E=A8</pre>
+</div>
+</div>
+<p>=E5=8F=AF=E4=BB=A5=E7=9C=8B=E5=88=B0=E4=BB=B7=E6=A0=BC=E7=B2=BE=E5=BA=A6=
+=E4=B8=BA 10^30 / 10^token_decimal</p>
+<p>=E5=8D=B3=E4=BB=B7=E6=A0=BC=E7=B2=BE=E5=BA=A6 =3D 30 - token_decimal</p>
+<p></p>
+<p>=E6=AF=94=E5=A6=82=E5=AF=B9=E4=BA=8E USDC=EF=BC=8C=E7=B2=BE=E5=BA=A6=E4=
+=B8=BA 30 - 6 =3D 24=EF=BC=8C=E9=98=85=E8=AF=BB=E5=90=88=E7=BA=A6=E6=97=B6=
+=E9=9C=80=E8=A6=81=E9=99=A4=E4=BB=A5 10^24 =E5=BE=97=E5=88=B0=E4=BA=BA=E7=
+=B1=BB=E5=8F=AF=E8=AF=BB=E7=9A=84=E4=BB=B7=E6=A0=BC=E3=80=82</p>
+<p>=E5=AF=B9=E4=BA=8E WETH=EF=BC=8C=E7=B2=BE=E5=BA=A6=E4=B8=BA 30 - 18 =3D =
+12=E3=80=82</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"6b=
+dd2bb1-b69a-4ea9-b415-aefbacaa5d71" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=AD=97=E6=AE=B5 / Key</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=B2=BE=E5=BA=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=A4=BA=E4=BE=8B</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Price.Props.min / max</p></td>
+<td class=3D"confluenceTd">
+<p>USD =E7=B2=BE=E5=BA=A6 1e30 =C3=B7 Token =E6=9C=80=E5=B0=8F=E5=8D=95=E4=
+=BD=8D</p></td>
+<td class=3D"confluenceTd">
+<p>USDC (<code>dec=3D6</code>) =E2=86=92 =E4=BB=B7=E6=A0=BC=E7=B2=BE=E5=BA=
+=A6&nbsp;<code>1e30 / 1e6 =3D 1e24</code>=EF=BC=8C<code>1.002 USD</code>&nb=
+sp;=E8=AE=B0=E4=B8=BA&nbsp;<code>1.002 =C3=97 1e24</code>; WETH (<code>dec=
+=3D18</code>) =E2=86=92 =E7=B2=BE=E5=BA=A6&nbsp;<code>1e30 / 1e18 =3D 1e12<=
+/code>=EF=BC=8C<code>1800 USD</code>&nbsp;=E8=AE=B0=E4=B8=BA&nbsp;<code>1.8=
+e3 =C3=97 1e12 =3D 1.8e15</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>indexTokenPrice / longTokenPrice / shortTokenPrice</p></td>
+<td class=3D"confluenceTd">
+<p>USD =E7=B2=BE=E5=BA=A6 1e30 =C3=B7 Token =E6=9C=80=E5=B0=8F=E5=8D=95=E4=
+=BD=8D</p></td>
+<td class=3D"confluenceTd">
+<p><code>longToken=3DWETH</code>&nbsp;=E2=86=92&nbsp;<code>price =3D 2000 U=
+SD</code>&nbsp;=E8=AE=B0=E6=88=90&nbsp;<code>2e3 =C3=97 1e12 =3D 2e15</code=
+>;&nbsp;<code>shortToken=3DUSDC</code>=E2=86=92&nbsp;<code>price =3D 1 USD<=
+/code>&nbsp;=E8=AE=B0=E6=88=90&nbsp;<code>1 =C3=97 1e24 =3D 1e24</code></p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>tokenPrice=EF=BC=88=E5=87=BD=E6=95=B0=E5=8F=82=E6=95=B0=EF=BC=89</p></td=
+>
+<td class=3D"confluenceTd">
+<p>USD =E7=B2=BE=E5=BA=A6 1e30 =C3=B7 Token =E6=9C=80=E5=B0=8F=E5=8D=95=E4=
+=BD=8D</p></td>
+<td class=3D"confluenceTd">
+<p><code>poolAmount =3D 5000 GMX</code>=E3=80=81<code>tokenPrice =3D 35 USD=
+</code>&nbsp;=E2=86=92&nbsp;<code>35 =C3=97 (1e30 / 1e18) =3D 35 =C3=97 1e1=
+2 =3D 3.5e13</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>marketTokenPrice</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e18</code>&nbsp;(WEI)</p></td>
+<td class=3D"confluenceTd">
+<p><code>poolValue =3D 80M USD</code>&nbsp;(<code>8e7 =C3=97 1e30 =3D 8e37<=
+/code>)=E3=80=81<code>supply =3D 10M GM</code>&nbsp;=E2=86=92&nbsp;<code>pr=
+ice =E2=89=88 8e37 / 1e7 =3D 8e30</code>=EF=BC=8C=E5=86=8D=E8=BD=AC=E6=88=
+=90 WEI =E2=86=92&nbsp;<code>8e30 =C3=97 1e18 / 1e30 =3D 8e18</code></p></t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Precision.floatToWei / weiToFloat</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30 =E2=86=94 1e18</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>floatToWei(1,250 USD)</code>&nbsp;=E2=86=92&nbsp;<code>1.25e3 =C3=
+=97 1e18 / 1e30 =3D 1.25e-9</code>=EF=BC=88=E5=86=8D=E4=B9=98 supply =E5=BE=
+=97=E6=95=B4=E6=95=B0=EF=BC=89=EF=BC=9B<code>weiToFloat(5e21)</code>&nbsp;=
+=E2=86=92&nbsp;<code>5e21 =C3=97 1e30 / 1e18 =3D 5e33</code>&nbsp;(=E2=89=
+=88<code>5,000 USD</code>)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>triggerPrice / acceptablePrice</p></td>
+<td class=3D"confluenceTd">
+<p>USD =E7=B2=BE=E5=BA=A6 1e30 =C3=B7 Token =E6=9C=80=E5=B0=8F=E5=8D=95=E4=
+=BD=8D</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=A7=A6=E5=8F=91=E4=BB=B7 1,900 USD=EF=BC=88ETH=EF=BC=89=E2=86=92 <cod=
+e>1.9e3 =C3=97 1e12 =3D 1.9e15</code>=EF=BC=9BUSDC =E9=99=90=E4=BB=B7 1.002=
+ USD =E2=86=92 <code>1.002 =C3=97 1e24</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"GMXV2=E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E-4.Factor">4. Factor</h2=
+>
+<p>GMX =E6=8A=8A=E6=89=80=E6=9C=89=E2=80=9C=E5=9B=A0=E5=AD=90=E7=B1=BB=E2=
+=80=9D=E9=85=8D=E7=BD=AE=E5=88=86=E6=88=90=E4=B8=A4=E7=B1=BB=EF=BC=9A=E4=B8=
+=80=E7=B1=BB=E6=98=AF=E7=9B=B4=E6=8E=A5=E4=B9=98=E5=9C=A8 USD/Token =E6=95=
+=B0=E5=80=BC=E4=B8=8A=E7=9A=84=E5=B8=B8=E6=95=B0=E5=9E=8B=E6=AF=94=E4=BE=8B=
+=EF=BC=88=E5=85=B8=E5=9E=8B=E7=B2=BE=E5=BA=A6=E5=B0=B1=E6=98=AF `1e30`=EF=
+=BC=89=EF=BC=8C=E4=BE=8B=E5=A6=82=E6=8A=B5=E6=8A=BC=E7=8E=87=E3=80=81=E4=BB=
+=B7=E6=A0=BC=E5=BD=B1=E5=93=8D=E5=9B=A0=E5=AD=90=E3=80=81UI =E6=89=8B=E7=BB=
+=AD=E8=B4=B9=E7=AD=89=EF=BC=9B=E5=8F=A6=E4=B8=80=E7=B1=BB=E6=98=AF=E5=B8=A6=
+=E2=80=9C=E6=AF=8F=E7=A7=92 / =E6=AF=8F size=E2=80=9D=E8=AF=AD=E4=B9=89=E7=
+=9A=84=E9=80=9F=E7=8E=87=E5=9E=8B=E6=88=96 per-size =E5=9B=A0=E5=AD=90=EF=
+=BC=8C=E9=9C=80=E8=A6=81=E5=86=8D=E4=B9=98=E4=BB=A5=E6=97=B6=E9=97=B4=E6=88=
+=96 size =E6=89=8D=E8=83=BD=E5=9B=9E=E5=88=B0 `1e30` =E6=88=96 Token =E6=9C=
+=80=E5=B0=8F=E5=8D=95=E4=BD=8D=E3=80=82</p>
+<h3 id=3D"GMXV2=E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E-4.1=E5=B8=B8=E8=A7=84=
+=E5=9B=A0=E5=AD=90">4.1 =E5=B8=B8=E8=A7=84=E5=9B=A0=E5=AD=90</h3>
+<p>=E5=B8=B8=E8=A7=84=E5=9B=A0=E5=AD=90=E5=B0=B1=E6=98=AF=E2=80=9C=E7=9B=B4=
+=E6=8E=A5=E4=B9=98=E5=9C=A8 1e30 USD =E6=88=96 Token =E6=95=B0=E4=B8=8A=E7=
+=9A=84=E6=AF=94=E4=BE=8B=E2=80=9D=EF=BC=8C=E6=B2=A1=E6=9C=89=E9=A2=9D=E5=A4=
+=96=E9=99=A4=E4=BB=A5=E7=A7=92=E6=88=96 size=EF=BC=8C=E5=90=88=E7=BA=A6=E9=
+=87=8C=E6=8A=8A=E5=AE=83=E4=BB=AC=E5=BD=93=E4=BD=9C=E7=BA=AF `1e30` =E6=B5=
+=AE=E7=82=B9=E6=95=B0=EF=BC=88=E6=88=96=E5=85=B6=E5=B9=B3=E6=96=B9=E6=A0=B9=
+=EF=BC=89=E6=9D=A5=E6=AF=94=E8=BE=83=E4=B8=8E=E7=9B=B8=E4=B9=98=E3=80=82</p=
+>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a6=
+d9ef24-7106-4bf2-b13d-a25384fc7565" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=AD=97=E6=AE=B5 / Key</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=B2=BE=E5=BA=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=A4=BA=E4=BE=8B</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Precision.FLOAT_PRECISION / FLOAT_PRECISION_SQRT</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30 / 1e15</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>1 USD</code>&nbsp;=E8=AE=B0=E6=88=90&nbsp;<code>1 =C3=97 1e30 =3D =
+1e30</code>=EF=BC=9B<code>FLOAT_PRECISION_SQRT</code>=E4=BB=A3=E8=A1=A8&nbs=
+p;<code>sqrt(1e30)=3D1e15</code>=EF=BC=8C=E5=B9=B3=E6=96=B9=E5=90=8E=E5=9B=
+=9E=E5=88=B0 1e30</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>borrowingFeePoolFactor</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E8=B4=B9=E7=8E=87&nbsp;<code>0.25</code>&nbsp;=E2=86=92 =E5=86=99=E6=88=
+=90&nbsp;<code>0.25 =C3=97 1e30 =3D 2.5e29</code>=EF=BC=9B=E4=B8=8E&nbsp;<c=
+ode>10M USD</code>pool =E7=9B=B8=E4=B9=98=E5=BE=97&nbsp;<code>2.5e29 =C3=97=
+ 1e37 / 1e30 =3D 2.5e36</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>swapImpactFactor (=E6=AD=A3/=E8=B4=9F)</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>swapImpactFactorPositive =3D 5e-5</code>&nbsp;=E2=86=92 =E5=AD=98=
+=E6=88=90&nbsp;<code>5e-5 =C3=97 1e30 =3D 5e25</code>=EF=BC=9B=E8=8B=A5=E8=
+=B4=9F=E5=90=91=E4=B8=BA&nbsp;<code>1e-4</code>&nbsp;=E2=86=92&nbsp;<code>1=
+e26</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>positionImpactFactor (=E6=AD=A3/=E8=B4=9F)</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>positionImpactFactorNegative =3D 0.001</code>&nbsp;=E2=86=92&nbsp;=
+<code>1e-3 =C3=97 1e30 =3D 1e27</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>maxPositionImpactFactor (=E6=AD=A3/=E8=B4=9F) / maxPositionImpactFactorF=
+orLiquidations</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>maxPositionImpactFactorForLiquidations =3D 0.02</code>&nbsp;=E2=86=
+=92&nbsp;<code>2e-2 =C3=97 1e30 =3D 2e28</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>reserveFactor / openInterestReserveFactor</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>reserveFactor =3D 0.5</code>&nbsp;=E2=86=92&nbsp;<code>0.5 =C3=97 =
+1e30 =3D 5e29</code>=EF=BC=8C=E4=B8=8E&nbsp;<code>20M USD</code>&nbsp;=E6=
+=B1=A0=E7=9B=B8=E4=B9=98=E5=BE=97=E5=88=B0&nbsp;<code>1e37</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>maxPnlFactor / minPnlFactorAfterAdl</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>maxPnlFactor =3D 0.3</code>&nbsp;=E2=86=92&nbsp;<code>3e-1 =C3=97 =
+1e30 =3D 3e29</code>=EF=BC=9B<code>minPnlFactorAfterAdl =3D 0.05</code>&nbs=
+p;=E2=86=92&nbsp;<code>5e28</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>maxLendableImpactFactor</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E5=9B=A0=E5=AD=90&nbsp;<code>0.1</code>&nbsp;=E2=86=92&nbsp;<code>1e29<=
+/code>=EF=BC=9Bimpact pool =3D&nbsp;<code>5M USD</code>&nbsp;=E2=86=92&nbsp=
+;<code>0.1 =C3=97 5e6 =C3=97 1e30 =3D 5e35</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>minCollateralFactor / minCollateralFactorForLiquidation / minCollateralF=
+actorForOpenInterestMultiplier</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>minCollateralFactor =3D 0.1</code>&nbsp;=E2=86=92&nbsp;<code>1e29<=
+/code>=EF=BC=9B<code>minCollateralFactorForLiquidation =3D 0.06</code>&nbsp=
+;=E2=86=92&nbsp;<code>6e28</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>thresholdForStableFunding / thresholdForDecreaseFunding</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>thresholdForStableFunding =3D 0.15</code>&nbsp;=E2=86=92&nbsp;<cod=
+e>1.5e29</code>=EF=BC=9B<code>thresholdForDecreaseFunding =3D 0.07</code>&n=
+bsp;=E2=86=92&nbsp;<code>7e28</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>claimableCollateralFactor / claimableReductionFactor</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>claimableCollateralFactor =3D 0.2</code>&nbsp;=E2=86=92&nbsp;<code=
+>2e29</code>=EF=BC=9B<code>claimableReductionFactor =3D 0.01</code>&nbsp;=
+=E2=86=92&nbsp;<code>1e28</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>uiFeeFactor / MAX_UI_FEE_FACTOR</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>uiFeeFactor =3D 0.005</code>&nbsp;=E2=86=92&nbsp;<code>5e-3 =C3=97=
+ 1e30 =3D 5e27</code>=EF=BC=9B<code>MAX_UI_FEE_FACTOR =3D 0.1</code>&nbsp;=
+=E2=86=92&nbsp;<code>1e29</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>usageFactor</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>reservedUsd=3D6M</code>=E3=80=81<code>maxReservedUsd=3D12M</code>&=
+nbsp;=E2=86=92 =E7=94=A8 1e30 =E8=A1=A8=E7=A4=BA=E5=8D=B3&nbsp;<code>0.5 =
+=C3=97 1e30 =3D 5e29</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>pnlToPoolFactor</p></td>
+<td class=3D"confluenceTd">
+<p><code>=C2=B11e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>netPnl =3D -4M USD</code>=E3=80=81<code>poolValue =3D 20M USD</cod=
+e>&nbsp;=E2=86=92&nbsp;<code>-0.2 =C3=97 1e30 =3D -2e29</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>optimalUsageFactor / borrowingExponentFactor</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>optimalUsageFactor =3D 0.7</code> =E2=86=92 <code>7e29</code>=EF=
+=BC=9B<code>borrowingExponentFactor =3D 1.3</code> =E2=86=92 <code>1.3 =C3=
+=97 1e30 =3D 1.3e30</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>callbackGasLimit</p></td>
+<td class=3D"confluenceTd">
+<p>Gas =E5=8D=95=E4=BD=8D (=E5=8E=9F=E5=A7=8B=E6=95=B4=E6=95=B0)</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BC=A0 300,000 gas =E5=B0=B1=E5=86=99=E5=85=A5 <code>300000</code></p=
+></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<h3 id=3D"GMXV2=E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E-4.2=E9=80=9F=E7=8E=87/p=
+er-size=E9=A1=B9">4.2 =E9=80=9F=E7=8E=87 / per-size =E9=A1=B9</h3>
+<p>=E8=BF=99=E4=BA=9B=E5=AD=97=E6=AE=B5=E6=9C=AC=E8=B4=A8=E4=BB=8D=E6=98=AF=
+=E5=9B=A0=E5=AD=90=E6=88=96 Token =E6=95=B0=E9=87=8F=EF=BC=8C=E5=8F=AA=E6=
+=98=AF=E9=99=84=E5=B8=A6=E2=80=9C=E6=AF=8F=E7=A7=92 / =E6=AF=8F size=E2=80=
+=9D=E5=90=AB=E4=B9=89=E3=80=82</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"c1=
+b0b47d-dc9a-42c3-ae3c-f437f504416f" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E5=AD=97=E6=AE=B5 / Key</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=B2=BE=E5=BA=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=A4=BA=E4=BE=8B</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>fundingFactorPerSecond / nextSavedFundingFactorPerSecond</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30 / =E7=A7=92</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>fundingFactorPerSecond =3D 2e-6</code>&nbsp;=E2=86=92&nbsp;<code>2=
+e-6 =C3=97 1e30 =3D 2e24 / =E7=A7=92</code>=EF=BC=9B=E5=AD=98=E7=9A=84=E8=
+=B4=9F=E5=80=BC&nbsp;<code>-1e-6</code>&nbsp;=E2=86=92&nbsp;<code>-1e24 / =
+=E7=A7=92</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>fundingIncreaseFactorPerSecond / fundingDecreaseFactorPerSecond / minFun=
+dingFactorPerSecond / maxFundingFactorPerSecond</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30 / =E7=A7=92</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>fundingIncreaseFactorPerSecond =3D 5e-7</code>&nbsp;=E2=86=92&nbsp=
+;<code>5e23 / =E7=A7=92</code>=EF=BC=9B<code>maxFundingFactorPerSecond =3D =
+4e-6</code>&nbsp;=E2=86=92&nbsp;<code>4e24 / =E7=A7=92</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>borrowingFactor / baseBorrowingFactor / aboveOptimalUsageBorrowingFactor=
+</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30 / =E7=A7=92</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>baseBorrowingFactor =3D 1e-6</code>&nbsp;=E2=86=92&nbsp;<code>1e24=
+ / =E7=A7=92</code>=EF=BC=9B<code>aboveOptimalUsageBorrowingFactor =3D 3e-6=
+</code>&nbsp;=E2=86=92&nbsp;<code>3e24 / =E7=A7=92</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>borrowingFactorPerSecond</p></td>
+<td class=3D"confluenceTd">
+<p><code>1e30 / =E7=A7=92</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>usageFactor =3D 0.8</code>&nbsp;(<code>8e29</code>) =E4=B8=8E&nbsp=
+;<code>borrowingFactor =3D 2e24 / =E7=A7=92</code>&nbsp;=E7=9B=B8=E4=B9=98 =
+=E2=86=92&nbsp;<code>1.6e54 / =E7=A7=92 / 1e30 =3D 1.6e24 / =E7=A7=92</code=
+></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>fundingFeeAmountPerSize / claimableFundingAmountPerSize</p></td>
+<td class=3D"confluenceTd">
+<p><code>Token =E6=95=B0=E9=87=8F / 1e-15 USD size</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>=E8=B5=84=E9=87=91=E8=B4=B9 =3D 0.5 WETH</code>=EF=BC=8818 =E4=BD=
+=8D=EF=BC=89=E5=88=86=E6=91=8A=E5=88=B0&nbsp;<code>1 USD</code>&nbsp;size =
+=E2=86=92 =E7=BB=93=E6=9E=9C&nbsp;<code>0.5 =C3=97 1e18 / 1e15 =3D 5e2</cod=
+e>=EF=BC=8C=E5=8D=B3=E6=AF=8F&nbsp;<code>1e-15 USD</code>&nbsp;=E5=8F=AF=E9=
+=A2=86=E5=8F=96&nbsp;<code>500</code>=E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D (=
+=3D5e-16 WETH)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>positionImpactPoolDistributionRate</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8C=87=E6=95=B0 Token =E6=9C=80=E5=B0=8F=E5=8D=95=E4=BD=8D / =E7=A7=
+=92</p></td>
+<td class=3D"confluenceTd">
+<p>rate =3D&nbsp;<code>0.001 WETH/s</code>&nbsp;=E2=86=92&nbsp;<code>0.001 =
+=C3=97 1e18 =3D 1e15</code>=EF=BC=9B=E5=8F=91=E6=94=BE 600 =E7=A7=92 =E2=86=
+=92&nbsp;<code>6e17</code>&nbsp;(=E2=89=880.6 WETH)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_32_447824123.1772270879379--

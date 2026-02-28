@@ -1,0 +1,404 @@
+Date: Sat, 28 Feb 2026 09:28:47 +0000 (UTC)
+Message-ID: <1741857534.37.1772270927849@8fce659c308c>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_36_230105477.1772270927849"
+
+------=_Part_36_230105477.1772270927849
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=E5=90=88=E7=BA=A6=E4=BA=A4=E6=98=93=E5=BC=95=E5=85=A5 Avantis =
+=E6=9C=BA=E5=88=B6</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=E5=90=88=E7=BA=A6=E4=BA=A4=E6=98=93=E5=BC=95=E5=85=A5 Avantis =E6=
+=9C=BA=E5=88=B6</h1>
+    <div class=3D"Section1">
+        <blockquote local-id=3D"f791758b-4ee2-4b6f-a1e0-0ff3ddd0573c">
+<style>[data-colorid=3Dovx04idtdn]{color:#ff991f} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dovx04idtdn]{color:#e07a00}</style>
+<p local-id=3D"bd3e763b-34d0-4120-a977-f05fd043b017">PRD: <a href=3D"https:=
+//hertzflow.atlassian.net/wiki/spaces/H/pages/55312675/Trade+Page+_PRD" dat=
+a-linked-resource-id=3D"55312675" data-linked-resource-version=3D"8" data-l=
+inked-resource-type=3D"page">Trade Page =E6=96=B0=E6=9C=BA=E5=88=B6=E5=BC=
+=95=E5=85=A5</a></p>
+</blockquote>
+<h2 local-id=3D"9511729d-d498-42da-956c-29602989b341" id=3D"id-=E5=90=88=E7=
+=BA=A6=E4=BA=A4=E6=98=93=E5=BC=95=E5=85=A5Avantis=E6=9C=BA=E5=88=B6-1.=E6=
+=96=B0=E5=A2=9E=E4=BB=93=E4=BD=8D=E6=A8=A1=E5=BC=8F">1. =E6=96=B0=E5=A2=9E=
+=E4=BB=93=E4=BD=8D=E6=A8=A1=E5=BC=8F</h2>
+<p local-id=3D"b74f87d7-952f-42f8-987f-d3a050f2f3c0">=E4=B8=BA=E9=81=BF=E5=
+=85=8D=E5=BD=B1=E5=93=8D=E5=8E=9F=E9=80=BB=E8=BE=91=EF=BC=8C=E6=96=B0=E5=A2=
+=9E=E9=85=8D=E5=A5=97=E6=8E=A5=E5=8F=A3=EF=BC=8C=E9=AB=98=E6=9D=A0=E6=9D=86=
+=E4=BB=93=E4=BD=8D=E8=B5=B0=E6=96=B0=E6=8E=A5=E5=8F=A3=E3=80=82=E6=8E=A5=E5=
+=8F=A3=E9=80=BB=E8=BE=91=E4=B8=8E=E5=8E=9F=E6=9C=89=E6=8E=A5=E5=8F=A3=E5=9F=
+=BA=E6=9C=AC=E4=BF=9D=E6=8C=81=E4=B8=80=E8=87=B4=EF=BC=8C=E5=8F=AA=E5=81=9A=
+=E9=83=A8=E5=88=86=E7=89=B9=E6=AE=8A=E9=80=BB=E8=BE=91=E6=94=B9=E9=80=A0=E3=
+=80=82</p>
+<ul local-id=3D"383b38b7-ccee-4be3-998a-ea37e0ae9ef4">
+<li local-id=3D"8ac27d91-7b9f-4475-84f6-3fa4a2193a78">
+<p local-id=3D"0802ccec-8796-4ac8-a157-b1a759e966ea">=E5=88=9B=E5=BB=BA=E8=
+=AE=A2=E5=8D=95=E9=83=A8=E5=88=86=EF=BC=9AcreateOrder =E2=86=92 createZFPOr=
+der</p></li>
+<li local-id=3D"0c20327f-8005-4a94-a674-9a6abf83254b">
+<p local-id=3D"fbe85c90-7d24-486d-a31f-c0e335931d8d">=E8=AE=A2=E5=8D=95=E5=
+=AE=9E=E4=BD=93=E9=83=A8=E5=88=86=EF=BC=9A=E6=96=B0=E5=A2=9E order.zfp =3D =
+true</p></li>
+<li local-id=3D"1d517a5d-aba0-4ec2-9350-982c7d9b4477">
+<p local-id=3D"3be3971e-9f9d-4dbb-bc49-c0ee3336a1ce">=E6=89=A7=E8=A1=8C=E8=
+=AE=A2=E5=8D=95=E9=83=A8=E5=88=86=EF=BC=9A=E5=A4=8D=E7=94=A8=E5=B7=B2=E6=9C=
+=89=E7=9A=84 executeOrder =E6=8E=A5=E5=8F=A3=EF=BC=8C=E5=86=85=E9=83=A8=E9=
+=80=BB=E8=BE=91=E5=88=86=E6=B5=81=E3=80=82=EF=BC=88=E6=9C=AC=E8=BA=AB=E5=B0=
+=B1=E6=98=AF=E4=B8=80=E4=B8=AA execute by order key =E7=9A=84=E9=80=BB=E8=
+=BE=91=EF=BC=89=E3=80=82</p>
+<ul local-id=3D"7e25b14b-15ed-497e-aa5c-7107d2159c72">
+<li local-id=3D"d0c0bb69-7429-4660-91c1-f7cae3f5cadc">
+<p local-id=3D"c69cc25d-2e8a-4ca3-ab86-2f41a81e89e2">IncreaseOrderUtils.pro=
+cessOrder =E2=86=92 IncreaseOrderUtils.processZFPOrder</p>
+<ul local-id=3D"00f63c5d-83f7-4214-99be-0a0fa28a16c4">
+<li local-id=3D"d0c0bb69-7429-4660-91c1-f7cae3f5cadc">
+<p local-id=3D"beda13f6-ee15-4446-a082-c81f2b15e30a">
+<del>IncreasePositionUtils.increasePosition =E2=86=92 IncreasePositionUtils=
+.increaseZFPPosition</del></p></li>
+</ul></li>
+<li local-id=3D"d3d73b10-f750-4f57-8aaa-08f96954436a">
+<p local-id=3D"8ff77034-7fb7-432b-a96c-44e3f7c92d53">DecreaseOrderUtils.pro=
+cessOrder =E2=86=92 DecreaseOrderUtils.processZFPOrder</p>
+<ul local-id=3D"862e627c-5551-45dc-b3cf-07c4c8a16b48">
+<li local-id=3D"d3d73b10-f750-4f57-8aaa-08f96954436a">
+<p local-id=3D"477986ec-f577-4b61-a6a7-581720c46857">
+<del>DecreasePositionUtils.decreasePosition =E2=86=92 DecreasePositionUtils=
+.decreaseZFPPosition</del></p></li>
+</ul></li>
+</ul></li>
+<li local-id=3D"82781443-02a3-4359-8a4a-c8b128788bc9">
+<p local-id=3D"ad05bf83-4172-442b-a28f-55036ea33c65">=E4=BB=93=E4=BD=8D id =
+=E7=94=9F=E6=88=90=E8=A7=84=E5=88=99=E6=9B=B4=E6=8D=A2=EF=BC=8C=E4=B8=8E=E5=
+=8E=9F=E6=9C=89=E4=BB=93=E4=BD=8D=E8=BF=9B=E8=A1=8C=E6=98=BE=E5=BC=8F=E5=8C=
+=BA=E5=88=86=EF=BC=8C=E9=81=BF=E5=85=8D=E4=BB=93=E4=BD=8D=E5=90=88=E5=B9=B6=
+=EF=BC=9A</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: c; gutter: false; theme: Confluence" data-theme=3D"Confluence">function g=
+etPositionKey(address _account, address _market, address _collateralToken, =
+bool _isLong) internal pure returns (bytes32) {
+    bytes32 _key =3D keccak256(abi.encode(_account, _market, _collateralTok=
+en, _isLong));
+
+    return _key;
+}
+
+// =E7=BB=93=E5=B0=BE=E5=A4=9A=E6=8B=BC=E6=8E=A5=E4=B8=80=E4=B8=AA ZFP =E5=
+=AD=97=E7=AC=A6=E4=B8=B2
+function getZFPPositionKey(address _account, address _market, address _coll=
+ateralToken, bool _isLong) internal pure returns (bytes32) {
+    bytes32 _key =3D keccak256(abi.encode(_account, _market, _collateralTok=
+en, _isLong, "ZFP"));
+
+    return _key;
+}</pre>
+</div>
+</div>
+<ul local-id=3D"81e62d35-754a-4873-9c03-b2a484101aeb">
+<li local-id=3D"2be81288-608c-4db0-93a0-fdf62189c4b4">
+<p local-id=3D"32ad39c2-9a08-46aa-b4fa-a71850de4e44">=E9=85=8D=E7=BD=AE=E9=
+=A1=B9=E9=83=A8=E5=88=86=EF=BC=9A</p>
+<ul local-id=3D"3de641c2-5598-4528-9453-85b498787397">
+<li local-id=3D"be99bfa0-8444-41d1-98f1-352bc9c7b17e">
+<p local-id=3D"fb6b0f18-07cd-46e7-9076-cec1b11e9519">=E6=9C=80=E5=A4=A7=E6=
+=9D=A0=E6=9D=86=E9=99=90=E5=88=B6=E8=B0=83=E6=95=B4=EF=BC=8CPRD =E6=8C=87=
+=E5=87=BA Normal =E4=BB=93=E4=BD=8D=E6=9D=A0=E6=9D=86=E9=83=A8=E5=88=86=E4=
+=B8=BA 1.1x - Max Lev Normal=EF=BC=8CZFP =E7=9A=84=E6=9D=A0=E6=9D=86=E5=88=
+=99=E4=B8=BA=E5=8F=A6=E4=B8=80=E4=B8=AA=E5=8C=BA=E9=97=B4=E3=80=82</p></li>
+</ul></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: c; gutter: false; theme: Confluence" data-theme=3D"Confluence">minCollate=
+ralFactor: percentageToFloat("0.833%"), // 120x leverage
+minCollateralFactorForLiquidation: percentageToFloat("0.833%"), // 120x lev=
+erage
+// =E6=96=B0=E5=A2=9E=E4=B8=8B=E9=9D=A2=E7=9A=84 ZFP =E4=B8=93=E5=B1=9E=E8=
+=AE=BE=E7=BD=AE
+minZFPCollateralFactor: percentageToFloat("0.5%"), // max 200x leverage
+maxZFPCollateralFactor: percentageToFloat("0.8%"), // min 125x leverage</pr=
+e>
+</div>
+</div>
+<ul local-id=3D"8dcc9c65-28c8-4bf6-9d8f-cacac69ad58b">
+<li local-id=3D"f61f757d-9711-4417-8dc2-5813bc0a06c1">
+<p local-id=3D"437411c6-781d-4b88-a422-23adf1798eb1">=E7=9B=88=E5=88=A9=E6=
+=8A=BD=E6=88=90=E9=83=A8=E5=88=86=EF=BC=9A</p>
+<ul local-id=3D"41c75844-7db8-405a-8f3e-ed752d5086e2">
+<li local-id=3D"f61f757d-9711-4417-8dc2-5813bc0a06c1">
+<p local-id=3D"07838789-5f93-43fc-a5a3-af37c2eeb551">=E5=88=A4=E6=96=AD PnL=
+ =E4=B8=8E=E4=BF=9D=E8=AF=81=E9=87=91=E7=9A=84=E6=AF=94=E4=BE=8B=EF=BC=8C=
+=E8=BF=9B=E8=A1=8C=E5=88=86=E6=AE=B5=E5=87=BD=E6=95=B0=E8=AE=A1=E7=AE=97=EF=
+=BC=8C=E6=AF=8F=E4=B8=80=E6=AE=B5=E9=83=BD=E5=AF=B9=E5=BA=94=E4=B8=80=E4=B8=
+=AA factor =E9=85=8D=E7=BD=AE=EF=BC=88=E5=8D=B3 y =3D kx+b =E7=9A=84 k =E5=
+=92=8C b=EF=BC=8C=E8=BF=98=E6=9C=89x=E8=BD=B4=E7=9A=84=E6=96=AD=E7=82=B9=E4=
+=BD=8D=E7=BD=AE=EF=BC=89=E3=80=82</p></li>
+</ul></li>
+</ul>
+<h2 local-id=3D"3612710c-3793-4012-9f09-607a7e6b4980" id=3D"id-=E5=90=88=E7=
+=BA=A6=E4=BA=A4=E6=98=93=E5=BC=95=E5=85=A5Avantis=E6=9C=BA=E5=88=B6-2.OI=E9=
+=87=8D=E5=B9=B3=E8=A1=A1=E6=8D=9F=E5=A4=B1=E8=A1=A5=E5=81=BF">2. OI =E9=87=
+=8D=E5=B9=B3=E8=A1=A1=E6=8D=9F=E5=A4=B1=E8=A1=A5=E5=81=BF</h2>
+<p local-id=3D"5bdcf483-c435-493f-93dc-01ef866f7e80">=E5=BC=80=E4=BB=93=E7=
+=9A=84=E6=97=B6=E5=80=99=EF=BC=8C=E9=A2=9D=E5=A4=96=E8=AE=B0=E5=BD=95=E8=BF=
+=99=E4=B8=AA=E4=BB=93=E4=BD=8D=E6=98=AF=E5=90=A6=E5=B1=9E=E4=BA=8E=E5=BC=B1=
+=E5=8A=BF=E4=BB=93=E4=BD=8D=E3=80=82</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: c; gutter: false; theme: Confluence" data-theme=3D"Confluence">// get pos=
+ition
+position.setIsWeakSide(dataStore.getBool(
+    keccak256(abi.encode(key, IS_WEAK_SIDE))
+));
+
+// set position
+dataStore.setBool(
+    keccak256(abi.encode(key, IS_WEAK_SIDE)),
+    position.isWeakSide()
+);</pre>
+</div>
+</div>
+<p local-id=3D"1a935841-bff7-4f92-8ba8-cfc9cd2d1cc4"><span data-colorid=3D"=
+ovx04idtdn">=E5=87=8F=E4=BB=93=E6=97=B6=EF=BC=8C=E5=B0=86 keeper =E8=B4=B9=
+=E7=94=A8=E8=BD=AC=E7=BB=99=E7=94=A8=E6=88=B7=EF=BC=8C=E8=80=8C=E9=9D=9E=E7=
+=BB=99 keeper</span>=E3=80=82</p>
+<p local-id=3D"70ea8f9f-7ead-42d4-be1d-d4e4dddfb72c">ExecuteOrderUtils.exec=
+uteOrder =E9=87=8C=E9=9D=A2=EF=BC=8C=E5=88=A4=E6=96=AD order =E7=9A=84=E7=
+=B1=BB=E5=9E=8B=E4=B8=BA=E5=87=8F=E4=BB=93=E7=9A=84=E6=97=B6=E5=80=99=EF=BC=
+=8C=E6=8A=8A executionFee =E8=AE=BE=E7=BD=AE=E4=B8=BA 0=EF=BC=8C=E5=8D=B3=
+=E5=8F=AF=E5=AE=9E=E7=8E=B0=E6=89=A7=E8=A1=8C=E8=B4=B9=E5=85=A8=E9=80=80=E6=
+=AC=BE=EF=BC=88=E5=8E=9F=E7=94=9F=E9=80=BB=E8=BE=91=E5=B0=B1=E6=98=AF=E5=85=
+=88=E6=94=AF=E4=BB=98=EF=BC=8C=E6=9C=89=E5=89=A9=E4=BD=99=E5=88=99 refund=
+=EF=BC=8C=E8=BF=99=E9=87=8C=E8=AE=BE=E7=BD=AE=E4=B8=BA 0 =E5=B0=B1=E5=85=A8=
+=E9=80=80=E4=BA=86=EF=BC=89=E3=80=82</p>
+    </div>
+</body>
+</html>
+------=_Part_36_230105477.1772270927849--

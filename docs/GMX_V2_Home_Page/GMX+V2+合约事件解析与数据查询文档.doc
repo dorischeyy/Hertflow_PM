@@ -1,0 +1,3305 @@
+Date: Sat, 28 Feb 2026 09:28:02 +0000 (UTC)
+Message-ID: <1311194002.23.1772270882413@6ebb4c93163f>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_22_1593519441.1772270882413"
+
+------=_Part_22_1593519441.1772270882413
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>GMX V2 =E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=
+=B8=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>GMX V2 =E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=
+=90=E4=B8=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E7=9B=
+=AE=E5=BD=95">=E7=9B=AE=E5=BD=95</h1>
+<ul>
+<li>
+<p><a href=3D"#%E6%A6%82%E8%A7%88">=E6=A6=82=E8=A7=88</a></p></li>
+<li>
+<p><a href=3D"#%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1">=E6=9E=B6=E6=9E=84=E8=
+=AE=BE=E8=AE=A1</a></p></li>
+<li>
+<p><a href=3D"#gm-pool-market-%E6%A8%A1%E5%9D%97">GM Pool (Market) =E6=A8=
+=A1=E5=9D=97</a></p></li>
+<li>
+<p><a href=3D"#glv-pool-%E6%A8%A1%E5%9D%97">GLV Pool =E6=A8=A1=E5=9D=97</a>=
+</p></li>
+<li>
+<p><a href=3D"#order-%E8%AE%A2%E5%8D%95%E6%A8%A1%E5%9D%97">Order =E8=AE=A2=
+=E5=8D=95=E6=A8=A1=E5=9D=97</a></p></li>
+<li>
+<p><a href=3D"#position-%E4%BB%93%E4%BD%8D%E6%A8%A1%E5%9D%97">Position =E4=
+=BB=93=E4=BD=8D=E6=A8=A1=E5=9D=97</a></p></li>
+<li>
+<p><a href=3D"#trades-%E4%BA%A4%E6%98%93%E5%8E%86%E5%8F%B2%E6%A8%A1%E5%9D%9=
+7">Trades =E4=BA=A4=E6=98=93=E5=8E=86=E5=8F=B2=E6=A8=A1=E5=9D=97</a></p></l=
+i>
+<li>
+<p><a href=3D"#%E4%BA%8B%E4%BB%B6%E5%AD%97%E6%AE%B5%E6%98%A0%E5%B0%84%E8%A1=
+%A8">=E4=BA=8B=E4=BB=B6=E5=AD=97=E6=AE=B5=E6=98=A0=E5=B0=84=E8=A1=A8</a></p=
+></li>
+<li>
+<p><a href=3D"#%E6%9F%A5%E8%AF%A2%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3">=E6=
+=9F=A5=E8=AF=A2=E6=8E=A5=E5=8F=A3=E6=96=87=E6=A1=A3</a></p></li>
+<li>
+<p><a href=3D"#%E6%95%B0%E6%8D%AE%E7%B2%BE%E5%BA%A6%E8%AF%B4%E6%98%8E">=E6=
+=95=B0=E6=8D=AE=E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E</a></p></li>
+<li>
+<p><a href=3D"#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98">=E5=B8=B8=E8=A7=81=E9=
+=97=AE=E9=A2=98</a></p></li>
+</ul>
+<hr>
+<h2 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E6=A6=82=E8=A7=
+=88">=E6=A6=82=E8=A7=88</h2>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E7=B3=BB=E7=BB=
+=9F=E8=81=8C=E8=B4=A3">=E7=B3=BB=E7=BB=9F=E8=81=8C=E8=B4=A3</h3>
+<p>=E6=9C=AC=E7=B3=BB=E7=BB=9F=E8=B4=9F=E8=B4=A3=E7=9B=91=E5=90=AC BNB Chai=
+n =E4=B8=8A GMX V2 Synthetics =E5=8D=8F=E8=AE=AE=E7=9A=84=E9=93=BE=E4=B8=8A=
+=E4=BA=8B=E4=BB=B6=EF=BC=8C=E8=A7=A3=E6=9E=90=E4=BA=8B=E4=BB=B6=E6=95=B0=E6=
+=8D=AE=E5=B9=B6=E6=8C=81=E4=B9=85=E5=8C=96=E5=88=B0 PostgreSQL =E6=95=B0=E6=
+=8D=AE=E5=BA=93=EF=BC=8C=E5=90=8C=E6=97=B6=E6=8F=90=E4=BE=9B HTTP API =E4=
+=BE=9B=E5=89=8D=E7=AB=AF=E6=9F=A5=E8=AF=A2=E3=80=82</p>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E6=A0=B8=E5=BF=
+=83=E5=8A=9F=E8=83=BD=E6=A8=A1=E5=9D=97">=E6=A0=B8=E5=BF=83=E5=8A=9F=E8=83=
+=BD=E6=A8=A1=E5=9D=97</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"71=
+064fb8-94dc-42a1-89f9-3bbaf81b0260" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E6=A8=A1=E5=9D=97</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=8A=9F=E8=83=BD</p></th>
+<th class=3D"confluenceTh">
+<p>=E4=BA=8B=E4=BB=B6=E6=9D=A5=E6=BA=90</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>GM Pool</strong></p></td>
+<td class=3D"confluenceTd">
+<p>GM =E5=B8=82=E5=9C=BA=E6=B1=A0=E7=AE=A1=E7=90=86=EF=BC=88=E6=B5=81=E5=8A=
+=A8=E6=80=A7=E6=8F=90=E4=BE=9B=EF=BC=89</p></td>
+<td class=3D"confluenceTd">
+<p><code>MarketCreated</code>, <code>MarketUpdated</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>GLV Pool</strong></p></td>
+<td class=3D"confluenceTd">
+<p>GLV =E5=85=A8=E5=B1=80=E6=B5=81=E5=8A=A8=E6=80=A7=E6=B1=A0=E7=AE=A1=E7=
+=90=86</p></td>
+<td class=3D"confluenceTd">
+<p><code>GlvPoolCreated</code>, <code>GlvPoolUpdated</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Order</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=E8=AE=A2=E5=8D=95=E7=94=9F=E5=91=BD=E5=91=A8=E6=9C=9F=E7=AE=A1=E7=90=86=
+</p></td>
+<td class=3D"confluenceTd">
+<p><code>OrderCreated</code>, <code>OrderExecuted</code>, <code>OrderCancel=
+led</code>, <code>OrderUpdated</code>, <code>OrderFrozen</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Position</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BB=93=E4=BD=8D=E7=8A=B6=E6=80=81=E7=AE=A1=E7=90=86</p></td>
+<td class=3D"confluenceTd">
+<p><code>PositionIncrease</code>, <code>PositionDecrease</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Trades</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BA=A4=E6=98=93=E5=8E=86=E5=8F=B2=E8=AE=B0=E5=BD=95</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=9F=BA=E4=BA=8E Position =E4=BA=8B=E4=BB=B6=E7=94=9F=E6=88=90</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E6=95=B0=E6=8D=
+=AE=E6=B5=81=E5=90=91">=E6=95=B0=E6=8D=AE=E6=B5=81=E5=90=91</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">BNB Cha=
+in Events (EventEmitter)
+    =E2=86=93
+Block Scanner (=E4=BA=8B=E4=BB=B6=E7=9B=91=E5=90=AC)
+    =E2=86=93
+Event Handlers (=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E5=99=A8)
+    =E2=86=93
+Service Layer (=E4=B8=9A=E5=8A=A1=E9=80=BB=E8=BE=91)
+    =E2=86=93
+DAL (=E6=95=B0=E6=8D=AE=E8=AE=BF=E9=97=AE=E5=B1=82)
+    =E2=86=93
+PostgreSQL (=E6=95=B0=E6=8D=AE=E6=8C=81=E4=B9=85=E5=8C=96)
+    =E2=86=93
+HTTP API (=E5=AF=B9=E5=A4=96=E6=9F=A5=E8=AF=A2=E6=8E=A5=E5=8F=A3)</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E6=9E=B6=E6=9E=
+=84=E8=AE=BE=E8=AE=A1">=E6=9E=B6=E6=9E=84=E8=AE=BE=E8=AE=A1</h2>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E4=BA=8B=E4=BB=
+=B6=E5=A4=84=E7=90=86=E6=B5=81=E7=A8=8B">=E4=BA=8B=E4=BB=B6=E5=A4=84=E7=90=
+=86=E6=B5=81=E7=A8=8B</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// 1. =
+=E4=BA=8B=E4=BB=B6=E7=9B=91=E5=90=AC
+BlockScannerService -&gt; =E6=89=AB=E6=8F=8F=E5=8C=BA=E5=9D=97 -&gt; =E6=8F=
+=90=E5=8F=96 EventEmitter =E6=97=A5=E5=BF=97
+
+// 2. =E4=BA=8B=E4=BB=B6=E8=B7=AF=E7=94=B1
+EventRegistry -&gt; =E6=A0=B9=E6=8D=AE EventName =E8=B7=AF=E7=94=B1=E5=88=
+=B0=E5=AF=B9=E5=BA=94 Handler
+
+// 3. =E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90
+Handler.Handle() -&gt; =E4=BD=BF=E7=94=A8 EventDataAccessor =E6=8F=90=E5=8F=
+=96=E5=AD=97=E6=AE=B5
+
+// 4. =E4=B8=9A=E5=8A=A1=E9=80=BB=E8=BE=91
+Service.HandleXXX() -&gt; =E8=AE=A1=E7=AE=97=E6=B4=BE=E7=94=9F=E5=AD=97=E6=
+=AE=B5=E3=80=81=E7=8A=B6=E6=80=81=E8=BD=AC=E6=8D=A2
+
+// 5. =E6=95=B0=E6=8D=AE=E6=8C=81=E4=B9=85=E5=8C=96
+DAL.Create/Update() -&gt; =E4=BF=9D=E5=AD=98=E5=88=B0=E6=95=B0=E6=8D=AE=E5=
+=BA=93=E5=88=86=E5=8C=BA=E8=A1=A8</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E5=85=B3=E9=94=
+=AE=E7=BB=84=E4=BB=B6">=E5=85=B3=E9=94=AE=E7=BB=84=E4=BB=B6</h3>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-EventDataAccessor=
+">EventDataAccessor</h4>
+<p>GMX V2 =E4=BD=BF=E7=94=A8 EventEmitter =E5=90=88=E7=BA=A6=E5=8F=91=E5=87=
+=BA=E9=80=9A=E7=94=A8=E4=BA=8B=E4=BB=B6=EF=BC=8C=E4=BA=8B=E4=BB=B6=E6=95=B0=
+=E6=8D=AE=E5=AD=98=E5=82=A8=E4=B8=BA key-value =E7=BB=93=E6=9E=84=EF=BC=9A<=
+/p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Even=
+tData =E7=BB=93=E6=9E=84
+type EventData struct {
+    AddressItems  map[string]common.Address
+    UintItems     map[string]*big.Int
+    IntItems      map[string]*big.Int
+    BoolItems     map[string]bool
+    Bytes32Items  map[string][32]byte
+    // ...
+}
+
+// =E8=AE=BF=E9=97=AE=E6=96=B9=E5=BC=8F
+accessor :=3D event.NewEventDataAccessor(eventData)
+account, ok :=3D accessor.Address(consts.BscEventKeyAccount)
+sizeUsd, ok :=3D accessor.Uint(consts.BscEventKeySizeDeltaUsd)</pre>
+</div>
+</div>
+<p>=E6=89=80=E6=9C=89=E4=BA=8B=E4=BB=B6=E5=AD=97=E6=AE=B5=E7=9A=84 key =E5=
+=B8=B8=E9=87=8F=E5=AE=9A=E4=B9=89=E5=9C=A8 <code>data-statistics-infra/cons=
+ts/bsc_event_key.go</code>=E3=80=82</p>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E8=A1=A8=E5=88=
+=86=E5=8C=BA=E7=AD=96=E7=95=A5">=E8=A1=A8=E5=88=86=E5=8C=BA=E7=AD=96=E7=95=
+=A5</h4>
+<p>=E6=89=80=E6=9C=89=E7=94=A8=E6=88=B7=E7=9B=B8=E5=85=B3=E6=95=B0=E6=8D=AE=
+=E8=A1=A8=E4=BD=BF=E7=94=A8 <strong>128 =E5=88=86=E5=8C=BA</strong> =E7=AD=
+=96=E7=95=A5=EF=BC=8C=E5=9F=BA=E4=BA=8E <code>account</code> =E5=9C=B0=E5=
+=9D=80=E7=9A=84=E5=93=88=E5=B8=8C=E5=80=BC=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// =E8=
+=AE=A1=E7=AE=97=E5=88=86=E5=8C=BA=E5=8F=B7
+partitionId =3D HexAddrMod(account, 128)
+
+// =E7=94=9F=E6=88=90=E8=A1=A8=E5=90=8D
+tableName =3D fmt.Sprintf("bsc_perp_order_%d", partitionId)
+// =E7=A4=BA=E4=BE=8B: bsc_perp_order_42, bsc_perp_position_0, bsc_perp_tra=
+des_127</pre>
+</div>
+</div>
+<p>=E9=80=82=E7=94=A8=E8=A1=A8=EF=BC=9A</p>
+<ul>
+<li>
+<p><code>bsc_perp_order_{0..127}</code></p></li>
+<li>
+<p><code>bsc_perp_position_{0..127}</code></p></li>
+<li>
+<p><code>bsc_perp_trades_{0..127}</code></p></li>
+</ul>
+<hr>
+<h2 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-GMPool(Market)=E6=
+=A8=A1=E5=9D=97">GM Pool (Market) =E6=A8=A1=E5=9D=97</h2>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E5=8A=9F=E8=83=
+=BD=E8=AF=B4=E6=98=8E">=E5=8A=9F=E8=83=BD=E8=AF=B4=E6=98=8E</h3>
+<p>GM Pool =E6=98=AF GMX V2 =E7=9A=84=E6=B5=81=E5=8A=A8=E6=80=A7=E5=B8=82=
+=E5=9C=BA=E6=B1=A0=EF=BC=8C=E6=AF=8F=E4=B8=AA=E5=B8=82=E5=9C=BA=E5=AF=B9=E5=
+=BA=94=E4=B8=80=E4=B8=AA=E4=BA=A4=E6=98=93=E5=AF=B9=EF=BC=88=E5=A6=82 BTC/U=
+SD, ETH/USD=EF=BC=89=E3=80=82</p>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E4=BA=8B=E4=BB=
+=B6=E8=A7=A3=E6=9E=90">=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90</h3>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-MarketCreated">Ma=
+rketCreated</h4>
+<p><strong>=E8=A7=A6=E5=8F=91=E6=97=B6=E6=9C=BA</strong>: =E6=96=B0=E5=B8=
+=82=E5=9C=BA=E5=88=9B=E5=BB=BA=E6=97=B6</p>
+<p><strong>=E5=85=B3=E9=94=AE=E5=AD=97=E6=AE=B5</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">type Ma=
+rketCreatedEvent struct {
+    Market      common.Address  // GM =E5=B8=82=E5=9C=BA=E5=90=88=E7=BA=A6=
+=E5=9C=B0=E5=9D=80=EF=BC=88Pool Address=EF=BC=89
+    IndexToken  common.Address  // =E6=A0=87=E7=9A=84=E8=B5=84=E4=BA=A7=EF=
+=BC=88=E5=A6=82 WBTC=EF=BC=89
+    LongToken   common.Address  // =E5=A4=9A=E5=A4=B4=E6=8A=B5=E6=8A=BC=E4=
+=BB=A3=E5=B8=81=EF=BC=88=E5=A6=82 WBTC=EF=BC=89
+    ShortToken  common.Address  // =E7=A9=BA=E5=A4=B4=E6=8A=B5=E6=8A=BC=E4=
+=BB=A3=E5=B8=81=EF=BC=88=E5=A6=82 USDC=EF=BC=89
+    MarketToken common.Address  // GM LP Token =E5=9C=B0=E5=9D=80
+}</pre>
+</div>
+</div>
+<p><strong>=E5=AD=97=E6=AE=B5=E6=98=A0=E5=B0=84</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"dc=
+5dae5f-8a11-49a5-be4d-18005ede2c2b" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E4=BA=8B=E4=BB=B6=E5=AD=97=E6=AE=B5</p></th>
+<th class=3D"confluenceTh">
+<p>=E6=95=B0=E6=8D=AE=E5=BA=93=E5=AD=97=E6=AE=B5</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>market</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>pool_address</code></p></td>
+<td class=3D"confluenceTd">
+<p>varchar(66)</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=B8=82=E5=9C=BA=E5=9C=B0=E5=9D=80=EF=BC=8C=E4=B9=9F=E6=98=AF=E5=94=AF=
+=E4=B8=80=E6=A0=87=E8=AF=86</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>indexToken</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>index_token</code></p></td>
+<td class=3D"confluenceTd">
+<p>varchar(66)</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=A0=87=E7=9A=84=E8=B5=84=E4=BA=A7=E5=9C=B0=E5=9D=80</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>longToken</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>long_token</code></p></td>
+<td class=3D"confluenceTd">
+<p>varchar(66)</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=A4=9A=E5=A4=B4=E6=8A=B5=E6=8A=BC=E4=BB=A3=E5=B8=81</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>shortToken</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>short_token</code></p></td>
+<td class=3D"confluenceTd">
+<p>varchar(66)</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=A9=BA=E5=A4=B4=E6=8A=B5=E6=8A=BC=E4=BB=A3=E5=B8=81</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>marketToken</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>market_token</code></p></td>
+<td class=3D"confluenceTd">
+<p>varchar(66)</p></td>
+<td class=3D"confluenceTd">
+<p>GM LP Token</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E5=A4=84=E7=90=86=E9=80=BB=E8=BE=91</strong>:</p>
+<ol start=3D"1">
+<li>
+<p>=E4=BB=8E <code>MarketCreated</code> =E4=BA=8B=E4=BB=B6=E6=8F=90=E5=8F=
+=96=E5=9F=BA=E6=9C=AC=E4=BF=A1=E6=81=AF</p></li>
+<li>
+<p>=E8=B0=83=E7=94=A8 Reader =E5=90=88=E7=BA=A6=E7=9A=84 <code>GetMarketInf=
+o()</code> =E8=8E=B7=E5=8F=96=E5=AE=8C=E6=95=B4=E5=B8=82=E5=9C=BA=E6=95=B0=
+=E6=8D=AE</p></li>
+<li>
+<p>=E4=BF=9D=E5=AD=98=E5=88=B0 <code>bsc_gm_pools</code> =E8=A1=A8</p></li>
+</ol>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-MarketUpdated">Ma=
+rketUpdated</h4>
+<p><strong>=E8=A7=A6=E5=8F=91=E6=97=B6=E6=9C=BA</strong>: =E5=B8=82=E5=9C=
+=BA=E7=8A=B6=E6=80=81=E5=8F=98=E5=8C=96=E6=97=B6=EF=BC=88=E4=B8=8D=E5=B8=B8=
+=E8=A7=81=EF=BC=8C=E9=80=9A=E5=B8=B8=E7=94=A8=E4=BA=8E=E5=90=AF=E7=94=A8/=
+=E7=A6=81=E7=94=A8=E5=B8=82=E5=9C=BA=EF=BC=89</p>
+<p><strong>=E5=A4=84=E7=90=86=E9=80=BB=E8=BE=91</strong>:</p>
+<ul>
+<li>
+<p>=E6=9B=B4=E6=96=B0 <code>is_disabled</code> =E5=AD=97=E6=AE=B5</p></li>
+<li>
+<p>=E5=88=B7=E6=96=B0=E5=B8=82=E5=9C=BA=E7=9A=84=E5=AE=9E=E6=97=B6=E6=95=B0=
+=E6=8D=AE=E5=BF=AB=E7=85=A7</p></li>
+</ul>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E6=95=B0=E6=8D=
+=AE=E5=BA=93=E6=A8=A1=E5=9E=8B">=E6=95=B0=E6=8D=AE=E5=BA=93=E6=A8=A1=E5=9E=
+=8B</h3>
+<p><strong>=E8=A1=A8=E5=90=8D</strong>: <code>bsc_gm_pools</code> (=E6=97=
+=A0=E5=88=86=E5=8C=BA)</p>
+<p><strong>=E6=A0=B8=E5=BF=83=E5=AD=97=E6=AE=B5=E5=88=86=E7=BB=84</strong>:=
+</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- =E5=
+=9F=BA=E7=A1=80=E4=BF=A1=E6=81=AF
+symbol              VARCHAR(50)      -- =E6=98=BE=E7=A4=BA=E7=AC=A6=E5=8F=
+=B7 (=E5=A6=82 BTC/USD)
+pool_address        VARCHAR(66)      -- =E5=B8=82=E5=9C=BA=E5=9C=B0=E5=9D=
+=80=EF=BC=88=E5=94=AF=E4=B8=80=E9=94=AE=EF=BC=89
+market_token        VARCHAR(66)      -- GM LP Token
+index_token         VARCHAR(66)      -- =E6=A0=87=E7=9A=84=E8=B5=84=E4=BA=
+=A7
+long_token          VARCHAR(66)      -- =E5=A4=9A=E5=A4=B4=E6=8A=B5=E6=8A=
+=BC=E4=BB=A3=E5=B8=81
+short_token         VARCHAR(66)      -- =E7=A9=BA=E5=A4=B4=E6=8A=B5=E6=8A=
+=BC=E4=BB=A3=E5=B8=81
+is_disabled         BOOLEAN          -- =E6=98=AF=E5=90=A6=E7=A6=81=E7=94=
+=A8
+
+-- =E8=B5=84=E9=87=91=E8=A7=84=E6=A8=A1
+total_supply        DECIMAL(78,0)    -- GM Token =E6=80=BB=E4=BE=9B=E5=BA=
+=94=E9=87=8F
+total_value_locked  DECIMAL(78,0)    -- TVL (USD, 30=E4=BD=8D=E7=B2=BE=E5=
+=BA=A6)
+long_token_amount   DECIMAL(78,0)    -- =E5=A4=9A=E5=A4=B4=E4=BB=A3=E5=B8=
+=81=E6=95=B0=E9=87=8F
+short_token_amount  DECIMAL(78,0)    -- =E7=A9=BA=E5=A4=B4=E4=BB=A3=E5=B8=
+=81=E6=95=B0=E9=87=8F
+long_token_amount_usd  DECIMAL(78,0) -- =E5=A4=9A=E5=A4=B4=E4=BB=A3=E5=B8=
+=81=E4=BB=B7=E5=80=BC (USD)
+short_token_amount_usd DECIMAL(78,0) -- =E7=A9=BA=E5=A4=B4=E4=BB=A3=E5=B8=
+=81=E4=BB=B7=E5=80=BC (USD)
+
+-- =E6=8C=81=E4=BB=93=E6=95=B0=E6=8D=AE (Open Interest)
+open_interest_long          DECIMAL(78,0)  -- =E5=A4=9A=E5=A4=B4 OI (USD)
+open_interest_short         DECIMAL(78,0)  -- =E7=A9=BA=E5=A4=B4 OI (USD)
+open_interest_in_tokens_long  DECIMAL(78,0)  -- =E5=A4=9A=E5=A4=B4 OI (toke=
+ns)
+open_interest_in_tokens_short DECIMAL(78,0)  -- =E7=A9=BA=E5=A4=B4 OI (toke=
+ns)
+
+-- =E7=9B=88=E4=BA=8F=E6=95=B0=E6=8D=AE
+long_pnl                DECIMAL(78,0)  -- =E5=A4=9A=E5=A4=B4=E7=9B=88=E4=BA=
+=8F (USD)
+short_pnl               DECIMAL(78,0)  -- =E7=A9=BA=E5=A4=B4=E7=9B=88=E4=BA=
+=8F (USD)
+net_pnl                 DECIMAL(78,0)  -- =E5=87=80=E7=9B=88=E4=BA=8F (USD)
+total_borrowing_fees    DECIMAL(78,0)  -- =E6=80=BB=E5=80=9F=E6=AC=BE=E8=B4=
+=B9 (USD)
+
+-- =E8=B4=B9=E7=8E=87=E9=85=8D=E7=BD=AE
+funding_factor                 DECIMAL(78,0)  -- =E8=B5=84=E9=87=91=E8=B4=
+=B9=E7=8E=87
+borrowing_factor_for_longs     DECIMAL(78,0)  -- =E5=A4=9A=E5=A4=B4=E5=80=
+=9F=E6=AC=BE=E8=B4=B9=E7=8E=87
+borrowing_factor_for_shorts    DECIMAL(78,0)  -- =E7=A9=BA=E5=A4=B4=E5=80=
+=9F=E6=AC=BE=E8=B4=B9=E7=8E=87
+swap_fee_factor                DECIMAL(78,0)  -- Swap =E5=9F=BA=E7=A1=80=E8=
+=B4=B9=E7=8E=87
+position_fee_factor            DECIMAL(78,0)  -- =E5=BC=80=E5=B9=B3=E4=BB=
+=93=E6=89=8B=E7=BB=AD=E8=B4=B9=E7=8E=87
+position_impact_factor         DECIMAL(78,0)  -- =E4=BB=B7=E6=A0=BC=E5=86=
+=B2=E5=87=BB=E5=9B=A0=E5=AD=90
+
+-- =E5=AE=B9=E9=87=8F=E9=99=90=E5=88=B6
+max_pool_amount_long_token   DECIMAL(78,0)  -- =E5=A4=9A=E5=A4=B4=E4=BB=A3=
+=E5=B8=81=E5=AD=98=E5=85=A5=E4=B8=8A=E9=99=90
+max_pool_amount_short_token  DECIMAL(78,0)  -- =E7=A9=BA=E5=A4=B4=E4=BB=A3=
+=E5=B8=81=E5=AD=98=E5=85=A5=E4=B8=8A=E9=99=90
+max_open_interest_long       DECIMAL(78,0)  -- =E5=A4=9A=E5=A4=B4=E6=9C=80=
+=E5=A4=A7 OI
+max_open_interest_short      DECIMAL(78,0)  -- =E7=A9=BA=E5=A4=B4=E6=9C=80=
+=E5=A4=A7 OI
+
+-- =E5=85=83=E6=95=B0=E6=8D=AE
+last_update_block_number  BIGINT        -- =E6=9C=80=E5=90=8E=E6=9B=B4=E6=
+=96=B0=E5=8C=BA=E5=9D=97
+last_update_time_ms       BIGINT        -- =E6=9C=80=E5=90=8E=E6=9B=B4=E6=
+=96=B0=E6=97=B6=E9=97=B4 (=E6=AF=AB=E7=A7=92)
+last_update_tx_hash       VARCHAR(66)   -- =E6=9C=80=E5=90=8E=E6=9B=B4=E6=
+=96=B0=E4=BA=A4=E6=98=93=E5=93=88=E5=B8=8C</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E4=B8=BB=E5=8A=
+=A8=E5=90=8C=E6=AD=A5=E6=8E=A5=E5=8F=A3">=E4=B8=BB=E5=8A=A8=E5=90=8C=E6=AD=
+=A5=E6=8E=A5=E5=8F=A3</h3>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-POST/api/v1/gm-po=
+ols/sync">POST /api/v1/gm-pools/sync</h4>
+<p><strong>=E5=8A=9F=E8=83=BD</strong>: =E4=BB=8E=E5=8C=BA=E5=9D=97=E9=93=
+=BE=E4=B8=BB=E5=8A=A8=E5=90=8C=E6=AD=A5=E6=89=80=E6=9C=89 GM Pool =E7=9A=84=
+=E6=9C=80=E6=96=B0=E7=8A=B6=E6=80=81</p>
+<p><strong>=E8=AF=B7=E6=B1=82=E4=BD=93</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "block_number": 12345678  // =E5=8F=AF=E9=80=89=EF=BC=9A=E6=8C=87=E5=AE=
+=9A=E5=90=8C=E6=AD=A5=E7=9A=84=E5=8C=BA=E5=9D=97=E9=AB=98=E5=BA=A6
+}</pre>
+</div>
+</div>
+<p><strong>=E8=BF=94=E5=9B=9E=E7=A4=BA=E4=BE=8B</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "success": true,
+  "synced_count": 15,
+  "pools": [
+    {
+      "pool_address": "0x...",
+      "symbol": "BTC/USD",
+      "total_value_locked": "15000000000000000000000000000000",
+      "open_interest_long": "8000000000000000000000000000000",
+      "open_interest_short": "7000000000000000000000000000000"
+    }
+  ]
+}</pre>
+</div>
+</div>
+<p><strong>=E5=AE=9E=E7=8E=B0=E5=8E=9F=E7=90=86</strong>:</p>
+<ol start=3D"1">
+<li>
+<p>=E8=B0=83=E7=94=A8 Reader =E5=90=88=E7=BA=A6=E7=9A=84 <code>GetMarkets()=
+</code> =E8=8E=B7=E5=8F=96=E6=89=80=E6=9C=89=E5=B8=82=E5=9C=BA=E5=9C=B0=E5=
+=9D=80</p></li>
+<li>
+<p>=E5=AF=B9=E6=AF=8F=E4=B8=AA=E5=B8=82=E5=9C=BA=E8=B0=83=E7=94=A8 <code>Ge=
+tMarketInfo()</code> =E8=8E=B7=E5=8F=96=E8=AF=A6=E7=BB=86=E6=95=B0=E6=8D=AE=
+</p></li>
+<li>
+<p>=E6=9B=B4=E6=96=B0=E6=95=B0=E6=8D=AE=E5=BA=93=E8=AE=B0=E5=BD=95</p></li>
+</ol>
+<hr>
+<h2 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-GLVPool=E6=A8=A1=
+=E5=9D=97">GLV Pool =E6=A8=A1=E5=9D=97</h2>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E5=8A=9F=E8=83=
+=BD=E8=AF=B4=E6=98=8E.1">=E5=8A=9F=E8=83=BD=E8=AF=B4=E6=98=8E</h3>
+<p>GLV (Global Liquidity Vault) =E6=98=AF GMX V2 =E7=9A=84=E5=85=A8=E5=B1=
+=80=E6=B5=81=E5=8A=A8=E6=80=A7=E6=B1=A0=EF=BC=8C=E5=8F=AF=E4=BB=A5=E5=B0=86=
+=E6=B5=81=E5=8A=A8=E6=80=A7=E5=88=86=E9=85=8D=E5=88=B0=E5=A4=9A=E4=B8=AA GM=
+ =E5=B8=82=E5=9C=BA=E3=80=82</p>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E4=BA=8B=E4=BB=
+=B6=E8=A7=A3=E6=9E=90.1">=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90</h3>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-GlvPoolCreated">G=
+lvPoolCreated</h4>
+<p><strong>=E8=A7=A6=E5=8F=91=E6=97=B6=E6=9C=BA</strong>: =E6=96=B0 GLV Poo=
+l =E5=88=9B=E5=BB=BA=E6=97=B6</p>
+<p><strong>=E5=85=B3=E9=94=AE=E5=AD=97=E6=AE=B5</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">type Gl=
+vPoolCreatedEvent struct {
+    GlvAddress  common.Address  // GLV =E5=90=88=E7=BA=A6=E5=9C=B0=E5=9D=80
+    GlvToken    common.Address  // GLV ERC20 Token
+    LongToken   common.Address  // =E9=95=BF=E5=A4=B4=E5=AF=B8=E4=BB=A3=E5=
+=B8=81
+    ShortToken  common.Address  // =E7=9F=AD=E5=A4=B4=E5=AF=B8=E4=BB=A3=E5=
+=B8=81
+}</pre>
+</div>
+</div>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-GlvPoolUpdated">G=
+lvPoolUpdated</h4>
+<p><strong>=E8=A7=A6=E5=8F=91=E6=97=B6=E6=9C=BA</strong>: GLV =E7=8A=B6=E6=
+=80=81=E5=8F=98=E5=8C=96=E6=97=B6</p>
+<p><strong>=E5=A4=84=E7=90=86=E9=80=BB=E8=BE=91</strong>: =E7=B1=BB=E4=BC=
+=BC MarketUpdated=EF=BC=8C=E5=88=B7=E6=96=B0 GLV =E5=AE=9E=E6=97=B6=E6=95=
+=B0=E6=8D=AE</p>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E6=95=B0=E6=8D=
+=AE=E5=BA=93=E6=A8=A1=E5=9E=8B.1">=E6=95=B0=E6=8D=AE=E5=BA=93=E6=A8=A1=E5=
+=9E=8B</h3>
+<p><strong>=E8=A1=A8=E5=90=8D</strong>: <code>bsc_glv_pools</code> (=E6=97=
+=A0=E5=88=86=E5=8C=BA)</p>
+<p><strong>=E6=A0=B8=E5=BF=83=E5=AD=97=E6=AE=B5</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- =E5=
+=9F=BA=E7=A1=80=E4=BF=A1=E6=81=AF
+glv_address         VARCHAR(66)      -- GLV =E5=9C=B0=E5=9D=80=EF=BC=88=E5=
+=94=AF=E4=B8=80=E9=94=AE=EF=BC=89
+glv_token           VARCHAR(66)      -- GLV Token =E5=9C=B0=E5=9D=80
+long_token          VARCHAR(66)      -- =E9=95=BF=E5=A4=B4=E5=AF=B8=E4=BB=
+=A3=E5=B8=81
+short_token         VARCHAR(66)      -- =E7=9F=AD=E5=A4=B4=E5=AF=B8=E4=BB=
+=A3=E5=B8=81
+is_disabled         BOOLEAN          -- =E6=98=AF=E5=90=A6=E7=A6=81=E7=94=
+=A8
+
+-- =E8=B5=84=E9=87=91=E8=A7=84=E6=A8=A1
+total_supply        DECIMAL(78,0)    -- GLV Token =E6=80=BB=E4=BE=9B=E5=BA=
+=94
+total_locked_value  DECIMAL(78,0)    -- =E6=80=BB=E9=94=81=E5=AE=9A=E4=BB=
+=B7=E5=80=BC (USD)
+long_token_amount   DECIMAL(78,0)    -- =E9=95=BF=E5=A4=B4=E5=AF=B8=E4=BB=
+=A3=E5=B8=81=E6=95=B0=E9=87=8F
+short_token_amount  DECIMAL(78,0)    -- =E7=9F=AD=E5=A4=B4=E5=AF=B8=E4=BB=
+=A3=E5=B8=81=E6=95=B0=E9=87=8F
+
+-- =E6=8C=81=E4=BB=93=E6=95=B0=E6=8D=AE
+open_interest_long          DECIMAL(78,0)  -- =E5=A4=9A=E5=A4=B4 OI
+open_interest_short         DECIMAL(78,0)  -- =E7=A9=BA=E5=A4=B4 OI
+open_interest_in_tokens_long  DECIMAL(78,0)
+open_interest_in_tokens_short DECIMAL(78,0)
+
+-- =E5=85=83=E6=95=B0=E6=8D=AE
+last_update_block_number  BIGINT
+last_update_time_ms       BIGINT
+last_update_tx_hash       VARCHAR(66)</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-GLV=E5=B8=82=E5=
+=9C=BA=E5=88=86=E9=85=8D=E8=A1=A8">GLV =E5=B8=82=E5=9C=BA=E5=88=86=E9=85=8D=
+=E8=A1=A8</h3>
+<p><strong>=E8=A1=A8=E5=90=8D</strong>: <code>bsc_glv_market_distributions<=
+/code> (=E6=97=A0=E5=88=86=E5=8C=BA)</p>
+<p>=E8=AE=B0=E5=BD=95 GLV =E5=A6=82=E4=BD=95=E5=B0=86=E6=B5=81=E5=8A=A8=E6=
+=80=A7=E5=88=86=E9=85=8D=E5=88=B0=E5=90=84=E4=B8=AA GM =E5=B8=82=E5=9C=BA=
+=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">glv_addr=
+ess         VARCHAR(66)      -- GLV =E5=9C=B0=E5=9D=80
+gm_market_address   VARCHAR(66)      -- GM =E5=B8=82=E5=9C=BA=E5=9C=B0=E5=
+=9D=80
+allocation_weight   DECIMAL(78,0)    -- =E5=88=86=E9=85=8D=E6=9D=83=E9=87=
+=8D
+allocated_amount    DECIMAL(78,0)    -- =E5=B7=B2=E5=88=86=E9=85=8D=E9=87=
+=91=E9=A2=9D
+last_sync_time_ms   BIGINT           -- =E6=9C=80=E5=90=8E=E5=90=8C=E6=AD=
+=A5=E6=97=B6=E9=97=B4</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-Order=E8=AE=A2=E5=
+=8D=95=E6=A8=A1=E5=9D=97">Order =E8=AE=A2=E5=8D=95=E6=A8=A1=E5=9D=97</h2>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E5=8A=9F=E8=83=
+=BD=E8=AF=B4=E6=98=8E.2">=E5=8A=9F=E8=83=BD=E8=AF=B4=E6=98=8E</h3>
+<p>=E7=AE=A1=E7=90=86 GMX V2 =E7=9A=84=E8=AE=A2=E5=8D=95=E7=94=9F=E5=91=BD=
+=E5=91=A8=E6=9C=9F=EF=BC=8C=E6=94=AF=E6=8C=81=E5=A4=9A=E7=A7=8D=E8=AE=A2=E5=
+=8D=95=E7=B1=BB=E5=9E=8B=EF=BC=88=E5=B8=82=E4=BB=B7=E5=8D=95=E3=80=81=E9=99=
+=90=E4=BB=B7=E5=8D=95=E3=80=81=E6=AD=A2=E6=8D=9F=E5=8D=95=E7=AD=89=EF=BC=89=
+=E3=80=82</p>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E8=AE=A2=E5=8D=
+=95=E7=B1=BB=E5=9E=8B=E6=9E=9A=E4=B8=BE">=E8=AE=A2=E5=8D=95=E7=B1=BB=E5=9E=
+=8B=E6=9E=9A=E4=B8=BE</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">const (
+    GmxOrderTypeMarketSwap       =3D 0  // =E5=B8=82=E4=BB=B7 Swap
+    GmxOrderTypeLimitSwap        =3D 1  // =E9=99=90=E4=BB=B7 Swap
+    GmxOrderTypeMarketIncrease   =3D 2  // =E5=B8=82=E4=BB=B7=E5=BC=80=E4=
+=BB=93/=E5=8A=A0=E4=BB=93
+    GmxOrderTypeLimitIncrease    =3D 3  // =E9=99=90=E4=BB=B7=E5=BC=80=E4=
+=BB=93/=E5=8A=A0=E4=BB=93
+    GmxOrderTypeMarketDecrease   =3D 4  // =E5=B8=82=E4=BB=B7=E5=B9=B3=E4=
+=BB=93/=E5=87=8F=E4=BB=93
+    GmxOrderTypeLimitDecrease    =3D 5  // =E9=99=90=E4=BB=B7=E5=B9=B3=E4=
+=BB=93/=E5=87=8F=E4=BB=93
+    GmxOrderTypeStopLossDecrease =3D 6  // =E6=AD=A2=E6=8D=9F=E5=8D=95
+    GmxOrderTypeLiquidation      =3D 7  // =E5=BC=BA=E5=B9=B3=E5=8D=95
+)</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E8=AE=A2=E5=8D=
+=95=E7=8A=B6=E6=80=81=E6=B5=81=E8=BD=AC">=E8=AE=A2=E5=8D=95=E7=8A=B6=E6=80=
+=81=E6=B5=81=E8=BD=AC</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Created=
+ (=E5=88=9B=E5=BB=BA)
+    =E2=86=93
+  [=E7=AD=89=E5=BE=85=E6=89=A7=E8=A1=8C]
+    =E2=86=93
+  =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+  =E2=86=93         =E2=86=93         =E2=86=93
+Executed  Cancelled  Frozen (=E5=86=BB=E7=BB=93)</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E4=BA=8B=E4=BB=
+=B6=E8=A7=A3=E6=9E=90.2">=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90</h3>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-OrderCreated">Ord=
+erCreated</h4>
+<p><strong>=E8=A7=A6=E5=8F=91=E6=97=B6=E6=9C=BA</strong>: =E7=94=A8=E6=88=
+=B7=E6=8F=90=E4=BA=A4=E6=96=B0=E8=AE=A2=E5=8D=95</p>
+<p><strong>=E5=85=B3=E9=94=AE=E5=AD=97=E6=AE=B5</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f8=
+9f77a8-5373-446e-8caa-127d56fae05b" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E4=BA=8B=E4=BB=B6=E5=AD=97=E6=AE=B5</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>orderKey</code></p></td>
+<td class=3D"confluenceTd">
+<p>bytes32</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=AE=A2=E5=8D=95=E5=94=AF=E4=B8=80=E9=94=AE</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>account</code></p></td>
+<td class=3D"confluenceTd">
+<p>address</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>market</code></p></td>
+<td class=3D"confluenceTd">
+<p>address</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=9B=AE=E6=A0=87=E5=B8=82=E5=9C=BA</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>orderType</code></p></td>
+<td class=3D"confluenceTd">
+<p>uint256</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=AE=A2=E5=8D=95=E7=B1=BB=E5=9E=8B (0-7)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>sizeDeltaUsd</code></p></td>
+<td class=3D"confluenceTd">
+<p>uint256</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=A7=84=E6=A8=A1=E5=8F=98=E5=8C=96 (USD, 30=E4=BD=8D=E7=B2=BE=E5=BA=A6=
+)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>initialCollateralToken</code></p></td>
+<td class=3D"confluenceTd">
+<p>address</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=88=9D=E5=A7=8B=E6=8A=B5=E6=8A=BC=E4=BB=A3=E5=B8=81</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>initialCollateralDeltaAmount</code></p></td>
+<td class=3D"confluenceTd">
+<p>uint256</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8A=B5=E6=8A=BC=E5=93=81=E6=95=B0=E9=87=8F</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>triggerPrice</code></p></td>
+<td class=3D"confluenceTd">
+<p>uint256</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=A7=A6=E5=8F=91=E4=BB=B7=E6=A0=BC (0=E8=A1=A8=E7=A4=BA=E5=B8=82=E4=BB=
+=B7=E5=8D=95)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>acceptablePrice</code></p></td>
+<td class=3D"confluenceTd">
+<p>uint256</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=8F=AF=E6=8E=A5=E5=8F=97=E4=BB=B7=E6=A0=BC (=E6=BB=91=E7=82=B9=E4=BF=
+=9D=E6=8A=A4)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>executionFee</code></p></td>
+<td class=3D"confluenceTd">
+<p>uint256</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=89=A7=E8=A1=8C=E8=B4=B9=E7=94=A8</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>isLong</code></p></td>
+<td class=3D"confluenceTd">
+<p>bool</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=81=9A=E5=A4=9A/=E5=81=9A=E7=A9=BA</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>triggerAboveThreshold</code></p></td>
+<td class=3D"confluenceTd">
+<p>bool</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BB=B7=E6=A0=BC=E5=90=91=E4=B8=8A/=E5=90=91=E4=B8=8B=E8=A7=A6=E5=8F=
+=91</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>swapPath</code></p></td>
+<td class=3D"confluenceTd">
+<p>address[]</p></td>
+<td class=3D"confluenceTd">
+<p>Swap =E8=B7=AF=E5=BE=84</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>updatedAtTime</code></p></td>
+<td class=3D"confluenceTd">
+<p>uint256</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=88=9B=E5=BB=BA=E6=97=B6=E9=97=B4 (=E7=A7=92)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E5=AD=97=E6=AE=B5=E6=98=A0=E5=B0=84=E9=80=BB=E8=BE=91</strong>:=
+</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">func (h=
+ *OrderCreatedHandler) convertToOrderModel(ev *OrderCreatedEvent, ctx *even=
+t.Context) (*bscmodel.BscPerpOrderModel, error) {
+    order :=3D &amp;bscmodel.BscPerpOrderModel{
+        OrderKey:                fmt.Sprintf("0x%x", ev.OrderKey),
+        Account:                 ev.Account.Hex(),
+        Market:                  ev.Market.Hex(),
+        InitialCollateralToken:  ev.InitialCollateralToken.Hex(),
+        OrderType:               h.mapOrderType(ev.OrderType.Int64()),
+        OrderStatus:             consts.OrderStatusCreated,
+        IsLong:                  ev.IsLong,
+        SizeDeltaUsd:            decimal.NewFromBigInt(ev.SizeDeltaUsd, 0),
+        AcceptablePrice:         decimal.NewFromBigInt(ev.AcceptablePrice, =
+0),
+        TriggerPrice:            decimal.NewFromBigInt(ev.TriggerPrice, 0),
+        ExecutionFee:            decimal.NewFromBigInt(ev.ExecutionFee, 0),
+        TriggerAboveThreshold:   ev.TriggerAboveThreshold,
+        // ...
+        CreateTimestampMs:       ctx.Tx.BlockTimestamp * 1000, // =E8=BD=AC=
+=E6=8D=A2=E4=B8=BA=E6=AF=AB=E7=A7=92
+    }
+
+    // Swap =E8=B7=AF=E5=BE=84=E8=BD=AC JSON
+    if len(ev.SwapPath) &gt; 0 {
+        swapPathJSON, _ :=3D json.Marshal(ev.SwapPath)
+        order.SwapPath =3D string(swapPathJSON)
+    }
+
+    // =E8=AE=BE=E7=BD=AE reduce_only
+    if order.OrderType =3D=3D consts.GmxOrderTypeMarketDecrease ||
+       order.OrderType =3D=3D consts.GmxOrderTypeLimitDecrease ||
+       order.OrderType =3D=3D consts.GmxOrderTypeStopLossDecrease {
+        order.ReduceOnly =3D true
+    }
+
+    return order, nil
+}</pre>
+</div>
+</div>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-OrderExecuted">Or=
+derExecuted</h4>
+<p><strong>=E8=A7=A6=E5=8F=91=E6=97=B6=E6=9C=BA</strong>: =E8=AE=A2=E5=8D=
+=95=E8=A2=AB=E6=89=A7=E8=A1=8C</p>
+<p><strong>=E5=85=B3=E9=94=AE=E5=AD=97=E6=AE=B5</strong>:</p>
+<ul>
+<li>
+<p><code>orderKey</code>: =E8=AE=A2=E5=8D=95=E9=94=AE</p></li>
+<li>
+<p><code>executionPrice</code>: =E5=AE=9E=E9=99=85=E6=89=A7=E8=A1=8C=E4=BB=
+=B7=E6=A0=BC</p></li>
+<li>
+<p><code>collateralDeltaAmount</code>: =E5=AE=9E=E9=99=85=E6=8A=B5=E6=8A=BC=
+=E5=93=81=E5=8F=98=E5=8C=96</p></li>
+</ul>
+<p><strong>=E5=A4=84=E7=90=86=E9=80=BB=E8=BE=91</strong>:</p>
+<ol start=3D"1">
+<li>
+<p>=E6=A0=B9=E6=8D=AE <code>orderKey</code> =E6=9F=A5=E8=AF=A2=E5=B7=B2=E6=
+=9C=89=E8=AE=A2=E5=8D=95=E8=AE=B0=E5=BD=95</p></li>
+<li>
+<p>=E6=9B=B4=E6=96=B0=E8=AE=A2=E5=8D=95=E7=8A=B6=E6=80=81=E4=B8=BA <code>Ex=
+ecuted</code></p></li>
+<li>
+<p>=E5=A1=AB=E5=85=85 <code>execution_price</code> =E5=92=8C <code>collater=
+al_delta_amount</code></p></li>
+<li>
+<p>=E6=9B=B4=E6=96=B0 <code>update_block_number</code>, <code>update_tx_has=
+h</code>, <code>update_timestamp_ms</code></p></li>
+</ol>
+<p><strong>=E9=87=8D=E8=A6=81=E8=AF=B4=E6=98=8E</strong>:</p>
+<ul>
+<li>
+<p><code>OrderExecuted</code> =E4=BA=8B=E4=BB=B6 <strong>=E4=B8=8D=E7=9B=B4=
+=E6=8E=A5</strong> =E6=9B=B4=E6=96=B0 Position=EF=BC=8CPosition =E6=9B=B4=
+=E6=96=B0=E7=94=B1 <code>PositionIncrease</code>/<code>PositionDecrease</co=
+de> =E4=BA=8B=E4=BB=B6=E8=B4=9F=E8=B4=A3</p></li>
+<li>
+<p>=E5=90=8C=E4=B8=80=E7=AC=94=E4=BA=A4=E6=98=93=E4=B8=AD=E4=BC=9A=E5=90=8C=
+=E6=97=B6=E5=87=BA=E7=8E=B0 <code>OrderExecuted</code> + <code>PositionIncr=
+ease</code>/<code>Decrease</code> =E4=BA=8B=E4=BB=B6</p></li>
+</ul>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-OrderCancelled">O=
+rderCancelled</h4>
+<p><strong>=E8=A7=A6=E5=8F=91=E6=97=B6=E6=9C=BA</strong>: =E8=AE=A2=E5=8D=
+=95=E8=A2=AB=E5=8F=96=E6=B6=88=EF=BC=88=E7=94=A8=E6=88=B7=E4=B8=BB=E5=8A=A8=
+=E5=8F=96=E6=B6=88=E6=88=96=E7=B3=BB=E7=BB=9F=E5=8F=96=E6=B6=88=EF=BC=89</p=
+>
+<p><strong>=E5=85=B3=E9=94=AE=E5=AD=97=E6=AE=B5</strong>:</p>
+<ul>
+<li>
+<p><code>orderKey</code></p></li>
+<li>
+<p><code>reason</code> / <code>reasonBytes</code>: =E5=8F=96=E6=B6=88=E5=8E=
+=9F=E5=9B=A0</p></li>
+</ul>
+<p><strong>=E5=A4=84=E7=90=86=E9=80=BB=E8=BE=91</strong>:</p>
+<ul>
+<li>
+<p>=E6=9B=B4=E6=96=B0=E8=AE=A2=E5=8D=95=E7=8A=B6=E6=80=81=E4=B8=BA <code>Ca=
+ncelled</code></p></li>
+<li>
+<p>=E8=AE=B0=E5=BD=95 <code>cancellation_reason</code></p></li>
+</ul>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-OrderUpdated">Ord=
+erUpdated</h4>
+<p><strong>=E8=A7=A6=E5=8F=91=E6=97=B6=E6=9C=BA</strong>: =E8=AE=A2=E5=8D=
+=95=E5=8F=82=E6=95=B0=E6=9B=B4=E6=96=B0=EF=BC=88=E8=BE=83=E5=B0=91=E4=BD=BF=
+=E7=94=A8=EF=BC=89</p>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-OrderFrozen">Orde=
+rFrozen</h4>
+<p><strong>=E8=A7=A6=E5=8F=91=E6=97=B6=E6=9C=BA</strong>: =E8=AE=A2=E5=8D=
+=95=E8=A2=AB=E5=86=BB=E7=BB=93=EF=BC=88=E9=80=9A=E5=B8=B8=E6=98=AF=E5=9B=A0=
+=E4=B8=BA=E6=89=A7=E8=A1=8C=E6=9D=A1=E4=BB=B6=E6=9C=AA=E6=BB=A1=E8=B6=B3=EF=
+=BC=89</p>
+<p><strong>=E5=A4=84=E7=90=86=E9=80=BB=E8=BE=91</strong>:</p>
+<ul>
+<li>
+<p>=E6=9B=B4=E6=96=B0=E8=AE=A2=E5=8D=95=E7=8A=B6=E6=80=81=E4=B8=BA <code>Fr=
+ozen</code></p></li>
+<li>
+<p>=E8=AE=B0=E5=BD=95 <code>frozen_reason</code></p></li>
+</ul>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E6=95=B0=E6=8D=
+=AE=E5=BA=93=E6=A8=A1=E5=9E=8B.2">=E6=95=B0=E6=8D=AE=E5=BA=93=E6=A8=A1=E5=
+=9E=8B</h3>
+<p><strong>=E8=A1=A8=E5=90=8D</strong>: <code>bsc_perp_order_{0..127}</code=
+> (128 =E5=88=86=E5=8C=BA=EF=BC=8C=E6=8C=89 <code>account</code> =E5=93=88=
+=E5=B8=8C)</p>
+<p><strong>=E6=A0=B8=E5=BF=83=E5=AD=97=E6=AE=B5</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- =E6=
+=A0=B8=E5=BF=83=E6=A0=87=E8=AF=86
+order_key               VARCHAR(66)      -- =E8=AE=A2=E5=8D=95=E5=94=AF=E4=
+=B8=80=E9=94=AE=EF=BC=88bytes32 hex=EF=BC=89
+account                 VARCHAR(42)      -- =E7=94=A8=E6=88=B7=E5=9C=B0=E5=
+=9D=80
+market                  VARCHAR(42)      -- =E7=9B=AE=E6=A0=87=E5=B8=82=E5=
+=9C=BA
+
+-- =E8=AE=A2=E5=8D=95=E7=B1=BB=E5=9E=8B=E5=92=8C=E7=8A=B6=E6=80=81
+order_type              INT              -- =E8=AE=A2=E5=8D=95=E7=B1=BB=E5=
+=9E=8B (0-7)
+order_status            VARCHAR(20)      -- =E7=8A=B6=E6=80=81: created/exe=
+cuted/cancelled/frozen
+is_long                 BOOLEAN          -- =E5=A4=9A=E7=A9=BA=E6=96=B9=E5=
+=90=91
+reduce_only             BOOLEAN          -- =E6=98=AF=E5=90=A6=E5=8F=AA=E5=
+=87=8F=E4=BB=93
+
+-- =E8=AE=A2=E5=8D=95=E5=8F=82=E6=95=B0
+size_delta_usd          DECIMAL(78,0)    -- =E8=A7=84=E6=A8=A1=E5=8F=98=E5=
+=8C=96 (USD)
+acceptable_price        DECIMAL(78,0)    -- =E5=8F=AF=E6=8E=A5=E5=8F=97=E4=
+=BB=B7=E6=A0=BC
+trigger_price           DECIMAL(78,0)    -- =E8=A7=A6=E5=8F=91=E4=BB=B7=E6=
+=A0=BC (0=3D=E5=B8=82=E4=BB=B7=E5=8D=95)
+execution_fee           DECIMAL(78,0)    -- =E6=89=A7=E8=A1=8C=E8=B4=B9=E7=
+=94=A8
+trigger_above_threshold BOOLEAN          -- =E5=90=91=E4=B8=8A/=E5=90=91=E4=
+=B8=8B=E8=A7=A6=E5=8F=91
+
+-- =E6=8A=B5=E6=8A=BC=E5=93=81
+initial_collateral_token  VARCHAR(42)    -- =E5=88=9D=E5=A7=8B=E6=8A=B5=E6=
+=8A=BC=E4=BB=A3=E5=B8=81
+swap_path                 TEXT           -- Swap =E8=B7=AF=E5=BE=84 (JSON =
+=E6=95=B0=E7=BB=84)
+min_output_amount         DECIMAL(78,0)  -- =E6=9C=80=E5=B0=8F=E8=BE=93=E5=
+=87=BA=E9=87=8F
+should_unwrap_native_token BOOLEAN       -- =E8=A7=A3=E5=8C=85=E5=8E=9F=E7=
+=94=9F=E4=BB=A3=E5=B8=81
+
+-- =E5=9B=9E=E8=B0=83=E5=92=8CUI
+referral_code           VARCHAR(66)      -- =E6=8E=A8=E8=8D=90=E7=A0=81
+callback_contract       VARCHAR(42)      -- =E5=9B=9E=E8=B0=83=E5=90=88=E7=
+=BA=A6
+ui_fee_receiver         VARCHAR(42)      -- UI =E8=B4=B9=E7=94=A8=E6=8E=A5=
+=E6=94=B6=E8=80=85
+
+-- =E5=88=9B=E5=BB=BA=E4=BF=A1=E6=81=AF
+create_block_number     BIGINT           -- =E5=88=9B=E5=BB=BA=E5=8C=BA=E5=
+=9D=97
+create_tx_hash          VARCHAR(66)      -- =E5=88=9B=E5=BB=BA=E4=BA=A4=E6=
+=98=93
+create_timestamp_ms     BIGINT           -- =E5=88=9B=E5=BB=BA=E6=97=B6=E9=
+=97=B4 (=E6=AF=AB=E7=A7=92)
+
+-- =E6=9C=80=E5=90=8E=E6=9B=B4=E6=96=B0=E4=BF=A1=E6=81=AF
+update_block_number     BIGINT           -- =E6=9B=B4=E6=96=B0=E5=8C=BA=E5=
+=9D=97
+update_tx_hash          VARCHAR(66)      -- =E6=9B=B4=E6=96=B0=E4=BA=A4=E6=
+=98=93
+update_timestamp_ms     BIGINT           -- =E6=9B=B4=E6=96=B0=E6=97=B6=E9=
+=97=B4 (=E6=AF=AB=E7=A7=92)
+
+-- =E6=89=A7=E8=A1=8C=E7=BB=93=E6=9E=9C=EF=BC=88=E4=BB=85=E6=89=A7=E8=A1=8C=
+=E5=90=8E=E5=A1=AB=E5=85=85=EF=BC=89
+execution_price         DECIMAL(78,0)    -- =E5=AE=9E=E9=99=85=E6=89=A7=E8=
+=A1=8C=E4=BB=B7=E6=A0=BC
+collateral_delta_amount DECIMAL(78,0)    -- =E5=AE=9E=E9=99=85=E6=8A=B5=E6=
+=8A=BC=E5=93=81=E5=8F=98=E5=8C=96
+
+-- =E5=8F=96=E6=B6=88/=E5=86=BB=E7=BB=93=E5=8E=9F=E5=9B=A0
+cancellation_reason     VARCHAR(512)     -- =E5=8F=96=E6=B6=88=E5=8E=9F=E5=
+=9B=A0
+frozen_reason           VARCHAR(512)     -- =E5=86=BB=E7=BB=93=E5=8E=9F=E5=
+=9B=A0</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E8=BE=85=E5=8A=
+=A9=E6=96=B9=E6=B3=95">=E8=BE=85=E5=8A=A9=E6=96=B9=E6=B3=95</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// =E5=
+=88=A4=E6=96=AD=E8=AE=A2=E5=8D=95=E7=B1=BB=E5=9E=8B
+func (m *BscPerpOrderModel) IsMarketOrder() bool {
+    return m.TriggerPrice.IsZero()
+}
+
+func (m *BscPerpOrderModel) IsTriggerOrder() bool {
+    return !m.TriggerPrice.IsZero()
+}
+
+func (m *BscPerpOrderModel) IsIncreaseOrder() bool {
+    return m.OrderType =3D=3D consts.GmxOrderTypeMarketIncrease ||
+           m.OrderType =3D=3D consts.GmxOrderTypeLimitIncrease
+}
+
+func (m *BscPerpOrderModel) IsDecreaseOrder() bool {
+    return m.OrderType =3D=3D consts.GmxOrderTypeMarketDecrease ||
+           m.OrderType =3D=3D consts.GmxOrderTypeLimitDecrease ||
+           m.OrderType =3D=3D consts.GmxOrderTypeStopLossDecrease
+}
+
+// =E5=88=86=E7=B1=BB=E8=A7=A6=E5=8F=91=E5=8D=95=E4=B8=BA TP/SL
+func (m *BscPerpOrderModel) ClassifyTriggerOrder() string {
+    if !m.IsTriggerOrder() {
+        return "not_trigger_order"
+    }
+
+    if m.IsLong {
+        if m.TriggerAboveThreshold {
+            return "tp_long"  // =E5=A4=9A=E5=8D=95=E6=AD=A2=E7=9B=88=EF=BC=
+=9A=E4=BB=B7=E6=A0=BC=E4=B8=8A=E6=B6=A8=E8=A7=A6=E5=8F=91
+        }
+        return "sl_long"  // =E5=A4=9A=E5=8D=95=E6=AD=A2=E6=8D=9F=EF=BC=9A=
+=E4=BB=B7=E6=A0=BC=E4=B8=8B=E8=B7=8C=E8=A7=A6=E5=8F=91
+    } else {
+        if m.TriggerAboveThreshold {
+            return "sl_short" // =E7=A9=BA=E5=8D=95=E6=AD=A2=E6=8D=9F=EF=BC=
+=9A=E4=BB=B7=E6=A0=BC=E4=B8=8A=E6=B6=A8=E8=A7=A6=E5=8F=91
+        }
+        return "tp_short" // =E7=A9=BA=E5=8D=95=E6=AD=A2=E7=9B=88=EF=BC=9A=
+=E4=BB=B7=E6=A0=BC=E4=B8=8B=E8=B7=8C=E8=A7=A6=E5=8F=91
+    }
+}</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-Position=E4=BB=93=
+=E4=BD=8D=E6=A8=A1=E5=9D=97">Position =E4=BB=93=E4=BD=8D=E6=A8=A1=E5=9D=97<=
+/h2>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E5=8A=9F=E8=83=
+=BD=E8=AF=B4=E6=98=8E.3">=E5=8A=9F=E8=83=BD=E8=AF=B4=E6=98=8E</h3>
+<p>=E7=AE=A1=E7=90=86=E7=94=A8=E6=88=B7=E7=9A=84=E6=B0=B8=E7=BB=AD=E5=90=88=
+=E7=BA=A6=E4=BB=93=E4=BD=8D=E7=8A=B6=E6=80=81=E3=80=82=E4=B8=80=E4=B8=AA=E4=
+=BB=93=E4=BD=8D=E7=94=B1 <code>(account, market, collateralToken, isLong)</=
+code> =E5=94=AF=E4=B8=80=E6=A0=87=E8=AF=86=E3=80=82</p>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-PositionKey=E8=AE=
+=A1=E7=AE=97">Position Key =E8=AE=A1=E7=AE=97</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Posi=
+tion Key =3D keccak256(abi.encode(account, market, collateralToken, isLong)=
+)
+func calculatePositionKey(
+    account common.Address,
+    market common.Address,
+    collateralToken common.Address,
+    isLong bool,
+) string {
+    // Solidity ABI =E7=BC=96=E7=A0=81=EF=BC=9A=E6=AF=8F=E4=B8=AA=E5=8F=82=
+=E6=95=B0=E5=A1=AB=E5=85=85=E4=B8=BA 32 =E5=AD=97=E8=8A=82
+    encoded :=3D make([]byte, 0, 128)
+    encoded =3D append(encoded, common.LeftPadBytes(account.Bytes(), 32)...=
+)
+    encoded =3D append(encoded, common.LeftPadBytes(market.Bytes(), 32)...)
+    encoded =3D append(encoded, common.LeftPadBytes(collateralToken.Bytes()=
+, 32)...)
+
+    boolPadded :=3D make([]byte, 32)
+    if isLong {
+        boolPadded[31] =3D 1
+    }
+    encoded =3D append(encoded, boolPadded...)
+
+    hash :=3D crypto.Keccak256(encoded)
+    return strings.ToLower(hexutil.Encode(hash))
+}</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E4=BB=93=E4=BD=
+=8D=E7=8A=B6=E6=80=81=E6=9E=9A=E4=B8=BE">=E4=BB=93=E4=BD=8D=E7=8A=B6=E6=80=
+=81=E6=9E=9A=E4=B8=BE</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">const (
+    PositionStatusGmxActive     =3D "active"      // =E6=B4=BB=E8=B7=83=E4=
+=BB=93=E4=BD=8D
+    PositionStatusGmxClosed     =3D "closed"      // =E5=B7=B2=E5=B9=B3=E4=
+=BB=93
+    PositionStatusGmxLiquidated =3D "liquidated"  // =E5=B7=B2=E5=BC=BA=E5=
+=B9=B3
+    PositionStatusGmxADL        =3D "adl"         // ADL =E5=B9=B3=E4=BB=93
+)</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E4=BA=8B=E4=BB=
+=B6=E8=A7=A3=E6=9E=90.3">=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90</h3>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-PositionIncrease"=
+>PositionIncrease</h4>
+<p><strong>=E8=A7=A6=E5=8F=91=E6=97=B6=E6=9C=BA</strong>: =E5=BC=80=E4=BB=
+=93=E6=88=96=E5=8A=A0=E4=BB=93</p>
+<p><strong>=E5=85=B3=E9=94=AE=E5=AD=97=E6=AE=B5</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"86=
+b2bc19-199d-45cd-b03e-c41d08ed39e0" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E4=BA=8B=E4=BB=B6=E5=AD=97=E6=AE=B5</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>positionKey</code></p></td>
+<td class=3D"confluenceTd">
+<p>bytes32</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BB=93=E4=BD=8D=E5=94=AF=E4=B8=80=E9=94=AE</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>account</code></p></td>
+<td class=3D"confluenceTd">
+<p>address</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>market</code></p></td>
+<td class=3D"confluenceTd">
+<p>address</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=B8=82=E5=9C=BA=E5=9C=B0=E5=9D=80</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>collateralToken</code></p></td>
+<td class=3D"confluenceTd">
+<p>address</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8A=B5=E6=8A=BC=E4=BB=A3=E5=B8=81=E5=9C=B0=E5=9D=80</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>isLong</code></p></td>
+<td class=3D"confluenceTd">
+<p>bool</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=A4=9A=E7=A9=BA=E6=96=B9=E5=90=91</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>executionPrice</code></p></td>
+<td class=3D"confluenceTd">
+<p>uint256</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=89=A7=E8=A1=8C=E4=BB=B7=E6=A0=BC</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>sizeDeltaUsd</code></p></td>
+<td class=3D"confluenceTd">
+<p>uint256</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=A7=84=E6=A8=A1=E5=A2=9E=E5=8A=A0=E9=87=8F (USD)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>sizeDeltaInTokens</code></p></td>
+<td class=3D"confluenceTd">
+<p>uint256</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=A7=84=E6=A8=A1=E5=A2=9E=E5=8A=A0=E9=87=8F (tokens)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>collateralDeltaAmount</code></p></td>
+<td class=3D"confluenceTd">
+<p>uint256</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8A=B5=E6=8A=BC=E5=93=81=E5=A2=9E=E5=8A=A0=E9=87=8F</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>priceImpactUsd</code></p></td>
+<td class=3D"confluenceTd">
+<p>uint256</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BB=B7=E6=A0=BC=E5=86=B2=E5=87=BB</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>orderType</code></p></td>
+<td class=3D"confluenceTd">
+<p>uint256</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=AE=A2=E5=8D=95=E7=B1=BB=E5=9E=8B</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>indexTokenPrice</code></p></td>
+<td class=3D"confluenceTd">
+<p>uint256</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8C=87=E6=95=B0=E4=BB=A3=E5=B8=81=E4=BB=B7=E6=A0=BC</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>collateralTokenPrice</code></p></td>
+<td class=3D"confluenceTd">
+<p>uint256</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=8A=B5=E6=8A=BC=E4=BB=A3=E5=B8=81=E4=BB=B7=E6=A0=BC</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E5=A4=84=E7=90=86=E9=80=BB=E8=BE=91</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">func (h=
+ *PositionIncreaseHandler) Handle(ctx context.Context, evt event.Context) e=
+rror {
+    // 1. =E8=A7=A3=E6=9E=90=E4=BA=8B=E4=BB=B6
+    payload :=3D buildPositionIncreaseEvent(accessor)
+
+    // 2. =E6=9F=A5=E6=89=BE=E5=85=B3=E8=81=94=E7=9A=84 OrderKey (=E4=BB=8E=
+=E5=90=8C=E4=B8=80=E7=AC=94=E4=BA=A4=E6=98=93=E4=B8=AD=E7=9A=84 OrderExecut=
+ed =E4=BA=8B=E4=BB=B6)
+    orderKey :=3D findOrderKeyFromTransaction(evt.Tx, h.eventEmitterAddr)
+
+    // 3. =E6=8F=90=E5=8F=96=E8=B4=B9=E7=94=A8=E6=95=B0=E6=8D=AE (=E4=BB=8E=
+ PositionFeesCollected =E4=BA=8B=E4=BB=B6)
+    feeData, _ :=3D FindPositionFeesInTransaction(evt.Tx, orderKeyBytes, h.=
+eventEmitterAddr)
+    fundingFee, borrowingFee, positionFee :=3D feeData.ToDecimalFees()
+
+    // 4. =E6=9E=84=E5=BB=BA=E5=8F=82=E6=95=B0
+    params :=3D &amp;position.PositionUpdateParams{
+        PositionKey:           positionKey,
+        Account:               account,
+        Market:                payload.Market.Hex(),
+        CollateralToken:       payload.CollateralToken.Hex(),
+        IsLong:                payload.IsLong,
+        SizeDeltaUsd:          decimal.NewFromBigInt(payload.SizeDeltaUsd, =
+0),
+        SizeDeltaTokens:       decimal.NewFromBigInt(payload.SizeDeltaInTok=
+ens, 0),
+        CollateralDeltaAmount: decimal.NewFromBigInt(payload.CollateralDelt=
+aAmount, 0),
+        ExecutionPrice:        decimal.NewFromBigInt(payload.ExecutionPrice=
+, 0),
+        RealizedPnlUsd:        decimal.Zero, // =E5=8A=A0=E4=BB=93=E6=97=A0=
+=E5=B7=B2=E5=AE=9E=E7=8E=B0=E7=9B=88=E4=BA=8F
+        PositionFee:           positionFee,
+        FundingFee:            fundingFee,
+        BorrowingFee:          borrowingFee,
+        OrderKey:              orderKey,
+        OrderType:             consts.GmxOrderType(payload.OrderType.Int64(=
+)),
+        TxHash:                evt.Tx.TxHash,
+        BlockNumber:           evt.Tx.BlockNumber,
+        Timestamp:             evt.Tx.BlockTimestamp * 1000,
+        EventType:             consts.GmxPositionEventTypeIncrease,
+    }
+
+    // 5. =E8=B0=83=E7=94=A8 Position Service =E5=A4=84=E7=90=86=E4=B8=9A=
+=E5=8A=A1=E9=80=BB=E8=BE=91
+    return h.positionSvc.HandlePositionIncrease(ctx, params)
+}</pre>
+</div>
+</div>
+<p><strong>Service =E5=B1=82=E5=A4=84=E7=90=86</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">func (s=
+ *Service) HandlePositionIncrease(ctx context.Context, params *PositionUpda=
+teParams) error {
+    // 1. =E6=9F=A5=E8=AF=A2=E7=8E=B0=E6=9C=89=E4=BB=93=E4=BD=8D
+    existingPos, err :=3D s.positionDAL.GetByPositionKey(ctx, params.Positi=
+onKey, params.Account)
+
+    var position *bscmodel.BscPerpPositionModel
+    var isNewPosition bool
+
+    if err !=3D nil || existingPos =3D=3D nil {
+        // =E6=96=B0=E5=BC=80=E4=BB=93
+        isNewPosition =3D true
+        position =3D s.createNewPosition(params)
+    } else {
+        // =E5=8A=A0=E4=BB=93
+        isNewPosition =3D false
+        position =3D existingPos
+        s.applyPositionIncrease(position, params)
+    }
+
+    // 2. =E6=9B=B4=E6=96=B0=E5=B9=B3=E5=9D=87=E5=85=A5=E5=9C=BA=E4=BB=B7=
+=E6=A0=BC
+    position.UpdateAvgEntryPrice(oldSize, params.SizeDeltaUsd, params.Execu=
+tionPrice)
+
+    // 3. =E7=B4=AF=E5=8A=A0=E8=B4=B9=E7=94=A8
+    position.CumulativeFundingFee =3D position.CumulativeFundingFee.Add(par=
+ams.FundingFee)
+    position.CumulativeBorrowingFee =3D position.CumulativeBorrowingFee.Add=
+(params.BorrowingFee)
+    position.CumulativePositionFee =3D position.CumulativePositionFee.Add(p=
+arams.PositionFee)
+
+    // 4. =E9=87=8D=E6=96=B0=E8=AE=A1=E7=AE=97=E6=9D=A0=E6=9D=86
+    position.Leverage =3D position.CalculateLeverage()
+
+    // 5. =E6=9B=B4=E6=96=B0=E5=85=83=E6=95=B0=E6=8D=AE
+    position.LastIncreasedAt =3D params.Timestamp
+    position.LastTxHash =3D params.TxHash
+    position.LastBlockNumber =3D params.BlockNumber
+    position.LastEventType =3D params.EventType
+    position.Status =3D consts.PositionStatusGmxActive
+
+    // 6. =E4=BF=9D=E5=AD=98=E4=BB=93=E4=BD=8D
+    if err :=3D s.positionDAL.SavePosition(ctx, position); err !=3D nil {
+        return err
+    }
+
+    // 7. =E5=88=9B=E5=BB=BA=E4=BA=A4=E6=98=93=E5=8E=86=E5=8F=B2=E8=AE=B0=
+=E5=BD=95
+    tradeAction :=3D consts.TradeActionOpen
+    if !isNewPosition {
+        tradeAction =3D consts.TradeActionIncrease
+    }
+
+    trade :=3D s.buildTradeRecord(params, position, tradeAction)
+    return s.tradesDAL.Create(ctx, trade)
+}</pre>
+</div>
+</div>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-PositionDecrease"=
+>PositionDecrease</h4>
+<p><strong>=E8=A7=A6=E5=8F=91=E6=97=B6=E6=9C=BA</strong>: =E5=B9=B3=E4=BB=
+=93=E6=88=96=E5=87=8F=E4=BB=93</p>
+<p><strong>=E5=85=B3=E9=94=AE=E5=AD=97=E6=AE=B5</strong> (=E7=9B=B8=E6=AF=
+=94 PositionIncrease =E9=A2=9D=E5=A4=96):</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"c5=
+874262-4486-4b92-a7bf-272c7c4fb353" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E4=BA=8B=E4=BB=B6=E5=AD=97=E6=AE=B5</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>basePnlUsd</code></p></td>
+<td class=3D"confluenceTd">
+<p>int256</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=9F=BA=E7=A1=80=E7=9B=88=E4=BA=8F (USD)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>uncappedBasePnlUsd</code></p></td>
+<td class=3D"confluenceTd">
+<p>int256</p></td>
+<td class=3D"confluenceTd">
+<p>=E6=9C=AA=E5=B0=81=E9=A1=B6=E5=9F=BA=E7=A1=80=E7=9B=88=E4=BA=8F</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>pnlAfterPriceImpactUsd</code></p></td>
+<td class=3D"confluenceTd">
+<p>int256</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BB=B7=E6=A0=BC=E5=86=B2=E5=87=BB=E5=90=8E=E7=9B=88=E4=BA=8F</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E5=A4=84=E7=90=86=E9=80=BB=E8=BE=91</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">func (h=
+ *PositionDecreaseHandler) Handle(ctx context.Context, evt event.Context) e=
+rror {
+    // 1. =E8=A7=A3=E6=9E=90=E4=BA=8B=E4=BB=B6
+    payload :=3D buildPositionDecreaseEvent(accessor)
+
+    // 2. =E6=8F=90=E5=8F=96=E5=B7=B2=E5=AE=9E=E7=8E=B0=E7=9B=88=E4=BA=8F
+    var realizedPnl decimal.Decimal
+    if payload.PnlAfterPriceImpactUsd !=3D nil {
+        realizedPnl =3D decimal.NewFromBigInt(payload.PnlAfterPriceImpactUs=
+d, 0)
+    } else if payload.BasePnlUsd !=3D nil {
+        realizedPnl =3D decimal.NewFromBigInt(payload.BasePnlUsd, 0)
+    }
+
+    // 3. =E6=9E=84=E5=BB=BA=E5=8F=82=E6=95=B0=EF=BC=88=E4=B8=8E PositionIn=
+crease =E7=B1=BB=E4=BC=BC=EF=BC=89
+    params :=3D &amp;position.PositionUpdateParams{
+        // ... =E5=9F=BA=E7=A1=80=E5=AD=97=E6=AE=B5 ...
+        RealizedPnlUsd: realizedPnl,  // =E5=85=B3=E9=94=AE=E5=8C=BA=E5=88=
+=AB=EF=BC=9A=E6=9C=89=E5=B7=B2=E5=AE=9E=E7=8E=B0=E7=9B=88=E4=BA=8F
+        EventType:      consts.GmxPositionEventTypeDecrease,
+    }
+
+    // 4. =E8=B0=83=E7=94=A8 Position Service
+    return h.positionSvc.HandlePositionDecrease(ctx, params)
+}</pre>
+</div>
+</div>
+<p><strong>Service =E5=B1=82=E5=A4=84=E7=90=86</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">func (s=
+ *Service) HandlePositionDecrease(ctx context.Context, params *PositionUpda=
+teParams) error {
+    // 1. =E5=BF=85=E9=A1=BB=E5=AD=98=E5=9C=A8=E7=8E=B0=E6=9C=89=E4=BB=93=
+=E4=BD=8D
+    existingPos, err :=3D s.positionDAL.GetByPositionKey(ctx, params.Positi=
+onKey, params.Account)
+    if err !=3D nil || existingPos =3D=3D nil {
+        return fmt.Errorf("position not found for decrease")
+    }
+
+    // 2. =E5=BA=94=E7=94=A8=E5=87=8F=E4=BB=93=E9=80=BB=E8=BE=91
+    oldSize :=3D existingPos.SizeInUsd
+    newSize :=3D oldSize.Sub(params.SizeDeltaUsd)
+
+    existingPos.SizeInUsd =3D newSize
+    existingPos.SizeInTokens =3D existingPos.SizeInTokens.Sub(params.SizeDe=
+ltaTokens)
+    existingPos.CollateralAmount =3D existingPos.CollateralAmount.Sub(param=
+s.CollateralDeltaAmount)
+
+    // 3. =E7=B4=AF=E5=8A=A0=E5=B7=B2=E5=AE=9E=E7=8E=B0=E7=9B=88=E4=BA=8F
+    existingPos.RealizedPnlUsd =3D existingPos.RealizedPnlUsd.Add(params.Re=
+alizedPnlUsd)
+
+    // 4. =E7=B4=AF=E5=8A=A0=E8=B4=B9=E7=94=A8
+    existingPos.CumulativeFundingFee =3D existingPos.CumulativeFundingFee.A=
+dd(params.FundingFee)
+    existingPos.CumulativeBorrowingFee =3D existingPos.CumulativeBorrowingF=
+ee.Add(params.BorrowingFee)
+    existingPos.CumulativePositionFee =3D existingPos.CumulativePositionFee=
+.Add(params.PositionFee)
+
+    // 5. =E5=88=A4=E6=96=AD=E6=98=AF=E5=90=A6=E5=AE=8C=E5=85=A8=E5=B9=B3=
+=E4=BB=93
+    if newSize.IsZero() || newSize.LessThan(decimal.NewFromInt(1000)) { // =
+=E5=B0=8F=E4=BA=8E=E9=98=88=E5=80=BC=E8=A7=86=E4=B8=BA=E5=B9=B3=E4=BB=93
+        existingPos.Status =3D consts.PositionStatusGmxClosed
+        now :=3D params.Timestamp
+        existingPos.ClosedAt =3D &amp;now
+    }
+
+    // 6. =E9=87=8D=E6=96=B0=E8=AE=A1=E7=AE=97=E6=9D=A0=E6=9D=86
+    existingPos.Leverage =3D existingPos.CalculateLeverage()
+
+    // 7. =E6=9B=B4=E6=96=B0=E5=85=83=E6=95=B0=E6=8D=AE
+    existingPos.LastDecreasedAt =3D params.Timestamp
+    existingPos.LastTxHash =3D params.TxHash
+    existingPos.LastBlockNumber =3D params.BlockNumber
+    existingPos.LastEventType =3D params.EventType
+
+    // 8. =E4=BF=9D=E5=AD=98=E4=BB=93=E4=BD=8D
+    if err :=3D s.positionDAL.SavePosition(ctx, existingPos); err !=3D nil =
+{
+        return err
+    }
+
+    // 9. =E5=88=9B=E5=BB=BA=E4=BA=A4=E6=98=93=E5=8E=86=E5=8F=B2=E8=AE=B0=
+=E5=BD=95
+    tradeAction :=3D consts.TradeActionDecrease
+    if existingPos.Status =3D=3D consts.PositionStatusGmxClosed {
+        tradeAction =3D consts.TradeActionClose
+    }
+
+    trade :=3D s.buildTradeRecord(params, existingPos, tradeAction)
+    return s.tradesDAL.Create(ctx, trade)
+}</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E6=95=B0=E6=8D=
+=AE=E5=BA=93=E6=A8=A1=E5=9E=8B.3">=E6=95=B0=E6=8D=AE=E5=BA=93=E6=A8=A1=E5=
+=9E=8B</h3>
+<p><strong>=E8=A1=A8=E5=90=8D</strong>: <code>bsc_perp_position_{0..127}</c=
+ode> (128 =E5=88=86=E5=8C=BA=EF=BC=8C=E6=8C=89 <code>account</code> =E5=93=
+=88=E5=B8=8C)</p>
+<p><strong>=E6=A0=B8=E5=BF=83=E5=AD=97=E6=AE=B5</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- =E6=
+=A0=B8=E5=BF=83=E6=A0=87=E8=AF=86
+position_key        VARCHAR(66)      -- =E4=BB=93=E4=BD=8D=E5=94=AF=E4=B8=
+=80=E9=94=AE=EF=BC=88bytes32 hex=EF=BC=89
+account             VARCHAR(42)      -- =E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=
+=80
+market              VARCHAR(42)      -- =E5=B8=82=E5=9C=BA=E5=9C=B0=E5=9D=
+=80
+collateral_token    VARCHAR(42)      -- =E6=8A=B5=E6=8A=BC=E4=BB=A3=E5=B8=
+=81=E5=9C=B0=E5=9D=80
+is_long             BOOLEAN          -- =E5=A4=9A=E7=A9=BA=E6=96=B9=E5=90=
+=91
+
+-- =E4=BB=93=E4=BD=8D=E8=A7=84=E6=A8=A1
+size_in_usd         DECIMAL(78,0)    -- =E4=BB=93=E4=BD=8D=E8=A7=84=E6=A8=
+=A1 (USD, 30=E4=BD=8D=E7=B2=BE=E5=BA=A6)
+size_in_tokens      DECIMAL(78,0)    -- =E4=BB=93=E4=BD=8D=E8=A7=84=E6=A8=
+=A1 (tokens)
+collateral_amount   DECIMAL(78,0)    -- =E6=8A=B5=E6=8A=BC=E5=93=81=E6=95=
+=B0=E9=87=8F
+
+-- =E4=BB=B7=E6=A0=BC=E4=BF=A1=E6=81=AF
+open_price          DECIMAL(78,0)    -- =E5=BC=80=E4=BB=93=E4=BB=B7=E6=A0=
+=BC=EF=BC=88=E9=A6=96=E6=AC=A1=E5=BC=80=E4=BB=93=E6=97=B6=E7=9A=84=E6=89=A7=
+=E8=A1=8C=E4=BB=B7=EF=BC=89
+avg_entry_price     DECIMAL(78,0)    -- =E5=B9=B3=E5=9D=87=E5=85=A5=E5=9C=
+=BA=E4=BB=B7=E6=A0=BC=EF=BC=88=E5=8A=A0=E6=9D=83=E5=B9=B3=E5=9D=87=EF=BC=89
+
+-- =E8=B4=B9=E7=94=A8=E7=B4=AF=E8=AE=A1
+cumulative_funding_fee   DECIMAL(78,0)  -- =E7=B4=AF=E8=AE=A1=E8=B5=84=E9=
+=87=91=E8=B4=B9
+cumulative_borrowing_fee DECIMAL(78,0)  -- =E7=B4=AF=E8=AE=A1=E5=80=9F=E6=
+=AC=BE=E8=B4=B9
+cumulative_position_fee  DECIMAL(78,0)  -- =E7=B4=AF=E8=AE=A1=E5=BC=80=E5=
+=B9=B3=E4=BB=93=E8=B4=B9
+
+-- =E8=B4=B9=E7=94=A8=E5=BF=AB=E7=85=A7=EF=BC=88=E7=94=A8=E4=BA=8E=E5=A2=9E=
+=E9=87=8F=E8=AE=A1=E7=AE=97=EF=BC=89
+funding_fee_snapshot    DECIMAL(78,0)   -- =E8=B5=84=E9=87=91=E8=B4=B9=E5=
+=BF=AB=E7=85=A7
+borrowing_fee_snapshot  DECIMAL(78,0)   -- =E5=80=9F=E6=AC=BE=E8=B4=B9=E5=
+=BF=AB=E7=85=A7
+
+-- =E9=A3=8E=E9=99=A9=E6=8C=87=E6=A0=87
+leverage            DECIMAL(30,10)   -- =E6=9D=A0=E6=9D=86=E5=80=8D=E6=95=
+=B0
+liquidation_price   DECIMAL(78,0)    -- =E5=BC=BA=E5=B9=B3=E4=BB=B7=E6=A0=
+=BC=EF=BC=88=E8=AE=A1=E7=AE=97=E5=BE=97=E5=87=BA=EF=BC=89
+
+-- =E5=B7=B2=E5=AE=9E=E7=8E=B0=E7=9B=88=E4=BA=8F
+realized_pnl_usd    DECIMAL(78,0)    -- =E7=B4=AF=E8=AE=A1=E5=B7=B2=E5=AE=
+=9E=E7=8E=B0=E7=9B=88=E4=BA=8F (USD)
+
+-- =E4=BB=93=E4=BD=8D=E7=8A=B6=E6=80=81
+status              VARCHAR(20)      -- active/closed/liquidated/adl
+
+-- =E6=97=B6=E9=97=B4=E6=88=B3
+last_increased_at   BIGINT           -- =E6=9C=80=E5=90=8E=E5=8A=A0=E4=BB=
+=93=E6=97=B6=E9=97=B4 (=E6=AF=AB=E7=A7=92)
+last_decreased_at   BIGINT           -- =E6=9C=80=E5=90=8E=E5=87=8F=E4=BB=
+=93=E6=97=B6=E9=97=B4 (=E6=AF=AB=E7=A7=92)
+closed_at           BIGINT           -- =E5=B9=B3=E4=BB=93=E6=97=B6=E9=97=
+=B4 (=E6=AF=AB=E7=A7=92=EF=BC=8C=E5=8F=AF=E4=B8=BA NULL)
+
+-- =E6=9C=80=E5=90=8E=E6=9B=B4=E6=96=B0=E4=BF=A1=E6=81=AF
+last_tx_hash        VARCHAR(66)      -- =E6=9C=80=E5=90=8E=E6=9B=B4=E6=96=
+=B0=E4=BA=A4=E6=98=93
+last_block_number   BIGINT           -- =E6=9C=80=E5=90=8E=E6=9B=B4=E6=96=
+=B0=E5=8C=BA=E5=9D=97
+last_event_type     VARCHAR(20)      -- =E6=9C=80=E5=90=8E=E4=BA=8B=E4=BB=
+=B6=E7=B1=BB=E5=9E=8B (increase/decrease)</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E4=B8=BB=E5=8A=
+=A8=E5=90=8C=E6=AD=A5=E6=8E=A5=E5=8F=A3.1">=E4=B8=BB=E5=8A=A8=E5=90=8C=E6=
+=AD=A5=E6=8E=A5=E5=8F=A3</h3>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-POST/api/v1/posit=
+ions/sync">POST /api/v1/positions/sync</h4>
+<p><strong>=E5=8A=9F=E8=83=BD</strong>: =E4=BB=8E=E5=8C=BA=E5=9D=97=E9=93=
+=BE=E4=B8=BB=E5=8A=A8=E5=90=8C=E6=AD=A5=E6=8C=87=E5=AE=9A=E7=94=A8=E6=88=B7=
+=E7=9A=84=E6=89=80=E6=9C=89=E4=BB=93=E4=BD=8D</p>
+<p><strong>=E8=AF=B7=E6=B1=82=E4=BD=93</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "account": "0x1234...",        // =E5=BF=85=E5=A1=AB=EF=BC=9A=E7=94=A8=E6=
+=88=B7=E5=9C=B0=E5=9D=80
+  "force_update": false,         // =E5=8F=AF=E9=80=89=EF=BC=9A=E6=98=AF=E5=
+=90=A6=E5=BC=BA=E5=88=B6=E6=9B=B4=E6=96=B0=E5=B7=B2=E6=9C=89=E4=BB=93=E4=BD=
+=8D
+  "start": 0,                    // =E5=8F=AF=E9=80=89=EF=BC=9A=E8=B5=B7=E5=
+=A7=8B=E7=B4=A2=E5=BC=95=EF=BC=88=E5=88=86=E9=A1=B5=EF=BC=89
+  "end": 100                     // =E5=8F=AF=E9=80=89=EF=BC=9A=E7=BB=93=E6=
+=9D=9F=E7=B4=A2=E5=BC=95=EF=BC=88=E5=88=86=E9=A1=B5=EF=BC=89
+}</pre>
+</div>
+</div>
+<p><strong>=E8=BF=94=E5=9B=9E=E7=A4=BA=E4=BE=8B</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "success": true,
+  "data": {
+    "account": "0x1234...",
+    "synced_positions": 5,
+    "updated_positions": 2,
+    "new_positions": 3,
+    "skipped_positions": 1,
+    "positions": [
+      {
+        "position_key": "0xabcd...",
+        "market": "0x5678...",
+        "collateral_token": "0x0b7d...",
+        "is_long": true,
+        "size_in_usd": "10000000000000000000000000000000",
+        "collateral_amount": "2000000000000000000000000000000",
+        "leverage": "5.000000000",
+        "status": "active"
+      }
+    ]
+  }
+}</pre>
+</div>
+</div>
+<p><strong>=E5=AE=9E=E7=8E=B0=E5=8E=9F=E7=90=86</strong>:</p>
+<ol start=3D"1">
+<li>
+<p>=E8=B0=83=E7=94=A8 Reader =E5=90=88=E7=BA=A6=E7=9A=84 <code>GetAccountPo=
+sitions(dataStore, account, start, end)</code></p></li>
+<li>
+<p>=E5=AF=B9=E6=AF=8F=E4=B8=AA=E8=BF=94=E5=9B=9E=E7=9A=84 Position=EF=BC=9A=
+</p>
+<ul>
+<li>
+<p>=E8=AE=A1=E7=AE=97 Position Key</p></li>
+<li>
+<p>=E8=BD=AC=E6=8D=A2=E4=B8=BA=E6=95=B0=E6=8D=AE=E5=BA=93=E6=A8=A1=E5=9E=8B=
+</p></li>
+<li>
+<p>=E4=BF=9D=E5=AD=98=E6=88=96=E6=9B=B4=E6=96=B0=E8=AE=B0=E5=BD=95</p></li>
+</ul></li>
+<li>
+<p>=E6=B3=A8=E6=84=8F=E4=BA=8B=E9=A1=B9=EF=BC=9A</p>
+<ul>
+<li>
+<p><strong>=E5=8E=86=E5=8F=B2=E6=95=B0=E6=8D=AE=E4=B8=8D=E5=8F=AF=E7=94=A8<=
+/strong>: =E9=93=BE=E4=B8=8A=E5=8F=AA=E6=9C=89=E5=BD=93=E5=89=8D=E7=8A=B6=
+=E6=80=81=EF=BC=8C=E6=97=A0=E6=B3=95=E8=8E=B7=E5=8F=96 <code>OpenPrice</cod=
+e>, <code>AvgEntryPrice</code>, <code>CumulativeFees</code></p></li>
+<li>
+<p><strong>=E4=BB=85=E9=80=82=E7=94=A8=E4=BA=8E=E8=A1=A5=E5=85=85=E6=95=B0=
+=E6=8D=AE</strong>: =E4=B8=BB=E8=A6=81=E7=94=A8=E4=BA=8E=E5=88=9D=E5=A7=8B=
+=E5=8C=96=E6=88=96=E4=BF=AE=E5=A4=8D=E4=B8=A2=E5=A4=B1=E7=9A=84=E4=BB=93=E4=
+=BD=8D</p></li>
+</ul></li>
+</ol>
+<p><strong>=E5=AD=97=E6=AE=B5=E6=9D=A5=E6=BA=90</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"5a=
+dc4c85-2d2d-47a9-90ed-f808aab62c0e" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=AD=97=E6=AE=B5</p></th>
+<th class=3D"confluenceTh">
+<p>=E6=9D=A5=E6=BA=90</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>SizeInUsd</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E9=93=BE=E4=B8=8A</p></td>
+<td class=3D"confluenceTd">
+<p><code>PositionNumbers.SizeInUsd</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>SizeInTokens</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E9=93=BE=E4=B8=8A</p></td>
+<td class=3D"confluenceTd">
+<p><code>PositionNumbers.SizeInTokens</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>CollateralAmount</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E9=93=BE=E4=B8=8A</p></td>
+<td class=3D"confluenceTd">
+<p><code>PositionNumbers.CollateralAmount</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>FundingFeeSnapshot</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E9=93=BE=E4=B8=8A</p></td>
+<td class=3D"confluenceTd">
+<p><code>PositionNumbers.FundingFeeAmountPerSize</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>BorrowingFeeSnapshot</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E9=93=BE=E4=B8=8A</p></td>
+<td class=3D"confluenceTd">
+<p><code>PositionNumbers.BorrowingFactor</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>LastIncreasedAt</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E9=93=BE=E4=B8=8A</p></td>
+<td class=3D"confluenceTd">
+<p><code>PositionNumbers.IncreasedAtTime * 1000</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>LastDecreasedAt</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E9=93=BE=E4=B8=8A</p></td>
+<td class=3D"confluenceTd">
+<p><code>PositionNumbers.DecreasedAtTime * 1000</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>OpenPrice</code></p></td>
+<td class=3D"confluenceTd">
+<p><strong>=E4=BA=8B=E4=BB=B6</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=97=A0=E6=B3=95=E4=BB=8E=E9=93=BE=E4=B8=8A=E8=8E=B7=E5=8F=96=EF=BC=8C=
+=E8=AE=BE=E4=B8=BA 0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>AvgEntryPrice</code></p></td>
+<td class=3D"confluenceTd">
+<p><strong>=E4=BA=8B=E4=BB=B6</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=97=A0=E6=B3=95=E4=BB=8E=E9=93=BE=E4=B8=8A=E8=8E=B7=E5=8F=96=EF=BC=8C=
+=E8=AE=BE=E4=B8=BA 0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>CumulativeFees</code></p></td>
+<td class=3D"confluenceTd">
+<p><strong>=E4=BA=8B=E4=BB=B6</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=97=A0=E6=B3=95=E4=BB=8E=E9=93=BE=E4=B8=8A=E8=8E=B7=E5=8F=96=EF=BC=8C=
+=E8=AE=BE=E4=B8=BA 0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>RealizedPnlUsd</code></p></td>
+<td class=3D"confluenceTd">
+<p><strong>=E4=BA=8B=E4=BB=B6</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=97=A0=E6=B3=95=E4=BB=8E=E9=93=BE=E4=B8=8A=E8=8E=B7=E5=8F=96=EF=BC=8C=
+=E8=AE=BE=E4=B8=BA 0</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-Trades=E4=BA=A4=
+=E6=98=93=E5=8E=86=E5=8F=B2=E6=A8=A1=E5=9D=97">Trades =E4=BA=A4=E6=98=93=E5=
+=8E=86=E5=8F=B2=E6=A8=A1=E5=9D=97</h2>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E5=8A=9F=E8=83=
+=BD=E8=AF=B4=E6=98=8E.4">=E5=8A=9F=E8=83=BD=E8=AF=B4=E6=98=8E</h3>
+<p>=E8=AE=B0=E5=BD=95=E6=AF=8F=E4=B8=80=E6=AC=A1=E4=BB=93=E4=BD=8D=E5=8F=98=
+=E5=8C=96=EF=BC=88=E5=BC=80=E4=BB=93=E3=80=81=E5=8A=A0=E4=BB=93=E3=80=81=E5=
+=87=8F=E4=BB=93=E3=80=81=E5=B9=B3=E4=BB=93=EF=BC=89=E7=9A=84=E4=BA=A4=E6=98=
+=93=E5=8E=86=E5=8F=B2=EF=BC=8C=E5=8C=85=E5=90=AB=E8=AF=A6=E7=BB=86=E7=9A=84=
+=E8=B4=B9=E7=94=A8=E3=80=81=E7=9B=88=E4=BA=8F=E6=95=B0=E6=8D=AE=E3=80=82</p=
+>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E4=BA=A4=E6=98=
+=93=E5=8A=A8=E4=BD=9C=E6=9E=9A=E4=B8=BE">=E4=BA=A4=E6=98=93=E5=8A=A8=E4=BD=
+=9C=E6=9E=9A=E4=B8=BE</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">const (
+    TradeActionOpen      =3D "open"       // =E5=BC=80=E4=BB=93
+    TradeActionIncrease  =3D "increase"   // =E5=8A=A0=E4=BB=93
+    TradeActionDecrease  =3D "decrease"   // =E5=87=8F=E4=BB=93
+    TradeActionClose     =3D "close"      // =E5=B9=B3=E4=BB=93
+    TradeActionLiquidate =3D "liquidate"  // =E5=BC=BA=E5=B9=B3
+    TradeActionADL       =3D "adl"        // ADL
+)</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E6=95=B0=E6=8D=
+=AE=E6=9D=A5=E6=BA=90">=E6=95=B0=E6=8D=AE=E6=9D=A5=E6=BA=90</h3>
+<p>Trades =E8=AE=B0=E5=BD=95 <strong>=E4=B8=8D=E6=98=AF</strong> =E7=9B=B4=
+=E6=8E=A5=E7=94=B1=E4=BA=8B=E4=BB=B6=E7=94=9F=E6=88=90=EF=BC=8C=E8=80=8C=E6=
+=98=AF=E5=9C=A8 Position Service =E5=A4=84=E7=90=86 <code>PositionIncrease<=
+/code> / <code>PositionDecrease</code> =E6=97=B6=E5=88=9B=E5=BB=BA=EF=BC=9A=
+</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">func (s=
+ *Service) HandlePositionIncrease(ctx context.Context, params *PositionUpda=
+teParams) error {
+    // ... =E5=A4=84=E7=90=86=E4=BB=93=E4=BD=8D=E9=80=BB=E8=BE=91 ...
+
+    // =E5=88=9B=E5=BB=BA=E4=BA=A4=E6=98=93=E8=AE=B0=E5=BD=95
+    trade :=3D &amp;bscmodel.BscPerpTradesModel{
+        TxHash:                params.TxHash,
+        LogIndex:              params.LogIndex,
+        PositionKey:           params.PositionKey,
+        Account:               params.Account,
+        Market:                params.Market,
+        CollateralToken:       params.CollateralToken,
+        IsLong:                params.IsLong,
+        TradeAction:           tradeAction,  // open/increase
+        OrderType:             ConvertToTradeOrderType(params.OrderType),
+        SizeDeltaUsd:          params.SizeDeltaUsd,
+        SizeDeltaTokens:       params.SizeDeltaTokens,
+        CollateralDeltaAmount: params.CollateralDeltaAmount,
+        ExecutionPrice:        params.ExecutionPrice,
+        MarkPrice:             params.MarkPrice,
+        RealizedPnlUsd:        params.RealizedPnlUsd,  // Increase =E6=97=
+=B6=E4=B8=BA 0
+        PositionFee:           params.PositionFee,
+        FundingFee:            params.FundingFee,
+        BorrowingFee:          params.BorrowingFee,
+        SwapFee:               params.SwapFee,
+        TotalFee:              totalFee,
+        PositionSizeAfter:     position.SizeInUsd,
+        PositionCollateralAfter: position.CollateralAmount,
+        IsLiquidation:         false,
+        BlockNumber:           params.BlockNumber,
+        Timestamp:             params.Timestamp,
+        EventType:             params.EventType,
+        OrderKey:              params.OrderKey,
+    }
+
+    return s.tradesDAL.Create(ctx, trade)
+}</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E6=95=B0=E6=8D=
+=AE=E5=BA=93=E6=A8=A1=E5=9E=8B.4">=E6=95=B0=E6=8D=AE=E5=BA=93=E6=A8=A1=E5=
+=9E=8B</h3>
+<p><strong>=E8=A1=A8=E5=90=8D</strong>: <code>bsc_perp_trades_{0..127}</cod=
+e> (128 =E5=88=86=E5=8C=BA=EF=BC=8C=E6=8C=89 <code>account</code> =E5=93=88=
+=E5=B8=8C)</p>
+<p><strong>=E6=A0=B8=E5=BF=83=E5=AD=97=E6=AE=B5</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- =E5=
+=94=AF=E4=B8=80=E6=A0=87=E8=AF=86=EF=BC=88=E4=BA=A4=E6=98=93=E5=93=88=E5=B8=
+=8C + =E6=97=A5=E5=BF=97=E7=B4=A2=E5=BC=95=EF=BC=89
+tx_hash             VARCHAR(66)      -- =E4=BA=A4=E6=98=93=E5=93=88=E5=B8=
+=8C
+log_index           INT              -- =E6=97=A5=E5=BF=97=E7=B4=A2=E5=BC=
+=95
+-- =E7=BB=84=E5=90=88=E5=94=AF=E4=B8=80=E7=B4=A2=E5=BC=95=EF=BC=9A(tx_hash,=
+ log_index)
+
+-- =E4=BB=93=E4=BD=8D=E6=A0=87=E8=AF=86
+position_key        VARCHAR(66)      -- =E5=85=B3=E8=81=94=E7=9A=84=E4=BB=
+=93=E4=BD=8D
+account             VARCHAR(42)      -- =E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=
+=80
+market              VARCHAR(42)      -- =E5=B8=82=E5=9C=BA=E5=9C=B0=E5=9D=
+=80
+collateral_token    VARCHAR(42)      -- =E6=8A=B5=E6=8A=BC=E4=BB=A3=E5=B8=
+=81
+is_long             BOOLEAN          -- =E5=A4=9A=E7=A9=BA=E6=96=B9=E5=90=
+=91
+
+-- =E4=BA=A4=E6=98=93=E7=B1=BB=E5=9E=8B
+trade_action        VARCHAR(20)      -- open/increase/decrease/close/liquid=
+ate/adl
+order_type          VARCHAR(20)      -- market/limit/stop_loss
+
+-- =E8=A7=84=E6=A8=A1=E5=8F=98=E5=8C=96
+size_delta_usd          DECIMAL(78,0)  -- =E8=A7=84=E6=A8=A1=E5=8F=98=E5=8C=
+=96 (USD)
+size_delta_tokens       DECIMAL(78,0)  -- =E8=A7=84=E6=A8=A1=E5=8F=98=E5=8C=
+=96 (tokens)
+collateral_delta_amount DECIMAL(78,0)  -- =E6=8A=B5=E6=8A=BC=E5=93=81=E5=8F=
+=98=E5=8C=96
+
+-- =E4=BB=B7=E6=A0=BC
+execution_price     DECIMAL(78,0)    -- =E6=89=A7=E8=A1=8C=E4=BB=B7=E6=A0=
+=BC
+mark_price          DECIMAL(78,0)    -- =E6=A0=87=E8=AE=B0=E4=BB=B7=E6=A0=
+=BC
+
+-- =E7=9B=88=E4=BA=8F
+realized_pnl_usd    DECIMAL(78,0)    -- =E5=B7=B2=E5=AE=9E=E7=8E=B0=E7=9B=
+=88=E4=BA=8F (USD)
+
+-- =E8=B4=B9=E7=94=A8=E6=98=8E=E7=BB=86
+position_fee        DECIMAL(78,0)    -- =E5=BC=80=E5=B9=B3=E4=BB=93=E6=89=
+=8B=E7=BB=AD=E8=B4=B9
+funding_fee         DECIMAL(78,0)    -- =E8=B5=84=E9=87=91=E8=B4=B9
+borrowing_fee       DECIMAL(78,0)    -- =E5=80=9F=E6=AC=BE=E8=B4=B9
+swap_fee            DECIMAL(78,0)    -- Swap =E8=B4=B9=E7=94=A8
+total_fee           DECIMAL(78,0)    -- =E6=80=BB=E8=B4=B9=E7=94=A8
+
+-- =E4=BB=93=E4=BD=8D=E7=8A=B6=E6=80=81=E5=BF=AB=E7=85=A7
+position_size_after       DECIMAL(78,0)  -- =E4=BA=A4=E6=98=93=E5=90=8E=E4=
+=BB=93=E4=BD=8D=E8=A7=84=E6=A8=A1
+position_collateral_after DECIMAL(78,0)  -- =E4=BA=A4=E6=98=93=E5=90=8E=E6=
+=8A=B5=E6=8A=BC=E5=93=81=E6=95=B0=E9=87=8F
+
+-- =E5=BC=BA=E5=B9=B3=E4=BF=A1=E6=81=AF
+is_liquidation      BOOLEAN          -- =E6=98=AF=E5=90=A6=E4=B8=BA=E5=BC=
+=BA=E5=B9=B3
+liquidation_price   DECIMAL(78,0)    -- =E5=BC=BA=E5=B9=B3=E4=BB=B7=E6=A0=
+=BC=EF=BC=88=E5=8F=AF=E9=80=89=EF=BC=89
+
+-- =E5=85=83=E6=95=B0=E6=8D=AE
+block_number        BIGINT           -- =E5=8C=BA=E5=9D=97=E5=8F=B7
+timestamp           BIGINT           -- =E6=97=B6=E9=97=B4=E6=88=B3 (=E6=AF=
+=AB=E7=A7=92)
+event_type          VARCHAR(20)      -- increase/decrease
+order_key           VARCHAR(66)      -- =E5=85=B3=E8=81=94=E7=9A=84=E8=AE=
+=A2=E5=8D=95=EF=BC=88=E5=8F=AF=E9=80=89=EF=BC=89</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E8=BE=85=E5=8A=
+=A9=E6=96=B9=E6=B3=95.1">=E8=BE=85=E5=8A=A9=E6=96=B9=E6=B3=95</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// =E5=
+=88=A4=E6=96=AD=E4=BA=A4=E6=98=93=E7=B1=BB=E5=9E=8B
+func (m *BscPerpTradesModel) IsIncrease() bool {
+    return m.TradeAction =3D=3D consts.TradeActionOpen ||
+           m.TradeAction =3D=3D consts.TradeActionIncrease
+}
+
+func (m *BscPerpTradesModel) IsDecrease() bool {
+    return m.TradeAction =3D=3D consts.TradeActionDecrease ||
+           m.TradeAction =3D=3D consts.TradeActionClose
+}
+
+func (m *BscPerpTradesModel) IsForcedClose() bool {
+    return m.TradeAction =3D=3D consts.TradeActionLiquidate ||
+           m.TradeAction =3D=3D consts.TradeActionADL
+}
+
+// =E8=AE=A1=E7=AE=97=E5=87=80=E7=9B=88=E4=BA=8F
+func (m *BscPerpTradesModel) CalculateNetPnl() decimal.Decimal {
+    return m.RealizedPnlUsd.Sub(m.TotalFee)
+}
+
+// =E8=AE=A2=E5=8D=95=E7=B1=BB=E5=9E=8B=E8=BD=AC=E6=8D=A2
+func ConvertToTradeOrderType(gmxOrderType consts.GmxOrderType) consts.Trade=
+OrderType {
+    switch gmxOrderType {
+    case consts.GmxOrderTypeMarketIncrease,
+         consts.GmxOrderTypeMarketDecrease,
+         consts.GmxOrderTypeMarketSwap:
+        return consts.TradeOrderTypeMarket
+    case consts.GmxOrderTypeLimitIncrease,
+         consts.GmxOrderTypeLimitDecrease,
+         consts.GmxOrderTypeLimitSwap:
+        return consts.TradeOrderTypeLimit
+    case consts.GmxOrderTypeStopLossDecrease:
+        return consts.TradeOrderTypeStopLoss
+    default:
+        return consts.TradeOrderTypeMarket
+    }
+}
+
+// =E5=88=A4=E6=96=AD=E4=BA=A4=E6=98=93=E5=8A=A8=E4=BD=9C
+func DetermineTradeAction(
+    eventType consts.GmxPositionEventType,
+    positionBefore *BscPerpPositionModel,
+    positionAfter *BscPerpPositionModel,
+) consts.TradeActionType {
+    switch eventType {
+    case consts.GmxPositionEventTypeIncrease:
+        if positionBefore =3D=3D nil || positionBefore.SizeInUsd.IsZero() {
+            return consts.TradeActionOpen
+        }
+        return consts.TradeActionIncrease
+    case consts.GmxPositionEventTypeDecrease:
+        if positionAfter.SizeInUsd.IsZero() {
+            return consts.TradeActionClose
+        }
+        return consts.TradeActionDecrease
+    case consts.GmxPositionEventTypeLiquidated:
+        return consts.TradeActionLiquidate
+    case consts.GmxPositionEventTypeADL:
+        return consts.TradeActionADL
+    default:
+        return consts.TradeActionDecrease
+    }
+}</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E4=BA=8B=E4=BB=
+=B6=E5=AD=97=E6=AE=B5=E6=98=A0=E5=B0=84=E8=A1=A8">=E4=BA=8B=E4=BB=B6=E5=AD=
+=97=E6=AE=B5=E6=98=A0=E5=B0=84=E8=A1=A8</h2>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E4=BA=8B=E4=BB=
+=B6=E5=AD=97=E6=AE=B5Key=E5=B8=B8=E9=87=8F">=E4=BA=8B=E4=BB=B6=E5=AD=97=E6=
+=AE=B5 Key =E5=B8=B8=E9=87=8F</h3>
+<p>=E6=89=80=E6=9C=89=E4=BA=8B=E4=BB=B6=E5=AD=97=E6=AE=B5 key =E5=AE=9A=E4=
+=B9=89=E5=9C=A8 <code>data-statistics-infra/consts/bsc_event_key.go</code>=
+=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// =E9=
+=80=9A=E7=94=A8=E5=AD=97=E6=AE=B5
+BscEventKeyAccount       =3D "account"
+BscEventKeyMarket        =3D "market"
+BscEventKeyUpdatedAtTime =3D "updatedAtTime"
+
+// Order =E7=9B=B8=E5=85=B3
+BscEventKeyOrderKey                     =3D "orderKey"
+BscEventKeyOrderType                    =3D "orderType"
+BscEventKeySizeDeltaUsd                 =3D "sizeDeltaUsd"
+BscEventKeyInitialCollateralToken       =3D "initialCollateralToken"
+BscEventKeyTriggerPrice                 =3D "triggerPrice"
+BscEventKeyAcceptablePrice              =3D "acceptablePrice"
+BscEventKeyIsLong                       =3D "isLong"
+
+// Position =E7=9B=B8=E5=85=B3
+BscEventKeyPositionKey           =3D "positionKey"
+BscEventKeyCollateralToken       =3D "collateralToken"
+BscEventKeySizeDeltaInTokens     =3D "sizeDeltaInTokens"
+BscEventKeyExecutionPrice        =3D "executionPrice"
+BscEventKeyCollateralDeltaAmount =3D "collateralDeltaAmount"
+BscEventKeyIndexTokenPrice       =3D "indexTokenPrice"
+BscEventKeyBasePnlUsd            =3D "basePnlUsd"
+BscEventKeyPnlAfterPriceImpactUsd =3D "pnlAfterPriceImpactUsd"
+
+// Fees =E7=9B=B8=E5=85=B3
+BscEventKeyFundingFeeAmount   =3D "fundingFeeAmount"
+BscEventKeyBorrowingFeeAmount =3D "borrowingFeeAmount"
+BscEventKeyPositionFeeAmount  =3D "positionFeeAmount"</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E9=87=8D=E8=A6=
+=81=E5=AD=97=E6=AE=B5=E5=8C=BA=E5=88=86">=E9=87=8D=E8=A6=81=E5=AD=97=E6=AE=
+=B5=E5=8C=BA=E5=88=86</h3>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-initialCollateral=
+TokenvscollateralToken"><code>initialCollateralToken</code> vs <code>collat=
+eralToken</code></h4>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"85=
+950a8b-dd65-43e3-8ff0-baefb056eb24" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=AD=97=E6=AE=B5</p></th>
+<th class=3D"confluenceTh">
+<p>=E4=BD=BF=E7=94=A8=E5=9C=BA=E6=99=AF</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>initialCollateralToken</code></p></td>
+<td class=3D"confluenceTd">
+<p>Order =E4=BA=8B=E4=BB=B6</p></td>
+<td class=3D"confluenceTd">
+<p>=E7=94=A8=E6=88=B7=E5=88=9B=E5=BB=BA=E8=AE=A2=E5=8D=95=E6=97=B6=E6=8C=87=
+=E5=AE=9A=E7=9A=84=E6=8A=B5=E6=8A=BC=E4=BB=A3=E5=B8=81</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>collateralToken</code></p></td>
+<td class=3D"confluenceTd">
+<p>Position =E4=BA=8B=E4=BB=B6</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=AE=9E=E9=99=85backing=E4=BB=93=E4=BD=8D=E7=9A=84=E6=8A=B5=E6=8A=BC=
+=E4=BB=A3=E5=B8=81=EF=BC=88=E5=8F=AF=E8=83=BD=E7=BB=8F=E8=BF=87swap=EF=BC=
+=89</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>=E7=A4=BA=E4=BE=8B</strong>:</p>
+<ul>
+<li>
+<p>=E7=94=A8=E6=88=B7=E6=8F=90=E4=BA=A4=E8=AE=A2=E5=8D=95=EF=BC=9A=E6=8A=B5=
+=E6=8A=BC USDC=EF=BC=88<code>initialCollateralToken =3D USDC</code>=EF=BC=
+=89</p></li>
+<li>
+<p>=E8=AE=A2=E5=8D=95=E6=89=A7=E8=A1=8C=E6=97=B6=E8=BF=9B=E8=A1=8C Swap=EF=
+=BC=9AUSDC =E2=86=92 WETH</p></li>
+<li>
+<p>=E6=9C=80=E7=BB=88=E4=BB=93=E4=BD=8D=EF=BC=9A=E6=8A=B5=E6=8A=BC WETH=EF=
+=BC=88<code>collateralToken =3D WETH</code>=EF=BC=89</p></li>
+</ul>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E8=B4=B9=E7=94=
+=A8=E5=AD=97=E6=AE=B5=E8=AF=A6=E8=A7=A3">=E8=B4=B9=E7=94=A8=E5=AD=97=E6=AE=
+=B5=E8=AF=A6=E8=A7=A3</h4>
+<p><strong>PositionFeesCollected =E4=BA=8B=E4=BB=B6</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">type Po=
+sitionFeesData struct {
+    FundingFeeAmount   *big.Int  // =E8=B5=84=E9=87=91=E8=B4=B9=EF=BC=88=E6=
+=AD=A3=E6=95=B0=3D=E6=94=AF=E4=BB=98=EF=BC=8C=E8=B4=9F=E6=95=B0=3D=E6=94=B6=
+=E5=8F=96=EF=BC=89
+    BorrowingFeeAmount *big.Int  // =E5=80=9F=E6=AC=BE=E8=B4=B9=EF=BC=88=E6=
+=80=BB=E6=98=AF=E6=94=AF=E4=BB=98=EF=BC=89
+    PositionFeeAmount  *big.Int  // =E5=BC=80=E5=B9=B3=E4=BB=93=E6=89=8B=E7=
+=BB=AD=E8=B4=B9
+    TotalCostAmount    *big.Int  // =E6=80=BB=E8=B4=B9=E7=94=A8
+}</pre>
+</div>
+</div>
+<p><strong>=E8=B4=B9=E7=94=A8=E5=85=B3=E7=B3=BB</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">TotalFe=
+e =3D PositionFee + |FundingFee| + BorrowingFee + SwapFee
+NetPnL =3D RealizedPnL - TotalFee</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E6=9F=A5=E8=AF=
+=A2=E6=8E=A5=E5=8F=A3=E6=96=87=E6=A1=A3">=E6=9F=A5=E8=AF=A2=E6=8E=A5=E5=8F=
+=A3=E6=96=87=E6=A1=A3</h2>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-Position=E7=9B=B8=
+=E5=85=B3=E6=8E=A5=E5=8F=A3">Position =E7=9B=B8=E5=85=B3=E6=8E=A5=E5=8F=A3<=
+/h3>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-1.=E6=A0=B9=E6=8D=
+=AEPositionKey=E6=9F=A5=E8=AF=A2">1. =E6=A0=B9=E6=8D=AE Position Key =E6=9F=
+=A5=E8=AF=A2</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">GET /ap=
+i/v1/positions/:positionKey?account=3D{account}</pre>
+</div>
+</div>
+<p><strong>=E5=8F=82=E6=95=B0</strong>:</p>
+<ul>
+<li>
+<p><code>positionKey</code> (path): =E4=BB=93=E4=BD=8D=E5=94=AF=E4=B8=80=E9=
+=94=AE (hex)</p></li>
+<li>
+<p><code>account</code> (query): =E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=EF=BC=
+=88=E5=BF=85=E5=A1=AB=EF=BC=89</p></li>
+</ul>
+<p><strong>=E8=BF=94=E5=9B=9E</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "position": {
+    "position_key": "0x...",
+    "account": "0x...",
+    "market": "0x...",
+    "collateral_token": "0x...",
+    "is_long": true,
+    "size_in_usd": "10000000000000000000000000000000",
+    "collateral_amount": "2000000000000000000000000000000",
+    "avg_entry_price": "50000000000000000000000000000000",
+    "leverage": "5.000000000",
+    "realized_pnl_usd": "100000000000000000000000000000",
+    "cumulative_funding_fee": "5000000000000000000000000000",
+    "cumulative_borrowing_fee": "3000000000000000000000000000",
+    "cumulative_position_fee": "10000000000000000000000000000",
+    "status": "active",
+    "last_increased_at": 1705881600000,
+    "last_decreased_at": 0,
+    "last_tx_hash": "0x..."
+  }
+}</pre>
+</div>
+</div>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-2.=E6=9F=A5=E8=AF=
+=A2=E7=94=A8=E6=88=B7=E6=89=80=E6=9C=89=E4=BB=93=E4=BD=8D">2. =E6=9F=A5=E8=
+=AF=A2=E7=94=A8=E6=88=B7=E6=89=80=E6=9C=89=E4=BB=93=E4=BD=8D</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">GET /ap=
+i/v1/positions?account=3D{account}&amp;limit=3D100&amp;offset=3D0</pre>
+</div>
+</div>
+<p><strong>=E5=8F=82=E6=95=B0</strong>:</p>
+<ul>
+<li>
+<p><code>account</code> (query): =E7=94=A8=E6=88=B7=E5=9C=B0=E5=9D=80=EF=BC=
+=88=E5=BF=85=E5=A1=AB=EF=BC=89</p></li>
+<li>
+<p><code>limit</code> (query): =E6=AF=8F=E9=A1=B5=E6=95=B0=E9=87=8F=EF=BC=
+=88=E9=BB=98=E8=AE=A4 100=EF=BC=89</p></li>
+<li>
+<p><code>offset</code> (query): =E5=81=8F=E7=A7=BB=E9=87=8F=EF=BC=88=E9=BB=
+=98=E8=AE=A4 0=EF=BC=89</p></li>
+</ul>
+<p><strong>=E8=BF=94=E5=9B=9E</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "positions": [...],
+  "count": 5,
+  "limit": 100,
+  "offset": 0
+}</pre>
+</div>
+</div>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-3.=E6=9F=A5=E8=AF=
+=A2=E5=B8=82=E5=9C=BA=E6=89=80=E6=9C=89=E4=BB=93=E4=BD=8D">3. =E6=9F=A5=E8=
+=AF=A2=E5=B8=82=E5=9C=BA=E6=89=80=E6=9C=89=E4=BB=93=E4=BD=8D</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">GET /ap=
+i/v1/positions/market?market=3D{market}&amp;limit=3D100&amp;offset=3D0</pre=
+>
+</div>
+</div>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-4.=E6=9F=A5=E8=AF=
+=A2=E6=89=80=E6=9C=89=E6=B4=BB=E8=B7=83=E4=BB=93=E4=BD=8D">4. =E6=9F=A5=E8=
+=AF=A2=E6=89=80=E6=9C=89=E6=B4=BB=E8=B7=83=E4=BB=93=E4=BD=8D</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">GET /ap=
+i/v1/positions/open?limit=3D100&amp;offset=3D0</pre>
+</div>
+</div>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-5.=E6=9F=A5=E8=AF=
+=A2=E4=BB=93=E4=BD=8D=E4=BA=A4=E6=98=93=E5=8E=86=E5=8F=B2">5. =E6=9F=A5=E8=
+=AF=A2=E4=BB=93=E4=BD=8D=E4=BA=A4=E6=98=93=E5=8E=86=E5=8F=B2</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">GET /ap=
+i/v1/positions/:positionKey/trades?account=3D{account}&amp;limit=3D100&amp;=
+offset=3D0</pre>
+</div>
+</div>
+<p><strong>=E8=BF=94=E5=9B=9E</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "trades": [
+    {
+      "tx_hash": "0x...",
+      "log_index": 5,
+      "trade_action": "open",
+      "order_type": "market",
+      "size_delta_usd": "10000000000000000000000000000000",
+      "execution_price": "50000000000000000000000000000000",
+      "realized_pnl_usd": "0",
+      "position_fee": "10000000000000000000000000000",
+      "funding_fee": "0",
+      "borrowing_fee": "0",
+      "total_fee": "10000000000000000000000000000",
+      "position_size_after": "10000000000000000000000000000000",
+      "timestamp": 1705881600000
+    }
+  ],
+  "count": 10,
+  "limit": 100,
+  "offset": 0
+}</pre>
+</div>
+</div>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-6.=E6=9F=A5=E8=AF=
+=A2=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=8E=86=E5=8F=B2">6. =E6=9F=A5=E8=
+=AF=A2=E7=94=A8=E6=88=B7=E4=BA=A4=E6=98=93=E5=8E=86=E5=8F=B2</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">GET /ap=
+i/v1/trades?account=3D{account}&amp;limit=3D100&amp;offset=3D0</pre>
+</div>
+</div>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-7.=E4=B8=BB=E5=8A=
+=A8=E5=90=8C=E6=AD=A5=E7=94=A8=E6=88=B7=E4=BB=93=E4=BD=8D">7. =E4=B8=BB=E5=
+=8A=A8=E5=90=8C=E6=AD=A5=E7=94=A8=E6=88=B7=E4=BB=93=E4=BD=8D</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">POST /a=
+pi/v1/positions/sync
+Content-Type: application/json
+
+{
+  "account": "0x1234...",
+  "force_update": false,
+  "start": 0,
+  "end": 100
+}</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E5=85=B6=E4=BB=
+=96=E6=8E=A5=E5=8F=A3">=E5=85=B6=E4=BB=96=E6=8E=A5=E5=8F=A3</h3>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E5=81=A5=E5=BA=
+=B7=E6=A3=80=E6=9F=A5">=E5=81=A5=E5=BA=B7=E6=A3=80=E6=9F=A5</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">GET /ap=
+i/v1/ping</pre>
+</div>
+</div>
+<p><strong>=E8=BF=94=E5=9B=9E</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "message": "pong"
+}</pre>
+</div>
+</div>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E6=89=8B=E5=8A=
+=A8=E6=89=AB=E6=8F=8F=E5=8C=BA=E5=9D=97">=E6=89=8B=E5=8A=A8=E6=89=AB=E6=8F=
+=8F=E5=8C=BA=E5=9D=97</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">POST /a=
+pi/v1/scan-blocks
+Content-Type: application/json
+
+{
+  "start_block": 12345678,
+  "end_block": 12345700
+}</pre>
+</div>
+</div>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E5=90=8C=E6=AD=
+=A5GMPools">=E5=90=8C=E6=AD=A5 GM Pools</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">POST /a=
+pi/v1/gm-pools/sync
+Content-Type: application/json
+
+{
+  "block_number": 12345678
+}</pre>
+</div>
+</div>
+<h4 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E9=87=8D=E6=94=
+=BE=E4=BA=A4=E6=98=93">=E9=87=8D=E6=94=BE=E4=BA=A4=E6=98=93</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">POST /a=
+pi/v1/replay-transaction
+Content-Type: application/json
+
+{
+  "tx_hash": "0x...",
+  "block_number": 12345678
+}</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E6=95=B0=E6=8D=
+=AE=E7=B2=BE=E5=BA=A6=E8=AF=B4=E6=98=8E">=E6=95=B0=E6=8D=AE=E7=B2=BE=E5=BA=
+=A6=E8=AF=B4=E6=98=8E</h2>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E7=B2=BE=E5=BA=
+=A6=E6=A0=87=E5=87=86">=E7=B2=BE=E5=BA=A6=E6=A0=87=E5=87=86</h3>
+<p>GMX V2 =E4=BD=BF=E7=94=A8 <strong>30 =E4=BD=8D=E5=B0=8F=E6=95=B0=E7=B2=
+=BE=E5=BA=A6</strong> =E8=A1=A8=E7=A4=BA USD =E9=87=91=E9=A2=9D=E5=92=8C=E4=
+=BB=B7=E6=A0=BC=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">1 USD =
+=3D 10^30 =3D 1000000000000000000000000000000
+$50,000 =3D 50000 * 10^30</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E6=95=B0=E6=8D=
+=AE=E5=BA=93=E5=AD=98=E5=82=A8">=E6=95=B0=E6=8D=AE=E5=BA=93=E5=AD=98=E5=82=
+=A8</h3>
+<ul>
+<li>
+<p><strong>=E7=B1=BB=E5=9E=8B</strong>: <code>DECIMAL(78, 0)</code></p></li=
+>
+<li>
+<p><strong>=E6=95=B4=E6=95=B0=E5=AD=98=E5=82=A8</strong>: =E6=89=80=E6=9C=
+=89=E9=87=91=E9=A2=9D=E5=AD=97=E6=AE=B5=E5=AD=98=E5=82=A8=E4=B8=BA <strong>=
+=E5=8E=9F=E5=A7=8B=E6=95=B4=E6=95=B0</strong>=EF=BC=88=E6=97=A0=E5=B0=8F=E6=
+=95=B0=E7=82=B9=EF=BC=89</p></li>
+<li>
+<p><strong>=E6=9F=A5=E8=AF=A2=E6=97=B6=E8=BD=AC=E6=8D=A2</strong>: =E5=AE=
+=A2=E6=88=B7=E7=AB=AF=E9=9C=80=E8=A6=81=E9=99=A4=E4=BB=A5 <code>10^30</code=
+> =E8=BD=AC=E6=8D=A2=E4=B8=BA=E5=AE=9E=E9=99=85=E9=87=91=E9=A2=9D</p></li>
+</ul>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E7=A4=BA=E4=BE=
+=8B">=E7=A4=BA=E4=BE=8B</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- =E5=
+=AD=98=E5=82=A8=E7=9A=84=E5=8E=9F=E5=A7=8B=E5=80=BC
+size_in_usd =3D 10000000000000000000000000000000
+
+-- =E8=BD=AC=E6=8D=A2=E4=B8=BA=E5=AE=9E=E9=99=85=E9=87=91=E9=A2=9D (Golang)
+sizeUsdDecimal :=3D decimal.NewFromBigInt(sizeInUsd, 0)
+actualUsd :=3D sizeUsdDecimal.Div(decimal.NewFromInt(10).Pow(decimal.NewFro=
+mInt(30)))
+// actualUsd =3D 10
+
+-- =E8=BD=AC=E6=8D=A2=E4=B8=BA=E5=AE=9E=E9=99=85=E9=87=91=E9=A2=9D (SQL)
+SELECT
+  size_in_usd / 1e30 AS size_usd,
+  collateral_amount / 1e30 AS collateral_usd
+FROM bsc_perp_position_0;</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E5=85=B6=E4=BB=
+=96=E7=B2=BE=E5=BA=A6">=E5=85=B6=E4=BB=96=E7=B2=BE=E5=BA=A6</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"85=
+ef214b-08cf-4b12-a3f4-32a4b4a1e2bc" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E5=AD=97=E6=AE=B5=E7=B1=BB=E5=9E=8B</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=B2=BE=E5=BA=A6</p></th>
+<th class=3D"confluenceTh">
+<p>=E8=AF=B4=E6=98=8E</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>USD =E9=87=91=E9=A2=9D</p></td>
+<td class=3D"confluenceTd">
+<p>30 =E4=BD=8D</p></td>
+<td class=3D"confluenceTd">
+<p><code>size_in_usd</code>, <code>collateral_amount</code>, <code>realized=
+_pnl_usd</code>, =E8=B4=B9=E7=94=A8=E5=AD=97=E6=AE=B5</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E4=BB=B7=E6=A0=BC</p></td>
+<td class=3D"confluenceTd">
+<p>30 =E4=BD=8D</p></td>
+<td class=3D"confluenceTd">
+<p><code>execution_price</code>, <code>trigger_price</code>, <code>acceptab=
+le_price</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Token =E6=95=B0=E9=87=8F</p></td>
+<td class=3D"confluenceTd">
+<p>Token =E7=B2=BE=E5=BA=A6</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=8F=96=E5=86=B3=E4=BA=8E=E4=BB=A3=E5=B8=81=EF=BC=88=E5=A6=82 USDC 6=
+=E4=BD=8D=EF=BC=8CWETH 18=E4=BD=8D=EF=BC=89</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E6=9D=A0=E6=9D=86</p></td>
+<td class=3D"confluenceTd">
+<p><code>DECIMAL(30,10)</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=94=AF=E6=8C=8110=E4=BD=8D=E5=B0=8F=E6=95=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>=E7=99=BE=E5=88=86=E6=AF=94/=E8=B4=B9=E7=8E=87</p></td>
+<td class=3D"confluenceTd">
+<p>30 =E4=BD=8D</p></td>
+<td class=3D"confluenceTd">
+<p>=E5=A6=82 <code>funding_factor</code> (1% =3D 0.01 * 10^30)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E8=BD=AC=E6=8D=
+=A2=E5=B7=A5=E5=85=B7=E5=87=BD=E6=95=B0">=E8=BD=AC=E6=8D=A2=E5=B7=A5=E5=85=
+=B7=E5=87=BD=E6=95=B0</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Gola=
+ng
+func ToDecimalUSD(rawValue *big.Int) decimal.Decimal {
+    return decimal.NewFromBigInt(rawValue, 0).Div(decimal.NewFromInt(10).Po=
+w(decimal.NewFromInt(30)))
+}
+
+func FromDecimalUSD(usdValue decimal.Decimal) *big.Int {
+    scaled :=3D usdValue.Mul(decimal.NewFromInt(10).Pow(decimal.NewFromInt(=
+30)))
+    return scaled.BigInt()
+}
+
+// SQL =E6=9F=A5=E8=AF=A2=E7=A4=BA=E4=BE=8B
+SELECT
+  position_key,
+  account,
+  size_in_usd / 1e30 AS size_usd,
+  collateral_amount / 1e30 AS collateral_usd,
+  (size_in_usd / NULLIF(collateral_amount, 0)) AS leverage,
+  realized_pnl_usd / 1e30 AS realized_pnl_usd
+FROM bsc_perp_position_0
+WHERE account =3D '0x...'
+  AND status =3D 'active';</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E5=B8=B8=E8=A7=
+=81=E9=97=AE=E9=A2=98">=E5=B8=B8=E8=A7=81=E9=97=AE=E9=A2=98</h2>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-Q1:Position=E6=95=
+=B0=E6=8D=AE=E4=B8=8D=E5=AE=8C=E6=95=B4=E6=80=8E=E4=B9=88=E5=8A=9E=EF=BC=9F=
+">Q1: Position =E6=95=B0=E6=8D=AE=E4=B8=8D=E5=AE=8C=E6=95=B4=E6=80=8E=E4=B9=
+=88=E5=8A=9E=EF=BC=9F</h3>
+<p><strong>A</strong>: =E4=BD=BF=E7=94=A8=E4=B8=BB=E5=8A=A8=E5=90=8C=E6=AD=
+=A5=E6=8E=A5=E5=8F=A3 <code>/api/v1/positions/sync</code> =E4=BB=8E=E5=8C=
+=BA=E5=9D=97=E9=93=BE=E8=A1=A5=E5=85=85=E6=95=B0=E6=8D=AE=E3=80=82=E6=B3=A8=
+=E6=84=8F=E5=8E=86=E5=8F=B2=E5=AD=97=E6=AE=B5=EF=BC=88=E5=A6=82 <code>avg_e=
+ntry_price</code>, <code>cumulative_fees</code>=EF=BC=89=E6=97=A0=E6=B3=95=
+=E4=BB=8E=E9=93=BE=E4=B8=8A=E8=8E=B7=E5=8F=96=EF=BC=8C=E5=8F=AA=E8=83=BD=E9=
+=80=9A=E8=BF=87=E4=BA=8B=E4=BB=B6=E9=87=8D=E6=94=BE=E6=81=A2=E5=A4=8D=E3=80=
+=82</p>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-Q2:=E5=A6=82=E4=
+=BD=95=E5=8C=BA=E5=88=86=E6=AD=A2=E7=9B=88=E5=92=8C=E6=AD=A2=E6=8D=9F=E5=8D=
+=95=EF=BC=9F">Q2: =E5=A6=82=E4=BD=95=E5=8C=BA=E5=88=86=E6=AD=A2=E7=9B=88=E5=
+=92=8C=E6=AD=A2=E6=8D=9F=E5=8D=95=EF=BC=9F</h3>
+<p><strong>A</strong>: =E4=BD=BF=E7=94=A8 <code>BscPerpOrderModel.ClassifyT=
+riggerOrder()</code> =E6=96=B9=E6=B3=95=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">order.C=
+lassifyTriggerOrder()
+// =E8=BF=94=E5=9B=9E: "tp_long", "sl_long", "tp_short", "sl_short", "not_t=
+rigger_order"</pre>
+</div>
+</div>
+<p><strong>=E9=80=BB=E8=BE=91</strong>:</p>
+<ul>
+<li>
+<p><strong>=E5=A4=9A=E5=8D=95=E6=AD=A2=E7=9B=88</strong>: <code>isLong=3Dtr=
+ue, triggerAboveThreshold=3Dtrue</code> (=E4=BB=B7=E6=A0=BC=E4=B8=8A=E6=B6=
+=A8=E8=A7=A6=E5=8F=91)</p></li>
+<li>
+<p><strong>=E5=A4=9A=E5=8D=95=E6=AD=A2=E6=8D=9F</strong>: <code>isLong=3Dtr=
+ue, triggerAboveThreshold=3Dfalse</code> (=E4=BB=B7=E6=A0=BC=E4=B8=8B=E8=B7=
+=8C=E8=A7=A6=E5=8F=91)</p></li>
+<li>
+<p><strong>=E7=A9=BA=E5=8D=95=E6=AD=A2=E7=9B=88</strong>: <code>isLong=3Dfa=
+lse, triggerAboveThreshold=3Dfalse</code> (=E4=BB=B7=E6=A0=BC=E4=B8=8B=E8=
+=B7=8C=E8=A7=A6=E5=8F=91)</p></li>
+<li>
+<p><strong>=E7=A9=BA=E5=8D=95=E6=AD=A2=E6=8D=9F</strong>: <code>isLong=3Dfa=
+lse, triggerAboveThreshold=3Dtrue</code> (=E4=BB=B7=E6=A0=BC=E4=B8=8A=E6=B6=
+=A8=E8=A7=A6=E5=8F=91)</p></li>
+</ul>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-Q3:=E4=B8=BA=E4=
+=BB=80=E4=B9=88Order=E5=92=8CPosition=E4=BA=8B=E4=BB=B6=E5=88=86=E7=A6=BB=
+=EF=BC=9F">Q3: =E4=B8=BA=E4=BB=80=E4=B9=88 Order =E5=92=8C Position =E4=BA=
+=8B=E4=BB=B6=E5=88=86=E7=A6=BB=EF=BC=9F</h3>
+<p><strong>A</strong>:</p>
+<ol start=3D"1">
+<li>
+<p><strong>=E8=81=8C=E8=B4=A3=E5=88=86=E7=A6=BB</strong>: Order =E7=AE=A1=
+=E7=90=86=E7=94=A8=E6=88=B7=E6=84=8F=E5=9B=BE=EF=BC=8CPosition =E7=AE=A1=E7=
+=90=86=E5=AE=9E=E9=99=85=E4=BB=93=E4=BD=8D=E7=8A=B6=E6=80=81</p></li>
+<li>
+<p><strong>=E6=95=B0=E6=8D=AE=E5=AE=8C=E6=95=B4=E6=80=A7</strong>: OrderExe=
+cuted =E4=B8=8D=E4=BF=9D=E8=AF=81=E5=8C=85=E5=90=AB=E5=AE=8C=E6=95=B4=E7=9A=
+=84 Position =E6=95=B0=E6=8D=AE</p></li>
+<li>
+<p><strong>=E4=BA=8B=E4=BB=B6=E5=8F=AF=E9=9D=A0=E6=80=A7</strong>: Position=
+Increase/Decrease =E4=BA=8B=E4=BB=B6=E6=98=AF=E4=BB=93=E4=BD=8D=E5=8F=98=E5=
+=8C=96=E7=9A=84=E5=94=AF=E4=B8=80=E5=8F=AF=E9=9D=A0=E6=9D=A5=E6=BA=90</p></=
+li>
+</ol>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-Q4:=E4=BA=A4=E6=
+=98=93=E6=89=8B=E7=BB=AD=E8=B4=B9=E5=A6=82=E4=BD=95=E8=AE=A1=E7=AE=97=EF=BC=
+=9F">Q4: =E4=BA=A4=E6=98=93=E6=89=8B=E7=BB=AD=E8=B4=B9=E5=A6=82=E4=BD=95=E8=
+=AE=A1=E7=AE=97=EF=BC=9F</h3>
+<p><strong>A</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">=E6=80=
+=BB=E8=B4=B9=E7=94=A8 =3D =E5=BC=80=E5=B9=B3=E4=BB=93=E6=89=8B=E7=BB=AD=E8=
+=B4=B9 + =E8=B5=84=E9=87=91=E8=B4=B9 + =E5=80=9F=E6=AC=BE=E8=B4=B9 + Swap=
+=E8=B4=B9=E7=94=A8
+
+// Golang
+totalFee :=3D positionFee.Add(fundingFee.Abs()).Add(borrowingFee).Add(swapF=
+ee)
+netPnl :=3D realizedPnl.Sub(totalFee)</pre>
+</div>
+</div>
+<p>=E6=B3=A8=E6=84=8F=EF=BC=9A</p>
+<ul>
+<li>
+<p><strong>FundingFee</strong> =E5=8F=AF=E4=BB=A5=E4=B8=BA=E8=B4=9F=EF=BC=
+=88=E6=94=B6=E5=8F=96=E8=B5=84=E9=87=91=E8=B4=B9=EF=BC=89=EF=BC=8C=E8=AE=A1=
+=E7=AE=97=E6=80=BB=E8=B4=B9=E7=94=A8=E6=97=B6=E5=8F=96=E7=BB=9D=E5=AF=B9=E5=
+=80=BC</p></li>
+<li>
+<p><strong>BorrowingFee</strong> =E6=80=BB=E6=98=AF=E6=AD=A3=E6=95=B0=EF=BC=
+=88=E6=94=AF=E4=BB=98=EF=BC=89</p></li>
+<li>
+<p><strong>PositionFee</strong> =E5=BC=80=E4=BB=93=E5=92=8C=E5=B9=B3=E4=BB=
+=93=E9=83=BD=E4=BC=9A=E6=94=B6=E5=8F=96</p></li>
+</ul>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-Q5:=E5=A6=82=E4=
+=BD=95=E5=A4=84=E7=90=86=E5=88=86=E5=8C=BA=E8=A1=A8=E6=9F=A5=E8=AF=A2=EF=BC=
+=9F">Q5: =E5=A6=82=E4=BD=95=E5=A4=84=E7=90=86=E5=88=86=E5=8C=BA=E8=A1=A8=E6=
+=9F=A5=E8=AF=A2=EF=BC=9F</h3>
+<p><strong>A</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// =E5=
+=8D=95=E4=B8=AA=E7=94=A8=E6=88=B7=E6=9F=A5=E8=AF=A2 - =E8=87=AA=E5=8A=A8=E8=
+=B7=AF=E7=94=B1=E5=88=B0=E6=AD=A3=E7=A1=AE=E5=88=86=E5=8C=BA
+position, err :=3D positionDAL.GetByPositionKey(ctx, positionKey, account)
+
+// =E6=9F=A5=E8=AF=A2=E6=89=80=E6=9C=89=E7=94=A8=E6=88=B7 - =E9=9C=80=E8=A6=
+=81=E6=9F=A5=E8=AF=A2=E6=89=80=E6=9C=89=E5=88=86=E5=8C=BA
+var allPositions []*bscmodel.BscPerpPositionModel
+for i :=3D 0; i &lt; 128; i++ {
+    tableName :=3D fmt.Sprintf("bsc_perp_position_%d", i)
+    positions, _ :=3D db.Table(tableName).Where("status =3D ?", "active").F=
+ind(&amp;positions).Error
+    allPositions =3D append(allPositions, positions...)
+}</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-Q6:EventDataAcces=
+sor=E5=A6=82=E4=BD=95=E4=BD=BF=E7=94=A8=EF=BC=9F">Q6: EventDataAccessor =E5=
+=A6=82=E4=BD=95=E4=BD=BF=E7=94=A8=EF=BC=9F</h3>
+<p><strong>A</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// 1. =
+=E5=88=9B=E5=BB=BA accessor
+accessor :=3D event.NewEventDataAccessor(emitted.EventData)
+
+// 2. =E6=8F=90=E5=8F=96=E5=AD=97=E6=AE=B5
+account, ok :=3D accessor.Address(consts.BscEventKeyAccount)
+sizeUsd, ok :=3D accessor.Uint(consts.BscEventKeySizeDeltaUsd)
+isLong, ok :=3D accessor.Bool(consts.BscEventKeyIsLong)
+swapPath, ok :=3D accessor.AddressArray(consts.BscEventKeySwapPath)
+
+// 3. =E5=A4=84=E7=90=86=E5=8F=AF=E9=80=89=E5=AD=97=E6=AE=B5
+if triggerPrice, ok :=3D accessor.Uint(consts.BscEventKeyTriggerPrice); ok =
+&amp;&amp; triggerPrice !=3D nil {
+    order.TriggerPrice =3D decimal.NewFromBigInt(triggerPrice, 0)
+} else {
+    order.TriggerPrice =3D decimal.Zero
+}</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-Q7:=E5=A6=82=E4=
+=BD=95=E8=B0=83=E8=AF=95=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=EF=BC=9F">Q7: =
+=E5=A6=82=E4=BD=95=E8=B0=83=E8=AF=95=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=EF=
+=BC=9F</h3>
+<p><strong>A</strong>:</p>
+<ol start=3D"1">
+<li>
+<p><strong>=E5=90=AF=E7=94=A8=E8=AF=A6=E7=BB=86=E6=97=A5=E5=BF=97</strong>:=
+</p></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">h.Logge=
+r().Debug("parsing event",
+    zap.String("event_name", evt.Emitted.EventName),
+    zap.String("tx_hash", evt.Tx.TxHash),
+    zap.Any("event_data", evt.Emitted.EventData),
+)</pre>
+</div>
+</div>
+<ol start=3D"2">
+<li>
+<p><strong>=E4=BD=BF=E7=94=A8=E9=87=8D=E6=94=BE=E6=8E=A5=E5=8F=A3</strong>:=
+</p></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl -X=
+ POST http://localhost:9087/api/v1/replay-transaction \
+  -H "Content-Type: application/json" \
+  -d '{"tx_hash": "0x...", "block_number": 12345678}'</pre>
+</div>
+</div>
+<ol start=3D"3">
+<li>
+<p><strong>=E6=A3=80=E6=9F=A5=E4=BA=8B=E4=BB=B6=E5=AD=97=E6=AE=B5</strong>:=
+</p></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// =E6=
+=89=93=E5=8D=B0=E6=89=80=E6=9C=89=E5=8F=AF=E7=94=A8=E5=AD=97=E6=AE=B5
+for key :=3D range evt.Emitted.EventData.AddressItems {
+    h.Logger().Debug("address field", zap.String("key", key))
+}
+for key :=3D range evt.Emitted.EventData.UintItems {
+    h.Logger().Debug("uint field", zap.String("key", key))
+}</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-=E9=99=84=E5=BD=
+=95">=E9=99=84=E5=BD=95</h2>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-A.=E4=BA=8B=E4=BB=
+=B6=E5=A4=84=E7=90=86=E5=99=A8=E5=88=97=E8=A1=A8">A. =E4=BA=8B=E4=BB=B6=E5=
+=A4=84=E7=90=86=E5=99=A8=E5=88=97=E8=A1=A8</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a7=
+570a6e-e518-4c52-a23a-76c70e5615cf" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E4=BA=8B=E4=BB=B6=E5=90=8D=E7=A7=B0</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=A4=84=E7=90=86=E5=99=A8</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=8A=9F=E8=83=BD</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>MarketCreated</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>market_created_handler.go</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E5=88=9B=E5=BB=BA GM Pool</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>MarketUpdated</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>market_updated_handler.go</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=9B=B4=E6=96=B0 GM Pool</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>GlvPoolCreated</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>glv_pool_created_handler.go</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E5=88=9B=E5=BB=BA GLV Pool</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>GlvPoolUpdated</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>glv_pool_updated_handler.go</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=9B=B4=E6=96=B0 GLV Pool</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>OrderCreated</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>order_created_handler.go</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E5=88=9B=E5=BB=BA=E8=AE=A2=E5=8D=95</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>OrderExecuted</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>order_executed_handler.go</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E8=AE=A2=E5=8D=95=E6=89=A7=E8=A1=8C</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>OrderCancelled</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>order_cancelled_handler.go</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E8=AE=A2=E5=8D=95=E5=8F=96=E6=B6=88</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>OrderUpdated</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>order_updated_handler.go</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E8=AE=A2=E5=8D=95=E6=9B=B4=E6=96=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>OrderFrozen</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>order_frozen_handler.go</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E8=AE=A2=E5=8D=95=E5=86=BB=E7=BB=93</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>PositionIncrease</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>position_increase_handler.go</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E5=BC=80=E4=BB=93/=E5=8A=A0=E4=BB=93</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>PositionDecrease</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>position_decrease_handler.go</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E5=B9=B3=E4=BB=93/=E5=87=8F=E4=BB=93</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>DepositCreated</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>deposit_created_handler.go</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=B5=81=E5=8A=A8=E6=80=A7=E5=AD=98=E5=85=A5=EF=BC=88=E6=9C=AA=E5=AE=9E=
+=E7=8E=B0=EF=BC=89</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>WithdrawalCreated</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>withdrawal_created_handler.go</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=B5=81=E5=8A=A8=E6=80=A7=E5=8F=96=E5=87=BA=EF=BC=88=E6=9C=AA=E5=AE=9E=
+=E7=8E=B0=EF=BC=89</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-B.=E6=95=B0=E6=8D=
+=AE=E5=BA=93=E8=A1=A8=E5=88=97=E8=A1=A8">B. =E6=95=B0=E6=8D=AE=E5=BA=93=E8=
+=A1=A8=E5=88=97=E8=A1=A8</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"0e=
+70bea3-475e-4a2b-8d40-0628fc0f2ae2" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=E8=A1=A8=E5=90=8D</p></th>
+<th class=3D"confluenceTh">
+<p>=E5=88=86=E5=8C=BA</p></th>
+<th class=3D"confluenceTh">
+<p>=E7=94=A8=E9=80=94</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>bsc_gm_pools</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=97=A0</p></td>
+<td class=3D"confluenceTd">
+<p>GM =E5=B8=82=E5=9C=BA=E6=B1=A0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>bsc_glv_pools</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=97=A0</p></td>
+<td class=3D"confluenceTd">
+<p>GLV =E6=B1=A0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>bsc_glv_market_distributions</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E6=97=A0</p></td>
+<td class=3D"confluenceTd">
+<p>GLV =E5=B8=82=E5=9C=BA=E5=88=86=E9=85=8D</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>bsc_perp_order_{0..127}</code></p></td>
+<td class=3D"confluenceTd">
+<p>128</p></td>
+<td class=3D"confluenceTd">
+<p>=E8=AE=A2=E5=8D=95=E8=AE=B0=E5=BD=95</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>bsc_perp_position_{0..127}</code></p></td>
+<td class=3D"confluenceTd">
+<p>128</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BB=93=E4=BD=8D=E5=BF=AB=E7=85=A7</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>bsc_perp_trades_{0..127}</code></p></td>
+<td class=3D"confluenceTd">
+<p>128</p></td>
+<td class=3D"confluenceTd">
+<p>=E4=BA=A4=E6=98=93=E5=8E=86=E5=8F=B2</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-C.=E9=85=8D=E7=BD=
+=AE=E6=96=87=E4=BB=B6=E7=A4=BA=E4=BE=8B">C. =E9=85=8D=E7=BD=AE=E6=96=87=E4=
+=BB=B6=E7=A4=BA=E4=BE=8B</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># bnb-b=
+lock-scanner/configs/local-dev.toml
+
+[GMX]
+contracts_json =3D '''
+{
+  "DataStore": "0x0E5bf50F0Cf2ea2632C6D151F89AE991Cd9E3663",
+  "Reader": "0x4D966424F5f2490b3791462132ff90754c09f375",
+  "EventEmitter": "0xC8ee91A54287DB53897056e12D9819156D3822Fb",
+  "Oracle": "0xa11B501c2dd83Acd29F6727570f2502FAaa617F2"
+}
+'''</pre>
+</div>
+</div>
+<h3 id=3D"GMXV2=E5=90=88=E7=BA=A6=E4=BA=8B=E4=BB=B6=E8=A7=A3=E6=9E=90=E4=B8=
+=8E=E6=95=B0=E6=8D=AE=E6=9F=A5=E8=AF=A2=E6=96=87=E6=A1=A3-D.=E7=9B=B8=E5=85=
+=B3=E6=96=87=E6=A1=A3=E9=93=BE=E6=8E=A5">D. =E7=9B=B8=E5=85=B3=E6=96=87=E6=
+=A1=A3=E9=93=BE=E6=8E=A5</h3>
+<ul>
+<li>
+<p><a class=3D"external-link" href=3D"https://docs.gmx.io/" rel=3D"nofollow=
+">GMX V2 Synthetics =E6=96=87=E6=A1=A3</a></p></li>
+<li>
+<p><a href=3D"../CLAUDE.md" rel=3D"nofollow">=E6=95=B0=E6=8D=AE=E7=BB=9F=E8=
+=AE=A1=E7=B3=BB=E7=BB=9F=E6=9E=B6=E6=9E=84=E6=96=87=E6=A1=A3</a></p></li>
+<li>
+<p><a href=3D"./gmx_v2_gm_pool_full.md" rel=3D"nofollow">GM Pool =E8=AF=A6=
+=E7=BB=86=E6=96=87=E6=A1=A3</a></p></li>
+<li>
+<p><a href=3D"./gmx_v2_glv_pool_full.md" rel=3D"nofollow">GLV Pool =E8=AF=
+=A6=E7=BB=86=E6=96=87=E6=A1=A3</a></p></li>
+<li>
+<p><a href=3D"../COLLATERAL_TOKEN_FIX.md" rel=3D"nofollow">Position Key =E4=
+=BF=AE=E5=A4=8D=E6=96=87=E6=A1=A3</a></p></li>
+</ul>
+<hr>
+<p><strong>=E6=96=87=E6=A1=A3=E7=BB=B4=E6=8A=A4</strong>: =E5=A6=82=E6=9C=
+=89=E7=96=91=E9=97=AE=E6=88=96=E5=8F=91=E7=8E=B0=E9=94=99=E8=AF=AF=EF=BC=8C=
+=E8=AF=B7=E8=81=94=E7=B3=BB=E5=BC=80=E5=8F=91=E5=9B=A2=E9=98=9F=E6=88=96=E6=
+=8F=90=E4=BA=A4 Issue=E3=80=82</p>
+    </div>
+</body>
+</html>
+------=_Part_22_1593519441.1772270882413--

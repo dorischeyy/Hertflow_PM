@@ -1,0 +1,338 @@
+Date: Sat, 28 Feb 2026 09:25:40 +0000 (UTC)
+Message-ID: <548489950.11.1772270740333@6ebb4c93163f>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_10_453229442.1772270740333"
+
+------=_Part_10_453229442.1772270740333
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>GMX V2 Home Page</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>GMX V2 Home Page</h1>
+    <div class=3D"Section1">
+        <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1772270740319 {padding: 0px;}
+div.rbtoc1772270740319 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1772270740319 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1772270740319">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#GMXV2HomePage-Part1.=E5=9F=BA=E7=A1=80=E9=83=A8=E5=88=86">P=
+art 1. =E5=9F=BA=E7=A1=80=E9=83=A8=E5=88=86</a></li>
+<li><a href=3D"#GMXV2HomePage-Part2=E4=B8=9A=E5=8A=A1=E9=83=A8=E5=88=86">Pa=
+rt 2 =E4=B8=9A=E5=8A=A1=E9=83=A8=E5=88=86</a></li>
+<li><a href=3D"#GMXV2HomePage-Part3=E6=8A=80=E6=9C=AF=E9=83=A8=E5=88=86">Pa=
+rt 3 =E6=8A=80=E6=9C=AF=E9=83=A8=E5=88=86</a></li>
+<li><a href=3D"#GMXV2HomePage-Part4=E5=85=B6=E4=BB=96=E8=AF=B4=E6=98=8E">Pa=
+rt 4 =E5=85=B6=E4=BB=96=E8=AF=B4=E6=98=8E</a></li>
+<li><a href=3D"#GMXV2HomePage-Part5=E9=83=A8=E7=BD=B2">Part 5 =E9=83=A8=E7=
+=BD=B2</a></li>
+<li><a href=3D"#GMXV2HomePage-Part6=E9=9C=80=E6=B1=82=E5=8F=98=E6=9B=B4=E6=
+=94=B9=E9=80=A0">Part 6 =E9=9C=80=E6=B1=82=E5=8F=98=E6=9B=B4=E6=94=B9=E9=80=
+=A0</a></li>
+</ul>
+</div>
+<h2 local-id=3D"f0609554-9cf9-4325-ae9b-cf04843a1d50" id=3D"GMXV2HomePage-P=
+art1.=E5=9F=BA=E7=A1=80=E9=83=A8=E5=88=86">Part 1. =E5=9F=BA=E7=A1=80=E9=83=
+=A8=E5=88=86</h2>
+<p local-id=3D"c71ea8f8-3579-49e3-9a20-b357334a43cc"><a href=3D"https://her=
+tzflow.atlassian.net/wiki/spaces/~712020911aa4676af94facaccba78eea495f59/pa=
+ges/32505924/Part+1.+GMX+V2" data-linked-resource-id=3D"32505924" data-link=
+ed-resource-version=3D"3" data-linked-resource-type=3D"page">Part 1. GMX V2=
+ =E5=9F=BA=E7=A1=80=E7=9F=A5=E8=AF=86</a></p>
+<hr local-id=3D"e2decd58-69d6-4a0e-af8e-8474316549df">
+<h2 local-id=3D"f0acf931-b9ce-422a-8ebc-b3b4b10814d1" id=3D"GMXV2HomePage-P=
+art2=E4=B8=9A=E5=8A=A1=E9=83=A8=E5=88=86">Part 2 =E4=B8=9A=E5=8A=A1=E9=83=
+=A8=E5=88=86</h2>
+<p local-id=3D"b84ad685-945a-4140-acec-c4efdc9bf4bb"><a data-card-appearanc=
+e=3D"inline" href=3D"https://hertzflow.atlassian.net/wiki/x/RwDxAQ" local-i=
+d=3D"7962b617-27da-4f29-8dca-b9b6b82585ed" rel=3D"nofollow">https://hertzfl=
+ow.atlassian.net/wiki/x/RwDxAQ</a></p>
+<hr local-id=3D"95348dbc-cab7-4d82-90a9-e199fbd6a013">
+<h2 local-id=3D"8b2eb388-5d92-4214-b5da-0adfb6498736" id=3D"GMXV2HomePage-P=
+art3=E6=8A=80=E6=9C=AF=E9=83=A8=E5=88=86">Part 3 =E6=8A=80=E6=9C=AF=E9=83=
+=A8=E5=88=86</h2>
+<p local-id=3D"0aeef600-aa9f-460f-8a63-7a3304c255a4"><a data-card-appearanc=
+e=3D"inline" href=3D"https://hertzflow.atlassian.net/wiki/x/WQDxAQ" local-i=
+d=3D"13de548c-2f96-455b-a81a-ecb65776d53d" rel=3D"nofollow">https://hertzfl=
+ow.atlassian.net/wiki/x/WQDxAQ</a></p>
+<hr local-id=3D"d17e5434-f304-410e-9cc9-91e5181c0ca5">
+<h2 local-id=3D"a738ab92-ddfb-4f7c-bbb6-768e150b471d" id=3D"GMXV2HomePage-P=
+art4=E5=85=B6=E4=BB=96=E8=AF=B4=E6=98=8E">Part 4 =E5=85=B6=E4=BB=96=E8=AF=
+=B4=E6=98=8E</h2>
+<p local-id=3D"9d52fd4d-b5f8-452d-8229-9a351b65905d"><a data-card-appearanc=
+e=3D"inline" href=3D"https://hertzflow.atlassian.net/wiki/pages/resumedraft=
+.action?draftId=3D42991642&amp;draftShareId=3Db32ad14c-2098-492c-aac0-a4270=
+6cbe183&amp;atlOrigin=3DeyJpIjoiYTc0NTI0NjJhZjdiNDNkZjhlYjkwZTM0Y2M3YjJlYTE=
+iLCJwIjoiYyJ9" local-id=3D"44d0e80a-9159-4d6c-900f-9bad377b6a90" rel=3D"nof=
+ollow">https://hertzflow.atlassian.net/wiki/pages/resumedraft.action?draftI=
+d=3D42991642&amp;draftShareId=3Db32ad14c-2098-492c-aac0-a42706cbe183&amp;at=
+lOrigin=3DeyJpIjoiYTc0NTI0NjJhZjdiNDNkZjhlYjkwZTM0Y2M3YjJlYTEiLCJwIjoiYyJ9<=
+/a></p>
+<p local-id=3D"99a3cecd-49b6-4ceb-b399-e2a449c43cda"><a href=3D"https://her=
+tzflow.atlassian.net/wiki/spaces/~712020911aa4676af94facaccba78eea495f59/pa=
+ges/44105792/GMX+V2+Oracle" data-linked-resource-id=3D"44105792" data-linke=
+d-resource-version=3D"2" data-linked-resource-type=3D"page">GMX V2 Oracle =
+=E5=90=88=E7=BA=A6</a></p>
+<p local-id=3D"51744f61-100b-4d3d-9c04-4e33e5761903"><a href=3D"https://her=
+tzflow.atlassian.net/wiki/spaces/~712020911aa4676af94facaccba78eea495f59/pa=
+ges/32505956/GMX+V2" data-linked-resource-id=3D"32505956" data-linked-resou=
+rce-version=3D"2" data-linked-resource-type=3D"page">GMX V2 =E7=B2=BE=E5=BA=
+=A6=E8=AF=B4=E6=98=8E</a></p>
+<p local-id=3D"0202721b-4e24-4e1d-8fbd-e2a6ecd13c38"><a href=3D"https://her=
+tzflow.atlassian.net/wiki/x/Y4ByAg" rel=3D"nofollow">GMX V2 GLV=E6=8C=87=E6=
+=A0=87=E6=95=B0=E6=8D=AE=E8=8E=B7=E5=8F=96=E6=96=B9=E5=BC=8F</a></p>
+<p local-id=3D"68ef2591-d49e-4721-b212-4a715b7f1103"><a href=3D"https://her=
+tzflow.atlassian.net/wiki/spaces/~712020911aa4676af94facaccba78eea495f59/pa=
+ges/50364649/GMX" data-linked-resource-id=3D"50364649" data-linked-resource=
+-version=3D"2" data-linked-resource-type=3D"page">=E7=89=B9=E6=AE=8A=E9=9C=
+=80=E6=B1=82=E4=BB=A5=E5=8F=8A GMX =E5=AF=B9=E5=BA=94=E6=94=B9=E9=80=A0=E7=
+=82=B9</a></p>
+<hr local-id=3D"f2c13d78-abaf-4e4c-908f-24369139fa7c">
+<h2 local-id=3D"6bcad5e2-4cc9-472e-8483-b5a37717d085" id=3D"GMXV2HomePage-P=
+art5=E9=83=A8=E7=BD=B2">Part 5 =E9=83=A8=E7=BD=B2</h2>
+<p local-id=3D"bd8d2eec-a2d2-427b-99df-b2417e7b7685"><a href=3D"https://her=
+tzflow.atlassian.net/wiki/spaces/~712020911aa4676af94facaccba78eea495f59/pa=
+ges/53575717/WIP+GMX+V2" data-linked-resource-id=3D"53575717" data-linked-r=
+esource-version=3D"9" data-linked-resource-type=3D"page">(WIP) GMX V2 =E9=
+=83=A8=E7=BD=B2=E6=B5=81=E7=A8=8B</a></p>
+<p local-id=3D"a9345537-d1fa-47f7-83c9-9762ea6b7191"><a href=3D"https://her=
+tzflow.atlassian.net/wiki/spaces/~712020911aa4676af94facaccba78eea495f59/pa=
+ges/55443665/GMX" data-linked-resource-id=3D"55443665" data-linked-resource=
+-version=3D"10" data-linked-resource-type=3D"page">GMX =E9=85=8D=E7=BD=AE=
+=E9=A1=B9=E6=A2=B3=E7=90=86</a></p>
+<hr local-id=3D"797072b3-4b24-4d87-b0f2-b0454f2db599">
+<h2 local-id=3D"82040730-dd02-4cfa-b2bb-bcc6fd1019a7" id=3D"GMXV2HomePage-P=
+art6=E9=9C=80=E6=B1=82=E5=8F=98=E6=9B=B4=E6=94=B9=E9=80=A0">Part 6 =E9=9C=
+=80=E6=B1=82=E5=8F=98=E6=9B=B4=E6=94=B9=E9=80=A0</h2>
+<p local-id=3D"4ab80925-ccaa-4f6f-be04-113686ab8264"><a href=3D"https://her=
+tzflow.atlassian.net/wiki/spaces/~712020911aa4676af94facaccba78eea495f59/pa=
+ges/61112604/Avantis" data-linked-resource-id=3D"61112604" data-linked-reso=
+urce-version=3D"4" data-linked-resource-type=3D"page">=E5=90=88=E7=BA=A6=E4=
+=BA=A4=E6=98=93=E5=BC=95=E5=85=A5 Avantis =E6=9C=BA=E5=88=B6</a></p>
+<p local-id=3D"64fa3fab-adfb-4012-8eb0-345948319db5"></p>
+    </div>
+</body>
+</html>
+------=_Part_10_453229442.1772270740333--
